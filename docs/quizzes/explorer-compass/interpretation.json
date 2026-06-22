@@ -1,0 +1,131 @@
+{
+  "roles": {
+    "FS": {
+      "title": "Frontier Scout",
+      "contribution": "You discover ignored questions, weak signals, and new possibilities before others see them.",
+      "risk": "You may chase novelty permanently and abandon construction before it matures.",
+      "complements": ["MO", "EB"],
+      "experiment": "Formulate three falsifiable questions and talk to seven people from different perspectives."
+    },
+    "SC": {
+      "title": "Systems Cartographer",
+      "contribution": "You make complexity visible — relationships, incentives, and second-order effects that others miss.",
+      "risk": "You may turn the map into a substitute for decision, refining the model after the problem is clear enough for experiment.",
+      "complements": ["EB", "MT"],
+      "experiment": "Publish a map of actors, incentives, feedback loops, and three essential unknowns."
+    },
+    "EB": {
+      "title": "Experimental Builder",
+      "contribution": "You turn hypotheses into prototypes and evidence, making abstract ideas testable.",
+      "risk": "You may build too fast — solutions for the wrong problem, or prototypes that outpace understanding.",
+      "complements": ["SC", "BS"],
+      "experiment": "Build a prototype that can invalidate your riskiest assumption within 30 days."
+    },
+    "MO": {
+      "title": "Mission Operator",
+      "contribution": "You turn purpose into priorities, rhythm, and accountability — making things actually happen.",
+      "risk": "You may confuse metrics and process with the mission itself, optimizing delivery while losing direction.",
+      "complements": ["FS", "BS"],
+      "experiment": "Establish a four-week cycle with owner, outcome, metric, and stopping condition."
+    },
+    "CW": {
+      "title": "Community Weaver",
+      "contribution": "You create trust, alliances, and cooperation across differences that would otherwise remain fragmented.",
+      "risk": "You may avoid necessary conflict and dilute accountability in the name of harmony.",
+      "complements": ["MO", "IA"],
+      "experiment": "Convene five actors and produce a document of agreements, disagreements, and possible contributions."
+    },
+    "MT": {
+      "title": "Meaning Translator",
+      "contribution": "You make ideas intelligible, memorable, and culturally relevant — bridging knowledge and action.",
+      "risk": "The story may arrive before the truth, or the narrative may outpace the evidence.",
+      "complements": ["SC", "EB"],
+      "experiment": "Publish an explanation and test what three different audiences actually understood."
+    },
+    "IA": {
+      "title": "Institutional Architect",
+      "contribution": "You design governance, incentives, and continuity structures that outlast individual effort.",
+      "risk": "You may produce bureaucracy before the problem is understood, or structure before trust.",
+      "complements": ["CW", "BS"],
+      "experiment": "Draft a one-page document defining decision rights, accountability, ownership, and exit."
+    },
+    "BS": {
+      "title": "Boundary Steward",
+      "contribution": "You protect limits, integrity, and stopping conditions that ambition prefers to ignore.",
+      "risk": "You may turn prudence into a permanent veto right, blocking progress that requires calculated risk.",
+      "complements": ["FS", "EB"],
+      "experiment": "Define three non-negotiable boundaries and verify one ignored side effect."
+    }
+  },
+  "ecologies": {
+    "independentStudio": {
+      "title": "Independent Venture Studio",
+      "character": "Small team, autonomy, early revenue, fast experiments."
+    },
+    "frontierResearchLab": {
+      "title": "Frontier Research Lab",
+      "character": "High uncertainty, long horizon, deep evidence, patient capital."
+    },
+    "missionStartup": {
+      "title": "Mission Startup",
+      "character": "Speed, distribution, market, external capital, scaling ambition."
+    },
+    "openCommonsNetwork": {
+      "title": "Open Commons Network",
+      "character": "Open knowledge, protocols, distributed governance, reuse."
+    },
+    "communityVenture": {
+      "title": "Community Venture",
+      "character": "Local trust, long-term relationships, resilience, deliberate limits."
+    },
+    "cooperativeEnterprise": {
+      "title": "Cooperative Enterprise",
+      "character": "Shared ownership, real market, distributed decision-making."
+    },
+    "publicInterestInstitution": {
+      "title": "Public-Interest Institution",
+      "character": "Public legitimacy, continuity, standards, long horizon."
+    },
+    "ecosystemOrchestrator": {
+      "title": "Ecosystem Orchestrator",
+      "character": "Cross-organization alliances, shared infrastructure, systemic change."
+    }
+  },
+  "complementarityPairs": [
+    { "role1": "FS", "role2": "MO", "role1Label": "Frontier Scout", "role2Label": "Mission Operator", "description": "One opens the questions; the other turns direction into rhythm. Likely tension: continuous exploration versus premature commitment. Agreement: separately define exploration time and decision point." },
+    { "role1": "FS", "role2": "EB", "role1Label": "Frontier Scout", "role2Label": "Experimental Builder", "description": "One finds the frontier; the other builds on it. Likely tension: too many open questions versus too-fast prototyping. Agreement: agree on which hypothesis to test first." },
+    { "role1": "SC", "role2": "EB", "role1Label": "Systems Cartographer", "role2Label": "Experimental Builder", "description": "One maps the system; the other tests it. Likely tension: mapping forever versus building before understanding. Agreement: define the minimum map needed before the first prototype." },
+    { "role1": "SC", "role2": "MT", "role1Label": "Systems Cartographer", "role2Label": "Meaning Translator", "description": "One sees the structure; the other makes it communicable. Likely tension: complexity versus simplification. Agreement: agree on what must never be simplified." },
+    { "role1": "EB", "role2": "BS", "role1Label": "Experimental Builder", "role2Label": "Boundary Steward", "description": "One builds fast; the other protects limits. Likely tension: speed versus safety. Agreement: define stopping conditions before building starts." },
+    { "role1": "MO", "role2": "BS", "role1Label": "Mission Operator", "role2Label": "Boundary Steward", "description": "One drives execution; the other guards what must not be sacrificed. Likely tension: delivery pressure versus integrity. Agreement: define non-negotiable limits before the sprint begins." },
+    { "role1": "CW", "role2": "MO", "role1Label": "Community Weaver", "role2Label": "Mission Operator", "description": "One builds trust; the other builds rhythm. Likely tension: relationship time versus delivery time. Agreement: allocate explicit time for each." },
+    { "role1": "CW", "role2": "IA", "role1Label": "Community Weaver", "role2Label": "Institutional Architect", "description": "One builds participation; the other builds structure. Likely tension: emergent process versus designed governance. Agreement: co-design the decision procedure." },
+    { "role1": "MT", "role2": "SC", "role1Label": "Meaning Translator", "role2Label": "Systems Cartographer", "description": "One tells the story; the other maps the system. Likely tension: narrative appeal versus structural accuracy. Agreement: verify the story against the map before publishing." },
+    { "role1": "MT", "role2": "EB", "role1Label": "Meaning Translator", "role2Label": "Experimental Builder", "description": "One frames the meaning; the other tests the reality. Likely tension: story before evidence versus evidence without story. Agreement: iterate narrative and prototype in parallel." },
+    { "role1": "IA", "role2": "CW", "role1Label": "Institutional Architect", "role2Label": "Community Weaver", "description": "One designs the rules; the other builds the trust to follow them. Likely tension: structure before trust versus trust before structure. Agreement: start with minimal rules and expand as trust grows." },
+    { "role1": "IA", "role2": "BS", "role1Label": "Institutional Architect", "role2Label": "Boundary Steward", "description": "One builds governance; the other protects limits. Likely tension: expanding structure versus constraining it. Agreement: embed limits into governance from the start." },
+    { "role1": "BS", "role2": "FS", "role1Label": "Boundary Steward", "role2Label": "Frontier Scout", "description": "One guards the limits; the other pushes past them. Likely tension: protection versus exploration. Agreement: define the boundary, then explore freely within it." },
+    { "role1": "BS", "role2": "EB", "role1Label": "Boundary Steward", "role2Label": "Experimental Builder", "description": "One sets the constraints; the other tests within them. Likely tension: constraint versus speed. Agreement: constraints are set before building, not during." }
+  ],
+  "experiments": {
+    "exploring": "Clarify the problem before building. {experiment}",
+    "building": "Test the critical hypothesis. {experiment}",
+    "operating": "Identify the mechanism that distorts the mission. {experiment}",
+    "scaling": "Fix limits and governance before growth. {experiment}",
+    "supporting": "Find the missing role and fund a small experiment. {experiment}"
+  },
+  "shareTexts": {
+    "invite": "What role do you play when an important idea has to become real?",
+    "minimal": "I took the Outfinity Quiz. My constellation is {primaryRole} × {secondaryRole}. What role do you play?",
+    "full": "I took the Outfinity Quiz.\nMy constellation is {primaryRole} × {secondaryRole}.\nBest ecology: {ecology}\nWhat role do you play when an important idea has to become real?"
+  },
+  "explorerCircleIntro": "My Quiz:\n{primaryRole} × {secondaryRole}\n\nI am most drawn to:\n{domains}\n\nI contribute best by:\n{contribution}\n\nI am looking for:\n{complementRoles}, and projects where a small experiment can clarify a large question.\n\nMy next 30-day exploration:\n{experiment}",
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for people who research difficult problems, build limited experiments, and look for collaborators with complementary roles. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle will take you to Substack. Your result is not transmitted. You can choose whether to mention it in the community."
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "id": "explorer-compass",
+  "version": 1,
+  "title": "Explorer Compass",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Discover how you create meaningful change, where your work can thrive, and who you need beside you.",
+    "description": "<p>There is no single type of founder, researcher, or builder of change. There are different roles, different environments, and different ways a good intention can become reality — or get lost along the way.</p><p>Choose what you would actually do in real conditions, not the option that sounds most noble.</p>",
+    "duration": "10 scenarios + 8 trade-offs. Approximately four minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "This is not a clinical or validated psychometric assessment. It is an interactive map of your role in meaningful change.",
+    "startButton": "Map my contribution"
+  },
+  "contextTitle": "Optional context",
+  "contextQuestions": [
+    {
+      "id": "stage",
+      "text": "Where are you right now?",
+      "multiple": false,
+      "options": [
+        { "value": "exploring", "text": "Exploring a direction" },
+        { "value": "building", "text": "Building early experiments" },
+        { "value": "operating", "text": "Already leading a project" },
+        { "value": "scaling", "text": "Transforming or scaling an organization" },
+        { "value": "supporting", "text": "Funding, advising, or connecting other builders" }
+      ]
+    },
+    {
+      "id": "domains",
+      "text": "Which domains call you most? Choose up to two.",
+      "multiple": true,
+      "options": [
+        { "value": "education", "text": "Education and human autonomy" },
+        { "value": "health", "text": "Health and wellbeing" },
+        { "value": "tech", "text": "Humane technology and digital autonomy" },
+        { "value": "governance", "text": "Institutions, trust, and governance" },
+        { "value": "economy", "text": "Fair economy and ownership" },
+        { "value": "climate", "text": "Climate, ecology, and regeneration" },
+        { "value": "science", "text": "Science, knowledge, and open infrastructure" },
+        { "value": "community", "text": "Communities and local resilience" },
+        { "value": "culture", "text": "Culture, meaning, and inner development" },
+        { "value": "unsure", "text": "Not sure yet" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "s1",
+      "text": "An important new problem emerges, still poorly defined and shared across several domains. What is your first contribution?",
+      "type": "forced-choice",
+      "options": [
+        { "key": "FS", "text": "I look for the question everyone has already assumed was resolved.", "dimensionScores": { "FS": 1 } },
+        { "key": "SC", "text": "I map the actors, incentives, and causal relationships.", "dimensionScores": { "SC": 1 } },
+        { "key": "EB", "text": "I build the smallest demonstration that can produce real information.", "dimensionScores": { "EB": 1 } },
+        { "key": "CW", "text": "I gather the people affected and those who see the problem from incompatible angles.", "dimensionScores": { "CW": 1 } }
+      ]
+    },
+    {
+      "id": "s2",
+      "text": "A valuable project is growing, but the team is starting to confuse activity with progress.",
+      "type": "forced-choice",
+      "options": [
+        { "key": "MO", "text": "I clarify priorities, accountability, and execution rhythm.", "dimensionScores": { "MO": 1 } },
+        { "key": "MT", "text": "I reframe the project's story so meaning can be understood again.", "dimensionScores": { "MT": 1 } },
+        { "key": "IA", "text": "I revise decision rights, incentives, and organizational structure.", "dimensionScores": { "IA": 1 } },
+        { "key": "BS", "text": "I establish what must not be sacrificed, even if the project slows down.", "dimensionScores": { "BS": 1 } }
+      ]
+    },
+    {
+      "id": "s3",
+      "text": "A promising discovery appears, but the evidence is still fragile.",
+      "type": "forced-choice",
+      "options": [
+        { "key": "FS", "text": "I track the anomalies and new questions the discovery opens.", "dimensionScores": { "FS": 1 } },
+        { "key": "EB", "text": "I build a limited prototype that can invalidate the main hypothesis.", "dimensionScores": { "EB": 1 } },
+        { "key": "MO", "text": "I draft a minimal plan for turning research into verifiable progress.", "dimensionScores": { "MO": 1 } },
+        { "key": "BS", "text": "I define stopping conditions and risks that must not be externalized.", "dimensionScores": { "BS": 1 } }
+      ]
+    },
+    {
+      "id": "s4",
+      "text": "Several groups want to solve the same problem but disagree on the diagnosis.",
+      "type": "forced-choice",
+      "options": [
+        { "key": "SC", "text": "I make each party's mental models and constraints visible.", "dimensionScores": { "SC": 1 } },
+        { "key": "CW", "text": "I build enough trust for disagreement to be carried honestly.", "dimensionScores": { "CW": 1 } },
+        { "key": "MT", "text": "I find a common language that preserves important differences.", "dimensionScores": { "MT": 1 } },
+        { "key": "IA", "text": "I design a clear procedure for decision, contestation, and exit.", "dimensionScores": { "IA": 1 } }
+      ]
+    },
+    {
+      "id": "s5",
+      "text": "A small team suddenly receives far more funding than expected.",
+      "type": "forced-choice",
+      "options": [
+        { "key": "FS", "text": "I protect some resources for explorations that promise no immediate results.", "dimensionScores": { "FS": 1 } },
+        { "key": "MO", "text": "I turn the money into a plan, clear owners, and delivery cycles.", "dimensionScores": { "MO": 1 } },
+        { "key": "CW", "text": "I invest in relationships, partnerships, and people who expand collective capacity.", "dimensionScores": { "CW": 1 } },
+        { "key": "IA", "text": "I clarify capital governance before it redefines the mission.", "dimensionScores": { "IA": 1 } }
+      ]
+    },
+    {
+      "id": "s6",
+      "text": "An important system produces harmful effects but is so stable that ordinary criticism does not change it.",
+      "type": "forced-choice",
+      "options": [
+        { "key": "SC", "text": "I model the feedback loops that make participants reproduce the outcome.", "dimensionScores": { "SC": 1 } },
+        { "key": "EB", "text": "I build a working alternative around a single blocking point.", "dimensionScores": { "EB": 1 } },
+        { "key": "MT", "text": "I make the invisible harm intelligible to people who can contest it.", "dimensionScores": { "MT": 1 } },
+        { "key": "BS", "text": "I define the practices that must stop regardless of declared benefits.", "dimensionScores": { "BS": 1 } }
+      ]
+    },
+    {
+      "id": "s7",
+      "text": "An idea works, but the people it should serve are not adopting it.",
+      "type": "forced-choice",
+      "options": [
+        { "key": "FS", "text": "I check whether we found the right audience and the right problem.", "dimensionScores": { "FS": 1 } },
+        { "key": "CW", "text": "I build direct relationships with those affected before modifying the product.", "dimensionScores": { "CW": 1 } },
+        { "key": "MT", "text": "I reframe the value in a story that can be recognized and transmitted.", "dimensionScores": { "MT": 1 } },
+        { "key": "BS", "text": "I check whether adoption pressure is starting to compromise the original purpose.", "dimensionScores": { "BS": 1 } }
+      ]
+    },
+    {
+      "id": "s8",
+      "text": "A successful experiment receives far more demand than it can sustain.",
+      "type": "forced-choice",
+      "options": [
+        { "key": "SC", "text": "I analyze second-order effects and points where scaling may change the outcome.", "dimensionScores": { "SC": 1 } },
+        { "key": "EB", "text": "I make the tool more robust, modular, and easy to test.", "dimensionScores": { "EB": 1 } },
+        { "key": "MO", "text": "I standardize what works and build operational capacity.", "dimensionScores": { "MO": 1 } },
+        { "key": "IA", "text": "I clarify ownership, control, and accountability before expansion.", "dimensionScores": { "IA": 1 } }
+      ]
+    },
+    {
+      "id": "s9",
+      "text": "New information contradicts an important part of the project's direction.",
+      "type": "forced-choice",
+      "options": [
+        { "key": "FS", "text": "I follow the contradiction — it may open a bigger problem.", "dimensionScores": { "FS": 1 } },
+        { "key": "SC", "text": "I update the model and show exactly which assumptions no longer hold.", "dimensionScores": { "SC": 1 } },
+        { "key": "MO", "text": "I decide what changes immediately and what can wait.", "dimensionScores": { "MO": 1 } },
+        { "key": "MT", "text": "I communicate the revision without hiding the error and without unnecessarily destroying trust.", "dimensionScores": { "MT": 1 } }
+      ]
+    },
+    {
+      "id": "s10",
+      "text": "A community initiative works well. Some members want rapid expansion; others fear the project will lose its character.",
+      "type": "forced-choice",
+      "options": [
+        { "key": "EB", "text": "I turn the tools into modules other communities can adapt.", "dimensionScores": { "EB": 1 } },
+        { "key": "CW", "text": "I develop local leadership and inter-community ties before expansion.", "dimensionScores": { "CW": 1 } },
+        { "key": "IA", "text": "I design a structure where growth does not concentrate ownership and decision.", "dimensionScores": { "IA": 1 } },
+        { "key": "BS", "text": "I define the size or conditions the project must not cross.", "dimensionScores": { "BS": 1 } }
+      ]
+    },
+    {
+      "id": "e1",
+      "text": "I feel most useful when...",
+      "type": "likert",
+      "ecologyAxis": "delivery",
+      "scaleLabels": ["Discovery", "Depends", "Delivery"],
+      "options": [
+        { "value": "0", "text": "1", "ecologyValue": 0 },
+        { "value": "25", "text": "2", "ecologyValue": 25 },
+        { "value": "50", "text": "3", "ecologyValue": 50 },
+        { "value": "75", "text": "4", "ecologyValue": 75 },
+        { "value": "100", "text": "5", "ecologyValue": 100 }
+      ]
+    },
+    {
+      "id": "e2",
+      "text": "I work best when...",
+      "type": "likert",
+      "ecologyAxis": "coalition",
+      "scaleLabels": ["Autonomy", "Depends", "Coalition"],
+      "options": [
+        { "value": "0", "text": "1", "ecologyValue": 0 },
+        { "value": "25", "text": "2", "ecologyValue": 25 },
+        { "value": "50", "text": "3", "ecologyValue": 50 },
+        { "value": "75", "text": "4", "ecologyValue": 75 },
+        { "value": "100", "text": "5", "ecologyValue": 100 }
+      ]
+    },
+    {
+      "id": "e3",
+      "text": "In uncertainty I prefer...",
+      "type": "likert",
+      "ecologyAxis": "depth",
+      "scaleLabels": ["Speed", "Depends", "Depth"],
+      "options": [
+        { "value": "0", "text": "1", "ecologyValue": 0 },
+        { "value": "25", "text": "2", "ecologyValue": 25 },
+        { "value": "50", "text": "3", "ecologyValue": 50 },
+        { "value": "75", "text": "4", "ecologyValue": 75 },
+        { "value": "100", "text": "5", "ecologyValue": 100 }
+      ]
+    },
+    {
+      "id": "e4",
+      "text": "Impact feels most credible when...",
+      "type": "likert",
+      "ecologyAxis": "reach",
+      "scaleLabels": ["Rootedness", "Depends", "Reach"],
+      "options": [
+        { "value": "0", "text": "1", "ecologyValue": 0 },
+        { "value": "25", "text": "2", "ecologyValue": 25 },
+        { "value": "50", "text": "3", "ecologyValue": 50 },
+        { "value": "75", "text": "4", "ecologyValue": 75 },
+        { "value": "100", "text": "5", "ecologyValue": 100 }
+      ]
+    },
+    {
+      "id": "e5",
+      "text": "I trust a project most when...",
+      "type": "likert",
+      "ecologyAxis": "commons",
+      "scaleLabels": ["Market", "Depends", "Commons"],
+      "options": [
+        { "value": "0", "text": "1", "ecologyValue": 0 },
+        { "value": "25", "text": "2", "ecologyValue": 25 },
+        { "value": "50", "text": "3", "ecologyValue": 50 },
+        { "value": "75", "text": "4", "ecologyValue": 75 },
+        { "value": "100", "text": "5", "ecologyValue": 100 }
+      ]
+    },
+    {
+      "id": "e6",
+      "text": "Regarding resources...",
+      "type": "likert",
+      "ecologyAxis": "resourceSovereignty",
+      "scaleLabels": ["External Capital", "Depends", "Sovereignty"],
+      "options": [
+        { "value": "0", "text": "1", "ecologyValue": 0 },
+        { "value": "25", "text": "2", "ecologyValue": 25 },
+        { "value": "50", "text": "3", "ecologyValue": 50 },
+        { "value": "75", "text": "4", "ecologyValue": 75 },
+        { "value": "100", "text": "5", "ecologyValue": 100 }
+      ]
+    },
+    {
+      "id": "e7",
+      "text": "Regarding decisions...",
+      "type": "likert",
+      "ecologyAxis": "distributedGovernance",
+      "scaleLabels": ["Central", "Depends", "Distributed"],
+      "options": [
+        { "value": "0", "text": "1", "ecologyValue": 0 },
+        { "value": "25", "text": "2", "ecologyValue": 25 },
+        { "value": "50", "text": "3", "ecologyValue": 50 },
+        { "value": "75", "text": "4", "ecologyValue": 75 },
+        { "value": "100", "text": "5", "ecologyValue": 100 }
+      ]
+    },
+    {
+      "id": "e8",
+      "text": "Regarding success...",
+      "type": "likert",
+      "ecologyAxis": "sufficiency",
+      "scaleLabels": ["Growth", "Depends", "Sufficiency"],
+      "options": [
+        { "value": "0", "text": "1", "ecologyValue": 0 },
+        { "value": "25", "text": "2", "ecologyValue": 25 },
+        { "value": "50", "text": "3", "ecologyValue": 50 },
+        { "value": "75", "text": "4", "ecologyValue": 75 },
+        { "value": "100", "text": "5", "ecologyValue": 100 }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "forced-choice",
+    "firstChoicePoints": 3,
+    "secondChoicePoints": 1,
+    "dimensions": [
+      { "key": "FS", "label": "Frontier Scout", "theoreticalMin": 0, "theoreticalMax": 15 },
+      { "key": "SC", "label": "Systems Cartographer", "theoreticalMin": 0, "theoreticalMax": 15 },
+      { "key": "EB", "label": "Experimental Builder", "theoreticalMin": 0, "theoreticalMax": 15 },
+      { "key": "MO", "label": "Mission Operator", "theoreticalMin": 0, "theoreticalMax": 15 },
+      { "key": "CW", "label": "Community Weaver", "theoreticalMin": 0, "theoreticalMax": 15 },
+      { "key": "MT", "label": "Meaning Translator", "theoreticalMin": 0, "theoreticalMax": 15 },
+      { "key": "IA", "label": "Institutional Architect", "theoreticalMin": 0, "theoreticalMax": 15 },
+      { "key": "BS", "label": "Boundary Steward", "theoreticalMin": 0, "theoreticalMax": 15 }
+    ]
+  },
+  "ecologyPrototypes": {
+    "independentStudio":       [65, 20, 35, 45, 25, 90, 20, 55],
+    "frontierResearchLab":     [25, 45, 90, 60, 70, 35, 45, 60],
+    "missionStartup":          [75, 35, 25, 90, 20, 20, 15, 15],
+    "openCommonsNetwork":      [40, 80, 65, 75, 95, 70, 95, 65],
+    "communityVenture":        [65, 85, 70, 20, 75, 80, 80, 85],
+    "cooperativeEnterprise":   [75, 90, 55, 45, 55, 75, 95, 75],
+    "publicInterestInstitution":[80, 85, 85, 70, 95, 30, 45, 70],
+    "ecosystemOrchestrator":   [45, 95, 65, 85, 80, 40, 85, 55]
+  }
+}

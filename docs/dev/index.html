@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Documentation — Outfinity Quiz</title>
+  <meta name="description" content="Technical documentation for the Outfinity Quiz engine and architecture.">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <script>
+    (function(){var t=document.getElementById("theme-toggle"),h=document.documentElement,s=localStorage.getItem("quiz-theme");if(s){h.setAttribute("data-theme",s);t.textContent=s==="dark"?"☾":"☀";}t.addEventListener("click",function(){var c=h.getAttribute("data-theme"),n=c==="dark"?"light":"dark";h.setAttribute("data-theme",n);localStorage.setItem("quiz-theme",n);t.textContent=n==="dark"?"☾":"☀";});})();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="../index.html" class="site-header__logo">
+      <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="3"/>
+        <circle cx="50" cy="50" r="8" fill="currentColor"/>
+        <line x1="50" y1="5" x2="50" y2="25" stroke="currentColor" stroke-width="2"/>
+        <line x1="50" y1="75" x2="50" y2="95" stroke="currentColor" stroke-width="2"/>
+        <line x1="5" y1="50" x2="25" y2="50" stroke="currentColor" stroke-width="2"/>
+        <line x1="75" y1="50" x2="95" y2="50" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span>Outfinity Quiz</span>
+    </a>
+    <nav class="site-header__nav">
+      <a href="../index.html">Catalog</a>
+      <a href="../sitemap.html">All Tests</a>
+      
+      <a href="../privacy/index.html">Privacy</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☀</button>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>Developer Documentation</h1>
+
+    <p>Technical documentation for the Outfinity Quiz engine, architecture, and specifications.</p>
+
+    <h2>Architecture Overview</h2>
+
+    <p>The quiz subsite is a static, dependency-free application served from the <code>docs/</code> directory. The engine is a set of vanilla JavaScript modules that load quiz definitions from JSON files and render interactive experiences in the browser.</p>
+
+    <h2>Engine Modules</h2>
+
+    <ul>
+      <li><code>engine/quiz-engine.js</code> — State machine, question rendering, scoring, and result computation.</li>
+      <li><code>engine/radar-chart.js</code> — SVG radar/polygon chart with configurable axes and multi-overlay support.</li>
+      <li><code>engine/share-card.js</code> — Canvas-based share card generation (1080×1350) with PNG download and Web Share fallback.</li>
+      <li><code>engine/url-codec.js</code> — Base64URL encoding and decoding of quiz results in URL fragments.</li>
+      <li><code>engine/compare.js</code> — Multi-result overlay comparison with transparency and complementarity analysis.</li>
+    </ul>
+
+    <h2>Quiz Definition Format</h2>
+
+    <p>Each quiz is defined by four JSON files in its directory under <code>quizzes/</code>:</p>
+
+    <ul>
+      <li><code>instrument.json</code> — Questions, options, dimensions, scoring weights, branching rules, and version.</li>
+      <li><code>interpretation.json</code> — Archetypes, result texts, share texts, and recommendations.</li>
+      <li><code>catalog.json</code> — Metadata for the catalog page (title, description, duration, type, domain).</li>
+      <li><code>recommendations.json</code> — Optional partner/initiative mappings.</li>
+    </ul>
+
+    <h2>Specifications</h2>
+
+    <p>Detailed specifications for each module and quiz are maintained in the DS files. View them through the <a href="../specsLoader.html?spec=matrix.md">Specification Matrix</a>.</p>
+
+    <h2>Development Workflow</h2>
+
+    <p>No build step is required. Serve the <code>docs/</code> directory with any static file server:</p>
+
+    <pre><code>npx serve docs/</code></pre>
+
+    <p>Or with Python:</p>
+
+    <pre><code>python3 -m http.server 8080 --directory docs/</code></pre>
+
+    <h2>Verification</h2>
+
+    <ul>
+      <li>Specs matrix: <code>node .agents/skills/gamp-specs/scripts/generate_specs_matrix.mjs</code></li>
+      <li>Link verification: <code>node .agents/skills/gamp-specs/scripts/verify_docs_links.mjs</code></li>
+      <li>Static site: <code>node .agents/skills/gamp-specs/scripts/verify_static_site.js docs/</code></li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="../index.html">Catalog</a>
+      <a href="../sitemap.html">All Tests</a>
+      
+      <a href="../privacy/index.html">Privacy</a>
+      <a href="../licenses/index.html">Licenses</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☀</button>
+    </nav>
+    <p class="site-footer__disclaimer">AI was used in coding and processing these quizzes. The inspiration and sources are real, but errors may have slipped through. If you find something wrong, please <a href="mailto:quiz@outfinity.ch">send us feedback</a>.</p>
+    <p>An initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>.</p>
+  </footer>
+</body>
+</html>

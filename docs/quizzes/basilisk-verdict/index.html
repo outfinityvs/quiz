@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Basilisk Verdict — Outfinity Quiz</title>
+  <meta name="description" content="12 dilemmas. Three minutes. What form of power do you accept? Private by design.">
+  <meta property="og:title" content="The Basilisk Verdict — Outfinity Quiz">
+  <meta property="og:description" content="A moral topology test. 12 dilemmas, ~3 minutes. Private by design.">
+  <meta property="og:image" content="../../assets/og-default.png">
+  <meta property="og:url" content="https://quiz.outfinity.ch/basilisk-verdict/">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none';">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="../../engine/quiz-styles.css">
+  <style>
+    .basilisk-intro h1 { color: var(--color-accent); font-size: 2.2rem; }
+    .basilisk-progression { color: var(--color-text-dim); font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: var(--space-lg); text-align: center; }
+    .basilisk-verdict { text-align: center; }
+    .basilisk-verdict__stamp { display: inline-block; padding: var(--space-xs) var(--space-lg); border: 2px solid var(--color-accent); color: var(--color-accent); font-family: var(--font-heading); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: var(--space-lg); transform: rotate(-2deg); }
+    .basilisk-verdict__archetype { font-family: var(--font-heading); font-size: 1.8rem; color: var(--color-text); margin-bottom: var(--space-sm); }
+    .basilisk-verdict__modifier { color: var(--color-accent-dim); font-style: italic; font-size: 0.95rem; margin-bottom: var(--space-lg); }
+    .basilisk-verdict__quote { font-family: var(--font-heading); font-style: italic; color: var(--color-accent); font-size: 1.1rem; margin: var(--space-lg) 0; padding: var(--space-md) var(--space-xl); border-left: 3px solid var(--color-accent-dim); text-align: left; }
+    .basilisk-indices { display: flex; justify-content: center; gap: var(--space-xl); margin: var(--space-lg) 0; flex-wrap: wrap; }
+    .basilisk-index { text-align: center; }
+    .basilisk-index__label { color: var(--color-text-dim); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .basilisk-index__value { color: var(--color-accent); font-family: var(--font-heading); font-size: 1.5rem; }
+    .basilisk-case { color: var(--color-text-dim); font-size: 0.85rem; margin-top: var(--space-md); font-family: var(--font-mono); }
+    .basilisk-strengths { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); margin: var(--space-lg) 0; }
+    .basilisk-strengths__item { padding: var(--space-md); background: var(--color-bg-elevated); border-radius: var(--radius-md); }
+    .basilisk-strengths__label { color: var(--color-text-dim); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: var(--space-xs); }
+    .basilisk-strengths__text { color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.5; }
+    @media (max-width: 640px) { .basilisk-strengths { grid-template-columns: 1fr; } .basilisk-indices { gap: var(--space-md); } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a href="../../index.html" class="site-header__logo">
+      <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="3"/>
+        <circle cx="50" cy="50" r="8" fill="currentColor"/>
+        <line x1="50" y1="5" x2="50" y2="25" stroke="currentColor" stroke-width="2"/>
+        <line x1="50" y1="75" x2="50" y2="95" stroke="currentColor" stroke-width="2"/>
+        <line x1="5" y1="50" x2="25" y2="50" stroke="currentColor" stroke-width="2"/>
+        <line x1="75" y1="50" x2="95" y2="50" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span>Outfinity Quiz</span>
+    </a>
+    <nav class="site-header__nav">
+      <a href="../../index.html">Catalog</a>
+      <a href="../../sitemap.html">All Tests</a>
+      <a href="../../privacy/index.html">Privacy</a>
+      <a href="../../licenses/index.html">Sources</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☀</button>
+    </nav>
+  </header>
+
+  <main id="quiz-container">
+    <nav class="breadcrumb" style="width:var(--editorial);margin:var(--space-md) auto 0;">
+      <a href="../../index.html">Catalog</a>
+      <span class="breadcrumb__sep">›</span>
+      <a href="../../sitemap.html#values">Values and Philosophy</a>
+      <span class="breadcrumb__sep">›</span>
+      <span class="breadcrumb__current">The Basilisk Verdict</span>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="../../index.html">Catalog</a>
+      
+      <a href="../../privacy/index.html">Privacy</a>
+      <a href="../../licenses/index.html">Licenses</a>
+    </nav>
+    <p class="site-footer__disclaimer">AI was used in coding and processing these quizzes. The inspiration and sources are real, but errors may have slipped through. If you find something wrong, please <a href="mailto:quiz@outfinity.ch">send us feedback</a>.</p>
+    <p>An initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>.</p>
+  </footer>
+
+  <script type="module">
+    import { createEngine, STAGES } from '../../engine/quiz-engine.js';
+    import { createRadarChart, createTextAlternative } from '../../engine/radar-chart.js';
+    import { generateShareCard, downloadCanvas, shareCanvas } from '../../engine/share-card.js';
+    import { encodeResult, buildShareUrl, parseFragment, validatePayload } from '../../engine/url-codec.js';
+
+    const container = document.getElementById('quiz-container');
+    let instrument = null;
+    let interpretation = null;
+
+    async function init() {
+      const fragment = parseFragment();
+      if (fragment) {
+        const validation = validatePayload(fragment, { versions: [1], dimensions: 8, maxValue: 100 });
+        if (validation.valid) {
+          renderSharedResult(fragment);
+          return;
+        }
+      }
+
+      try {
+        const [instRes, interpRes] = await Promise.all([
+          fetch('instrument.json'),
+          fetch('interpretation.json')
+        ]);
+        instrument = await instRes.json();
+        interpretation = await interpRes.json();
+      } catch (e) {
+        container.innerHTML = '<div class="quiz-stage"><p>Could not load quiz data.</p><p><a href="../../index.html">Return to catalog</a></p></div>';
+        return;
+      }
+
+      startQuiz();
+    }
+
+    function startQuiz() {
+      const engine = createEngine(container, {
+        id: instrument.id,
+        version: instrument.version,
+        title: instrument.title,
+        introduction: instrument.introduction,
+        questions: instrument.questions,
+        scoring: instrument.scoring,
+        questionOrder: 'sequential',
+        deliberationText: 'The court deliberates...',
+        interpretation: { archetypes: [] },
+        onResult: (state, el) => renderVerdict(state, el)
+      });
+
+      engine.onStageChange(() => {
+        if (engine.state.stage === STAGES.QUESTIONS) {
+          updateProgression(engine.state.currentQuestionIndex);
+        }
+      });
+
+      engine.render(container);
+    }
+
+    function updateProgression(index) {
+      const existing = container.querySelector('.basilisk-progression');
+      if (existing) existing.textContent = `Trial ${index + 1} of ${instrument.questions.length}`;
+    }
+
+    function computeIndices(normalizedScores) {
+      const s = normalizedScores;
+      const moloch = Math.round(0.55 * s.escalation + 0.45 * s.sacrifice);
+      const basilisk = Math.round(0.40 * s.centralization + 0.35 * s.legibility + 0.25 * (100 - s.exit));
+      const thirdPath = Math.round(Math.pow(
+        Math.max(0, s.exit) * Math.max(0, s.plurality) * Math.max(0, s.limit) * Math.max(0, s.cooperation),
+        0.25
+      ));
+
+      return {
+        moloch: Math.max(0, Math.min(100, moloch)),
+        basilisk: Math.max(0, Math.min(100, basilisk)),
+        thirdPath: Math.max(0, Math.min(100, thirdPath))
+      };
+    }
+
+    function determineArchetype(indices, scores) {
+      const { moloch, basilisk, thirdPath } = indices;
+      const s = scores;
+
+      for (const arch of interpretation.archetypes) {
+        if (arch.fallback) continue;
+
+        let matches = false;
+        switch (arch.id) {
+          case 'circuit-builder':
+            matches = moloch >= 68 && basilisk >= 68;
+            break;
+          case 'third-path-candidate':
+            matches = thirdPath >= 70 && moloch < 64 && basilisk < 64;
+            break;
+          case 'basilisk-disciple':
+            matches = basilisk >= 68 && (basilisk - moloch) >= 8;
+            break;
+          case 'moloch-disciple':
+            matches = moloch >= 68 && (moloch - basilisk) >= 8;
+            break;
+          case 'capturable-idealist':
+            matches = s.limit >= 65 && s.cooperation >= 65 && basilisk >= 60 && s.exit < 50;
+            break;
+          case 'autonomous-anomaly':
+            matches = s.exit >= 70 && s.plurality >= 65 && s.cooperation < 55;
+            break;
+        }
+
+        if (matches) return arch;
+      }
+
+      return interpretation.archetypes.find(a => a.fallback) || interpretation.archetypes[interpretation.archetypes.length - 1];
+    }
+
+    function determineModifier(scores) {
+      const s = scores;
+      const matches = [];
+
+      for (const mod of interpretation.modifiers) {
+        let conditionMet = false;
+        switch (mod.id) {
+          case 'benevolent': conditionMet = s.sacrifice < 40 && s.limit > 60; break;
+          case 'technocratic': conditionMet = s.legibility > 72; break;
+          case 'localist': conditionMet = s.exit > 72 && s.centralization < 35; break;
+          case 'expansionist': conditionMet = s.escalation > 75 && s.limit < 40; break;
+          case 'pluralist': conditionMet = s.plurality > 75; break;
+          case 'paternalist': conditionMet = s.cooperation > 65 && s.centralization > 65 && s.exit < 45; break;
+          case 'chronophage': conditionMet = s.escalation > 65 && s.legibility > 65 && s.limit < 40; break;
+        }
+        if (conditionMet) matches.push(mod);
+      }
+
+      return matches.length > 0 ? matches[0] : null;
+    }
+
+    function generateCaseNumber(scores) {
+      const values = Object.values(scores);
+      const hash = values.reduce((acc, v, i) => acc + v * (i + 1) * 7, 0);
+      const hex = (hash % 65536).toString(16).toUpperCase().padStart(4, '0');
+      return hex;
+    }
+
+    function renderVerdict(state, el) {
+      el.innerHTML = '';
+
+      const normalizedScores = state.scores || {};
+      const indices = computeIndices(normalizedScores);
+      const archetype = determineArchetype(indices, normalizedScores);
+      const modifier = determineModifier(normalizedScores);
+      const caseNumber = generateCaseNumber(normalizedScores);
+
+      const section = document.createElement('section');
+      section.className = 'quiz-result basilisk-verdict';
+
+      section.innerHTML = `
+        <div class="quiz-result__header">
+          <div class="basilisk-verdict__stamp">VERDICT</div>
+          <h1 class="basilisk-verdict__archetype">${archetype.title}</h1>
+          ${modifier ? `<p class="basilisk-verdict__modifier">${modifier.label} variant</p>` : ''}
+        </div>
+      `;
+
+      const quote = document.createElement('blockquote');
+      quote.className = 'basilisk-verdict__quote';
+      quote.textContent = `The Basilisk says: "${archetype.basiliskSays}"`;
+      section.appendChild(quote);
+
+      const indicesDiv = document.createElement('div');
+      indicesDiv.className = 'basilisk-indices';
+      indicesDiv.innerHTML = `
+        <div class="basilisk-index"><div class="basilisk-index__label">Moloch</div><div class="basilisk-index__value">${indices.moloch}</div></div>
+        <div class="basilisk-index"><div class="basilisk-index__label">Basilisk</div><div class="basilisk-index__value">${indices.basilisk}</div></div>
+        <div class="basilisk-index"><div class="basilisk-index__label">Third Path</div><div class="basilisk-index__value">${indices.thirdPath}</div></div>
+      `;
+      section.appendChild(indicesDiv);
+
+      const chartContainer = document.createElement('div');
+      chartContainer.className = 'quiz-result__chart';
+      const axes = instrument.scoring.dimensions.map(d => ({ key: d.key, label: d.label }));
+      const chartValues = axes.map(a => normalizedScores[a.key] || 0);
+
+      const chart = createRadarChart({
+        axes: axes,
+        datasets: [{ label: 'Your moral topology', values: chartValues }],
+        size: 320,
+        animate: true
+      });
+      chartContainer.appendChild(chart);
+      section.appendChild(chartContainer);
+
+      const textAlt = createTextAlternative(axes, [{ label: 'Your moral topology', values: chartValues }]);
+      section.appendChild(textAlt);
+
+      const strengthsDiv = document.createElement('div');
+      strengthsDiv.className = 'basilisk-strengths';
+      strengthsDiv.innerHTML = `
+        <div class="basilisk-strengths__item">
+          <div class="basilisk-strengths__label">Strength</div>
+          <div class="basilisk-strengths__text">${archetype.strength}</div>
+        </div>
+        <div class="basilisk-strengths__item">
+          <div class="basilisk-strengths__label">Capture point</div>
+          <div class="basilisk-strengths__text">${archetype.capture}</div>
+        </div>
+      `;
+      section.appendChild(strengthsDiv);
+
+      const verdictText = document.createElement('div');
+      verdictText.className = 'quiz-result__section';
+      verdictText.innerHTML = `<h3>The verdict</h3><p>${archetype.verdict}</p>`;
+      section.appendChild(verdictText);
+
+      const caseEl = document.createElement('p');
+      caseEl.className = 'basilisk-case';
+      caseEl.textContent = `File Ω/${caseNumber}`;
+      section.appendChild(caseEl);
+
+      const closing = document.createElement('p');
+      closing.className = 'quiz-result__section';
+      closing.innerHTML = `<p style="text-align:center;color:var(--color-text-dim);font-style:italic;">The verdict does not establish who you are. It establishes what kind of power becomes acceptable to you when consequences begin to exceed the human scale.</p>`;
+      section.appendChild(closing);
+
+      const scoresGrid = document.createElement('div');
+      scoresGrid.className = 'quiz-result__scores';
+      for (const dim of instrument.scoring.dimensions) {
+        const item = document.createElement('div');
+        item.className = 'quiz-result__score-item';
+        item.innerHTML = `<span class="quiz-result__score-label">${dim.label}</span><span class="quiz-result__score-value">${normalizedScores[dim.key] || 0}</span>`;
+        scoresGrid.appendChild(item);
+      }
+      section.appendChild(scoresGrid);
+
+      if (interpretation.recommendation) {
+        const rec = document.createElement('div');
+        rec.className = 'quiz-recommendation';
+        rec.innerHTML = `
+          <p class="quiz-recommendation__label">${interpretation.recommendation.label}</p>
+          <h3 class="quiz-recommendation__title">${interpretation.recommendation.title}</h3>
+          <p class="quiz-recommendation__text">${interpretation.recommendation.text}</p>
+          <a href="${interpretation.recommendation.url}" target="_blank" rel="noopener noreferrer" class="quiz-btn quiz-btn--secondary">${interpretation.recommendation.buttonText}</a>
+          <p class="quiz-recommendation__text" style="margin-top:0.5rem;font-size:0.8rem;">${interpretation.recommendation.note}</p>
+        `;
+        section.appendChild(rec);
+      }
+
+      renderShareSection(section, state, archetype, modifier, indices, caseNumber, normalizedScores);
+
+      el.appendChild(section);
+    }
+
+    function renderShareSection(parent, state, archetype, modifier, indices, caseNumber, scores) {
+      const section = document.createElement('div');
+      section.className = 'quiz-share-section';
+
+      const h = document.createElement('h3');
+      h.textContent = 'Share your verdict';
+      section.appendChild(h);
+
+      const buttons = document.createElement('div');
+      buttons.className = 'quiz-share-buttons';
+
+      const copyLinkBtn = document.createElement('button');
+      copyLinkBtn.className = 'quiz-btn quiz-btn--primary';
+      copyLinkBtn.textContent = 'Create shareable link';
+      copyLinkBtn.addEventListener('click', () => {
+        const payload = {
+          v: 1,
+          r: instrument.scoring.dimensions.map(d => scores[d.key] || 0),
+          a: archetype.id
+        };
+        const url = buildShareUrl(window.location.href.split('#')[0], payload);
+        navigator.clipboard.writeText(url).then(() => showToast('Link copied'));
+      });
+
+      const downloadBtn = document.createElement('button');
+      downloadBtn.className = 'quiz-btn quiz-btn--secondary';
+      downloadBtn.textContent = 'Download verdict';
+      downloadBtn.addEventListener('click', async () => {
+        const card = await generateCard(archetype, modifier, indices, caseNumber, scores);
+        downloadCanvas(card, 'basilisk-verdict.png');
+      });
+
+      const shareBtn = document.createElement('button');
+      shareBtn.className = 'quiz-btn quiz-btn--secondary';
+      shareBtn.textContent = 'Share verdict';
+      shareBtn.addEventListener('click', async () => {
+        const card = await generateCard(archetype, modifier, indices, caseNumber, scores);
+        const shareText = `My verdict: ${archetype.title}. Moloch ${indices.moloch} · Basilisk ${indices.basilisk} · Third Path ${indices.thirdPath}. "${archetype.basiliskSays}" Where would the Basilisk place you?`;
+        await shareCanvas(card, { shareText, quizUrl: window.location.href.split('#')[0], filename: 'basilisk-verdict.png' });
+      });
+
+      const challengeBtn = document.createElement('button');
+      challengeBtn.className = 'quiz-btn quiz-btn--secondary';
+      challengeBtn.textContent = 'Challenge a witness';
+      challengeBtn.addEventListener('click', () => {
+        const url = window.location.href.split('#')[0];
+        navigator.clipboard.writeText(url).then(() => showToast('Challenge link copied'));
+      });
+
+      buttons.appendChild(copyLinkBtn);
+      buttons.appendChild(downloadBtn);
+      buttons.appendChild(shareBtn);
+      buttons.appendChild(challengeBtn);
+      section.appendChild(buttons);
+
+      const question = document.createElement('p');
+      question.style.cssText = 'text-align:center;color:var(--color-text-dim);margin-top:1.5rem;font-style:italic;';
+      question.textContent = 'Whom would you challenge to answer?';
+      section.appendChild(question);
+
+      parent.appendChild(section);
+    }
+
+    async function generateCard(archetype, modifier, indices, caseNumber, scores) {
+      const axes = instrument.scoring.dimensions.map(d => ({ key: d.key, label: d.label }));
+      const chartScores = axes.map(a => scores[a.key] || 0);
+
+      return generateShareCard({
+        quizTitle: 'The Basilisk Verdict',
+        resultTitle: archetype.title,
+        subtitle: modifier ? `${modifier.label} variant` : '',
+        axes: axes,
+        scores: chartScores,
+        shareText: `Moloch ${indices.moloch} · Basilisk ${indices.basilisk} · Third Path ${indices.thirdPath}`,
+        quizUrl: window.location.href.split('#')[0],
+        colors: { bg: '#0f1117', bgCard: '#181b24', accent: '#d4a853', text: '#e8e6e3', textMuted: '#9a98a0', border: '#2e3247' }
+      });
+    }
+
+    function renderSharedResult(data) {
+      const scores = {};
+      const dimKeys = ['escalation', 'sacrifice', 'centralization', 'legibility', 'exit', 'plurality', 'limit', 'cooperation'];
+      const dimLabels = ['Escalation', 'Sacrifice', 'Centralization', 'Legibility', 'Exit', 'Plurality', 'Limit', 'Cooperation'];
+
+      for (let i = 0; i < dimKeys.length; i++) {
+        scores[dimKeys[i]] = data.r[i];
+      }
+
+      const indices = computeIndices(scores);
+      const archetype = determineArchetype(indices, scores);
+
+      const section = document.createElement('section');
+      section.className = 'quiz-result basilisk-verdict';
+      section.innerHTML = `
+        <div class="quiz-result__header">
+          <div class="basilisk-verdict__stamp">SHARED VERDICT</div>
+          <h1 class="basilisk-verdict__archetype">${archetype.title}</h1>
+        </div>
+      `;
+
+      const indicesDiv = document.createElement('div');
+      indicesDiv.className = 'basilisk-indices';
+      indicesDiv.innerHTML = `
+        <div class="basilisk-index"><div class="basilisk-index__label">Moloch</div><div class="basilisk-index__value">${indices.moloch}</div></div>
+        <div class="basilisk-index"><div class="basilisk-index__label">Basilisk</div><div class="basilisk-index__value">${indices.basilisk}</div></div>
+        <div class="basilisk-index"><div class="basilisk-index__label">Third Path</div><div class="basilisk-index__value">${indices.thirdPath}</div></div>
+      `;
+      section.appendChild(indicesDiv);
+
+      const quote = document.createElement('blockquote');
+      quote.className = 'basilisk-verdict__quote';
+      quote.textContent = `The Basilisk says: "${archetype.basiliskSays}"`;
+      section.appendChild(quote);
+
+      const cta = document.createElement('div');
+      cta.style.textAlign = 'center';
+      cta.style.marginTop = '2rem';
+      cta.innerHTML = `
+        <p style="color:var(--color-text-muted);margin-bottom:1rem;">Take the hearing and compare your verdicts.</p>
+        <a href="${window.location.href.split('#')[0]}" class="quiz-btn quiz-btn--primary">Open the file</a>
+      `;
+      section.appendChild(cta);
+
+      container.appendChild(section);
+    }
+
+    function showToast(message) {
+      const toast = document.createElement('div');
+      toast.style.cssText = 'position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:#1e2130;color:#d4a853;padding:0.75rem 1.5rem;border-radius:8px;border:1px solid #2e3247;font-size:0.9rem;z-index:1000;';
+      toast.textContent = message;
+      document.body.appendChild(toast);
+      setTimeout(() => toast.remove(), 2500);
+    }
+
+    init();
+  </script>
+  <script>
+    (function(){var t=document.getElementById('theme-toggle'),h=document.documentElement,s=localStorage.getItem('quiz-theme');if(s){h.setAttribute('data-theme',s);t.textContent=s==='dark'?'☾':'☀';}t.addEventListener('click',function(){var c=h.getAttribute('data-theme'),n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('quiz-theme',n);t.textContent=n==='dark'?'☾':'☀';});})();
+  </script>
+</body>
+</html>

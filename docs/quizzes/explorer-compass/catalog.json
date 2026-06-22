@@ -1,0 +1,15 @@
+{
+  "slug": "explorer-compass",
+  "title": "Explorer Compass",
+  "promise": "Discover your role in meaningful change, the venture ecology where your work can thrive, and who you need beside you.",
+  "duration": "~4 min",
+  "durationCategory": "medium",
+  "questions": 18,
+  "type": "exploration",
+  "domain": "identity",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "10 real scenarios and 8 ecology trade-offs. Your result maps your primary and secondary contribution roles, your most compatible venture ecology, and your complementarity with other explorers.",
+  "ogTitle": "Explorer Compass — Outfinity Quiz",
+  "ogDescription": "Discover your role in meaningful change. 10 scenarios, 8 trade-offs, ~4 minutes. Private by design."
+}

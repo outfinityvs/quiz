@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorer Compass — Outfinity Quiz</title>
+  <meta name="description" content="Discover your role in meaningful change. 10 scenarios, 8 trade-offs, ~4 minutes. Private by design.">
+  <meta property="og:title" content="Explorer Compass — Outfinity Quiz">
+  <meta property="og:description" content="Discover your role in meaningful change. Private by design.">
+  <meta property="og:image" content="../../assets/og-default.png">
+  <meta property="og:url" content="https://quiz.outfinity.ch/explorer-compass/">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none';">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="../../engine/quiz-styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="../../index.html" class="site-header__logo">
+      <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="3"/>
+        <circle cx="50" cy="50" r="8" fill="currentColor"/>
+        <line x1="50" y1="5" x2="50" y2="25" stroke="currentColor" stroke-width="2"/>
+        <line x1="50" y1="75" x2="50" y2="95" stroke="currentColor" stroke-width="2"/>
+        <line x1="5" y1="50" x2="25" y2="50" stroke="currentColor" stroke-width="2"/>
+        <line x1="75" y1="50" x2="95" y2="50" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span>Outfinity Quiz</span>
+    </a>
+    <nav class="site-header__nav">
+      <a href="../../index.html">Catalog</a>
+      <a href="../../sitemap.html">All Tests</a>
+      <a href="../../privacy/index.html">Privacy</a>
+      <a href="../../licenses/index.html">Sources</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☀</button>
+    </nav>
+  </header>
+
+  <main id="quiz-container">
+    <nav class="breadcrumb" style="width:var(--editorial);margin:var(--space-md) auto 0;">
+      <a href="../../index.html">Catalog</a>
+      <span class="breadcrumb__sep">›</span>
+      <a href="../../sitemap.html#identity">Identity and Roles</a>
+      <span class="breadcrumb__sep">›</span>
+      <span class="breadcrumb__current">Explorer Compass</span>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="../../index.html">Catalog</a>
+      
+      <a href="../../privacy/index.html">Privacy</a>
+      <a href="../../licenses/index.html">Licenses</a>
+    </nav>
+    <p class="site-footer__disclaimer">AI was used in coding and processing these quizzes. The inspiration and sources are real, but errors may have slipped through. If you find something wrong, please <a href="mailto:quiz@outfinity.ch">send us feedback</a>.</p>
+    <p>An initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>.</p>
+  </footer>
+
+  <script type="module">
+    import { createEngine, STAGES } from '../../engine/quiz-engine.js';
+    import { createRadarChart, createTextAlternative } from '../../engine/radar-chart.js';
+    import { generateShareCard, downloadCanvas, shareCanvas } from '../../engine/share-card.js';
+    import { encodeResult, buildShareUrl, parseFragment, validatePayload } from '../../engine/url-codec.js';
+    import { createComparisonView, generateCollaborationAgreement } from '../../engine/compare.js';
+
+    const container = document.getElementById('quiz-container');
+    let instrument = null;
+    let interpretation = null;
+    let ecologyScores = [];
+    let sharedResult = null;
+
+    async function init() {
+      const fragment = parseFragment();
+      if (fragment) {
+        const validation = validatePayload(fragment, {
+          versions: [1],
+          dimensions: 8,
+          ecologyDimensions: 8,
+          maxValue: 100
+        });
+        if (validation.valid) {
+          sharedResult = fragment;
+        }
+      }
+
+      try {
+        const [instRes, interpRes] = await Promise.all([
+          fetch('instrument.json'),
+          fetch('interpretation.json')
+        ]);
+        instrument = await instRes.json();
+        interpretation = await interpRes.json();
+      } catch (e) {
+        container.innerHTML = '<div class="quiz-stage"><p>Could not load quiz data. Please ensure you are accessing this page through a local server.</p><p><a href="../../index.html">Return to catalog</a></p></div>';
+        return;
+      }
+
+      if (sharedResult) {
+        renderSharedResult();
+      } else {
+        startQuiz();
+      }
+    }
+
+    function startQuiz() {
+      const engine = createEngine(container, {
+        id: instrument.id,
+        version: instrument.version,
+        title: instrument.title,
+        introduction: instrument.introduction,
+        contextQuestions: instrument.contextQuestions,
+        contextTitle: instrument.contextTitle,
+        questions: instrument.questions,
+        scoring: instrument.scoring,
+        questionOrder: 'sequential',
+        deliberationText: 'Mapping your constellation...',
+        interpretation: {
+          archetypes: []
+        },
+        onResult: (state, el) => renderResult(state, el)
+      });
+
+      engine.onStageChange(() => {
+        if (engine.state.stage === STAGES.CONTEXT) {
+          renderContextWithEcology(engine, container);
+        }
+      });
+
+      engine.render(container);
+    }
+
+    function renderContextWithEcology(engine, el) {
+      el.innerHTML = '';
+      const section = document.createElement('section');
+      section.className = 'quiz-stage quiz-stage--context';
+      section.innerHTML = `<h2>${engine.state.quizId === 'explorer-compass' ? 'Optional context' : 'Context'}</h2>`;
+
+      for (const q of (instrument.contextQuestions || [])) {
+        const fieldset = document.createElement('fieldset');
+        fieldset.className = 'quiz-question';
+        const legend = document.createElement('legend');
+        legend.textContent = q.text;
+        fieldset.appendChild(legend);
+        for (const opt of q.options) {
+          const label = document.createElement('label');
+          label.className = 'quiz-option';
+          const input = document.createElement('input');
+          input.type = q.multiple ? 'checkbox' : 'radio';
+          input.name = `context-${q.id}`;
+          input.value = opt.value;
+          const span = document.createElement('span');
+          span.textContent = opt.text;
+          label.appendChild(input);
+          label.appendChild(span);
+          fieldset.appendChild(label);
+        }
+        section.appendChild(fieldset);
+      }
+
+      const btnRow = document.createElement('div');
+      btnRow.className = 'quiz-btn-row';
+      const backBtn = document.createElement('button');
+      backBtn.className = 'quiz-btn quiz-btn--secondary';
+      backBtn.textContent = 'Back';
+      backBtn.addEventListener('click', () => engine.setStage(STAGES.INTRO));
+      const nextBtn = document.createElement('button');
+      nextBtn.className = 'quiz-btn quiz-btn--primary';
+      nextBtn.textContent = 'Continue';
+      nextBtn.addEventListener('click', () => {
+        for (const q of (instrument.contextQuestions || [])) {
+          const inputs = section.querySelectorAll(`[name="context-${q.id}"]`);
+          if (q.multiple) {
+            engine.state.contextAnswers[q.id] = Array.from(inputs).filter(i => i.checked).map(i => i.value);
+          } else {
+            const checked = Array.from(inputs).find(i => i.checked);
+            if (checked) engine.state.contextAnswers[q.id] = checked.value;
+          }
+        }
+        engine.state.currentQuestionIndex = 0;
+        engine.setStage(STAGES.QUESTIONS);
+      });
+      btnRow.appendChild(backBtn);
+      btnRow.appendChild(nextBtn);
+      section.appendChild(btnRow);
+      el.appendChild(section);
+    }
+
+    function renderResult(state, el) {
+      el.innerHTML = '';
+
+      const rawScores = state.rawScores || {};
+      const normalizedScores = state.scores || {};
+      const roleKeys = instrument.scoring.dimensions.map(d => d.key);
+      const sortedRoles = [...roleKeys].sort((a, b) => (rawScores[b] || 0) - (rawScores[a] || 0));
+
+      const primaryRole = sortedRoles[0];
+      const secondaryRole = sortedRoles[1];
+      const primaryDiff = (rawScores[primaryRole] || 0) - (rawScores[secondaryRole] || 0);
+      const thirdScore = rawScores[sortedRoles[2]] || 0;
+
+      let titleText = '';
+      const primaryInfo = interpretation.roles[primaryRole];
+      const secondaryInfo = interpretation.roles[secondaryRole];
+
+      if (primaryDiff <= 1) {
+        titleText = `${primaryInfo.title} × ${secondaryInfo.title} (dual profile)`;
+      } else if ((rawScores[primaryRole] || 0) - thirdScore <= 2 && (rawScores[secondaryRole] || 0) - thirdScore <= 2) {
+        titleText = 'Hybrid constellation';
+      } else {
+        titleText = `${primaryInfo.title} × ${secondaryInfo.title}`;
+      }
+
+      const resultSection = document.createElement('section');
+      resultSection.className = 'quiz-result';
+
+      resultSection.innerHTML = `
+        <div class="quiz-result__header">
+          <p class="quiz-result__kicker">Your Explorer Constellation</p>
+          <h1 class="quiz-result__title">${titleText}</h1>
+        </div>
+      `;
+
+      const chartContainer = document.createElement('div');
+      chartContainer.className = 'quiz-result__chart';
+      const axes = instrument.scoring.dimensions.map(d => ({ key: d.key, label: d.label.split(' ').map(w => w[0]).join('') }));
+      const chartValues = axes.map(a => normalizedScores[a.key] || 0);
+
+      const chart = createRadarChart({
+        axes: axes,
+        datasets: [{ label: 'Your profile', values: chartValues }],
+        size: 320,
+        animate: true
+      });
+      chartContainer.appendChild(chart);
+      resultSection.appendChild(chartContainer);
+
+      const textAlt = createTextAlternative(
+        instrument.scoring.dimensions.map(d => ({ key: d.key, label: d.label })),
+        [{ label: 'Your profile', values: instrument.scoring.dimensions.map(d => normalizedScores[d.key] || 0) }]
+      );
+      resultSection.appendChild(textAlt);
+
+      const scoresGrid = document.createElement('div');
+      scoresGrid.className = 'quiz-result__scores';
+      for (const dim of instrument.scoring.dimensions) {
+        const item = document.createElement('div');
+        item.className = 'quiz-result__score-item';
+        item.innerHTML = `<span class="quiz-result__score-label">${dim.label}</span><span class="quiz-result__score-value">${normalizedScores[dim.key] || 0}</span>`;
+        scoresGrid.appendChild(item);
+      }
+      resultSection.appendChild(scoresGrid);
+
+      addResultSection(resultSection, 'What you contribute', primaryInfo.contribution);
+      addResultSection(resultSection, 'Where your mission may be distorted', primaryInfo.risk);
+
+      const ecologyResult = computeEcology(state);
+      if (ecologyResult) {
+        addResultSection(resultSection, 'Where you may thrive',
+          `Your map is closest to <strong>${ecologyResult.primary.title}</strong>, with strong <strong>${ecologyResult.adjacent.title}</strong> tendencies.<br><br>${ecologyResult.primary.character}`);
+      }
+
+      const complementText = getComplementarityText(primaryRole, secondaryRole);
+      if (complementText) {
+        addResultSection(resultSection, 'Who completes your map', complementText);
+      }
+
+      const stage = state.contextAnswers.stage || 'exploring';
+      const experimentTemplate = interpretation.experiments[stage] || interpretation.experiments.exploring;
+      const experiment = experimentTemplate.replace('{experiment}', primaryInfo.experiment);
+      addResultSection(resultSection, 'Your next experiment', experiment);
+
+      addResultSection(resultSection, 'Limitations',
+        'This instrument is an original reflective exploration, not a validated psychometric assessment. Results describe patterns, not predictions. Your actual contribution depends on context, collaborators, and choices this quiz cannot capture.');
+
+      if (interpretation.recommendation) {
+        const rec = document.createElement('div');
+        rec.className = 'quiz-recommendation';
+        rec.innerHTML = `
+          <p class="quiz-recommendation__label">${interpretation.recommendation.label}</p>
+          <h3 class="quiz-recommendation__title">${interpretation.recommendation.title}</h3>
+          <p class="quiz-recommendation__text">${interpretation.recommendation.text}</p>
+          <a href="${interpretation.recommendation.url}" target="_blank" rel="noopener noreferrer" class="quiz-btn quiz-btn--secondary">${interpretation.recommendation.buttonText}</a>
+          <p class="quiz-recommendation__text" style="margin-top:0.5rem;font-size:0.8rem;">${interpretation.recommendation.note}</p>
+        `;
+        resultSection.appendChild(rec);
+      }
+
+      renderShareSection(resultSection, state, primaryRole, secondaryRole, primaryInfo, ecologyResult);
+
+      el.appendChild(resultSection);
+    }
+
+    function addResultSection(parent, title, content) {
+      const section = document.createElement('div');
+      section.className = 'quiz-result__section';
+      const h = document.createElement('h3');
+      h.textContent = title;
+      const p = document.createElement('p');
+      p.innerHTML = content;
+      section.appendChild(h);
+      section.appendChild(p);
+      parent.appendChild(section);
+    }
+
+    function computeEcology(state) {
+      if (!instrument.ecologyPrototypes) return null;
+
+      const ecologyValues = [];
+      for (let i = 0; i < instrument.questions.length; i++) {
+        const q = instrument.questions[i];
+        if (q.ecologyAxis) {
+          const answer = state.answers[i];
+          ecologyValues.push(answer !== undefined ? parseInt(answer) : 50);
+        }
+      }
+      ecologyScores = ecologyValues;
+
+      if (ecologyValues.length === 0) return null;
+
+      const prototypes = instrument.ecologyPrototypes;
+      const distances = [];
+
+      for (const [key, proto] of Object.entries(prototypes)) {
+        const squared = ecologyValues.reduce((sum, val, i) => sum + Math.pow(val - proto[i], 2), 0);
+        distances.push({ key, distance: Math.sqrt(squared / ecologyValues.length) });
+      }
+
+      distances.sort((a, b) => a.distance - b.distance);
+
+      return {
+        primary: interpretation.ecologies[distances[0].key],
+        adjacent: interpretation.ecologies[distances[1].key],
+        primaryKey: distances[0].key,
+        adjacentKey: distances[1].key
+      };
+    }
+
+    function getComplementarityText(primaryRole, secondaryRole) {
+      const pairs = interpretation.complementarityPairs || [];
+      const matches = pairs.filter(p =>
+        (p.role1 === primaryRole && p.role2 === secondaryRole) ||
+        (p.role2 === primaryRole && p.role1 === secondaryRole)
+      );
+
+      if (matches.length > 0) {
+        return matches.map(m => m.description).join('<br><br>');
+      }
+
+      const primaryComplements = interpretation.roles[primaryRole]?.complements || [];
+      const complementNames = primaryComplements.map(k => interpretation.roles[k]?.title || k);
+      return `You may work well with <strong>${complementNames.join('</strong> and <strong>')}</strong> roles. Their contributions complement yours.`;
+    }
+
+    function renderShareSection(parent, state, primaryRole, secondaryRole, primaryInfo, ecologyResult) {
+      const section = document.createElement('div');
+      section.className = 'quiz-share-section';
+
+      const h = document.createElement('h3');
+      h.textContent = 'Share your map';
+      section.appendChild(h);
+
+      const shareLevels = document.createElement('div');
+      shareLevels.className = 'quiz-share-options';
+
+      const levels = [
+        { id: 'invite', title: 'Invite someone', desc: 'Share the quiz link only' },
+        { id: 'minimal', title: 'Minimal result', desc: `${primaryInfo.title} × ${interpretation.roles[secondaryRole].title}` },
+        { id: 'full', title: 'Full map', desc: 'Profile, scores, and diagram' }
+      ];
+
+      for (const level of levels) {
+        const label = document.createElement('label');
+        label.className = 'quiz-share-level';
+        label.innerHTML = `
+          <input type="radio" name="share-level" value="${level.id}">
+          <div>
+            <div class="quiz-share-level__title">${level.title}</div>
+            <div class="quiz-share-level__desc">${level.desc}</div>
+          </div>
+        `;
+        shareLevels.appendChild(label);
+      }
+      section.appendChild(shareLevels);
+
+      const buttons = document.createElement('div');
+      buttons.className = 'quiz-share-buttons';
+
+      const copyLinkBtn = document.createElement('button');
+      copyLinkBtn.className = 'quiz-btn quiz-btn--primary';
+      copyLinkBtn.textContent = 'Create shareable link';
+      copyLinkBtn.addEventListener('click', () => {
+        const payload = buildPayload(state);
+        const url = buildShareUrl(window.location.href.split('#')[0], payload);
+        navigator.clipboard.writeText(url).then(() => {
+          showToast('Link copied to clipboard');
+        });
+      });
+
+      const downloadBtn = document.createElement('button');
+      downloadBtn.className = 'quiz-btn quiz-btn--secondary';
+      downloadBtn.textContent = 'Download card';
+      downloadBtn.addEventListener('click', async () => {
+        const card = await generateCard(state, primaryRole, secondaryRole, ecologyResult);
+        downloadCanvas(card, 'explorer-compass.png');
+      });
+
+      const shareBtn = document.createElement('button');
+      shareBtn.className = 'quiz-btn quiz-btn--secondary';
+      shareBtn.textContent = 'Share';
+      shareBtn.addEventListener('click', async () => {
+        const card = await generateCard(state, primaryRole, secondaryRole, ecologyResult);
+        const shareText = interpretation.shareTexts.minimal
+          .replace('{primaryRole}', primaryInfo.title)
+          .replace('{secondaryRole}', interpretation.roles[secondaryRole].title);
+        await shareCanvas(card, {
+          shareText,
+          quizUrl: window.location.href.split('#')[0],
+          filename: 'explorer-compass.png'
+        });
+      });
+
+      const compareBtn = document.createElement('button');
+      compareBtn.className = 'quiz-btn quiz-btn--secondary';
+      compareBtn.textContent = 'Compare with another explorer';
+      compareBtn.addEventListener('click', () => {
+        const payload = buildPayload(state);
+        const url = buildShareUrl(window.location.href.split('#')[0], payload);
+        navigator.clipboard.writeText(url).then(() => {
+          showToast('Comparison link copied. Send it to someone and they can compare after taking the quiz.');
+        });
+      });
+
+      buttons.appendChild(copyLinkBtn);
+      buttons.appendChild(downloadBtn);
+      buttons.appendChild(shareBtn);
+      buttons.appendChild(compareBtn);
+      section.appendChild(buttons);
+
+      const copyIntroBtn = document.createElement('button');
+      copyIntroBtn.className = 'quiz-btn quiz-btn--secondary';
+      copyIntroBtn.style.marginTop = '1rem';
+      copyIntroBtn.textContent = 'Copy my Explorer introduction';
+      copyIntroBtn.addEventListener('click', () => {
+        const domains = (state.contextAnswers.domains || []).join(', ') || 'Not specified';
+        const text = interpretation.explorerCircleIntro
+          .replace('{primaryRole}', primaryInfo.title)
+          .replace('{secondaryRole}', interpretation.roles[secondaryRole].title)
+          .replace('{domains}', domains)
+          .replace('{contribution}', primaryInfo.contribution)
+          .replace('{complementRoles}', (primaryInfo.complements || []).map(k => interpretation.roles[k]?.title || k).join(', '))
+          .replace('{experiment}', primaryInfo.experiment);
+        navigator.clipboard.writeText(text).then(() => showToast('Introduction copied'));
+      });
+      section.appendChild(copyIntroBtn);
+
+      parent.appendChild(section);
+    }
+
+    function buildPayload(state) {
+      const roleScores = instrument.scoring.dimensions.map(d => state.scores[d.key] || 0);
+      return {
+        v: 1,
+        r: roleScores,
+        e: ecologyScores.length > 0 ? ecologyScores : undefined
+      };
+    }
+
+    async function generateCard(state, primaryRole, secondaryRole, ecologyResult) {
+      const primaryInfo = interpretation.roles[primaryRole];
+      const secondaryInfo = interpretation.roles[secondaryRole];
+      const axes = instrument.scoring.dimensions.map(d => ({ key: d.key, label: d.label.split(' ').map(w => w[0]).join('') }));
+      const scores = axes.map(a => state.scores[a.key] || 0);
+
+      return generateShareCard({
+        quizTitle: 'Explorer Compass',
+        resultTitle: `${primaryInfo.title} × ${secondaryInfo.title}`,
+        subtitle: ecologyResult ? ecologyResult.primary.title : '',
+        axes: axes,
+        scores: scores,
+        shareText: interpretation.shareTexts.invite,
+        quizUrl: window.location.href.split('#')[0]
+      });
+    }
+
+    function renderSharedResult() {
+      const roleKeys = instrument.scoring.dimensions.map(d => d.key);
+      const scores = {};
+      for (let i = 0; i < roleKeys.length; i++) {
+        scores[roleKeys[i]] = sharedResult.r[i];
+      }
+
+      const sorted = [...roleKeys].sort((a, b) => scores[b] - scores[a]);
+      const primary = sorted[0];
+      const secondary = sorted[1];
+
+      const section = document.createElement('section');
+      section.className = 'quiz-result';
+      section.innerHTML = `
+        <div class="quiz-result__header">
+          <p class="quiz-result__kicker">Shared Explorer Constellation</p>
+          <h1 class="quiz-result__title">${interpretation.roles[primary].title} × ${interpretation.roles[secondary].title}</h1>
+        </div>
+      `;
+
+      const chartContainer = document.createElement('div');
+      chartContainer.className = 'quiz-result__chart';
+      const axes = instrument.scoring.dimensions.map(d => ({ key: d.key, label: d.label.split(' ').map(w => w[0]).join('') }));
+      const chart = createRadarChart({
+        axes: axes,
+        datasets: [{ label: 'Shared profile', values: axes.map(a => scores[a.key]) }],
+        size: 320
+      });
+      chartContainer.appendChild(chart);
+      section.appendChild(chartContainer);
+
+      const cta = document.createElement('div');
+      cta.style.textAlign = 'center';
+      cta.style.marginTop = '2rem';
+      cta.innerHTML = `
+        <p style="color:var(--color-text-muted);margin-bottom:1rem;">Take the Compass and compare your maps.</p>
+        <a href="${window.location.href.split('#')[0]}" class="quiz-btn quiz-btn--primary">Take the Explorer Compass</a>
+      `;
+      section.appendChild(cta);
+
+      container.appendChild(section);
+    }
+
+    function showToast(message) {
+      const toast = document.createElement('div');
+      toast.style.cssText = 'position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:#1e2130;color:#d4a853;padding:0.75rem 1.5rem;border-radius:8px;border:1px solid #2e3247;font-size:0.9rem;z-index:1000;';
+      toast.textContent = message;
+      document.body.appendChild(toast);
+      setTimeout(() => toast.remove(), 2500);
+    }
+
+    init();
+  </script>
+  <script>
+    (function(){var t=document.getElementById('theme-toggle'),h=document.documentElement,s=localStorage.getItem('quiz-theme');if(s){h.setAttribute('data-theme',s);t.textContent=s==='dark'?'☾':'☀';}t.addEventListener('click',function(){var c=h.getAttribute('data-theme'),n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('quiz-theme',n);t.textContent=n==='dark'?'☾':'☀';});})();
+  </script>
+</body>
+</html>

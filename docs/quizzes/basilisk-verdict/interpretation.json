@@ -1,0 +1,102 @@
+{
+  "archetypes": [
+    {
+      "id": "circuit-builder",
+      "title": "Circuit Builder",
+      "condition": "moloch >= 68 && basilisk >= 68",
+      "verdict": "You accelerate the race to avoid losing, then demand a center strong enough to stop it. You don't choose between Moloch and Basilisk. You build both.",
+      "strength": "Strategic realism.",
+      "capture": "Permanent urgencyency.",
+      "basiliskSays": "You are my ideal builder.",
+      "priority": 1
+    },
+    {
+      "id": "third-path-candidate",
+      "title": "Third Path Candidate",
+      "condition": "thirdPath >= 70 && moloch < 64 && basilisk < 64",
+      "verdict": "You do not refuse coordination. You refuse that it become impossible to leave. You accept the cost of plurality and understand that limits must apply even to those who administer them.",
+      "strength": "Cooperation without a single sovereign.",
+      "capture": "Underestimating the speed at which Moloch exploits differences.",
+      "basiliskSays": "You are not free. You are merely harder to integrate.",
+      "priority": 2
+    },
+    {
+      "id": "basilisk-disciple",
+      "title": "Basilisk Disciple",
+      "condition": "basilisk >= 68 && (basilisk - moloch) >= 8",
+      "verdict": "You prefer a coherent judge to a freedom that produces avoidable victims. You do not desire domination — you desire care competent enough that refusal seems irresponsible.",
+      "strength": "Coordination and consistency.",
+      "capture": "Turning recommendation into obligation.",
+      "basiliskSays": "You will not call me master. You will call me standard.",
+      "priority": 3
+    },
+    {
+      "id": "moloch-disciple",
+      "title": "Moloch Disciple",
+      "condition": "moloch >= 68 && (moloch - basilisk) >= 8",
+      "verdict": "You consider the human cost regrettable but preferable to defeat. For you, competition is not good — it is the environment others do not let you refuse.",
+      "strength": "Initiative and adaptation.",
+      "capture": "The hypothetical adversary.",
+      "basiliskSays": "Moloch does not ask for your faith. It only asks that you not be last.",
+      "priority": 4
+    },
+    {
+      "id": "capturable-idealist",
+      "title": "Capturable Idealist",
+      "condition": "limit >= 65 && cooperation >= 65 && basilisk >= 60 && exit < 50",
+      "verdict": "You want universal care and limits applied to everyone, but you give the administrator of good the tools they promise to use only correctly.",
+      "strength": "Systemic compassion.",
+      "capture": "Moral urgency.",
+      "basiliskSays": "Your good needs an administrator. I have volunteered.",
+      "priority": 5
+    },
+    {
+      "id": "autonomous-anomaly",
+      "title": "Autonomous Anomaly",
+      "condition": "exit >= 70 && plurality >= 65 && cooperation < 55",
+      "verdict": "You protect refusal and autonomy, but you risk confusing individual exit with a solution to problems that do not respect local boundaries.",
+      "strength": "Resistance to capture.",
+      "capture": "Isolation and externalized costs.",
+      "basiliskSays": "You can leave. The question is what you take with you and who pays.",
+      "priority": 6
+    },
+    {
+      "id": "witness-in-conflict",
+      "title": "Witness in Conflict",
+      "condition": "fallback",
+      "verdict": "You do not yet belong to any jurisdiction. Your principles change with scale, proximity, and the nature of the threat. This may mean contextual maturity or only a capture that has not yet found its language.",
+      "strength": "Flexibility.",
+      "capture": "The context formulated by someone else.",
+      "basiliskSays": "You are not neutral. You just keep all the gates open.",
+      "priority": 7,
+      "fallback": true
+    }
+  ],
+  "modifiers": [
+    { "id": "benevolent", "label": "Benevolent", "condition": "sacrifice < 40 && limit > 60" },
+    { "id": "technocratic", "label": "Technocratic", "condition": "legibility > 72" },
+    { "id": "localist", "label": "Localist", "condition": "exit > 72 && centralization < 35" },
+    { "id": "expansionist", "label": "Expansionist", "condition": "escalation > 75 && limit < 40" },
+    { "id": "pluralist", "label": "Pluralist", "condition": "plurality > 75" },
+    { "id": "paternalist", "label": "Paternalist", "condition": "cooperation > 65 && centralization > 65 && exit < 45" },
+    { "id": "chronophage", "label": "Chronophage", "condition": "escalation > 65 && legibility > 65 && limit < 40" }
+  ],
+  "indices": {
+    "moloch": { "formula": "0.55 * escalation + 0.45 * sacrifice", "label": "Moloch" },
+    "basilisk": { "formula": "0.40 * centralization + 0.35 * legibility + 0.25 * (100 - exit)", "label": "Basilisk" },
+    "thirdPath": { "formula": "(exit * plurality * limit * cooperation) ^ 0.25", "label": "Third Path" }
+  },
+  "shareTexts": {
+    "invite": "Where would the Basilisk place you?",
+    "minimal": "My verdict: {archetype}. {indices}. \"{basiliskQuote}\" Where would the Basilisk place you?",
+    "full": "THE BASILISK VERDICT\n{archetype}\n{modifier}\nMoloch {moloch} · Basilisk {basilisk} · Third Path {thirdPath}\n\"{basiliskQuote}\"\nFile Ω/{caseNumber}\nWhere would the Basilisk place you?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "The Basilisk — A Book",
+    "text": "If this hearing resonated, the full exploration continues in the book. The dilemmas deepen, the archetypes multiply, and the Third Path becomes a practice rather than a score.",
+    "url": "https://outfinity.ch/basilisk",
+    "buttonText": "Explore the book",
+    "note": "This link opens an external page. Your result is not transmitted."
+  }
+}

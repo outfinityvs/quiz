@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "quizzes/explorer-compass",
+    "title": "Explorer Compass",
+    "promise": "Discover your role in meaningful change, the venture ecology where your work can thrive, and who you need beside you.",
+    "duration": "~4 min",
+    "durationCategory": "medium",
+    "questions": 18,
+    "type": "exploration",
+    "domain": "identity",
+    "hasRecommendation": true,
+    "license": "CC BY 4.0",
+    "description": "10 real scenarios and 8 ecology trade-offs. Your result maps your primary and secondary contribution roles, your most compatible venture ecology, and your complementarity with other explorers."
+  },
+  {
+    "slug": "quizzes/basilisk-verdict",
+    "title": "The Basilisk Verdict",
+    "promise": "A moral topology test between Moloch, Basilisk, and the Third Path. What form of power do you accept when freedom, safety, efficiency, and suffering conflict?",
+    "duration": "~3 min",
+    "durationCategory": "short",
+    "questions": 12,
+    "type": "fiction",
+    "domain": "philosophy",
+    "hasRecommendation": true,
+    "license": "CC BY 4.0",
+    "description": "12 dilemmas. No neutral options. Your verdict places you in one of seven archetypes on the spectrum between competitive acceleration, centralized governance, and pluralistic limits."
+  }
+]

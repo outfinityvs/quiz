@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy — Outfinity Quiz</title>
+  <meta name="description" content="Privacy by architecture. No accounts, no cookies, no analytics, no data transmission.">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <script>
+    (function(){var t=document.getElementById("theme-toggle"),h=document.documentElement,s=localStorage.getItem("quiz-theme");if(s){h.setAttribute("data-theme",s);t.textContent=s==="dark"?"☾":"☀";}t.addEventListener("click",function(){var c=h.getAttribute("data-theme"),n=c==="dark"?"light":"dark";h.setAttribute("data-theme",n);localStorage.setItem("quiz-theme",n);t.textContent=n==="dark"?"☾":"☀";});})();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="../index.html" class="site-header__logo">
+      <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="3"/>
+        <circle cx="50" cy="50" r="8" fill="currentColor"/>
+        <line x1="50" y1="5" x2="50" y2="25" stroke="currentColor" stroke-width="2"/>
+        <line x1="50" y1="75" x2="50" y2="95" stroke="currentColor" stroke-width="2"/>
+        <line x1="5" y1="50" x2="25" y2="50" stroke="currentColor" stroke-width="2"/>
+        <line x1="75" y1="50" x2="95" y2="50" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span>Outfinity Quiz</span>
+    </a>
+    <nav class="site-header__nav">
+      <a href="../index.html">Catalog</a>
+      <a href="../sitemap.html">All Tests</a>
+      
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☀</button>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>Privacy by Architecture</h1>
+
+    <p>Questions and answers are processed exclusively in your browser. Outfinity Quiz does not use accounts, cookies, analytics, pixels, fingerprinting, or external scripts.</p>
+
+    <h2>What We Do Not Receive</h2>
+
+    <p>When you take a quiz, your answers, scores, and profile exist only in the memory of the current page. Closing or reloading the page erases everything. We do not receive any of this information.</p>
+
+    <p>The quiz pages enforce this through a Content Security Policy directive (<code>connect-src 'none'</code>) that prevents JavaScript from making any network requests after the page loads. This is a technical guarantee, not a policy promise.</p>
+
+    <h2>Shareable Links</h2>
+
+    <p>A shareable link is created only when you explicitly request it. The link encodes your aggregated result (scores on each dimension, archetype) in the URL fragment — the part after the <code>#</code> symbol.</p>
+
+    <p>The URL fragment is processed by your browser and is not sent to the server when the page is requested. This means the hosting provider does not see your result, even in server logs.</p>
+
+    <p>The shareable payload never contains individual answers, names, email addresses, completion time, professional domains, or unique identifiers.</p>
+
+    <h2>External Links</h2>
+
+    <p>Some quiz results include an optional next step pointing to an Outfinity initiative, a venture, or a partner. Clicking these links opens an external page in a new tab with <code>rel="noopener noreferrer"</code>. No quiz data is transmitted through these links.</p>
+
+    <p>If you choose to open Explorer Circle (hosted on Substack), Substack's own privacy policy applies. Your quiz result is not transmitted automatically.</p>
+
+    <h2>Hosting</h2>
+
+    <p>The hosting provider may retain standard technical access logs for page requests. These logs contain the URL path and standard HTTP headers, but not the URL fragment or any quiz answers.</p>
+
+    <h2>Local Storage</h2>
+
+    <p>By default, quiz state exists only in page memory. If a quiz offers the option to save progress locally, this requires your explicit action. You can always delete all locally stored data from the same interface.</p>
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="../index.html">Catalog</a>
+      <a href="../sitemap.html">All Tests</a>
+      
+      <a href="../licenses/index.html">Licenses</a>
+      <a href="../partners/index.html">Partners</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☀</button>
+    </nav>
+    <p class="site-footer__disclaimer">AI was used in coding and processing these quizzes. The inspiration and sources are real, but errors may have slipped through. If you find something wrong, please <a href="mailto:quiz@outfinity.ch">send us feedback</a>.</p>
+    <p>An initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>.</p>
+  </footer>
+</body>
+</html>

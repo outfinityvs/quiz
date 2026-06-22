@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Tests — Outfinity Quiz</title>
+  <meta name="description" content="Complete directory of all Outfinity Quiz instruments, grouped by category.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="site-header__logo">
+      <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="3"/>
+        <circle cx="50" cy="50" r="8" fill="currentColor"/>
+        <line x1="50" y1="5" x2="50" y2="25" stroke="currentColor" stroke-width="2"/>
+        <line x1="50" y1="75" x2="50" y2="95" stroke="currentColor" stroke-width="2"/>
+        <line x1="5" y1="50" x2="25" y2="50" stroke="currentColor" stroke-width="2"/>
+        <line x1="75" y1="50" x2="95" y2="50" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span>Outfinity Quiz</span>
+    </a>
+    <nav class="site-header__nav">
+      <a href="index.html">Catalog</a>
+      
+      <a href="privacy/index.html">Privacy</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">☀</button>
+    </nav>
+  </header>
+
+  <main class="sitemap">
+    <h1>All Tests</h1>
+    <p style="text-align:center;color:var(--text-muted);margin-bottom:var(--space-2xl);max-width:760px;margin-left:auto;margin-right:auto;">
+      Complete directory of all Outfinity Quiz instruments. Each test runs entirely in your browser.
+      No answers, scores, or profiles are transmitted to any server.
+    </p>
+
+    <section class="sitemap__category">
+      <h2>Identity and Roles</h2>
+      <ul class="sitemap__list">
+        <li class="sitemap__item">
+          <a href="quizzes/explorer-compass/index.html">Explorer Compass</a>
+          <p class="sitemap__item-desc">Discover your role in meaningful change, your venture ecology, and who completes your map. 18 questions, ~4 min.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="sitemap__category">
+      <h2>Philosophy and Values</h2>
+      <ul class="sitemap__list">
+        <li class="sitemap__item">
+          <a href="quizzes/basilisk-verdict/index.html">The Basilisk Verdict</a>
+          <p class="sitemap__item-desc">A moral topology test between Moloch, Basilisk, and the Third Path. 12 dilemmas, ~3 min.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="sitemap__category">
+      <h2>Personality and Cognitive Style</h2>
+      <ul class="sitemap__list">
+        <li class="sitemap__item">
+          <span style="color:var(--text-dim);font-style:italic;">Coming soon — tests based on IPIP public-domain personality scales</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="sitemap__category">
+      <h2>Interests and Vocation</h2>
+      <ul class="sitemap__list">
+        <li class="sitemap__item">
+          <span style="color:var(--text-dim);font-style:italic;">Coming soon — tests inspired by O*NET RIASEC interest dimensions</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="sitemap__category">
+      <h2>Decision and Cognition</h2>
+      <ul class="sitemap__list">
+        <li class="sitemap__item">
+          <span style="color:var(--text-dim);font-style:italic;">Coming soon — tests on decision style, risk literacy, and evidence reasoning</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="sitemap__category">
+      <h2>Collaboration and Trust</h2>
+      <ul class="sitemap__list">
+        <li class="sitemap__item">
+          <span style="color:var(--text-dim);font-style:italic;">Coming soon — tests on trust architecture, conflict style, and team roles</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="sitemap__category">
+      <h2>Knowledge and World Awareness</h2>
+      <ul class="sitemap__list">
+        <li class="sitemap__item">
+          <span style="color:var(--text-dim);font-style:italic;">Coming soon — tests using open data from Wikidata, World Bank, and Our World in Data</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="index.html">Catalog</a>
+      <a href="privacy/index.html">Privacy</a>
+      <a href="licenses/index.html">Licenses</a>
+      <a href="partners/index.html">Partners</a>
+      
+    </nav>
+    <p class="site-footer__disclaimer">AI was used in coding and processing these quizzes. The inspiration and sources are real, but errors may have slipped through. If you find something wrong, please <a href="mailto:quiz@outfinity.ch">send us feedback</a>.</p>
+    <p>An initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>.</p>
+  </footer>
+
+  <script>
+    (function() {
+      var toggle = document.getElementById('theme-toggle');
+      var html = document.documentElement;
+      var saved = localStorage.getItem('quiz-theme');
+      if (saved) {
+        html.setAttribute('data-theme', saved);
+        toggle.textContent = saved === 'dark' ? '☾' : '☀';
+      }
+      toggle.addEventListener('click', function() {
+        var current = html.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('quiz-theme', next);
+        toggle.textContent = next === 'dark' ? '☾' : '☀';
+      });
+    })();
+  </script>
+</body>
+</html>
