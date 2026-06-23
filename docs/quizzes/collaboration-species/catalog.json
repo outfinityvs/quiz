@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/collaboration-species",
+  "title": "Collaboration Species",
+  "promise": "How do you actually work with others? Map your collaboration species — solo, dyad, team, weaver, or mentor — and invite colleagues for a team constellation.",
+  "duration": "~4 min",
+  "durationCategory": "medium",
+  "questions": 10,
+  "type": "exploration",
+  "domain": "collaboration",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "10 forced-choice scenarios. Mark first and second instinct (first = 3 points, second = 1). Result maps your primary and secondary collaboration species across five archetypes and suggests team compositions and the collaborators that complement you.",
+  "ogTitle": "Collaboration Species — Outfinity Quiz",
+  "ogDescription": "How do you actually work with others? 10 scenarios, ~4 min. Private by design."
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/founder-readiness-assessment",
+  "title": "Founder Readiness Radar",
+  "promise": "Founder readiness diagnostic across opportunity evidence, execution, resourcefulness, economics, and resilience.",
+  "duration": "5-7 min",
+  "durationCategory": "medium",
+  "questions": 12,
+  "type": "maturity",
+  "domain": "founders",
+  "priority": "P1",
+  "audience": "Aspiring founders, first-time founders, accelerators, and entrepreneurship programmes",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Maturity assessment across Opportunity Insight, Execution Discipline, Resourcefulness & Economics, Resilience & Sustainability. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Founder Readiness Radar - Outfinity Quiz",
+  "ogDescription": "Founder readiness diagnostic across opportunity evidence, execution, resourcefulness, economics, and resilience."
+}

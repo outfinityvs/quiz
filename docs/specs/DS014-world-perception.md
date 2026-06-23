@@ -1,7 +1,7 @@
 ---
 id: DS014
 title: World Perception Challenge
-status: planned
+status: draft
 owner: outfinity
 summary: Factual intuition quiz using open data from World Bank and Our World in Data, measuring how realistically the user perceives global trends.
 ---

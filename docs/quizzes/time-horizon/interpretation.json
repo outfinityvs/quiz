@@ -1,0 +1,23 @@
+{
+  "orientations": {
+    "pastPositive": { "title": "Past-positive", "high": "You draw warmth and stability from positive memories and traditions. This is a real resource \u2014 a groundedness many people lack.", "mid": "You revisit your past selectively and mostly warmly, without living in it.", "low": "You reach little for positive memory or tradition; you may be missing a stable base many draw on under pressure." },
+    "pastNegative": { "title": "Past-negative", "high": "Regret and painful recall intrude on you more than they should. This does not make you wrong \u2014 but it is worth asking what those replays are teaching you that you have not yet learned.", "mid": "You carry some regret but do not live there.", "low": "You are largely free of regret-driven replays \u2014 a strength, as long as it is not avoidance of real lessons." },
+    "presentHedonistic": { "title": "Present-hedonistic", "high": "You go toward stimulation and pleasure in the moment. This is vitality \u2014 it risks underweighting the future, but the future also needs people who are alive right now.", "mid": "You enjoy the present without making it your whole horizon.", "low": "You are sparing with present pleasure \u2014 fine if chosen, costly if it leaves you brittle." },
+    "presentFatalistic": { "title": "Present-fatalistic", "high": "You feel much is out of your hands and planning barely helps. Sometimes accurate, sometimes a story that quietly disables you. Worth asking which situations each one really is.", "mid": "You accept what you cannot change without generalizing it.", "low": "You hold a strong sense of agency over the present \u2014 protect it from becoming denial of real constraints." },
+    "future": { "title": "Future-oriented", "high": "You plan, defer gratification, and aim years ahead. This is a powerful mode \u2014 ensure the plan you are deferring toward is one you actually want to arrive at.", "mid": "You hold a future horizon without living only for it.", "low": "You hold a short horizon toward the future. Fine if chosen; costly if it leaves long things unmade." }
+  },
+  "balanceNote": "There is no \u201cbalanced\u201d profile prescribed here. A leaning future with warmth for the past and room for present pleasure tends to be resilient; but a dominant future with a starved present, or a dominant present with an unbuilt future, each has a predictable cost.",
+  "shareTexts": {
+    "invite": "How do you relate to past, present, and future?",
+    "minimal": "I framed my Time Horizon Portrait. What is yours?",
+    "full": "I framed my Time Horizon Portrait.\n{profileSummary}\nWhat is yours?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for builders comparing their time horizon and finding partners whose orientations complement across a long-horizon mission. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

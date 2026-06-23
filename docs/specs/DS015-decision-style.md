@@ -1,7 +1,7 @@
 ---
 id: DS015
 title: Decision Style Profile
-status: planned
+status: draft
 owner: outfinity
 summary: Decision-making style profile mapping five axes: Analytical ↔ Intuitive, Risk ↔ Caution, Speed ↔ Accuracy, Control ↔ Adaptation, Solo ↔ Collaborative.
 ---

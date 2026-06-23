@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Perception Challenge — Outfinity Quiz</title>
+  <meta name="description" content="How realistic is your view of the world? 12 questions, real open data. ~3 min. Private by design.">
+  <meta property="og:title" content="World Perception Challenge — Outfinity Quiz">
+  <meta property="og:description" content="Check your intuition against real open data. Private by design.">
+  <meta property="og:image" content="../../assets/og-default.png">
+  <meta property="og:url" content="https://quiz.outfinity.ch/quizzes/world-perception/">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none';">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="../../engine/quiz-styles.css">
+  <style>
+    .wp-domain { margin-bottom: var(--space-xl); padding-bottom: var(--space-lg); border-bottom: 1px solid var(--border); }
+    .wp-domain__label { color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.8rem; }
+    .wp-domain__style { font-family: var(--font-heading); color: var(--accent); font-size: 1.4rem; margin: var(--space-xs) 0 var(--space-sm); }
+    .wp-domain__text { color: var(--text-muted); line-height: 1.78; }
+    .wp-reveal { margin: var(--space-xl) 0; }
+    .wp-reveal__q { color: var(--text); font-weight: 700; margin-bottom: var(--space-xs); }
+    .wp-reveal__line { color: var(--text-muted); font-size: 0.92rem; margin: 0.15rem 0; }
+    .wp-reveal__line--you { color: var(--text); }
+    .wp-reveal__line--correct { color: var(--accent); font-weight: 700; }
+    .wp-reveal__line--miss { color: #c0392b; }
+    .wp-reveal__src { color: var(--text-dim); font-size: 0.82rem; font-style: italic; }
+    .wp-summary { display: flex; justify-content: center; gap: var(--space-xl); flex-wrap: wrap; margin: var(--space-lg) 0; }
+    .wp-summary__item { text-align: center; }
+    .wp-summary__count { font-family: var(--font-heading); color: var(--accent); font-size: 1.6rem; }
+    .wp-summary__label { color: var(--text-dim); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a href="../../index.html" class="site-header__logo">
+      <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="3"/>
+        <circle cx="50" cy="50" r="8" fill="currentColor"/>
+        <line x1="50" y1="5" x2="50" y2="25" stroke="currentColor" stroke-width="2"/>
+        <line x1="50" y1="75" x2="50" y2="95" stroke="currentColor" stroke-width="2"/>
+        <line x1="5" y1="50" x2="25" y2="50" stroke="currentColor" stroke-width="2"/>
+        <line x1="75" y1="50" x2="95" y2="50" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span>Outfinity Quiz</span>
+    </a>
+    <nav class="site-header__nav">
+      <a href="../../index.html">Home</a>
+      <a href="../../sitemap.html">All Quizzes</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☀</button>
+    </nav>
+  </header>
+
+  <main id="quiz-container">
+    <nav class="breadcrumb" style="width:var(--editorial);margin:var(--space-md) auto 0;">
+      <a href="../../index.html">Home</a>
+      <span class="breadcrumb__sep">›</span>
+      <a href="../../sitemap.html#knowledge">Knowledge and World Awareness</a>
+      <span class="breadcrumb__sep">›</span>
+      <span class="breadcrumb__current">World Perception Challenge</span>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href="../../privacy/index.html">Privacy</a>
+    </nav>
+    <p class="site-footer__disclaimer">AI was used in coding and processing these quizzes. The inspiration and sources are real, but errors may have slipped through. If you find something wrong, please <a href="mailto:quiz@outfinity.ch">send us feedback</a>.</p>
+    <p>An initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>.</p>
+  </footer>
+
+  <script type="module">
+    import { createEngine } from '../../engine/quiz-engine.js';
+    import { generateShareCard, downloadCanvas, shareCanvas } from '../../engine/share-card.js';
+    import { buildShareUrl, parseFragment, validatePayload } from '../../engine/url-codec.js';
+
+    const container = document.getElementById('quiz-container');
+    let instrument = null, interpretation = null, sharedResult = null;
+    let lastState = null;
+    const DOMAIN_ORDER = ['health', 'economic', 'demographic', 'climate'];
+
+    async function init() {
+      const fragment = parseFragment();
+      if (fragment) {
+        const v = validatePayload(fragment, { versions: [1], dimensions: 4, maxValue: 3 });
+        if (v.valid) sharedResult = fragment;
+      }
+      try {
+        const [a, b] = await Promise.all([fetch('instrument.json'), fetch('interpretation.json')]);
+        instrument = await a.json(); interpretation = await b.json();
+      } catch (e) {
+        container.innerHTML = '<div class="quiz-stage"><p>Could not load quiz data. Run through a local server.</p><p><a href="../../index.html">Return to catalog</a></p></div>';
+        return;
+      }
+      if (sharedResult) renderShared(); else startQuiz();
+    }
+
+    function startQuiz() {
+      const engine = createEngine(container, {
+        id: instrument.id, version: instrument.version, title: instrument.title,
+        introduction: instrument.introduction, questions: instrument.questions, scoring: instrument.scoring,
+        banner: instrument.banner,
+        questionOrder: 'sequential', deliberationText: 'Checking your answers against the data...',
+        interpretation: { archetypes: [] }, onResult: (state, el) => renderResult(state, el)
+      });
+      engine.render(container);
+    }
+
+    function biasForStyle(bias) {
+      if (!bias) return 'none';
+      if (bias.startsWith('pessimistic')) return 'pessimistic';
+      if (bias === 'optimistic') return 'optimistic';
+      if (bias === 'static') return 'pessimistic';
+      return 'none';
+    }
+
+    function computeStyles(rawScores, answers) {
+      const styles = {};
+      for (const dim of instrument.scoring.dimensions) {
+        const correct = rawScores[dim.key] || 0;
+        if (correct >= 2) { styles[dim.key] = 'realistic'; continue; }
+        if (correct === 1) { styles[dim.key] = 'selective'; continue; }
+        let pess = 0, opt = 0;
+        for (const q of instrument.questions) {
+          if (q.dimension !== dim.key) continue;
+          const chosen = answers && answers[instrument.questions.indexOf(q)];
+          const opt_ = q.options.find(o => o.key === chosen);
+          if (!opt_) continue;
+          const b = biasForStyle(opt_.bias);
+          if (b === 'pessimistic') pess++; else if (b === 'optimistic') opt++;
+        }
+        styles[dim.key] = (pess > opt) ? 'pessimistic' : (opt > pess ? 'optimistic' : 'pessimistic');
+      }
+      return styles;
+    }
+
+    function styleFromCounts(counts) {
+      const styles = {};
+      for (const dim of instrument.scoring.dimensions) {
+        const c = counts[dim.key] || 0;
+        styles[dim.key] = c >= 2 ? 'realistic' : (c === 1 ? 'selective' : 'pessimistic');
+      }
+      return styles;
+    }
+
+    function renderResult(state, el) {
+      el.innerHTML = '';
+      lastState = state;
+      const raw = state.rawScores || {};
+      const styles = computeStyles(raw, state.answers);
+      const section = document.createElement('section');
+      section.className = 'quiz-result';
+      section.innerHTML = `<div class="quiz-result__header"><p class="quiz-result__kicker">Your World Perception</p><h1 class="quiz-result__title">Where your view meets the data</h1></div>`;
+
+      const counts = { realistic: 0, selective: 0, pessimistic: 0, optimistic: 0 };
+      Object.values(styles).forEach(s => counts[s]++);
+      const summary = document.createElement('div'); summary.className = 'wp-summary';
+      for (const k of ['realistic', 'selective', 'pessimistic', 'optimistic']) {
+        summary.innerHTML += `<div class="wp-summary__item"><div class="wp-summary__count">${counts[k]}</div><div class="wp-summary__label">${interpretation.styles[k].title}</div></div>`;
+      }
+      section.appendChild(summary);
+
+      for (const dim of instrument.scoring.dimensions) {
+        const style = styles[dim.key];
+        const info = interpretation.styles[style];
+        const block = document.createElement('div'); block.className = 'wp-domain';
+        block.innerHTML = `<div class="wp-domain__label">${dim.label}</div><div class="wp-domain__style">${info.title}</div><p class="wp-domain__text">${info[dim.key]}</p>`;
+        section.appendChild(block);
+      }
+
+      const reveal = document.createElement('div'); reveal.className = 'wp-reveal quiz-result__section';
+      reveal.innerHTML = '<h3>Question by question</h3>';
+      instrument.questions.forEach((q, i) => {
+        const chosen = state.answers[i];
+        const chosenOpt = q.options.find(o => o.key === chosen);
+        const correctOpt = q.options.find(o => o.correct);
+        const miss = chosenOpt && !chosenOpt.correct;
+        reveal.innerHTML += `
+          <div style="margin-bottom:var(--space-md);">
+            <p class="wp-reveal__q">${q.text}</p>
+            <p class="wp-reveal__line wp-reveal__line--you">Your answer: ${chosenOpt ? chosenOpt.text : '—'}</p>
+            <p class="wp-reveal__line ${miss ? 'wp-reveal__line--miss' : 'wp-reveal__line--correct'}">Correct: ${correctOpt.text}</p>
+            <p class="wp-reveal__src">Source: <a href="${q.sourceUrl}" target="_blank" rel="noopener noreferrer">${q.source}</a></p>
+          </div>`;
+      });
+      section.appendChild(reveal);
+
+      addLearnMore(section);
+      addShare(section, styles);
+      addAttribution(section);
+      el.appendChild(section);
+    }
+
+    function addLearnMore(parent) {
+      const d = document.createElement('div'); d.className = 'quiz-result__section';
+      const links = (interpretation.learnMore.links || []).map(l => `<li><a href="${l.url}" target="_blank" rel="noopener noreferrer">${l.text}</a></li>`).join('');
+      d.innerHTML = `<h3>${interpretation.learnMore.title}</h3><ul style="color:var(--text-muted);line-height:1.8;">${links}</ul>`;
+      parent.appendChild(d);
+      if (interpretation.recommendation) {
+        const rec = document.createElement('div'); rec.className = 'quiz-recommendation';
+        rec.innerHTML = `<p class="quiz-recommendation__label">${interpretation.recommendation.label}</p><h3 class="quiz-recommendation__title">${interpretation.recommendation.title}</h3><p class="quiz-recommendation__text">${interpretation.recommendation.text}</p><a href="${interpretation.recommendation.url}" target="_blank" rel="noopener noreferrer" class="quiz-btn quiz-btn--secondary">${interpretation.recommendation.buttonText}</a><p class="quiz-recommendation__text" style="margin-top:0.5rem;font-size:0.8rem;">${interpretation.recommendation.note}</p>`;
+        parent.appendChild(rec);
+      }
+    }
+
+    function addShare(parent, styles) {
+      const section = document.createElement('div'); section.className = 'quiz-share-section';
+      const h = document.createElement('h3'); h.textContent = 'Share your perception'; section.appendChild(h);
+      const buttons = document.createElement('div'); buttons.className = 'quiz-share-buttons';
+      const copy = document.createElement('button'); copy.className = 'quiz-btn quiz-btn--primary'; copy.textContent = 'Create shareable link';
+      copy.addEventListener('click', () => {
+        const payload = { v: 1, r: instrument.scoring.dimensions.map(d => (lastState ? (lastState.rawScores[d.key] || 0) : 0)) };
+        navigator.clipboard.writeText(buildShareUrl(window.location.href.split('#')[0], payload)).then(() => showToast('Link copied to clipboard'));
+      });
+      const dl = document.createElement('button'); dl.className = 'quiz-btn quiz-btn--secondary'; dl.textContent = 'Download card';
+      dl.addEventListener('click', async () => { const c = await generateCard(styles); downloadCanvas(c, 'world-perception.png'); });
+      const sh = document.createElement('button'); sh.className = 'quiz-btn quiz-btn--secondary'; sh.textContent = 'Share';
+      sh.addEventListener('click', async () => { const c = await generateCard(styles); await shareCanvas(c, { shareText: interpretation.shareTexts.invite, quizUrl: window.location.href.split('#')[0], filename: 'world-perception.png' }); });
+      buttons.appendChild(copy); buttons.appendChild(dl); buttons.appendChild(sh);
+      section.appendChild(buttons);
+      parent.appendChild(section);
+    }
+
+    async function generateCard(styles) {
+      const axes = instrument.scoring.dimensions.map(d => ({ key: d.key, label: d.label }));
+      const scores = instrument.scoring.dimensions.map(d => (lastState && lastState.rawScores ? Math.round(100 * (lastState.rawScores[d.key] || 0) / 3) : 0));
+      return generateShareCard({ quizTitle: 'World Perception Challenge', resultTitle: 'Perception Profile', subtitle: 'How realistic is your view?', axes, scores, shareText: interpretation.shareTexts.invite, quizUrl: window.location.href.split('#')[0] });
+    }
+
+    function renderShared() {
+      const counts = {}; instrument.scoring.dimensions.forEach((d, i) => counts[d.key] = sharedResult.r[i] || 0);
+      const styles = styleFromCounts(counts);
+      const el = document.createElement('section'); el.className = 'quiz-result';
+      el.innerHTML = `<div class="quiz-result__header"><p class="quiz-result__kicker">Shared World Perception</p><h1 class="quiz-result__title">Someone shared their view with you</h1></div>`;
+      for (const dim of instrument.scoring.dimensions) {
+        const info = interpretation.styles[styles[dim.key]];
+        const block = document.createElement('div'); block.className = 'wp-domain';
+        block.innerHTML = `<div class="wp-domain__label">${dim.label}</div><div class="wp-domain__style">${info.title}</div><p class="wp-domain__text">${info[dim.key]}</p>`;
+        el.appendChild(block);
+      }
+      const cta = document.createElement('div'); cta.style.textAlign = 'center'; cta.style.marginTop = '2rem';
+      cta.innerHTML = `<p style="color:var(--color-text-muted);margin-bottom:1rem;">Take the challenge and check your own view of the world.</p><a href="${window.location.href.split('#')[0]}" class="quiz-btn quiz-btn--primary">Take World Perception Challenge</a>`;
+      el.appendChild(cta);
+      container.appendChild(el);
+    }
+
+    function addAttribution(parent) {
+      if (!instrument.attribution) return;
+      const p = document.createElement('p'); p.className = 'quiz-attribution'; p.textContent = instrument.attribution.text;
+      parent.appendChild(p);
+    }
+
+    function showToast(msg) {
+      const t = document.createElement('div');
+      t.style.cssText = 'position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:#1e2130;color:#d4a853;padding:0.75rem 1.5rem;border-radius:8px;border:1px solid #2e3247;font-size:0.9rem;z-index:1000;';
+      t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 2500);
+    }
+
+    init();
+  </script>
+  <script>
+    (function(){var t=document.getElementById('theme-toggle'),h=document.documentElement,s=localStorage.getItem('quiz-theme');if(s){h.setAttribute('data-theme',s);t.textContent=s==='dark'?'☾':'☀';}t.addEventListener('click',function(){var c=h.getAttribute('data-theme'),n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('quiz-theme',n);t.textContent=n==='dark'?'☾':'☀';});})();
+  </script>
+  <script>
+    (function() {
+      var path = window.location.pathname;
+      var isQuizPage = /\/quizzes\//.test(path);
+      var isSubPage = /\/(privacy|methods|licenses|dev)\//.test(path);
+      var base = isQuizPage ? '../../' : (isSubPage ? '../' : '');
+      var s = document.createElement('script');
+      s.src = base + 'partials/footer-loader.js';
+      s.async = true;
+      document.body.appendChild(s);
+    })();
+  </script>
+</body>
+</html>

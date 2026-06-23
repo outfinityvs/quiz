@@ -1,0 +1,23 @@
+{
+  "dimensions": {
+    "social": { "title": "Social Energy", "poleHigh": "Recharged by people", "poleLow": "Recharged by solitude", "high": "You are recharged by people: long evenings, collaboration, connection. Protect solitude for recovery, but do not starve your main source.", "mid": "You are bi-directional: people give you energy, and you recover alone. Read the situation, not a fixed identity.", "low": "You are recharged by solitude and deep work. Social time is real cost \u2014 budget it deliberately rather than defaulting to it." },
+    "novelty": { "title": "Novelty Energy", "poleHigh": "Recharged by new", "poleLow": "Recharged by familiar", "high": "You are recharged by novelty: new cities, new methods, the unfamiliar. Without it you coast; with too much you never deepen.", "mid": "You take novelty in measured doses and protect familiar routines as recovery. A healthy mix \u2014 watch that neither pole atrophies.", "low": "You are recharged by familiar routines and proven methods. Novelty is cost; deploy it deliberately where it pays, not by default." },
+    "structure": { "title": "Structure Energy", "poleHigh": "Recharged by plan", "poleLow": "Recharged by improvise", "high": "You are recharged by structure: plans, milestones, blocked schedules. This is your traction \u2014 as long as the plan is right.", "mid": "You are recharged by a mix: a goal with no rigid schedule. Adaptive execution without drift.", "low": "You are recharged by improvisation: open slates, decided week by week. This is your adaptability \u2014 ensure a goal survives the freedom." },
+    "depth": { "title": "Depth Energy", "poleHigh": "Deep focus", "poleLow": "Broad variety", "high": "You are recharged by deep focus on one hard thing. Excellence lives here \u2014 but depth alone can leave you blind to adjacent fields.", "mid": "You balance depth and breadth \u2014 going deep, then sampling across. Often the most durable shape over a long career.", "low": "You are recharged by variety across many things. Range is your strength \u2014 ensure something gets deep enough to be hard to replace." },
+    "competition": { "title": "Competition Energy", "poleHigh": "Compete to win", "poleLow": "Collaborate to build", "high": "You are recharged by competition: beating a clear rival to a milestone. Strong fuel \u2014 make sure the thing you win at is worth winning.", "mid": "You take competition in context: you compete where outcomes are zero-sum and collaborate where they are not.", "low": "You are recharged by collaboration and shared wins. Collaboration is your fuel \u2014 watch for it becoming conflict-avoidance when a hard call needs a winner." },
+    "autonomy": { "title": "Autonomy Energy", "poleHigh": "Independent direction", "poleLow": "Guided mentorship", "high": "You are recharged by setting your own direction. Autonomy is oxygen to you \u2014 pair it with someone who challenges the direction or you can drift.", "mid": "You oscillate: lead your own thing, then seek a mentor\u2019s steer. The back-and-forth is healthy.", "low": "You are recharged by being chosen-into guided work: a mentor whose taste you trust steers you. Strong fuel \u2014 ensure you keep enough agency to keep growing." }
+  },
+  "shareTexts": {
+    "invite": "What actually recharges you?",
+    "minimal": "I mapped my Energy Economics. What recharges you?",
+    "full": "I mapped my Energy Economics.\n{profileSummary}\nWhat recharges you?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for builders auditing what actually drains and recharges them, and finding collaborators whose energy patterns complement rather than burn each other out. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

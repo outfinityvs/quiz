@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/builder-traits",
+  "title": "Builder Traits Snapshot",
+  "promise": "A five-axis personality snapshot for venture builders, using public-domain IPIP items. Three minutes, no scores to maximize — only positions with a cost and a use.",
+  "duration": "~3 min",
+  "durationCategory": "medium",
+  "questions": 20,
+  "type": "research",
+  "domain": "personality",
+  "hasRecommendation": true,
+  "license": "Public Domain (IPIP) / CC BY 4.0",
+  "description": "20 IPIP Likert items across five dimensions (Openness, Conscientiousness, Agreeableness, Emotional Stability, Achievement). Reverse-scored items prevent acquiescence bias. Result shows positions on five bipolar axes, not numeric scores.",
+  "ogTitle": "Builder Traits Snapshot — Outfinity Quiz",
+  "ogDescription": "Five-axis personality snapshot for venture builders. 20 IPIP items, ~3 min. Private by design."
+}

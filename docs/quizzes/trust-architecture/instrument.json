@@ -1,0 +1,471 @@
+{
+  "id": "trust-architecture",
+  "version": 1,
+  "title": "Trust Architecture",
+  "language": "en",
+  "introduction": {
+    "subtitle": "How do you build, verify, and lose trust? A blueprint of five trust mechanisms.",
+    "description": "<p>Trust is not one thing — you build it through different mechanisms in different contexts. This maps which mechanisms you rely on: relational bonds, written contracts, reputation, transparent process, or shared governance. None is universally correct; each has a context where it works and one where it fails.</p><p>Pick the option closest to what you would actually do, not what sounds most virtuous.</p>",
+    "duration": "10 scenarios. Approximately three minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
+    "startButton": "Map my trust blueprint"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Before signing a long partnership, what makes you most willing to move forward?",
+      "type": "profile",
+      "options": [
+        {
+          "key": "relational_1",
+          "text": "I need to actually know and trust the person across the table.",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "key": "contractual_1",
+          "text": "I need clear written terms covering what happens if things go wrong.",
+          "dimensionScores": {
+            "contractual": 1
+          }
+        },
+        {
+          "key": "reputational_1",
+          "text": "I need strong references and a track record I can verify.",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "key": "procedural_1",
+          "text": "I need a transparent process with audit and review milestones.",
+          "dimensionScores": {
+            "procedural": 1
+          }
+        },
+        {
+          "key": "communal_1",
+          "text": "I need to see shared governance and mutual accountability between our groups.",
+          "dimensionScores": {
+            "communal": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "A new collaborator with strong credentials joins. What is your first move?",
+      "type": "profile",
+      "options": [
+        {
+          "key": "relational_2",
+          "text": "Get to know them in person and build the bond early.",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "key": "contractual_2",
+          "text": "Draft a scope and agreement that defines the relationship.",
+          "dimensionScores": {
+            "contractual": 1
+          }
+        },
+        {
+          "key": "reputational_2",
+          "text": "Talk to people who have worked with them before.",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "key": "procedural_2",
+          "text": "Set up the checks and review cadence they will work under.",
+          "dimensionScores": {
+            "procedural": 1
+          }
+        },
+        {
+          "key": "communal_2",
+          "text": "Plug them into a shared governance structure rather than a private channel.",
+          "dimensionScores": {
+            "communal": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Someone broke a commitment they made to you. What changes your willingness to keep working with them?",
+      "type": "profile",
+      "options": [
+        {
+          "key": "relational_3",
+          "text": "Whether the relationship and good faith are still there.",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "key": "contractual_3",
+          "text": "Whether the agreement has teeth and the breach is documentable.",
+          "dimensionScores": {
+            "contractual": 1
+          }
+        },
+        {
+          "key": "reputational_3",
+          "text": "Whether their breach becomes visible enough to cost them.",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "key": "procedural_3",
+          "text": "Whether there is a clear process to escalate and repair.",
+          "dimensionScores": {
+            "procedural": 1
+          }
+        },
+        {
+          "key": "communal_3",
+          "text": "Whether the group they belong to holds them accountable.",
+          "dimensionScores": {
+            "communal": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "You must decide whether to trust a supplier you have never used.",
+      "type": "profile",
+      "options": [
+        {
+          "key": "relational_4",
+          "text": "I meet the owner and trust my read of them.",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "key": "contractual_4",
+          "text": "I sign a tight contract with real penalties.",
+          "dimensionScores": {
+            "contractual": 1
+          }
+        },
+        {
+          "key": "reputational_4",
+          "text": "I check references and past performance with their customers.",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "key": "procedural_4",
+          "text": "I require transparency into their process and quality controls.",
+          "dimensionScores": {
+            "procedural": 1
+          }
+        },
+        {
+          "key": "communal_4",
+          "text": "I check whether they are accountable to a cooperative or shared standard.",
+          "dimensionScores": {
+            "communal": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How do you most reliably verify a claim someone makes to you?",
+      "type": "profile",
+      "options": [
+        {
+          "key": "relational_5",
+          "text": "Through whether I trust the person making it.",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "key": "contractual_5",
+          "text": "Through a written record and agreed definitions.",
+          "dimensionScores": {
+            "contractual": 1
+          }
+        },
+        {
+          "key": "reputational_5",
+          "text": "Through independent references and their track record.",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "key": "procedural_5",
+          "text": "Through an audit or a verifiable procedure.",
+          "dimensionScores": {
+            "procedural": 1
+          }
+        },
+        {
+          "key": "communal_5",
+          "text": "Through whether the group they belong to vouches for it.",
+          "dimensionScores": {
+            "communal": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "A funder offers support. What makes you accept it?",
+      "type": "profile",
+      "options": [
+        {
+          "key": "relational_6",
+          "text": "A real relationship, not just a transaction.",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "key": "contractual_6",
+          "text": "Clear terms on what the money can and cannot be used for.",
+          "dimensionScores": {
+            "contractual": 1
+          }
+        },
+        {
+          "key": "reputational_6",
+          "text": "Their reputation and the signal their support sends.",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "key": "procedural_6",
+          "text": "Transparent reporting requirements and milestones.",
+          "dimensionScores": {
+            "procedural": 1
+          }
+        },
+        {
+          "key": "communal_6",
+          "text": "Shared governance over how the funds affect the mission.",
+          "dimensionScores": {
+            "communal": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "A small group inside your venture starts doing work no one else can see. What matters most?",
+      "type": "profile",
+      "options": [
+        {
+          "key": "relational_7",
+          "text": "That the people are trusted enough not to need watching.",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "key": "contractual_7",
+          "text": "That there is a written agreement defining their autonomy.",
+          "dimensionScores": {
+            "contractual": 1
+          }
+        },
+        {
+          "key": "reputational_7",
+          "text": "That they have a results track record that speaks for them.",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "key": "procedural_7",
+          "text": "That the work is auditable and the process is visible.",
+          "dimensionScores": {
+            "procedural": 1
+          }
+        },
+        {
+          "key": "communal_7",
+          "text": "That the work is accountable to the group, not private islands.",
+          "dimensionScores": {
+            "communal": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "You are choosing between two equal bids. What tips your decision?",
+      "type": "profile",
+      "options": [
+        {
+          "key": "relational_8",
+          "text": "Which people I would rather work with.",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "key": "contractual_8",
+          "text": "Which contract terms best protect us.",
+          "dimensionScores": {
+            "contractual": 1
+          }
+        },
+        {
+          "key": "reputational_8",
+          "text": "Which bidder has the stronger track record.",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "key": "procedural_8",
+          "text": "Whose process is most transparent and auditable.",
+          "dimensionScores": {
+            "procedural": 1
+          }
+        },
+        {
+          "key": "communal_8",
+          "text": "Whose structure best fits shared accountability.",
+          "dimensionScores": {
+            "communal": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When things go wrong with a partner, what do you rely on most?",
+      "type": "profile",
+      "options": [
+        {
+          "key": "relational_9",
+          "text": "The relationship to absorb the friction.",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "key": "contractual_9",
+          "text": "The contract to define the resolution.",
+          "dimensionScores": {
+            "contractual": 1
+          }
+        },
+        {
+          "key": "reputational_9",
+          "text": "Reputational consequences to keep them honest.",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "key": "procedural_9",
+          "text": "A process we agreed in advance.",
+          "dimensionScores": {
+            "procedural": 1
+          }
+        },
+        {
+          "key": "communal_9",
+          "text": "The shared group to mediate and hold them accountable.",
+          "dimensionScores": {
+            "communal": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Trust scales best when, in your view, it is built on...",
+      "type": "profile",
+      "options": [
+        {
+          "key": "relational_10",
+          "text": "Real, repeated human bonds.",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "key": "contractual_10",
+          "text": "Clear written agreements.",
+          "dimensionScores": {
+            "contractual": 1
+          }
+        },
+        {
+          "key": "reputational_10",
+          "text": "Track records that anyone can verify.",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "key": "procedural_10",
+          "text": "Transparent processes anyone can audit.",
+          "dimensionScores": {
+            "procedural": 1
+          }
+        },
+        {
+          "key": "communal_10",
+          "text": "Shared governance and collective ownership.",
+          "dimensionScores": {
+            "communal": 1
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "dimensions": [
+      {
+        "key": "relational",
+        "label": "Relational",
+        "theoreticalMin": 0,
+        "theoreticalMax": 10
+      },
+      {
+        "key": "contractual",
+        "label": "Contractual",
+        "theoreticalMin": 0,
+        "theoreticalMax": 10
+      },
+      {
+        "key": "reputational",
+        "label": "Reputational",
+        "theoreticalMin": 0,
+        "theoreticalMax": 10
+      },
+      {
+        "key": "procedural",
+        "label": "Procedural",
+        "theoreticalMin": 0,
+        "theoreticalMax": 10
+      },
+      {
+        "key": "communal",
+        "label": "Communal",
+        "theoreticalMin": 0,
+        "theoreticalMax": 10
+      }
+    ]
+  }
+}

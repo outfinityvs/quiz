@@ -1,0 +1,22 @@
+{
+  "domains": {
+    "financial": { "title": "Financial Risk", "high": "You will put your own money on the line \u2014 sometimes too readily. Pair appetite with survival conditions so the downside stays survivable.", "mid": "You selectively accept financial risk, especially for your own venture. You will take a salary cut but think hard before sinking savings.", "low": "You protect your financial downside. You want predictable conditions before committing money; Venture the risk is funded by others." },
+    "reputational": { "title": "Reputational Risk", "high": "You will attach your name to a visible stand or an unfinished launch. This builds signal and trust over time \u2014 if your judgment is right more often than wrong.", "mid": "You accept reputational risk when you believe in the work, but you protect your name where the upside is unclear.", "low": "You shield your reputation. Visibility with real downside makes you pull back; useful where trust is your asset, costly where staying silent loses the moment." },
+    "relational": { "title": "Relational Risk", "high": "You will put close relationships on the line for the venture. Loyalty is a real asset; ensure it is not a cost you make someone else pay.", "mid": "You accept relational risk selectively \u2014 with people you trust and on terms you can defend. You avoid asking friends to carry your risk involuntarily.", "low": "You protect relationships from venture risk. You separate friendship from money; useful for long trust, costly when the venture needs partners from your network." },
+    "existential": { "title": "Existential Risk", "high": "You will bet your career or major life conditions on the venture. This is how rare things happen \u2014 and how irreversible mistakes do, too. Name your exit before you arrive.", "mid": "You accept existential risk only when there is still a path back. You will go far, but not past the point you cannot walk home from.", "low": "You protect your life conditions. You will not gamble the fallback. This protects durability; it can also mean you never make the bet that needs you fully." },
+    "creative": { "title": "Creative Risk", "high": "You ship before it is finished and change your style for the experiment. Psychological safety with your craft lets you move first and learn faster.", "mid": "You accept creative risk when the work or the audience can absorb it. You experiment, but you protect the pieces that need precision first.", "low": "You protect the quality of your craft over speed and novelty. You ship when it is right; valuable where trust depends on it, costly where waiting cedes the field." }
+  },
+  "shareTexts": {
+    "invite": "What risks would you actually accept?",
+    "minimal": "I tasted my Risk Palate. What would you accept?",
+    "full": "My Risk Palate:\nFinancial {financial}\nReputational {reputational}\nRelational {relational}\nExistential {existential}\nCreative {creative}\nWhat about you?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for builders comparing their risk palate and finding partners whose appetites complement rather than clash. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

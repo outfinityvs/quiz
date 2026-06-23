@@ -1,0 +1,473 @@
+{
+  "id": "collaboration-species",
+  "version": 1,
+  "title": "Collaboration Species",
+  "language": "en",
+  "introduction": {
+    "subtitle": "How do you actually work with others? Five collaboration species and where you fit in a team.",
+    "description": "<p>This maps what you genuinely do when work involves other people — not a wish-list of ideals. Mark your first and second instinct in each scenario. If several feel true, pick the one that most often wins when the pressure is real.</p><p>Invite three or more people to compare and see your team constellation.</p>",
+    "duration": "10 scenarios. Approximately four minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
+    "startButton": "Map my species"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "You start a new venture. What is your ideal setup?",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "solo_1",
+          "text": "Work alone and deliver everything yourself.",
+          "dimensionScores": {
+            "solo": 1
+          }
+        },
+        {
+          "key": "dyad_1",
+          "text": "One trusted co-founder in a deep partnership.",
+          "dimensionScores": {
+            "dyad": 1
+          }
+        },
+        {
+          "key": "team_1",
+          "text": "A small team of three to seven with clear roles.",
+          "dimensionScores": {
+            "team": 1
+          }
+        },
+        {
+          "key": "weaver_1",
+          "text": "A wider community gathered around the work.",
+          "dimensionScores": {
+            "weaver": 1
+          }
+        },
+        {
+          "key": "mentor_1",
+          "text": "Coach and enable others who actually do the building.",
+          "dimensionScores": {
+            "mentor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "A big decision has to be made. You tend to...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "solo_2",
+          "text": "Decide it yourself.",
+          "dimensionScores": {
+            "solo": 1
+          }
+        },
+        {
+          "key": "dyad_2",
+          "text": "Decide it with your one trusted partner.",
+          "dimensionScores": {
+            "dyad": 1
+          }
+        },
+        {
+          "key": "team_2",
+          "text": "Bring it to the team and align.",
+          "dimensionScores": {
+            "team": 1
+          }
+        },
+        {
+          "key": "weaver_2",
+          "text": "Surface it to the wider community.",
+          "dimensionScores": {
+            "weaver": 1
+          }
+        },
+        {
+          "key": "mentor_2",
+          "text": "Coach the right person to make the call.",
+          "dimensionScores": {
+            "mentor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "You get a new idea. What do you do first?",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "solo_3",
+          "text": "Prototype it alone.",
+          "dimensionScores": {
+            "solo": 1
+          }
+        },
+        {
+          "key": "dyad_3",
+          "text": "Call your one collaborator.",
+          "dimensionScores": {
+            "dyad": 1
+          }
+        },
+        {
+          "key": "team_3",
+          "text": "Assign roles and start together.",
+          "dimensionScores": {
+            "team": 1
+          }
+        },
+        {
+          "key": "weaver_3",
+          "text": "Open it to whoever is interested.",
+          "dimensionScores": {
+            "weaver": 1
+          }
+        },
+        {
+          "key": "mentor_3",
+          "text": "Find who should run with it.",
+          "dimensionScores": {
+            "mentor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "A hard deadline is approaching. You...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "solo_4",
+          "text": "Lock in and ship it yourself.",
+          "dimensionScores": {
+            "solo": 1
+          }
+        },
+        {
+          "key": "dyad_4",
+          "text": "Split the stretch with your partner.",
+          "dimensionScores": {
+            "dyad": 1
+          }
+        },
+        {
+          "key": "team_4",
+          "text": "Coordinate the team to hit it together.",
+          "dimensionScores": {
+            "team": 1
+          }
+        },
+        {
+          "key": "weaver_4",
+          "text": "Rally the community to help.",
+          "dimensionScores": {
+            "weaver": 1
+          }
+        },
+        {
+          "key": "mentor_4",
+          "text": "Clear the blockers for whoever is executing.",
+          "dimensionScores": {
+            "mentor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Conflict breaks out in a group you are part of. You...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "solo_5",
+          "text": "Step aside and keep working alone.",
+          "dimensionScores": {
+            "solo": 1
+          }
+        },
+        {
+          "key": "dyad_5",
+          "text": "Work it out with the one person who matters.",
+          "dimensionScores": {
+            "dyad": 1
+          }
+        },
+        {
+          "key": "team_5",
+          "text": "Facilitate the team to resolve it.",
+          "dimensionScores": {
+            "team": 1
+          }
+        },
+        {
+          "key": "weaver_5",
+          "text": "Rebuild trust across the whole group.",
+          "dimensionScores": {
+            "weaver": 1
+          }
+        },
+        {
+          "key": "mentor_5",
+          "text": "Help the people in conflict grow through it.",
+          "dimensionScores": {
+            "mentor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Your work style is most enlivened when...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "solo_6",
+          "text": "You control the whole thing end to end.",
+          "dimensionScores": {
+            "solo": 1
+          }
+        },
+        {
+          "key": "dyad_6",
+          "text": "You have one person you truly trust.",
+          "dimensionScores": {
+            "dyad": 1
+          }
+        },
+        {
+          "key": "team_6",
+          "text": "A tight crew has your back.",
+          "dimensionScores": {
+            "team": 1
+          }
+        },
+        {
+          "key": "weaver_6",
+          "text": "A network is building something together.",
+          "dimensionScores": {
+            "weaver": 1
+          }
+        },
+        {
+          "key": "mentor_6",
+          "text": "Someone you coached is winning.",
+          "dimensionScores": {
+            "mentor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "You are given a stretch project. You...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "solo_7",
+          "text": "Scope it so you can own it solo.",
+          "dimensionScores": {
+            "solo": 1
+          }
+        },
+        {
+          "key": "dyad_7",
+          "text": "Bring in your one partner.",
+          "dimensionScores": {
+            "dyad": 1
+          }
+        },
+        {
+          "key": "team_7",
+          "text": "Form a small team for it.",
+          "dimensionScores": {
+            "team": 1
+          }
+        },
+        {
+          "key": "weaver_7",
+          "text": "Open it to the community.",
+          "dimensionScores": {
+            "weaver": 1
+          }
+        },
+        {
+          "key": "mentor_7",
+          "text": "Hand it to someone ready to grow into it.",
+          "dimensionScores": {
+            "mentor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Recognition matters most when it comes from...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "solo_8",
+          "text": "The quality of the finished work itself.",
+          "dimensionScores": {
+            "solo": 1
+          }
+        },
+        {
+          "key": "dyad_8",
+          "text": "Your one trusted partner.",
+          "dimensionScores": {
+            "dyad": 1
+          }
+        },
+        {
+          "key": "team_8",
+          "text": "Your team seeing you as reliable.",
+          "dimensionScores": {
+            "team": 1
+          }
+        },
+        {
+          "key": "weaver_8",
+          "text": "The community that benefits.",
+          "dimensionScores": {
+            "weaver": 1
+          }
+        },
+        {
+          "key": "mentor_8",
+          "text": "The people you helped succeed.",
+          "dimensionScores": {
+            "mentor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "When things go wrong, your instinct is to...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "solo_9",
+          "text": "Fix it yourself.",
+          "dimensionScores": {
+            "solo": 1
+          }
+        },
+        {
+          "key": "dyad_9",
+          "text": "Go to ground with your partner.",
+          "dimensionScores": {
+            "dyad": 1
+          }
+        },
+        {
+          "key": "team_9",
+          "text": "Huddle with the team.",
+          "dimensionScores": {
+            "team": 1
+          }
+        },
+        {
+          "key": "weaver_9",
+          "text": "Call the community for help.",
+          "dimensionScores": {
+            "weaver": 1
+          }
+        },
+        {
+          "key": "mentor_9",
+          "text": "Make sure the right person is unblocked.",
+          "dimensionScores": {
+            "mentor": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "A year from now, you would feel most proud that...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "solo_10",
+          "text": "You built something whole, alone.",
+          "dimensionScores": {
+            "solo": 1
+          }
+        },
+        {
+          "key": "dyad_10",
+          "text": "With your partner, you built something neither could alone.",
+          "dimensionScores": {
+            "dyad": 1
+          }
+        },
+        {
+          "key": "team_10",
+          "text": "Your team did something it could not do without you.",
+          "dimensionScores": {
+            "team": 1
+          }
+        },
+        {
+          "key": "weaver_10",
+          "text": "A community can now sustain the work.",
+          "dimensionScores": {
+            "weaver": 1
+          }
+        },
+        {
+          "key": "mentor_10",
+          "text": "Several people have grown past where you could take them.",
+          "dimensionScores": {
+            "mentor": 1
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "forced-choice",
+    "firstChoicePoints": 3,
+    "secondChoicePoints": 1,
+    "dimensions": [
+      {
+        "key": "solo",
+        "label": "Solo Creator",
+        "theoreticalMin": 0,
+        "theoreticalMax": 30
+      },
+      {
+        "key": "dyad",
+        "label": "Dyad Partner",
+        "theoreticalMin": 0,
+        "theoreticalMax": 30
+      },
+      {
+        "key": "team",
+        "label": "Team Player",
+        "theoreticalMin": 0,
+        "theoreticalMax": 30
+      },
+      {
+        "key": "weaver",
+        "label": "Community Weaver",
+        "theoreticalMin": 0,
+        "theoreticalMax": 30
+      },
+      {
+        "key": "mentor",
+        "label": "Mentor / Catalyst",
+        "theoreticalMin": 0,
+        "theoreticalMax": 30
+      }
+    ]
+  }
+}

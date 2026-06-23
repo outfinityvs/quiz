@@ -1,0 +1,1285 @@
+{
+  "id": "social-values",
+  "version": 1,
+  "title": "Social Values Map",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Four axes of social tension — mapped without ideological labels. Inspired by the 8values project.",
+    "description": "<p>This is not a quiz that puts you in a political box. It maps the value tensions you carry — places where two goods pull against each other. The result describes tensions, not identities.</p><p>State how much you agree with each statement. There are no right answers; both poles of every axis have a use.</p>",
+    "duration": "24 statements. Approximately three to four minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "Inspired by the 8values project (MIT). Items are original and not from the 8values quiz. This is not a validated political assessment.",
+    "startButton": "Map my values"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "People who work harder and smarter deserve to earn more than those who do not.",
+      "type": "likert",
+      "dimension": "equality_merit",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "equality_merit": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "equality_merit": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "equality_merit": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "equality_merit": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "equality_merit": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Rewarding individual achievement is the best way to drive progress.",
+      "type": "likert",
+      "dimension": "equality_merit",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "equality_merit": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "equality_merit": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "equality_merit": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "equality_merit": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "equality_merit": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Talent and effort, not equal outcomes, should shape reward.",
+      "type": "likert",
+      "dimension": "equality_merit",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "equality_merit": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "equality_merit": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "equality_merit": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "equality_merit": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "equality_merit": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Society should ensure that no one is extremely wealthy while others live in poverty.",
+      "type": "likert",
+      "dimension": "equality_merit",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "equality_merit": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "equality_merit": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "equality_merit": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "equality_merit": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "equality_merit": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Reducing inequality matters more than maximizing individual reward.",
+      "type": "likert",
+      "dimension": "equality_merit",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "equality_merit": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "equality_merit": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "equality_merit": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "equality_merit": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "equality_merit": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Basic needs should be guaranteed regardless of a person’s contribution.",
+      "type": "likert",
+      "dimension": "equality_merit",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "equality_merit": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "equality_merit": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "equality_merit": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "equality_merit": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "equality_merit": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "National borders should not stand in the way of human cooperation.",
+      "type": "likert",
+      "dimension": "local_global",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "local_global": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "local_global": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "local_global": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "local_global": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "local_global": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Universal values matter more than local custom.",
+      "type": "likert",
+      "dimension": "local_global",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "local_global": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "local_global": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "local_global": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "local_global": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "local_global": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Global cooperation should take precedence over national preference.",
+      "type": "likert",
+      "dimension": "local_global",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "local_global": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "local_global": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "local_global": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "local_global": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "local_global": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Communities should prioritize the needs of their own members over outsiders.",
+      "type": "likert",
+      "dimension": "local_global",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "local_global": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "local_global": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "local_global": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "local_global": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "local_global": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "Local culture and needs should take precedence over global ones.",
+      "type": "likert",
+      "dimension": "local_global",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "local_global": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "local_global": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "local_global": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "local_global": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "local_global": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "Decisions are best made close to the people they affect.",
+      "type": "likert",
+      "dimension": "local_global",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "local_global": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "local_global": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "local_global": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "local_global": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "local_global": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": "Strong leadership and clear rules are necessary for a functioning society.",
+      "type": "likert",
+      "dimension": "liberty_authority",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "liberty_authority": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "liberty_authority": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "liberty_authority": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "liberty_authority": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "liberty_authority": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": "Maintaining social order is worth some limits on individual freedom.",
+      "type": "likert",
+      "dimension": "liberty_authority",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "liberty_authority": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "liberty_authority": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "liberty_authority": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "liberty_authority": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "liberty_authority": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": "Institutions need real authority to keep society stable.",
+      "type": "likert",
+      "dimension": "liberty_authority",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "liberty_authority": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "liberty_authority": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "liberty_authority": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "liberty_authority": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "liberty_authority": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "text": "Individuals should be free to do as they please as long as they do not harm others.",
+      "type": "likert",
+      "dimension": "liberty_authority",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "liberty_authority": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "liberty_authority": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "liberty_authority": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "liberty_authority": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "liberty_authority": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "text": "Personal autonomy should outweigh social conformity.",
+      "type": "likert",
+      "dimension": "liberty_authority",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "liberty_authority": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "liberty_authority": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "liberty_authority": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "liberty_authority": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "liberty_authority": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "text": "The reach of state power should be kept as small as possible.",
+      "type": "likert",
+      "dimension": "liberty_authority",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "liberty_authority": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "liberty_authority": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "liberty_authority": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "liberty_authority": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "liberty_authority": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "text": "Society should constantly question old ways and embrace new possibilities.",
+      "type": "likert",
+      "dimension": "tradition_progress",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "tradition_progress": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "tradition_progress": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "tradition_progress": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "tradition_progress": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "tradition_progress": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "text": "Innovation should take precedence over preserving custom.",
+      "type": "likert",
+      "dimension": "tradition_progress",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "tradition_progress": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "tradition_progress": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "tradition_progress": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "tradition_progress": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "tradition_progress": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "text": "Established practices should give way when better ones become possible.",
+      "type": "likert",
+      "dimension": "tradition_progress",
+      "reverse": false,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "tradition_progress": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "tradition_progress": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "tradition_progress": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "tradition_progress": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "tradition_progress": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "text": "We should respect the wisdom of past generations and preserve tradition.",
+      "type": "likert",
+      "dimension": "tradition_progress",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "tradition_progress": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "tradition_progress": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "tradition_progress": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "tradition_progress": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "tradition_progress": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "text": "Established institutions and customs should be preserved.",
+      "type": "likert",
+      "dimension": "tradition_progress",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "tradition_progress": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "tradition_progress": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "tradition_progress": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "tradition_progress": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "tradition_progress": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "text": "Cultural tradition should guide how we choose to live.",
+      "type": "likert",
+      "dimension": "tradition_progress",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "tradition_progress": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "tradition_progress": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "tradition_progress": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "tradition_progress": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "tradition_progress": 1
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "likert",
+    "dimensions": [
+      {
+        "key": "equality_merit",
+        "label": "Equality ↔ Merit",
+        "axisLabel": "Equality ↔ Merit",
+        "lowLabel": "Equality",
+        "highLabel": "Merit",
+        "theoreticalMin": 6,
+        "theoreticalMax": 30
+      },
+      {
+        "key": "local_global",
+        "label": "Local ↔ Global",
+        "axisLabel": "Local ↔ Global",
+        "lowLabel": "Local",
+        "highLabel": "Global",
+        "theoreticalMin": 6,
+        "theoreticalMax": 30
+      },
+      {
+        "key": "liberty_authority",
+        "label": "Liberty ↔ Authority",
+        "axisLabel": "Liberty ↔ Authority",
+        "lowLabel": "Liberty",
+        "highLabel": "Authority",
+        "theoreticalMin": 6,
+        "theoreticalMax": 30
+      },
+      {
+        "key": "tradition_progress",
+        "label": "Tradition ↔ Progress",
+        "axisLabel": "Tradition ↔ Progress",
+        "lowLabel": "Tradition",
+        "highLabel": "Progress",
+        "theoreticalMin": 6,
+        "theoreticalMax": 30
+      }
+    ]
+  },
+  "attribution": {
+    "text": "Inspired by the 8values project (github.com/8values/8values.github.io, MIT license). Items are original and not from the 8values quiz.",
+    "deepLink": "https://github.com/8values/8values.github.io"
+  }
+}

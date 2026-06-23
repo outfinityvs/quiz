@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/b2b-sales-readiness-assessment",
+  "title": "B2B Sales Engine Readiness",
+  "promise": "B2B sales engine readiness diagnostic for ICP, qualification, conversion, enablement, handoff, forecasting, and retention.",
+  "duration": "6 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "maturity",
+  "domain": "growth-leadership",
+  "priority": "P1",
+  "audience": "B2B founders, sales leaders, revenue operations, customer success, and investors",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Revenue maturity assessment across ICP & Qualification, Process & Conversion, Enablement & Customer Handoff, Forecasting & Retention. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "B2B Sales Engine Readiness - Outfinity Quiz",
+  "ogDescription": "B2B sales engine readiness diagnostic for ICP, qualification, conversion, enablement, handoff, forecasting, and retention."
+}

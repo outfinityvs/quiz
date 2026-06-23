@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/trust-architecture",
+  "title": "Trust Architecture",
+  "promise": "How do you build, verify, and lose trust? A blueprint of five trust mechanisms — relational, contractual, reputational, procedural, and communal.",
+  "duration": "~3 min",
+  "durationCategory": "short",
+  "questions": 10,
+  "type": "exploration",
+  "domain": "collaboration",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "10 original scenarios. Each offers one option per trust mechanism. Result maps your primary and secondary mechanisms with where they fit and where they leak, with a partnership-comparison insight.",
+  "ogTitle": "Trust Architecture — Outfinity Quiz",
+  "ogDescription": "How do you build trust? 10 scenarios, ~3 min. Private by design."
+}

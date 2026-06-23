@@ -1,0 +1,149 @@
+{
+  "id": "world-perception",
+  "version": 1,
+  "title": "World Perception Challenge",
+  "language": "en",
+  "introduction": {
+    "subtitle": "How realistic is your view of the world? 12 questions, real open data, no moralizing.",
+    "description": "<p>This is not a trivia contest. It tests your intuition about global trends in health, economics, demographics, and climate — against open data from the World Bank, Our World in Data, and the WHO. Your wrong answers are informative: they reveal where your worldview is pessimistic, optimistic, or selectively distorted.</p><p>Each question has one answer closest to the data and two plausible distractors. Pick the one you believe is closest.</p>",
+    "duration": "12 questions. Approximately three minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "Estimates reflect latest available statistics as of 2023-2024. Figures are approximate; sources are cited per question. This is an intuition test, not a knowledge exam.",
+    "startButton": "Test my perception"
+  },
+  "questions": [
+    {
+      "id": "h1", "text": "What percentage of the world's one-year-old children are vaccinated against measles?", "type": "profile", "dimension": "health",
+      "source": "WHO/UNICEF estimates, 2023",
+      "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/measles",
+      "options": [
+        { "key": "A", "text": "About 45%", "correct": false, "bias": "pessimistic", "dimensionScores": { "health": 0 } },
+        { "key": "B", "text": "About 84%", "correct": true, "bias": "realistic", "dimensionScores": { "health": 1 } },
+        { "key": "C", "text": "About 98%", "correct": false, "bias": "optimistic", "dimensionScores": { "health": 0 } }
+      ]
+    },
+    {
+      "id": "h2", "text": "How has the global under-five mortality rate (per 1,000 live births) changed since 1990?", "type": "profile", "dimension": "health",
+      "source": "UN IGME / Our World in Data",
+      "sourceUrl": "https://ourworldindata.org/child-mortality",
+      "options": [
+        { "key": "A", "text": "Roughly halved, from 93 to about 37", "correct": true, "bias": "realistic", "dimensionScores": { "health": 1 } },
+        { "key": "B", "text": "Stayed about the same", "correct": false, "bias": "static", "dimensionScores": { "health": 0 } },
+        { "key": "C", "text": "Increased, especially in low-income regions", "correct": false, "bias": "pessimistic", "dimensionScores": { "health": 0 } }
+      ]
+    },
+    {
+      "id": "h3", "text": "What is the current global average life expectancy at birth (roundly)?", "type": "profile", "dimension": "health",
+      "source": "World Bank, 2022",
+      "sourceUrl": "https://data.worldbank.org/indicator/SP.DYN.LE00.IN",
+      "options": [
+        { "key": "A", "text": "About 58 years", "correct": false, "bias": "pessimistic", "dimensionScores": { "health": 0 } },
+        { "key": "B", "text": "About 72 years", "correct": true, "bias": "realistic", "dimensionScores": { "health": 1 } },
+        { "key": "C", "text": "About 85 years", "correct": false, "bias": "optimistic", "dimensionScores": { "health": 0 } }
+      ]
+    },
+    {
+      "id": "e1", "text": "How has the share of the world's population living in extreme poverty changed since 1990?", "type": "profile", "dimension": "economic",
+      "source": "World Bank Poverty and Inequality Platform",
+      "sourceUrl": "https://ourworldindata.org/extreme-poverty",
+      "options": [
+        { "key": "A", "text": "Increased", "correct": false, "bias": "pessimistic", "dimensionScores": { "economic": 0 } },
+        { "key": "B", "text": "Stayed about the same", "correct": false, "bias": "static", "dimensionScores": { "economic": 0 } },
+        { "key": "C", "text": "Decreased by more than half (from ~38% to ~9%)", "correct": true, "bias": "realistic", "dimensionScores": { "economic": 1 } }
+      ]
+    },
+    {
+      "id": "e2", "text": "What share of the world's population has access to electricity today?", "type": "profile", "dimension": "economic",
+      "source": "Our World in Data / World Bank, 2021",
+      "sourceUrl": "https://ourworldindata.org/energy-access",
+      "options": [
+        { "key": "A", "text": "About 60%", "correct": false, "bias": "pessimistic", "dimensionScores": { "economic": 0 } },
+        { "key": "B", "text": "About 91%", "correct": true, "bias": "realistic", "dimensionScores": { "economic": 1 } },
+        { "key": "C", "text": "About 99%", "correct": false, "bias": "optimistic", "dimensionScores": { "economic": 0 } }
+      ]
+    },
+    {
+      "id": "e3", "text": "The global adult literacy rate (15+) is approximately:", "type": "profile", "dimension": "economic",
+      "source": "UNESCO Institute for Statistics, 2022",
+      "sourceUrl": "https://uis.unesco.org/",
+      "options": [
+        { "key": "A", "text": "About 65%", "correct": false, "bias": "pessimistic", "dimensionScores": { "economic": 0 } },
+        { "key": "B", "text": "About 87%", "correct": true, "bias": "realistic", "dimensionScores": { "economic": 1 } },
+        { "key": "C", "text": "About 98%", "correct": false, "bias": "optimistic", "dimensionScores": { "economic": 0 } }
+      ]
+    },
+    {
+      "id": "d1", "text": "What percentage of the world's population lives in urban areas?", "type": "profile", "dimension": "demographic",
+      "source": "UN World Urbanization Prospects, 2022",
+      "sourceUrl": "https://ourworldindata.org/urbanization",
+      "options": [
+        { "key": "A", "text": "About 35%", "correct": false, "bias": "pessimistic-under", "dimensionScores": { "demographic": 0 } },
+        { "key": "B", "text": "About 57%", "correct": true, "bias": "realistic", "dimensionScores": { "demographic": 1 } },
+        { "key": "C", "text": "About 80%", "correct": false, "bias": "pessimistic-over", "dimensionScores": { "demographic": 0 } }
+      ]
+    },
+    {
+      "id": "d2", "text": "Roughly how many people live in extreme poverty today (under $2.15/day)?", "type": "profile", "dimension": "demographic",
+      "source": "World Bank, 2023 estimate",
+      "sourceUrl": "https://www.worldbank.org/en/topic/poverty",
+      "options": [
+        { "key": "A", "text": "About 3 billion", "correct": false, "bias": "pessimistic-over", "dimensionScores": { "demographic": 0 } },
+        { "key": "B", "text": "About 700 million", "correct": true, "bias": "realistic", "dimensionScores": { "demographic": 1 } },
+        { "key": "C", "text": "About 90 million", "correct": false, "bias": "pessimistic-under", "dimensionScores": { "demographic": 0 } }
+      ]
+    },
+    {
+      "id": "d3", "text": "The global average fertility rate (children per woman) is approximately:", "type": "profile", "dimension": "demographic",
+      "source": "Our World in Data / UN, 2022",
+      "sourceUrl": "https://ourworldindata.org/fertility-rate",
+      "options": [
+        { "key": "A", "text": "About 4.5", "correct": false, "bias": "pessimistic-over", "dimensionScores": { "demographic": 0 } },
+        { "key": "B", "text": "About 2.3", "correct": true, "bias": "realistic", "dimensionScores": { "demographic": 1 } },
+        { "key": "C", "text": "About 1.5", "correct": false, "bias": "pessimistic-under", "dimensionScores": { "demographic": 0 } }
+      ]
+    },
+    {
+      "id": "c1", "text": "How have global CO2 emissions from fossil fuels changed since 2000?", "type": "profile", "dimension": "climate",
+      "source": "Global Carbon Project / Our World in Data",
+      "sourceUrl": "https://ourworldindata.org/co2-emissions",
+      "options": [
+        { "key": "A", "text": "Decreased by about 20%", "correct": false, "bias": "optimistic", "dimensionScores": { "climate": 0 } },
+        { "key": "B", "text": "Stayed about the same", "correct": false, "bias": "static", "dimensionScores": { "climate": 0 } },
+        { "key": "C", "text": "Increased by about 30%", "correct": true, "bias": "realistic", "dimensionScores": { "climate": 1 } }
+      ]
+    },
+    {
+      "id": "c2", "text": "About what share of global electricity generation comes from renewables (incl. hydro) today?", "type": "profile", "dimension": "climate",
+      "source": "Our World in Data / Ember, 2023",
+      "sourceUrl": "https://ourworldindata.org/renewable-energy",
+      "options": [
+        { "key": "A", "text": "About 15%", "correct": false, "bias": "pessimistic-under", "dimensionScores": { "climate": 0 } },
+        { "key": "B", "text": "About 30%", "correct": true, "bias": "realistic", "dimensionScores": { "climate": 1 } },
+        { "key": "C", "text": "About 60%", "correct": false, "bias": "pessimistic-over", "dimensionScores": { "climate": 0 } }
+      ]
+    },
+    {
+      "id": "c3", "text": "How has the cost of solar electricity changed over the last decade?", "type": "profile", "dimension": "climate",
+      "source": "IRENA / Our World in Data",
+      "sourceUrl": "https://ourworldindata.org/cheap-renewables-solar",
+      "options": [
+        { "key": "A", "text": "Increased substantially", "correct": false, "bias": "pessimistic", "dimensionScores": { "climate": 0 } },
+        { "key": "B", "text": "Stayed about the same", "correct": false, "bias": "static", "dimensionScores": { "climate": 0 } },
+        { "key": "C", "text": "Fell by roughly 90%", "correct": true, "bias": "realistic", "dimensionScores": { "climate": 1 } }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "dimensions": [
+      { "key": "health", "label": "Health Perception", "questionCount": 3, "theoreticalMin": 0, "theoreticalMax": 3 },
+      { "key": "economic", "label": "Economic Perception", "questionCount": 3, "theoreticalMin": 0, "theoreticalMax": 3 },
+      { "key": "demographic", "label": "Demographic Perception", "questionCount": 3, "theoreticalMin": 0, "theoreticalMax": 3 },
+      { "key": "climate", "label": "Climate Perception", "questionCount": 3, "theoreticalMin": 0, "theoreticalMax": 3 }
+    ]
+  },
+  "attribution": {
+    "text": "Data from World Bank Open Data (CC BY 4.0), Our World in Data (CC BY), and WHO. Estimates reflect latest available statistics as of 2023-2024.",
+    "deepLink": "https://ourworldindata.org/"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "axes": {
+    "openness": {
+      "lowLabel": "Pragmatism",
+      "highLabel": "Curiosity",
+      "low": "You lean toward pragmatism. You prefer routine, concrete problems, and known approaches. This serves you well in execution-focused work where reliability matters more than novelty, but may create tension with exploration-driven environments that reward experimentation.",
+      "mid": "You balance curiosity and pragmatism. You can engage with new ideas when the payoff is clear, but you do not seek novelty for its own sake. This adaptability is valuable in ventures that must both explore and deliver.",
+      "high": "You lean toward curiosity. You enjoy abstract thinking, novel experiences, and questioning assumptions. This serves you well in early-stage or research ventures where ambiguity is high, but may create tension in execution-focused environments that demand closure."
+    },
+    "conscientiousness": {
+      "lowLabel": "Spontaneity",
+      "highLabel": "Structure",
+      "low": "You lean toward spontaneity. You are flexible and adaptable, comfortable with shifting plans. This is valuable in fast-moving ventures where rigidity is costly, but may strain reliability and follow-through when structure is required.",
+      "mid": "You balance structure and spontaneity. You organize when the stakes warrant it and improvise when the situation calls for it. This balance is useful in ventures that oscillate between planning and iteration.",
+      "high": "You lean toward structure. You are organized, disciplined, and goal-oriented. This reliability is invaluable in delivery, but may become rigidity when a venture needs to pivot or tolerate messiness."
+    },
+    "agreeableness": {
+      "lowLabel": "Independence",
+      "highLabel": "Cooperation",
+      "low": "You lean toward independence. You are skeptical, competitive, and self-reliant. This sharpens negotiation and hard decisions, but may erode trust in teams that expect warmth and consensus.",
+      "mid": "You balance independence and cooperation. You can push your view when it matters and yield when the relationship does. This is valuable in co-founder dynamics where both advocacy and trust are needed.",
+      "high": "You lean toward cooperation. You are empathetic, trusting, and team-oriented. This builds strong bonds and morale, but may make harder decisions — exiting people, contesting allies — costly for you."
+    },
+    "emotionalStability": {
+      "lowLabel": "Reactivity",
+      "highLabel": "Calm",
+      "low": "You lean toward reactivity. You feel stress acutely and are sensitive to volatility. This sensitivity can surface problems others miss, but it makes prolonged uncertainty and high-stakes pressure expensive for you — protect your conditions for recovery.",
+      "mid": "You balance calm and reactivity. You feel the pressure of hard moments but recover. This is a useful operating range for ventures that mix steady periods with acute crises.",
+      "high": "You lean toward calm. You stay steady under pressure and recover quickly from setbacks. This stability is a strategic asset in volatile ventures, but watch for numbness — calm can become detachment from real warning signals."
+    },
+    "achievement": {
+      "lowLabel": "Contentment",
+      "highLabel": "Drive",
+      "low": "You lean toward contentment. You value balance and process over relentless goals. This protects sustainability and avoids burnout, but may underweight the ambition a high-stakes venture requires to clear its bar.",
+      "mid": "You balance drive and contentment. You pursue goals hard when they matter and step back when they do not. This selectivity is valuable in ventures with uneven, seasonal demands.",
+      "high": "You lean toward drive. You are ambitious, competitive, and persistent. This moves mountains, but it can consume you and the people around you — define your stopping conditions before the drive defines them for you."
+    }
+  },
+  "recommendations": {
+    "openness_high_achievement_high": "You combine exploration with ambition — strong fit for research-driven ventures where new questions are the product.",
+    "conscientiousness_high_agreeableness_high": "You combine reliability with cooperation — strong fit for cooperative ventures and quality-focused delivery.",
+    "emotionalStability_high_achievement_high": "You combine steadiness with drive — strong fit for mission-driven startups operating under sustained pressure.",
+    "agreeableness_low_openness_high": "You combine independence with curiosity — strong fit for solo or independent ventures where you set the direction.",
+    "default": "Your combination of traits fits several venture shapes. Explorer Circle can help you connect with builders whose traits complement yours."
+  },
+  "shareTexts": {
+    "invite": "What's your builder personality profile?",
+    "minimal": "I mapped my Builder Traits. What's your profile?",
+    "full": "I mapped my Builder Traits.\n{profileSummary}\nWhat's yours?"
+  },
+  "recommendation": {
+    "label": "Go deeper",
+    "title": "Full IPIP Big Five",
+    "text": "This snapshot uses 4 items per dimension. For a rigorous assessment, take the full 50-item IPIP Big Five at ipip.ori.org. Outfinity's snapshot is a gateway, not a replacement.",
+    "url": "https://ipip.ori.org/",
+    "buttonText": "Visit IPIP",
+    "note": "Visiting ipip.ori.org opens an external site. Your result stays in your browser and is not transmitted."
+  }
+}

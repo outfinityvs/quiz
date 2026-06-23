@@ -1,0 +1,621 @@
+{
+  "id": "founder-readiness-assessment",
+  "slug": "founder-readiness-assessment",
+  "version": 1,
+  "locale": "en",
+  "title": "Founder Readiness Radar",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Maturity assessment. 5-7 min.",
+    "description": "<p>Founder readiness diagnostic across opportunity evidence, execution, resourcefulness, economics, and resilience.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 5-7 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start assessment"
+  },
+  "deliberationText": "Calculating your diagnostic...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How strong is your evidence that the target problem is urgent?",
+      "type": "profile",
+      "dimension": "opportunity-insight",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The answer relies mainly on opinion, pitch, memory, or isolated examples.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are supporting examples, but sources are partial, informal, or hard to compare.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is documented evidence from relevant customers, operations, metrics, or records.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The evidence is triangulated, current, owner-reviewed, and strong enough to change a material decision.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How precisely can you define the first customer segment and buying trigger?",
+      "type": "profile",
+      "dimension": "opportunity-insight",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The answer is broad, assumed, or based mostly on internal belief.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is a high-level description, but segmentation, trigger, or buyer evidence is thin.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The answer is defined for a specific segment with documented behaviour, alternatives, and decision criteria.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The answer is validated across repeated cases and directly informs targeting, messaging, prioritisation, and trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How do you choose the most important outcome for the coming week?",
+      "type": "profile",
+      "dimension": "execution-discipline",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How frequently do you ship something that can change a decision?",
+      "type": "profile",
+      "dimension": "execution-discipline",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. It happens rarely, reactively, or only when a crisis forces attention.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. It happens occasionally, but timing depends on individual initiative or urgency.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is a defined cadence with clear participants, owners, and triggers.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The cadence is frequent enough to change decisions, includes quality checks, and improves from outcomes.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "What happens when a critical resource is missing?",
+      "type": "profile",
+      "dimension": "resourcefulness-and-economics",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How well do you understand runway and the economics of the next milestone?",
+      "type": "profile",
+      "dimension": "resourcefulness-and-economics",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. There is no usable model; the answer is unknown or based on rough intuition.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an estimate, but assumptions, sensitivity, and ownership are weak.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The model uses current inputs, documented assumptions, and regular review.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The model is scenario-tested, tied to triggers and decisions, and reconciled with reliable source data.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How do you react to evidence that contradicts your preferred idea?",
+      "type": "profile",
+      "dimension": "resilience-and-sustainability",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The answer relies mainly on opinion, pitch, memory, or isolated examples.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are supporting examples, but sources are partial, informal, or hard to compare.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is documented evidence from relevant customers, operations, metrics, or records.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The evidence is triangulated, current, owner-reviewed, and strong enough to change a material decision.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How sustainable is your current way of working?",
+      "type": "profile",
+      "dimension": "resilience-and-sustainability",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "maturity",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "opportunity-insight",
+        "label": "Opportunity Insight",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "execution-discipline",
+        "label": "Execution Discipline",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "resourcefulness-and-economics",
+        "label": "Resourcefulness & Economics",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "resilience-and-sustainability",
+        "label": "Resilience & Sustainability",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  },
+  "banner": {
+    "title": "Outfinity Diagnostic",
+    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
+    "ctaText": "Explore Outfinity",
+    "ctaUrl": "https://outfinity.ch/"
+  },
+  "contextTitle": "Evidence confidence",
+  "contextQuestions": [
+    {
+      "id": "evidence-opportunity-insight",
+      "text": "What level of evidence supports your answers for Opportunity Insight?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-execution-discipline",
+      "text": "What level of evidence supports your answers for Execution Discipline?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-resourcefulness-and-economics",
+      "text": "What level of evidence supports your answers for Resourcefulness & Economics?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-resilience-and-sustainability",
+      "text": "What level of evidence supports your answers for Resilience & Sustainability?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    }
+  ]
+}

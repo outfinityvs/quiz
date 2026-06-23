@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/social-values",
+  "title": "Social Values Map",
+  "promise": "Four axes of social tension — mapped without ideological labels. Inspired by the 8values project. Tensions, not tribes.",
+  "duration": "~3 min",
+  "durationCategory": "medium",
+  "questions": 24,
+  "type": "derived",
+  "domain": "values",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "24 original 8values-inspired statements across four bipolar axes (Equality↔Merit, Local↔Global, Liberty↔Authority, Tradition↔Progress). Balanced pro/con items with reverse scoring prevent response bias. Result describes tensions, never assigns ideological labels.",
+  "ogTitle": "Social Values Map — Outfinity Quiz",
+  "ogDescription": "Four axes of social tension, mapped without labels. 24 items, ~3 min. Private by design."
+}

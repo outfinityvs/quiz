@@ -1,0 +1,621 @@
+{
+  "id": "investment-bias-decision-quality-test",
+  "slug": "investment-bias-decision-quality-test",
+  "version": 1,
+  "locale": "en",
+  "title": "Investment Decision Quality & Bias",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Behavioural process assessment. 6 min.",
+    "description": "<p>Investor decision-quality assessment for base rates, disconfirmation, process discipline, and calibration.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start assessment"
+  },
+  "deliberationText": "Calculating your diagnostic...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Before analysing a company unique story, how often do you examine the relevant reference class?",
+      "type": "profile",
+      "dimension": "base-rates-and-outside-view",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. It happens rarely, reactively, or only when a crisis forces attention.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "base-rates-and-outside-view": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. It happens occasionally, but timing depends on individual initiative or urgency.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "base-rates-and-outside-view": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is a defined cadence with clear participants, owners, and triggers.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "base-rates-and-outside-view": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The cadence is frequent enough to change decisions, includes quality checks, and improves from outcomes.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "base-rates-and-outside-view": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How are forecasts anchored?",
+      "type": "profile",
+      "dimension": "base-rates-and-outside-view",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. There is no usable model; the answer is unknown or based on rough intuition.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "base-rates-and-outside-view": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an estimate, but assumptions, sensitivity, and ownership are weak.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "base-rates-and-outside-view": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The model uses current inputs, documented assumptions, and regular review.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "base-rates-and-outside-view": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The model is scenario-tested, tied to triggers and decisions, and reconciled with reliable source data.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "base-rates-and-outside-view": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How is disconfirming evidence collected?",
+      "type": "profile",
+      "dimension": "disconfirmation-and-independence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The answer relies mainly on opinion, pitch, memory, or isolated examples.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "disconfirmation-and-independence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are supporting examples, but sources are partial, informal, or hard to compare.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "disconfirmation-and-independence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is documented evidence from relevant customers, operations, metrics, or records.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "disconfirmation-and-independence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The evidence is triangulated, current, owner-reviewed, and strong enough to change a material decision.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "disconfirmation-and-independence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How are junior or dissenting views protected from authority effects?",
+      "type": "profile",
+      "dimension": "disconfirmation-and-independence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Authority is unclear, improvised, or concentrated in one person.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "disconfirmation-and-independence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The practice is informal; boundaries, escalation, or records are inconsistent.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "disconfirmation-and-independence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Owners, decision rules, and review points are documented for important cases.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "disconfirmation-and-independence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Authority, evidence standards, exception handling, and periodic review are governed.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "disconfirmation-and-independence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "What exists before the investment committee meeting?",
+      "type": "profile",
+      "dimension": "process-discipline",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Authority is unclear, improvised, or concentrated in one person.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-discipline": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The practice is informal; boundaries, escalation, or records are inconsistent.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-discipline": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Owners, decision rules, and review points are documented for important cases.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-discipline": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Authority, evidence standards, exception handling, and periodic review are governed.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "process-discipline": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How are follow-on decisions protected from sunk-cost bias?",
+      "type": "profile",
+      "dimension": "process-discipline",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Authority is unclear, improvised, or concentrated in one person.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-discipline": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The practice is informal; boundaries, escalation, or records are inconsistent.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-discipline": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Owners, decision rules, and review points are documented for important cases.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-discipline": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Authority, evidence standards, exception handling, and periodic review are governed.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "process-discipline": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How often are investment forecasts expressed as probabilities?",
+      "type": "profile",
+      "dimension": "calibration-and-learning",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. It happens rarely, reactively, or only when a crisis forces attention.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "calibration-and-learning": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. It happens occasionally, but timing depends on individual initiative or urgency.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "calibration-and-learning": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is a defined cadence with clear participants, owners, and triggers.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "calibration-and-learning": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The cadence is frequent enough to change decisions, includes quality checks, and improves from outcomes.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "calibration-and-learning": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How does the investment team learn from outcomes?",
+      "type": "profile",
+      "dimension": "calibration-and-learning",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "calibration-and-learning": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "calibration-and-learning": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "calibration-and-learning": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "calibration-and-learning": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "maturity",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "base-rates-and-outside-view",
+        "label": "Base Rates & Outside View",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "disconfirmation-and-independence",
+        "label": "Disconfirmation & Independence",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "process-discipline",
+        "label": "Process Discipline",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "calibration-and-learning",
+        "label": "Calibration & Learning",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  },
+  "banner": {
+    "title": "Outfinity Diagnostic",
+    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
+    "ctaText": "Explore Outfinity",
+    "ctaUrl": "https://outfinity.ch/"
+  },
+  "contextTitle": "Evidence confidence",
+  "contextQuestions": [
+    {
+      "id": "evidence-base-rates-and-outside-view",
+      "text": "What level of evidence supports your answers for Base Rates & Outside View?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-disconfirmation-and-independence",
+      "text": "What level of evidence supports your answers for Disconfirmation & Independence?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-process-discipline",
+      "text": "What level of evidence supports your answers for Process Discipline?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-calibration-and-learning",
+      "text": "What level of evidence supports your answers for Calibration & Learning?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    }
+  ]
+}

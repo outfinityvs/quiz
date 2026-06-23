@@ -1,0 +1,23 @@
+{
+  "approaches": {
+    "confront": { "title": "Confront", "desc": "You address conflict directly and seek resolution through open discussion. This clarifies issues fast and refuses festering \u2014 but in a team that needs safety, it can escalate faster than the situation warrants.", "fits": "high-stakes, time-pressured, or integrity-driven conflicts.", "watch": "confronting becomes domination when there is no real listening behind the directness." },
+    "negotiate": { "title": "Negotiate", "desc": "You seek compromise: a middle ground where each side trades something. This preserves the relationship and gets movement \u2014 but on questions of principle, the compromise can gut both positions.", "fits": "conflicts of interest where the relationship and the outcome both matter.", "watch": "negotiation becomes transactional smoothing when it papers over a real disagreement." },
+    "accommodate": { "title": "Accommodate", "desc": "You yield to preserve the relationship and prioritize harmony. This builds goodwill and absorbs friction \u2014 but chronic accommodation accumulates resentment and lets bad patterns continue.", "fits": "low-stakes conflicts where the relationship matters more than the point.", "watch": "accommodation becomes self-erasure when the stakes rise and you still yield." },
+    "avoid": { "title": "Avoid", "desc": "You withdraw or defer, minimizing engagement and waiting for the conflict to settle. This avoids impulsive escalation \u2014 but avoidance becomes a pattern when the conflict keeps recurring because it was never addressed.", "fits": "trivial conflicts, overheated moments, or bad timing for a decision.", "watch": "avoidance becomes neglect when important issues never get resolved." },
+    "transform": { "title": "Transform", "desc": "You reframe the conflict as a shared problem and seek a win-win that addresses the underlying need. This is the most durable fix \u2014 but it takes real time and skill, and it can become evasion when you lack the authority or honesty to do it.", "fits": "complex, recurring conflicts where the surface disagreement hides a deeper one.", "watch": "transformation becomes wishful reframing when the reframe does not actually change anyone\u2019s incentives." }
+  },
+  "complement": "If your primary is Confront, you are steadied by someone who Accommodates or Negotiates \u2014 but not fully Avoid. If your primary is Avoid, you need someone who Confronts productively before avoidance becomes neglect.",
+  "shareTexts": {
+    "invite": "What is your conflict signature?",
+    "minimal": "My conflict signature is {primary}. What is yours?",
+    "full": "My conflict signature is {primary}, with {secondary} close behind.\nWhat is yours?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for builders comparing how they move through conflict and finding partners whose signatures complement rather than collide. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

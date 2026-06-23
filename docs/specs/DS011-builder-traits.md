@@ -1,7 +1,7 @@
 ---
 id: DS011
 title: Builder Traits Snapshot
-status: planned
+status: draft
 owner: outfinity
 summary: Short Big Five personality profile using IPIP public-domain items, measuring openness, conscientiousness, agreeableness, emotional stability, and achievement orientation.
 ---

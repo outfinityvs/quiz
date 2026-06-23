@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/startup-leadership-readiness-assessment",
+  "title": "Scale Leadership Readiness",
+  "promise": "Scale leadership readiness diagnostic for delegation, talent, operating rhythm, culture, and psychological safety.",
+  "duration": "6 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "maturity",
+  "domain": "growth-leadership",
+  "priority": "P1",
+  "audience": "Founders, executives, new managers, leadership teams, and executive coaches",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Leadership maturity assessment across Delegation & Decision Rights, Talent & Coaching, Operating Rhythm, Culture & Psychological Safety. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Scale Leadership Readiness - Outfinity Quiz",
+  "ogDescription": "Scale leadership readiness diagnostic for delegation, talent, operating rhythm, culture, and psychological safety."
+}

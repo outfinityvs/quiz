@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/family-office-maturity-assessment",
+  "title": "Family Office Institutional Maturity",
+  "promise": "Family office institutional maturity map from founder-centric wealth management to enduring platform.",
+  "duration": "7 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "maturity",
+  "domain": "investor-capital",
+  "priority": "P1",
+  "audience": "Single and multi-family offices, entrepreneurial families, trustees, advisors, and next-generation leaders",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Institutional maturity assessment across Mandate & Governance, Investment Process, Operations & Controls, Talent, Data & Technology. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Family Office Institutional Maturity - Outfinity Quiz",
+  "ogDescription": "Family office institutional maturity map from founder-centric wealth management to enduring platform."
+}

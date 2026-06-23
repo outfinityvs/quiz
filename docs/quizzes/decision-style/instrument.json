@@ -1,0 +1,496 @@
+{
+  "id": "decision-style",
+  "version": 1,
+  "title": "Decision Style Profile",
+  "language": "en",
+  "introduction": {
+    "subtitle": "How do you decide under uncertainty? Five axes of your decision reflex.",
+    "description": "<p>This is not a test of decision quality — it maps your style. Each pole of each axis has a use; what matters is knowing your reflex so you can tell when it serves the situation and when it does not.</p><p>Each scenario offers a clear-leaning option, a balanced option, and an opposite-leaning option. Pick what you would actually do.</p>",
+    "duration": "15 scenarios. Approximately four minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
+    "startButton": "Map my decisions"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Two potential customers: one large contract needing heavy customization, one small but perfectly aligned with your roadmap. One week to decide. What do you do?",
+      "type": "profile",
+      "dimension": "analytical_intuitive",
+      "options": [
+        {
+          "key": "a",
+          "text": "Calculate revenue, cost-to-serve, and strategic fit before deciding.",
+          "dimensionScores": {
+            "analytical_intuitive": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Trust your gut about which customer fits.",
+          "dimensionScores": {
+            "analytical_intuitive": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Sketch the numbers fast, then check against instinct.",
+          "dimensionScores": {
+            "analytical_intuitive": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "A senior teammate challenges your plan with a strong objection. How do you respond?",
+      "type": "profile",
+      "dimension": "analytical_intuitive",
+      "options": [
+        {
+          "key": "a",
+          "text": "Ask for their reasoning and weigh the evidence point by point.",
+          "dimensionScores": {
+            "analytical_intuitive": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Sense whether the objection carries real signal beyond the logic.",
+          "dimensionScores": {
+            "analytical_intuitive": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Hear the point, then weigh both the reasoning and your instincts.",
+          "dimensionScores": {
+            "analytical_intuitive": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "A new market looks promising but the data is thin. What is your first move?",
+      "type": "profile",
+      "dimension": "analytical_intuitive",
+      "options": [
+        {
+          "key": "a",
+          "text": "Commission research before committing anything.",
+          "dimensionScores": {
+            "analytical_intuitive": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Act on pattern recognition from analogous markets.",
+          "dimensionScores": {
+            "analytical_intuitive": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Run one cheap experiment to triangulate.",
+          "dimensionScores": {
+            "analytical_intuitive": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "A partnership could double revenue but requires sharing your core technology. The partner is reputable; the agreement is complex. What do you do?",
+      "type": "profile",
+      "dimension": "risk_caution",
+      "options": [
+        {
+          "key": "a",
+          "text": "Take it — the upside justifies sharing the technology.",
+          "dimensionScores": {
+            "risk_caution": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Decline — protect the core.",
+          "dimensionScores": {
+            "risk_caution": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Negotiate protections first, then decide.",
+          "dimensionScores": {
+            "risk_caution": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "A bet-the-company opportunity with roughly 50/50 odds appears. How do you handle it?",
+      "type": "profile",
+      "dimension": "risk_caution",
+      "options": [
+        {
+          "key": "a",
+          "text": "Take the bet — the upside is transformative.",
+          "dimensionScores": {
+            "risk_caution": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Preserve optionality instead of going all-in.",
+          "dimensionScores": {
+            "risk_caution": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Take a smaller, survivable version of the bet.",
+          "dimensionScores": {
+            "risk_caution": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Cash reserves could fund a risky expansion or simply extend runway. Which do you favor?",
+      "type": "profile",
+      "dimension": "risk_caution",
+      "options": [
+        {
+          "key": "a",
+          "text": "Expand — growth is what protects you long term.",
+          "dimensionScores": {
+            "risk_caution": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Extend runway first — survive before you grow.",
+          "dimensionScores": {
+            "risk_caution": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Split the difference: a measured expansion and a longer buffer.",
+          "dimensionScores": {
+            "risk_caution": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "You need to hire in two weeks. Candidates: clearly qualified but expensive, promising but unproven, or safe but dull. What do you do?",
+      "type": "profile",
+      "dimension": "speed_accuracy",
+      "options": [
+        {
+          "key": "a",
+          "text": "Decide fast on first impression; iterate if wrong.",
+          "dimensionScores": {
+            "speed_accuracy": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Interview thoroughly and check references before deciding.",
+          "dimensionScores": {
+            "speed_accuracy": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Add one extra round, then decide.",
+          "dimensionScores": {
+            "speed_accuracy": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "A competitor ships a feature close to yours. How do you respond?",
+      "type": "profile",
+      "dimension": "speed_accuracy",
+      "options": [
+        {
+          "key": "a",
+          "text": "Ship something now, iterate from real feedback.",
+          "dimensionScores": {
+            "speed_accuracy": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Get it right; ship in a month.",
+          "dimensionScores": {
+            "speed_accuracy": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Ship a minimal version now, polish after.",
+          "dimensionScores": {
+            "speed_accuracy": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "A critical bug appears at launch. What is your first move?",
+      "type": "profile",
+      "dimension": "speed_accuracy",
+      "options": [
+        {
+          "key": "a",
+          "text": "Patch fast, communicate after.",
+          "dimensionScores": {
+            "speed_accuracy": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Pause and diagnose the root cause first.",
+          "dimensionScores": {
+            "speed_accuracy": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Quick containment, then root-cause it.",
+          "dimensionScores": {
+            "speed_accuracy": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "A key supplier fails mid-project. What do you do?",
+      "type": "profile",
+      "dimension": "control_adaptation",
+      "options": [
+        {
+          "key": "a",
+          "text": "Direct the replacement personally and closely.",
+          "dimensionScores": {
+            "control_adaptation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Let the team reorganize around what is available.",
+          "dimensionScores": {
+            "control_adaptation": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Set the constraint, let them find the path.",
+          "dimensionScores": {
+            "control_adaptation": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "A funder wants real influence over your roadmap. How do you respond?",
+      "type": "profile",
+      "dimension": "control_adaptation",
+      "options": [
+        {
+          "key": "a",
+          "text": "Keep direction firmly with the founders.",
+          "dimensionScores": {
+            "control_adaptation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Adapt strategy to their input where it genuinely improves it.",
+          "dimensionScores": {
+            "control_adaptation": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Hold the core, flex the edges.",
+          "dimensionScores": {
+            "control_adaptation": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "The market shifts while you are still building. What do you do?",
+      "type": "profile",
+      "dimension": "control_adaptation",
+      "options": [
+        {
+          "key": "a",
+          "text": "Stick to the plan; you chose it for a reason.",
+          "dimensionScores": {
+            "control_adaptation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Re-shape around the new reality.",
+          "dimensionScores": {
+            "control_adaptation": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Re-plan the next milestone, keep the vision.",
+          "dimensionScores": {
+            "control_adaptation": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": "A hard strategic call has to be made. How do you make it?",
+      "type": "profile",
+      "dimension": "solo_collaborative",
+      "options": [
+        {
+          "key": "a",
+          "text": "Decide it yourself — you carry the risk.",
+          "dimensionScores": {
+            "solo_collaborative": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Build consensus with the team first.",
+          "dimensionScores": {
+            "solo_collaborative": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Consult two trusted people, then decide.",
+          "dimensionScores": {
+            "solo_collaborative": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": "A crisis hits at 2 a.m. What do you do?",
+      "type": "profile",
+      "dimension": "solo_collaborative",
+      "options": [
+        {
+          "key": "a",
+          "text": "Handle it yourself, brief others after.",
+          "dimensionScores": {
+            "solo_collaborative": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Wake the people who can help.",
+          "dimensionScores": {
+            "solo_collaborative": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Make the urgent call, loop others in for the rest.",
+          "dimensionScores": {
+            "solo_collaborative": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": "You are setting the company’s direction. How do you shape it?",
+      "type": "profile",
+      "dimension": "solo_collaborative",
+      "options": [
+        {
+          "key": "a",
+          "text": "Keep it yours — you carry the risk.",
+          "dimensionScores": {
+            "solo_collaborative": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "Co-author it with the team.",
+          "dimensionScores": {
+            "solo_collaborative": 2
+          }
+        },
+        {
+          "key": "c",
+          "text": "Draft it, then pressure-test with a few.",
+          "dimensionScores": {
+            "solo_collaborative": 1
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "dimensions": [
+      {
+        "key": "analytical_intuitive",
+        "label": "Analytical ↔ Intuitive",
+        "lowLabel": "Analytical",
+        "highLabel": "Intuitive",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "risk_caution",
+        "label": "Risk ↔ Caution",
+        "lowLabel": "Risk",
+        "highLabel": "Caution",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "speed_accuracy",
+        "label": "Speed ↔ Accuracy",
+        "lowLabel": "Speed",
+        "highLabel": "Accuracy",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "control_adaptation",
+        "label": "Control ↔ Adaptation",
+        "lowLabel": "Control",
+        "highLabel": "Adaptation",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "solo_collaborative",
+        "label": "Solo ↔ Collaborative",
+        "lowLabel": "Solo",
+        "highLabel": "Collaborative",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  }
+}

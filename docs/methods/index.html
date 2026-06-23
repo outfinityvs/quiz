@@ -25,8 +25,8 @@
       <span>Outfinity Quiz</span>
     </a>
     <nav class="site-header__nav">
-      <a href="../index.html">Catalog</a>
-      <a href="../privacy/index.html">Privacy</a>
+      <a href="../index.html">Home</a>
+      <a href="../sitemap.html">All Quizzes</a>
     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☀</button>
     </nav>
   </header>
@@ -90,13 +90,23 @@
 
   <footer class="site-footer">
     <nav>
-      <a href="../index.html">Catalog</a>
+      <a href="../index.html">Home</a>
       <a href="../privacy/index.html">Privacy</a>
-      <a href="../licenses/index.html">Licenses</a>
-      <a href="../partners/index.html">Partners</a>
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☀</button>
+
     </nav>
     <p>Outfinity Quiz — free instruments, private by architecture.</p>
   </footer>
+  <script>
+    (function() {
+      var path = window.location.pathname;
+      var isQuizPage = /\/quizzes\//.test(path);
+      var isSubPage = /\/(privacy|methods|licenses|dev)\//.test(path);
+      var base = isQuizPage ? '../../' : (isSubPage ? '../' : '');
+      var s = document.createElement('script');
+      s.src = base + 'partials/footer-loader.js';
+      s.async = true;
+      document.body.appendChild(s);
+    })();
+  </script>
 </body>
 </html>

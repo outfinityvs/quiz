@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/quick-mbti",
+  "title": "Quick MBTI-Style Quiz",
+  "promise": "A two-minute, MBTI-style snapshot of your four preference dimensions. Original items — not the official MBTI.",
+  "duration": "~2 min",
+  "durationCategory": "short",
+  "questions": 12,
+  "type": "quick",
+  "domain": "personality",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "12 binary-choice items across four dimensions (E/I, S/N, T/F, J/P). Custom scoring determines dominant pole per dimension and constructs a four-letter type code (e.g., INTJ) with a brief description and venture fit. Items are original and not from the official MBTI.",
+  "ogTitle": "Quick MBTI-Style Quiz — Outfinity Quiz",
+  "ogDescription": "Find your four-letter type. 12 binary choices, ~2 min. Private by design. Not the official MBTI."
+}

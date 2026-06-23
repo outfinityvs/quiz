@@ -26,7 +26,7 @@
     </a>
     <nav class="site-header__nav">
       <a href="../index.html">Catalog</a>
-      <a href="../sitemap.html">All Tests</a>
+      <a href="../sitemap.html">All Quizzes</a>
       
       <a href="../privacy/index.html">Privacy</a>
     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☀</button>
@@ -67,6 +67,10 @@
 
     <p>Detailed specifications for each module and quiz are maintained in the DS files. View them through the <a href="../specsLoader.html?spec=matrix.md">Specification Matrix</a>.</p>
 
+    <h2>Content Review</h2>
+
+    <p>The current editorial audit for quiz completeness, business-diagnostic depth, evidence confidence, and result limitations is maintained in <a href="quiz-content-review.md">Quiz Content Review</a>.</p>
+
     <h2>Development Workflow</h2>
 
     <p>No build step is required. Serve the <code>docs/</code> directory with any static file server:</p>
@@ -89,7 +93,7 @@
   <footer class="site-footer">
     <nav>
       <a href="../index.html">Catalog</a>
-      <a href="../sitemap.html">All Tests</a>
+      <a href="../sitemap.html">All Quizzes</a>
       
       <a href="../privacy/index.html">Privacy</a>
       <a href="../licenses/index.html">Licenses</a>
@@ -98,5 +102,17 @@
     <p class="site-footer__disclaimer">AI was used in coding and processing these quizzes. The inspiration and sources are real, but errors may have slipped through. If you find something wrong, please <a href="mailto:quiz@outfinity.ch">send us feedback</a>.</p>
     <p>An initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>.</p>
   </footer>
+  <script>
+    (function() {
+      var path = window.location.pathname;
+      var isQuizPage = /\/quizzes\//.test(path);
+      var isSubPage = /\/(privacy|methods|licenses|dev)\//.test(path);
+      var base = isQuizPage ? '../../' : (isSubPage ? '../' : '');
+      var s = document.createElement('script');
+      s.src = base + 'partials/footer-loader.js';
+      s.async = true;
+      document.body.appendChild(s);
+    })();
+  </script>
 </body>
 </html>

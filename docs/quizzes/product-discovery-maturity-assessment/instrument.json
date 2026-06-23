@@ -1,0 +1,621 @@
+{
+  "id": "product-discovery-maturity-assessment",
+  "slug": "product-discovery-maturity-assessment",
+  "version": 1,
+  "locale": "en",
+  "title": "Product Discovery Maturity",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Team maturity assessment. 6 min.",
+    "description": "<p>Discovery maturity diagnostic for continuous contact, problem framing, experiment quality, and decision integration.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start assessment"
+  },
+  "deliberationText": "Calculating your diagnostic...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How frequently does the product trio or equivalent team engage directly with target users?",
+      "type": "profile",
+      "dimension": "continuous-customer-contact",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. It happens rarely, reactively, or only when a crisis forces attention.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "continuous-customer-contact": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. It happens occasionally, but timing depends on individual initiative or urgency.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "continuous-customer-contact": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is a defined cadence with clear participants, owners, and triggers.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "continuous-customer-contact": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The cadence is frequent enough to change decisions, includes quality checks, and improves from outcomes.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "continuous-customer-contact": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How representative is the customer evidence used in product decisions?",
+      "type": "profile",
+      "dimension": "continuous-customer-contact",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The answer relies mainly on opinion, pitch, memory, or isolated examples.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "continuous-customer-contact": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are supporting examples, but sources are partial, informal, or hard to compare.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "continuous-customer-contact": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is documented evidence from relevant customers, operations, metrics, or records.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "continuous-customer-contact": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The evidence is triangulated, current, owner-reviewed, and strong enough to change a material decision.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "continuous-customer-contact": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How are opportunities framed before solutions are discussed?",
+      "type": "profile",
+      "dimension": "problem-framing",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-framing": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-framing": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-framing": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-framing": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How explicitly are assumptions identified?",
+      "type": "profile",
+      "dimension": "problem-framing",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-framing": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-framing": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-framing": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-framing": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How are discovery tests selected?",
+      "type": "profile",
+      "dimension": "experiment-quality",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-quality": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-quality": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-quality": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-quality": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How are success and failure interpreted?",
+      "type": "profile",
+      "dimension": "experiment-quality",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-quality": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-quality": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-quality": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-quality": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How often does discovery evidence change the roadmap or stop work?",
+      "type": "profile",
+      "dimension": "decision-integration",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. It happens rarely, reactively, or only when a crisis forces attention.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-integration": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. It happens occasionally, but timing depends on individual initiative or urgency.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-integration": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is a defined cadence with clear participants, owners, and triggers.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-integration": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The cadence is frequent enough to change decisions, includes quality checks, and improves from outcomes.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-integration": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How traceable is the path from insight to product decision?",
+      "type": "profile",
+      "dimension": "decision-integration",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Authority is unclear, improvised, or concentrated in one person.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-integration": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The practice is informal; boundaries, escalation, or records are inconsistent.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-integration": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Owners, decision rules, and review points are documented for important cases.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-integration": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Authority, evidence standards, exception handling, and periodic review are governed.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-integration": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "maturity",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "continuous-customer-contact",
+        "label": "Continuous Customer Contact",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "problem-framing",
+        "label": "Problem Framing",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "experiment-quality",
+        "label": "Experiment Quality",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "decision-integration",
+        "label": "Decision Integration",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  },
+  "banner": {
+    "title": "Outfinity Diagnostic",
+    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
+    "ctaText": "Explore Outfinity",
+    "ctaUrl": "https://outfinity.ch/"
+  },
+  "contextTitle": "Evidence confidence",
+  "contextQuestions": [
+    {
+      "id": "evidence-continuous-customer-contact",
+      "text": "What level of evidence supports your answers for Continuous Customer Contact?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-problem-framing",
+      "text": "What level of evidence supports your answers for Problem Framing?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-experiment-quality",
+      "text": "What level of evidence supports your answers for Experiment Quality?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-decision-integration",
+      "text": "What level of evidence supports your answers for Decision Integration?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    }
+  ]
+}

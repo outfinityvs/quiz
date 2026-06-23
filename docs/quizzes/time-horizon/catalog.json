@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/time-horizon",
+  "title": "Time Horizon Portrait",
+  "promise": "How do you relate to past, present, and future? Five time orientations inspired by Zimbardo Time Perspective — none prescribed as the right one.",
+  "duration": "~3 min",
+  "durationCategory": "short",
+  "questions": 15,
+  "type": "derived",
+  "domain": "personality",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "15 original Likert items across five time orientations (Past-Positive, Past-Negative, Present-Hedonistic, Present-Fatalistic, Future-Oriented). Result shows a radar of your dominant orientations and where each one costs or helps. Inspired by Zimbardo Time Perspective concepts; items are original.",
+  "ogTitle": "Time Horizon Portrait — Outfinity Quiz",
+  "ogDescription": "How do you relate to past, present, and future? 15 items, ~3 min. Private by design."
+}

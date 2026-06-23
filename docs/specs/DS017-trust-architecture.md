@@ -1,7 +1,7 @@
 ---
 id: DS017
 title: Trust Architecture
-status: planned
+status: draft
 owner: outfinity
 summary: Trust style profile mapping five mechanisms: Relational, Contractual, Reputational, Procedural, Communal.
 ---

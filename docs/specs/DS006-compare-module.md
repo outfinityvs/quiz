@@ -10,11 +10,11 @@ summary: Multi-result radar overlay with transparency, labeled profiles, complem
 
 ## Introduction
 
-The compare module overlays two or more quiz results on a single radar chart, enabling visual comparison and complementarity analysis. It supports the "Compare Our Maps" and "Team Constellation" viral features.
+The compare module compares two or more quiz results through a shared visual result diagram, enabling visual comparison, alignment analysis, complementarity analysis, and safe team aggregation. It supports "Compare Our Maps," paired alignment, team constellation, founder-pair unlock, and anonymized team-dispersion features.
 
 ## Core Content
 
-The module accepts an array of result objects, each containing: label (person name or identifier), scores array, and optional color. Results are rendered as overlapping polygons on a shared radar chart with distinct colors and reduced opacity.
+The module accepts an array of result objects, each containing: label (person name or identifier), scores array, optional color, optional role, and optional comparison mode. Dimensional results are rendered as overlapping polygons on a shared radar chart with distinct colors and reduced opacity. Alignment results may use a per-item or per-dimension heatmap when the quiz DS defines answer-distance scoring.
 
 The comparison flow: Person A completes the quiz and generates a shareable link. Person B opens the link, sees an invitation to take the quiz and compare results. After Person B completes the quiz, the module overlays both results.
 
@@ -24,9 +24,9 @@ The complementarity analysis computes: shared strengths (dimensions where both s
 
 The collaboration agreement is a text generated from the complementarity analysis. It follows a template defined in the quiz's interpretation JSON, filling in the specific dimensions and scores. The text is displayed and can be copied.
 
-For team constellations (3+ participants), the module additionally identifies: redundant roles (dimensions where multiple people score high), absent roles (dimensions where nobody scores high), and the team's overall coverage pattern.
+For team constellations (3+ participants), the module additionally identifies: redundant roles (dimensions where multiple people score high), absent roles (dimensions where nobody scores high), score dispersion, and the team's overall coverage pattern. Team views must enforce the privacy threshold defined by the relevant quiz DS before displaying aggregate data.
 
-The module renders the overlay chart, a textual comparison summary, and the collaboration agreement. All rendering uses `textContent` for dynamic values.
+The module renders the overlay chart or comparison heatmap, a textual comparison summary, and the collaboration agreement. All rendering uses `textContent` for dynamic values.
 
 ## Decisions & Questions
 
@@ -36,7 +36,11 @@ Response: Two for "Compare Our Maps," up to eight for "Team Constellation." Beyo
 
 ### Question #2: Should comparison results be shareable?
 
-Response: Yes. The comparison view can generate its own shareable link encoding all overlaid results. The payload grows linearly with the number of participants.
+Response: Yes for low-sensitivity quizzes and explicit paired invitations. Business, investor, family, cybersecurity, regulatory, and team results must share only safe aggregate summaries unless all participants explicitly approve the disclosure.
+
+### Question #3: Should paired founder alignment be treated as maturity scoring?
+
+Response: No. In solo mode it is a preference profile. In paired mode it is an answer-distance alignment map. It must not label one preference as inherently more mature unless the per-quiz DS defines an explicit readiness bonus for documented agreements.
 
 ## Conclusion
 

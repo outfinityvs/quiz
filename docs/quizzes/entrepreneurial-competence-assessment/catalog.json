@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/entrepreneurial-competence-assessment",
+  "title": "Entrepreneurial Competence Compass",
+  "promise": "Entrepreneurial competence map from opportunity recognition to responsible value creation.",
+  "duration": "6 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "competence",
+  "domain": "founders",
+  "priority": "P1",
+  "audience": "Entrepreneurs, intrapreneurs, students, incubators, and corporate innovation teams",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Competence assessment inspired by EntreComp across Opportunity & Vision, Resource Mobilisation, Action & Experimentation, Ethics & Shared Value. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Entrepreneurial Competence Compass - Outfinity Quiz",
+  "ogDescription": "Entrepreneurial competence map from opportunity recognition to responsible value creation."
+}

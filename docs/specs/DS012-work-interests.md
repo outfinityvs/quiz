@@ -1,7 +1,7 @@
 ---
 id: DS012
 title: Work Interest Constellation
-status: planned
+status: draft
 owner: outfinity
 summary: Vocational interest profile inspired by O*NET RIASEC model, mapping six activity types that sustain energy and curiosity.
 ---

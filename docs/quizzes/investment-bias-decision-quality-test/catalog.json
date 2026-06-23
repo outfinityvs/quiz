@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/investment-bias-decision-quality-test",
+  "title": "Investment Decision Quality & Bias",
+  "promise": "Investor decision-quality assessment for base rates, disconfirmation, process discipline, and calibration.",
+  "duration": "6 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "assessment",
+  "domain": "investor-capital",
+  "priority": "P1",
+  "audience": "Angel investors, VC/PE teams, family offices, investment committees, and allocators",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Behavioural process assessment across Base Rates & Outside View, Disconfirmation & Independence, Process Discipline, Calibration & Learning. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Investment Decision Quality & Bias - Outfinity Quiz",
+  "ogDescription": "Investor decision-quality assessment for base rates, disconfirmation, process discipline, and calibration."
+}

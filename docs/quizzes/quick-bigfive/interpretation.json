@@ -1,0 +1,28 @@
+{
+  "dimensions": {
+    "openness": { "low": "Practical and conventional. You prefer routine and concrete problems over novelty.", "mid": "You balance curiosity and pragmatism \u2014 you explore new ideas when the payoff is clear.", "high": "Curious and creative. You enjoy exploring new ideas and experiences." },
+    "conscientiousness": { "low": "Flexible and spontaneous. You adapt easily but may strain reliability and follow-through.", "mid": "You balance structure and flexibility \u2014 organized when it matters, adaptive when needed.", "high": "Organized and disciplined. You value structure, planning, and reliability." },
+    "extraversion": { "low": "Reserved and reflective. You are energized by solitude and meaningful conversations over large gatherings.", "mid": "You balance social time and solitude \u2014 sociable when it pays, quiet when it counts.", "high": "Sociable and energetic. You are energized by interaction and external activity." },
+    "agreeableness": { "low": "Independent and skeptical. You push your own view and contest others when it matters.", "mid": "You balance cooperation and independence \u2014 you advocate and yield depending on the stakes.", "high": "Cooperative and empathetic. You value harmony and consider others' perspectives." },
+    "emotionalStability": { "low": "Reactive under stress. You feel pressure acutely; this can surface real problems but is costly over time.", "mid": "Generally calm but reactive under acute stress \u2014 you recover.", "high": "Calm and resilient. You stay steady under pressure and recover quickly from setbacks." }
+  },
+  "recommendations": {
+    "openness_high_conscientiousness_high": "High Openness + High Conscientiousness \u2014 strong fit for research and strategic roles.",
+    "extraversion_high_agreeableness_high": "High Extraversion + High Agreeableness \u2014 strong fit for community, sales, and leadership ventures.",
+    "emotionalStability_high_conscientiousness_high": "High Emotional Stability + High Conscientiousness \u2014 strong fit for operations and quality-critical ventures.",
+    "default": "Your Big Five mix fits several venture shapes. For a deeper read, take the 20-item Builder Traits Snapshot."
+  },
+  "shareTexts": {
+    "invite": "What's your Big Five?",
+    "minimal": "I snapped my Big Five. What's yours?",
+    "full": "My Quick Big Five:\n{profileSummary}\nWhat's yours?"
+  },
+  "recommendation": {
+    "label": "Go deeper",
+    "title": "Builder Traits Snapshot",
+    "text": "This 10-item snapshot is fast but limited. For a longer read, take our 20-item Builder Traits Snapshot \u2014 same IPIP items, four per dimension, better reliability.",
+    "url": "../builder-traits/index.html",
+    "buttonText": "Take Builder Traits Snapshot",
+    "note": "Stays on this site. Your quick result is not transmitted."
+  }
+}

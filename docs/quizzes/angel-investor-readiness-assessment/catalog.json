@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/angel-investor-readiness-assessment",
+  "title": "Angel Investor Readiness",
+  "promise": "Angel investor maturity diagnostic for thesis, diligence, portfolio construction, and governance.",
+  "duration": "6 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "maturity",
+  "domain": "investor-capital",
+  "priority": "P1",
+  "audience": "Prospective and active angel investors, founder-angels, and investment clubs",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Investor maturity assessment across Thesis & Boundaries, Deal Flow & Diligence, Portfolio Discipline, Support & Governance. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Angel Investor Readiness - Outfinity Quiz",
+  "ogDescription": "Angel investor maturity diagnostic for thesis, diligence, portfolio construction, and governance."
+}

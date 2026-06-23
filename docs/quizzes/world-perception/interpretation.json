@@ -1,0 +1,53 @@
+{
+  "styles": {
+    "realistic": {
+      "title": "Realistic",
+      "health": "You have an accurate understanding of global health progress. You know vaccination rates are high and child mortality has fallen dramatically, even where challenges remain.",
+      "economic": "You have an accurate understanding of global economics. You know poverty has declined sharply since 1990 and that most people now have electricity and literacy.",
+      "demographic": "You understand global demographic trends well \u2014 urbanization, the scale of remaining extreme poverty, and the fall in fertility.",
+      "climate": "You have an accurate view of climate trends: emissions are still rising, renewables are a meaningful but not yet dominant share, and clean energy is getting cheap fast."
+    },
+    "selective": {
+      "title": "Selective",
+      "health": "You're informed about some health trends but rely on outdated or partial assumptions about others. A closer look at long-term data would tighten your picture.",
+      "economic": "You see part of the economic story clearly but miss part of it. Some trends (poverty, electrification) are better than you think.",
+      "demographic": "You understand some demographic issues but rely on outdated assumptions about population growth or urbanization.",
+      "climate": "You read some climate signals accurately but miss or exaggerate others \u2014 common when relying on fragmented news rather than trend data."
+    },
+    "pessimistic": {
+      "title": "Pessimistic",
+      "health": "You systematically underestimate health progress. You believe vaccination is low and child mortality is rising when the opposite is true. This pessimism is common among people who consume negative news without long-term context.",
+      "economic": "You underestimate economic progress. You may believe poverty is rising or electrification is stalled when both have improved substantially. The world is more changed for the better than your model of it.",
+      "demographic": "You overestimate population growth and the scale of extreme poverty. The demographic transition is further along than you assume.",
+      "climate": "You read climate signals in a way that mixes real concern with distorted specifics \u2014 sometimes minimizing renewable progress, sometimes misestimating emission trends. Focus on the trends, not the headlines."
+    },
+    "optimistic": {
+      "title": "Optimistic",
+      "health": "You overestimate health progress \u2014 assuming near-universal vaccination or very high life expectancy everywhere. The progress is real, but the gaps that remain are larger than your model of them.",
+      "economic": "You overestimate how far prosperity has spread. Poverty has fallen, but hundreds of millions still live in extreme poverty and lack reliable electricity.",
+      "demographic": "You underestimate the population still in poverty and overstate how far urbanization and fertility decline have progressed in poorer regions.",
+      "climate": "You may minimize the emissions trajectory or overstate how far clean energy has already come. The direction in cost is genuinely good; the share and absolute emissions are not yet where optimism would place them."
+    }
+  },
+  "learnMore": {
+    "title": "Go deeper",
+    "links": [
+      { "text": "Our World in Data \u2014 long-term global trends", "url": "https://ourworldindata.org/" },
+      { "text": "World Bank Open Data", "url": "https://data.worldbank.org/" },
+      { "text": "Gapminder \u2014 Factfulness test", "url": "https://www.gapminder.org/" }
+    ]
+  },
+  "shareTexts": {
+    "invite": "How realistic is your view of the world?",
+    "minimal": "I tested my view of the world. How realistic is yours?",
+    "full": "I took the World Perception Challenge.\nHealth: {health}\nEconomic: {economic}\nDemographic: {demographic}\nClimate: {climate}\nHow realistic is your view?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for people who want to reason from evidence and long-term trends rather than headlines. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

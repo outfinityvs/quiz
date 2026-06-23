@@ -1,0 +1,466 @@
+{
+  "id": "term-sheet-literacy-quiz",
+  "slug": "term-sheet-literacy-quiz",
+  "version": 1,
+  "locale": "en",
+  "title": "Term Sheet Literacy Challenge",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Knowledge quiz. 8 min.",
+    "description": "<p>Term sheet literacy challenge for economic and control consequences in venture financing.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "8 questions. Approximately 8 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start the challenge"
+  },
+  "deliberationText": "Checking your answers...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "An investor invests EUR 2 million at an EUR 8 million pre-money valuation. Before option-pool or convertible adjustments, what is the investor post-money ownership?",
+      "type": "profile",
+      "dimension": "economics-and-dilution",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "EUR 2m / EUR 10m post-money = 20%.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. 16.7%.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 1
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. 20.0%.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. 25.0%.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. It cannot be calculated without the exit value.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "What is the usual economic effect of increasing a pre-money option pool immediately before the financing?",
+      "type": "profile",
+      "dimension": "economics-and-dilution",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "a pre-money pool top-up primarily dilutes existing shareholders.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. It primarily dilutes existing shareholders.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. It primarily dilutes the incoming investor.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. It has no dilution effect until options are exercised.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 1
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. It automatically increases the pre-money valuation.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Why can board composition matter even when founders still own a majority of shares?",
+      "type": "profile",
+      "dimension": "control-and-governance",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "board rights can control key corporate decisions.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Boards approve only annual accounts, so composition rarely matters.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The board may control key corporate decisions, appointments and strategic approvals.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. A board seat automatically transfers share ownership.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Board composition matters only after an IPO.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "What are protective provisions generally designed to do?",
+      "type": "profile",
+      "dimension": "control-and-governance",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "protective provisions give consent rights over specified fundamental actions.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Give investors consent rights over specified fundamental actions.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Guarantee that the investment will produce a return.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Replace all duties of the board.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Prevent employees from receiving options.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "What does a 1x non-participating liquidation preference generally provide?",
+      "type": "profile",
+      "dimension": "downside-protection",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "non-participating preferred chooses preference amount or as-converted proceeds.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The investor receives both the original investment and full common-share participation in every case.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The investor typically chooses the greater of the preference amount or the as-converted common proceeds.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The investor receives one percent of the company.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The founders must repay the investor personally.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Compared with broad-based weighted-average anti-dilution, full-ratchet anti-dilution is generally what?",
+      "type": "profile",
+      "dimension": "downside-protection",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "full ratchet can reset conversion price to the new lower price regardless of round size.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Less dilutive to existing common holders.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. More punitive because it can reset the conversion price to the new lower price regardless of round size.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Identical in all financing scenarios.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Relevant only to employee options.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "What does a pro-rata right generally allow an investor to do?",
+      "type": "profile",
+      "dimension": "process-and-rights",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "pro-rata rights allow participation to maintain ownership subject to the agreement.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Maintain a proportionate ownership stake in a future financing, subject to the agreement.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Force the company to repurchase shares at any time.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Approve every customer contract.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Receive a fixed dividend before all creditors.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "What is the practical purpose of a no-shop or exclusivity clause?",
+      "type": "profile",
+      "dimension": "process-and-rights",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "exclusivity restricts competing financing discussions for a defined period.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. It restricts the company from soliciting or negotiating competing financing offers for a defined period.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. It guarantees that the financing will close.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. It prevents the company from selling products.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. It removes the need for definitive legal documents.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 0
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "knowledge",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "economics-and-dilution",
+        "label": "Economics & Dilution",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "control-and-governance",
+        "label": "Control & Governance",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "downside-protection",
+        "label": "Downside Protection",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "process-and-rights",
+        "label": "Process & Rights",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  },
+  "banner": {
+    "title": "Outfinity Diagnostic",
+    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
+    "ctaText": "Explore Outfinity",
+    "ctaUrl": "https://outfinity.ch/"
+  }
+}

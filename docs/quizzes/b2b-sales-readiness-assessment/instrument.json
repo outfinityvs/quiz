@@ -1,0 +1,621 @@
+{
+  "id": "b2b-sales-readiness-assessment",
+  "slug": "b2b-sales-readiness-assessment",
+  "version": 1,
+  "locale": "en",
+  "title": "B2B Sales Engine Readiness",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Revenue maturity assessment. 6 min.",
+    "description": "<p>B2B sales engine readiness diagnostic for ICP, qualification, conversion, enablement, handoff, forecasting, and retention.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start assessment"
+  },
+  "deliberationText": "Calculating your diagnostic...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How precisely are target accounts and non-fit accounts defined?",
+      "type": "profile",
+      "dimension": "icp-and-qualification",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How consistently are opportunities qualified?",
+      "type": "profile",
+      "dimension": "icp-and-qualification",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How objective are sales stages?",
+      "type": "profile",
+      "dimension": "process-and-conversion",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The answer is broad, assumed, or based mostly on internal belief.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is a high-level description, but segmentation, trigger, or buyer evidence is thin.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The answer is defined for a specific segment with documented behaviour, alternatives, and decision criteria.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The answer is validated across repeated cases and directly informs targeting, messaging, prioritisation, and trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How well are conversion and cycle dynamics understood?",
+      "type": "profile",
+      "dimension": "process-and-conversion",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How repeatable are discovery, demonstration, and proof?",
+      "type": "profile",
+      "dimension": "enablement-and-customer-handoff",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The answer relies mainly on opinion, pitch, memory, or isolated examples.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are supporting examples, but sources are partial, informal, or hard to compare.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is documented evidence from relevant customers, operations, metrics, or records.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The evidence is triangulated, current, owner-reviewed, and strong enough to change a material decision.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How reliable is the transition from sale to onboarding and customer success?",
+      "type": "profile",
+      "dimension": "enablement-and-customer-handoff",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The answer relies mainly on opinion, pitch, memory, or isolated examples.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are supporting examples, but sources are partial, informal, or hard to compare.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is documented evidence from relevant customers, operations, metrics, or records.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The evidence is triangulated, current, owner-reviewed, and strong enough to change a material decision.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How evidence-based is the forecast?",
+      "type": "profile",
+      "dimension": "forecasting-and-retention",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The answer relies mainly on opinion, pitch, memory, or isolated examples.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are supporting examples, but sources are partial, informal, or hard to compare.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is documented evidence from relevant customers, operations, metrics, or records.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The evidence is triangulated, current, owner-reviewed, and strong enough to change a material decision.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How tightly is new sales connected to retention and expansion quality?",
+      "type": "profile",
+      "dimension": "forecasting-and-retention",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The answer relies mainly on opinion, pitch, memory, or isolated examples.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are supporting examples, but sources are partial, informal, or hard to compare.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is documented evidence from relevant customers, operations, metrics, or records.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The evidence is triangulated, current, owner-reviewed, and strong enough to change a material decision.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "maturity",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "icp-and-qualification",
+        "label": "ICP & Qualification",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "process-and-conversion",
+        "label": "Process & Conversion",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "enablement-and-customer-handoff",
+        "label": "Enablement & Customer Handoff",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "forecasting-and-retention",
+        "label": "Forecasting & Retention",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  },
+  "banner": {
+    "title": "Outfinity Diagnostic",
+    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
+    "ctaText": "Explore Outfinity",
+    "ctaUrl": "https://outfinity.ch/"
+  },
+  "contextTitle": "Evidence confidence",
+  "contextQuestions": [
+    {
+      "id": "evidence-icp-and-qualification",
+      "text": "What level of evidence supports your answers for ICP & Qualification?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-process-and-conversion",
+      "text": "What level of evidence supports your answers for Process & Conversion?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-enablement-and-customer-handoff",
+      "text": "What level of evidence supports your answers for Enablement & Customer Handoff?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-forecasting-and-retention",
+      "text": "What level of evidence supports your answers for Forecasting & Retention?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    }
+  ]
+}

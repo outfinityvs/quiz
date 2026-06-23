@@ -1,0 +1,621 @@
+{
+  "id": "growth-experimentation-maturity-assessment",
+  "slug": "growth-experimentation-maturity-assessment",
+  "version": 1,
+  "locale": "en",
+  "title": "Growth Experimentation Maturity",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Experimentation maturity assessment. 6 min.",
+    "description": "<p>Growth experimentation maturity diagnostic for measurement, portfolio, experiment design, and learning velocity.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start assessment"
+  },
+  "deliberationText": "Calculating your diagnostic...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How reliable is measurement across the critical growth funnel?",
+      "type": "profile",
+      "dimension": "measurement-and-metric-quality",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The answer relies mainly on opinion, pitch, memory, or isolated examples.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "measurement-and-metric-quality": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are supporting examples, but sources are partial, informal, or hard to compare.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "measurement-and-metric-quality": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is documented evidence from relevant customers, operations, metrics, or records.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "measurement-and-metric-quality": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The evidence is triangulated, current, owner-reviewed, and strong enough to change a material decision.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "measurement-and-metric-quality": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How are success and guardrail metrics chosen?",
+      "type": "profile",
+      "dimension": "measurement-and-metric-quality",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The information is fragmented, missing, or too inconsistent to support decisions.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "measurement-and-metric-quality": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Partial tools or reports exist, but definitions and ownership are weak.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "measurement-and-metric-quality": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Definitions, owners, access rules, and regular review are governed.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "measurement-and-metric-quality": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Lineage, quality controls, exception handling, and a feedback loop into decisions exist.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "measurement-and-metric-quality": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How is the experiment backlog created?",
+      "type": "profile",
+      "dimension": "portfolio-and-prioritisation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "portfolio-and-prioritisation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "portfolio-and-prioritisation": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "portfolio-and-prioritisation": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "portfolio-and-prioritisation": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How are experiments prioritised?",
+      "type": "profile",
+      "dimension": "portfolio-and-prioritisation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "portfolio-and-prioritisation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "portfolio-and-prioritisation": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "portfolio-and-prioritisation": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "portfolio-and-prioritisation": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How specific is the experiment hypothesis?",
+      "type": "profile",
+      "dimension": "experiment-design",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-design": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-design": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-design": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-design": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How well does the design support causal interpretation?",
+      "type": "profile",
+      "dimension": "experiment-design",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-design": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-design": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-design": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-design": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How rapidly does the team complete decision-relevant learning cycles?",
+      "type": "profile",
+      "dimension": "learning-velocity",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. It happens rarely, reactively, or only when a crisis forces attention.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-velocity": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. It happens occasionally, but timing depends on individual initiative or urgency.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-velocity": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. There is a defined cadence with clear participants, owners, and triggers.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-velocity": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The cadence is frequent enough to change decisions, includes quality checks, and improves from outcomes.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-velocity": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How is learning retained and reused?",
+      "type": "profile",
+      "dimension": "learning-velocity",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-velocity": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-velocity": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-velocity": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-velocity": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "maturity",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "measurement-and-metric-quality",
+        "label": "Measurement & Metric Quality",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "portfolio-and-prioritisation",
+        "label": "Portfolio & Prioritisation",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "experiment-design",
+        "label": "Experiment Design",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "learning-velocity",
+        "label": "Learning Velocity",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  },
+  "banner": {
+    "title": "Outfinity Diagnostic",
+    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
+    "ctaText": "Explore Outfinity",
+    "ctaUrl": "https://outfinity.ch/"
+  },
+  "contextTitle": "Evidence confidence",
+  "contextQuestions": [
+    {
+      "id": "evidence-measurement-and-metric-quality",
+      "text": "What level of evidence supports your answers for Measurement & Metric Quality?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-portfolio-and-prioritisation",
+      "text": "What level of evidence supports your answers for Portfolio & Prioritisation?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-experiment-design",
+      "text": "What level of evidence supports your answers for Experiment Design?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-learning-velocity",
+      "text": "What level of evidence supports your answers for Learning Velocity?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    }
+  ]
+}

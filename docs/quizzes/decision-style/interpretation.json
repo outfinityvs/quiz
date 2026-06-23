@@ -1,0 +1,55 @@
+{
+  "axes": {
+    "analytical_intuitive": {
+      "lowLabel": "Analytical", "highLabel": "Intuitive",
+      "low": "You lean toward analytical decisions. You gather data and weigh evidence systematically before committing. This serves you in complexity but may slow you when the window for decision is short.",
+      "mid": "You balance analysis and intuition. You sketch the numbers, then check against instinct \u2014 useful when pure data misses context and pure gut misses structure.",
+      "high": "You lean toward intuitive decisions. You read patterns and act on hard-won pattern recognition. This is fast and often right where you have experience, but it leaks when your intuition is built from biased samples."
+    },
+    "risk_caution": {
+      "lowLabel": "Risk", "highLabel": "Caution",
+      "low": "You lean toward risk. You take the bet when the upside is transformative. This is how big things get built \u2014 but it must be paired with explicit survival conditions, or it becomes gambling dressed as strategy.",
+      "mid": "You balance risk and caution. You take survivable versions of bold bets. This preserves optionality in ventures where one bad all-in ends the game.",
+      "high": "You lean toward caution. You preserve optionality and minimize downside. This protect the venture from existential mistakes, but it can become risk-aversion dressed as discipline when every bet gets declined."
+    },
+    "speed_accuracy": {
+      "lowLabel": "Speed", "highLabel": "Accuracy",
+      "low": "You lean toward speed. You ship now and iterate from real feedback. This wins where learning comes from the market, but you pay for it in rework and occasional avoidable mistakes.",
+      "mid": "You balance speed and accuracy. You ship minimal versions and polish after \u2014 useful when correctness and momentum both matter.",
+      "high": "You lean toward accuracy. You diagnose root causes and get it right before shipping. This protects trust and quality, but it can become procrastination when perfect is the enemy of shipping at all."
+    },
+    "control_adaptation": {
+      "lowLabel": "Control", "highLabel": "Adaptation",
+      "low": "You lean toward control. You hold direction closely and direct personally. This keeps coherence in chaos but underuses the intelligence of people around you.",
+      "mid": "You balance control and adaptation. You set the constraint and let others find the path \u2014 a useful stance when you need coherence without becoming the bottleneck.",
+      "high": "You lean toward adaptation. You reshape the plan around new information and let the team reorganize. This is resilient, but watch for direction drift when adaptation has no anchor."
+    },
+    "solo_collaborative": {
+      "lowLabel": "Solo", "highLabel": "Collaborative",
+      "low": "You lean toward solo decisions. You decide and carry the risk yourself. This is fast and clear in founding stages, but it bottlenecks as the venture grows.",
+      "mid": "You balance solo and collaborative. You consult a few trusted people and then decide \u2014 useful when you want input without losing decisiveness.",
+      "high": "You lean toward collaborative decisions. You build consensus before moving. This strengthens buy-in and surfaces blind spots, but it can become decision-by-committee when consensus is mistaken for correctness."
+    }
+  },
+  "recommendations": {
+    "analytical_high_caution_high": "You combine rigorous analysis with downside protection \u2014 strong fit for research, diligence, and quality-focused ventures.",
+    "intuitive_high_risk_high": "You combine instinct with bold bets \u2014 strong fit for early-stage, experimental ventures.",
+    "speed_high_solo_high": "You combine momentum with independent decisions \u2014 strong fit for solo-founder, fast-moving ventures.",
+    "collaborative_high_adaptation_high": "You combine consensus with adaptability \u2014 strong fit for cooperative and community-driven ventures.",
+    "control_high_accuracy_high": "You combine direction with quality \u2014 strong fit for mission-driven, quality-critical ventures.",
+    "default": "Your decision style fits several venture shapes. Explorer Circle can help you find builders whose style complements yours."
+  },
+  "shareTexts": {
+    "invite": "What's your decision reflex under uncertainty?",
+    "minimal": "I mapped my Decision Style Profile. What's yours?",
+    "full": "I mapped my Decision Style Profile.\n{profileSummary}\nWhat's yours?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for builders comparing how they decide and where their reflexes complement or clash. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

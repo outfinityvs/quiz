@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/evidence-revision",
+  "title": "Evidence Revision Profile",
+  "promise": "How firmly do you hold beliefs — and what would change them? Four axes of the tension between conviction and openness, inspired by actively open-minded thinking.",
+  "duration": "~5 min",
+  "durationCategory": "long",
+  "questions": 24,
+  "type": "derived",
+  "domain": "cognition",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "12 statements, each with a dual response: rate agreement (5-point Likert), then state what would change your mind (4 revision conditions). Custom scoring maps four axes — Conviction Strength, Revision Openness, Evidence Sensitivity, Value Anchoring — and the conviction-vs-openness tension, without judging whether you are too rigid or too flexible.",
+  "ogTitle": "Evidence Revision Profile — Outfinity Quiz",
+  "ogDescription": "What would actually change your mind? 24 dual-response items, ~5 min. Private by design."
+}

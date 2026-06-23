@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/decision-making-under-uncertainty-test",
+  "title": "Decision-Making Under Uncertainty",
+  "promise": "Decision-quality assessment for probability, evidence, reversibility, speed, bias control, and learning.",
+  "duration": "6 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "maturity",
+  "domain": "founders",
+  "priority": "P2",
+  "audience": "Founders, executives, product leaders, investors, and innovation teams",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Scenario-based maturity assessment across Probabilistic Thinking, Evidence Quality, Reversibility & Speed, Bias Control & Learning. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Decision-Making Under Uncertainty - Outfinity Quiz",
+  "ogDescription": "Decision-quality assessment for probability, evidence, reversibility, speed, bias control, and learning."
+}

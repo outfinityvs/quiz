@@ -1,7 +1,7 @@
 ---
 id: DS018
 title: Risk Palate
-status: planned
+status: draft
 owner: outfinity
 summary: Risk appetite profile using menu metaphor across five dimensions: Financial, Reputational, Relational, Existential, Creative.
 ---

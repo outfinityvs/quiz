@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/risk-palate",
+  "title": "Risk Palate",
+  "promise": "What risks would you actually accept? A risk menu across five life domains — financial, reputational, relational, existential, and creative.",
+  "duration": "~3 min",
+  "durationCategory": "short",
+  "questions": 10,
+  "type": "exploration",
+  "domain": "cognition",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "10 risk scenarios (2 per domain) with a three-option appetite scale (Never / Sometimes / Always accept). Result renders a risk menu highlighting your appetite per domain, with where it helps and where it needs a guardrail.",
+  "ogTitle": "Risk Palate — Outfinity Quiz",
+  "ogDescription": "What risks would you actually accept? 10 scenarios, ~3 min. Private by design."
+}

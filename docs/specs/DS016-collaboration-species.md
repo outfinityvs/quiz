@@ -1,7 +1,7 @@
 ---
 id: DS016
 title: Collaboration Species
-status: planned
+status: draft
 owner: outfinity
 summary: Team role profile mapping five collaboration styles: Solo Creator, Dyad Partner, Team Player, Community Weaver, Mentor/Catalyst.
 ---

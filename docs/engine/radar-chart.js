@@ -11,46 +11,46 @@ function createRadarChart(config) {
   } = config;
 
   const center = size / 2;
-  const radius = (size / 2) - 40;
+  const labelPadding = Math.max(76, Math.round(size * 0.24));
+  const radius = (size / 2) - 68;
   const angleStep = (2 * Math.PI) / axes.length;
   const startAngle = -Math.PI / 2;
+  const defaultTextColor = '#9a98a0';
 
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.setAttribute('viewBox', `0 0 ${size} ${size}`);
+  svg.setAttribute('viewBox', `${-labelPadding} ${-labelPadding} ${size + labelPadding * 2} ${size + labelPadding * 2}`);
   svg.setAttribute('width', '100%');
   svg.setAttribute('height', '100%');
   svg.setAttribute('role', 'img');
   svg.setAttribute('aria-label', 'Radar chart showing scores across multiple dimensions');
-  svg.style.maxWidth = `${size}px`;
+  svg.style.maxWidth = `${size + labelPadding * 2}px`;
+  svg.style.overflow = 'visible';
 
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   for (let ring = 1; ring <= rings; ring++) {
     const ringRadius = (radius / rings) * ring;
-    const points = axes.map((_, i) => {
-      const angle = startAngle + i * angleStep;
-      const x = center + ringRadius * Math.cos(angle);
-      const y = center + ringRadius * Math.sin(angle);
-      return `${x},${y}`;
-    }).join(' ');
 
-    const polygon = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
-    polygon.setAttribute('points', points);
-    polygon.setAttribute('fill', 'none');
-    polygon.setAttribute('stroke', ring === rings ? '#2e3247' : '#1e2130');
-    polygon.setAttribute('stroke-width', ring === rings ? '1.5' : '0.5');
-    svg.appendChild(polygon);
+    const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    circle.setAttribute('cx', center);
+    circle.setAttribute('cy', center);
+    circle.setAttribute('r', ringRadius);
+    circle.setAttribute('fill', 'none');
+    circle.setAttribute('stroke', ring === rings ? '#2e3247' : '#1e2130');
+    circle.setAttribute('stroke-width', ring === rings ? '1.5' : '0.5');
+    svg.appendChild(circle);
 
     if (ring < rings) {
       const valueLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-      const labelAngle = startAngle;
-      const labelX = center + ringRadius * Math.cos(labelAngle) + 4;
-      const labelY = center + ringRadius * Math.sin(labelAngle) - 2;
+      const labelX = center - 20;
+      const labelY = center - ringRadius + 4;
       valueLabel.setAttribute('x', labelX);
       valueLabel.setAttribute('y', labelY);
       valueLabel.setAttribute('fill', '#6b6975');
-      valueLabel.setAttribute('font-size', '9');
+      valueLabel.setAttribute('font-size', '8');
       valueLabel.setAttribute('font-family', 'system-ui, sans-serif');
+      valueLabel.setAttribute('text-anchor', 'start');
+      valueLabel.setAttribute('dominant-baseline', 'middle');
       valueLabel.textContent = Math.round((maxValue / rings) * ring);
       svg.appendChild(valueLabel);
     }
@@ -70,19 +70,20 @@ function createRadarChart(config) {
     line.setAttribute('stroke-width', '0.5');
     svg.appendChild(line);
 
-    const labelDistance = radius + 20;
+    const labelDistance = radius + 34;
     const labelX = center + labelDistance * Math.cos(angle);
     const labelY = center + labelDistance * Math.sin(angle);
 
     const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
     label.setAttribute('x', labelX);
     label.setAttribute('y', labelY);
-    label.setAttribute('fill', '#9a98a0');
-    label.setAttribute('font-size', '11');
+    label.setAttribute('fill', defaultTextColor);
+    label.setAttribute('font-size', '9.5');
     label.setAttribute('font-family', 'system-ui, sans-serif');
     label.setAttribute('text-anchor', getTextAnchor(angle));
     label.setAttribute('dominant-baseline', getDominantBaseline(angle));
-    label.textContent = axes[i].label;
+    label.setAttribute('title', axes[i].label);
+    appendWrappedText(label, axes[i].label, angle);
     svg.appendChild(label);
   }
 
@@ -177,6 +178,44 @@ function createTextAlternative(axes, datasets) {
   return container;
 }
 
+function appendWrappedText(textNode, label, angle) {
+  const lines = wrapLabel(label, isSideAngle(angle) ? 18 : 22);
+  const lineHeight = 11;
+  const startDy = -((lines.length - 1) * lineHeight) / 2;
+
+  for (let i = 0; i < lines.length; i++) {
+    const tspan = document.createElementNS('http://www.w3.org/2000/svg', 'tspan');
+    tspan.setAttribute('x', textNode.getAttribute('x'));
+    tspan.setAttribute('dy', i === 0 ? String(startDy) : String(lineHeight));
+    tspan.textContent = lines[i];
+    textNode.appendChild(tspan);
+  }
+}
+
+function wrapLabel(label, maxChars) {
+  const words = String(label || '').trim().split(/\s+/).filter(Boolean);
+  if (!words.length) return [''];
+  const lines = [];
+  let current = '';
+
+  for (const word of words) {
+    const candidate = current ? `${current} ${word}` : word;
+    if (candidate.length <= maxChars || !current) {
+      current = candidate;
+    } else {
+      lines.push(current);
+      current = word;
+    }
+  }
+  if (current) lines.push(current);
+  return lines;
+}
+
+function isSideAngle(angle) {
+  const deg = ((angle * 180 / Math.PI) + 360) % 360;
+  return (deg > 35 && deg < 145) || (deg > 215 && deg < 325);
+}
+
 function getTextAnchor(angle) {
   const deg = ((angle * 180 / Math.PI) + 360) % 360;
   if (deg > 80 && deg < 100) return 'middle';
@@ -210,14 +249,7 @@ function drawRadarOnCanvas(ctx, config, x, y, width, height) {
   for (let ring = 1; ring <= rings; ring++) {
     const ringRadius = (radius / rings) * ring;
     ctx.beginPath();
-    for (let i = 0; i <= axes.length; i++) {
-      const angle = startAngle + (i % axes.length) * angleStep;
-      const px = cx + ringRadius * Math.cos(angle);
-      const py = cy + ringRadius * Math.sin(angle);
-      if (i === 0) ctx.moveTo(px, py);
-      else ctx.lineTo(px, py);
-    }
-    ctx.closePath();
+    ctx.arc(cx, cy, ringRadius, 0, Math.PI * 2);
     ctx.strokeStyle = ring === rings ? '#2e3247' : '#1e2130';
     ctx.lineWidth = ring === rings ? 1.5 : 0.5;
     ctx.stroke();
@@ -255,14 +287,24 @@ function drawRadarOnCanvas(ctx, config, x, y, width, height) {
   }
 
   ctx.fillStyle = '#9a98a0';
-  ctx.font = '10px system-ui, sans-serif';
+  ctx.font = '9px system-ui, sans-serif';
+  ctx.textBaseline = 'middle';
   ctx.textAlign = 'center';
   for (let i = 0; i < axes.length; i++) {
     const angle = startAngle + i * angleStep;
-    const labelDist = radius + 16;
+    const labelDist = radius + 14;
     const lx = cx + labelDist * Math.cos(angle);
     const ly = cy + labelDist * Math.sin(angle);
-    ctx.fillText(axes[i].label, lx, ly + 3);
+    drawWrappedCanvasLabel(ctx, axes[i].label, lx, ly + 3, 16);
+  }
+}
+
+function drawWrappedCanvasLabel(ctx, label, x, y, maxChars) {
+  const lines = wrapLabel(label, maxChars);
+  const lineHeight = 12;
+  const startY = y - ((lines.length - 1) * lineHeight) / 2;
+  for (let i = 0; i < lines.length; i++) {
+    ctx.fillText(lines[i], x, startY + i * lineHeight);
   }
 }
 

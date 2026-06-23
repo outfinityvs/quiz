@@ -1,7 +1,7 @@
 ---
 id: DS021
 title: Energy Economics
-status: planned
+status: draft
 owner: outfinity
 summary: Energy audit profile mapping six dimensions of what drains and recharges the user: Social, Novelty, Structure, Depth, Competition, Autonomy.
 ---

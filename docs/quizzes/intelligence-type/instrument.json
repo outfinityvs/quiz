@@ -1,0 +1,912 @@
+{
+  "id": "intelligence-type",
+  "version": 1,
+  "title": "Intelligence Type Profile",
+  "language": "en",
+  "introduction": {
+    "subtitle": "What type of intelligence do you have? A non-classical, multi-axis map of cognitive strengths — not an IQ test.",
+    "description": "<p>This does not measure general intelligence or produce an IQ score. It maps where your cognitive strengths sit across eight dimensions, so you understand the shape of your thinking rather than its rank.</p><p>For each task, rate how easily you could do it. There is no advantage to overestimating — the result is most useful when it is honest.</p>",
+    "duration": "20 self-rating tasks. Approximately five minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "Inspired by Howard Gardner’s Multiple Intelligences theory. This is not an IQ test and does not measure general intelligence or produce an IQ score. Items are original.",
+    "startButton": "Map my intelligence"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How easily could you do this? — Spot the odd word in a group — apple, orange, banana, car, grape — and explain why it does not belong.",
+      "type": "likert",
+      "dimension": "linguistic",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "linguistic": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "linguistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "linguistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "linguistic": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How easily could you do this? — Rewrite a dense paragraph in plain language without losing the meaning.",
+      "type": "likert",
+      "dimension": "linguistic",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "linguistic": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "linguistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "linguistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "linguistic": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How easily could you do this? — Construct an argument that turns a weak position into a defensible one.",
+      "type": "likert",
+      "dimension": "linguistic",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "linguistic": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "linguistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "linguistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "linguistic": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How easily could you do this? — Find what comes next in 2, 6, 12, 20, 30, and explain the rule that generates the sequence.",
+      "type": "likert",
+      "dimension": "logical",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "logical": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "logical": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "logical": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "logical": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How easily could you do this? — Reason through a decision with three conditional branches and a hidden dependency between them.",
+      "type": "likert",
+      "dimension": "logical",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "logical": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "logical": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "logical": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "logical": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How easily could you do this? — Catch the flaw in an argument that looks statistically convincing but is not.",
+      "type": "likert",
+      "dimension": "logical",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "logical": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "logical": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "logical": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "logical": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How easily could you do this? — Mentally fold a sheet along a line and predict the pattern that will be visible.",
+      "type": "likert",
+      "dimension": "spatial",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "spatial": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "spatial": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "spatial": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "spatial": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How easily could you do this? — Give someone accurate directions through an unfamiliar neighborhood from memory.",
+      "type": "likert",
+      "dimension": "spatial",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "spatial": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "spatial": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "spatial": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "spatial": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "How easily could you do this? — See how three flat pieces fit together into a single shape in your head before trying.",
+      "type": "likert",
+      "dimension": "spatial",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "spatial": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "spatial": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "spatial": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "spatial": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "How easily could you do this? — Hear a rhythm once and reproduce it accurately.",
+      "type": "likert",
+      "dimension": "musical",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "musical": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "musical": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "musical": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "musical": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "How easily could you do this? — Notice immediately when a track is slightly off-beat or mistuned.",
+      "type": "likert",
+      "dimension": "musical",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "musical": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "musical": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "musical": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "musical": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "How easily could you do this? — Learn a new physical movement by watching someone do it, then perform it correctly.",
+      "type": "likert",
+      "dimension": "bodily",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "bodily": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "bodily": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "bodily": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "bodily": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": "How easily could you do this? — Coordinate your body precisely under pressure — a sport, an instrument, a precise manual task.",
+      "type": "likert",
+      "dimension": "bodily",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "bodily": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "bodily": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "bodily": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "bodily": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": "How easily could you do this? — Read whether someone’s “I’m fine” actually means they are fine.",
+      "type": "likert",
+      "dimension": "interpersonal",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "interpersonal": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "interpersonal": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "interpersonal": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "interpersonal": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": "How easily could you do this? — Pick the right moment to push back in a tense conversation.",
+      "type": "likert",
+      "dimension": "interpersonal",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "interpersonal": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "interpersonal": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "interpersonal": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "interpersonal": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "text": "How easily could you do this? — Sense what a quiet group needs from you before they say it.",
+      "type": "likert",
+      "dimension": "interpersonal",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "interpersonal": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "interpersonal": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "interpersonal": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "interpersonal": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "text": "How easily could you do this? — Name the exact emotion you are feeling and what triggered it.",
+      "type": "likert",
+      "dimension": "intrapersonal",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "intrapersonal": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "intrapersonal": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "intrapersonal": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "intrapersonal": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "text": "How easily could you do this? — Catch yourself mid-habit and choose a different response in real time.",
+      "type": "likert",
+      "dimension": "intrapersonal",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "intrapersonal": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "intrapersonal": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "intrapersonal": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "intrapersonal": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "text": "How easily could you do this? — Classify an unfamiliar system — a garden, a dataset, an ecosystem — into useful categories.",
+      "type": "likert",
+      "dimension": "naturalistic",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "naturalistic": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "naturalistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "naturalistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "naturalistic": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "text": "How easily could you do this? — Notice a small pattern change in an environment that everyone else overlooks.",
+      "type": "likert",
+      "dimension": "naturalistic",
+      "scaleLabels": [
+        "Not really",
+        "With difficulty",
+        "With effort",
+        "Easily"
+      ],
+      "options": [
+        {
+          "value": "0",
+          "text": "Not really",
+          "dimensionScores": {
+            "naturalistic": 0
+          }
+        },
+        {
+          "value": "1",
+          "text": "With difficulty",
+          "dimensionScores": {
+            "naturalistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "With effort",
+          "dimensionScores": {
+            "naturalistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Easily",
+          "dimensionScores": {
+            "naturalistic": 3
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "likert",
+    "dimensions": [
+      {
+        "key": "linguistic",
+        "label": "Linguistic",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "logical",
+        "label": "Logical-Mathematical",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "spatial",
+        "label": "Spatial",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "musical",
+        "label": "Musical",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "bodily",
+        "label": "Bodily-Kinesthetic",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "interpersonal",
+        "label": "Interpersonal",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "intrapersonal",
+        "label": "Intrapersonal",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "naturalistic",
+        "label": "Naturalistic",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  },
+  "attribution": {
+    "text": "Inspired by Howard Gardner’s Multiple Intelligences theory. This is not an IQ test and does not measure general intelligence. Items are original."
+  }
+}

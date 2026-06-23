@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/portfolio-construction-literacy-quiz",
+  "title": "Portfolio Construction Literacy",
+  "promise": "Portfolio construction literacy challenge for diversification, liquidity, risk, return, governance, and rebalancing.",
+  "duration": "7 min",
+  "durationCategory": "long",
+  "questions": 8,
+  "type": "knowledge",
+  "domain": "investor-capital",
+  "priority": "P2",
+  "audience": "Entrepreneurs managing liquidity, angel investors, next-generation family members, and aspiring allocators",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Knowledge quiz across Diversification & Correlation, Liquidity & Horizon, Risk & Return, Governance & Rebalancing. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Portfolio Construction Literacy - Outfinity Quiz",
+  "ogDescription": "Portfolio construction literacy challenge for diversification, liquidity, risk, return, governance, and rebalancing."
+}

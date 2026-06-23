@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/startup-finance-literacy-quiz",
+  "title": "Startup Finance Literacy Challenge",
+  "promise": "Founder finance literacy challenge covering unit economics, runway, dilution, and financial statements.",
+  "duration": "7-8 min",
+  "durationCategory": "long",
+  "questions": 8,
+  "type": "knowledge",
+  "domain": "finance",
+  "priority": "P1",
+  "audience": "Founders, startup employees, angel investors, and accelerator cohorts",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Knowledge quiz across Unit Economics, Cash & Runway, Cap Table & Dilution, Financial Statements. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Startup Finance Literacy Challenge - Outfinity Quiz",
+  "ogDescription": "Founder finance literacy challenge covering unit economics, runway, dilution, and financial statements."
+}

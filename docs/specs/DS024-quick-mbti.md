@@ -1,7 +1,7 @@
 ---
 id: DS024
 title: Quick MBTI-Style Quiz
-status: planned
+status: draft
 owner: outfinity
 summary: Rapid personality type quiz inspired by MBTI concepts, mapping four preference dimensions in under 2 minutes. Fun, shareable, and useful for team dynamics.
 ---

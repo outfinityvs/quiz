@@ -1,0 +1,24 @@
+{
+  "species": {
+    "solo": { "title": "Solo Creator", "desc": "You work best alone and own the whole thing end to end. Autonomy is your fuel; coordination is your cost. You thrive when the scope can be carried by one person and you stay clear of politics.", "complements": ["team", "weaver"], "risks": "You become a bottleneck as the work grows; you build the only thing that cannot survive your absence." },
+    "dyad": { "title": "Dyad Partner", "desc": "You work best with one trusted partner in a deep partnership. Two aligned people carry more than one and almost as fast. Your fuel is trust; your risk is fragility if the dyad breaks.", "complements": ["team", "weaver"], "risks": "Single point of failure: if the partnership ruptures, the venture can fracture with it." },
+    "team": { "title": "Team Player", "desc": "You thrive in a structured small team of three to seven with clear roles. Coordination energizes you and you make others reliable. Your fuel is collective momentum.", "complements": ["solo", "mentor"], "risks": "You may wait for consensus when no one is ready to decide; structure can become a comfort zone." },
+    "weaver": { "title": "Community Weaver", "desc": "You build trust and connections across groups and enable a wider network to do together what none could alone. Coordination at scale is your gift; process overhead is your tax.", "complements": ["solo", "team"], "risks": "Harmony can become conflict-avoidance; you may dilute accountability in the name of inclusion." },
+    "mentor": { "title": "Mentor / Catalyst", "desc": "You enable others to do their best work \u2014 coaching rather than doing. Your impact multiples through people you develop. Your fuel is their growth; your cost is staying out of the driver seat.", "complements": ["solo", "team"], "risks": "You may manage instead of build when the moment needs your own hands; impact is secondhand." }
+  },
+  "flatNote": "Your answers are fairly evenly spread. You are a genuine generalist collaborator \u2014 able to shift between solo, pair, team, and community modes depending on the situation. This is valuable, but it means you should name your default intentionally when a venture needs a clear collaboration shape.",
+  "teamConstellation": "Bring three or more colleagues and compare results to see which species your team has in surplus and which are absent.",
+  "shareTexts": {
+    "invite": "What is your collaboration species \u2014 solo, dyad, team, weaver, or mentor?",
+    "minimal": "My collaboration species is {primary}. What is yours?",
+    "full": "My collaboration species is {primary}, with {secondary} as a close second.\nWhat is yours?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for builders mapping how they actually work together and finding collaborators with complementary species. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

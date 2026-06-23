@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/intelligence-type",
+  "title": "Intelligence Type Profile",
+  "promise": "What type of intelligence do you have? A non-classical, multi-axis map of cognitive strengths — not an IQ test, no single score.",
+  "duration": "~5 min",
+  "durationCategory": "long",
+  "questions": 20,
+  "type": "derived",
+  "domain": "cognition",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "20 self-rating tasks across eight intelligence types (Linguistic, Logical-Mathematical, Spatial, Musical, Bodily-Kinesthetic, Interpersonal, Intrapersonal, Naturalistic). Result shows an eight-axis radar with your top intelligences, venture contexts, and your learning style. Explicitly not an IQ test.",
+  "ogTitle": "Intelligence Type Profile — Outfinity Quiz",
+  "ogDescription": "What type of intelligence do you have? 20 tasks, ~5 min. Private by design. Not an IQ test."
+}

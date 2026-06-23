@@ -1,0 +1,33 @@
+{
+  "dimensions": {
+    "realistic": { "title": "Builder", "energy": "tangible results, mechanical systems, physical engagement", "complements": ["investigative", "enterprising"] },
+    "investigative": { "title": "Investigator", "energy": "discovery, understanding systems, intellectual challenge", "complements": ["artistic", "realistic"] },
+    "artistic": { "title": "Creator", "energy": "self-expression, originality, aesthetic quality", "complements": ["investigative", "social"] },
+    "social": { "title": "Social Guide", "energy": "human connection, seeing others grow, collaborative problem-solving", "complements": ["enterprising", "conventional"] },
+    "enterprising": { "title": "Persuader", "energy": "influence, achievement, competition, organizational impact", "complements": ["social", "conventional"] },
+    "conventional": { "title": "Organizer", "energy": "order, efficiency, reliability, clear procedures", "complements": ["realistic", "enterprising"] }
+  },
+  "ventureSuggestions": {
+    "investigator_creator": ["Research communication platforms", "Data visualization tools", "Educational technology", "Science journalism"],
+    "builder_investigator": ["Hardware ventures", "Deep tech", "Prototyping labs"],
+    "builder_organizer": ["Manufacturing", "Process optimization", "Operations-heavy ventures"],
+    "social_guide_persuader": ["Community platforms", "Education ventures", "Coaching and networks"],
+    "creator_social_guide": ["Content platforms", "Education", "Arts and culture ventures"],
+    "persuader_organizer": ["Growth-stage ventures", "Business operations", "Sales-led startups"],
+    "default": ["Generalist-friendly ventures", "Early solo work", "Bridge roles across teams"]
+  },
+  "flatProfileNote": "You have broad, fairly even interests and can adapt to different roles. This versatility is valuable in early-stage ventures where you may need to wear multiple hats.",
+  "shareTexts": {
+    "invite": "What kinds of work actually give you energy?",
+    "minimal": "I mapped my Work Interest Constellation. What energizes you?",
+    "full": "I mapped my Work Interest Constellation.\nTop interests: {top}\nWhat energizes you?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for people who research difficult problems, build limited experiments, and look for collaborators with complementary interests. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

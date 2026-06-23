@@ -28,6 +28,8 @@ JavaScript modules export named functions and classes. No default exports. No gl
 
 The engine modules are: `quiz-engine.js` (state machine, scoring, rendering), `radar-chart.js` (SVG chart), `share-card.js` (Canvas card), `url-codec.js` (URL fragment encoding), `compare.js` (multi-result overlay). Each module is a single file under `docs/engine/`.
 
+The public quiz runtime must not depend on external scripts, CDNs, fonts, frameworks, analytics, or social SDKs. Developer-facing documentation pages may use the Mermaid ESM CDN only when the page contains inline Mermaid diagrams. `docs/specsLoader.html` is the canonical exception because it renders specification diagrams when specs contain Mermaid blocks. Ordinary quiz pages and catalog pages must not include Mermaid unless they actually render Mermaid diagrams.
+
 Testing is manual verification against acceptance criteria defined in each quiz's DS file. There is no automated test framework. Verification is performed by loading the quiz in a browser and checking deterministic output, share link round-trips, keyboard navigation, and accessibility.
 
 All user-facing text uses `textContent`, never `innerHTML`, except for trusted static HTML templates defined in the source code. Decoded URL payloads are rendered exclusively through `textContent`.
@@ -41,6 +43,10 @@ Response: ES modules (`<script type="module">`) for engine files. Each quiz page
 ### Question #2: How should design tokens be defined?
 
 Response: CSS custom properties on `:root` in `docs/styles.css`. Tokens include colors, spacing, typography, and breakpoints. Quiz-specific overrides use scoped selectors.
+
+### Question #3: Should Mermaid be loaded on every HTML page?
+
+Response: No. Mermaid may be loaded from the CDN only on developer-facing documentation pages that contain Mermaid diagrams or on `docs/specsLoader.html`, which renders specification content. The quiz runtime remains dependency-free and must not load Mermaid on ordinary quiz, catalog, privacy, license, or method pages unless those pages introduce actual Mermaid diagrams.
 
 ## Conclusion
 

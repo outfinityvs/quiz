@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>All Tests — Outfinity Quiz</title>
-  <meta name="description" content="Complete directory of all Outfinity Quiz instruments, grouped by category.">
+  <title>All Quizzes — Outfinity Quiz</title>
+  <meta name="description" content="All Outfinity Quiz quizzes in one compact directory, with category labels and direct access cards.">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -22,97 +22,191 @@
       <span>Outfinity Quiz</span>
     </a>
     <nav class="site-header__nav">
-      <a href="index.html">Catalog</a>
-      
-      <a href="privacy/index.html">Privacy</a>
+      <a href="index.html">Home</a>
+      <a href="sitemap.html" class="nav-current">All Quizzes</a>
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">☀</button>
     </nav>
   </header>
 
   <main class="sitemap">
-    <h1>All Tests</h1>
-    <p style="text-align:center;color:var(--text-muted);margin-bottom:var(--space-2xl);max-width:760px;margin-left:auto;margin-right:auto;">
-      Complete directory of all Outfinity Quiz instruments. Each test runs entirely in your browser.
-      No answers, scores, or profiles are transmitted to any server.
+    <h1>All Quizzes</h1>
+    <p style="text-align:center;color:var(--text-muted);margin:0 auto var(--space-lg);max-width:760px;">
+      All quizzes run entirely in your browser.
+      Pick a result view directly, from one compact directory.
     </p>
 
-    <section class="sitemap__category">
-      <h2>Identity and Roles</h2>
-      <ul class="sitemap__list">
-        <li class="sitemap__item">
-          <a href="quizzes/explorer-compass/index.html">Explorer Compass</a>
-          <p class="sitemap__item-desc">Discover your role in meaningful change, your venture ecology, and who completes your map. 18 questions, ~4 min.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="sitemap__category">
-      <h2>Philosophy and Values</h2>
-      <ul class="sitemap__list">
-        <li class="sitemap__item">
-          <a href="quizzes/basilisk-verdict/index.html">The Basilisk Verdict</a>
-          <p class="sitemap__item-desc">A moral topology test between Moloch, Basilisk, and the Third Path. 12 dilemmas, ~3 min.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="sitemap__category">
-      <h2>Personality and Cognitive Style</h2>
-      <ul class="sitemap__list">
-        <li class="sitemap__item">
-          <span style="color:var(--text-dim);font-style:italic;">Coming soon — tests based on IPIP public-domain personality scales</span>
-        </li>
-      </ul>
-    </section>
-
-    <section class="sitemap__category">
-      <h2>Interests and Vocation</h2>
-      <ul class="sitemap__list">
-        <li class="sitemap__item">
-          <span style="color:var(--text-dim);font-style:italic;">Coming soon — tests inspired by O*NET RIASEC interest dimensions</span>
-        </li>
-      </ul>
-    </section>
-
-    <section class="sitemap__category">
-      <h2>Decision and Cognition</h2>
-      <ul class="sitemap__list">
-        <li class="sitemap__item">
-          <span style="color:var(--text-dim);font-style:italic;">Coming soon — tests on decision style, risk literacy, and evidence reasoning</span>
-        </li>
-      </ul>
-    </section>
-
-    <section class="sitemap__category">
-      <h2>Collaboration and Trust</h2>
-      <ul class="sitemap__list">
-        <li class="sitemap__item">
-          <span style="color:var(--text-dim);font-style:italic;">Coming soon — tests on trust architecture, conflict style, and team roles</span>
-        </li>
-      </ul>
-    </section>
-
-    <section class="sitemap__category">
-      <h2>Knowledge and World Awareness</h2>
-      <ul class="sitemap__list">
-        <li class="sitemap__item">
-          <span style="color:var(--text-dim);font-style:italic;">Coming soon — tests using open data from Wikidata, World Bank, and Our World in Data</span>
-        </li>
-      </ul>
+    <section class="sitemap__directory" aria-label="All quizzes by category">
+      <div id="all-quizzes-sections"></div>
     </section>
   </main>
 
   <footer class="site-footer">
     <nav>
-      <a href="index.html">Catalog</a>
+      <a href="index.html">Home</a>
       <a href="privacy/index.html">Privacy</a>
-      <a href="licenses/index.html">Licenses</a>
-      <a href="partners/index.html">Partners</a>
-      
     </nav>
     <p class="site-footer__disclaimer">AI was used in coding and processing these quizzes. The inspiration and sources are real, but errors may have slipped through. If you find something wrong, please <a href="mailto:quiz@outfinity.ch">send us feedback</a>.</p>
     <p>An initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>.</p>
   </footer>
+
+  <script>
+    (function() {
+      var sectionsRoot = document.getElementById('all-quizzes-sections');
+      var domainLabels = {
+        founders: 'Founders and Operating Mode',
+        finance: 'Finance and Fundraising',
+        'investor-capital': 'Investor and Family Capital',
+        product: 'Product and Monetisation',
+        'growth-leadership': 'Growth, Sales, and Leadership',
+        'ai-trust': 'AI, Trust, and Sustainable Value',
+        collaboration: 'Collaboration and Trust',
+        knowledge: 'Knowledge and World Awareness',
+        interests: 'Interests and Vocation',
+        personality: 'Personality and Cognitive Style',
+        identity: 'Identity and Roles',
+        values: 'Values and Philosophy',
+        philosophy: 'Philosophy and Values',
+        cognition: 'Decision and Cognition'
+      };
+      var domainOrder = {
+        founders: 1,
+        finance: 2,
+        'investor-capital': 3,
+        product: 4,
+        'growth-leadership': 5,
+        'ai-trust': 6,
+        collaboration: 7,
+        knowledge: 8,
+        interests: 9,
+        personality: 10,
+        identity: 11,
+        values: 12,
+        philosophy: 13,
+        cognition: 14
+      };
+      var palette = ['#d4a853', '#7ba4d4', '#5cb87a', '#d45353', '#b07bd4', '#d47b53', '#53d4b0', '#d453a8', '#d4a853'];
+
+      function simpleHash(text) {
+        var hash = 0;
+        for (var i = 0; i < text.length; i++) {
+          hash = ((hash << 5) - hash) + text.charCodeAt(i);
+          hash |= 0;
+        }
+        return Math.abs(hash);
+      }
+
+      function miniIcon(seed, color) {
+        var tone = palette[seed % palette.length];
+        return (
+          '<svg width="36" height="36" viewBox="0 0 100 100" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">' +
+            '<rect x="5" y="5" width="90" height="90" rx="12" fill="' + color + '" opacity="0.18"/>' +
+            '<circle cx="50" cy="50" r="22" fill="none" stroke="' + tone + '" stroke-width="8"/>' +
+            '<circle cx="50" cy="50" r="7" fill="' + tone + '"/>' +
+            '<line x1="50" y1="14" x2="50" y2="27" stroke="' + tone + '" stroke-width="5" stroke-linecap="round"/>' +
+            '<line x1="50" y1="73" x2="50" y2="86" stroke="' + tone + '" stroke-width="5" stroke-linecap="round"/>' +
+            '<line x1="14" y1="50" x2="27" y2="50" stroke="' + tone + '" stroke-width="5" stroke-linecap="round"/>' +
+            '<line x1="73" y1="50" x2="86" y2="50" stroke="' + tone + '" stroke-width="5" stroke-linecap="round"/>' +
+          '</svg>'
+        );
+      }
+
+      function createCard(quiz) {
+        var category = domainLabels[quiz.domain] || quiz.domain || 'General';
+        var accent = palette[simpleHash(quiz.slug) % palette.length];
+        var typeLabel = (quiz.type || 'quiz').replace('-', ' ');
+        var card = document.createElement('a');
+        card.className = 'sitemap__item';
+        card.href = quiz.slug + '/index.html';
+        card.innerHTML =
+          '<span class="sitemap__item-media" aria-hidden="true" style="background-color:' + accent + '14;">' +
+            miniIcon(simpleHash(quiz.slug), accent) +
+          '</span>' +
+          '<span class="sitemap__item-content">' +
+            '<span class="sitemap__item-meta">' + category + ' · ' + typeLabel + '</span>' +
+            '<h3 class="sitemap__item-title">' + quiz.title + '</h3>' +
+            '<p class="sitemap__item-desc">' + quiz.promise + '</p>' +
+            '<span class="quiz-card__action">Take this quiz</span>' +
+          '</span>';
+        return card;
+      }
+
+      function createCategorySection(domain, quizzes) {
+        var category = domainLabels[domain] || domain || 'General';
+        var section = document.createElement('section');
+        section.className = 'sitemap__category';
+        section.setAttribute('aria-labelledby', 'sitemap-category-' + domain);
+
+        var header = document.createElement('div');
+        header.className = 'sitemap__category-header';
+
+        var title = document.createElement('h2');
+        title.id = 'sitemap-category-' + domain;
+        title.className = 'sitemap__category-title';
+        title.textContent = category;
+
+        var count = document.createElement('span');
+        count.className = 'sitemap__category-count';
+        count.textContent = quizzes.length + (quizzes.length === 1 ? ' quiz' : ' quizzes');
+
+        header.appendChild(title);
+        header.appendChild(count);
+
+        var grid = document.createElement('div');
+        grid.className = 'sitemap__grid';
+        for (var i = 0; i < quizzes.length; i++) {
+          grid.appendChild(createCard(quizzes[i]));
+        }
+
+        section.appendChild(header);
+        section.appendChild(grid);
+        return section;
+      }
+
+      function showError() {
+        sectionsRoot.innerHTML = '<p class="catalog__empty">Could not load the catalog. Open this page with a local server.</p>';
+      }
+
+      async function loadCatalog() {
+        try {
+          var response = await fetch('catalog/catalog.json');
+          var quizzes = await response.json();
+          var list = Array.isArray(quizzes) ? quizzes.slice() : [];
+          list.sort(function(a, b) {
+            var domainDiff = (domainOrder[a.domain] || 999) - (domainOrder[b.domain] || 999);
+            if (domainDiff !== 0) return domainDiff;
+            return a.title.localeCompare(b.title);
+          });
+
+          if (!list.length) {
+            showError();
+            return;
+          }
+
+          var groups = {};
+          for (var i = 0; i < list.length; i++) {
+            var domain = list[i].domain || 'general';
+            if (!groups[domain]) groups[domain] = [];
+            groups[domain].push(list[i]);
+          }
+
+          var domains = Object.keys(groups).sort(function(a, b) {
+            return (domainOrder[a] || 999) - (domainOrder[b] || 999) || a.localeCompare(b);
+          });
+
+          var fragment = document.createDocumentFragment();
+          for (var d = 0; d < domains.length; d++) {
+            fragment.appendChild(createCategorySection(domains[d], groups[domains[d]]));
+          }
+          sectionsRoot.innerHTML = '';
+          sectionsRoot.appendChild(fragment);
+        } catch (e) {
+          showError();
+        }
+      }
+
+      loadCatalog();
+    })();
+  </script>
 
   <script>
     (function() {
@@ -130,6 +224,18 @@
         localStorage.setItem('quiz-theme', next);
         toggle.textContent = next === 'dark' ? '☾' : '☀';
       });
+    })();
+  </script>
+  <script>
+    (function() {
+      var path = window.location.pathname;
+      var isQuizPage = /\/quizzes\//.test(path);
+      var isSubPage = /\/(privacy|methods|licenses|dev)\//.test(path);
+      var base = isQuizPage ? '../../' : (isSubPage ? '../' : '');
+      var s = document.createElement('script');
+      s.src = base + 'partials/footer-loader.js';
+      s.async = true;
+      document.body.appendChild(s);
     })();
   </script>
 </body>

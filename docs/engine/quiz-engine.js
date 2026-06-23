@@ -8,6 +8,14 @@ const STAGES = {
   COMPARE: 'compare'
 };
 
+const DEFAULT_INITIATIVE_BANNER = {
+  enabled: true,
+  title: 'Outfinity Initiative',
+  message: 'A free, private quiz engine by Outfinity Venture Validation Studio.',
+  ctaText: 'Explore Outfinity',
+  ctaUrl: 'https://outfinity.ch/'
+};
+
 function createEngine(container, config) {
   let _container = container;
 
@@ -27,6 +35,11 @@ function createEngine(container, config) {
   };
 
   const listeners = [];
+
+  const bannerConfig = {
+    ...DEFAULT_INITIATIVE_BANNER,
+    ...(config.banner || {})
+  };
 
   function onStageChange(fn) {
     listeners.push(fn);
@@ -53,7 +66,9 @@ function createEngine(container, config) {
 
     for (let i = 0; i < config.questions.length; i++) {
       const q = config.questions[i];
-      if (q.randomizeOptions !== false && q.options) {
+      if (q.type === 'likert') {
+        state.optionOrders[i] = q.options ? q.options.map((_, j) => j) : [];
+      } else if (q.randomizeOptions !== false && q.options) {
         state.optionOrders[i] = shuffleArray(q.options.map((_, j) => j));
       } else {
         state.optionOrders[i] = q.options ? q.options.map((_, j) => j) : [];
@@ -81,6 +96,29 @@ function createEngine(container, config) {
   function answerForcedChoice(questionIndex, firstChoice, secondChoice) {
     state.firstChoices[questionIndex] = firstChoice;
     state.secondChoices[questionIndex] = secondChoice;
+  }
+
+  function isNumericOnlyLabel(text, fallbackValue) {
+    const labelText = String(text == null ? '' : text).trim();
+    if (!labelText || !/^[0-9]+(?:[.]?[0-9]+)?$/.test(labelText)) return false;
+    if (fallbackValue === undefined || fallbackValue === null) return true;
+    return String(fallbackValue).trim() === labelText;
+  }
+
+  function appendOptionLabel(label, text, fallbackValue, ariaLabel) {
+    const displayText = String(text == null ? '' : text);
+    if (isNumericOnlyLabel(displayText, fallbackValue)) {
+      label.classList.add('quiz-option--numeric');
+      const input = label.querySelector('input');
+      if (input) {
+        input.setAttribute('aria-label', ariaLabel || displayText || String(fallbackValue || ''));
+      }
+      return;
+    }
+
+    const span = document.createElement('span');
+    span.textContent = displayText;
+    label.appendChild(span);
   }
 
   function computeScores() {
@@ -269,10 +307,8 @@ function createEngine(container, config) {
         input.type = q.multiple ? 'checkbox' : 'radio';
         input.name = `context-${q.id}`;
         input.value = opt.value;
-        const span = document.createElement('span');
-        span.textContent = opt.text;
         label.appendChild(input);
-        label.appendChild(span);
+        appendOptionLabel(label, opt.text, opt.value, opt.text);
         fieldset.appendChild(label);
       }
 
@@ -333,10 +369,8 @@ function createEngine(container, config) {
         input.name = `first-${qIdx}`;
         input.value = opt.key;
         if (state.firstChoices[qIdx] === opt.key) input.checked = true;
-        const span = document.createElement('span');
-        span.textContent = opt.text;
         label.appendChild(input);
-        label.appendChild(span);
+        appendOptionLabel(label, opt.text, opt.key, opt.text);
         firstGroup.appendChild(label);
       }
       fieldset.appendChild(firstGroup);
@@ -357,10 +391,8 @@ function createEngine(container, config) {
         input.name = `second-${qIdx}`;
         input.value = opt.key;
         if (state.secondChoices[qIdx] === opt.key) input.checked = true;
-        const span = document.createElement('span');
-        span.textContent = opt.text;
         label.appendChild(input);
-        label.appendChild(span);
+        appendOptionLabel(label, opt.text, opt.key, opt.text);
         secondGroup.appendChild(label);
       }
       fieldset.appendChild(secondGroup);
@@ -382,7 +414,8 @@ function createEngine(container, config) {
       const optionsRow = document.createElement('div');
       optionsRow.className = 'quiz-likert-options';
       const optionOrder = state.optionOrders[qIdx] || [];
-      for (const optIdx of optionOrder) {
+      for (let oi = 0; oi < optionOrder.length; oi++) {
+        const optIdx = optionOrder[oi];
         const opt = question.options[optIdx];
         const label = document.createElement('label');
         label.className = 'quiz-option quiz-option--likert';
@@ -391,10 +424,9 @@ function createEngine(container, config) {
         input.name = `q-${qIdx}`;
         input.value = opt.value;
         if (state.answers[qIdx] === opt.value) input.checked = true;
-        const span = document.createElement('span');
-        span.textContent = opt.text || opt.value;
+        const scaleLabel = (question.scaleLabels && question.scaleLabels[oi]) ? question.scaleLabels[oi] : '';
         label.appendChild(input);
-        label.appendChild(span);
+        appendOptionLabel(label, opt.text || opt.value, opt.value, scaleLabel || (opt.text || opt.value));
         optionsRow.appendChild(label);
       }
       scaleContainer.appendChild(optionsRow);
@@ -410,10 +442,8 @@ function createEngine(container, config) {
         input.name = `q-${qIdx}`;
         input.value = opt.key || opt.value;
         if (state.answers[qIdx] === (opt.key || opt.value)) input.checked = true;
-        const span = document.createElement('span');
-        span.textContent = opt.text;
         label.appendChild(input);
-        label.appendChild(span);
+        appendOptionLabel(label, opt.text, opt.key || opt.value, opt.text);
         fieldset.appendChild(label);
       }
     }
@@ -460,15 +490,52 @@ function createEngine(container, config) {
     return el;
   }
 
+  function createInitiativeBanner() {
+    if (!bannerConfig.enabled) return null;
+    const banner = document.createElement('aside');
+    banner.className = 'quiz-initiative-banner';
+    banner.innerHTML =
+      '<a class="quiz-initiative-banner__inner" href="' + escapeHtml(bannerConfig.ctaUrl) + '" target="_blank" rel="noopener noreferrer">' +
+        '<svg class="quiz-initiative-banner__logo" viewBox="0 0 100 100" aria-hidden="true" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+          '<circle cx="50" cy="50" r="38" stroke="currentColor" stroke-width="6" fill="none"/>' +
+          '<circle cx="50" cy="50" r="7" fill="currentColor"/>' +
+          '<line x1="50" y1="5" x2="50" y2="23" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>' +
+          '<line x1="50" y1="77" x2="50" y2="95" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>' +
+          '<line x1="5" y1="50" x2="23" y2="50" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>' +
+          '<line x1="77" y1="50" x2="95" y2="50" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>' +
+          '<line x1="22" y1="22" x2="35" y2="35" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity="0.5"/>' +
+          '<line x1="78" y1="22" x2="65" y2="35" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity="0.5"/>' +
+          '<line x1="22" y1="78" x2="35" y2="65" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity="0.5"/>' +
+          '<line x1="78" y1="78" x2="65" y2="65" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity="0.5"/>' +
+        '</svg>' +
+        '<div>' +
+          '<p class="quiz-initiative-banner__title">' + escapeHtml(bannerConfig.title) + '</p>' +
+          '<p class="quiz-initiative-banner__text">' + escapeHtml(bannerConfig.message) + '</p>' +
+        '</div>' +
+        '<span class="quiz-initiative-banner__cta">' + escapeHtml(bannerConfig.ctaText) + ' ↗</span>' +
+      '</a>';
+    return banner;
+  }
+
+  function renderStage(contentEl) {
+    const banner = createInitiativeBanner();
+    const c = _container;
+    if (!c) return;
+    c.innerHTML = '';
+    if (banner) {
+      c.appendChild(banner);
+    }
+    c.appendChild(contentEl);
+  }
+
   function render(container) {
     if (container) _container = container;
     const c = _container;
-    c.innerHTML = '';
 
     switch (state.stage) {
       case STAGES.INTRO: {
         const el = renderIntro();
-        c.appendChild(el);
+        renderStage(el);
         el.querySelector('#start-btn').addEventListener('click', () => {
           initializeQuestionOrder();
           if (config.contextQuestions && config.contextQuestions.length > 0) {
@@ -483,7 +550,7 @@ function createEngine(container, config) {
 
       case STAGES.CONTEXT: {
         const el = renderContext();
-        c.appendChild(el);
+        renderStage(el);
         el.querySelector('#context-back-btn').addEventListener('click', () => setStage(STAGES.INTRO));
         el.querySelector('#context-next-btn').addEventListener('click', () => {
           for (const q of (config.contextQuestions || [])) {
@@ -503,14 +570,14 @@ function createEngine(container, config) {
 
       case STAGES.QUESTIONS: {
         const el = renderQuestion(state.currentQuestionIndex);
-        c.appendChild(el);
+        renderStage(el);
         bindQuestionEvents(el, state.currentQuestionIndex);
         break;
       }
 
       case STAGES.DELIBERATION: {
         const el = renderDeliberation();
-        c.appendChild(el);
+        renderStage(el);
         setTimeout(() => {
           computeResult();
           setStage(STAGES.RESULT);
@@ -520,7 +587,14 @@ function createEngine(container, config) {
 
       case STAGES.RESULT: {
         if (config.onResult) {
-          config.onResult(state, c);
+          const stageRoot = document.createElement('div');
+          c.innerHTML = '';
+          const banner = createInitiativeBanner();
+          if (banner) {
+            c.appendChild(banner);
+          }
+          c.appendChild(stageRoot);
+          config.onResult(state, stageRoot);
         }
         break;
       }

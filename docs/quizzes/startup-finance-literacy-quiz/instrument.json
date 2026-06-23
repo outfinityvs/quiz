@@ -1,0 +1,466 @@
+{
+  "id": "startup-finance-literacy-quiz",
+  "slug": "startup-finance-literacy-quiz",
+  "version": 1,
+  "locale": "en",
+  "title": "Startup Finance Literacy Challenge",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Knowledge quiz. 7-8 min.",
+    "description": "<p>Founder finance literacy challenge covering unit economics, runway, dilution, and financial statements.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "8 questions. Approximately 7-8 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start the challenge"
+  },
+  "deliberationText": "Checking your answers...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which formula correctly calculates gross margin percentage?",
+      "type": "profile",
+      "dimension": "unit-economics",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "gross margin is (Revenue - COGS) / Revenue.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Revenue minus all operating expenses, divided by revenue.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Revenue minus cost of goods sold, divided by revenue.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Net income divided by cash collected.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Revenue divided by customer acquisition cost.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "A customer costs EUR 600 to acquire and generates EUR 150 of monthly gross profit. What is the simple CAC payback period?",
+      "type": "profile",
+      "dimension": "unit-economics",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "EUR 600 / EUR 150 = 4 months.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. 2 months.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. 4 months.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. 6 months.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The answer requires annual recurring revenue only.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "A company has EUR 600,000 in cash and a stable monthly net burn of EUR 50,000. Ignoring future changes, what is its runway?",
+      "type": "profile",
+      "dimension": "cash-and-runway",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "EUR 600,000 / EUR 50,000 = 12 months.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. 6 months.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. 10 months.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. 12 months.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 3
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. 50 months.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How can a fast-growing company report increasing revenue while running out of cash?",
+      "type": "profile",
+      "dimension": "cash-and-runway",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "working capital and upfront growth costs can consume cash before collection.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Revenue growth always increases cash, so this cannot happen.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Customers may pay later while inventory, hiring or acquisition costs are paid earlier.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Only accounting fraud can create this situation.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. It occurs only when gross margin is above 100%.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "An investor invests EUR 2 million at an EUR 8 million pre-money valuation. What is the investor post-money ownership before other adjustments?",
+      "type": "profile",
+      "dimension": "cap-table-and-dilution",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "EUR 2m / EUR 10m post-money = 20%.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. 16.7%.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 1
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. 20.0%.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. 25.0%.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. 40.0%.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "A new option pool is created immediately before a financing and included in the pre-money valuation. Who generally bears most of that dilution?",
+      "type": "profile",
+      "dimension": "cap-table-and-dilution",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "a pre-money option pool top-up primarily dilutes existing holders.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The new investor only.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Existing shareholders before the financing.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Future employees only.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Nobody, because option pools do not dilute ownership.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Which statement shows assets, liabilities, and shareholders equity at a point in time?",
+      "type": "profile",
+      "dimension": "financial-statements",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "the balance sheet presents financial position at a point in time.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Income statement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Cash flow statement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Balance sheet.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 3
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Sales pipeline report.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Which statement best explains why a company can have positive EBITDA but declining cash?",
+      "type": "profile",
+      "dimension": "financial-statements",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "the cash flow statement reconciles working capital, capex, and financing flows.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The cash flow statement, because it includes working capital, capital expenditure and financing flows.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The cap table, because it records all cash movements.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The product roadmap, because it recognises depreciation.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Positive EBITDA guarantees positive cash flow.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 0
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "knowledge",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "unit-economics",
+        "label": "Unit Economics",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "cash-and-runway",
+        "label": "Cash & Runway",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "cap-table-and-dilution",
+        "label": "Cap Table & Dilution",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "financial-statements",
+        "label": "Financial Statements",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  },
+  "banner": {
+    "title": "Outfinity Diagnostic",
+    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
+    "ctaText": "Explore Outfinity",
+    "ctaUrl": "https://outfinity.ch/"
+  }
+}

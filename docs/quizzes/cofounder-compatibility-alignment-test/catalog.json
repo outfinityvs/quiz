@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/cofounder-compatibility-alignment-test",
+  "title": "Co-Founder Alignment & Compatibility",
+  "promise": "Paired founder alignment map for ambition, authority, conflict, economics, and risk.",
+  "duration": "6 min per founder",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "paired-alignment",
+  "domain": "founders",
+  "priority": "P1",
+  "audience": "Potential co-founders, existing founding teams, venture studios, and mediators",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Paired alignment assessment across Ambition & Horizon, Roles & Decision Rights, Values & Conflict, Economics & Risk. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Co-Founder Alignment & Compatibility - Outfinity Quiz",
+  "ogDescription": "Paired founder alignment map for ambition, authority, conflict, economics, and risk."
+}

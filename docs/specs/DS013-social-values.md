@@ -1,7 +1,7 @@
 ---
 id: DS013
 title: Social Values Map
-status: planned
+status: draft
 owner: outfinity
 summary: Values profile inspired by 8values, mapping four axes of social and political tension without ideological labels.
 ---

@@ -1,0 +1,333 @@
+{
+  "id": "energy-economics",
+  "version": 1,
+  "title": "Energy Economics",
+  "language": "en",
+  "introduction": {
+    "subtitle": "What actually drains you and recharges you? An energy ledger across six dimensions.",
+    "description": "<p>Energy is not just time. You can spend hours on something and leave recharged, or minutes and leave empty. This maps where your energy comes from and where it leaks, across six dimensions.</p><p>In each pair, pick the activity that gives you more energy over time — not the one that sounds more impressive.</p>",
+    "duration": "12 paired activities. Approximately three minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
+    "startButton": "Audit my energy"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "social",
+      "pairpoleA": "Time with people",
+      "pairpoleB": "Time alone",
+      "options": [
+        {
+          "key": "a_1",
+          "text": "A long evening with good people, talking until late.",
+          "dimensionScores": {
+            "social": 1
+          }
+        },
+        {
+          "key": "b_1",
+          "text": "A quiet evening alone with your own project and no messages.",
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "social",
+      "pairpoleA": "Time with people",
+      "pairpoleB": "Time alone",
+      "options": [
+        {
+          "key": "a_2",
+          "text": "A working week surrounded by colleagues and constant collaboration.",
+          "dimensionScores": {
+            "social": 1
+          }
+        },
+        {
+          "key": "b_2",
+          "text": "A working week fully alone, no meetings, only deep work.",
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "novelty",
+      "pairpoleA": "New experiences",
+      "pairpoleB": "Familiar routines",
+      "options": [
+        {
+          "key": "a_3",
+          "text": "A week in a city you have never visited, with no plan.",
+          "dimensionScores": {
+            "novelty": 1
+          }
+        },
+        {
+          "key": "b_3",
+          "text": "A week in your favorite routine, where everything is familiar.",
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "novelty",
+      "pairpoleA": "New experiences",
+      "pairpoleB": "Familiar routines",
+      "options": [
+        {
+          "key": "a_4",
+          "text": "Trying a tool or method you have never used before.",
+          "dimensionScores": {
+            "novelty": 1
+          }
+        },
+        {
+          "key": "b_4",
+          "text": "Sticking with the tool or method you already know works.",
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "structure",
+      "pairpoleA": "Planned work",
+      "pairpoleB": "Improvised work",
+      "options": [
+        {
+          "key": "a_5",
+          "text": "A well-mapped plan for the whole quarter, with milestones.",
+          "dimensionScores": {
+            "structure": 1
+          }
+        },
+        {
+          "key": "b_5",
+          "text": "An open quarter where you decide what to do each week.",
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "structure",
+      "pairpoleA": "Planned work",
+      "pairpoleB": "Improvised work",
+      "options": [
+        {
+          "key": "a_6",
+          "text": "A day blocked out hour by hour.",
+          "dimensionScores": {
+            "structure": 1
+          }
+        },
+        {
+          "key": "b_6",
+          "text": "A day with a goal and no schedule.",
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "depth",
+      "pairpoleA": "Deep focus on one thing",
+      "pairpoleB": "Variety across many",
+      "options": [
+        {
+          "key": "a_7",
+          "text": "Three months heads-down on one hard problem.",
+          "dimensionScores": {
+            "depth": 1
+          }
+        },
+        {
+          "key": "b_7",
+          "text": "Three months rotated across four different problems.",
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "depth",
+      "pairpoleA": "Deep focus on one thing",
+      "pairpoleB": "Variety across many",
+      "options": [
+        {
+          "key": "a_8",
+          "text": "Mastering one craft until you are genuinely excellent at it.",
+          "dimensionScores": {
+            "depth": 1
+          }
+        },
+        {
+          "key": "b_8",
+          "text": "Becoming genuinely competent at several different things.",
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "competition",
+      "pairpoleA": "Compete to win",
+      "pairpoleB": "Collaborate to build",
+      "options": [
+        {
+          "key": "a_9",
+          "text": "Beating a clear competitor to a milestone.",
+          "dimensionScores": {
+            "competition": 1
+          }
+        },
+        {
+          "key": "b_9",
+          "text": "Building something with peers that none could alone.",
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "competition",
+      "pairpoleA": "Compete to win",
+      "pairpoleB": "Collaborate to build",
+      "options": [
+        {
+          "key": "a_10",
+          "text": "A market where you win by being faster or sharper.",
+          "dimensionScores": {
+            "competition": 1
+          }
+        },
+        {
+          "key": "b_10",
+          "text": "A commons where the win is shared and repeatable.",
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "autonomy",
+      "pairpoleA": "Independent direction",
+      "pairpoleB": "Guided mentorship",
+      "options": [
+        {
+          "key": "a_11",
+          "text": "Setting your own direction with no one to answer to.",
+          "dimensionScores": {
+            "autonomy": 1
+          }
+        },
+        {
+          "key": "b_11",
+          "text": "Working with a mentor who steers and challenges you.",
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "Which would give you more energy over time?",
+      "type": "profile",
+      "dimension": "autonomy",
+      "pairpoleA": "Independent direction",
+      "pairpoleB": "Guided mentorship",
+      "options": [
+        {
+          "key": "a_12",
+          "text": "Choosing what is worth doing, by yourself.",
+          "dimensionScores": {
+            "autonomy": 1
+          }
+        },
+        {
+          "key": "b_12",
+          "text": "Being chosen-into projects by someone whose taste you trust.",
+          "dimensionScores": {}
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "dimensions": [
+      {
+        "key": "social",
+        "label": "Social Energy",
+        "poleA": "Time with people",
+        "poleB": "Time alone",
+        "theoreticalMin": 0,
+        "theoreticalMax": 2
+      },
+      {
+        "key": "novelty",
+        "label": "Novelty Energy",
+        "poleA": "New experiences",
+        "poleB": "Familiar routines",
+        "theoreticalMin": 0,
+        "theoreticalMax": 2
+      },
+      {
+        "key": "structure",
+        "label": "Structure Energy",
+        "poleA": "Planned work",
+        "poleB": "Improvised work",
+        "theoreticalMin": 0,
+        "theoreticalMax": 2
+      },
+      {
+        "key": "depth",
+        "label": "Depth Energy",
+        "poleA": "Deep focus on one thing",
+        "poleB": "Variety across many",
+        "theoreticalMin": 0,
+        "theoreticalMax": 2
+      },
+      {
+        "key": "competition",
+        "label": "Competition Energy",
+        "poleA": "Compete to win",
+        "poleB": "Collaborate to build",
+        "theoreticalMin": 0,
+        "theoreticalMax": 2
+      },
+      {
+        "key": "autonomy",
+        "label": "Autonomy Energy",
+        "poleA": "Independent direction",
+        "poleB": "Guided mentorship",
+        "theoreticalMin": 0,
+        "theoreticalMax": 2
+      }
+    ]
+  }
+}

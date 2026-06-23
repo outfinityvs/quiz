@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/growth-experimentation-maturity-assessment",
+  "title": "Growth Experimentation Maturity",
+  "promise": "Growth experimentation maturity diagnostic for measurement, portfolio, experiment design, and learning velocity.",
+  "duration": "6 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "maturity",
+  "domain": "growth-leadership",
+  "priority": "P1",
+  "audience": "Growth, product, marketing, and revenue teams; founders and innovation units",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Experimentation maturity assessment across Measurement & Metric Quality, Portfolio & Prioritisation, Experiment Design, Learning Velocity. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Growth Experimentation Maturity - Outfinity Quiz",
+  "ogDescription": "Growth experimentation maturity diagnostic for measurement, portfolio, experiment design, and learning velocity."
+}

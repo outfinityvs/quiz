@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/cybersecurity-privacy-readiness-assessment",
+  "title": "Cybersecurity & Privacy Readiness",
+  "promise": "Cybersecurity and privacy readiness assessment for governance, protection, response, recovery, and privacy operations.",
+  "duration": "7 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "maturity",
+  "domain": "ai-trust",
+  "priority": "P1",
+  "audience": "Startups, SMEs, boards, family offices, investors, and vendors undergoing customer diligence",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Cyber and privacy maturity assessment across Govern & Identify, Protect, Detect & Respond, Recover & Privacy. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Cybersecurity & Privacy Readiness - Outfinity Quiz",
+  "ogDescription": "Cybersecurity and privacy readiness assessment for governance, protection, response, recovery, and privacy operations."
+}

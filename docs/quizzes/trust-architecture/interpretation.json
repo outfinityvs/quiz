@@ -1,0 +1,23 @@
+{
+  "mechanisms": {
+    "relational": { "title": "Relational", "strength": "You trust through face-to-face bonds, personal loyalty, and repeated good faith.", "weakness": "Relational trust does not scale beyond the people you know, and it can survive too long past a betrayal.", "fits": "small teams, close partnerships, contexts where loyalty and judgment matter most." },
+    "contractual": { "title": "Contractual", "strength": "You trust through clear written terms that define what happens when things break.", "weakness": "Contracts cannot cover every contingency; legalistic trust can hollow out the goodwill it relies on.", "fits": "partnerships with real stakes, strangers, situations where the downside must be bounded." },
+    "reputational": { "title": "Reputational", "strength": "You trust through track records and references \u2014 what others can independently verify.", "weakness": "Reputation lags reality and concentrates on whoever is already visible, hiding newcomers and slow drift.", "fits": "markets, networks, and contexts where past behavior predicts future behavior." },
+    "procedural": { "title": "Procedural", "strength": "You trust through transparent process, audits, and verifiable steps \u2014 trust that survives personnel changes.", "weakness": "Process can become performance; people learn to game the audit instead of the work it measures.", "fits": "regulated, high-stakes, and repeatable work where trust must outlast individuals." },
+    "communal": { "title": "Communal", "strength": "You trust through shared governance and collective accountability \u2014 trust distributed across a group.", "weakness": "Communal trust can diffuse responsibility until no one is accountable; it needs real teeth.", "fits": "cooperatives, commons, and mission-driven ventures where trust must bridge many people." }
+  },
+  "pairInsight": "When your top mechanism diverges sharply from a partner's top mechanism, partnerships work when you both recognize each mechanism has a context where it is the right tool \u2014 not when you argue yours is correct.",
+  "shareTexts": {
+    "invite": "How do you build and verify trust?",
+    "minimal": "My trust blueprint is {primary}. What is yours?",
+    "full": "My trust blueprint is {primary}, with {secondary} as a backstop.\nWhat is yours?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for builders comparing how they build trust and where their mechanisms complement or clash. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

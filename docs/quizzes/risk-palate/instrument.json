@@ -1,0 +1,391 @@
+{
+  "id": "risk-palate",
+  "version": 1,
+  "title": "Risk Palate",
+  "language": "en",
+  "introduction": {
+    "subtitle": "What risks would you actually accept? A risk menu across five life domains.",
+    "description": "<p>Most people are not uniformly risk-taking or risk-averse — they have a palate. You may gamble with creative risk and recoil at financial risk. This quiz maps where your appetite sits across five domains.</p><p>For each scenario, choose what you would actually accept, not what you wish you would.</p>",
+    "duration": "10 scenarios. Approximately three minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
+    "startButton": "Taste my risk palate"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Invest a large share of your life savings into your own venture, with no guaranteed return.",
+      "type": "likert",
+      "dimension": "financial",
+      "scaleLabels": [
+        "Never accept",
+        "Sometimes",
+        "Always accept"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "Never accept",
+          "dimensionScores": {
+            "financial": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "Sometimes",
+          "dimensionScores": {
+            "financial": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Always accept",
+          "dimensionScores": {
+            "financial": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Take a significant salary cut for a year to keep your venture alive.",
+      "type": "likert",
+      "dimension": "financial",
+      "scaleLabels": [
+        "Never accept",
+        "Sometimes",
+        "Always accept"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "Never accept",
+          "dimensionScores": {
+            "financial": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "Sometimes",
+          "dimensionScores": {
+            "financial": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Always accept",
+          "dimensionScores": {
+            "financial": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Publicly champion a position many people in your field consider wrong or naive.",
+      "type": "likert",
+      "dimension": "reputational",
+      "scaleLabels": [
+        "Never accept",
+        "Sometimes",
+        "Always accept"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "Never accept",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "Sometimes",
+          "dimensionScores": {
+            "reputational": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Always accept",
+          "dimensionScores": {
+            "reputational": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Attach your full real name to a risky early launch that may fail visibly.",
+      "type": "likert",
+      "dimension": "reputational",
+      "scaleLabels": [
+        "Never accept",
+        "Sometimes",
+        "Always accept"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "Never accept",
+          "dimensionScores": {
+            "reputational": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "Sometimes",
+          "dimensionScores": {
+            "reputational": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Always accept",
+          "dimensionScores": {
+            "reputational": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Partner long-term with someone whose values differ sharply from yours on key issues.",
+      "type": "likert",
+      "dimension": "relational",
+      "scaleLabels": [
+        "Never accept",
+        "Sometimes",
+        "Always accept"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "Never accept",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "Sometimes",
+          "dimensionScores": {
+            "relational": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Always accept",
+          "dimensionScores": {
+            "relational": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Ask a close friend to put their own money at risk in your venture.",
+      "type": "likert",
+      "dimension": "relational",
+      "scaleLabels": [
+        "Never accept",
+        "Sometimes",
+        "Always accept"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "Never accept",
+          "dimensionScores": {
+            "relational": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "Sometimes",
+          "dimensionScores": {
+            "relational": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Always accept",
+          "dimensionScores": {
+            "relational": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Bet your career on a venture that, if it fails, leaves you with no obvious fallback.",
+      "type": "likert",
+      "dimension": "existential",
+      "scaleLabels": [
+        "Never accept",
+        "Sometimes",
+        "Always accept"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "Never accept",
+          "dimensionScores": {
+            "existential": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "Sometimes",
+          "dimensionScores": {
+            "existential": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Always accept",
+          "dimensionScores": {
+            "existential": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Move your family across the world for the venture, accepting real relocation risk.",
+      "type": "likert",
+      "dimension": "existential",
+      "scaleLabels": [
+        "Never accept",
+        "Sometimes",
+        "Always accept"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "Never accept",
+          "dimensionScores": {
+            "existential": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "Sometimes",
+          "dimensionScores": {
+            "existential": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Always accept",
+          "dimensionScores": {
+            "existential": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Release an original work before it is finished, knowing it may be judged harshly.",
+      "type": "likert",
+      "dimension": "creative",
+      "scaleLabels": [
+        "Never accept",
+        "Sometimes",
+        "Always accept"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "Never accept",
+          "dimensionScores": {
+            "creative": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "Sometimes",
+          "dimensionScores": {
+            "creative": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Always accept",
+          "dimensionScores": {
+            "creative": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Abandon an established style or method for something genuinely experimental that may not land.",
+      "type": "likert",
+      "dimension": "creative",
+      "scaleLabels": [
+        "Never accept",
+        "Sometimes",
+        "Always accept"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "Never accept",
+          "dimensionScores": {
+            "creative": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "Sometimes",
+          "dimensionScores": {
+            "creative": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "Always accept",
+          "dimensionScores": {
+            "creative": 3
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "likert",
+    "dimensions": [
+      {
+        "key": "financial",
+        "label": "Financial Risk",
+        "theoreticalMin": 2,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "reputational",
+        "label": "Reputational Risk",
+        "theoreticalMin": 2,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "relational",
+        "label": "Relational Risk",
+        "theoreticalMin": 2,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "existential",
+        "label": "Existential Risk",
+        "theoreticalMin": 2,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "creative",
+        "label": "Creative Risk",
+        "theoreticalMin": 2,
+        "theoreticalMax": 6
+      }
+    ]
+  }
+}

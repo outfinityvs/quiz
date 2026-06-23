@@ -1,0 +1,37 @@
+{
+  "types": {
+    "linguistic": { "title": "Linguistic", "desc": "Word play, verbal reasoning, storytelling, and argumentation.", "ventures": ["Writing and communication tools", "Marketing and narrative strategy", "Legal and editorial ventures"] },
+    "logical": { "title": "Logical-Mathematical", "desc": "Pattern recognition, abstract reasoning, and numerical problem-solving.", "ventures": ["Data science and analytics", "Algorithm and systems design", "Strategic and investment reasoning"] },
+    "spatial": { "title": "Spatial", "desc": "Mental rotation, visualization, and spatial reasoning.", "ventures": ["Design and architecture tools", "Visualization and maps", "Hardware and physical product design"] },
+    "musical": { "title": "Musical", "desc": "Rhythm recognition, auditory memory, and pattern detection in sound.", "ventures": ["Audio tooling", "Pattern-detection products", "Creative and expressive media"] },
+    "bodily": { "title": "Bodily-Kinesthetic", "desc": "Physical coordination and hands-on problem-solving.", "ventures": ["Prototyping and physical products", "Sports and health ventures", "Craft and making platforms"] },
+    "interpersonal": { "title": "Interpersonal", "desc": "Reading people, empathy, social reasoning, and persuasion.", "ventures": ["Leadership and sales", "Community and team building", "Negotiation and facilitation"] },
+    "intrapersonal": { "title": "Intrapersonal", "desc": "Self-awareness, emotional regulation, and metacognition.", "ventures": ["Self-management and coaching", "Reflective and personal-development tools", "Founding and independent work"] },
+    "naturalistic": { "title": "Naturalistic", "desc": "Pattern recognition in nature and complex systems, classification, and ecological reasoning.", "ventures": ["Environmental and sustainability ventures", "Systems design", "Classification and taxonomy products"] }
+  },
+  "learningStyle": {
+    "linguistic": "You learn best through reading, writing, and discussion of structured language.",
+    "logical": "You learn best through structured argument, models, and explicit reasoning.",
+    "spatial": "You learn best through diagrams, maps, and visualizing structure.",
+    "musical": "You learn best through rhythm, sound patterns, and timed structure.",
+    "bodily": "You learn best by doing \u2014 hands-on repetition and physical engagement.",
+    "interpersonal": "You learn best through dialogue, role-play, and teaching others.",
+    "intrapersonal": "You learn best through reflection, journaling, and self-paced study.",
+    "naturalistic": "You learn best through classification, field observation, and comparing cases."
+  },
+  "flatNote": "Your profile is fairly evenly spread across intelligence types. This is a real cognitive versatility \u2014 useful in early-stage ventures where roles are fluid and the right people for each task are scarce.",
+  "shareTexts": {
+    "invite": "What type of intelligence do you have?",
+    "minimal": "My primary intelligence is {primary}. What is yours?",
+    "full": "My cognitive profile is {primary} + {secondary}.\nWhat type of intelligence do you have?"
+  },
+  "attribution": "Inspired by Howard Gardner\u2019s Multiple Intelligences theory. This is not an IQ test and does not measure general intelligence. Items are original.",
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for builders comparing their cognitive profiles and teaming up with people whose intelligences complement. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

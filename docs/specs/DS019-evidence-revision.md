@@ -1,7 +1,7 @@
 ---
 id: DS019
 title: Evidence Revision Profile
-status: planned
+status: draft
 owner: outfinity
 summary: Profile measuring willingness to revise beliefs when confronted with contrary evidence, derived from actively open-minded thinking scales.
 ---

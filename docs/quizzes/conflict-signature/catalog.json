@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/conflict-signature",
+  "title": "Conflict Signature",
+  "promise": "What do you do when disagreement becomes real? Map your signature across five conflict approaches — confront, negotiate, accommodate, avoid, transform.",
+  "duration": "~3 min",
+  "durationCategory": "short",
+  "questions": 8,
+  "type": "exploration",
+  "domain": "collaboration",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "8 forced-choice scenarios. Mark first and second instinct (first = 3 points, second = 1). Result maps your primary and secondary conflict approaches, where each fits, and what to watch. Challenge a friend to compare signatures.",
+  "ogTitle": "Conflict Signature — Outfinity Quiz",
+  "ogDescription": "What is your conflict reflex? 8 scenarios, ~3 min. Private by design."
+}

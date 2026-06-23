@@ -1,0 +1,47 @@
+{
+  "axes": {
+    "conviction": {
+      "lowLabel": "Loosely held", "highLabel": "Firmly held",
+      "low": "You hold your beliefs loosely. This keeps you intellectually mobile and avoids rigidity \u2014 but loosely-held everything can make it hard to commit to a direction under pressure.",
+      "mid": "You hold beliefs with calibration: firm where the evidence is strong, loose where it is not. This is the productive middle of conviction.",
+      "high": "You hold your beliefs firmly. This sharpens commitment and coherence under pressure. Strength without a revision path becomes rigidity \u2014 pair it with openness."
+    },
+    "revisionOpenness": {
+      "lowLabel": "Resistant to revision", "highLabel": "Open to revision",
+      "low": "You are resistant to revising beliefs once held. Whatever its source \u2014 confidence, identity, or fatigue \u2014 this protects coherence but raises the cost of being wrong.",
+      "mid": "You are selectively open to revision \u2014 willing where the stakes are empirical, protective where the belief is a value.",
+      "high": "You are broadly open to revising beliefs. This is intellectually healthy; the warning is treating openness as a virtue in itself, where revision becomes performative rather than earned."
+    },
+    "evidenceSensitivity": {
+      "lowLabel": "Insensitive to evidence", "highLabel": "Evidence-sensitive",
+      "low": "Your revision conditions are not tightly tied to empirical evidence \u2014 you may revise for social pressure, authority, or not at all. Watch what you actually let count as a reason.",
+      "mid": "You let evidence matter, but not infinitely: a credible counterexample can move you, while noise cannot.",
+      "high": "Your beliefs are tightly pegged to evidence: you revise on credible counterexamples and independent studies. Healthy \u2014 provided your bar for \u201ccredible\u201d is itself calibrated and not a gatekeeping move."
+    },
+    "valueAnchoring": {
+      "lowLabel": "Few anchored values", "highLabel": "Strong value anchoring",
+      "low": "Few of your beliefs are anchored as core values \u2014 most are open to evidence. This keeps you adaptable; it can also mean you lack the stable commitments a long mission needs.",
+      "mid": "You distinguish principles from applications: you will revise how a belief applies but protect the principle itself. This is often the most durable stance.",
+      "high": "Several of your beliefs are anchored as values you will not revise on evidence. This is legitimate for genuine values \u2014 but verify they are values and not beliefs with value\u2019s costume."
+    }
+  },
+  "tension": {
+    "high_conviction_high_openness": "You hold beliefs firmly and revise them readily. This is the ideal of strong conviction paired with calibrated openness \u2014 rare, and worth watching for unevenness across topics.",
+    "high_conviction_low_openness": "You hold beliefs firmly and resist revision. This is coherence under pressure \u2014 but it raises the cost of being wrong. Name a belief or two where you would welcome a counterexample.",
+    "low_conviction_high_openness": "You hold beliefs loosely and revise readily. Intellectually mobile \u2014 but check that openness is not masking a lack of committed direction.",
+    "default": "Your tension between conviction and openness differs across topics. The useful question is not the average but the shape: where are you firm-and-open (healthy), and where firm-and-closed (risk)?"
+  },
+  "shareTexts": {
+    "invite": "What would actually change your mind?",
+    "minimal": "I mapped my Evidence Revision Profile. What would change yours?",
+    "full": "I mapped my Evidence Revision Profile.\n{profileSummary}\nWhat would change your mind?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for builders practicing honest revision \u2014 holding direction while remaining open to the evidence that should change it. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

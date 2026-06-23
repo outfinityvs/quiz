@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/responsible-ai-eu-swiss-readiness-assessment",
+  "title": "Responsible AI & EU/Swiss Readiness",
+  "promise": "Responsible AI and EU/Swiss readiness map for inventory, classification, data, privacy, risk, oversight, documentation, and monitoring.",
+  "duration": "7-9 min",
+  "durationCategory": "long",
+  "questions": 14,
+  "type": "readiness",
+  "domain": "ai-trust",
+  "priority": "P1",
+  "audience": "AI providers and deployers, founders, boards, product, legal, compliance, data, and risk teams",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Governance readiness assessment with jurisdiction branching across Classification & Scope, Data & Privacy, Risk & Human Oversight, Documentation & Monitoring. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Responsible AI & EU/Swiss Readiness - Outfinity Quiz",
+  "ogDescription": "Responsible AI and EU/Swiss readiness map for inventory, classification, data, privacy, risk, oversight, documentation, and monitoring."
+}

@@ -1,0 +1,46 @@
+{
+  "resultKicker": "Your Readiness Result",
+  "levels": [
+    {
+      "id": "narrative-only",
+      "min": 0,
+      "max": 24,
+      "label": "Narrative-Only",
+      "copy": ""
+    },
+    {
+      "id": "baseline",
+      "min": 25,
+      "max": 44,
+      "label": "Baseline",
+      "copy": ""
+    },
+    {
+      "id": "managed",
+      "min": 45,
+      "max": 64,
+      "label": "Managed",
+      "copy": ""
+    },
+    {
+      "id": "integrated",
+      "min": 65,
+      "max": 84,
+      "label": "Integrated",
+      "copy": ""
+    },
+    {
+      "id": "value-creating",
+      "min": 85,
+      "max": 100,
+      "label": "Value-Creating",
+      "copy": ""
+    }
+  ],
+  "archetypes": {},
+  "recommendations": {},
+  "defaultSecondAction": "Retake the diagnostic after a focused 30-day improvement cycle and compare only your own progress unless a team comparison is explicitly agreed.",
+  "reflectionQuestion": "Which assumption behind your weakest dimension deserves the fastest evidence check?",
+  "methodologyNote": "Version 1 uses four dimensions with two questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
+  "shareNote": "Share cards reveal only the level and strongest area. They do not publish individual answers, sensitive weaknesses, legal or financial details, security gaps, or family-specific information."
+}

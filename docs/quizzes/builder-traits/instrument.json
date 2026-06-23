@@ -1,0 +1,250 @@
+{
+  "id": "builder-traits",
+  "version": 1,
+  "title": "Builder Traits Snapshot",
+  "language": "en",
+  "introduction": {
+    "subtitle": "A five-axis personality snapshot for venture builders, using public-domain IPIP items.",
+    "description": "<p>There is no single type of founder. Personality only explains part of how someone builds — but it shapes what drains you, what you avoid, and where you need a complement. This snapshot maps five traits relevant to venture work, not as scores to maximize, but as positions on axes that each have a cost and a use.</p><p>Answer about how you actually are, not how you wish to be. Both poles of every axis have value depending on context.</p>",
+    "duration": "20 items. Approximately three minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "This is a short reflective snapshot, not a clinical or validated psychometric assessment. It uses public-domain IPIP items but is not the full IPIP scale.",
+    "startButton": "Map my traits"
+  },
+  "questions": [
+    {
+      "id": "o1", "text": "I have a vivid imagination.", "type": "likert", "dimension": "openness",
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "openness": 1 } },
+        { "value": "2", "text": "2", "dimensionScores": { "openness": 2 } },
+        { "value": "3", "text": "3", "dimensionScores": { "openness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "openness": 4 } },
+        { "value": "5", "text": "5", "dimensionScores": { "openness": 5 } }
+      ]
+    },
+    {
+      "id": "o2", "text": "I enjoy thinking about abstract, theoretical ideas.", "type": "likert", "dimension": "openness",
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "openness": 1 } },
+        { "value": "2", "text": "2", "dimensionScores": { "openness": 2 } },
+        { "value": "3", "text": "3", "dimensionScores": { "openness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "openness": 4 } },
+        { "value": "5", "text": "5", "dimensionScores": { "openness": 5 } }
+      ]
+    },
+    {
+      "id": "o3", "text": "I prefer routine and familiar things over novelty.", "type": "likert", "dimension": "openness", "reverse": true,
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "openness": 5 } },
+        { "value": "2", "text": "2", "dimensionScores": { "openness": 4 } },
+        { "value": "3", "text": "3", "dimensionScores": { "openness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "openness": 2 } },
+        { "value": "5", "text": "5", "dimensionScores": { "openness": 1 } }
+      ]
+    },
+    {
+      "id": "o4", "text": "I am not interested in abstract ideas.", "type": "likert", "dimension": "openness", "reverse": true,
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "openness": 5 } },
+        { "value": "2", "text": "2", "dimensionScores": { "openness": 4 } },
+        { "value": "3", "text": "3", "dimensionScores": { "openness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "openness": 2 } },
+        { "value": "5", "text": "5", "dimensionScores": { "openness": 1 } }
+      ]
+    },
+    {
+      "id": "c1", "text": "I am always prepared.", "type": "likert", "dimension": "conscientiousness",
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "conscientiousness": 1 } },
+        { "value": "2", "text": "2", "dimensionScores": { "conscientiousness": 2 } },
+        { "value": "3", "text": "3", "dimensionScores": { "conscientiousness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "conscientiousness": 4 } },
+        { "value": "5", "text": "5", "dimensionScores": { "conscientiousness": 5 } }
+      ]
+    },
+    {
+      "id": "c2", "text": "I pay attention to details.", "type": "likert", "dimension": "conscientiousness",
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "conscientiousness": 1 } },
+        { "value": "2", "text": "2", "dimensionScores": { "conscientiousness": 2 } },
+        { "value": "3", "text": "3", "dimensionScores": { "conscientiousness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "conscientiousness": 4 } },
+        { "value": "5", "text": "5", "dimensionScores": { "conscientiousness": 5 } }
+      ]
+    },
+    {
+      "id": "c3", "text": "I often forget to put things back in their proper place.", "type": "likert", "dimension": "conscientiousness", "reverse": true,
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "conscientiousness": 5 } },
+        { "value": "2", "text": "2", "dimensionScores": { "conscientiousness": 4 } },
+        { "value": "3", "text": "3", "dimensionScores": { "conscientiousness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "conscientiousness": 2 } },
+        { "value": "5", "text": "5", "dimensionScores": { "conscientiousness": 1 } }
+      ]
+    },
+    {
+      "id": "c4", "text": "I leave my belongings around.", "type": "likert", "dimension": "conscientiousness", "reverse": true,
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "conscientiousness": 5 } },
+        { "value": "2", "text": "2", "dimensionScores": { "conscientiousness": 4 } },
+        { "value": "3", "text": "3", "dimensionScores": { "conscientiousness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "conscientiousness": 2 } },
+        { "value": "5", "text": "5", "dimensionScores": { "conscientiousness": 1 } }
+      ]
+    },
+    {
+      "id": "a1", "text": "I am interested in people.", "type": "likert", "dimension": "agreeableness",
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "agreeableness": 1 } },
+        { "value": "2", "text": "2", "dimensionScores": { "agreeableness": 2 } },
+        { "value": "3", "text": "3", "dimensionScores": { "agreeableness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "agreeableness": 4 } },
+        { "value": "5", "text": "5", "dimensionScores": { "agreeableness": 5 } }
+      ]
+    },
+    {
+      "id": "a2", "text": "I sympathize with others' feelings.", "type": "likert", "dimension": "agreeableness",
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "agreeableness": 1 } },
+        { "value": "2", "text": "2", "dimensionScores": { "agreeableness": 2 } },
+        { "value": "3", "text": "3", "dimensionScores": { "agreeableness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "agreeableness": 4 } },
+        { "value": "5", "text": "5", "dimensionScores": { "agreeableness": 5 } }
+      ]
+    },
+    {
+      "id": "a3", "text": "I insult people.", "type": "likert", "dimension": "agreeableness", "reverse": true,
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "agreeableness": 5 } },
+        { "value": "2", "text": "2", "dimensionScores": { "agreeableness": 4 } },
+        { "value": "3", "text": "3", "dimensionScores": { "agreeableness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "agreeableness": 2 } },
+        { "value": "5", "text": "5", "dimensionScores": { "agreeableness": 1 } }
+      ]
+    },
+    {
+      "id": "a4", "text": "I am hardly interested in others' problems.", "type": "likert", "dimension": "agreeableness", "reverse": true,
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "agreeableness": 5 } },
+        { "value": "2", "text": "2", "dimensionScores": { "agreeableness": 4 } },
+        { "value": "3", "text": "3", "dimensionScores": { "agreeableness": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "agreeableness": 2 } },
+        { "value": "5", "text": "5", "dimensionScores": { "agreeableness": 1 } }
+      ]
+    },
+    {
+      "id": "e1", "text": "I am relaxed most of the time.", "type": "likert", "dimension": "emotionalStability",
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "emotionalStability": 1 } },
+        { "value": "2", "text": "2", "dimensionScores": { "emotionalStability": 2 } },
+        { "value": "3", "text": "3", "dimensionScores": { "emotionalStability": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "emotionalStability": 4 } },
+        { "value": "5", "text": "5", "dimensionScores": { "emotionalStability": 5 } }
+      ]
+    },
+    {
+      "id": "e2", "text": "I seldom feel blue.", "type": "likert", "dimension": "emotionalStability",
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "emotionalStability": 1 } },
+        { "value": "2", "text": "2", "dimensionScores": { "emotionalStability": 2 } },
+        { "value": "3", "text": "3", "dimensionScores": { "emotionalStability": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "emotionalStability": 4 } },
+        { "value": "5", "text": "5", "dimensionScores": { "emotionalStability": 5 } }
+      ]
+    },
+    {
+      "id": "e3", "text": "I worry about things.", "type": "likert", "dimension": "emotionalStability", "reverse": true,
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "emotionalStability": 5 } },
+        { "value": "2", "text": "2", "dimensionScores": { "emotionalStability": 4 } },
+        { "value": "3", "text": "3", "dimensionScores": { "emotionalStability": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "emotionalStability": 2 } },
+        { "value": "5", "text": "5", "dimensionScores": { "emotionalStability": 1 } }
+      ]
+    },
+    {
+      "id": "e4", "text": "I get stressed easily.", "type": "likert", "dimension": "emotionalStability", "reverse": true,
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "emotionalStability": 5 } },
+        { "value": "2", "text": "2", "dimensionScores": { "emotionalStability": 4 } },
+        { "value": "3", "text": "3", "dimensionScores": { "emotionalStability": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "emotionalStability": 2 } },
+        { "value": "5", "text": "5", "dimensionScores": { "emotionalStability": 1 } }
+      ]
+    },
+    {
+      "id": "ac1", "text": "I work hard.", "type": "likert", "dimension": "achievement",
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "achievement": 1 } },
+        { "value": "2", "text": "2", "dimensionScores": { "achievement": 2 } },
+        { "value": "3", "text": "3", "dimensionScores": { "achievement": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "achievement": 4 } },
+        { "value": "5", "text": "5", "dimensionScores": { "achievement": 5 } }
+      ]
+    },
+    {
+      "id": "ac2", "text": "I set high standards for myself and others.", "type": "likert", "dimension": "achievement",
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "achievement": 1 } },
+        { "value": "2", "text": "2", "dimensionScores": { "achievement": 2 } },
+        { "value": "3", "text": "3", "dimensionScores": { "achievement": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "achievement": 4 } },
+        { "value": "5", "text": "5", "dimensionScores": { "achievement": 5 } }
+      ]
+    },
+    {
+      "id": "ac3", "text": "I do more than what is expected of me.", "type": "likert", "dimension": "achievement",
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "achievement": 1 } },
+        { "value": "2", "text": "2", "dimensionScores": { "achievement": 2 } },
+        { "value": "3", "text": "3", "dimensionScores": { "achievement": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "achievement": 4 } },
+        { "value": "5", "text": "5", "dimensionScores": { "achievement": 5 } }
+      ]
+    },
+    {
+      "id": "ac4", "text": "I do just enough work to get by.", "type": "likert", "dimension": "achievement", "reverse": true,
+      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "options": [
+        { "value": "1", "text": "1", "dimensionScores": { "achievement": 5 } },
+        { "value": "2", "text": "2", "dimensionScores": { "achievement": 4 } },
+        { "value": "3", "text": "3", "dimensionScores": { "achievement": 3 } },
+        { "value": "4", "text": "4", "dimensionScores": { "achievement": 2 } },
+        { "value": "5", "text": "5", "dimensionScores": { "achievement": 1 } }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "likert",
+    "dimensions": [
+      { "key": "openness", "label": "Openness", "axisLabel": "Curiosity ↔ Pragmatism", "theoreticalMin": 4, "theoreticalMax": 20 },
+      { "key": "conscientiousness", "label": "Conscientiousness", "axisLabel": "Structure ↔ Spontaneity", "theoreticalMin": 4, "theoreticalMax": 20 },
+      { "key": "agreeableness", "label": "Agreeableness", "axisLabel": "Independence ↔ Cooperation", "theoreticalMin": 4, "theoreticalMax": 20 },
+      { "key": "emotionalStability", "label": "Emotional Stability", "axisLabel": "Calm ↔ Reactivity", "theoreticalMin": 4, "theoreticalMax": 20 },
+      { "key": "achievement", "label": "Achievement Striving", "axisLabel": "Drive ↔ Contentment", "theoreticalMin": 4, "theoreticalMax": 20 }
+    ]
+  },
+  "attribution": {
+    "text": "Personality items from the International Personality Item Pool (ipip.ori.org), public domain.",
+    "deepLink": "https://ipip.ori.org/"
+  }
+}

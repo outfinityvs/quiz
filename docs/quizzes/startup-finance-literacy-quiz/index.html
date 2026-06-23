@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Finance Literacy Challenge - Outfinity Quiz</title>
+  <meta name="description" content="Founder finance literacy challenge covering unit economics, runway, dilution, and financial statements.">
+  <meta property="og:title" content="Startup Finance Literacy Challenge - Outfinity Quiz">
+  <meta property="og:description" content="Founder finance literacy challenge covering unit economics, runway, dilution, and financial statements.">
+  <meta property="og:image" content="../../assets/og-default.png">
+  <meta property="og:url" content="https://quiz.outfinity.ch/quizzes/startup-finance-literacy-quiz/">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none';">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="../../engine/quiz-styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="../../index.html" class="site-header__logo">
+      <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="3"/>
+        <circle cx="50" cy="50" r="8" fill="currentColor"/>
+        <line x1="50" y1="5" x2="50" y2="25" stroke="currentColor" stroke-width="2"/>
+        <line x1="50" y1="75" x2="50" y2="95" stroke="currentColor" stroke-width="2"/>
+        <line x1="5" y1="50" x2="25" y2="50" stroke="currentColor" stroke-width="2"/>
+        <line x1="75" y1="50" x2="95" y2="50" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span>Outfinity Quiz</span>
+    </a>
+    <nav class="site-header__nav">
+      <a href="../../index.html">Home</a>
+      <a href="../../sitemap.html">All Quizzes</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☀</button>
+    </nav>
+  </header>
+
+  <main id="quiz-container">
+    <nav class="breadcrumb" style="width:var(--editorial);margin:var(--space-md) auto 0;">
+      <a href="../../index.html">Home</a>
+      <span class="breadcrumb__sep">›</span>
+      <a href="../../sitemap.html#finance">finance</a>
+      <span class="breadcrumb__sep">›</span>
+      <span class="breadcrumb__current">Startup Finance Literacy Challenge</span>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href="../../privacy/index.html">Privacy</a>
+    </nav>
+    <p class="site-footer__disclaimer">AI was used in coding and processing these quizzes. The inspiration and sources are real, but errors may have slipped through. If you find something wrong, please <a href="mailto:quiz@outfinity.ch">send us feedback</a>.</p>
+    <p>An initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>.</p>
+  </footer>
+
+  <script type="module">
+    import { mountStandardDiagnosticPage } from '../../engine/standard-diagnostic-page.js';
+    mountStandardDiagnosticPage();
+  </script>
+  <script>
+    (function(){var t=document.getElementById('theme-toggle'),h=document.documentElement,s=localStorage.getItem('quiz-theme');if(s){h.setAttribute('data-theme',s);t.textContent=s==='dark'?'☾':'☀';}t.addEventListener('click',function(){var c=h.getAttribute('data-theme'),n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('quiz-theme',n);t.textContent=n==='dark'?'☾':'☀';});})();
+  </script>
+  <script>
+    (function() {
+      var s = document.createElement('script');
+      s.src = '../../partials/footer-loader.js';
+      s.async = true;
+      document.body.appendChild(s);
+    })();
+  </script>
+</body>
+</html>

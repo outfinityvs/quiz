@@ -1,7 +1,7 @@
 ---
 id: DS025
 title: Quick Big Five Mini
-status: planned
+status: draft
 owner: outfinity
 summary: Ultra-short Big Five personality quiz using 10 IPIP items (2 per dimension), optimized for viral sharing and quick self-discovery.
 ---

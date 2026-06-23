@@ -1,0 +1,61 @@
+{
+  "dimensionDescriptions": {
+    "E": "Extraversion: you're energized by social interaction, external processing, and action-oriented work.",
+    "I": "Introversion: you're energized by solitude, internal processing, and reflection.",
+    "S": "Sensing: you focus on concrete facts, practical details, and present reality.",
+    "N": "Intuition: you focus on patterns, possibilities, and future potential.",
+    "T": "Thinking: you decide based on logic, objective analysis, and consistency.",
+    "F": "Feeling: you decide based on values, harmony, and impact on people.",
+    "J": "Judging: you prefer structure, planning, closure, and decisiveness.",
+    "P": "Perceiving: you prefer flexibility, exploration, openness, and adaptability."
+  },
+  "typeCodes": {
+    "INTJ": { "title": "The Strategist", "desc": "Independence and logical analysis. You thrive in strategic roles where you work independently on complex problems." },
+    "INTP": { "title": "The Theorist", "desc": "Curiosity and analytical depth. You excel at building models and understanding systems." },
+    "ENTJ": { "title": "The Commander", "desc": "Decisiveness and long-range planning. You fit growth-stage leadership and organizational design." },
+    "ENTP": { "title": "The Visionary", "desc": "Ideas and strategic possibility. You fit early-stage exploration and business development." },
+    "INFJ": { "title": "The Counselor", "desc": "Quiet conviction and care for people. You fit mission-driven and meaningful work." },
+    "INFP": { "title": "The Idealist", "desc": "Values and creative imagination. You fit creative and mission-driven ventures." },
+    "ENFJ": { "title": "The Mentor", "desc": "People and shared direction. You fit community building and leadership." },
+    "ENFP": { "title": "The Campaigner", "desc": "Enthusiasm and vision. You fit content, community, and mission-led growth." },
+    "ISTJ": { "title": "The Inspector", "desc": "Reliability and order. You fit operations, process, and quality-critical work." },
+    "ISFJ": { "title": "The Protector", "desc": "Care and reliability. You fit support systems and long-term relationships." },
+    "ESTJ": { "title": "The Director", "desc": "Order and execution. You fit operational leadership and management." },
+    "ESFJ": { "title": "The Consul", "desc": "Care and community. You fit community-focused and people-serving work." },
+    "ISTP": { "title": "The Crafter", "desc": "Hands-on problem solving. You fit hardware, prototyping, and practical roles." },
+    "ISFP": { "title": "The Composer", "desc": "Aesthetics and quiet care. You fit craft and creative production." },
+    "ESTP": { "title": "The Entrepreneur", "desc": "Action and opportunism. You fit fast-moving, hands-on ventures." },
+    "ESFP": { "title": "The Entertainer", "desc": "Presence and warmth. You fit community and customer-facing roles." }
+  },
+  "ventureFits": {
+    "INTJ": ["Research ventures", "Strategic roles", "Solo founder"],
+    "INTP": ["Research", "Theory and modeling", "Deep technical work"],
+    "ENTJ": ["Leadership ventures", "Growth-stage startups", "Business development"],
+    "ENTP": ["Early-stage exploration", "Business development", "Strategy"],
+    "INFJ": ["Mission-driven ventures", "Counseling and advisory", "Quiet leadership"],
+    "INFP": ["Creative ventures", "Mission-driven startups", "Content creation"],
+    "ENFJ": ["Community ventures", "Education", "Team building"],
+    "ENFP": ["Content and creative ventures", "Community", "Mission-led growth"],
+    "ISTJ": ["Operations", "Process optimization", "Quality-critical work"],
+    "ISFJ": ["Support and care systems", "Long-term relationship ventures"],
+    "ESTJ": ["Operational leadership", "Management", "Execution-focused roles"],
+    "ESFJ": ["Community-focused", "People-serving", "Customer care"],
+    "ISTP": ["Hardware ventures", "Prototyping", "Hands-on technical roles"],
+    "ISFP": ["Craft", "Creative production", "Quiet aesthetic work"],
+    "ESTP": ["Fast-moving ventures", "Hands-on opportunism", "Field work"],
+    "ESFP": ["Community and presence", "Customer-facing work", "Events"]
+  },
+  "shareTexts": {
+    "invite": "What's your type? Take the 2-minute MBTI-style quiz.",
+    "minimal": "I'm a {code}. What's your type?",
+    "full": "I'm a {code} \u2014 {title}.\nWhat's your type?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for builders comparing their type and finding teammates whose preferences complement. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

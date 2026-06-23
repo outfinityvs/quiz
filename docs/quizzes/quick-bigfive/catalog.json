@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/quick-bigfive",
+  "title": "Quick Big Five Mini",
+  "promise": "A two-minute Big Five snapshot. 10 IPIP items, five dimensions, no score to maximize — only positions with a use.",
+  "duration": "~2 min",
+  "durationCategory": "short",
+  "questions": 10,
+  "type": "quick",
+  "domain": "personality",
+  "hasRecommendation": true,
+  "license": "Public Domain (IPIP) / CC BY 4.0",
+  "description": "10 IPIP Likert items (2 per dimension) across Openness, Conscientiousness, Extraversion, Agreeableness, Emotional Stability. Reverse-scored items prevent acquiescence bias. Result shows brief low/moderate/high positions on five dimensions with a clear reliability disclaimer and a link to the deeper 20-item Builder Traits Snapshot.",
+  "ogTitle": "Quick Big Five Mini — Outfinity Quiz",
+  "ogDescription": "A two-minute Big Five snapshot. 10 IPIP items. Private by design."
+}

@@ -26,40 +26,37 @@
       <span>Outfinity Quiz</span>
     </a>
     <nav class="site-header__nav">
-      <a href="index.html" class="nav-current">Catalog</a>
-      <a href="sitemap.html">All Tests</a>
-      <a href="privacy/index.html">Privacy</a>
-      <a href="licenses/index.html">Sources</a>
+      <a href="index.html" class="nav-current">Home</a>
+      <a href="sitemap.html">All Quizzes</a>
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">☀</button>
     </nav>
   </header>
 
   <main class="catalog">
     <section class="catalog__hero">
-      <h1>Free self-knowledge quizzes, built without dark patterns</h1>
-      <p class="catalog__hero-text">
-        Most online quizzes are profiling engines that turn your answers into marketing data.
-        We built these differently. Every quiz runs entirely in your browser. We never receive your answers,
-        we never build profiles about you, and we never ask for accounts, credit cards, or subscriptions.
-      </p>
-      <p class="catalog__hero-note">
-        Outfinity Quiz is an initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>.
-        We build ventures that are useful. If you find our quizzes interesting, you may discover our software, books,
-        or ventures through the optional links at the end of each quiz. That is how this project sustains itself —
-        not by selling your data.
-      </p>
+      <h1>Free self-knowledge quizzes, no account, no credit card for results.</h1>
+      <p class="catalog__hero-text">Most online quizzes are profiling engines that turn your answers into marketing data. We built these differently. Every quiz runs entirely in your browser. We never receive your answers, we never build profiles about you, and we never ask for accounts, credit cards, or subscriptions. Outfinity Quiz is an initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>. We build ventures with measurable outcomes and social impact, designed for trust, privacy, and long-term value. If you find our quizzes interesting, you may discover our software, books, or ventures through the optional links at the end of each quiz.</p>
     </section>
 
     <section class="catalog__filters" id="filters">
       <div class="filter-group">
-        <label for="filter-type">Type</label>
-        <select id="filter-type">
-          <option value="">All types</option>
-          <option value="research">Research instrument</option>
-          <option value="derived">Derived map</option>
-          <option value="exploration">Reflective exploration</option>
-          <option value="fiction">Interactive fiction</option>
-          <option value="quick">Quick quiz</option>
+        <label for="filter-domain">Category</label>
+        <select id="filter-domain">
+          <option value="">All categories</option>
+          <option value="founders">Founders and operating mode</option>
+          <option value="finance">Finance and fundraising</option>
+          <option value="investor-capital">Investor and family capital</option>
+          <option value="product">Product and monetisation</option>
+          <option value="growth-leadership">Growth, sales, and leadership</option>
+          <option value="ai-trust">AI, trust, and sustainable value</option>
+          <option value="collaboration">Collaboration and trust</option>
+          <option value="knowledge">Knowledge and perception</option>
+          <option value="interests">Interests and vocation</option>
+          <option value="personality">Personality</option>
+          <option value="identity">Identity and roles</option>
+          <option value="values">Values and philosophy</option>
+          <option value="philosophy">Philosophy</option>
+          <option value="cognition">Cognition and intelligence</option>
         </select>
       </div>
       <div class="filter-group">
@@ -71,18 +68,6 @@
           <option value="long">Over 5 min</option>
         </select>
       </div>
-      <div class="filter-group">
-        <label for="filter-domain">Domain</label>
-        <select id="filter-domain">
-          <option value="">All domains</option>
-          <option value="personality">Personality</option>
-          <option value="identity">Identity and roles</option>
-          <option value="values">Values and philosophy</option>
-          <option value="cognition">Cognition and intelligence</option>
-          <option value="collaboration">Collaboration and trust</option>
-          <option value="knowledge">Knowledge and perception</option>
-        </select>
-      </div>
     </section>
 
     <section class="catalog__grid" id="catalog-grid">
@@ -91,11 +76,9 @@
 
   <footer class="site-footer">
     <nav>
-      <a href="index.html">Catalog</a>
-      <a href="sitemap.html">All Tests</a>
+      <a href="index.html">Home</a>
+      <a href="sitemap.html">All Quizzes</a>
       <a href="privacy/index.html">Privacy</a>
-      <a href="licenses/index.html">Sources</a>
-      <a href="partners/index.html">Partners</a>
     </nav>
     <p class="site-footer__disclaimer">
       AI was used in coding and processing these quizzes. The inspiration and sources are real, but errors may have slipped through.
@@ -150,7 +133,15 @@
         derived: 'Derived map',
         exploration: 'Reflective exploration',
         fiction: 'Interactive fiction',
-        quick: 'Quick quiz'
+        quick: 'Quick quiz',
+        maturity: 'Maturity assessment',
+        readiness: 'Readiness assessment',
+        knowledge: 'Knowledge challenge',
+        'strategic-fit': 'Strategic fit assessment',
+        'paired-alignment': 'Paired alignment assessment',
+        competence: 'Competence assessment',
+        scenario: 'Scenario assessment',
+        governance: 'Governance assessment'
       };
 
       var typeTexts = {
@@ -158,14 +149,23 @@
         derived: 'Based on open scales; Outfinity interpretation is experimental.',
         exploration: 'Original self-knowledge instrument; not a validated psychometric assessment.',
         fiction: 'Narrative experience; result does not represent a psychological evaluation.',
-        quick: 'Short, fun instrument for casual self-discovery.'
+        quick: 'Short, fun instrument for casual self-discovery.',
+        maturity: 'Business diagnostic with transparent scoring; not certification or professional advice.',
+        readiness: 'Readiness diagnostic with private-by-default results and share-safe output.',
+        knowledge: 'Knowledge challenge with explanations after completion.',
+        'strategic-fit': 'Strategic fit diagnostic for evidence-led discussion.',
+        'paired-alignment': 'Alignment diagnostic; individual answers remain private by default.',
+        competence: 'Competence map for learning and development, not credentialing.',
+        scenario: 'Scenario-based diagnostic for decision quality and learning.',
+        governance: 'Governance readiness diagnostic with explicit limitations.'
       };
 
       var card = document.createElement('a');
       card.className = 'quiz-card';
       card.href = quiz.slug + '/index.html';
       card.dataset.type = quiz.type || '';
-      card.dataset.duration = quiz.durationCategory || '';
+      card.dataset.duration = getCanonicalDurationCategory(quiz.duration, quiz.durationCategory);
+      card.dataset.durationText = quiz.duration || '';
       card.dataset.domain = quiz.domain || '';
 
       card.innerHTML =
@@ -179,38 +179,58 @@
           '<span>' + quiz.questions + ' questions</span>' +
         '</div>' +
         '<p class="quiz-card__type-note">' + (typeTexts[quiz.type] || '') + '</p>' +
-        (quiz.hasRecommendation ? '<span class="quiz-card__rec-flag">Includes optional next step</span>' : '') +
-        '<span class="quiz-card__link">Take this quiz</span>';
+        '<div class="quiz-card__action">Take this quiz</div>';
 
       return card;
     }
 
+    function parseDurationMinutes(duration) {
+      var m = String(duration || '').match(/([0-9]+(?:\\.[0-9]+)?)/);
+      return m ? parseFloat(m[1]) : null;
+    }
+
+    function getCanonicalDurationCategory(duration, fallback) {
+      var minutes = parseDurationMinutes(duration);
+      if (minutes === null) return fallback || '';
+      if (minutes < 2) return 'short';
+      if (minutes <= 5) return 'medium';
+      return 'long';
+    }
+
     function initFilters() {
-      var typeSelect = document.getElementById('filter-type');
-      var durationSelect = document.getElementById('filter-duration');
       var domainSelect = document.getElementById('filter-domain');
+      var durationSelect = document.getElementById('filter-duration');
 
       function applyFilters() {
-        var type = typeSelect.value;
-        var duration = durationSelect.value;
         var domain = domainSelect.value;
+        var duration = durationSelect.value;
         var cards = document.querySelectorAll('.quiz-card');
 
         for (var i = 0; i < cards.length; i++) {
           var card = cards[i];
-          var matchType = !type || card.dataset.type === type;
-          var matchDuration = !duration || card.dataset.duration === duration;
           var matchDomain = !domain || card.dataset.domain === domain;
-          card.style.display = (matchType && matchDuration && matchDomain) ? '' : 'none';
+          var matchDuration = !duration || getCanonicalDurationCategory(card.dataset.durationText, card.dataset.duration) === duration;
+          card.style.display = (matchDomain && matchDuration) ? '' : 'none';
         }
       }
 
-      typeSelect.addEventListener('change', applyFilters);
-      durationSelect.addEventListener('change', applyFilters);
       domainSelect.addEventListener('change', applyFilters);
+      durationSelect.addEventListener('change', applyFilters);
     }
 
     loadCatalog();
+  </script>
+  <script>
+    (function() {
+      var path = window.location.pathname;
+      var isQuizPage = /\/quizzes\//.test(path);
+      var isSubPage = /\/(privacy|methods|licenses|dev)\//.test(path);
+      var base = isQuizPage ? '../../' : (isSubPage ? '../' : '');
+      var s = document.createElement('script');
+      s.src = base + 'partials/footer-loader.js';
+      s.async = true;
+      document.body.appendChild(s);
+    })();
   </script>
 </body>
 </html>

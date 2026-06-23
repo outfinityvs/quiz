@@ -1,7 +1,7 @@
 ---
 id: DS023
 title: Intelligence Type Profile
-status: planned
+status: draft
 owner: outfinity
 summary: Non-classical intelligence quiz that discovers what type of intelligence the user has, rather than measuring IQ. Maps multiple intelligence dimensions without ranking.
 ---

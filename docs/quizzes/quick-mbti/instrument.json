@@ -1,0 +1,354 @@
+{
+  "id": "quick-mbti",
+  "version": 1,
+  "title": "Quick MBTI-Style Quiz",
+  "language": "en",
+  "introduction": {
+    "subtitle": "A two-minute, MBTI-style snapshot of your four preference dimensions. Original items — not the official MBTI.",
+    "description": "<p>Not the official MBTI assessment. Original items inspired by Jungian type concepts. The result is a simplified four-letter code, useful for conversation and team dynamics — not a clinical read.</p><p>Pick the statement that fits you more often, in more contexts. If you are genuinely split, trust your quieter instinct.</p>",
+    "duration": "12 binary choices. Approximately two minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "Inspired by Jungian type theory and MBTI concepts. This is not the official MBTI assessment. Items are original.",
+    "startButton": "Find my type"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "At a party where you know few people, you tend to...",
+      "type": "profile",
+      "dimension": "ei",
+      "options": [
+        {
+          "key": "E_1",
+          "text": "Mingle and meet many new people.",
+          "dimensionScores": {
+            "E": 1
+          }
+        },
+        {
+          "key": "I_1",
+          "text": "Find a few people and have deeper conversations.",
+          "dimensionScores": {
+            "I": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "After a full week of meetings, you recharge by...",
+      "type": "profile",
+      "dimension": "ei",
+      "options": [
+        {
+          "key": "E_2",
+          "text": "More social time, ideally with good energy.",
+          "dimensionScores": {
+            "E": 1
+          }
+        },
+        {
+          "key": "I_2",
+          "text": "Time alone or with one close person.",
+          "dimensionScores": {
+            "I": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Working out a hard problem, you prefer to...",
+      "type": "profile",
+      "dimension": "ei",
+      "options": [
+        {
+          "key": "E_3",
+          "text": "Think out loud with others.",
+          "dimensionScores": {
+            "E": 1
+          }
+        },
+        {
+          "key": "I_3",
+          "text": "Think it through alone, then share.",
+          "dimensionScores": {
+            "I": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "When you start something new, you prefer...",
+      "type": "profile",
+      "dimension": "sn",
+      "options": [
+        {
+          "key": "S_4",
+          "text": "Step-by-step instructions and concrete examples.",
+          "dimensionScores": {
+            "S": 1
+          }
+        },
+        {
+          "key": "N_4",
+          "text": "The big picture and the underlying principles.",
+          "dimensionScores": {
+            "N": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "You trust a plan more when it...",
+      "type": "profile",
+      "dimension": "sn",
+      "options": [
+        {
+          "key": "S_5",
+          "text": "Lays out concrete steps that have worked before.",
+          "dimensionScores": {
+            "S": 1
+          }
+        },
+        {
+          "key": "N_5",
+          "text": "Captures the direction even if the steps are uncertain.",
+          "dimensionScores": {
+            "N": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "What excites you most is...",
+      "type": "profile",
+      "dimension": "sn",
+      "options": [
+        {
+          "key": "S_6",
+          "text": "What is actually working right now.",
+          "dimensionScores": {
+            "S": 1
+          }
+        },
+        {
+          "key": "N_6",
+          "text": "What is possible but not yet realized.",
+          "dimensionScores": {
+            "N": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "When a hard decision affects people, you weigh...",
+      "type": "profile",
+      "dimension": "tf",
+      "options": [
+        {
+          "key": "T_7",
+          "text": "Logic and consistency above personal impact.",
+          "dimensionScores": {
+            "T": 1
+          }
+        },
+        {
+          "key": "F_7",
+          "text": "Personal impact and harmony above cold logic.",
+          "dimensionScores": {
+            "F": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Giving feedback, you lead with...",
+      "type": "profile",
+      "dimension": "tf",
+      "options": [
+        {
+          "key": "T_8",
+          "text": "The objective critique, then the human context.",
+          "dimensionScores": {
+            "T": 1
+          }
+        },
+        {
+          "key": "F_8",
+          "text": "The human context, then the critique.",
+          "dimensionScores": {
+            "F": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "A disagreement you remember most is one where...",
+      "type": "profile",
+      "dimension": "tf",
+      "options": [
+        {
+          "key": "T_9",
+          "text": "The reasoning was finally proven right or wrong.",
+          "dimensionScores": {
+            "T": 1
+          }
+        },
+        {
+          "key": "F_9",
+          "text": "The relationship bent or held.",
+          "dimensionScores": {
+            "F": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "You work best when...",
+      "type": "profile",
+      "dimension": "jp",
+      "options": [
+        {
+          "key": "J_10",
+          "text": "You have a clear plan and timeline.",
+          "dimensionScores": {
+            "J": 1
+          }
+        },
+        {
+          "key": "P_10",
+          "text": "You can adapt and respond to new information.",
+          "dimensionScores": {
+            "P": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "A project you would call done is one that...",
+      "type": "profile",
+      "dimension": "jp",
+      "options": [
+        {
+          "key": "J_11",
+          "text": "Is finished, checked off, and closed.",
+          "dimensionScores": {
+            "J": 1
+          }
+        },
+        {
+          "key": "P_11",
+          "text": "Is ready to keep moving with what was learned.",
+          "dimensionScores": {
+            "P": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "Under deadline pressure, you...",
+      "type": "profile",
+      "dimension": "jp",
+      "options": [
+        {
+          "key": "J_12",
+          "text": "Plan backward and hit milestones to keep calm.",
+          "dimensionScores": {
+            "J": 1
+          }
+        },
+        {
+          "key": "P_12",
+          "text": "Pull it together in the final stretch and improvise.",
+          "dimensionScores": {
+            "P": 1
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "dimensions": [
+      {
+        "key": "E",
+        "label": "Extraversion",
+        "theoreticalMin": 0,
+        "theoreticalMax": 3
+      },
+      {
+        "key": "I",
+        "label": "Introversion",
+        "theoreticalMin": 0,
+        "theoreticalMax": 3
+      },
+      {
+        "key": "S",
+        "label": "Sensing",
+        "theoreticalMin": 0,
+        "theoreticalMax": 3
+      },
+      {
+        "key": "N",
+        "label": "Intuition",
+        "theoreticalMin": 0,
+        "theoreticalMax": 3
+      },
+      {
+        "key": "T",
+        "label": "Thinking",
+        "theoreticalMin": 0,
+        "theoreticalMax": 3
+      },
+      {
+        "key": "F",
+        "label": "Feeling",
+        "theoreticalMin": 0,
+        "theoreticalMax": 3
+      },
+      {
+        "key": "J",
+        "label": "Judging",
+        "theoreticalMin": 0,
+        "theoreticalMax": 3
+      },
+      {
+        "key": "P",
+        "label": "Perceiving",
+        "theoreticalMin": 0,
+        "theoreticalMax": 3
+      }
+    ]
+  },
+  "pairs": [
+    [
+      "E",
+      "I"
+    ],
+    [
+      "S",
+      "N"
+    ],
+    [
+      "T",
+      "F"
+    ],
+    [
+      "J",
+      "P"
+    ]
+  ],
+  "attribution": {
+    "text": "Inspired by Jungian type theory and MBTI concepts. This is not the official MBTI assessment. Items are original."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/work-interests",
+  "title": "Work Interest Constellation",
+  "promise": "What kinds of work actually energize you? A six-axis interest map inspired by Holland's RIASEC model — venture contexts, not job titles.",
+  "duration": "~4 min",
+  "durationCategory": "medium",
+  "questions": 24,
+  "type": "derived",
+  "domain": "interests",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "24 original RIASEC-inspired interest items across six dimensions (Builder, Investigator, Creator, Social Guide, Persuader, Organizer). Result shows a six-axis radar with your top interests, venture suggestions, and the collaborators that complement you.",
+  "ogTitle": "Work Interest Constellation — Outfinity Quiz",
+  "ogDescription": "What work energizes you? 24 RIASEC-inspired items, ~4 min. Private by design."
+}

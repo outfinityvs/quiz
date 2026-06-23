@@ -1,0 +1,389 @@
+{
+  "id": "conflict-signature",
+  "version": 1,
+  "title": "Conflict Signature",
+  "language": "en",
+  "introduction": {
+    "subtitle": "What do you actually do when disagreement becomes real? Five approaches and your signature across them.",
+    "description": "<p>Most people use one conflict reflex more than the others — and that reflex is invisible to them until it costs something. This maps yours. Each approach has a context where it is the right tool and one where it fails.</p><p>Mark your first and second instinct. If you are split, pick what you do when the stakes are real.</p>",
+    "duration": "8 scenarios. Approximately three minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
+    "startButton": "Find my signature"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "A co-founder is making decisions without you. What is your first instinct?",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "confront_1",
+          "text": "Name it directly and demand a real conversation.",
+          "dimensionScores": {
+            "confront": 1
+          }
+        },
+        {
+          "key": "negotiate_1",
+          "text": "Offer a trade: I won’t escalate if you bring me in from now on.",
+          "dimensionScores": {
+            "negotiate": 1
+          }
+        },
+        {
+          "key": "accommodate_1",
+          "text": "Let it pass for now to preserve the relationship.",
+          "dimensionScores": {
+            "accommodate": 1
+          }
+        },
+        {
+          "key": "avoid_1",
+          "text": "Stay busy elsewhere and let it settle.",
+          "dimensionScores": {
+            "avoid": 1
+          }
+        },
+        {
+          "key": "transform_1",
+          "text": "Reframe it as a shared problem about how we decide together.",
+          "dimensionScores": {
+            "transform": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "A colleague takes credit for your work in a meeting. You...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "confront_2",
+          "text": "Say, plainly, that the work was mine.",
+          "dimensionScores": {
+            "confront": 1
+          }
+        },
+        {
+          "key": "negotiate_2",
+          "text": "Propose how we will credit contributions going forward.",
+          "dimensionScores": {
+            "negotiate": 1
+          }
+        },
+        {
+          "key": "accommodate_2",
+          "text": "Let it go this once; raise it privately later.",
+          "dimensionScores": {
+            "accommodate": 1
+          }
+        },
+        {
+          "key": "avoid_2",
+          "text": "Move on; the work speaks for itself eventually.",
+          "dimensionScores": {
+            "avoid": 1
+          }
+        },
+        {
+          "key": "transform_2",
+          "text": "Bridge to a joint framing that serves the project, then raise credit privately.",
+          "dimensionScores": {
+            "transform": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Your team splits over a direction. You...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "confront_3",
+          "text": "Push for the decision in the open.",
+          "dimensionScores": {
+            "confront": 1
+          }
+        },
+        {
+          "key": "negotiate_3",
+          "text": "Find the middle that most can live with.",
+          "dimensionScores": {
+            "negotiate": 1
+          }
+        },
+        {
+          "key": "accommodate_3",
+          "text": "Back the option most others want.",
+          "dimensionScores": {
+            "accommodate": 1
+          }
+        },
+        {
+          "key": "avoid_3",
+          "text": "Defer the decision until it resolves itself.",
+          "dimensionScores": {
+            "avoid": 1
+          }
+        },
+        {
+          "key": "transform_3",
+          "text": "Reframe the disagreement so both sides win part of it.",
+          "dimensionScores": {
+            "transform": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "A customer publicly attacks your venture. You...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "confront_4",
+          "text": "Respond directly and contest the claim.",
+          "dimensionScores": {
+            "confront": 1
+          }
+        },
+        {
+          "key": "negotiate_4",
+          "text": "Offer a concrete remedy and ask them to update publicly.",
+          "dimensionScores": {
+            "negotiate": 1
+          }
+        },
+        {
+          "key": "accommodate_4",
+          "text": "Apologize publicly to end the conflict.",
+          "dimensionScores": {
+            "accommodate": 1
+          }
+        },
+        {
+          "key": "avoid_4",
+          "text": "Decline to engage publicly.",
+          "dimensionScores": {
+            "avoid": 1
+          }
+        },
+        {
+          "key": "transform_4",
+          "text": "Treat it as a discovery moment about a real unmet need.",
+          "dimensionScores": {
+            "transform": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "A teammate repeatedly misses commitments. You...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "confront_5",
+          "text": "Address the pattern directly and set consequences.",
+          "dimensionScores": {
+            "confront": 1
+          }
+        },
+        {
+          "key": "negotiate_5",
+          "text": "Propose a revised commitment and check-in cadence.",
+          "dimensionScores": {
+            "negotiate": 1
+          }
+        },
+        {
+          "key": "accommodate_5",
+          "text": "Cover for them to keep the work moving.",
+          "dimensionScores": {
+            "accommodate": 1
+          }
+        },
+        {
+          "key": "avoid_5",
+          "text": "Hope the pattern corrects itself.",
+          "dimensionScores": {
+            "avoid": 1
+          }
+        },
+        {
+          "key": "transform_5",
+          "text": "Ask what is making the commitments impossible for them.",
+          "dimensionScores": {
+            "transform": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Someone you respect criticizes your work harshly. You...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "confront_6",
+          "text": "Push back on the specific criticisms.",
+          "dimensionScores": {
+            "confront": 1
+          }
+        },
+        {
+          "key": "negotiate_6",
+          "text": "Accept the valid points and ask for the rest to be reframed.",
+          "dimensionScores": {
+            "negotiate": 1
+          }
+        },
+        {
+          "key": "accommodate_6",
+          "text": "Absorb it; they probably mean well.",
+          "dimensionScores": {
+            "accommodate": 1
+          }
+        },
+        {
+          "key": "avoid_6",
+          "text": "Thank them and set it aside.",
+          "dimensionScores": {
+            "avoid": 1
+          }
+        },
+        {
+          "key": "transform_6",
+          "text": "Treat the critique as data about both the work and the lens.",
+          "dimensionScores": {
+            "transform": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Two allies in your network are in conflict. You...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "confront_7",
+          "text": "Take a side and defend it.",
+          "dimensionScores": {
+            "confront": 1
+          }
+        },
+        {
+          "key": "negotiate_7",
+          "text": "Broker a compromise between them.",
+          "dimensionScores": {
+            "negotiate": 1
+          }
+        },
+        {
+          "key": "accommodate_7",
+          "text": "Mediate by yielding your own position.",
+          "dimensionScores": {
+            "accommodate": 1
+          }
+        },
+        {
+          "key": "avoid_7",
+          "text": "Decline to be involved.",
+          "dimensionScores": {
+            "avoid": 1
+          }
+        },
+        {
+          "key": "transform_7",
+          "text": "Help them see the shared project both want defended.",
+          "dimensionScores": {
+            "transform": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "A rule you find unjust is imposed on your venture. You...",
+      "type": "forced-choice",
+      "options": [
+        {
+          "key": "confront_8",
+          "text": "Contest it openly.",
+          "dimensionScores": {
+            "confront": 1
+          }
+        },
+        {
+          "key": "negotiate_8",
+          "text": "Seek an exception or phased application.",
+          "dimensionScores": {
+            "negotiate": 1
+          }
+        },
+        {
+          "key": "accommodate_8",
+          "text": "Comply and continue.",
+          "dimensionScores": {
+            "accommodate": 1
+          }
+        },
+        {
+          "key": "avoid_8",
+          "text": "Work around it quietly.",
+          "dimensionScores": {
+            "avoid": 1
+          }
+        },
+        {
+          "key": "transform_8",
+          "text": "Reframe it as a question for the body that made the rule, and propose a better one.",
+          "dimensionScores": {
+            "transform": 1
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "forced-choice",
+    "firstChoicePoints": 3,
+    "secondChoicePoints": 1,
+    "dimensions": [
+      {
+        "key": "confront",
+        "label": "Confront",
+        "theoreticalMin": 0,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "negotiate",
+        "label": "Negotiate",
+        "theoreticalMin": 0,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "accommodate",
+        "label": "Accommodate",
+        "theoreticalMin": 0,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "avoid",
+        "label": "Avoid",
+        "theoreticalMin": 0,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "transform",
+        "label": "Transform",
+        "theoreticalMin": 0,
+        "theoreticalMax": 24
+      }
+    ]
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "id": "product-management-knowledge-quiz",
+  "slug": "product-management-knowledge-quiz",
+  "version": 1,
+  "locale": "en",
+  "title": "Product Management Mastery Challenge",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Knowledge and scenario quiz. 8 min.",
+    "description": "<p>Product management mastery challenge across strategy, discovery, prioritisation, delivery, metrics, and experiments.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "8 questions. Approximately 8 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start the challenge"
+  },
+  "deliberationText": "Checking your answers...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which statement best describes product strategy?",
+      "type": "profile",
+      "dimension": "product-strategy",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "product strategy is a coherent set of choices and trade-offs.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. A chronological list of features requested by stakeholders.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. A set of choices about target customer, valuable problem, advantage and how the product will win.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The engineering sprint plan for the next quarter.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. A company vision statement without trade-offs.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "A roadmap contains 40 must-have items from different executives. What is the best first response?",
+      "type": "profile",
+      "dimension": "product-strategy",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "reframe requests as outcomes, strategic fit, evidence, and trade-offs.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Estimate all items and begin with the easiest.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Translate requests into desired outcomes, strategic fit, evidence and trade-offs before committing.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Give every stakeholder an equal number of items.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Remove all stakeholder requests automatically.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Which customer interview question is most likely to produce reliable behavioural evidence?",
+      "type": "profile",
+      "dimension": "discovery-and-insight",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "ask about the last real occurrence and behaviour.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Would you use an AI-powered version of this product?",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. How much would you theoretically pay for this idea?",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Tell me about the last time this problem occurred and what you did next.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 3
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Do you agree that this problem is important?",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "What should an MVP primarily do?",
+      "type": "profile",
+      "dimension": "discovery-and-insight",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "test the riskiest important assumption with least credible effort and exposure.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Include the minimum number of features for a public launch.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 1
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Test the riskiest important assumption with the least credible effort and exposure.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Replicate the market leader with a smaller team.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Maximise visual polish before any customer contact.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Which prioritisation approach is strongest?",
+      "type": "profile",
+      "dimension": "delivery-and-prioritisation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "integrate outcome, evidence, strategic fit, cost, and risk.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Prioritise the request from the most senior stakeholder.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Prioritise by expected customer/business outcome, evidence, strategic fit, cost and risk.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Prioritise the oldest backlog items first.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Prioritise only by engineering effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "What does dual-track product development generally mean?",
+      "type": "profile",
+      "dimension": "delivery-and-prioritisation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "discovery and delivery proceed in parallel with learning informing build choices.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Discovery and delivery proceed in parallel, with learning informing what is built.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Two engineering teams build the same feature.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Product managers discover while engineers deliver with no collaboration.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 1
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Every product must maintain two roadmaps.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Which is the strongest candidate for a product North Star metric?",
+      "type": "profile",
+      "dimension": "metrics-and-experimentation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "a North Star reflects recurring delivered customer value and sustainable outcomes.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Total registered accounts, regardless of activity.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. A recurring measure that reflects delivered customer value and relates to sustainable business outcomes.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Number of features shipped.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Social media impressions.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "An A/B test shows a 4% uplift, but the sample is very small and the confidence interval is wide. What should the team do?",
+      "type": "profile",
+      "dimension": "metrics-and-experimentation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "treat the result as uncertain and follow pre-set power/decision rules.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Declare a win because the point estimate is positive.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Treat the result as uncertain, review test power and continue or redesign according to a pre-set decision rule.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Ignore all quantitative evidence permanently.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Roll out only to customers who already converted.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 0
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "knowledge",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "product-strategy",
+        "label": "Product Strategy",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "discovery-and-insight",
+        "label": "Discovery & Insight",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "delivery-and-prioritisation",
+        "label": "Delivery & Prioritisation",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "metrics-and-experimentation",
+        "label": "Metrics & Experimentation",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  },
+  "banner": {
+    "title": "Outfinity Diagnostic",
+    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
+    "ctaText": "Explore Outfinity",
+    "ctaUrl": "https://outfinity.ch/"
+  }
+}

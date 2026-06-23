@@ -1,7 +1,7 @@
 ---
 id: DS022
 title: Time Horizon Portrait
-status: planned
+status: draft
 owner: outfinity
 summary: Time orientation profile inspired by Zimbardo Time Perspective concepts, mapping five orientations: Past-Positive, Past-Negative, Present-Hedonistic, Present-Fatalistic, Future-Oriented.
 ---

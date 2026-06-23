@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/decision-style",
+  "title": "Decision Style Profile",
+  "promise": "How do you decide under uncertainty? Map five axes of your decision reflex — analytics, risk, speed, control, and collaboration. No quality judgment.",
+  "duration": "~4 min",
+  "durationCategory": "medium",
+  "questions": 15,
+  "type": "exploration",
+  "domain": "cognition",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "15 original scenario questions across five bipolar decision axes (Analytical↔Intuitive, Risk↔Caution, Speed↔Accuracy, Control↔Adaptation, Solo↔Collaborative). Each scenario offers a clear, balanced, and opposite-leaning option. Result maps positions on five axes and where your reflex fits.",
+  "ogTitle": "Decision Style Profile — Outfinity Quiz",
+  "ogDescription": "Map five axes of your decision reflex. 15 scenarios, ~4 min. Private by design."
+}

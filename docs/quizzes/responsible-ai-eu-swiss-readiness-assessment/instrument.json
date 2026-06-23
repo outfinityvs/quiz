@@ -1,0 +1,665 @@
+{
+  "id": "responsible-ai-eu-swiss-readiness-assessment",
+  "slug": "responsible-ai-eu-swiss-readiness-assessment",
+  "version": 1,
+  "locale": "en",
+  "title": "Responsible AI & EU/Swiss Readiness",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Governance readiness assessment with jurisdiction branching. 7-9 min.",
+    "description": "<p>Responsible AI and EU/Swiss readiness map for inventory, classification, data, privacy, risk, oversight, documentation, and monitoring.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 7-9 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start assessment"
+  },
+  "deliberationText": "Calculating your diagnostic...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How complete is the inventory of AI systems, models, and material AI-enabled features?",
+      "type": "profile",
+      "dimension": "classification-and-scope",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The information is fragmented, missing, or too inconsistent to support decisions.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Partial tools or reports exist, but definitions and ownership are weak.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Definitions, owners, access rules, and regular review are governed.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Lineage, quality controls, exception handling, and a feedback loop into decisions exist.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How consistently are legal role, jurisdiction, and risk classification assessed?",
+      "type": "profile",
+      "dimension": "classification-and-scope",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The area is mostly unmapped, reactive, or dependent on informal trust.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The area is known in broad terms, but controls, owners, or evidence are incomplete.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Owners, controls, thresholds, and response or remediation paths are documented.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Controls are tested, monitored, reviewed after incidents or changes, and integrated into operating governance.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "How well are training, input, retrieval, and output data rights governed?",
+      "type": "profile",
+      "dimension": "data-and-privacy",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Authority is unclear, improvised, or concentrated in one person.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The practice is informal; boundaries, escalation, or records are inconsistent.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Owners, decision rules, and review points are documented for important cases.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Authority, evidence standards, exception handling, and periodic review are governed.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How are privacy impacts integrated into AI design and deployment?",
+      "type": "profile",
+      "dimension": "data-and-privacy",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The area is mostly unmapped, reactive, or dependent on informal trust.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The area is known in broad terms, but controls, owners, or evidence are incomplete.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Owners, controls, thresholds, and response or remediation paths are documented.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Controls are tested, monitored, reviewed after incidents or changes, and integrated into operating governance.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How systematically are safety, bias, robustness, and misuse risks evaluated?",
+      "type": "profile",
+      "dimension": "risk-and-human-oversight",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The area is mostly unmapped, reactive, or dependent on informal trust.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The area is known in broad terms, but controls, owners, or evidence are incomplete.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Owners, controls, thresholds, and response or remediation paths are documented.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Controls are tested, monitored, reviewed after incidents or changes, and integrated into operating governance.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How meaningful is human oversight?",
+      "type": "profile",
+      "dimension": "risk-and-human-oversight",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How complete are documentation, transparency, and logging?",
+      "type": "profile",
+      "dimension": "documentation-and-monitoring",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The information is fragmented, missing, or too inconsistent to support decisions.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Partial tools or reports exist, but definitions and ownership are weak.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Definitions, owners, access rules, and regular review are governed.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Lineage, quality controls, exception handling, and a feedback loop into decisions exist.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How are deployed systems monitored and changed?",
+      "type": "profile",
+      "dimension": "documentation-and-monitoring",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The information is fragmented, missing, or too inconsistent to support decisions.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Partial tools or reports exist, but definitions and ownership are weak.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Definitions, owners, access rules, and regular review are governed.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Lineage, quality controls, exception handling, and a feedback loop into decisions exist.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "maturity",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "classification-and-scope",
+        "label": "Classification & Scope",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "data-and-privacy",
+        "label": "Data & Privacy",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "risk-and-human-oversight",
+        "label": "Risk & Human Oversight",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "documentation-and-monitoring",
+        "label": "Documentation & Monitoring",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  },
+  "banner": {
+    "title": "Outfinity Diagnostic",
+    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
+    "ctaText": "Explore Outfinity",
+    "ctaUrl": "https://outfinity.ch/"
+  },
+  "contextTitle": "Context",
+  "contextQuestions": [
+    {
+      "id": "jurisdiction",
+      "text": "Which jurisdiction context should frame your result?",
+      "options": [
+        {
+          "value": "eu-eea",
+          "text": "EU/EEA"
+        },
+        {
+          "value": "switzerland",
+          "text": "Switzerland"
+        },
+        {
+          "value": "uk",
+          "text": "UK"
+        },
+        {
+          "value": "other",
+          "text": "Other or uncertain"
+        }
+      ]
+    },
+    {
+      "id": "role",
+      "text": "Which AI role is closest to your organisation?",
+      "options": [
+        {
+          "value": "provider",
+          "text": "Provider"
+        },
+        {
+          "value": "deployer",
+          "text": "Deployer"
+        },
+        {
+          "value": "importer-distributor",
+          "text": "Importer/distributor"
+        },
+        {
+          "value": "uncertain",
+          "text": "Uncertain"
+        }
+      ]
+    },
+    {
+      "id": "evidence-classification-and-scope",
+      "text": "What level of evidence supports your answers for Classification & Scope?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-data-and-privacy",
+      "text": "What level of evidence supports your answers for Data & Privacy?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-risk-and-human-oversight",
+      "text": "What level of evidence supports your answers for Risk & Human Oversight?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    },
+    {
+      "id": "evidence-documentation-and-monitoring",
+      "text": "What level of evidence supports your answers for Documentation & Monitoring?",
+      "options": [
+        {
+          "value": "opinion",
+          "text": "Opinion: mostly judgement, memory, or individual perception."
+        },
+        {
+          "value": "anecdotal",
+          "text": "Anecdotal: examples exist, but they are not systematically documented."
+        },
+        {
+          "value": "documented",
+          "text": "Documented: there are current notes, models, policies, metrics, or records."
+        },
+        {
+          "value": "system-verified",
+          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
+        }
+      ]
+    }
+  ]
+}

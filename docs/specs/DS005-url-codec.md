@@ -14,7 +14,7 @@ The URL codec module encodes aggregated quiz results into URL fragments and deco
 
 ## Core Content
 
-The payload schema contains: version number (`v`), aggregated scores array (`r`), ecology or secondary scores array (`e` when applicable), and archetype identifier (`a` when applicable). The payload never contains individual answers, names, emails, completion time, professional domains, or unique identifiers.
+The payload schema contains: version number (`v`), aggregated scores array (`r`), optional secondary scores array (`e` when applicable), archetype or level identifier (`a` when applicable), and optional diagram type (`d`) when the shared result does not use the default radar rendering. The payload never contains individual answers, names, emails, completion time, professional domains, company identifiers, financial figures, security gaps, family details, or unique identifiers.
 
 Encoding process: the payload object is serialized to JSON, converted to Base64, then made URL-safe by replacing `+` with `-`, `/` with `_`, and removing `=` padding.
 
@@ -24,7 +24,7 @@ Decoded data is rendered exclusively through `textContent`. The module never use
 
 The module exports four functions: `encodeResult(payload)`, `decodeResult(fragment)`, `validatePayload(data, schema)`, and `buildShareUrl(baseUrl, payload)`.
 
-Optional fields (mission domains, current stage) are included only when the user explicitly opts in through checkboxes in the share interface. They are not included by default.
+Optional fields are included only when the user explicitly opts in through the share interface. They are not included by default. Business and regulatory instruments must default to the minimal share payload: quiz ID, version, level or archetype, and non-sensitive aggregate scores.
 
 ## Decisions & Questions
 
@@ -35,6 +35,10 @@ Response: Not initially. The payload for current quizzes fits comfortably within
 ### Question #2: How should version mismatches be handled?
 
 Response: If the version in the payload does not match any known version, the module displays a message explaining that the result was generated with a different version of the quiz and offers to retake it.
+
+### Question #3: Can business diagnostics encode detailed vulnerabilities in share URLs?
+
+Response: No. Share URLs may encode only safe aggregate result material. Detailed weaknesses, document gaps, legal/regulatory flags, answer-by-answer review, and team dispersion data remain local unless a future explicitly consented server-side product defines a separate privacy contract.
 
 ## Conclusion
 

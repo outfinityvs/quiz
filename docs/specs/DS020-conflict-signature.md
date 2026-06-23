@@ -1,7 +1,7 @@
 ---
 id: DS020
 title: Conflict Signature
-status: planned
+status: draft
 owner: outfinity
 summary: Conflict style profile mapping five approaches: Confront, Negotiate, Accommodate, Avoid, Transform.
 ---

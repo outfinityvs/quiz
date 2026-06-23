@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/product-market-fit-assessment",
+  "title": "Product-Market Fit Evidence",
+  "promise": "PMF evidence diagnostic separating fit evidence from enthusiasm, growth, and temporary demand.",
+  "duration": "6 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "maturity",
+  "domain": "product",
+  "priority": "P1",
+  "audience": "Startup founders, product leaders, growth teams, accelerators, and early-stage investors",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Evidence maturity assessment across Retention & Behaviour, Demand Pull & Willingness to Pay, Segment Clarity, Repeatable Acquisition. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Product-Market Fit Evidence - Outfinity Quiz",
+  "ogDescription": "PMF evidence diagnostic separating fit evidence from enthusiasm, growth, and temporary demand."
+}

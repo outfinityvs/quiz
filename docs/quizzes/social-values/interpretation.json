@@ -1,0 +1,48 @@
+{
+  "axes": {
+    "equality_merit": {
+      "lowLabel": "Equality", "highLabel": "Merit",
+      "low": "You lean toward equality. You believe reducing inequality matters more than maximizing individual reward. This fits cooperative and redistributive ventures, but watch for incentives that weaken if reward is detached from effort.",
+      "mid": "You balance equality and merit. You want effort rewarded but not at the cost of leaving people behind. This tension is common among social entrepreneurs building profitable ventures that also address inequality.",
+      "high": "You lean toward merit. You believe effort and talent should shape reward, even if it creates inequality. This sharpenens incentive and performance in competitive ventures, but watch for legitimacy eroding if rewards look detached from contribution to others."
+    },
+    "local_global": {
+      "lowLabel": "Local", "highLabel": "Global",
+      "low": "You lean toward local. You prioritize the needs, culture, and autonomy of communities close to you. This fits local and place-based ventures, but watch for parochialism when a problem is genuinely cross-border.",
+      "mid": "You balance local and global. You value rootedness while recognizing that some problems require universal cooperation. This is a useful stance for ventures that scale without losing their local grounding.",
+      "high": "You lean toward global. You prioritize universal values and cross-border cooperation over local preference. This fits scalable global platforms, but watch for imposing a single model where local variation should persist."
+    },
+    "liberty_authority": {
+      "lowLabel": "Liberty", "highLabel": "Authority",
+      "low": "You lean toward liberty. You maximize individual freedom even at the cost of some social disorder. This fits decentralized and autonomous ventures, but watch for the cost of disorder falling on people who did not choose it.",
+      "mid": "You balance liberty and authority. You want individual freedom protected and enough order for collective life to work. This tension maps to ventures experimenting with governance that is neither coercive nor chaotic.",
+      "high": "You lean toward authority. You maintain social order even when it limits individual freedom. This fits institutional and compliance-heavy ventures, but watch for authority becoming a way to avoid the harder work of trust."
+    },
+    "tradition_progress": {
+      "lowLabel": "Tradition", "highLabel": "Progress",
+      "low": "You lean toward tradition. You preserve established customs, institutions, and inherited wisdom. This fits ventures around cultural preservation and incremental improvement, but watch for resistance to change when the old way is the problem.",
+      "mid": "You balance tradition and progress. You respect inherited wisdom while remaining open to revision. This is a productive stance for ventures that build on what works and change what does not.",
+      "high": "You lean toward progress. You embrace change, innovation, and new ways of living. This fits disruptive ventures, but watch for discarding hard-won wisdom that solved real problems the new way has not yet addressed."
+    }
+  },
+  "recommendations": {
+    "equality_high_local_high": "You value equality and rooted communities \u2014 strong fit for cooperative, community-owned ventures.",
+    "merit_high_global_high": "You value merit and universal reach \u2014 strong fit for scalable, competitive market platforms.",
+    "liberty_high_progress_high": "You value freedom and transformation \u2014 strong fit for decentralized, disruptive innovation.",
+    "authority_high_tradition_high": "You value order and continuity \u2014 strong fit for institutional and cultural-preservation ventures.",
+    "default": "Your tensions map to several venture shapes. Explorer Circle can help you find builders whose values complement yours."
+  },
+  "shareTexts": {
+    "invite": "Where do your social values pull?",
+    "minimal": "I mapped my Social Values. Where do we agree and disagree?",
+    "full": "I mapped my Social Values.\n{profileSummary}\nWhere do you stand?"
+  },
+  "recommendation": {
+    "label": "Outfinity initiative",
+    "title": "Explorer Circle",
+    "text": "Explorer Circle is a community for people who want to understand their values and find collaborators who carry different tensions honestly. You do not need to share your result to participate.",
+    "url": "https://outfinity.ch/explorer-circle",
+    "buttonText": "Join Explorer Circle",
+    "note": "Opening Explorer Circle takes you to Substack. Your result is not transmitted."
+  }
+}

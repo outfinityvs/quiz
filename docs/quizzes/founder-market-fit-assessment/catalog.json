@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/founder-market-fit-assessment",
+  "title": "Founder-Market Fit",
+  "promise": "Strategic right-to-win assessment for a founding team in a specific market.",
+  "duration": "5-6 min",
+  "durationCategory": "medium",
+  "questions": 12,
+  "type": "strategic-fit",
+  "domain": "founders",
+  "priority": "P1",
+  "audience": "Founders, co-founders, venture studios, accelerators, and investors screening early-stage teams",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Strategic fit assessment across Domain Edge, Customer Access, Credibility & Assets, Long-Term Pull & Learning. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "ogTitle": "Founder-Market Fit - Outfinity Quiz",
+  "ogDescription": "Strategic right-to-win assessment for a founding team in a specific market."
+}

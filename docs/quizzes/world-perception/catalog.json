@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/world-perception",
+  "title": "World Perception Challenge",
+  "promise": "Is your view of the world realistic, pessimistic, or selectively distorted? 12 questions against real open data from World Bank, OWID, and WHO.",
+  "duration": "~3 min",
+  "durationCategory": "short",
+  "questions": 12,
+  "type": "research",
+  "domain": "knowledge",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "12 factual estimation questions across four perception dimensions (Health, Economic, Demographic, Climate). Each question cites its source. Result maps your perception style per domain (Realistic, Selective, Pessimistic, Optimistic) and reveals where your worldview diverges from the data.",
+  "ogTitle": "World Perception Challenge — Outfinity Quiz",
+  "ogDescription": "How realistic is your view of the world? 12 questions, real open data, ~3 min. Private by design."
+}

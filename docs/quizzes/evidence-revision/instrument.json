@@ -1,0 +1,1116 @@
+{
+  "id": "evidence-revision",
+  "version": 1,
+  "title": "Evidence Revision Profile",
+  "language": "en",
+  "introduction": {
+    "subtitle": "How firmly do you hold beliefs — and what would change them? Four axes of the tension between conviction and openness.",
+    "description": "<p>For each of twelve statements you do two things: rate your agreement, then say what would change your mind. This is not about whether you are right; it maps the tension between how strongly you hold a belief and how open you are to revising it.</p><p>Inspired by actively open-minded thinking (AOT) scales. Original items.</p>",
+    "duration": "12 statements, two answers each. Approximately five minutes.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
+    "disclaimer": "Inspired by actively open-minded thinking (AOT) scales (public domain). Items are original adaptations. This is not a validated psychometric assessment.",
+    "startButton": "Map my conviction"
+  },
+  "questions": [
+    {
+      "id": "b1a",
+      "text": "Market incentives usually produce better outcomes than centralized planning.",
+      "type": "likert",
+      "belief": 1,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b1b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 1,
+      "options": [
+        {
+          "key": "studies_b1",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b1",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b1",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b1",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2a",
+      "text": "Cryptocurrency and blockchains create more social good than harm.",
+      "type": "likert",
+      "belief": 2,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 2,
+      "options": [
+        {
+          "key": "studies_b2",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b2",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b2",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b2",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b3a",
+      "text": "Advanced AI development should be strictly governed before it becomes much more powerful.",
+      "type": "likert",
+      "belief": 3,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b3b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 3,
+      "options": [
+        {
+          "key": "studies_b3",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b3",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b3",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b3",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b4a",
+      "text": "Economic growth is worth some environmental cost in the short term.",
+      "type": "likert",
+      "belief": 4,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b4b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 4,
+      "options": [
+        {
+          "key": "studies_b4",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b4",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b4",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b4",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b5a",
+      "text": "Remote work makes teams less innovative than in-person work.",
+      "type": "likert",
+      "belief": 5,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b5b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 5,
+      "options": [
+        {
+          "key": "studies_b5",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b5",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b5",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b5",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b6a",
+      "text": "Open-source collaboration produces more durable technology than proprietary work.",
+      "type": "likert",
+      "belief": 6,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b6b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 6,
+      "options": [
+        {
+          "key": "studies_b6",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b6",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b6",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b6",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b7a",
+      "text": "People are, on balance, more self-interested than cooperative.",
+      "type": "likert",
+      "belief": 7,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b7b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 7,
+      "options": [
+        {
+          "key": "studies_b7",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b7",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b7",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b7",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b8a",
+      "text": "Social media has done more harm than good to public discourse.",
+      "type": "likert",
+      "belief": 8,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b8b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 8,
+      "options": [
+        {
+          "key": "studies_b8",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b8",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b8",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b8",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b9a",
+      "text": "Free speech should be protected even when it causes real offense.",
+      "type": "likert",
+      "belief": 9,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b9b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 9,
+      "options": [
+        {
+          "key": "studies_b9",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b9",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b9",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b9",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b10a",
+      "text": "Humans can meaningfully reduce their climate impact without lowering living standards.",
+      "type": "likert",
+      "belief": 10,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b10b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 10,
+      "options": [
+        {
+          "key": "studies_b10",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b10",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b10",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b10",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b11a",
+      "text": "Experts should have more direct influence on policy than they do now.",
+      "type": "likert",
+      "belief": 11,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b11b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 11,
+      "options": [
+        {
+          "key": "studies_b11",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b11",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b11",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b11",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "b12a",
+      "text": "Hard (technical) skills matter more than soft skills for long-term career success.",
+      "type": "likert",
+      "belief": 12,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conviction": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conviction": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conviction": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conviction": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conviction": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "b12b",
+      "text": "What would change your mind about the statement above?",
+      "type": "profile",
+      "belief": 12,
+      "options": [
+        {
+          "key": "studies_b12",
+          "text": "Multiple independent, peer-reviewed studies showing the opposite.",
+          "dimensionScores": {
+            "revisionOpenness": 2,
+            "evidenceSensitivity": 1
+          }
+        },
+        {
+          "key": "counter_b12",
+          "text": "One credible counterexample from a source I trust.",
+          "dimensionScores": {
+            "revisionOpenness": 1,
+            "evidenceSensitivity": 2
+          }
+        },
+        {
+          "key": "apply_b12",
+          "text": "I would reconsider how I apply it, but not the principle itself.",
+          "dimensionScores": {
+            "valueAnchoring": 1,
+            "revisionOpenness": 0
+          }
+        },
+        {
+          "key": "nothing_b12",
+          "text": "Nothing would change my mind on this.",
+          "dimensionScores": {
+            "valueAnchoring": 2
+          }
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "type": "custom",
+    "dimensions": [
+      {
+        "key": "conviction",
+        "label": "Conviction Strength",
+        "theoreticalMin": 12,
+        "theoreticalMax": 60
+      },
+      {
+        "key": "revisionOpenness",
+        "label": "Revision Openness",
+        "theoreticalMin": 0,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "evidenceSensitivity",
+        "label": "Evidence Sensitivity",
+        "theoreticalMin": 0,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "valueAnchoring",
+        "label": "Value Anchoring",
+        "theoreticalMin": 0,
+        "theoreticalMax": 24
+      }
+    ]
+  },
+  "attribution": {
+    "text": "Inspired by actively open-minded thinking (AOT) scales (public domain). Items are original adaptations."
+  }
+}

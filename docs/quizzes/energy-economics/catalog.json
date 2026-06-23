@@ -1,0 +1,15 @@
+{
+  "slug": "quizzes/energy-economics",
+  "title": "Energy Economics",
+  "promise": "What actually drains and recharges you? An energy ledger across six dimensions — social, novelty, structure, depth, competition, and autonomy.",
+  "duration": "~3 min",
+  "durationCategory": "short",
+  "questions": 12,
+  "type": "exploration",
+  "domain": "personality",
+  "hasRecommendation": true,
+  "license": "CC BY 4.0",
+  "description": "12 paired-activity choices (2 per dimension). In each pair, pick the activity that gives you more energy over time. Result shows a surplus/deficit ledger per dimension with poles and where to budget each.",
+  "ogTitle": "Energy Economics — Outfinity Quiz",
+  "ogDescription": "What recharges you? 12 paired activities, ~3 min. Private by design."
+}

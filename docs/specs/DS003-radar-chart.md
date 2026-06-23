@@ -10,19 +10,21 @@ summary: SVG radar and polygon chart with configurable axes, multi-overlay suppo
 
 ## Introduction
 
-The radar chart module renders polygon diagrams on SVG for visualizing multi-dimensional quiz results. It supports single profiles, multi-overlay comparisons with transparency, and responsive sizing.
+The radar chart module renders polygon diagrams on SVG for visualizing multi-dimensional quiz results. It supports single profiles, multi-overlay comparisons with transparency, and responsive sizing. It is the default result diagram for instruments that expose comparable dimensions, including four-axis business diagnostics and knowledge challenges.
 
 ## Core Content
 
-The chart is rendered as inline SVG within the quiz page. It consists of concentric reference polygons (at 20, 40, 60, 80, 100), axis lines radiating from the center, axis labels, and one or more data polygons representing quiz results.
+The chart is rendered as inline SVG within the quiz page. It consists of concentric circular reference lines, axis lines radiating from the center, axis labels, and one or more data polygons representing quiz results.
 
-The module accepts a configuration object containing: axis definitions (label, key), data points (one array per profile), color assignments, and an optional text alternative.
+Every quiz result must display a diagram. The radar module satisfies that requirement for any quiz that has dimensional scores. If a quiz adds a more specific visualization such as an answer-review map, heatmap, document map, or team dispersion view, the radar still remains the standard diagram unless the per-quiz DS explicitly states that the supplemental diagram is the primary result diagram.
+
+The module accepts a configuration object containing: axis definitions (label, key), data points (one array per profile), color assignments, optional level bands, optional strongest/weakest dimension markers, and an optional text alternative.
 
 For single profiles, the data polygon is drawn with a semi-transparent fill and a solid stroke. For multi-overlay comparisons, each profile polygon uses a distinct color with reduced opacity so overlapping areas are visible.
 
-Axis labels are positioned outside the outermost reference polygon. Short labels are preferred. The chart must remain legible at 280px width on mobile.
+Axis labels are positioned outside the outermost reference polygon. Short labels are preferred, but the renderer must not clip left or right axis text and must not replace axis labels with ellipses in the primary SVG chart. Longer labels should wrap into multiple SVG text lines inside an expanded viewBox.
 
-The chart must include a text alternative below the SVG: a list of axis names and their numeric values. This ensures the result is accessible without the visual chart.
+The chart must include a text alternative below the SVG: a list of full axis names and their numeric values. This ensures the result is accessible without the visual chart.
 
 The module respects `prefers-reduced-motion`. When reduced motion is preferred, polygon drawing animations are disabled and the chart appears instantly.
 
@@ -36,8 +38,12 @@ Response: Yes, a subtle polygon drawing animation (under 500ms) is used by defau
 
 ### Question #2: Should reference polygons use circles or geometric shapes?
 
-Response: Geometric polygons matching the number of axes. This provides better visual alignment with the data polygon vertices.
+Response: Concentric circles. They improve readability and keep value radii stable across short and long axis sets.
+
+### Question #3: Are radar charts limited to personality-style profiles?
+
+Response: No. Radar charts are the default way to compare any normalized dimensions, including maturity, readiness, literacy, diligence, governance, cybersecurity, ESG, and product diagnostics.
 
 ## Conclusion
 
-The radar chart is the primary visualization for quiz results. It must be accessible, responsive, and support comparison overlays.
+The radar chart is the primary visualization for dimensional quiz results. It must be accessible, responsive, and support comparison overlays while allowing specialized result diagrams to supplement it where the quiz type requires them.
