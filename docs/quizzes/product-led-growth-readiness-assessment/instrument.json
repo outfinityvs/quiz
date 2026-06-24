@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Go-to-market readiness assessment. 6 min.",
-    "description": "<p>PLG readiness diagnostic for time to value, activation, signals, expansion, and virality.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Product-Led Growth Readiness helps you learn the vocabulary and typical expectations behind Time to Value, Activation & Self-Service, Product Signals & Data, Expansion & Virality. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -72,7 +72,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Time to Value: How quickly can a qualified new user experience meaningful value",
+        "summary": "Time to Value means how quickly a qualified user reaches a meaningful first outcome after starting the product. This question narrows the concept to \"How quickly can a qualified new user experience meaningful value?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Time to Value matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How quickly can a qualified new user experience meaningful value?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -85,7 +102,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Time to Value; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -95,7 +112,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Time to Value, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -105,7 +122,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Time to Value has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -115,7 +132,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Time to Value is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -131,7 +148,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Time to Value: How clearly is the first-value event defined",
+        "summary": "Time to Value means how quickly a qualified user reaches a meaningful first outcome after starting the product. This question narrows the concept to \"How clearly is the first-value event defined?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Time to Value matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How clearly is the first-value event defined?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -144,7 +178,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Activation & Self-Service; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -154,7 +188,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Activation & Self-Service, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -164,7 +198,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Activation & Self-Service has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -174,7 +208,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Activation & Self-Service is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -190,7 +224,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Activation & Self-Service: How much friction exists before a user can start",
+        "summary": "Activation & Self-Service means how much the product itself guides a new user through setup, learning, and first successful use without heavy manual help. This question narrows the concept to \"How much friction exists before a user can start?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Activation & Self-Service matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How much friction exists before a user can start?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -203,7 +254,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Activation & Self-Service; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -213,7 +264,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Activation & Self-Service, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -223,7 +274,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Activation & Self-Service has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -233,7 +284,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Activation & Self-Service is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -249,7 +300,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Activation & Self-Service: How effectively does the product guide users through activation",
+        "summary": "Activation & Self-Service means how much the product itself guides a new user through setup, learning, and first successful use without heavy manual help. This question narrows the concept to \"How effectively does the product guide users through activation?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Activation & Self-Service matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How effectively does the product guide users through activation?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -262,7 +330,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Product Signals & Data; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -272,7 +340,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Product Signals & Data, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -282,7 +350,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Product Signals & Data has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -292,7 +360,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Product Signals & Data is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -308,7 +376,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Product Signals & Data: How are product-qualified leads or accounts defined",
+        "summary": "Product Signals & Data means the behavioral data and product-qualified signals that show which users or accounts are ready for sales, expansion, or intervention. This question narrows the concept to \"How are product-qualified leads or accounts defined?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Product Signals & Data matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How are product-qualified leads or accounts defined?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -367,7 +452,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Product Signals & Data: How trustworthy is product instrumentation",
+        "summary": "Product Signals & Data means the behavioral data and product-qualified signals that show which users or accounts are ready for sales, expansion, or intervention. This question narrows the concept to \"How trustworthy is product instrumentation?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Product Signals & Data matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How trustworthy is product instrumentation?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Event-driven architecture",
+            "url": "https://en.wikipedia.org/wiki/Event-driven_architecture"
+          },
+          {
+            "label": "Product-led growth",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -380,7 +482,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Expansion & Virality; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -390,7 +492,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Expansion & Virality, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -400,7 +502,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Expansion & Virality has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -410,7 +512,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Expansion & Virality is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -426,7 +528,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Expansion & Virality: Does normal product use naturally invite or expose value to additional users",
+        "summary": "Expansion & Virality means whether normal product use creates additional value, invites more users, or reveals paid expansion opportunities. This question narrows the concept to \"Does normal product use naturally invite or expose value to additional users?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Expansion & Virality matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"Does normal product use naturally invite or expose value to additional users?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -439,7 +558,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Expansion & Virality; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -449,7 +568,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Expansion & Virality, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -459,7 +578,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Expansion & Virality has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -469,7 +588,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Expansion & Virality is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -485,7 +604,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Expansion & Virality: How naturally does usage lead to paid expansion",
+        "summary": "Expansion & Virality means whether normal product use creates additional value, invites more users, or reveals paid expansion opportunities. This question narrows the concept to \"How naturally does usage lead to paid expansion?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Expansion & Virality matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How naturally does usage lead to paid expansion?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +657,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-time-to-value",
@@ -549,7 +680,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Time to Value",
+        "summary": "This question asks how well your answers about Time to Value are supported. Time to Value means how quickly a qualified user reaches a meaningful first outcome after starting the product. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Time to Value is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Time to Value answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-activation-and-self-service",
@@ -571,7 +719,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Activation & Self-Service",
+        "summary": "This question asks how well your answers about Activation & Self-Service are supported. Activation & Self-Service means how much the product itself guides a new user through setup, learning, and first successful use without heavy manual help. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Activation & Self-Service is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Activation & Self-Service answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-product-signals-and-data",
@@ -593,7 +758,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Product Signals & Data",
+        "summary": "This question asks how well your answers about Product Signals & Data are supported. Product Signals & Data means the behavioral data and product-qualified signals that show which users or accounts are ready for sales, expansion, or intervention. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Product Signals & Data is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Product Signals & Data answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-expansion-and-virality",
@@ -615,7 +797,27 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Expansion & Virality",
+        "summary": "This question asks how well your answers about Expansion & Virality are supported. Expansion & Virality means whether normal product use creates additional value, invites more users, or reveals paid expansion opportunities. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Expansion & Virality is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Expansion & Virality answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

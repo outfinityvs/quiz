@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Knowledge quiz. 7-8 min.",
-    "description": "<p>Founder finance literacy challenge covering unit economics, runway, dilution, and financial statements.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Startup Finance Literacy Challenge is a learning challenge for the terminology, assumptions, and typical decision traps behind Unit Economics, Cash & Runway, Cap Table & Dilution, Financial Statements. It is designed to teach through plausible wrong answers as much as through the correct ones.</p><p>Choose the answer you would use in a real conversation. After completion, the answer review explains the concept and points to the area worth studying next.</p>",
     "duration": "8 questions. Approximately 7-8 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -64,7 +64,24 @@
             "unit-economics": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Unit Economics: Which formula correctly calculates gross margin percentage",
+        "summary": "Unit Economics means the economics of one customer, transaction, or unit of activity, including margin, acquisition cost, payback, and contribution. This question teaches the concept through a concrete prompt: \"Which formula correctly calculates gross margin percentage?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Revenue minus cost of goods sold, divided by revenue.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -115,7 +132,24 @@
             "unit-economics": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Unit Economics: A customer costs EUR 600 to acquire and generates EUR 150 of monthly gross profit. What is the simple CAC payback period",
+        "summary": "Unit Economics means the economics of one customer, transaction, or unit of activity, including margin, acquisition cost, payback, and contribution. This question teaches the concept through a concrete prompt: \"A customer costs EUR 600 to acquire and generates EUR 150 of monthly gross profit. What is the simple CAC payback period?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"4 months.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -166,7 +200,24 @@
             "cash-and-runway": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Cash & Runway: A company has EUR 600,000 in cash and a stable monthly net burn of EUR 50,000. Ignoring future changes, what is its runway",
+        "summary": "Cash & Runway means how cash balance, burn, collections, payment timing, and growth investments determine time before funding pressure. This question teaches the concept through a concrete prompt: \"A company has EUR 600,000 in cash and a stable monthly net burn of EUR 50,000. Ignoring future changes, what is its runway?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"12 months.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -217,7 +268,24 @@
             "cash-and-runway": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Cash & Runway: How can a fast-growing company report increasing revenue while running out of cash",
+        "summary": "Cash & Runway means how cash balance, burn, collections, payment timing, and growth investments determine time before funding pressure. This question teaches the concept through a concrete prompt: \"How can a fast-growing company report increasing revenue while running out of cash?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Customers may pay later while inventory, hiring or acquisition costs are paid earlier.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -268,7 +336,24 @@
             "cap-table-and-dilution": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Cap Table & Dilution: An investor invests EUR 2 million at an EUR 8 million pre-money valuation. What is the investor post-money ownership before other adjustments",
+        "summary": "Cap Table & Dilution means how ownership changes when shares, options, convertible instruments, and financing terms are added. This question teaches the concept through a concrete prompt: \"An investor invests EUR 2 million at an EUR 8 million pre-money valuation. What is the investor post-money ownership before other adjustments?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"20.0%.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Capitalization table",
+            "url": "https://en.wikipedia.org/wiki/Capitalization_table"
+          },
+          {
+            "label": "Wikipedia: Stock dilution",
+            "url": "https://en.wikipedia.org/wiki/Stock_dilution"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -319,7 +404,24 @@
             "cap-table-and-dilution": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Cap Table & Dilution: A new option pool is created immediately before a financing and included in the pre-money valuation. Who generally bears most of that dilution",
+        "summary": "Cap Table & Dilution means how ownership changes when shares, options, convertible instruments, and financing terms are added. This question teaches the concept through a concrete prompt: \"A new option pool is created immediately before a financing and included in the pre-money valuation. Who generally bears most of that dilution?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Existing shareholders before the financing.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Capitalization table",
+            "url": "https://en.wikipedia.org/wiki/Capitalization_table"
+          },
+          {
+            "label": "Wikipedia: Stock dilution",
+            "url": "https://en.wikipedia.org/wiki/Stock_dilution"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -370,7 +472,24 @@
             "financial-statements": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Financial Statements: Which statement shows assets, liabilities, and shareholders equity at a point in time",
+        "summary": "Financial Statements means how income statement, balance sheet, and cash flow statement each explain a different part of financial reality. This question teaches the concept through a concrete prompt: \"Which statement shows assets, liabilities, and shareholders equity at a point in time?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Balance sheet.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -421,7 +540,24 @@
             "financial-statements": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Financial Statements: Which statement best explains why a company can have positive EBITDA but declining cash",
+        "summary": "Financial Statements means how income statement, balance sheet, and cash flow statement each explain a different part of financial reality. This question teaches the concept through a concrete prompt: \"Which statement best explains why a company can have positive EBITDA but declining cash?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"The cash flow statement, because it includes working capital, capital expenditure and financing flows.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -457,10 +593,7 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  }
+  "banner": "outfinity-explorer-circle",
+  "questionStageTitle": "Learn the concept, then choose",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. The quiz is meant to teach the vocabulary before it tests recall."
 }

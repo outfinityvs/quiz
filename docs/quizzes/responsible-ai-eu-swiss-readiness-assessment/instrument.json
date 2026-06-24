@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Governance readiness assessment with jurisdiction branching. 7-9 min.",
-    "description": "<p>Responsible AI and EU/Swiss readiness map for inventory, classification, data, privacy, risk, oversight, documentation, and monitoring.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Responsible AI & EU/Swiss Readiness helps you learn the vocabulary and typical expectations behind Classification & Scope, Data & Privacy, Risk & Human Oversight, Documentation & Monitoring. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -72,7 +72,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Classification & Scope: How complete is the inventory of AI systems, models, and material AI-enabled features",
+        "summary": "Classification & Scope means knowing which AI systems exist, what they do, who is legally responsible, and which risk class or jurisdiction may apply. This question narrows the concept to \"How complete is the inventory of AI systems, models, and material AI-enabled features?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Classification & Scope matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How complete is the inventory of AI systems, models, and material AI-enabled features?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Artificial intelligence regulation",
+            "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence"
+          },
+          {
+            "label": "Artificial Intelligence Act",
+            "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -131,7 +148,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Classification & Scope: How consistently are legal role, jurisdiction, and risk classification assessed",
+        "summary": "Classification & Scope means knowing which AI systems exist, what they do, who is legally responsible, and which risk class or jurisdiction may apply. This question narrows the concept to \"How consistently are legal role, jurisdiction, and risk classification assessed?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Classification & Scope matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How consistently are legal role, jurisdiction, and risk classification assessed?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Artificial intelligence regulation",
+            "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence"
+          },
+          {
+            "label": "Artificial Intelligence Act",
+            "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -190,7 +224,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Data & Privacy: How well are training, input, retrieval, and output data rights governed",
+        "summary": "Data & Privacy means governing training data, inputs, retrieval, outputs, rights, privacy impacts, and data protection inside AI use. This question narrows the concept to \"How well are training, input, retrieval, and output data rights governed?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Data & Privacy matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How well are training, input, retrieval, and output data rights governed?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Data privacy",
+            "url": "https://en.wikipedia.org/wiki/Information_privacy"
+          },
+          {
+            "label": "Data protection impact assessment",
+            "url": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -249,7 +300,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Data & Privacy: How are privacy impacts integrated into AI design and deployment",
+        "summary": "Data & Privacy means governing training data, inputs, retrieval, outputs, rights, privacy impacts, and data protection inside AI use. This question narrows the concept to \"How are privacy impacts integrated into AI design and deployment?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Data & Privacy matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How are privacy impacts integrated into AI design and deployment?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Data privacy",
+            "url": "https://en.wikipedia.org/wiki/Information_privacy"
+          },
+          {
+            "label": "Data protection impact assessment",
+            "url": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -308,7 +376,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Risk & Human Oversight: How systematically are safety, bias, robustness, and misuse risks evaluated",
+        "summary": "Risk & Human Oversight means identifying AI safety, bias, misuse, robustness, and human-control risks in a way that changes deployment decisions. This question narrows the concept to \"How systematically are safety, bias, robustness, and misuse risks evaluated?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Risk & Human Oversight matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How systematically are safety, bias, robustness, and misuse risks evaluated?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Algorithmic bias",
+            "url": "https://en.wikipedia.org/wiki/Algorithmic_bias"
+          },
+          {
+            "label": "Human oversight of artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Regulation_and_safety"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -321,7 +406,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Risk & Human Oversight; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -331,7 +416,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Risk & Human Oversight, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -341,7 +426,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Risk & Human Oversight has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -351,7 +436,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Risk & Human Oversight is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -367,7 +452,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Risk & Human Oversight: How meaningful is human oversight",
+        "summary": "Risk & Human Oversight means identifying AI safety, bias, misuse, robustness, and human-control risks in a way that changes deployment decisions. This question narrows the concept to \"How meaningful is human oversight?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Risk & Human Oversight matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How meaningful is human oversight?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Algorithmic bias",
+            "url": "https://en.wikipedia.org/wiki/Algorithmic_bias"
+          },
+          {
+            "label": "Human oversight of artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Regulation_and_safety"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -426,7 +528,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Documentation & Monitoring: How complete are documentation, transparency, and logging",
+        "summary": "Documentation & Monitoring means keeping records, logs, transparency material, monitoring, and change control for AI systems after release. This question narrows the concept to \"How complete are documentation, transparency, and logging?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Documentation & Monitoring matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How complete are documentation, transparency, and logging?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+          },
+          {
+            "label": "Wikipedia: AI governance",
+            "url": "https://en.wikipedia.org/wiki/AI_governance"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -485,7 +604,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Documentation & Monitoring: How are deployed systems monitored and changed",
+        "summary": "Documentation & Monitoring means keeping records, logs, transparency material, monitoring, and change control for AI systems after release. This question narrows the concept to \"How are deployed systems monitored and changed?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Documentation & Monitoring matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How are deployed systems monitored and changed?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+          },
+          {
+            "label": "Wikipedia: AI governance",
+            "url": "https://en.wikipedia.org/wiki/AI_governance"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +657,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Context",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "jurisdiction",
@@ -549,7 +680,24 @@
           "value": "other",
           "text": "Other or uncertain"
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Jurisdiction context",
+        "summary": "Jurisdiction context means the legal and regulatory setting used to interpret the responsible-AI questions. EU/EEA, Switzerland, UK, and other contexts can imply different duties, terms, and risk expectations.",
+        "whyItMatters": "The same AI practice may be interpreted differently depending on the rule set. Choosing the closest context makes the result easier to read as a learning map.",
+        "beforeAnswering": "Choose the jurisdiction that most strongly shapes your organisation, product, customers, or deployment plans. If you are unsure, choose the uncertain option rather than guessing too narrowly.",
+        "example": "A Swiss startup selling an AI product into EU customers may need to think about both Switzerland and EU/EEA expectations; this context answer helps frame that ambiguity.",
+        "learnMore": [
+          {
+            "label": "Regulation of artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence"
+          },
+          {
+            "label": "Artificial Intelligence Act",
+            "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act"
+          }
+        ]
+      }
     },
     {
       "id": "role",
@@ -571,7 +719,24 @@
           "value": "uncertain",
           "text": "Uncertain"
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "AI role in the value chain",
+        "summary": "AI role means whether the organisation builds the AI system, deploys it, imports or distributes it, or is still unsure. Different roles usually carry different practical responsibilities.",
+        "whyItMatters": "A founder or team can misunderstand readiness if they answer as the wrong actor. Builders, deployers, and distributors often need different evidence, controls, and documentation.",
+        "beforeAnswering": "Choose the role closest to what your organisation actually does with the AI system today. If more than one role applies, choose the one with the most responsibility or uncertainty.",
+        "example": "A company using a third-party AI tool internally is closer to a deployer; a company training and selling its own model is closer to a provider.",
+        "learnMore": [
+          {
+            "label": "Regulation of artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence"
+          },
+          {
+            "label": "Artificial Intelligence Act",
+            "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-classification-and-scope",
@@ -593,7 +758,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Classification & Scope",
+        "summary": "This question asks how well your answers about Classification & Scope are supported. Classification & Scope means knowing which AI systems exist, what they do, who is legally responsible, and which risk class or jurisdiction may apply. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Classification & Scope is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Classification & Scope answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Artificial intelligence regulation",
+            "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence"
+          },
+          {
+            "label": "Artificial Intelligence Act",
+            "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-data-and-privacy",
@@ -615,7 +797,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Data & Privacy",
+        "summary": "This question asks how well your answers about Data & Privacy are supported. Data & Privacy means governing training data, inputs, retrieval, outputs, rights, privacy impacts, and data protection inside AI use. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Data & Privacy is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Data & Privacy answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Data privacy",
+            "url": "https://en.wikipedia.org/wiki/Information_privacy"
+          },
+          {
+            "label": "Data protection impact assessment",
+            "url": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-risk-and-human-oversight",
@@ -637,7 +836,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Risk & Human Oversight",
+        "summary": "This question asks how well your answers about Risk & Human Oversight are supported. Risk & Human Oversight means identifying AI safety, bias, misuse, robustness, and human-control risks in a way that changes deployment decisions. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Risk & Human Oversight is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Risk & Human Oversight answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Algorithmic bias",
+            "url": "https://en.wikipedia.org/wiki/Algorithmic_bias"
+          },
+          {
+            "label": "Human oversight of artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Regulation_and_safety"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-documentation-and-monitoring",
@@ -659,7 +875,27 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Documentation & Monitoring",
+        "summary": "This question asks how well your answers about Documentation & Monitoring are supported. Documentation & Monitoring means keeping records, logs, transparency material, monitoring, and change control for AI systems after release. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Documentation & Monitoring is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Documentation & Monitoring answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+          },
+          {
+            "label": "Wikipedia: AI governance",
+            "url": "https://en.wikipedia.org/wiki/AI_governance"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

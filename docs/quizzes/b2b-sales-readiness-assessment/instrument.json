@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Revenue maturity assessment. 6 min.",
-    "description": "<p>B2B sales engine readiness diagnostic for ICP, qualification, conversion, enablement, handoff, forecasting, and retention.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>B2B Sales Engine Readiness helps you learn the vocabulary and typical expectations behind ICP & Qualification, Process & Conversion, Enablement & Customer Handoff, Forecasting & Retention. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -26,7 +26,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in ICP & Qualification; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -36,7 +36,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in ICP & Qualification, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -46,7 +46,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. ICP & Qualification has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -56,7 +56,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. ICP & Qualification is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -72,7 +72,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "ICP & Qualification: How precisely are target accounts and non-fit accounts defined",
+        "summary": "ICP & Qualification means defining which accounts are worth selling to and which opportunities deserve sales time, using fit, urgency, budget, authority, and use case. This question narrows the concept to \"How precisely are target accounts and non-fit accounts defined?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "ICP & Qualification matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How precisely are target accounts and non-fit accounts defined?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Sales process",
+            "url": "https://en.wikipedia.org/wiki/Sales_process"
+          },
+          {
+            "label": "Wikipedia: Business-to-business",
+            "url": "https://en.wikipedia.org/wiki/Business-to-business"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -85,7 +102,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in ICP & Qualification; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -95,7 +112,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in ICP & Qualification, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -105,7 +122,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. ICP & Qualification has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -115,7 +132,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. ICP & Qualification is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -131,7 +148,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "ICP & Qualification: How consistently are opportunities qualified",
+        "summary": "ICP & Qualification means defining which accounts are worth selling to and which opportunities deserve sales time, using fit, urgency, budget, authority, and use case. This question narrows the concept to \"How consistently are opportunities qualified?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "ICP & Qualification matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How consistently are opportunities qualified?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Sales process",
+            "url": "https://en.wikipedia.org/wiki/Sales_process"
+          },
+          {
+            "label": "Wikipedia: Business-to-business",
+            "url": "https://en.wikipedia.org/wiki/Business-to-business"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -190,7 +224,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Process & Conversion: How objective are sales stages",
+        "summary": "Process & Conversion means turning sales from a set of founder instincts into visible stages, conversion evidence, cycle learning, and decision rules. This question narrows the concept to \"How objective are sales stages?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Process & Conversion matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How objective are sales stages?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Sales process",
+            "url": "https://en.wikipedia.org/wiki/Sales_process"
+          },
+          {
+            "label": "Wikipedia: Business-to-business",
+            "url": "https://en.wikipedia.org/wiki/Business-to-business"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -203,7 +254,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Process & Conversion; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -213,7 +264,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Process & Conversion, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -223,7 +274,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Process & Conversion has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -233,7 +284,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Process & Conversion is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -249,7 +300,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Process & Conversion: How well are conversion and cycle dynamics understood",
+        "summary": "Process & Conversion means turning sales from a set of founder instincts into visible stages, conversion evidence, cycle learning, and decision rules. This question narrows the concept to \"How well are conversion and cycle dynamics understood?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Process & Conversion matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How well are conversion and cycle dynamics understood?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Sales process",
+            "url": "https://en.wikipedia.org/wiki/Sales_process"
+          },
+          {
+            "label": "Wikipedia: Business-to-business",
+            "url": "https://en.wikipedia.org/wiki/Business-to-business"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -308,7 +376,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Enablement & Customer Handoff: How repeatable are discovery, demonstration, and proof",
+        "summary": "Enablement & Customer Handoff means making discovery, demos, proof, onboarding, and customer-success transfer repeatable enough that growth does not depend on one hero seller. This question narrows the concept to \"How repeatable are discovery, demonstration, and proof?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Enablement & Customer Handoff matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How repeatable are discovery, demonstration, and proof?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -367,7 +452,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Enablement & Customer Handoff: How reliable is the transition from sale to onboarding and customer success",
+        "summary": "Enablement & Customer Handoff means making discovery, demos, proof, onboarding, and customer-success transfer repeatable enough that growth does not depend on one hero seller. This question narrows the concept to \"How reliable is the transition from sale to onboarding and customer success?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Enablement & Customer Handoff matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How reliable is the transition from sale to onboarding and customer success?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Sales process",
+            "url": "https://en.wikipedia.org/wiki/Sales_process"
+          },
+          {
+            "label": "Wikipedia: Business-to-business",
+            "url": "https://en.wikipedia.org/wiki/Business-to-business"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -426,7 +528,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Forecasting & Retention: How evidence-based is the forecast",
+        "summary": "Forecasting & Retention means connecting forecast quality to real pipeline evidence and to whether customers retain, expand, and succeed after the sale. This question narrows the concept to \"How evidence-based is the forecast?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Forecasting & Retention matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How evidence-based is the forecast?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Probability",
+            "url": "https://en.wikipedia.org/wiki/Probability"
+          },
+          {
+            "label": "Wikipedia: Bayesian probability",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_probability"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -485,7 +604,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Forecasting & Retention: How tightly is new sales connected to retention and expansion quality",
+        "summary": "Forecasting & Retention means connecting forecast quality to real pipeline evidence and to whether customers retain, expand, and succeed after the sale. This question narrows the concept to \"How tightly is new sales connected to retention and expansion quality?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Forecasting & Retention matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How tightly is new sales connected to retention and expansion quality?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Probability",
+            "url": "https://en.wikipedia.org/wiki/Probability"
+          },
+          {
+            "label": "Wikipedia: Bayesian probability",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_probability"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +657,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-icp-and-qualification",
@@ -549,7 +680,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "ICP & Qualification",
+        "summary": "This question asks how well your answers about ICP & Qualification are supported. ICP & Qualification means defining which accounts are worth selling to and which opportunities deserve sales time, using fit, urgency, budget, authority, and use case. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about ICP & Qualification is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your ICP & Qualification answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Sales process",
+            "url": "https://en.wikipedia.org/wiki/Sales_process"
+          },
+          {
+            "label": "Wikipedia: Business-to-business",
+            "url": "https://en.wikipedia.org/wiki/Business-to-business"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-process-and-conversion",
@@ -571,7 +719,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Process & Conversion",
+        "summary": "This question asks how well your answers about Process & Conversion are supported. Process & Conversion means turning sales from a set of founder instincts into visible stages, conversion evidence, cycle learning, and decision rules. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Process & Conversion is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Process & Conversion answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Sales process",
+            "url": "https://en.wikipedia.org/wiki/Sales_process"
+          },
+          {
+            "label": "Wikipedia: Business-to-business",
+            "url": "https://en.wikipedia.org/wiki/Business-to-business"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-enablement-and-customer-handoff",
@@ -593,7 +758,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Enablement & Customer Handoff",
+        "summary": "This question asks how well your answers about Enablement & Customer Handoff are supported. Enablement & Customer Handoff means making discovery, demos, proof, onboarding, and customer-success transfer repeatable enough that growth does not depend on one hero seller. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Enablement & Customer Handoff is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Enablement & Customer Handoff answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-forecasting-and-retention",
@@ -615,7 +797,27 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Forecasting & Retention",
+        "summary": "This question asks how well your answers about Forecasting & Retention are supported. Forecasting & Retention means connecting forecast quality to real pipeline evidence and to whether customers retain, expand, and succeed after the sale. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Forecasting & Retention is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Forecasting & Retention answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Probability",
+            "url": "https://en.wikipedia.org/wiki/Probability"
+          },
+          {
+            "label": "Wikipedia: Bayesian probability",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_probability"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

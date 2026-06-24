@@ -39,7 +39,7 @@ No third-party tracking pixels, no fingerprinting, no social SDKs, no behavioral
 
 The global footer analytics hook may emit only page-level or coarse funnel events such as `quiz_viewed`, `started`, `completed`, `result_shared`, `email_opt_in`, `team_invited`, and `retake_started`. Event payloads may include quiz ID, quiz version, locale, route, category, method type, and non-sensitive duration buckets. Payloads must not include individual response content or result vulnerabilities.
 
-Quiz state exists only in page memory. Closing or reloading the page erases all answers. Optional `localStorage` saving requires explicit user action labeled "Keep progress in this browser only" and must be accompanied by a "Delete all local data" option in the same area.
+Quiz state exists only in page memory. Closing or reloading the page erases all answers. Optional `localStorage` saving requires explicit user action. Completed result history is saved only when the user clicks `Save Result`; it stores the optional label, quiz title, result title, aggregate score summary, quiz URL, timestamp, and share-safe result fragment where available. It must not store individual answers, answer option IDs, names, emails, company identifiers, financial figures, legal/regulatory flags, family details, security gaps, or free-text sensitive content. The History page must include delete controls for each saved result and a `Delete All Saved Results` control.
 
 Shareable links encode results in the URL fragment (after `#`), not in the query string. The fragment is processed by the browser and is not sent to the server in the HTTP request. The payload contains only safe aggregate material such as quiz ID, version, level, archetype, and aggregate scores when the user explicitly chooses result sharing. It never contains individual answers, names, emails, completion time, professional domains, company identifiers, financial figures, legal/regulatory flags, family details, security gaps, or unique identifiers.
 
@@ -48,11 +48,11 @@ Sharing uses a three-level model, none selected by default:
 2. Minimal result: shares the profile title and one sentence.
 3. Full map: shares the profile, aggregated scores, and diagram.
 
-Web Share API is used only when the browser supports it and only after explicit user action. Fallbacks are always available: copy text, copy link, download image.
+The public result actions are explicit: create a shareable link, download a share-safe card, or save the result locally. The generic native Web Share action is not required in the result UI; if helper code still exists for backwards compatibility, it must not collect or transmit quiz answers.
 
 External links (Explorer Circle, ventures, partners) use `target="_blank" rel="noopener noreferrer"` with no tracking parameters.
 
-Team, paired, family-office, leadership, cybersecurity, privacy, and regulatory results require stricter sharing defaults. Individual answers remain private. Aggregates may be shown only above the threshold defined by the quiz DS and only after respondents understand what will be displayed.
+Team, paired, leadership, cybersecurity, privacy, and regulatory results require stricter sharing defaults. Individual answers remain private. Aggregates may be shown only above the threshold defined by the quiz DS and only after respondents understand what will be displayed.
 
 ## Decisions & Questions
 

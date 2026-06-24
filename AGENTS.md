@@ -18,7 +18,7 @@ Outfinity Quiz is a static subsite hosting privacy-first self-knowledge question
 - All documentation, specifications, and comments must be written in English.
 - DS specifications under `docs/specs/` are the source of truth for documented behavior.
 - When source code changes, both the HTML documentation and the DS specifications must be updated to reflect the change.
-- DS numbering must remain contiguous with no gaps. The next new DS after DS022 is DS023.
+- DS numbering must remain contiguous with no gaps. The next new DS after DS056 is DS057.
 - `Decisions & Questions` uses numbered question subchapters. Rationale lives in the affected DS files.
 - No external dependencies: no React, Vue, Tailwind, CDN libraries, external fonts, analytics, or social SDKs.
 - All quiz logic runs client-side. No backend, no API calls, no `fetch` after page load.

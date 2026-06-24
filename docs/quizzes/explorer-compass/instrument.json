@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Discover how you create meaningful change, where your work can thrive, and who you need beside you.",
-    "description": "<p>There is no single type of founder, researcher, or builder of change. There are different roles, different environments, and different ways a good intention can become reality — or get lost along the way.</p><p>Choose what you would actually do in real conditions, not the option that sounds most noble.</p>",
+    "description": "<p>There is no single type of founder, researcher, or builder of change. There are different roles, different environments, and different ways a good intention can become reality — or get lost along the way.</p><p>Choose what you would actually do in real conditions, not the option that sounds most noble.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "10 scenarios + 8 trade-offs. Approximately four minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "This is not a clinical or validated psychometric assessment. It is an interactive map of your role in meaningful change.",
@@ -18,29 +18,108 @@
       "text": "Where are you right now?",
       "multiple": false,
       "options": [
-        { "value": "exploring", "text": "Exploring a direction" },
-        { "value": "building", "text": "Building early experiments" },
-        { "value": "operating", "text": "Already leading a project" },
-        { "value": "scaling", "text": "Transforming or scaling an organization" },
-        { "value": "supporting", "text": "Funding, advising, or connecting other builders" }
-      ]
+        {
+          "value": "exploring",
+          "text": "Exploring a direction"
+        },
+        {
+          "value": "building",
+          "text": "Building early experiments"
+        },
+        {
+          "value": "operating",
+          "text": "Already leading a project"
+        },
+        {
+          "value": "scaling",
+          "text": "Transforming or scaling an organization"
+        },
+        {
+          "value": "supporting",
+          "text": "Funding, advising, or connecting other builders"
+        }
+      ],
+      "conceptHelp": {
+        "title": "Builder stage",
+        "summary": "Builder stage means where you currently are in the life cycle of an idea, project, venture, or organisation: exploring, building, operating, scaling, or supporting others.",
+        "whyItMatters": "Explorer-style results are easier to interpret when they are connected to the stage you are actually in. The same role can look different in early exploration than in scaling or advising.",
+        "beforeAnswering": "Choose the stage that describes your current work most of the time, not the stage you hope to reach next.",
+        "example": "Someone testing a new venture direction is closer to building early experiments; someone helping several founders may be funding, advising, or connecting other builders.",
+        "learnMore": [
+          {
+            "label": "Entrepreneurship",
+            "url": "https://en.wikipedia.org/wiki/Entrepreneurship"
+          },
+          {
+            "label": "Design thinking",
+            "url": "https://en.wikipedia.org/wiki/Design_thinking"
+          }
+        ]
+      }
     },
     {
       "id": "domains",
       "text": "Which domains call you most? Choose up to two.",
       "multiple": true,
       "options": [
-        { "value": "education", "text": "Education and human autonomy" },
-        { "value": "health", "text": "Health and wellbeing" },
-        { "value": "tech", "text": "Humane technology and digital autonomy" },
-        { "value": "governance", "text": "Institutions, trust, and governance" },
-        { "value": "economy", "text": "Fair economy and ownership" },
-        { "value": "climate", "text": "Climate, ecology, and regeneration" },
-        { "value": "science", "text": "Science, knowledge, and open infrastructure" },
-        { "value": "community", "text": "Communities and local resilience" },
-        { "value": "culture", "text": "Culture, meaning, and inner development" },
-        { "value": "unsure", "text": "Not sure yet" }
-      ]
+        {
+          "value": "education",
+          "text": "Education and human autonomy"
+        },
+        {
+          "value": "health",
+          "text": "Health and wellbeing"
+        },
+        {
+          "value": "tech",
+          "text": "Humane technology and digital autonomy"
+        },
+        {
+          "value": "governance",
+          "text": "Institutions, trust, and governance"
+        },
+        {
+          "value": "economy",
+          "text": "Fair economy and ownership"
+        },
+        {
+          "value": "climate",
+          "text": "Climate, ecology, and regeneration"
+        },
+        {
+          "value": "science",
+          "text": "Science, knowledge, and open infrastructure"
+        },
+        {
+          "value": "community",
+          "text": "Communities and local resilience"
+        },
+        {
+          "value": "culture",
+          "text": "Culture, meaning, and inner development"
+        },
+        {
+          "value": "unsure",
+          "text": "Not sure yet"
+        }
+      ],
+      "conceptHelp": {
+        "title": "Domain pull",
+        "summary": "Domain pull means the problem areas that most strongly attract your attention, energy, or sense of responsibility. It is not a commitment; it is context for interpreting your explorer role.",
+        "whyItMatters": "A role pattern becomes more useful when paired with a domain. A systems cartographer in health may work differently from a systems cartographer in governance or climate.",
+        "beforeAnswering": "Pick up to two domains that genuinely call you now. If none is clear, choose the uncertain option rather than forcing a polished identity.",
+        "example": "If you keep returning to questions about public trust and institutional design, governance may be a stronger domain pull than technology even if your work uses software.",
+        "learnMore": [
+          {
+            "label": "Community of practice",
+            "url": "https://en.wikipedia.org/wiki/Community_of_practice"
+          },
+          {
+            "label": "Social innovation",
+            "url": "https://en.wikipedia.org/wiki/Social_innovation"
+          }
+        ]
+      }
     }
   ],
   "questions": [
@@ -49,222 +128,857 @@
       "text": "An important new problem emerges, still poorly defined and shared across several domains. What is your first contribution?",
       "type": "forced-choice",
       "options": [
-        { "key": "FS", "text": "I look for the question everyone has already assumed was resolved.", "dimensionScores": { "FS": 1 } },
-        { "key": "SC", "text": "I map the actors, incentives, and causal relationships.", "dimensionScores": { "SC": 1 } },
-        { "key": "EB", "text": "I build the smallest demonstration that can produce real information.", "dimensionScores": { "EB": 1 } },
-        { "key": "CW", "text": "I gather the people affected and those who see the problem from incompatible angles.", "dimensionScores": { "CW": 1 } }
-      ]
+        {
+          "key": "FS",
+          "text": "I look for the question everyone has already assumed was resolved.",
+          "dimensionScores": {
+            "FS": 1
+          }
+        },
+        {
+          "key": "SC",
+          "text": "I map the actors, incentives, and causal relationships.",
+          "dimensionScores": {
+            "SC": 1
+          }
+        },
+        {
+          "key": "EB",
+          "text": "I build the smallest demonstration that can produce real information.",
+          "dimensionScores": {
+            "EB": 1
+          }
+        },
+        {
+          "key": "CW",
+          "text": "I gather the people affected and those who see the problem from incompatible angles.",
+          "dimensionScores": {
+            "CW": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: An important new problem emerges, still poorly defined and shared across several domains. What is your first contribution",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"An important new problem emerges, still poorly defined and shared across several domains. What is your first contribution?\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast I look for the question everyone has already assumed was resolved. / I map the actors, incentives, and causal relationships. / I build the smallest demonstration that can produce real information.; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": []
+      }
     },
     {
       "id": "s2",
       "text": "A valuable project is growing, but the team is starting to confuse activity with progress.",
       "type": "forced-choice",
       "options": [
-        { "key": "MO", "text": "I clarify priorities, accountability, and execution rhythm.", "dimensionScores": { "MO": 1 } },
-        { "key": "MT", "text": "I reframe the project's story so meaning can be understood again.", "dimensionScores": { "MT": 1 } },
-        { "key": "IA", "text": "I revise decision rights, incentives, and organizational structure.", "dimensionScores": { "IA": 1 } },
-        { "key": "BS", "text": "I establish what must not be sacrificed, even if the project slows down.", "dimensionScores": { "BS": 1 } }
-      ]
+        {
+          "key": "MO",
+          "text": "I clarify priorities, accountability, and execution rhythm.",
+          "dimensionScores": {
+            "MO": 1
+          }
+        },
+        {
+          "key": "MT",
+          "text": "I reframe the project's story so meaning can be understood again.",
+          "dimensionScores": {
+            "MT": 1
+          }
+        },
+        {
+          "key": "IA",
+          "text": "I revise decision rights, incentives, and organizational structure.",
+          "dimensionScores": {
+            "IA": 1
+          }
+        },
+        {
+          "key": "BS",
+          "text": "I establish what must not be sacrificed, even if the project slows down.",
+          "dimensionScores": {
+            "BS": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: A valuable project is growing, but the team is starting to confuse activity with progress.",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"A valuable project is growing, but the team is starting to confuse activity with progress.\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast I clarify priorities, accountability, and execution rhythm. / I reframe the project's story so meaning can be understood again. / I revise decision rights, incentives, and organizational structure.; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": []
+      }
     },
     {
       "id": "s3",
       "text": "A promising discovery appears, but the evidence is still fragile.",
       "type": "forced-choice",
       "options": [
-        { "key": "FS", "text": "I track the anomalies and new questions the discovery opens.", "dimensionScores": { "FS": 1 } },
-        { "key": "EB", "text": "I build a limited prototype that can invalidate the main hypothesis.", "dimensionScores": { "EB": 1 } },
-        { "key": "MO", "text": "I draft a minimal plan for turning research into verifiable progress.", "dimensionScores": { "MO": 1 } },
-        { "key": "BS", "text": "I define stopping conditions and risks that must not be externalized.", "dimensionScores": { "BS": 1 } }
-      ]
+        {
+          "key": "FS",
+          "text": "I track the anomalies and new questions the discovery opens.",
+          "dimensionScores": {
+            "FS": 1
+          }
+        },
+        {
+          "key": "EB",
+          "text": "I build a limited prototype that can invalidate the main hypothesis.",
+          "dimensionScores": {
+            "EB": 1
+          }
+        },
+        {
+          "key": "MO",
+          "text": "I draft a minimal plan for turning research into verifiable progress.",
+          "dimensionScores": {
+            "MO": 1
+          }
+        },
+        {
+          "key": "BS",
+          "text": "I define stopping conditions and risks that must not be externalized.",
+          "dimensionScores": {
+            "BS": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: A promising discovery appears, but the evidence is still fragile.",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"A promising discovery appears, but the evidence is still fragile.\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast I track the anomalies and new questions the discovery opens. / I build a limited prototype that can invalidate the main hypothesis. / I draft a minimal plan for turning research into verifiable progress.; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "s4",
       "text": "Several groups want to solve the same problem but disagree on the diagnosis.",
       "type": "forced-choice",
       "options": [
-        { "key": "SC", "text": "I make each party's mental models and constraints visible.", "dimensionScores": { "SC": 1 } },
-        { "key": "CW", "text": "I build enough trust for disagreement to be carried honestly.", "dimensionScores": { "CW": 1 } },
-        { "key": "MT", "text": "I find a common language that preserves important differences.", "dimensionScores": { "MT": 1 } },
-        { "key": "IA", "text": "I design a clear procedure for decision, contestation, and exit.", "dimensionScores": { "IA": 1 } }
-      ]
+        {
+          "key": "SC",
+          "text": "I make each party's mental models and constraints visible.",
+          "dimensionScores": {
+            "SC": 1
+          }
+        },
+        {
+          "key": "CW",
+          "text": "I build enough trust for disagreement to be carried honestly.",
+          "dimensionScores": {
+            "CW": 1
+          }
+        },
+        {
+          "key": "MT",
+          "text": "I find a common language that preserves important differences.",
+          "dimensionScores": {
+            "MT": 1
+          }
+        },
+        {
+          "key": "IA",
+          "text": "I design a clear procedure for decision, contestation, and exit.",
+          "dimensionScores": {
+            "IA": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: Several groups want to solve the same problem but disagree on the diagnosis.",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"Several groups want to solve the same problem but disagree on the diagnosis.\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast I make each party's mental models and constraints visible. / I build enough trust for disagreement to be carried honestly. / I find a common language that preserves important differences.; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": []
+      }
     },
     {
       "id": "s5",
       "text": "A small team suddenly receives far more funding than expected.",
       "type": "forced-choice",
       "options": [
-        { "key": "FS", "text": "I protect some resources for explorations that promise no immediate results.", "dimensionScores": { "FS": 1 } },
-        { "key": "MO", "text": "I turn the money into a plan, clear owners, and delivery cycles.", "dimensionScores": { "MO": 1 } },
-        { "key": "CW", "text": "I invest in relationships, partnerships, and people who expand collective capacity.", "dimensionScores": { "CW": 1 } },
-        { "key": "IA", "text": "I clarify capital governance before it redefines the mission.", "dimensionScores": { "IA": 1 } }
-      ]
+        {
+          "key": "FS",
+          "text": "I protect some resources for explorations that promise no immediate results.",
+          "dimensionScores": {
+            "FS": 1
+          }
+        },
+        {
+          "key": "MO",
+          "text": "I turn the money into a plan, clear owners, and delivery cycles.",
+          "dimensionScores": {
+            "MO": 1
+          }
+        },
+        {
+          "key": "CW",
+          "text": "I invest in relationships, partnerships, and people who expand collective capacity.",
+          "dimensionScores": {
+            "CW": 1
+          }
+        },
+        {
+          "key": "IA",
+          "text": "I clarify capital governance before it redefines the mission.",
+          "dimensionScores": {
+            "IA": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: A small team suddenly receives far more funding than expected.",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"A small team suddenly receives far more funding than expected.\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast I protect some resources for explorations that promise no immediate results. / I turn the money into a plan, clear owners, and delivery cycles. / I invest in relationships, partnerships, and people who expand collective capacity.; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": []
+      }
     },
     {
       "id": "s6",
       "text": "An important system produces harmful effects but is so stable that ordinary criticism does not change it.",
       "type": "forced-choice",
       "options": [
-        { "key": "SC", "text": "I model the feedback loops that make participants reproduce the outcome.", "dimensionScores": { "SC": 1 } },
-        { "key": "EB", "text": "I build a working alternative around a single blocking point.", "dimensionScores": { "EB": 1 } },
-        { "key": "MT", "text": "I make the invisible harm intelligible to people who can contest it.", "dimensionScores": { "MT": 1 } },
-        { "key": "BS", "text": "I define the practices that must stop regardless of declared benefits.", "dimensionScores": { "BS": 1 } }
-      ]
+        {
+          "key": "SC",
+          "text": "I model the feedback loops that make participants reproduce the outcome.",
+          "dimensionScores": {
+            "SC": 1
+          }
+        },
+        {
+          "key": "EB",
+          "text": "I build a working alternative around a single blocking point.",
+          "dimensionScores": {
+            "EB": 1
+          }
+        },
+        {
+          "key": "MT",
+          "text": "I make the invisible harm intelligible to people who can contest it.",
+          "dimensionScores": {
+            "MT": 1
+          }
+        },
+        {
+          "key": "BS",
+          "text": "I define the practices that must stop regardless of declared benefits.",
+          "dimensionScores": {
+            "BS": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: An important system produces harmful effects but is so stable that ordinary criticism does not change it.",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"An important system produces harmful effects but is so stable that ordinary criticism does not change it.\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast I model the feedback loops that make participants reproduce the outcome. / I build a working alternative around a single blocking point. / I make the invisible harm intelligible to people who can contest it.; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": []
+      }
     },
     {
       "id": "s7",
       "text": "An idea works, but the people it should serve are not adopting it.",
       "type": "forced-choice",
       "options": [
-        { "key": "FS", "text": "I check whether we found the right audience and the right problem.", "dimensionScores": { "FS": 1 } },
-        { "key": "CW", "text": "I build direct relationships with those affected before modifying the product.", "dimensionScores": { "CW": 1 } },
-        { "key": "MT", "text": "I reframe the value in a story that can be recognized and transmitted.", "dimensionScores": { "MT": 1 } },
-        { "key": "BS", "text": "I check whether adoption pressure is starting to compromise the original purpose.", "dimensionScores": { "BS": 1 } }
-      ]
+        {
+          "key": "FS",
+          "text": "I check whether we found the right audience and the right problem.",
+          "dimensionScores": {
+            "FS": 1
+          }
+        },
+        {
+          "key": "CW",
+          "text": "I build direct relationships with those affected before modifying the product.",
+          "dimensionScores": {
+            "CW": 1
+          }
+        },
+        {
+          "key": "MT",
+          "text": "I reframe the value in a story that can be recognized and transmitted.",
+          "dimensionScores": {
+            "MT": 1
+          }
+        },
+        {
+          "key": "BS",
+          "text": "I check whether adoption pressure is starting to compromise the original purpose.",
+          "dimensionScores": {
+            "BS": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: An idea works, but the people it should serve are not adopting it.",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"An idea works, but the people it should serve are not adopting it.\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast I check whether we found the right audience and the right problem. / I build direct relationships with those affected before modifying the product. / I reframe the value in a story that can be recognized and transmitted.; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": []
+      }
     },
     {
       "id": "s8",
       "text": "A successful experiment receives far more demand than it can sustain.",
       "type": "forced-choice",
       "options": [
-        { "key": "SC", "text": "I analyze second-order effects and points where scaling may change the outcome.", "dimensionScores": { "SC": 1 } },
-        { "key": "EB", "text": "I make the tool more robust, modular, and easy to test.", "dimensionScores": { "EB": 1 } },
-        { "key": "MO", "text": "I standardize what works and build operational capacity.", "dimensionScores": { "MO": 1 } },
-        { "key": "IA", "text": "I clarify ownership, control, and accountability before expansion.", "dimensionScores": { "IA": 1 } }
-      ]
+        {
+          "key": "SC",
+          "text": "I analyze second-order effects and points where scaling may change the outcome.",
+          "dimensionScores": {
+            "SC": 1
+          }
+        },
+        {
+          "key": "EB",
+          "text": "I make the tool more robust, modular, and easy to test.",
+          "dimensionScores": {
+            "EB": 1
+          }
+        },
+        {
+          "key": "MO",
+          "text": "I standardize what works and build operational capacity.",
+          "dimensionScores": {
+            "MO": 1
+          }
+        },
+        {
+          "key": "IA",
+          "text": "I clarify ownership, control, and accountability before expansion.",
+          "dimensionScores": {
+            "IA": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: A successful experiment receives far more demand than it can sustain.",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"A successful experiment receives far more demand than it can sustain.\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast I analyze second-order effects and points where scaling may change the outcome. / I make the tool more robust, modular, and easy to test. / I standardize what works and build operational capacity.; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "s9",
       "text": "New information contradicts an important part of the project's direction.",
       "type": "forced-choice",
       "options": [
-        { "key": "FS", "text": "I follow the contradiction — it may open a bigger problem.", "dimensionScores": { "FS": 1 } },
-        { "key": "SC", "text": "I update the model and show exactly which assumptions no longer hold.", "dimensionScores": { "SC": 1 } },
-        { "key": "MO", "text": "I decide what changes immediately and what can wait.", "dimensionScores": { "MO": 1 } },
-        { "key": "MT", "text": "I communicate the revision without hiding the error and without unnecessarily destroying trust.", "dimensionScores": { "MT": 1 } }
-      ]
+        {
+          "key": "FS",
+          "text": "I follow the contradiction — it may open a bigger problem.",
+          "dimensionScores": {
+            "FS": 1
+          }
+        },
+        {
+          "key": "SC",
+          "text": "I update the model and show exactly which assumptions no longer hold.",
+          "dimensionScores": {
+            "SC": 1
+          }
+        },
+        {
+          "key": "MO",
+          "text": "I decide what changes immediately and what can wait.",
+          "dimensionScores": {
+            "MO": 1
+          }
+        },
+        {
+          "key": "MT",
+          "text": "I communicate the revision without hiding the error and without unnecessarily destroying trust.",
+          "dimensionScores": {
+            "MT": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: New information contradicts an important part of the project's direction.",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"New information contradicts an important part of the project's direction.\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast I follow the contradiction — it may open a bigger problem. / I update the model and show exactly which assumptions no longer hold. / I decide what changes immediately and what can wait.; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": []
+      }
     },
     {
       "id": "s10",
       "text": "A community initiative works well. Some members want rapid expansion; others fear the project will lose its character.",
       "type": "forced-choice",
       "options": [
-        { "key": "EB", "text": "I turn the tools into modules other communities can adapt.", "dimensionScores": { "EB": 1 } },
-        { "key": "CW", "text": "I develop local leadership and inter-community ties before expansion.", "dimensionScores": { "CW": 1 } },
-        { "key": "IA", "text": "I design a structure where growth does not concentrate ownership and decision.", "dimensionScores": { "IA": 1 } },
-        { "key": "BS", "text": "I define the size or conditions the project must not cross.", "dimensionScores": { "BS": 1 } }
-      ]
+        {
+          "key": "EB",
+          "text": "I turn the tools into modules other communities can adapt.",
+          "dimensionScores": {
+            "EB": 1
+          }
+        },
+        {
+          "key": "CW",
+          "text": "I develop local leadership and inter-community ties before expansion.",
+          "dimensionScores": {
+            "CW": 1
+          }
+        },
+        {
+          "key": "IA",
+          "text": "I design a structure where growth does not concentrate ownership and decision.",
+          "dimensionScores": {
+            "IA": 1
+          }
+        },
+        {
+          "key": "BS",
+          "text": "I define the size or conditions the project must not cross.",
+          "dimensionScores": {
+            "BS": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: A community initiative works well. Some members want rapid expansion; others fear the project will lose its character.",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"A community initiative works well. Some members want rapid expansion; others fear the project will lose its character.\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast I turn the tools into modules other communities can adapt. / I develop local leadership and inter-community ties before expansion. / I design a structure where growth does not concentrate ownership and decision.; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": []
+      }
     },
     {
       "id": "e1",
       "text": "I feel most useful when...",
       "type": "likert",
       "ecologyAxis": "delivery",
-      "scaleLabels": ["Discovery", "Depends", "Delivery"],
+      "scaleLabels": [
+        "Discovery",
+        "Depends",
+        "Delivery"
+      ],
       "options": [
-        { "value": "0", "text": "1", "ecologyValue": 0 },
-        { "value": "25", "text": "2", "ecologyValue": 25 },
-        { "value": "50", "text": "3", "ecologyValue": 50 },
-        { "value": "75", "text": "4", "ecologyValue": 75 },
-        { "value": "100", "text": "5", "ecologyValue": 100 }
-      ]
+        {
+          "value": "0",
+          "text": "1",
+          "ecologyValue": 0
+        },
+        {
+          "value": "25",
+          "text": "2",
+          "ecologyValue": 25
+        },
+        {
+          "value": "50",
+          "text": "3",
+          "ecologyValue": 50
+        },
+        {
+          "value": "75",
+          "text": "4",
+          "ecologyValue": 75
+        },
+        {
+          "value": "100",
+          "text": "5",
+          "ecologyValue": 100
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: I feel most useful when...",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"I feel most useful when...\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast 1 / 2 / 3; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": []
+      }
     },
     {
       "id": "e2",
       "text": "I work best when...",
       "type": "likert",
       "ecologyAxis": "coalition",
-      "scaleLabels": ["Autonomy", "Depends", "Coalition"],
+      "scaleLabels": [
+        "Autonomy",
+        "Depends",
+        "Coalition"
+      ],
       "options": [
-        { "value": "0", "text": "1", "ecologyValue": 0 },
-        { "value": "25", "text": "2", "ecologyValue": 25 },
-        { "value": "50", "text": "3", "ecologyValue": 50 },
-        { "value": "75", "text": "4", "ecologyValue": 75 },
-        { "value": "100", "text": "5", "ecologyValue": 100 }
-      ]
+        {
+          "value": "0",
+          "text": "1",
+          "ecologyValue": 0
+        },
+        {
+          "value": "25",
+          "text": "2",
+          "ecologyValue": 25
+        },
+        {
+          "value": "50",
+          "text": "3",
+          "ecologyValue": 50
+        },
+        {
+          "value": "75",
+          "text": "4",
+          "ecologyValue": 75
+        },
+        {
+          "value": "100",
+          "text": "5",
+          "ecologyValue": 100
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: I work best when...",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"I work best when...\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast 1 / 2 / 3; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": []
+      }
     },
     {
       "id": "e3",
       "text": "In uncertainty I prefer...",
       "type": "likert",
       "ecologyAxis": "depth",
-      "scaleLabels": ["Speed", "Depends", "Depth"],
+      "scaleLabels": [
+        "Speed",
+        "Depends",
+        "Depth"
+      ],
       "options": [
-        { "value": "0", "text": "1", "ecologyValue": 0 },
-        { "value": "25", "text": "2", "ecologyValue": 25 },
-        { "value": "50", "text": "3", "ecologyValue": 50 },
-        { "value": "75", "text": "4", "ecologyValue": 75 },
-        { "value": "100", "text": "5", "ecologyValue": 100 }
-      ]
+        {
+          "value": "0",
+          "text": "1",
+          "ecologyValue": 0
+        },
+        {
+          "value": "25",
+          "text": "2",
+          "ecologyValue": 25
+        },
+        {
+          "value": "50",
+          "text": "3",
+          "ecologyValue": 50
+        },
+        {
+          "value": "75",
+          "text": "4",
+          "ecologyValue": 75
+        },
+        {
+          "value": "100",
+          "text": "5",
+          "ecologyValue": 100
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: In uncertainty I prefer...",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"In uncertainty I prefer...\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast 1 / 2 / 3; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "e4",
       "text": "Impact feels most credible when...",
       "type": "likert",
       "ecologyAxis": "reach",
-      "scaleLabels": ["Rootedness", "Depends", "Reach"],
+      "scaleLabels": [
+        "Rootedness",
+        "Depends",
+        "Reach"
+      ],
       "options": [
-        { "value": "0", "text": "1", "ecologyValue": 0 },
-        { "value": "25", "text": "2", "ecologyValue": 25 },
-        { "value": "50", "text": "3", "ecologyValue": 50 },
-        { "value": "75", "text": "4", "ecologyValue": 75 },
-        { "value": "100", "text": "5", "ecologyValue": 100 }
-      ]
+        {
+          "value": "0",
+          "text": "1",
+          "ecologyValue": 0
+        },
+        {
+          "value": "25",
+          "text": "2",
+          "ecologyValue": 25
+        },
+        {
+          "value": "50",
+          "text": "3",
+          "ecologyValue": 50
+        },
+        {
+          "value": "75",
+          "text": "4",
+          "ecologyValue": 75
+        },
+        {
+          "value": "100",
+          "text": "5",
+          "ecologyValue": 100
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: Impact feels most credible when...",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"Impact feels most credible when...\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast 1 / 2 / 3; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": []
+      }
     },
     {
       "id": "e5",
       "text": "I trust a project most when...",
       "type": "likert",
       "ecologyAxis": "commons",
-      "scaleLabels": ["Market", "Depends", "Commons"],
+      "scaleLabels": [
+        "Market",
+        "Depends",
+        "Commons"
+      ],
       "options": [
-        { "value": "0", "text": "1", "ecologyValue": 0 },
-        { "value": "25", "text": "2", "ecologyValue": 25 },
-        { "value": "50", "text": "3", "ecologyValue": 50 },
-        { "value": "75", "text": "4", "ecologyValue": 75 },
-        { "value": "100", "text": "5", "ecologyValue": 100 }
-      ]
+        {
+          "value": "0",
+          "text": "1",
+          "ecologyValue": 0
+        },
+        {
+          "value": "25",
+          "text": "2",
+          "ecologyValue": 25
+        },
+        {
+          "value": "50",
+          "text": "3",
+          "ecologyValue": 50
+        },
+        {
+          "value": "75",
+          "text": "4",
+          "ecologyValue": 75
+        },
+        {
+          "value": "100",
+          "text": "5",
+          "ecologyValue": 100
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: I trust a project most when...",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"I trust a project most when...\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast 1 / 2 / 3; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Trust (social science)",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)"
+          }
+        ]
+      }
     },
     {
       "id": "e6",
       "text": "Regarding resources...",
       "type": "likert",
       "ecologyAxis": "resourceSovereignty",
-      "scaleLabels": ["External Capital", "Depends", "Sovereignty"],
+      "scaleLabels": [
+        "External Capital",
+        "Depends",
+        "Sovereignty"
+      ],
       "options": [
-        { "value": "0", "text": "1", "ecologyValue": 0 },
-        { "value": "25", "text": "2", "ecologyValue": 25 },
-        { "value": "50", "text": "3", "ecologyValue": 50 },
-        { "value": "75", "text": "4", "ecologyValue": 75 },
-        { "value": "100", "text": "5", "ecologyValue": 100 }
-      ]
+        {
+          "value": "0",
+          "text": "1",
+          "ecologyValue": 0
+        },
+        {
+          "value": "25",
+          "text": "2",
+          "ecologyValue": 25
+        },
+        {
+          "value": "50",
+          "text": "3",
+          "ecologyValue": 50
+        },
+        {
+          "value": "75",
+          "text": "4",
+          "ecologyValue": 75
+        },
+        {
+          "value": "100",
+          "text": "5",
+          "ecologyValue": 100
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: Regarding resources...",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"Regarding resources...\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast 1 / 2 / 3; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": [
+          {
+            "label": "Sovereignty",
+            "url": "https://en.wikipedia.org/wiki/Sovereignty"
+          },
+          {
+            "label": "Resource dependency theory",
+            "url": "https://en.wikipedia.org/wiki/Resource_dependence_theory"
+          }
+        ]
+      }
     },
     {
       "id": "e7",
       "text": "Regarding decisions...",
       "type": "likert",
       "ecologyAxis": "distributedGovernance",
-      "scaleLabels": ["Central", "Depends", "Distributed"],
+      "scaleLabels": [
+        "Central",
+        "Depends",
+        "Distributed"
+      ],
       "options": [
-        { "value": "0", "text": "1", "ecologyValue": 0 },
-        { "value": "25", "text": "2", "ecologyValue": 25 },
-        { "value": "50", "text": "3", "ecologyValue": 50 },
-        { "value": "75", "text": "4", "ecologyValue": 75 },
-        { "value": "100", "text": "5", "ecologyValue": 100 }
-      ]
+        {
+          "value": "0",
+          "text": "1",
+          "ecologyValue": 0
+        },
+        {
+          "value": "25",
+          "text": "2",
+          "ecologyValue": 25
+        },
+        {
+          "value": "50",
+          "text": "3",
+          "ecologyValue": 50
+        },
+        {
+          "value": "75",
+          "text": "4",
+          "ecologyValue": 75
+        },
+        {
+          "value": "100",
+          "text": "5",
+          "ecologyValue": 100
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: Regarding decisions...",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"Regarding decisions...\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast 1 / 2 / 3; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": [
+          {
+            "label": "Governance",
+            "url": "https://en.wikipedia.org/wiki/Governance"
+          },
+          {
+            "label": "Decentralization",
+            "url": "https://en.wikipedia.org/wiki/Decentralization"
+          }
+        ]
+      }
     },
     {
       "id": "e8",
       "text": "Regarding success...",
       "type": "likert",
       "ecologyAxis": "sufficiency",
-      "scaleLabels": ["Growth", "Depends", "Sufficiency"],
+      "scaleLabels": [
+        "Growth",
+        "Depends",
+        "Sufficiency"
+      ],
       "options": [
-        { "value": "0", "text": "1", "ecologyValue": 0 },
-        { "value": "25", "text": "2", "ecologyValue": 25 },
-        { "value": "50", "text": "3", "ecologyValue": 50 },
-        { "value": "75", "text": "4", "ecologyValue": 75 },
-        { "value": "100", "text": "5", "ecologyValue": 100 }
-      ]
+        {
+          "value": "0",
+          "text": "1",
+          "ecologyValue": 0
+        },
+        {
+          "value": "25",
+          "text": "2",
+          "ecologyValue": 25
+        },
+        {
+          "value": "50",
+          "text": "3",
+          "ecologyValue": 50
+        },
+        {
+          "value": "75",
+          "text": "4",
+          "ecologyValue": 75
+        },
+        {
+          "value": "100",
+          "text": "5",
+          "ecologyValue": 100
+        }
+      ],
+      "conceptHelp": {
+        "title": "Explorer role pattern: Regarding success...",
+        "summary": "An explorer role pattern is the kind of contribution you tend to make when a problem is uncertain: scout the frontier, map systems, build experiments, operate missions, weave communities, translate meaning, design institutions, or protect boundaries. This question places that pattern in \"Regarding success...\".",
+        "whyItMatters": "The result is meant to help people combine complementary roles. It is most useful when it clarifies what you naturally add and what collaborators may need to provide.",
+        "beforeAnswering": "Choose the contribution you would make first when responsibility is real and the situation is messy, not the role title you like most.",
+        "example": "The options contrast 1 / 2 / 3; your answer shows which contribution pattern you would probably start from.",
+        "learnMore": [
+          {
+            "label": "Sufficiency economy",
+            "url": "https://en.wikipedia.org/wiki/Sufficiency_economy"
+          },
+          {
+            "label": "Sustainable development",
+            "url": "https://en.wikipedia.org/wiki/Sustainable_development"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -272,24 +986,138 @@
     "firstChoicePoints": 3,
     "secondChoicePoints": 1,
     "dimensions": [
-      { "key": "FS", "label": "Frontier Scout", "theoreticalMin": 0, "theoreticalMax": 15 },
-      { "key": "SC", "label": "Systems Cartographer", "theoreticalMin": 0, "theoreticalMax": 15 },
-      { "key": "EB", "label": "Experimental Builder", "theoreticalMin": 0, "theoreticalMax": 15 },
-      { "key": "MO", "label": "Mission Operator", "theoreticalMin": 0, "theoreticalMax": 15 },
-      { "key": "CW", "label": "Community Weaver", "theoreticalMin": 0, "theoreticalMax": 15 },
-      { "key": "MT", "label": "Meaning Translator", "theoreticalMin": 0, "theoreticalMax": 15 },
-      { "key": "IA", "label": "Institutional Architect", "theoreticalMin": 0, "theoreticalMax": 15 },
-      { "key": "BS", "label": "Boundary Steward", "theoreticalMin": 0, "theoreticalMax": 15 }
+      {
+        "key": "FS",
+        "label": "Frontier Scout",
+        "theoreticalMin": 0,
+        "theoreticalMax": 15
+      },
+      {
+        "key": "SC",
+        "label": "Systems Cartographer",
+        "theoreticalMin": 0,
+        "theoreticalMax": 15
+      },
+      {
+        "key": "EB",
+        "label": "Experimental Builder",
+        "theoreticalMin": 0,
+        "theoreticalMax": 15
+      },
+      {
+        "key": "MO",
+        "label": "Mission Operator",
+        "theoreticalMin": 0,
+        "theoreticalMax": 15
+      },
+      {
+        "key": "CW",
+        "label": "Community Weaver",
+        "theoreticalMin": 0,
+        "theoreticalMax": 15
+      },
+      {
+        "key": "MT",
+        "label": "Meaning Translator",
+        "theoreticalMin": 0,
+        "theoreticalMax": 15
+      },
+      {
+        "key": "IA",
+        "label": "Institutional Architect",
+        "theoreticalMin": 0,
+        "theoreticalMax": 15
+      },
+      {
+        "key": "BS",
+        "label": "Boundary Steward",
+        "theoreticalMin": 0,
+        "theoreticalMax": 15
+      }
     ]
   },
   "ecologyPrototypes": {
-    "independentStudio":       [65, 20, 35, 45, 25, 90, 20, 55],
-    "frontierResearchLab":     [25, 45, 90, 60, 70, 35, 45, 60],
-    "missionStartup":          [75, 35, 25, 90, 20, 20, 15, 15],
-    "openCommonsNetwork":      [40, 80, 65, 75, 95, 70, 95, 65],
-    "communityVenture":        [65, 85, 70, 20, 75, 80, 80, 85],
-    "cooperativeEnterprise":   [75, 90, 55, 45, 55, 75, 95, 75],
-    "publicInterestInstitution":[80, 85, 85, 70, 95, 30, 45, 70],
-    "ecosystemOrchestrator":   [45, 95, 65, 85, 80, 40, 85, 55]
-  }
+    "independentStudio": [
+      65,
+      20,
+      35,
+      45,
+      25,
+      90,
+      20,
+      55
+    ],
+    "frontierResearchLab": [
+      25,
+      45,
+      90,
+      60,
+      70,
+      35,
+      45,
+      60
+    ],
+    "missionStartup": [
+      75,
+      35,
+      25,
+      90,
+      20,
+      20,
+      15,
+      15
+    ],
+    "openCommonsNetwork": [
+      40,
+      80,
+      65,
+      75,
+      95,
+      70,
+      95,
+      65
+    ],
+    "communityVenture": [
+      65,
+      85,
+      70,
+      20,
+      75,
+      80,
+      80,
+      85
+    ],
+    "cooperativeEnterprise": [
+      75,
+      90,
+      55,
+      45,
+      55,
+      75,
+      95,
+      75
+    ],
+    "publicInterestInstitution": [
+      80,
+      85,
+      85,
+      70,
+      95,
+      30,
+      45,
+      70
+    ],
+    "ecosystemOrchestrator": [
+      45,
+      95,
+      65,
+      85,
+      80,
+      40,
+      85,
+      55
+    ]
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

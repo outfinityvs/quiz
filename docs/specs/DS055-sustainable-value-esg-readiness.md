@@ -20,7 +20,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 
 | Field | Value |
 | --- | --- |
-| Public | Founders, SMEs, boards, investors, family offices, and sustainability leaders |
+| Public | Founders, SMEs, executive teams, and sustainability leaders |
 | Category | AI, governance, security, and sustainable value |
 | Format | Sustainable value maturity assessment |
 | Priority | P2 |
@@ -36,7 +36,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 3. Operations & Value Chain
 4. Claims & Reporting
 
-Each dimension must have exactly two scored public questions. Maturity and readiness instruments may add evidence-confidence context questions; these are displayed separately and are not scored. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
+Each dimension must have exactly two scored public questions. Maturity and readiness instruments may add answer-support context questions; these are displayed separately and are not scored. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
 
 ### Public Questions and Answer Model
 
@@ -67,7 +67,7 @@ Level bands:
 
 ### Result Contract
 
-The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, limitations, and evidence-confidence language when supported by the UI.
+The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, limitations, and answer-support language when supported by the UI.
 
 Archetype mapping:
 
@@ -97,7 +97,7 @@ Level copy requirements:
 | Integrated | Practices are measured and integrated; show the principal scaling or optimisation constraint. |
 | Value-Creating | The system learns continuously; recommend calibration, resilience, and contribution to peer benchmarks. |
 
-The share card must be private by default. It may show the level, strongest dimension, archetype, or challenge invitation. It must not publish sensitive weaknesses, answer-level errors, financial or legal details, security gaps, family-office details, or regulatory risk flags.
+The share card must be private by default. It may show the level, strongest dimension, archetype, or challenge invitation. It must not publish sensitive weaknesses, answer-level errors, financial or legal details, security gaps, or regulatory risk flags.
 
 ### Implementation Notes
 

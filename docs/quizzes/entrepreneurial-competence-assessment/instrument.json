@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Competence assessment inspired by EntreComp. 6 min.",
-    "description": "<p>Entrepreneurial competence map from opportunity recognition to responsible value creation.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Entrepreneurial Competence Compass helps you learn the vocabulary and typical expectations behind Opportunity & Vision, Resource Mobilisation, Action & Experimentation, Ethics & Shared Value. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -26,7 +26,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Opportunity & Vision; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -36,7 +36,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Opportunity & Vision, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -46,7 +46,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Opportunity & Vision has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -56,7 +56,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Opportunity & Vision is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -72,7 +72,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Opportunity & Vision: When you notice a recurring frustration, what do you do",
+        "summary": "Opportunity & Vision means turning a noticed problem into a credible opportunity, a useful future state, and a reason for others to care. This question narrows the concept to \"When you notice a recurring frustration, what do you do?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Opportunity & Vision matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"When you notice a recurring frustration, what do you do?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": []
+      }
     },
     {
       "id": "q2",
@@ -85,7 +93,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Opportunity & Vision; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -95,7 +103,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Opportunity & Vision, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -105,7 +113,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Opportunity & Vision has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -115,7 +123,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Opportunity & Vision is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -131,7 +139,20 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Opportunity & Vision: How clearly can you translate an opportunity into a compelling future state",
+        "summary": "Opportunity & Vision means turning a noticed problem into a credible opportunity, a useful future state, and a reason for others to care. This question narrows the concept to \"How clearly can you translate an opportunity into a compelling future state?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Opportunity & Vision matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How clearly can you translate an opportunity into a compelling future state?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -144,7 +165,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Resource Mobilisation; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -154,7 +175,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Resource Mobilisation, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -164,7 +185,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Resource Mobilisation has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -174,7 +195,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Resource Mobilisation is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -190,7 +211,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Resource Mobilisation: How accurately do you understand your own capabilities and gaps",
+        "summary": "Resource Mobilisation means assembling people, money, knowledge, relationships, and personal capability around an opportunity without pretending gaps do not exist. This question narrows the concept to \"How accurately do you understand your own capabilities and gaps?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Resource Mobilisation matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How accurately do you understand your own capabilities and gaps?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": []
+      }
     },
     {
       "id": "q4",
@@ -203,7 +232,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Resource Mobilisation; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -213,7 +242,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Resource Mobilisation, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -223,7 +252,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Resource Mobilisation has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -233,7 +262,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Resource Mobilisation is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -249,7 +278,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Resource Mobilisation: How do you mobilise people, money, and knowledge around an opportunity",
+        "summary": "Resource Mobilisation means assembling people, money, knowledge, relationships, and personal capability around an opportunity without pretending gaps do not exist. This question narrows the concept to \"How do you mobilise people, money, and knowledge around an opportunity?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Resource Mobilisation matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How do you mobilise people, money, and knowledge around an opportunity?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": []
+      }
     },
     {
       "id": "q5",
@@ -262,7 +299,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Action & Experimentation; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -272,7 +309,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Action & Experimentation, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -282,7 +319,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Action & Experimentation has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -292,7 +329,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Action & Experimentation is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -308,7 +345,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Action & Experimentation: How do you act when important information is missing",
+        "summary": "Action & Experimentation means moving under uncertainty through small tests, fast feedback, and learning from setbacks instead of waiting for perfect information. This question narrows the concept to \"How do you act when important information is missing?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Action & Experimentation matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How do you act when important information is missing?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -321,7 +375,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Action & Experimentation; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -331,7 +385,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Action & Experimentation, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -341,7 +395,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Action & Experimentation has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -351,7 +405,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Action & Experimentation is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -367,7 +421,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Action & Experimentation: How do you use setbacks",
+        "summary": "Action & Experimentation means moving under uncertainty through small tests, fast feedback, and learning from setbacks instead of waiting for perfect information. This question narrows the concept to \"How do you use setbacks?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Action & Experimentation matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How do you use setbacks?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -380,7 +451,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Ethics & Shared Value; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -390,7 +461,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Ethics & Shared Value, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -400,7 +471,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Ethics & Shared Value has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -410,7 +481,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Ethics & Shared Value is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -426,7 +497,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Ethics & Shared Value: How do you evaluate who may benefit or be harmed by the venture",
+        "summary": "Ethics & Shared Value means checking who benefits, who may be harmed, and whether value creation is wider than a transaction or pitch claim. This question narrows the concept to \"How do you evaluate who may benefit or be harmed by the venture?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Ethics & Shared Value matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How do you evaluate who may benefit or be harmed by the venture?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": []
+      }
     },
     {
       "id": "q8",
@@ -439,7 +518,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Ethics & Shared Value; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -449,7 +528,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Ethics & Shared Value, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -459,7 +538,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Ethics & Shared Value has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -469,7 +548,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Ethics & Shared Value is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -485,7 +564,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Ethics & Shared Value: How does the business create value beyond a transaction",
+        "summary": "Ethics & Shared Value means checking who benefits, who may be harmed, and whether value creation is wider than a transaction or pitch claim. This question narrows the concept to \"How does the business create value beyond a transaction?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Ethics & Shared Value matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How does the business create value beyond a transaction?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -521,13 +608,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-opportunity-and-vision",
@@ -549,7 +631,15 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Opportunity & Vision",
+        "summary": "This question asks how well your answers about Opportunity & Vision are supported. Opportunity & Vision means turning a noticed problem into a credible opportunity, a useful future state, and a reason for others to care. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Opportunity & Vision is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Opportunity & Vision answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": []
+      }
     },
     {
       "id": "evidence-resource-mobilisation",
@@ -571,7 +661,15 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Resource Mobilisation",
+        "summary": "This question asks how well your answers about Resource Mobilisation are supported. Resource Mobilisation means assembling people, money, knowledge, relationships, and personal capability around an opportunity without pretending gaps do not exist. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Resource Mobilisation is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Resource Mobilisation answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": []
+      }
     },
     {
       "id": "evidence-action-and-experimentation",
@@ -593,7 +691,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Action & Experimentation",
+        "summary": "This question asks how well your answers about Action & Experimentation are supported. Action & Experimentation means moving under uncertainty through small tests, fast feedback, and learning from setbacks instead of waiting for perfect information. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Action & Experimentation is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Action & Experimentation answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-ethics-and-shared-value",
@@ -615,7 +730,18 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Ethics & Shared Value",
+        "summary": "This question asks how well your answers about Ethics & Shared Value are supported. Ethics & Shared Value means checking who benefits, who may be harmed, and whether value creation is wider than a transaction or pitch claim. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Ethics & Shared Value is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Ethics & Shared Value answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": []
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

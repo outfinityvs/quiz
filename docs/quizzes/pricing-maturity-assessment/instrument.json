@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Commercial maturity assessment. 6 min.",
-    "description": "<p>Pricing and monetisation maturity diagnostic for value, packaging, price architecture, governance, and experimentation.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Pricing & Monetisation Maturity helps you learn the vocabulary and typical expectations behind Value Understanding, Packaging & Segmentation, Price Architecture & Governance, Experimentation & Realisation. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -26,7 +26,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Value Understanding; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -36,7 +36,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Value Understanding, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -46,7 +46,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Value Understanding has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -56,7 +56,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Value Understanding is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -72,7 +72,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Value Understanding: How is willingness to pay understood",
+        "summary": "Value Understanding means knowing what customers value, how much that value is worth, and where willingness to pay comes from. This question narrows the concept to \"How is willingness to pay understood?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Value Understanding matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How is willingness to pay understood?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Pricing",
+            "url": "https://en.wikipedia.org/wiki/Pricing"
+          },
+          {
+            "label": "Wikipedia: Value-based pricing",
+            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -131,7 +148,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Value Understanding: How well can the team quantify customer value",
+        "summary": "Value Understanding means knowing what customers value, how much that value is worth, and where willingness to pay comes from. This question narrows the concept to \"How well can the team quantify customer value?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Value Understanding matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How well can the team quantify customer value?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Pricing",
+            "url": "https://en.wikipedia.org/wiki/Pricing"
+          },
+          {
+            "label": "Wikipedia: Value-based pricing",
+            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -144,7 +178,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Packaging & Segmentation; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -154,7 +188,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Packaging & Segmentation, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -164,7 +198,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Packaging & Segmentation has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -174,7 +208,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Packaging & Segmentation is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -190,7 +224,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Packaging & Segmentation: How are plans or offers differentiated",
+        "summary": "Packaging & Segmentation means matching plans, features, limits, and offers to segments so pricing reflects value and buying behavior. This question narrows the concept to \"How are plans or offers differentiated?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Packaging & Segmentation matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How are plans or offers differentiated?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Pricing",
+            "url": "https://en.wikipedia.org/wiki/Pricing"
+          },
+          {
+            "label": "Wikipedia: Value-based pricing",
+            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -203,7 +254,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Packaging & Segmentation; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -213,7 +264,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Packaging & Segmentation, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -223,7 +274,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Packaging & Segmentation has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -233,7 +284,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Packaging & Segmentation is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -249,7 +300,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Packaging & Segmentation: How well do entitlements and limits align with value",
+        "summary": "Packaging & Segmentation means matching plans, features, limits, and offers to segments so pricing reflects value and buying behavior. This question narrows the concept to \"How well do entitlements and limits align with value?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Packaging & Segmentation matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How well do entitlements and limits align with value?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Pricing",
+            "url": "https://en.wikipedia.org/wiki/Pricing"
+          },
+          {
+            "label": "Wikipedia: Value-based pricing",
+            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -262,7 +330,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Price Architecture & Governance; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -272,7 +340,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Price Architecture & Governance, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -282,7 +350,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Price Architecture & Governance has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -292,7 +360,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Price Architecture & Governance is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -308,7 +376,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Price Architecture & Governance: How strong is the price metric",
+        "summary": "Price Architecture & Governance means the structure of price metrics, discount rules, approvals, exceptions, and ownership of pricing decisions. This question narrows the concept to \"How strong is the price metric?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Price Architecture & Governance matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How strong is the price metric?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Pricing",
+            "url": "https://en.wikipedia.org/wiki/Pricing"
+          },
+          {
+            "label": "Wikipedia: Value-based pricing",
+            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -321,7 +406,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Price Architecture & Governance; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -331,7 +416,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Price Architecture & Governance, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -341,7 +426,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Price Architecture & Governance has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -351,7 +436,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Price Architecture & Governance is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -367,7 +452,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Price Architecture & Governance: How are discounts and exceptions governed",
+        "summary": "Price Architecture & Governance means the structure of price metrics, discount rules, approvals, exceptions, and ownership of pricing decisions. This question narrows the concept to \"How are discounts and exceptions governed?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Price Architecture & Governance matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How are discounts and exceptions governed?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Pricing",
+            "url": "https://en.wikipedia.org/wiki/Pricing"
+          },
+          {
+            "label": "Wikipedia: Value-based pricing",
+            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -426,7 +528,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Experimentation & Realisation: How often is pricing tested or reviewed",
+        "summary": "Experimentation & Realisation means testing price and packaging while measuring whether expected value is actually captured in revenue and margin. This question narrows the concept to \"How often is pricing tested or reviewed?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Experimentation & Realisation matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How often is pricing tested or reviewed?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -439,7 +558,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Experimentation & Realisation; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -449,7 +568,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Experimentation & Realisation, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -459,7 +578,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Experimentation & Realisation has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -469,7 +588,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Experimentation & Realisation is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -485,7 +604,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Experimentation & Realisation: How is monetisation performance measured",
+        "summary": "Experimentation & Realisation means testing price and packaging while measuring whether expected value is actually captured in revenue and margin. This question narrows the concept to \"How is monetisation performance measured?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Experimentation & Realisation matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How is monetisation performance measured?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +657,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-value-understanding",
@@ -549,7 +680,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Value Understanding",
+        "summary": "This question asks how well your answers about Value Understanding are supported. Value Understanding means knowing what customers value, how much that value is worth, and where willingness to pay comes from. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Value Understanding is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Value Understanding answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Pricing",
+            "url": "https://en.wikipedia.org/wiki/Pricing"
+          },
+          {
+            "label": "Wikipedia: Value-based pricing",
+            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-packaging-and-segmentation",
@@ -571,7 +719,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Packaging & Segmentation",
+        "summary": "This question asks how well your answers about Packaging & Segmentation are supported. Packaging & Segmentation means matching plans, features, limits, and offers to segments so pricing reflects value and buying behavior. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Packaging & Segmentation is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Packaging & Segmentation answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Pricing",
+            "url": "https://en.wikipedia.org/wiki/Pricing"
+          },
+          {
+            "label": "Wikipedia: Value-based pricing",
+            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-price-architecture-and-governance",
@@ -593,7 +758,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Price Architecture & Governance",
+        "summary": "This question asks how well your answers about Price Architecture & Governance are supported. Price Architecture & Governance means the structure of price metrics, discount rules, approvals, exceptions, and ownership of pricing decisions. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Price Architecture & Governance is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Price Architecture & Governance answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Pricing",
+            "url": "https://en.wikipedia.org/wiki/Pricing"
+          },
+          {
+            "label": "Wikipedia: Value-based pricing",
+            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-experimentation-and-realisation",
@@ -615,7 +797,27 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Experimentation & Realisation",
+        "summary": "This question asks how well your answers about Experimentation & Realisation are supported. Experimentation & Realisation means testing price and packaging while measuring whether expected value is actually captured in revenue and margin. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Experimentation & Realisation is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Experimentation & Realisation answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

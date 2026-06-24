@@ -8,10 +8,10 @@
   "type": "maturity",
   "domain": "ai-trust",
   "priority": "P2",
-  "audience": "Founders, SMEs, boards, investors, family offices, and sustainability leaders",
+  "audience": "Founders, SMEs, executive teams, and sustainability leaders",
   "hasRecommendation": false,
   "license": "CC BY 4.0",
-  "description": "Sustainable value maturity assessment across Materiality & Strategy, Governance & Data, Operations & Value Chain, Claims & Reporting. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "description": "Sustainable value maturity assessment across Materiality & Strategy, Governance & Data, Operations & Value Chain, Claims & Reporting. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate answer-support checks.",
   "ogTitle": "Sustainable Value & ESG Readiness - Outfinity Quiz",
   "ogDescription": "Sustainable value and ESG readiness diagnostic for materiality, governance, data, operations, claims, and reporting."
 }

@@ -6,41 +6,51 @@
       "min": 0,
       "max": 24,
       "label": "Exposed",
-      "copy": ""
+      "copy": "The Cybersecurity & Privacy Readiness pattern is still mostly informal or ad hoc. Pick one stabilising action, document it, and avoid adding a long process before the basics are real."
     },
     {
       "id": "basic-hygiene",
       "min": 25,
       "max": 44,
       "label": "Basic Hygiene",
-      "copy": ""
+      "copy": "Some Cybersecurity & Privacy Readiness practices exist, but they still depend on individual memory and effort. The next step is two repeatable routines with clear owners."
     },
     {
       "id": "managed",
       "min": 45,
       "max": 64,
       "label": "Managed",
-      "copy": ""
+      "copy": "Core Cybersecurity & Privacy Readiness practices are repeatable, but evidence quality and ownership are uneven. Work on the weakest dimension before optimising the strongest one."
     },
     {
       "id": "resilient",
       "min": 65,
       "max": 84,
       "label": "Resilient",
-      "copy": ""
+      "copy": "Cybersecurity & Privacy Readiness practices are measured and connected to decisions. The main work is now removing the constraint that prevents the system from scaling cleanly."
     },
     {
       "id": "trust-grade",
       "min": 85,
       "max": 100,
       "label": "Trust-Grade",
-      "copy": ""
+      "copy": "Cybersecurity & Privacy Readiness is operating as a learning system. Keep calibrating against evidence, stress-test resilience, and avoid treating a strong score as a permanent guarantee."
     }
   ],
-  "archetypes": {},
-  "recommendations": {},
+  "archetypes": {
+    "govern-and-identify": "Governance Mapper",
+    "protect": "Protection Engineer",
+    "detect-and-respond": "Response Commander",
+    "recover-and-privacy": "Recovery & Privacy Steward"
+  },
+  "recommendations": {
+    "govern-and-identify": "Assign executive ownership and complete a risk-ranked map of assets, data, identities, and critical suppliers.",
+    "protect": "Close MFA, privileged access, patching, encryption, and immutable-backup gaps for critical services.",
+    "detect-and-respond": "Run a cross-functional incident exercise with decision, evidence, legal, privacy, and communication paths.",
+    "recover-and-privacy": "Test a full restore and operationalise data rights, retention, and privacy impact review."
+  },
   "defaultSecondAction": "Retake the diagnostic after a focused 30-day improvement cycle and compare only your own progress unless a team comparison is explicitly agreed.",
   "reflectionQuestion": "Which assumption behind your weakest dimension deserves the fastest evidence check?",
-  "methodologyNote": "Version 1 uses four dimensions with two questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
+  "methodologyNote": "The current version uses four dimensions with two questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
   "shareNote": "Share cards reveal only the level and strongest area. They do not publish individual answers, sensitive weaknesses, legal or financial details, security gaps, or family-specific information."
 }

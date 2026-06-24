@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "How do you relate to past, present, and future? Five time orientations, none of them the \"right\" one.",
-    "description": "<p>This is not about balance versus imbalance — different time orientations serve different life phases. It shows which orientations currently dominate you, so you can tell whether your time horizon is chosen or just inherited.</p><p>Inspired by Zimbardo Time Perspective concepts. Items are original (ZTPI is copyrighted and not reproduced).</p>",
+    "description": "<p>This is not about balance versus imbalance — different time orientations serve different life phases. It shows which orientations currently dominate you, so you can tell whether your time horizon is chosen or just inherited.</p><p>Inspired by Zimbardo Time Perspective concepts. Items are original (ZTPI is copyrighted and not reproduced).</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "15 statements. Approximately three to four minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Inspired by Zimbardo Time Perspective concepts. Items are original. This is not the validated ZTPI and not a clinical assessment.",
@@ -60,7 +60,20 @@
             "pastPositive": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Past-Positive: I enjoy looking back on good memories from my past.",
+        "summary": "Past-Positive means a warm, stabilizing relationship with good memories, roots, and continuity from the past. This statement is one small behavioral signal for that pattern: \"I enjoy looking back on good memories from my past.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -110,7 +123,20 @@
             "pastPositive": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Past-Positive: I feel warmly about the traditions I grew up with.",
+        "summary": "Past-Positive means a warm, stabilizing relationship with good memories, roots, and continuity from the past. This statement is one small behavioral signal for that pattern: \"I feel warmly about the traditions I grew up with.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -160,7 +186,20 @@
             "pastPositive": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Past-Positive: Thinking about my past gives me a sense of stability and gratitude.",
+        "summary": "Past-Positive means a warm, stabilizing relationship with good memories, roots, and continuity from the past. This statement is one small behavioral signal for that pattern: \"Thinking about my past gives me a sense of stability and gratitude.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -210,7 +249,20 @@
             "pastNegative": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Past-negative: I often replay mistakes from my past and wish I had acted differently.",
+        "summary": "Past-negative means a tendency for regret, unresolved pain, or past mistakes to pull attention back. This statement is one small behavioral signal for that pattern: \"I often replay mistakes from my past and wish I had acted differently.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -260,7 +312,20 @@
             "pastNegative": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Past-negative: Painful memories from the past come back to me more than I would like.",
+        "summary": "Past-negative means a tendency for regret, unresolved pain, or past mistakes to pull attention back. This statement is one small behavioral signal for that pattern: \"Painful memories from the past come back to me more than I would like.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -310,7 +375,20 @@
             "pastNegative": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Past-negative: I carry regret about things I did not do when I had the chance.",
+        "summary": "Past-negative means a tendency for regret, unresolved pain, or past mistakes to pull attention back. This statement is one small behavioral signal for that pattern: \"I carry regret about things I did not do when I had the chance.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -360,7 +438,20 @@
             "presentHedonistic": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Present-hedonistic: I follow my impulses and do what feels good in the moment.",
+        "summary": "Present-hedonistic means orientation toward enjoyment, stimulation, spontaneity, and present experience. This statement is one small behavioral signal for that pattern: \"I follow my impulses and do what feels good in the moment.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -410,7 +501,20 @@
             "presentHedonistic": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Present-hedonistic: I would rather enjoy today than worry about tomorrow.",
+        "summary": "Present-hedonistic means orientation toward enjoyment, stimulation, spontaneity, and present experience. This statement is one small behavioral signal for that pattern: \"I would rather enjoy today than worry about tomorrow.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q9",
@@ -460,7 +564,20 @@
             "presentHedonistic": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Present-hedonistic: I seek out stimulation, novelty, and pleasure as they come.",
+        "summary": "Present-hedonistic means orientation toward enjoyment, stimulation, spontaneity, and present experience. This statement is one small behavioral signal for that pattern: \"I seek out stimulation, novelty, and pleasure as they come.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q10",
@@ -510,7 +627,20 @@
             "presentFatalistic": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Present-fatalistic: It feels like much of what happens to me is out of my hands.",
+        "summary": "Present-fatalistic means the sense that planning or effort has limited effect because events feel outside personal control. This statement is one small behavioral signal for that pattern: \"It feels like much of what happens to me is out of my hands.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q11",
@@ -560,7 +690,20 @@
             "presentFatalistic": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Present-fatalistic: Planning ahead seems pointless because the future is hard to predict.",
+        "summary": "Present-fatalistic means the sense that planning or effort has limited effect because events feel outside personal control. This statement is one small behavioral signal for that pattern: \"Planning ahead seems pointless because the future is hard to predict.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q12",
@@ -610,7 +753,20 @@
             "presentFatalistic": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Present-fatalistic: I tend to accept my current situation rather than try to change it.",
+        "summary": "Present-fatalistic means the sense that planning or effort has limited effect because events feel outside personal control. This statement is one small behavioral signal for that pattern: \"I tend to accept my current situation rather than try to change it.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q13",
@@ -660,7 +816,20 @@
             "future": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Future-oriented: I make lists and plans to meet my long-term goals.",
+        "summary": "Future-oriented means orientation toward goals, planning, delayed gratification, and long-term consequences. This statement is one small behavioral signal for that pattern: \"I make lists and plans to meet my long-term goals.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q14",
@@ -710,7 +879,20 @@
             "future": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Future-oriented: I am willing to give up something now for a better payoff later.",
+        "summary": "Future-oriented means orientation toward goals, planning, delayed gratification, and long-term consequences. This statement is one small behavioral signal for that pattern: \"I am willing to give up something now for a better payoff later.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q15",
@@ -760,7 +942,20 @@
             "future": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Future-oriented: I think a lot about what I want my life to look like years from now.",
+        "summary": "Future-oriented means orientation toward goals, planning, delayed gratification, and long-term consequences. This statement is one small behavioral signal for that pattern: \"I think a lot about what I want my life to look like years from now.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -800,5 +995,7 @@
   },
   "attribution": {
     "text": "Inspired by Zimbardo Time Perspective concepts. Items are original and not from the validated ZTPI instrument."
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

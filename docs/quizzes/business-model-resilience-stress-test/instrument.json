@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Risk and resilience assessment. 6 min.",
-    "description": "<p>Business resilience stress test for demand concentration, margin, cash shock, and operational dependencies.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Business Model Resilience Stress Test helps you learn the vocabulary and typical expectations behind Demand Concentration, Margin Flexibility, Cash Shock Capacity, Operational Dependencies. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -72,7 +72,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Demand Concentration: How dependent is revenue on the largest customer or customer group",
+        "summary": "Demand Concentration means how exposed the business is to one customer, segment, channel, or demand source and how that exposure changes under stress. This question narrows the concept to \"How dependent is revenue on the largest customer or customer group?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Demand Concentration matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How dependent is revenue on the largest customer or customer group?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": []
+      }
     },
     {
       "id": "q2",
@@ -131,7 +139,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Demand Concentration: How dependent is growth on a single acquisition or distribution channel",
+        "summary": "Demand Concentration means how exposed the business is to one customer, segment, channel, or demand source and how that exposure changes under stress. This question narrows the concept to \"How dependent is growth on a single acquisition or distribution channel?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Demand Concentration matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How dependent is growth on a single acquisition or distribution channel?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": []
+      }
     },
     {
       "id": "q3",
@@ -190,7 +206,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Margin Flexibility: How well can gross margin absorb supplier, infrastructure, or service-cost increases",
+        "summary": "Margin Flexibility means whether gross margin and operating costs can absorb shocks without destroying the business model. This question narrows the concept to \"How well can gross margin absorb supplier, infrastructure, or service-cost increases?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Margin Flexibility matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How well can gross margin absorb supplier, infrastructure, or service-cost increases?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -203,7 +236,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Margin Flexibility; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -213,7 +246,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Margin Flexibility, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -223,7 +256,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Margin Flexibility has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -233,7 +266,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Margin Flexibility is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -249,7 +282,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Margin Flexibility: How flexible is the operating cost base during a downturn",
+        "summary": "Margin Flexibility means whether gross margin and operating costs can absorb shocks without destroying the business model. This question narrows the concept to \"How flexible is the operating cost base during a downturn?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Margin Flexibility matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How flexible is the operating cost base during a downturn?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": []
+      }
     },
     {
       "id": "q5",
@@ -308,7 +349,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Cash Shock Capacity: What cash buffer exists under a realistic downside case",
+        "summary": "Cash Shock Capacity means how long the company can keep operating under realistic downside scenarios and whether actions are ready before cash pressure arrives. This question narrows the concept to \"What cash buffer exists under a realistic downside case?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Cash Shock Capacity matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"What cash buffer exists under a realistic downside case?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -321,7 +379,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Cash Shock Capacity; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -331,7 +389,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Cash Shock Capacity, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -341,7 +399,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Cash Shock Capacity has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -351,7 +409,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Cash Shock Capacity is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -367,7 +425,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Cash Shock Capacity: How rigorously are downside scenarios translated into actions",
+        "summary": "Cash Shock Capacity means how long the company can keep operating under realistic downside scenarios and whether actions are ready before cash pressure arrives. This question narrows the concept to \"How rigorously are downside scenarios translated into actions?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Cash Shock Capacity matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How rigorously are downside scenarios translated into actions?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -426,7 +501,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Operational Dependencies: How dependent are critical operations on one person, supplier, or technology component",
+        "summary": "Operational Dependencies means single points of failure in people, suppliers, systems, processes, or infrastructure that could interrupt delivery. This question narrows the concept to \"How dependent are critical operations on one person, supplier, or technology component?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Operational Dependencies matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How dependent are critical operations on one person, supplier, or technology component?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": []
+      }
     },
     {
       "id": "q8",
@@ -485,7 +568,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Operational Dependencies: How rapidly could the business restore service after a major disruption",
+        "summary": "Operational Dependencies means single points of failure in people, suppliers, systems, processes, or infrastructure that could interrupt delivery. This question narrows the concept to \"How rapidly could the business restore service after a major disruption?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Operational Dependencies matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current model behind \"How rapidly could the business restore service after a major disruption?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -521,13 +612,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-demand-concentration",
@@ -549,7 +635,15 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Demand Concentration",
+        "summary": "This question asks how well your answers about Demand Concentration are supported. Demand Concentration means how exposed the business is to one customer, segment, channel, or demand source and how that exposure changes under stress. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Demand Concentration is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Demand Concentration answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": []
+      }
     },
     {
       "id": "evidence-margin-flexibility",
@@ -571,7 +665,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Margin Flexibility",
+        "summary": "This question asks how well your answers about Margin Flexibility are supported. Margin Flexibility means whether gross margin and operating costs can absorb shocks without destroying the business model. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Margin Flexibility is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Margin Flexibility answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-cash-shock-capacity",
@@ -593,7 +704,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Cash Shock Capacity",
+        "summary": "This question asks how well your answers about Cash Shock Capacity are supported. Cash Shock Capacity means how long the company can keep operating under realistic downside scenarios and whether actions are ready before cash pressure arrives. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Cash Shock Capacity is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Cash Shock Capacity answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-operational-dependencies",
@@ -615,7 +743,18 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Operational Dependencies",
+        "summary": "This question asks how well your answers about Operational Dependencies are supported. Operational Dependencies means single points of failure in people, suppliers, systems, processes, or infrastructure that could interrupt delivery. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Operational Dependencies is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Operational Dependencies answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": []
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

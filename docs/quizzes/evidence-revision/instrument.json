@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "How firmly do you hold beliefs — and what would change them? Four axes of the tension between conviction and openness.",
-    "description": "<p>For each of twelve statements you do two things: rate your agreement, then say what would change your mind. This is not about whether you are right; it maps the tension between how strongly you hold a belief and how open you are to revising it.</p><p>Inspired by actively open-minded thinking (AOT) scales. Original items.</p>",
+    "description": "<p>For each of twelve statements you do two things: rate your agreement, then say what would change your mind. This is not about whether you are right; it maps the tension between how strongly you hold a belief and how open you are to revising it.</p><p>Inspired by actively open-minded thinking (AOT) scales. Original items.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "12 statements, two answers each. Approximately five minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Inspired by actively open-minded thinking (AOT) scales (public domain). Items are original adaptations. This is not a validated psychometric assessment.",
@@ -60,7 +60,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: Market incentives usually produce better outcomes than centralized planning.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"Market incentives usually produce better outcomes than centralized planning.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b1b",
@@ -99,7 +116,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"Market incentives usually produce better outcomes than centralized planning.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"Market incentives usually produce better outcomes than centralized planning.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"Market incentives usually produce better outcomes than centralized planning.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     },
     {
       "id": "b2a",
@@ -149,7 +183,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: Cryptocurrency and blockchains create more social good than harm.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"Cryptocurrency and blockchains create more social good than harm.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b2b",
@@ -188,7 +239,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"Cryptocurrency and blockchains create more social good than harm.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"Cryptocurrency and blockchains create more social good than harm.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"Cryptocurrency and blockchains create more social good than harm.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     },
     {
       "id": "b3a",
@@ -238,7 +306,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: Advanced AI development should be strictly governed before it becomes much more powerful.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"Advanced AI development should be strictly governed before it becomes much more powerful.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b3b",
@@ -277,7 +362,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"Advanced AI development should be strictly governed before it becomes much more powerful.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"Advanced AI development should be strictly governed before it becomes much more powerful.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"Advanced AI development should be strictly governed before it becomes much more powerful.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     },
     {
       "id": "b4a",
@@ -327,7 +429,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: Economic growth is worth some environmental cost in the short term.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"Economic growth is worth some environmental cost in the short term.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b4b",
@@ -366,7 +485,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"Economic growth is worth some environmental cost in the short term.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"Economic growth is worth some environmental cost in the short term.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"Economic growth is worth some environmental cost in the short term.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     },
     {
       "id": "b5a",
@@ -416,7 +552,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: Remote work makes teams less innovative than in-person work.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"Remote work makes teams less innovative than in-person work.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b5b",
@@ -455,7 +608,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"Remote work makes teams less innovative than in-person work.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"Remote work makes teams less innovative than in-person work.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"Remote work makes teams less innovative than in-person work.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     },
     {
       "id": "b6a",
@@ -505,7 +675,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: Open-source collaboration produces more durable technology than proprietary work.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"Open-source collaboration produces more durable technology than proprietary work.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b6b",
@@ -544,7 +731,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"Open-source collaboration produces more durable technology than proprietary work.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"Open-source collaboration produces more durable technology than proprietary work.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"Open-source collaboration produces more durable technology than proprietary work.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     },
     {
       "id": "b7a",
@@ -594,7 +798,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: People are, on balance, more self-interested than cooperative.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"People are, on balance, more self-interested than cooperative.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b7b",
@@ -633,7 +854,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"People are, on balance, more self-interested than cooperative.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"People are, on balance, more self-interested than cooperative.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"People are, on balance, more self-interested than cooperative.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     },
     {
       "id": "b8a",
@@ -683,7 +921,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: Social media has done more harm than good to public discourse.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"Social media has done more harm than good to public discourse.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b8b",
@@ -722,7 +977,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"Social media has done more harm than good to public discourse.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"Social media has done more harm than good to public discourse.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"Social media has done more harm than good to public discourse.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     },
     {
       "id": "b9a",
@@ -772,7 +1044,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: Free speech should be protected even when it causes real offense.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"Free speech should be protected even when it causes real offense.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b9b",
@@ -811,7 +1100,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"Free speech should be protected even when it causes real offense.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"Free speech should be protected even when it causes real offense.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"Free speech should be protected even when it causes real offense.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     },
     {
       "id": "b10a",
@@ -861,7 +1167,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: Humans can meaningfully reduce their climate impact without lowering living standards.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"Humans can meaningfully reduce their climate impact without lowering living standards.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b10b",
@@ -900,7 +1223,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"Humans can meaningfully reduce their climate impact without lowering living standards.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"Humans can meaningfully reduce their climate impact without lowering living standards.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"Humans can meaningfully reduce their climate impact without lowering living standards.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     },
     {
       "id": "b11a",
@@ -950,7 +1290,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: Experts should have more direct influence on policy than they do now.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"Experts should have more direct influence on policy than they do now.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b11b",
@@ -989,7 +1346,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"Experts should have more direct influence on policy than they do now.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"Experts should have more direct influence on policy than they do now.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"Experts should have more direct influence on policy than they do now.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     },
     {
       "id": "b12a",
@@ -1039,7 +1413,24 @@
             "conviction": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conviction strength: Hard (technical) skills matter more than soft skills for long-term career success.",
+        "summary": "Conviction strength means how strongly this exact claim currently feels true to you: \"Hard (technical) skills matter more than soft skills for long-term career success.\". The quiz asks this before it asks what evidence could move your view.",
+        "whyItMatters": "Separating conviction from revision makes the result more useful: a strong belief can still be open to evidence, and a weak belief can still be held carelessly.",
+        "beforeAnswering": "Answer from your present view today. Do not soften the rating to seem open-minded and do not harden it to seem certain.",
+        "example": "A high rating means this exact statement feels convincing to you now; a low rating means you doubt it, reject it, or think it is too broad.",
+        "learnMore": [
+          {
+            "label": "Belief",
+            "url": "https://en.wikipedia.org/wiki/Belief"
+          },
+          {
+            "label": "Bayesian inference",
+            "url": "https://en.wikipedia.org/wiki/Bayesian_inference"
+          }
+        ]
+      }
     },
     {
       "id": "b12b",
@@ -1078,7 +1469,24 @@
             "valueAnchoring": 2
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence revision: what would change your mind about \"Hard (technical) skills matter more than soft skills for long-term career success.\"",
+        "summary": "Evidence revision means naming the observation, argument, result, or lived example that would make you update a belief. Here the belief is \"Hard (technical) skills matter more than soft skills for long-term career success.\".",
+        "whyItMatters": "A useful answer distinguishes real openness from the vague claim that you are open-minded. It shows what would actually count as counter-evidence.",
+        "beforeAnswering": "Ask what new information would genuinely move you: repeated data, a failed prediction, a better causal explanation, expert disagreement, or a concrete counterexample.",
+        "example": "A strong response names the evidence that would change the claim \"Hard (technical) skills matter more than soft skills for long-term career success.\" instead of saying that nothing could change it.",
+        "learnMore": [
+          {
+            "label": "Belief revision",
+            "url": "https://en.wikipedia.org/wiki/Belief_revision"
+          },
+          {
+            "label": "Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -1112,5 +1520,7 @@
   },
   "attribution": {
     "text": "Inspired by actively open-minded thinking (AOT) scales (public domain). Items are original adaptations."
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

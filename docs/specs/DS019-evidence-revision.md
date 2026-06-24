@@ -1,7 +1,7 @@
 ---
 id: DS019
 title: Evidence Revision Profile
-status: draft
+status: implemented
 owner: outfinity
 summary: Profile measuring willingness to revise beliefs when confronted with contrary evidence, derived from actively open-minded thinking scales.
 ---
@@ -10,7 +10,7 @@ summary: Profile measuring willingness to revise beliefs when confronted with co
 
 ## Introduction
 
-The Evidence Revision Profile explores how firmly the user holds beliefs and what would change them, measuring the tension between conviction and openness.
+The Evidence Revision Profile explores how firmly the user holds beliefs and what would change them, measuring the tension between conviction and openness. It is implemented as a dedicated quiz page because the instrument combines Likert agreement answers with revision-condition choices.
 
 ## Core Content
 
@@ -28,7 +28,7 @@ License: CC BY 4.0 for original items
 1. Rate agreement (5-point Likert)
 2. Indicate what evidence would change your mind (multiple choice)
 **Duration:** 4-5 minutes
-**Scoring:** Combined agreement and revision openness scores
+**Scoring:** Combined agreement and revision-condition scores
 
 ### Dimensions
 
@@ -45,7 +45,11 @@ License: CC BY 4.0 for original items
 
 ### Result Interpretation
 
-Shows positions on four axes describing the tension between conviction and openness. Avoids judgment about whether user is "too rigid" or "too flexible."
+Shows positions on four axes describing the tension between conviction and openness. The public result includes a radar chart, text alternative, axis-by-axis interpretation, conviction-openness tension reading, share-safe aggregate link, downloadable card, and Explorer Circle recommendation. It avoids judgment about whether the user is "too rigid" or "too flexible."
+
+### Implementation Notes
+
+The quiz uses `instrument.json`, `interpretation.json`, `catalog.json`, and a dedicated `index.html`. The page reuses the shared quiz engine for question flow and the shared radar chart, URL codec, and share card modules for results. The result renderer computes the mixed scoring model directly from browser-held answers because the generic engine scoring modes do not cover the dual-response AOT-style format.
 
 ## Conclusion
 

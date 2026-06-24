@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "What do you actually do when disagreement becomes real? Five approaches and your signature across them.",
-    "description": "<p>Most people use one conflict reflex more than the others — and that reflex is invisible to them until it costs something. This maps yours. Each approach has a context where it is the right tool and one where it fails.</p><p>Mark your first and second instinct. If you are split, pick what you do when the stakes are real.</p>",
+    "description": "<p>Most people use one conflict reflex more than the others — and that reflex is invisible to them until it costs something. This maps yours. Each approach has a context where it is the right tool and one where it fails.</p><p>Mark your first and second instinct. If you are split, pick what you do when the stakes are real.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "8 scenarios. Approximately three minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
@@ -52,7 +52,24 @@
             "transform": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conflict response: A co-founder is making decisions without you. What is your first instinct",
+        "summary": "A conflict response is the first strategy you tend to use when tension appears: confront, negotiate, accommodate, avoid, or transform the disagreement into a new shared frame. This question tests that pattern in \"A co-founder is making decisions without you. What is your first instinct?\".",
+        "whyItMatters": "Conflict style matters because the same instinct can be useful in one situation and costly in another. Naming the default makes it easier to choose deliberately.",
+        "beforeAnswering": "Answer with your likely first move under pressure, before you have time to craft the mature version of yourself.",
+        "example": "The options contrast Name it directly and demand a real conversation. / Offer a trade: I won’t escalate if you bring me in from now on. / Let it pass for now to preserve the relationship.; your answer shows the conflict move you would probably trust first.",
+        "learnMore": [
+          {
+            "label": "Conflict management",
+            "url": "https://en.wikipedia.org/wiki/Conflict_management"
+          },
+          {
+            "label": "Negotiation",
+            "url": "https://en.wikipedia.org/wiki/Negotiation"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -94,7 +111,24 @@
             "transform": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conflict response: A colleague takes credit for your work in a meeting. You...",
+        "summary": "A conflict response is the first strategy you tend to use when tension appears: confront, negotiate, accommodate, avoid, or transform the disagreement into a new shared frame. This question tests that pattern in \"A colleague takes credit for your work in a meeting. You...\".",
+        "whyItMatters": "Conflict style matters because the same instinct can be useful in one situation and costly in another. Naming the default makes it easier to choose deliberately.",
+        "beforeAnswering": "Answer with your likely first move under pressure, before you have time to craft the mature version of yourself.",
+        "example": "The options contrast Say, plainly, that the work was mine. / Propose how we will credit contributions going forward. / Let it go this once; raise it privately later.; your answer shows the conflict move you would probably trust first.",
+        "learnMore": [
+          {
+            "label": "Conflict management",
+            "url": "https://en.wikipedia.org/wiki/Conflict_management"
+          },
+          {
+            "label": "Negotiation",
+            "url": "https://en.wikipedia.org/wiki/Negotiation"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -136,7 +170,24 @@
             "transform": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conflict response: Your team splits over a direction. You...",
+        "summary": "A conflict response is the first strategy you tend to use when tension appears: confront, negotiate, accommodate, avoid, or transform the disagreement into a new shared frame. This question tests that pattern in \"Your team splits over a direction. You...\".",
+        "whyItMatters": "Conflict style matters because the same instinct can be useful in one situation and costly in another. Naming the default makes it easier to choose deliberately.",
+        "beforeAnswering": "Answer with your likely first move under pressure, before you have time to craft the mature version of yourself.",
+        "example": "The options contrast Push for the decision in the open. / Find the middle that most can live with. / Back the option most others want.; your answer shows the conflict move you would probably trust first.",
+        "learnMore": [
+          {
+            "label": "Conflict management",
+            "url": "https://en.wikipedia.org/wiki/Conflict_management"
+          },
+          {
+            "label": "Negotiation",
+            "url": "https://en.wikipedia.org/wiki/Negotiation"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -178,7 +229,24 @@
             "transform": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conflict response: A customer publicly attacks your venture. You...",
+        "summary": "A conflict response is the first strategy you tend to use when tension appears: confront, negotiate, accommodate, avoid, or transform the disagreement into a new shared frame. This question tests that pattern in \"A customer publicly attacks your venture. You...\".",
+        "whyItMatters": "Conflict style matters because the same instinct can be useful in one situation and costly in another. Naming the default makes it easier to choose deliberately.",
+        "beforeAnswering": "Answer with your likely first move under pressure, before you have time to craft the mature version of yourself.",
+        "example": "The options contrast Respond directly and contest the claim. / Offer a concrete remedy and ask them to update publicly. / Apologize publicly to end the conflict.; your answer shows the conflict move you would probably trust first.",
+        "learnMore": [
+          {
+            "label": "Conflict management",
+            "url": "https://en.wikipedia.org/wiki/Conflict_management"
+          },
+          {
+            "label": "Negotiation",
+            "url": "https://en.wikipedia.org/wiki/Negotiation"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -220,7 +288,24 @@
             "transform": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conflict response: A teammate repeatedly misses commitments. You...",
+        "summary": "A conflict response is the first strategy you tend to use when tension appears: confront, negotiate, accommodate, avoid, or transform the disagreement into a new shared frame. This question tests that pattern in \"A teammate repeatedly misses commitments. You...\".",
+        "whyItMatters": "Conflict style matters because the same instinct can be useful in one situation and costly in another. Naming the default makes it easier to choose deliberately.",
+        "beforeAnswering": "Answer with your likely first move under pressure, before you have time to craft the mature version of yourself.",
+        "example": "The options contrast Address the pattern directly and set consequences. / Propose a revised commitment and check-in cadence. / Cover for them to keep the work moving.; your answer shows the conflict move you would probably trust first.",
+        "learnMore": [
+          {
+            "label": "Conflict management",
+            "url": "https://en.wikipedia.org/wiki/Conflict_management"
+          },
+          {
+            "label": "Negotiation",
+            "url": "https://en.wikipedia.org/wiki/Negotiation"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -262,7 +347,24 @@
             "transform": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conflict response: Someone you respect criticizes your work harshly. You...",
+        "summary": "A conflict response is the first strategy you tend to use when tension appears: confront, negotiate, accommodate, avoid, or transform the disagreement into a new shared frame. This question tests that pattern in \"Someone you respect criticizes your work harshly. You...\".",
+        "whyItMatters": "Conflict style matters because the same instinct can be useful in one situation and costly in another. Naming the default makes it easier to choose deliberately.",
+        "beforeAnswering": "Answer with your likely first move under pressure, before you have time to craft the mature version of yourself.",
+        "example": "The options contrast Push back on the specific criticisms. / Accept the valid points and ask for the rest to be reframed. / Absorb it; they probably mean well.; your answer shows the conflict move you would probably trust first.",
+        "learnMore": [
+          {
+            "label": "Conflict management",
+            "url": "https://en.wikipedia.org/wiki/Conflict_management"
+          },
+          {
+            "label": "Negotiation",
+            "url": "https://en.wikipedia.org/wiki/Negotiation"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -304,7 +406,24 @@
             "transform": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conflict response: Two allies in your network are in conflict. You...",
+        "summary": "A conflict response is the first strategy you tend to use when tension appears: confront, negotiate, accommodate, avoid, or transform the disagreement into a new shared frame. This question tests that pattern in \"Two allies in your network are in conflict. You...\".",
+        "whyItMatters": "Conflict style matters because the same instinct can be useful in one situation and costly in another. Naming the default makes it easier to choose deliberately.",
+        "beforeAnswering": "Answer with your likely first move under pressure, before you have time to craft the mature version of yourself.",
+        "example": "The options contrast Take a side and defend it. / Broker a compromise between them. / Mediate by yielding your own position.; your answer shows the conflict move you would probably trust first.",
+        "learnMore": [
+          {
+            "label": "Conflict management",
+            "url": "https://en.wikipedia.org/wiki/Conflict_management"
+          },
+          {
+            "label": "Negotiation",
+            "url": "https://en.wikipedia.org/wiki/Negotiation"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -346,7 +465,24 @@
             "transform": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Conflict response: A rule you find unjust is imposed on your venture. You...",
+        "summary": "A conflict response is the first strategy you tend to use when tension appears: confront, negotiate, accommodate, avoid, or transform the disagreement into a new shared frame. This question tests that pattern in \"A rule you find unjust is imposed on your venture. You...\".",
+        "whyItMatters": "Conflict style matters because the same instinct can be useful in one situation and costly in another. Naming the default makes it easier to choose deliberately.",
+        "beforeAnswering": "Answer with your likely first move under pressure, before you have time to craft the mature version of yourself.",
+        "example": "The options contrast Contest it openly. / Seek an exception or phased application. / Comply and continue.; your answer shows the conflict move you would probably trust first.",
+        "learnMore": [
+          {
+            "label": "Conflict management",
+            "url": "https://en.wikipedia.org/wiki/Conflict_management"
+          },
+          {
+            "label": "Negotiation",
+            "url": "https://en.wikipedia.org/wiki/Negotiation"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -385,5 +521,7 @@
         "theoreticalMax": 24
       }
     ]
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

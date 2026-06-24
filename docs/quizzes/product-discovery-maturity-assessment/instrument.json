@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Team maturity assessment. 6 min.",
-    "description": "<p>Discovery maturity diagnostic for continuous contact, problem framing, experiment quality, and decision integration.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Product Discovery Maturity helps you learn the vocabulary and typical expectations behind Continuous Customer Contact, Problem Framing, Experiment Quality, Decision Integration. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -72,7 +72,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Continuous Customer Contact: How frequently does the product trio or equivalent team engage directly with target users",
+        "summary": "Continuous Customer Contact means regular direct contact with relevant users or buyers by the people making product decisions. This question narrows the concept to \"How frequently does the product trio or equivalent team engage directly with target users?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Continuous Customer Contact matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How frequently does the product trio or equivalent team engage directly with target users?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -131,7 +148,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Continuous Customer Contact: How representative is the customer evidence used in product decisions",
+        "summary": "Continuous Customer Contact means regular direct contact with relevant users or buyers by the people making product decisions. This question narrows the concept to \"How representative is the customer evidence used in product decisions?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Continuous Customer Contact matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How representative is the customer evidence used in product decisions?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -144,7 +178,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Problem Framing; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -154,7 +188,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Problem Framing, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -164,7 +198,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Problem Framing has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -174,7 +208,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Problem Framing is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -190,7 +224,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Problem Framing: How are opportunities framed before solutions are discussed",
+        "summary": "Problem Framing means defining the customer problem, context, constraints, and desired outcome before jumping to a solution. This question narrows the concept to \"How are opportunities framed before solutions are discussed?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Problem Framing matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How are opportunities framed before solutions are discussed?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -203,7 +254,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Problem Framing; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -213,7 +264,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Problem Framing, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -223,7 +274,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Problem Framing has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -233,7 +284,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Problem Framing is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -249,7 +300,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Problem Framing: How explicitly are assumptions identified",
+        "summary": "Problem Framing means defining the customer problem, context, constraints, and desired outcome before jumping to a solution. This question narrows the concept to \"How explicitly are assumptions identified?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Problem Framing matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How explicitly are assumptions identified?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Assumption-based planning",
+            "url": "https://en.wikipedia.org/wiki/Assumption-based_planning"
+          },
+          {
+            "label": "Product discovery",
+            "url": "https://en.wikipedia.org/wiki/Product_discovery"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -262,7 +330,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Experiment Quality; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -272,7 +340,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Experiment Quality, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -282,7 +350,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Experiment Quality has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -292,7 +360,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Experiment Quality is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -308,7 +376,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Experiment Quality: How are discovery tests selected",
+        "summary": "Experiment Quality means choosing discovery tests that reduce the riskiest assumptions with credible evidence and clear interpretation rules. This question narrows the concept to \"How are discovery tests selected?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Experiment Quality matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How are discovery tests selected?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -321,7 +406,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Experiment Quality; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -331,7 +416,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Experiment Quality, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -341,7 +426,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Experiment Quality has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -351,7 +436,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Experiment Quality is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -367,7 +452,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Experiment Quality: How are success and failure interpreted",
+        "summary": "Experiment Quality means choosing discovery tests that reduce the riskiest assumptions with credible evidence and clear interpretation rules. This question narrows the concept to \"How are success and failure interpreted?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Experiment Quality matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How are success and failure interpreted?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -426,7 +528,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Decision Integration: How often does discovery evidence change the roadmap or stop work",
+        "summary": "Decision Integration means whether discovery evidence actually changes roadmap, scope, priority, or strategy rather than living in notes. This question narrows the concept to \"How often does discovery evidence change the roadmap or stop work?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Decision Integration matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How often does discovery evidence change the roadmap or stop work?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -485,7 +604,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Decision Integration: How traceable is the path from insight to product decision",
+        "summary": "Decision Integration means whether discovery evidence actually changes roadmap, scope, priority, or strategy rather than living in notes. This question narrows the concept to \"How traceable is the path from insight to product decision?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Decision Integration matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would trace \"How traceable is the path from insight to product decision?\" to customer behavior, product data, ownership, and a roadmap or go-to-market decision that changed because of it.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +657,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-continuous-customer-contact",
@@ -549,7 +680,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Continuous Customer Contact",
+        "summary": "This question asks how well your answers about Continuous Customer Contact are supported. Continuous Customer Contact means regular direct contact with relevant users or buyers by the people making product decisions. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Continuous Customer Contact is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Continuous Customer Contact answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-problem-framing",
@@ -571,7 +719,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Problem Framing",
+        "summary": "This question asks how well your answers about Problem Framing are supported. Problem Framing means defining the customer problem, context, constraints, and desired outcome before jumping to a solution. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Problem Framing is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Problem Framing answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-experiment-quality",
@@ -593,7 +758,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Experiment Quality",
+        "summary": "This question asks how well your answers about Experiment Quality are supported. Experiment Quality means choosing discovery tests that reduce the riskiest assumptions with credible evidence and clear interpretation rules. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Experiment Quality is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Experiment Quality answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-decision-integration",
@@ -615,7 +797,27 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Decision Integration",
+        "summary": "This question asks how well your answers about Decision Integration are supported. Decision Integration means whether discovery evidence actually changes roadmap, scope, priority, or strategy rather than living in notes. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Decision Integration is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Decision Integration answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

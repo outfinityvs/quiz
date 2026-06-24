@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "What actually drains you and recharges you? An energy ledger across six dimensions.",
-    "description": "<p>Energy is not just time. You can spend hours on something and leave recharged, or minutes and leave empty. This maps where your energy comes from and where it leaks, across six dimensions.</p><p>In each pair, pick the activity that gives you more energy over time — not the one that sounds more impressive.</p>",
+    "description": "<p>Energy is not just time. You can spend hours on something and leave recharged, or minutes and leave empty. This maps where your energy comes from and where it leaks, across six dimensions.</p><p>In each pair, pick the activity that gives you more energy over time — not the one that sounds more impressive.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "12 paired activities. Approximately three minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
@@ -32,7 +32,15 @@
           "text": "A quiet evening alone with your own project and no messages.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Social Energy: Which would give you more energy over time",
+        "summary": "Social Energy means the energy you gain from live interaction, shared momentum, and social presence over time. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast A long evening with good people, talking until late. versus A quiet evening alone with your own project and no messages.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     },
     {
       "id": "q2",
@@ -54,7 +62,15 @@
           "text": "A working week fully alone, no meetings, only deep work.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Social Energy: Which would give you more energy over time",
+        "summary": "Social Energy means the energy you gain from live interaction, shared momentum, and social presence over time. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast A working week surrounded by colleagues and constant collaboration. versus A working week fully alone, no meetings, only deep work.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     },
     {
       "id": "q3",
@@ -76,7 +92,15 @@
           "text": "A week in your favorite routine, where everything is familiar.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Novelty Energy: Which would give you more energy over time",
+        "summary": "Novelty Energy means the energy you gain from change, exploration, unfamiliar problems, and new possibilities. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast A week in a city you have never visited, with no plan. versus A week in your favorite routine, where everything is familiar.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     },
     {
       "id": "q4",
@@ -98,7 +122,15 @@
           "text": "Sticking with the tool or method you already know works.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Novelty Energy: Which would give you more energy over time",
+        "summary": "Novelty Energy means the energy you gain from change, exploration, unfamiliar problems, and new possibilities. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast Trying a tool or method you have never used before. versus Sticking with the tool or method you already know works.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     },
     {
       "id": "q5",
@@ -120,7 +152,15 @@
           "text": "An open quarter where you decide what to do each week.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Structure Energy: Which would give you more energy over time",
+        "summary": "Structure Energy means the energy you gain from order, plans, routines, clarity, and predictable systems. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast A well-mapped plan for the whole quarter, with milestones. versus An open quarter where you decide what to do each week.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     },
     {
       "id": "q6",
@@ -142,7 +182,15 @@
           "text": "A day with a goal and no schedule.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Structure Energy: Which would give you more energy over time",
+        "summary": "Structure Energy means the energy you gain from order, plans, routines, clarity, and predictable systems. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast A day blocked out hour by hour. versus A day with a goal and no schedule.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     },
     {
       "id": "q7",
@@ -164,7 +212,15 @@
           "text": "Three months rotated across four different problems.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Depth Energy: Which would give you more energy over time",
+        "summary": "Depth Energy means the energy you gain from sustained concentration, mastery, and uninterrupted engagement with one thing. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast Three months heads-down on one hard problem. versus Three months rotated across four different problems.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     },
     {
       "id": "q8",
@@ -186,7 +242,15 @@
           "text": "Becoming genuinely competent at several different things.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Depth Energy: Which would give you more energy over time",
+        "summary": "Depth Energy means the energy you gain from sustained concentration, mastery, and uninterrupted engagement with one thing. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast Mastering one craft until you are genuinely excellent at it. versus Becoming genuinely competent at several different things.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     },
     {
       "id": "q9",
@@ -208,7 +272,15 @@
           "text": "Building something with peers that none could alone.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Competition Energy: Which would give you more energy over time",
+        "summary": "Competition Energy means the energy you gain from challenge, comparison, stakes, and visible performance pressure. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast Beating a clear competitor to a milestone. versus Building something with peers that none could alone.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     },
     {
       "id": "q10",
@@ -230,7 +302,15 @@
           "text": "A commons where the win is shared and repeatable.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Competition Energy: Which would give you more energy over time",
+        "summary": "Competition Energy means the energy you gain from challenge, comparison, stakes, and visible performance pressure. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast A market where you win by being faster or sharper. versus A commons where the win is shared and repeatable.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     },
     {
       "id": "q11",
@@ -252,7 +332,15 @@
           "text": "Working with a mentor who steers and challenges you.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Autonomy Energy: Which would give you more energy over time",
+        "summary": "Autonomy Energy means the energy you gain from self-direction, independent pacing, and freedom from unnecessary coordination. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast Setting your own direction with no one to answer to. versus Working with a mentor who steers and challenges you.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     },
     {
       "id": "q12",
@@ -274,7 +362,15 @@
           "text": "Being chosen-into projects by someone whose taste you trust.",
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Autonomy Energy: Which would give you more energy over time",
+        "summary": "Autonomy Energy means the energy you gain from self-direction, independent pacing, and freedom from unnecessary coordination. This question asks which option would give you more energy over time, after repetition rather than only once.",
+        "whyItMatters": "Energy patterns help separate work you can sustain from work you can merely perform for a short burst because it looks interesting or prestigious.",
+        "beforeAnswering": "Answer by how you tend to feel after repeated exposure: clearer and more alive, or depleted and forcing yourself through it.",
+        "example": "The options contrast Choosing what is worth doing, by yourself. versus Being chosen-into projects by someone whose taste you trust.; choose the one that would remain energizing over several weeks.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -329,5 +425,7 @@
         "theoreticalMax": 2
       }
     ]
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

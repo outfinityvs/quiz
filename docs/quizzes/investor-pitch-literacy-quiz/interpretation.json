@@ -1,0 +1,56 @@
+{
+  "resultKicker": "Your Pitch Learning Result",
+  "levels": [
+    {
+      "id": "pitch-curious",
+      "min": 0,
+      "max": 39,
+      "label": "Pitch Curious",
+      "copy": "Core investor-pitch concepts are still unreliable. Use the answer review as a learning path before sending a deck into high-stakes meetings."
+    },
+    {
+      "id": "deck-aware",
+      "min": 40,
+      "max": 59,
+      "label": "Deck-Aware",
+      "copy": "You recognise some pitch vocabulary, but scenario application is inconsistent. Focus on the logic behind problem, evidence, ask, and Q&A."
+    },
+    {
+      "id": "pitch-ready",
+      "min": 60,
+      "max": 74,
+      "label": "Pitch-Ready",
+      "copy": "You can handle the standard pitch sequence. The next edge is making every claim specific, evidenced, and connected to investor decision risk."
+    },
+    {
+      "id": "investor-ready",
+      "min": 75,
+      "max": 89,
+      "label": "Investor-Ready",
+      "copy": "Your pitch logic is strong. Stress-test the weakest dimension with a critical reviewer before relying on the deck in live fundraising."
+    },
+    {
+      "id": "narrative-operator",
+      "min": 90,
+      "max": 100,
+      "label": "Narrative Operator",
+      "copy": "You understand the pitch as an investor decision process, not a slide performance. Keep calibrating the story against new evidence and harder questions."
+    }
+  ],
+  "archetypes": {
+    "pitch-structure": "Narrative Sequencer",
+    "problem-and-customer": "Customer Clarifier",
+    "traction-and-ask": "Evidence Translator",
+    "delivery-and-follow-up": "Q&A Operator"
+  },
+  "recommendations": {
+    "pitch-structure": "Rewrite the deck as a ten-sentence narrative before editing slides.",
+    "problem-and-customer": "Narrow the customer segment, trigger, buyer, painful alternative, and why-now evidence.",
+    "traction-and-ask": "Connect traction, unit economics, round size, use of funds, and next financing milestone on one page.",
+    "delivery-and-follow-up": "Run a mock investor Q&A and prepare a follow-up note that answers the five hardest objections."
+  },
+  "defaultSecondAction": "Retake the challenge after revising the deck and practising Q&A with someone willing to challenge the story.",
+  "reflectionQuestion": "Which slide would fail first if an investor asked for source evidence?",
+  "methodologyNote": "The current version uses four dimensions with two scenario questions each. The best answer receives 3 points; plausible but incomplete answers may receive 1 point. Dimension scores are normalised to 0-100 and combined through the standard balanced index. This is an educational quiz, not investment advice or fundraising certification.",
+  "shareNote": "Share cards reveal only the level and strongest area. They do not publish individual answers, deck weaknesses, financial details, investor names, or fundraising strategy."
+}

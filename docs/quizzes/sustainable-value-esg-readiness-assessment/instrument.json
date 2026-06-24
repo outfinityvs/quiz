@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Sustainable value maturity assessment. 7 min.",
-    "description": "<p>Sustainable value and ESG readiness diagnostic for materiality, governance, data, operations, claims, and reporting.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Sustainable Value & ESG Readiness helps you learn the vocabulary and typical expectations behind Materiality & Strategy, Governance & Data, Operations & Value Chain, Claims & Reporting. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 7 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -72,7 +72,20 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Materiality & Strategy: How are material sustainability impacts, risks, and opportunities identified",
+        "summary": "Materiality & Strategy means identifying sustainability impacts, risks, and opportunities that are material enough to affect strategy or capital allocation. This question narrows the concept to \"How are material sustainability impacts, risks, and opportunities identified?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Materiality & Strategy matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How are material sustainability impacts, risks, and opportunities identified?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Environmental, social, and governance",
+            "url": "https://en.wikipedia.org/wiki/Environmental,_social,_and_governance"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -131,7 +144,20 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Materiality & Strategy: How tightly are material sustainability issues connected to strategy and capital allocation",
+        "summary": "Materiality & Strategy means identifying sustainability impacts, risks, and opportunities that are material enough to affect strategy or capital allocation. This question narrows the concept to \"How tightly are material sustainability issues connected to strategy and capital allocation?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Materiality & Strategy matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How tightly are material sustainability issues connected to strategy and capital allocation?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Environmental, social, and governance",
+            "url": "https://en.wikipedia.org/wiki/Environmental,_social,_and_governance"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -190,7 +216,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Governance & Data: How clear are governance and accountability",
+        "summary": "Governance & Data means owning sustainability decisions and using reliable baselines, controls, and records instead of loose claims. This question narrows the concept to \"How clear are governance and accountability?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Governance & Data matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How clear are governance and accountability?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -249,7 +292,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Governance & Data: How reliable are sustainability data and baselines",
+        "summary": "Governance & Data means owning sustainability decisions and using reliable baselines, controls, and records instead of loose claims. This question narrows the concept to \"How reliable are sustainability data and baselines?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Governance & Data matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How reliable are sustainability data and baselines?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -262,7 +322,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Operations & Value Chain; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -272,7 +332,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Operations & Value Chain, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -282,7 +342,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Operations & Value Chain has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -292,7 +352,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Operations & Value Chain is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -308,7 +368,20 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Operations & Value Chain: How operational are sustainability targets",
+        "summary": "Operations & Value Chain means turning sustainability targets into operating changes across product, suppliers, customers, and life cycle. This question narrows the concept to \"How operational are sustainability targets?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Operations & Value Chain matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How operational are sustainability targets?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Environmental, social, and governance",
+            "url": "https://en.wikipedia.org/wiki/Environmental,_social,_and_governance"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -367,7 +440,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Operations & Value Chain: How deeply are suppliers, customers, and product life cycle considered",
+        "summary": "Operations & Value Chain means turning sustainability targets into operating changes across product, suppliers, customers, and life cycle. This question narrows the concept to \"How deeply are suppliers, customers, and product life cycle considered?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Operations & Value Chain matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How deeply are suppliers, customers, and product life cycle considered?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -426,7 +516,20 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Claims & Reporting: How well are external claims substantiated",
+        "summary": "Claims & Reporting means making external sustainability claims and reports specific, substantiated, decision-useful, and resistant to greenwashing. This question narrows the concept to \"How well are external claims substantiated?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Claims & Reporting matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How well are external claims substantiated?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Environmental, social, and governance",
+            "url": "https://en.wikipedia.org/wiki/Environmental,_social,_and_governance"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -485,7 +588,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Claims & Reporting: How integrated are reporting and decision use",
+        "summary": "Claims & Reporting means making external sustainability claims and reports specific, substantiated, decision-useful, and resistant to greenwashing. This question narrows the concept to \"How integrated are reporting and decision use?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Claims & Reporting matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How integrated are reporting and decision use?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +641,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-materiality-and-strategy",
@@ -549,7 +664,20 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Materiality & Strategy",
+        "summary": "This question asks how well your answers about Materiality & Strategy are supported. Materiality & Strategy means identifying sustainability impacts, risks, and opportunities that are material enough to affect strategy or capital allocation. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Materiality & Strategy is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Materiality & Strategy answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Environmental, social, and governance",
+            "url": "https://en.wikipedia.org/wiki/Environmental,_social,_and_governance"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-governance-and-data",
@@ -571,7 +699,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Governance & Data",
+        "summary": "This question asks how well your answers about Governance & Data are supported. Governance & Data means owning sustainability decisions and using reliable baselines, controls, and records instead of loose claims. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Governance & Data is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Governance & Data answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-operations-and-value-chain",
@@ -593,7 +738,20 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Operations & Value Chain",
+        "summary": "This question asks how well your answers about Operations & Value Chain are supported. Operations & Value Chain means turning sustainability targets into operating changes across product, suppliers, customers, and life cycle. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Operations & Value Chain is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Operations & Value Chain answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Environmental, social, and governance",
+            "url": "https://en.wikipedia.org/wiki/Environmental,_social,_and_governance"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-claims-and-reporting",
@@ -615,7 +773,23 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Claims & Reporting",
+        "summary": "This question asks how well your answers about Claims & Reporting are supported. Claims & Reporting means making external sustainability claims and reports specific, substantiated, decision-useful, and resistant to greenwashing. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Claims & Reporting is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Claims & Reporting answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Environmental, social, and governance",
+            "url": "https://en.wikipedia.org/wiki/Environmental,_social,_and_governance"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

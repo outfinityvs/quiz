@@ -26,7 +26,7 @@ JSON quiz files follow a fixed naming convention: `instrument.json`, `interpreta
 
 JavaScript modules export named functions and classes. No default exports. No global mutations. State is passed explicitly through function parameters.
 
-The engine modules are: `quiz-engine.js` (state machine, scoring, rendering), `radar-chart.js` (SVG chart), `share-card.js` (Canvas card), `url-codec.js` (URL fragment encoding), `compare.js` (multi-result overlay). Each module is a single file under `docs/engine/`.
+The engine modules are: `quiz-engine.js` (state machine, scoring, rendering), `banner-presets.js` (central initiative banner presets and assignment resolution), `result-history.js` (explicit localStorage result history, History navigation, and Save Result controls), `radar-chart.js` (SVG chart), `share-card.js` (Canvas card), `url-codec.js` (URL fragment encoding), and `compare.js` (multi-result overlay). Each module is a single file under `docs/engine/`.
 
 The public quiz runtime must not depend on external scripts, CDNs, fonts, frameworks, analytics, or social SDKs. Developer-facing documentation pages may use the Mermaid ESM CDN only when the page contains inline Mermaid diagrams. `docs/specsLoader.html` is the canonical exception because it renders specification diagrams when specs contain Mermaid blocks. Ordinary quiz pages and catalog pages must not include Mermaid unless they actually render Mermaid diagrams.
 

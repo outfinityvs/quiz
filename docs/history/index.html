@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History — Outfinity Quiz</title>
+  <meta name="description" content="Saved Outfinity Quiz results stored only in this browser after explicit Save Result action.">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../engine/quiz-styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="../index.html" class="site-header__logo">
+      <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="3"/>
+        <circle cx="50" cy="50" r="8" fill="currentColor"/>
+        <line x1="50" y1="5" x2="50" y2="25" stroke="currentColor" stroke-width="2"/>
+        <line x1="50" y1="75" x2="50" y2="95" stroke="currentColor" stroke-width="2"/>
+        <line x1="5" y1="50" x2="25" y2="50" stroke="currentColor" stroke-width="2"/>
+        <line x1="75" y1="50" x2="95" y2="50" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span>Outfinity Quiz</span>
+    </a>
+    <nav class="site-header__nav">
+      <a href="../index.html">Home</a>
+      <a href="../sitemap.html">All Quizzes</a>
+      <a href="index.html" class="nav-current" data-history-nav="true">History</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">☀</button>
+    </nav>
+  </header>
+
+  <main class="history-page">
+    <section class="history-hero">
+      <h1>Saved Results History</h1>
+      <p>Nothing is saved automatically. This page shows only results you explicitly saved with the <strong>Save Result</strong> button. Saved results stay in this browser's localStorage on this device; they are not uploaded to Outfinity and deleting browser data removes them.</p>
+      <p class="history-filter-note" id="history-filter-note" hidden></p>
+    </section>
+
+    <section class="history-actions" aria-label="Saved results controls">
+      <button class="quiz-btn quiz-btn--secondary" id="refresh-history" type="button">Refresh History</button>
+      <button class="quiz-btn quiz-btn--secondary" id="clear-history" type="button">Delete All Saved Results</button>
+    </section>
+
+    <section class="history-grid" id="history-grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../sitemap.html">All Quizzes</a>
+      <a href="../privacy/index.html">Privacy</a>
+    </nav>
+    <p class="site-footer__disclaimer">AI was used in coding and processing these quizzes. The inspiration and sources are real, but errors may have slipped through. If you find something wrong, please <a href="mailto:quiz@outfinity.ch">send us feedback</a>.</p>
+    <p>An initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>.</p>
+  </footer>
+
+  <script>
+    (function(){var t=document.getElementById('theme-toggle'),h=document.documentElement,s=localStorage.getItem('quiz-theme');if(s){h.setAttribute('data-theme',s);t.textContent=s==='dark'?'☾':'☀';}t.addEventListener('click',function(){var c=h.getAttribute('data-theme'),n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('quiz-theme',n);t.textContent=n==='dark'?'☾':'☀';});})();
+  </script>
+
+  <script type="module">
+    import {
+      clearSavedResults,
+      deleteSavedResult,
+      formatSavedDate,
+      normalizeQuizId,
+      resultMatchesQuiz,
+      readSavedResults
+    } from '../engine/result-history.js';
+
+    const grid = document.getElementById('history-grid');
+    const refresh = document.getElementById('refresh-history');
+    const clear = document.getElementById('clear-history');
+    const filterNote = document.getElementById('history-filter-note');
+    const activeQuizId = normalizeQuizId(new URLSearchParams(window.location.search).get('quiz'));
+
+    refresh.addEventListener('click', renderHistory);
+    clear.addEventListener('click', () => {
+      if (!readSavedResults().length) return;
+      if (!window.confirm('Delete all saved results from this browser?')) return;
+      clearSavedResults();
+      renderHistory();
+    });
+
+    function renderHistory() {
+      const allResults = readSavedResults();
+      const results = activeQuizId
+        ? allResults.filter(result => resultMatchesQuiz(result, activeQuizId))
+        : allResults;
+      renderFilterNote(allResults.length, results.length);
+      grid.innerHTML = '';
+      if (!results.length) {
+        const empty = document.createElement('article');
+        empty.className = 'history-empty';
+        const title = document.createElement('h2');
+        title.textContent = activeQuizId ? 'No saved results for this quiz yet' : 'No saved results yet';
+        const text = document.createElement('p');
+        text.textContent = activeQuizId
+          ? 'Open the quiz, complete it, then choose Save Result on the result screen. Until you click Save Result, the site keeps your answers and results only in page memory.'
+          : 'Complete a quiz, then choose Save Result on the result screen. Until you click Save Result, the site keeps your answers and results only in page memory.';
+        empty.append(title, text);
+        grid.appendChild(empty);
+        return;
+      }
+
+      for (const result of results) {
+        grid.appendChild(createHistoryCard(result));
+      }
+    }
+
+    function createHistoryCard(result) {
+      const card = document.createElement('article');
+      card.className = 'history-card';
+
+      const meta = document.createElement('p');
+      meta.className = 'history-card__meta';
+      meta.textContent = formatSavedDate(result.savedAt);
+
+      const label = document.createElement('h2');
+      label.className = 'history-card__label';
+      label.textContent = result.label || 'Saved result';
+
+      const quiz = document.createElement('p');
+      quiz.className = 'history-card__quiz';
+      quiz.textContent = result.quizTitle || 'Outfinity Quiz';
+
+      const title = document.createElement('p');
+      title.className = 'history-card__result';
+      title.textContent = result.resultTitle || '';
+
+      card.append(meta, label, quiz, title);
+
+      if (result.resultSummary) {
+        const summary = document.createElement('p');
+        summary.className = 'history-card__summary';
+        summary.textContent = result.resultSummary;
+        card.appendChild(summary);
+      }
+
+      if (Array.isArray(result.scores) && result.scores.length) {
+        const scores = document.createElement('div');
+        scores.className = 'history-card__scores';
+        for (const score of result.scores.slice(0, 6)) {
+          const item = document.createElement('span');
+          item.textContent = `${score.label}: ${score.value}`;
+          scores.appendChild(item);
+        }
+        card.appendChild(scores);
+      }
+
+      const actions = document.createElement('div');
+      actions.className = 'history-card__actions';
+
+      if (result.shareUrl) {
+        const open = document.createElement('a');
+        open.className = 'quiz-btn quiz-btn--primary';
+        open.href = result.shareUrl;
+        open.textContent = 'Open Saved Result';
+        actions.appendChild(open);
+      } else if (result.resultUrl) {
+        const open = document.createElement('a');
+        open.className = 'quiz-btn quiz-btn--primary';
+        open.href = result.resultUrl;
+        open.textContent = 'Open Quiz';
+        actions.appendChild(open);
+      }
+
+      const remove = document.createElement('button');
+      remove.className = 'quiz-btn quiz-btn--secondary';
+      remove.type = 'button';
+      remove.textContent = 'Delete';
+      remove.addEventListener('click', () => {
+        deleteSavedResult(result.id);
+        renderHistory();
+      });
+      actions.appendChild(remove);
+      card.appendChild(actions);
+
+      return card;
+    }
+
+    function renderFilterNote(totalCount, filteredCount) {
+      filterNote.innerHTML = '';
+      if (!activeQuizId) {
+        filterNote.hidden = true;
+        return;
+      }
+
+      const text = document.createElement('span');
+      text.textContent = `Showing ${filteredCount} of ${totalCount} saved results for this quiz. `;
+      const all = document.createElement('a');
+      all.href = 'index.html';
+      all.textContent = 'Show all saved results';
+      filterNote.append(text, all);
+      filterNote.hidden = false;
+    }
+
+    renderHistory();
+  </script>
+
+  <script>
+    (function() {
+      var s = document.createElement('script');
+      s.src = '../partials/footer-loader.js';
+      s.async = true;
+      document.body.appendChild(s);
+    })();
+  </script>
+</body>
+</html>

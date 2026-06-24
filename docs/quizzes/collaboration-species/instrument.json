@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "How do you actually work with others? Five collaboration species and where you fit in a team.",
-    "description": "<p>This maps what you genuinely do when work involves other people — not a wish-list of ideals. Mark your first and second instinct in each scenario. If several feel true, pick the one that most often wins when the pressure is real.</p><p>Invite three or more people to compare and see your team constellation.</p>",
+    "description": "<p>This maps what you genuinely do when work involves other people — not a wish-list of ideals. Mark your first and second instinct in each scenario. If several feel true, pick the one that most often wins when the pressure is real.</p><p>Invite three or more people to compare and see your team constellation.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "10 scenarios. Approximately four minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
@@ -52,7 +52,24 @@
             "mentor": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Collaboration mode: You start a new venture. What is your ideal setup",
+        "summary": "A collaboration mode is the working arrangement where you tend to contribute best: solo creation, one deep partnership, small-team execution, community weaving, or enabling others. This question asks how that mode appears in \"You start a new venture. What is your ideal setup?\".",
+        "whyItMatters": "Founders and builders often fail because the collaboration structure does not match their real operating style. The result gives vocabulary for designing work with less friction.",
+        "beforeAnswering": "Choose the move that would feel naturally effective first, not the one that sounds most generous or impressive.",
+        "example": "The options contrast Work alone and deliver everything yourself. / One trusted co-founder in a deep partnership. / A small team of three to seven with clear roles.; your choice shows the collaboration pattern you would probably activate first.",
+        "learnMore": [
+          {
+            "label": "Teamwork",
+            "url": "https://en.wikipedia.org/wiki/Teamwork"
+          },
+          {
+            "label": "Community of practice",
+            "url": "https://en.wikipedia.org/wiki/Community_of_practice"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -94,7 +111,24 @@
             "mentor": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Collaboration mode: A big decision has to be made. You tend to...",
+        "summary": "A collaboration mode is the working arrangement where you tend to contribute best: solo creation, one deep partnership, small-team execution, community weaving, or enabling others. This question asks how that mode appears in \"A big decision has to be made. You tend to...\".",
+        "whyItMatters": "Founders and builders often fail because the collaboration structure does not match their real operating style. The result gives vocabulary for designing work with less friction.",
+        "beforeAnswering": "Choose the move that would feel naturally effective first, not the one that sounds most generous or impressive.",
+        "example": "The options contrast Decide it yourself. / Decide it with your one trusted partner. / Bring it to the team and align.; your choice shows the collaboration pattern you would probably activate first.",
+        "learnMore": [
+          {
+            "label": "Teamwork",
+            "url": "https://en.wikipedia.org/wiki/Teamwork"
+          },
+          {
+            "label": "Community of practice",
+            "url": "https://en.wikipedia.org/wiki/Community_of_practice"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -136,7 +170,24 @@
             "mentor": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Collaboration mode: You get a new idea. What do you do first",
+        "summary": "A collaboration mode is the working arrangement where you tend to contribute best: solo creation, one deep partnership, small-team execution, community weaving, or enabling others. This question asks how that mode appears in \"You get a new idea. What do you do first?\".",
+        "whyItMatters": "Founders and builders often fail because the collaboration structure does not match their real operating style. The result gives vocabulary for designing work with less friction.",
+        "beforeAnswering": "Choose the move that would feel naturally effective first, not the one that sounds most generous or impressive.",
+        "example": "The options contrast Prototype it alone. / Call your one collaborator. / Assign roles and start together.; your choice shows the collaboration pattern you would probably activate first.",
+        "learnMore": [
+          {
+            "label": "Teamwork",
+            "url": "https://en.wikipedia.org/wiki/Teamwork"
+          },
+          {
+            "label": "Community of practice",
+            "url": "https://en.wikipedia.org/wiki/Community_of_practice"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -178,7 +229,24 @@
             "mentor": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Collaboration mode: A hard deadline is approaching. You...",
+        "summary": "A collaboration mode is the working arrangement where you tend to contribute best: solo creation, one deep partnership, small-team execution, community weaving, or enabling others. This question asks how that mode appears in \"A hard deadline is approaching. You...\".",
+        "whyItMatters": "Founders and builders often fail because the collaboration structure does not match their real operating style. The result gives vocabulary for designing work with less friction.",
+        "beforeAnswering": "Choose the move that would feel naturally effective first, not the one that sounds most generous or impressive.",
+        "example": "The options contrast Lock in and ship it yourself. / Split the stretch with your partner. / Coordinate the team to hit it together.; your choice shows the collaboration pattern you would probably activate first.",
+        "learnMore": [
+          {
+            "label": "Teamwork",
+            "url": "https://en.wikipedia.org/wiki/Teamwork"
+          },
+          {
+            "label": "Community of practice",
+            "url": "https://en.wikipedia.org/wiki/Community_of_practice"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -220,7 +288,24 @@
             "mentor": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Collaboration mode: Conflict breaks out in a group you are part of. You...",
+        "summary": "A collaboration mode is the working arrangement where you tend to contribute best: solo creation, one deep partnership, small-team execution, community weaving, or enabling others. This question asks how that mode appears in \"Conflict breaks out in a group you are part of. You...\".",
+        "whyItMatters": "Founders and builders often fail because the collaboration structure does not match their real operating style. The result gives vocabulary for designing work with less friction.",
+        "beforeAnswering": "Choose the move that would feel naturally effective first, not the one that sounds most generous or impressive.",
+        "example": "The options contrast Step aside and keep working alone. / Work it out with the one person who matters. / Facilitate the team to resolve it.; your choice shows the collaboration pattern you would probably activate first.",
+        "learnMore": [
+          {
+            "label": "Teamwork",
+            "url": "https://en.wikipedia.org/wiki/Teamwork"
+          },
+          {
+            "label": "Community of practice",
+            "url": "https://en.wikipedia.org/wiki/Community_of_practice"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -262,7 +347,24 @@
             "mentor": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Collaboration mode: Your work style is most enlivened when...",
+        "summary": "A collaboration mode is the working arrangement where you tend to contribute best: solo creation, one deep partnership, small-team execution, community weaving, or enabling others. This question asks how that mode appears in \"Your work style is most enlivened when...\".",
+        "whyItMatters": "Founders and builders often fail because the collaboration structure does not match their real operating style. The result gives vocabulary for designing work with less friction.",
+        "beforeAnswering": "Choose the move that would feel naturally effective first, not the one that sounds most generous or impressive.",
+        "example": "The options contrast You control the whole thing end to end. / You have one person you truly trust. / A tight crew has your back.; your choice shows the collaboration pattern you would probably activate first.",
+        "learnMore": [
+          {
+            "label": "Teamwork",
+            "url": "https://en.wikipedia.org/wiki/Teamwork"
+          },
+          {
+            "label": "Community of practice",
+            "url": "https://en.wikipedia.org/wiki/Community_of_practice"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -304,7 +406,24 @@
             "mentor": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Collaboration mode: You are given a stretch project. You...",
+        "summary": "A collaboration mode is the working arrangement where you tend to contribute best: solo creation, one deep partnership, small-team execution, community weaving, or enabling others. This question asks how that mode appears in \"You are given a stretch project. You...\".",
+        "whyItMatters": "Founders and builders often fail because the collaboration structure does not match their real operating style. The result gives vocabulary for designing work with less friction.",
+        "beforeAnswering": "Choose the move that would feel naturally effective first, not the one that sounds most generous or impressive.",
+        "example": "The options contrast Scope it so you can own it solo. / Bring in your one partner. / Form a small team for it.; your choice shows the collaboration pattern you would probably activate first.",
+        "learnMore": [
+          {
+            "label": "Teamwork",
+            "url": "https://en.wikipedia.org/wiki/Teamwork"
+          },
+          {
+            "label": "Community of practice",
+            "url": "https://en.wikipedia.org/wiki/Community_of_practice"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -346,7 +465,24 @@
             "mentor": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Collaboration mode: Recognition matters most when it comes from...",
+        "summary": "A collaboration mode is the working arrangement where you tend to contribute best: solo creation, one deep partnership, small-team execution, community weaving, or enabling others. This question asks how that mode appears in \"Recognition matters most when it comes from...\".",
+        "whyItMatters": "Founders and builders often fail because the collaboration structure does not match their real operating style. The result gives vocabulary for designing work with less friction.",
+        "beforeAnswering": "Choose the move that would feel naturally effective first, not the one that sounds most generous or impressive.",
+        "example": "The options contrast The quality of the finished work itself. / Your one trusted partner. / Your team seeing you as reliable.; your choice shows the collaboration pattern you would probably activate first.",
+        "learnMore": [
+          {
+            "label": "Teamwork",
+            "url": "https://en.wikipedia.org/wiki/Teamwork"
+          },
+          {
+            "label": "Community of practice",
+            "url": "https://en.wikipedia.org/wiki/Community_of_practice"
+          }
+        ]
+      }
     },
     {
       "id": "q9",
@@ -388,7 +524,24 @@
             "mentor": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Collaboration mode: When things go wrong, your instinct is to...",
+        "summary": "A collaboration mode is the working arrangement where you tend to contribute best: solo creation, one deep partnership, small-team execution, community weaving, or enabling others. This question asks how that mode appears in \"When things go wrong, your instinct is to...\".",
+        "whyItMatters": "Founders and builders often fail because the collaboration structure does not match their real operating style. The result gives vocabulary for designing work with less friction.",
+        "beforeAnswering": "Choose the move that would feel naturally effective first, not the one that sounds most generous or impressive.",
+        "example": "The options contrast Fix it yourself. / Go to ground with your partner. / Huddle with the team.; your choice shows the collaboration pattern you would probably activate first.",
+        "learnMore": [
+          {
+            "label": "Teamwork",
+            "url": "https://en.wikipedia.org/wiki/Teamwork"
+          },
+          {
+            "label": "Community of practice",
+            "url": "https://en.wikipedia.org/wiki/Community_of_practice"
+          }
+        ]
+      }
     },
     {
       "id": "q10",
@@ -430,7 +583,24 @@
             "mentor": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Collaboration mode: A year from now, you would feel most proud that...",
+        "summary": "A collaboration mode is the working arrangement where you tend to contribute best: solo creation, one deep partnership, small-team execution, community weaving, or enabling others. This question asks how that mode appears in \"A year from now, you would feel most proud that...\".",
+        "whyItMatters": "Founders and builders often fail because the collaboration structure does not match their real operating style. The result gives vocabulary for designing work with less friction.",
+        "beforeAnswering": "Choose the move that would feel naturally effective first, not the one that sounds most generous or impressive.",
+        "example": "The options contrast You built something whole, alone. / With your partner, you built something neither could alone. / Your team did something it could not do without you.; your choice shows the collaboration pattern you would probably activate first.",
+        "learnMore": [
+          {
+            "label": "Teamwork",
+            "url": "https://en.wikipedia.org/wiki/Teamwork"
+          },
+          {
+            "label": "Community of practice",
+            "url": "https://en.wikipedia.org/wiki/Community_of_practice"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -469,5 +639,7 @@
         "theoreticalMax": 30
       }
     ]
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

@@ -5,52 +5,1594 @@
   "language": "en",
   "introduction": {
     "subtitle": "What kinds of work actually energize you? A six-axis interest map inspired by Holland's RIASEC model.",
-    "description": "<p>This is not a career test that assigns job titles. It maps the types of activities that give you energy, so you can understand your work preferences in venture-building contexts. Original items, inspired by the RIASEC conceptual framework — not the official O*NET instrument.</p><p>Rate your genuine interest in each activity. Both broad and focused profiles are useful.</p>",
+    "description": "<p>This is not a career test that assigns job titles. It maps the types of activities that give you energy, so you can understand your work preferences in venture-building contexts. Original items, inspired by the RIASEC conceptual framework — not the official O*NET instrument.</p><p>Rate your genuine interest in each activity. Both broad and focused profiles are useful.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "24 activities. Approximately four minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Inspired by Holland's RIASEC model and O*NET Interest Profiler concepts. Items are original. This is not the official O*NET instrument and not a validated vocational assessment.",
     "startButton": "Map my interests"
   },
-  "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"],
+  "scaleLabels": [
+    "Not Interested",
+    "Slightly",
+    "Moderately",
+    "Very",
+    "Extremely"
+  ],
   "questions": [
-    { "id": "r1", "text": "Assembling or repairing physical equipment.", "type": "likert", "dimension": "realistic", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "realistic": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "realistic": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "realistic": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "realistic": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "realistic": 5 } } ] },
-    { "id": "r2", "text": "Working outdoors or with your hands to build something tangible.", "type": "likert", "dimension": "realistic", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "realistic": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "realistic": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "realistic": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "realistic": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "realistic": 5 } } ] },
-    { "id": "r3", "text": "Operating machinery or tools to get a concrete job done.", "type": "likert", "dimension": "realistic", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "realistic": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "realistic": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "realistic": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "realistic": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "realistic": 5 } } ] },
-    { "id": "r4", "text": "Solving mechanical or physical problems with practical solutions.", "type": "likert", "dimension": "realistic", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "realistic": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "realistic": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "realistic": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "realistic": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "realistic": 5 } } ] },
-    { "id": "i1", "text": "Analyzing data to identify patterns.", "type": "likert", "dimension": "investigative", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "investigative": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "investigative": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "investigative": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "investigative": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "investigative": 5 } } ] },
-    { "id": "i2", "text": "Designing experiments to test a hypothesis.", "type": "likert", "dimension": "investigative", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "investigative": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "investigative": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "investigative": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "investigative": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "investigative": 5 } } ] },
-    { "id": "i3", "text": "Researching the root cause of a complex problem.", "type": "likert", "dimension": "investigative", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "investigative": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "investigative": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "investigative": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "investigative": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "investigative": 5 } } ] },
-    { "id": "i4", "text": "Understanding how a complicated system works.", "type": "likert", "dimension": "investigative", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "investigative": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "investigative": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "investigative": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "investigative": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "investigative": 5 } } ] },
-    { "id": "a1", "text": "Designing visual layouts or interfaces.", "type": "likert", "dimension": "artistic", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "artistic": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "artistic": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "artistic": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "artistic": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "artistic": 5 } } ] },
-    { "id": "a2", "text": "Writing, composing, or producing original creative work.", "type": "likert", "dimension": "artistic", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "artistic": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "artistic": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "artistic": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "artistic": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "artistic": 5 } } ] },
-    { "id": "a3", "text": "Expressing ideas in original, unconventional ways.", "type": "likert", "dimension": "artistic", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "artistic": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "artistic": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "artistic": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "artistic": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "artistic": 5 } } ] },
-    { "id": "a4", "text": "Crafting something for its aesthetic quality, not just its function.", "type": "likert", "dimension": "artistic", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "artistic": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "artistic": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "artistic": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "artistic": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "artistic": 5 } } ] },
-    { "id": "s1", "text": "Teaching or mentoring someone.", "type": "likert", "dimension": "social", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "social": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "social": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "social": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "social": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "social": 5 } } ] },
-    { "id": "s2", "text": "Helping others solve problems that matter to them.", "type": "likert", "dimension": "social", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "social": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "social": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "social": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "social": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "social": 5 } } ] },
-    { "id": "s3", "text": "Facilitating a group to reach shared understanding.", "type": "likert", "dimension": "social", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "social": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "social": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "social": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "social": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "social": 5 } } ] },
-    { "id": "s4", "text": "Building community and long-term relationships.", "type": "likert", "dimension": "social", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "social": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "social": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "social": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "social": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "social": 5 } } ] },
-    { "id": "e1", "text": "Leading a team toward an ambitious goal.", "type": "likert", "dimension": "enterprising", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "enterprising": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "enterprising": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "enterprising": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "enterprising": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "enterprising": 5 } } ] },
-    { "id": "e2", "text": "Selling an idea or influencing people's decisions.", "type": "likert", "dimension": "enterprising", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "enterprising": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "enterprising": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "enterprising": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "enterprising": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "enterprising": 5 } } ] },
-    { "id": "e3", "text": "Negotiating deals and strategic partnerships.", "type": "likert", "dimension": "enterprising", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "enterprising": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "enterprising": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "enterprising": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "enterprising": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "enterprising": 5 } } ] },
-    { "id": "e4", "text": "Making high-stakes decisions under uncertainty.", "type": "likert", "dimension": "enterprising", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "enterprising": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "enterprising": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "enterprising": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "enterprising": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "enterprising": 5 } } ] },
-    { "id": "c1", "text": "Creating systems to organize and track information.", "type": "likert", "dimension": "conventional", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "conventional": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "conventional": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "conventional": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "conventional": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "conventional": 5 } } ] },
-    { "id": "c2", "text": "Managing processes to ensure accuracy and reliability.", "type": "likert", "dimension": "conventional", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "conventional": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "conventional": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "conventional": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "conventional": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "conventional": 5 } } ] },
-    { "id": "c3", "text": "Building clear procedures for repeatable work.", "type": "likert", "dimension": "conventional", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "conventional": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "conventional": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "conventional": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "conventional": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "conventional": 5 } } ] },
-    { "id": "c4", "text": "Maintaining order and consistency in operations.", "type": "likert", "dimension": "conventional", "scaleLabels": ["Not Interested", "Slightly", "Moderately", "Very", "Extremely"], "options": [ { "value": "1", "text": "1", "dimensionScores": { "conventional": 1 } }, { "value": "2", "text": "2", "dimensionScores": { "conventional": 2 } }, { "value": "3", "text": "3", "dimensionScores": { "conventional": 3 } }, { "value": "4", "text": "4", "dimensionScores": { "conventional": 4 } }, { "value": "5", "text": "5", "dimensionScores": { "conventional": 5 } } ] }
+    {
+      "id": "r1",
+      "text": "Assembling or repairing physical equipment.",
+      "type": "likert",
+      "dimension": "realistic",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "realistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "realistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "realistic": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "realistic": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "realistic": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Builder: Assembling or repairing physical equipment.",
+        "summary": "Builder means interest in tangible, practical, physical, mechanical, or hands-on work. This statement is one small behavioral signal for that pattern: \"Assembling or repairing physical equipment.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r2",
+      "text": "Working outdoors or with your hands to build something tangible.",
+      "type": "likert",
+      "dimension": "realistic",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "realistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "realistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "realistic": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "realistic": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "realistic": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Builder: Working outdoors or with your hands to build something tangible.",
+        "summary": "Builder means interest in tangible, practical, physical, mechanical, or hands-on work. This statement is one small behavioral signal for that pattern: \"Working outdoors or with your hands to build something tangible.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r3",
+      "text": "Operating machinery or tools to get a concrete job done.",
+      "type": "likert",
+      "dimension": "realistic",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "realistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "realistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "realistic": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "realistic": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "realistic": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Builder: Operating machinery or tools to get a concrete job done.",
+        "summary": "Builder means interest in tangible, practical, physical, mechanical, or hands-on work. This statement is one small behavioral signal for that pattern: \"Operating machinery or tools to get a concrete job done.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r4",
+      "text": "Solving mechanical or physical problems with practical solutions.",
+      "type": "likert",
+      "dimension": "realistic",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "realistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "realistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "realistic": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "realistic": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "realistic": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Builder: Solving mechanical or physical problems with practical solutions.",
+        "summary": "Builder means interest in tangible, practical, physical, mechanical, or hands-on work. This statement is one small behavioral signal for that pattern: \"Solving mechanical or physical problems with practical solutions.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i1",
+      "text": "Analyzing data to identify patterns.",
+      "type": "likert",
+      "dimension": "investigative",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "investigative": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "investigative": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "investigative": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "investigative": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "investigative": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Investigator: Analyzing data to identify patterns.",
+        "summary": "Investigator means interest in analysis, research, diagnosis, experiments, and understanding how things work. This statement is one small behavioral signal for that pattern: \"Analyzing data to identify patterns.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i2",
+      "text": "Designing experiments to test a hypothesis.",
+      "type": "likert",
+      "dimension": "investigative",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "investigative": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "investigative": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "investigative": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "investigative": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "investigative": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Investigator: Designing experiments to test a hypothesis.",
+        "summary": "Investigator means interest in analysis, research, diagnosis, experiments, and understanding how things work. This statement is one small behavioral signal for that pattern: \"Designing experiments to test a hypothesis.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i3",
+      "text": "Researching the root cause of a complex problem.",
+      "type": "likert",
+      "dimension": "investigative",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "investigative": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "investigative": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "investigative": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "investigative": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "investigative": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Investigator: Researching the root cause of a complex problem.",
+        "summary": "Investigator means interest in analysis, research, diagnosis, experiments, and understanding how things work. This statement is one small behavioral signal for that pattern: \"Researching the root cause of a complex problem.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i4",
+      "text": "Understanding how a complicated system works.",
+      "type": "likert",
+      "dimension": "investigative",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "investigative": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "investigative": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "investigative": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "investigative": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "investigative": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Investigator: Understanding how a complicated system works.",
+        "summary": "Investigator means interest in analysis, research, diagnosis, experiments, and understanding how things work. This statement is one small behavioral signal for that pattern: \"Understanding how a complicated system works.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1",
+      "text": "Designing visual layouts or interfaces.",
+      "type": "likert",
+      "dimension": "artistic",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "artistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "artistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "artistic": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "artistic": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "artistic": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Creator: Designing visual layouts or interfaces.",
+        "summary": "Creator means interest in originality, aesthetics, expression, design, and unconventional creation. This statement is one small behavioral signal for that pattern: \"Designing visual layouts or interfaces.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2",
+      "text": "Writing, composing, or producing original creative work.",
+      "type": "likert",
+      "dimension": "artistic",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "artistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "artistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "artistic": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "artistic": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "artistic": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Creator: Writing, composing, or producing original creative work.",
+        "summary": "Creator means interest in originality, aesthetics, expression, design, and unconventional creation. This statement is one small behavioral signal for that pattern: \"Writing, composing, or producing original creative work.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a3",
+      "text": "Expressing ideas in original, unconventional ways.",
+      "type": "likert",
+      "dimension": "artistic",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "artistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "artistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "artistic": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "artistic": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "artistic": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Creator: Expressing ideas in original, unconventional ways.",
+        "summary": "Creator means interest in originality, aesthetics, expression, design, and unconventional creation. This statement is one small behavioral signal for that pattern: \"Expressing ideas in original, unconventional ways.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a4",
+      "text": "Crafting something for its aesthetic quality, not just its function.",
+      "type": "likert",
+      "dimension": "artistic",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "artistic": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "artistic": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "artistic": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "artistic": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "artistic": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Creator: Crafting something for its aesthetic quality, not just its function.",
+        "summary": "Creator means interest in originality, aesthetics, expression, design, and unconventional creation. This statement is one small behavioral signal for that pattern: \"Crafting something for its aesthetic quality, not just its function.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s1",
+      "text": "Teaching or mentoring someone.",
+      "type": "likert",
+      "dimension": "social",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "social": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "social": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "social": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "social": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "social": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Social Guide: Teaching or mentoring someone.",
+        "summary": "Social Guide means interest in helping, teaching, mentoring, facilitating, and supporting people. This statement is one small behavioral signal for that pattern: \"Teaching or mentoring someone.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "text": "Helping others solve problems that matter to them.",
+      "type": "likert",
+      "dimension": "social",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "social": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "social": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "social": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "social": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "social": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Social Guide: Helping others solve problems that matter to them.",
+        "summary": "Social Guide means interest in helping, teaching, mentoring, facilitating, and supporting people. This statement is one small behavioral signal for that pattern: \"Helping others solve problems that matter to them.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "text": "Facilitating a group to reach shared understanding.",
+      "type": "likert",
+      "dimension": "social",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "social": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "social": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "social": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "social": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "social": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Social Guide: Facilitating a group to reach shared understanding.",
+        "summary": "Social Guide means interest in helping, teaching, mentoring, facilitating, and supporting people. This statement is one small behavioral signal for that pattern: \"Facilitating a group to reach shared understanding.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "text": "Building community and long-term relationships.",
+      "type": "likert",
+      "dimension": "social",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "social": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "social": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "social": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "social": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "social": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Social Guide: Building community and long-term relationships.",
+        "summary": "Social Guide means interest in helping, teaching, mentoring, facilitating, and supporting people. This statement is one small behavioral signal for that pattern: \"Building community and long-term relationships.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e1",
+      "text": "Leading a team toward an ambitious goal.",
+      "type": "likert",
+      "dimension": "enterprising",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "enterprising": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "enterprising": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "enterprising": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "enterprising": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "enterprising": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Persuader: Leading a team toward an ambitious goal.",
+        "summary": "Persuader means interest in leading, persuading, selling, negotiating, and mobilizing people around goals. This statement is one small behavioral signal for that pattern: \"Leading a team toward an ambitious goal.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e2",
+      "text": "Selling an idea or influencing people's decisions.",
+      "type": "likert",
+      "dimension": "enterprising",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "enterprising": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "enterprising": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "enterprising": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "enterprising": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "enterprising": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Persuader: Selling an idea or influencing people's decisions.",
+        "summary": "Persuader means interest in leading, persuading, selling, negotiating, and mobilizing people around goals. This statement is one small behavioral signal for that pattern: \"Selling an idea or influencing people's decisions.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3",
+      "text": "Negotiating deals and strategic partnerships.",
+      "type": "likert",
+      "dimension": "enterprising",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "enterprising": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "enterprising": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "enterprising": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "enterprising": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "enterprising": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Persuader: Negotiating deals and strategic partnerships.",
+        "summary": "Persuader means interest in leading, persuading, selling, negotiating, and mobilizing people around goals. This statement is one small behavioral signal for that pattern: \"Negotiating deals and strategic partnerships.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e4",
+      "text": "Making high-stakes decisions under uncertainty.",
+      "type": "likert",
+      "dimension": "enterprising",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "enterprising": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "enterprising": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "enterprising": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "enterprising": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "enterprising": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Persuader: Making high-stakes decisions under uncertainty.",
+        "summary": "Persuader means interest in leading, persuading, selling, negotiating, and mobilizing people around goals. This statement is one small behavioral signal for that pattern: \"Making high-stakes decisions under uncertainty.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1",
+      "text": "Creating systems to organize and track information.",
+      "type": "likert",
+      "dimension": "conventional",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conventional": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conventional": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conventional": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conventional": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conventional": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Organizer: Creating systems to organize and track information.",
+        "summary": "Organizer means interest in structure, records, process, accuracy, administration, and reliable systems. This statement is one small behavioral signal for that pattern: \"Creating systems to organize and track information.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2",
+      "text": "Managing processes to ensure accuracy and reliability.",
+      "type": "likert",
+      "dimension": "conventional",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conventional": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conventional": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conventional": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conventional": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conventional": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Organizer: Managing processes to ensure accuracy and reliability.",
+        "summary": "Organizer means interest in structure, records, process, accuracy, administration, and reliable systems. This statement is one small behavioral signal for that pattern: \"Managing processes to ensure accuracy and reliability.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c3",
+      "text": "Building clear procedures for repeatable work.",
+      "type": "likert",
+      "dimension": "conventional",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conventional": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conventional": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conventional": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conventional": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conventional": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Organizer: Building clear procedures for repeatable work.",
+        "summary": "Organizer means interest in structure, records, process, accuracy, administration, and reliable systems. This statement is one small behavioral signal for that pattern: \"Building clear procedures for repeatable work.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c4",
+      "text": "Maintaining order and consistency in operations.",
+      "type": "likert",
+      "dimension": "conventional",
+      "scaleLabels": [
+        "Not Interested",
+        "Slightly",
+        "Moderately",
+        "Very",
+        "Extremely"
+      ],
+      "options": [
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conventional": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conventional": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conventional": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conventional": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conventional": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Organizer: Maintaining order and consistency in operations.",
+        "summary": "Organizer means interest in structure, records, process, accuracy, administration, and reliable systems. This statement is one small behavioral signal for that pattern: \"Maintaining order and consistency in operations.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Holland Codes",
+            "url": "https://en.wikipedia.org/wiki/Holland_Codes"
+          }
+        ]
+      }
+    }
   ],
   "scoring": {
     "type": "likert",
     "dimensions": [
-      { "key": "realistic", "label": "Builder", "theoreticalMin": 4, "theoreticalMax": 20 },
-      { "key": "investigative", "label": "Investigator", "theoreticalMin": 4, "theoreticalMax": 20 },
-      { "key": "artistic", "label": "Creator", "theoreticalMin": 4, "theoreticalMax": 20 },
-      { "key": "social", "label": "Social Guide", "theoreticalMin": 4, "theoreticalMax": 20 },
-      { "key": "enterprising", "label": "Persuader", "theoreticalMin": 4, "theoreticalMax": 20 },
-      { "key": "conventional", "label": "Organizer", "theoreticalMin": 4, "theoreticalMax": 20 }
+      {
+        "key": "realistic",
+        "label": "Builder",
+        "theoreticalMin": 4,
+        "theoreticalMax": 20
+      },
+      {
+        "key": "investigative",
+        "label": "Investigator",
+        "theoreticalMin": 4,
+        "theoreticalMax": 20
+      },
+      {
+        "key": "artistic",
+        "label": "Creator",
+        "theoreticalMin": 4,
+        "theoreticalMax": 20
+      },
+      {
+        "key": "social",
+        "label": "Social Guide",
+        "theoreticalMin": 4,
+        "theoreticalMax": 20
+      },
+      {
+        "key": "enterprising",
+        "label": "Persuader",
+        "theoreticalMin": 4,
+        "theoreticalMax": 20
+      },
+      {
+        "key": "conventional",
+        "label": "Organizer",
+        "theoreticalMin": 4,
+        "theoreticalMax": 20
+      }
     ]
   },
   "attribution": {
     "text": "Inspired by Holland's RIASEC model and O*NET Interest Profiler concepts. Items are original and not from the official O*NET instrument.",
     "deepLink": "https://www.onetcenter.org/IP.html"
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

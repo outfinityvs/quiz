@@ -6,41 +6,51 @@
       "min": 0,
       "max": 24,
       "label": "Cost-Plus",
-      "copy": ""
+      "copy": "The Pricing & Monetisation Maturity pattern is still mostly informal or ad hoc. Pick one stabilising action, document it, and avoid adding a long process before the basics are real."
     },
     {
       "id": "emerging",
       "min": 25,
       "max": 44,
       "label": "Emerging",
-      "copy": ""
+      "copy": "Some Pricing & Monetisation Maturity practices exist, but they still depend on individual memory and effort. The next step is two repeatable routines with clear owners."
     },
     {
       "id": "structured",
       "min": 45,
       "max": 64,
       "label": "Structured",
-      "copy": ""
+      "copy": "Core Pricing & Monetisation Maturity practices are repeatable, but evidence quality and ownership are uneven. Work on the weakest dimension before optimising the strongest one."
     },
     {
       "id": "value-based",
       "min": 65,
       "max": 84,
       "label": "Value-Based",
-      "copy": ""
+      "copy": "Pricing & Monetisation Maturity practices are measured and connected to decisions. The main work is now removing the constraint that prevents the system from scaling cleanly."
     },
     {
       "id": "monetisation-engine",
       "min": 85,
       "max": 100,
       "label": "Monetisation Engine",
-      "copy": ""
+      "copy": "Pricing & Monetisation Maturity is operating as a learning system. Keep calibrating against evidence, stress-test resilience, and avoid treating a strong score as a permanent guarantee."
     }
   ],
-  "archetypes": {},
-  "recommendations": {},
+  "archetypes": {
+    "value-understanding": "Value Researcher",
+    "packaging-and-segmentation": "Packaging Architect",
+    "price-architecture-and-governance": "Price Strategist",
+    "experimentation-and-realisation": "Monetisation Experimenter"
+  },
+  "recommendations": {
+    "value-understanding": "Interview recent wins, losses, and churned customers about alternatives, outcomes, budget, and trade-offs.",
+    "packaging-and-segmentation": "Redesign packages around distinct use cases and value, with explicit upgrade paths and fences.",
+    "price-architecture-and-governance": "Evaluate candidate value metrics and establish discount, approval, and exception governance.",
+    "experimentation-and-realisation": "Create a quarterly pricing research and experimentation roadmap with cohort guardrails."
+  },
   "defaultSecondAction": "Retake the diagnostic after a focused 30-day improvement cycle and compare only your own progress unless a team comparison is explicitly agreed.",
   "reflectionQuestion": "Which assumption behind your weakest dimension deserves the fastest evidence check?",
-  "methodologyNote": "Version 1 uses four dimensions with two questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
+  "methodologyNote": "The current version uses four dimensions with two questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
   "shareNote": "Share cards reveal only the level and strongest area. They do not publish individual answers, sensitive weaknesses, legal or financial details, security gaps, or family-specific information."
 }

@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "What risks would you actually accept? A risk menu across five life domains.",
-    "description": "<p>Most people are not uniformly risk-taking or risk-averse — they have a palate. You may gamble with creative risk and recoil at financial risk. This quiz maps where your appetite sits across five domains.</p><p>For each scenario, choose what you would actually accept, not what you wish you would.</p>",
+    "description": "<p>Most people are not uniformly risk-taking or risk-averse — they have a palate. You may gamble with creative risk and recoil at financial risk. This quiz maps where your appetite sits across five domains.</p><p>For each scenario, choose what you would actually accept, not what you wish you would.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "10 scenarios. Approximately three minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
@@ -44,7 +44,24 @@
             "financial": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Financial Risk: Invest a large share of your life savings into your own venture, with no guaranteed return.",
+        "summary": "Financial Risk means comfort with risking money, income, savings, or financial stability for a possible upside. This statement is one concrete signal for that risk domain: \"Invest a large share of your life savings into your own venture, with no guaranteed return.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -78,7 +95,24 @@
             "financial": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Financial Risk: Take a significant salary cut for a year to keep your venture alive.",
+        "summary": "Financial Risk means comfort with risking money, income, savings, or financial stability for a possible upside. This statement is one concrete signal for that risk domain: \"Take a significant salary cut for a year to keep your venture alive.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Unit economics",
+            "url": "https://en.wikipedia.org/wiki/Business_model"
+          },
+          {
+            "label": "Wikipedia: Cash flow",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -112,7 +146,24 @@
             "reputational": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Reputational Risk: Publicly champion a position many people in your field consider wrong or naive.",
+        "summary": "Reputational Risk means comfort with being visibly judged, criticized, or associated with uncertain work in public. This statement is one concrete signal for that risk domain: \"Publicly champion a position many people in your field consider wrong or naive.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Risk",
+            "url": "https://en.wikipedia.org/wiki/Risk"
+          },
+          {
+            "label": "Wikipedia: Risk perception",
+            "url": "https://en.wikipedia.org/wiki/Risk_perception"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -146,7 +197,24 @@
             "reputational": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Reputational Risk: Attach your full real name to a risky early launch that may fail visibly.",
+        "summary": "Reputational Risk means comfort with being visibly judged, criticized, or associated with uncertain work in public. This statement is one concrete signal for that risk domain: \"Attach your full real name to a risky early launch that may fail visibly.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Risk",
+            "url": "https://en.wikipedia.org/wiki/Risk"
+          },
+          {
+            "label": "Wikipedia: Risk perception",
+            "url": "https://en.wikipedia.org/wiki/Risk_perception"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -180,7 +248,24 @@
             "relational": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Relational Risk: Partner long-term with someone whose values differ sharply from yours on key issues.",
+        "summary": "Relational Risk means comfort with putting important relationships, trust, or social bonds at risk for a meaningful possibility. This statement is one concrete signal for that risk domain: \"Partner long-term with someone whose values differ sharply from yours on key issues.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Risk",
+            "url": "https://en.wikipedia.org/wiki/Risk"
+          },
+          {
+            "label": "Wikipedia: Risk perception",
+            "url": "https://en.wikipedia.org/wiki/Risk_perception"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -214,7 +299,24 @@
             "relational": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Relational Risk: Ask a close friend to put their own money at risk in your venture.",
+        "summary": "Relational Risk means comfort with putting important relationships, trust, or social bonds at risk for a meaningful possibility. This statement is one concrete signal for that risk domain: \"Ask a close friend to put their own money at risk in your venture.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Risk",
+            "url": "https://en.wikipedia.org/wiki/Risk"
+          },
+          {
+            "label": "Wikipedia: Risk perception",
+            "url": "https://en.wikipedia.org/wiki/Risk_perception"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -248,7 +350,24 @@
             "existential": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Existential Risk: Bet your career on a venture that, if it fails, leaves you with no obvious fallback.",
+        "summary": "Existential Risk means comfort with risks that could reshape identity, career path, safety, or long-term life options. This statement is one concrete signal for that risk domain: \"Bet your career on a venture that, if it fails, leaves you with no obvious fallback.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Risk",
+            "url": "https://en.wikipedia.org/wiki/Risk"
+          },
+          {
+            "label": "Wikipedia: Risk perception",
+            "url": "https://en.wikipedia.org/wiki/Risk_perception"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -282,7 +401,24 @@
             "existential": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Existential Risk: Move your family across the world for the venture, accepting real relocation risk.",
+        "summary": "Existential Risk means comfort with risks that could reshape identity, career path, safety, or long-term life options. This statement is one concrete signal for that risk domain: \"Move your family across the world for the venture, accepting real relocation risk.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Risk",
+            "url": "https://en.wikipedia.org/wiki/Risk"
+          },
+          {
+            "label": "Wikipedia: Risk perception",
+            "url": "https://en.wikipedia.org/wiki/Risk_perception"
+          }
+        ]
+      }
     },
     {
       "id": "q9",
@@ -316,7 +452,24 @@
             "creative": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Creative Risk: Release an original work before it is finished, knowing it may be judged harshly.",
+        "summary": "Creative Risk means comfort with exposing original, unfinished, or unconventional work to judgment. This statement is one concrete signal for that risk domain: \"Release an original work before it is finished, knowing it may be judged harshly.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Risk",
+            "url": "https://en.wikipedia.org/wiki/Risk"
+          },
+          {
+            "label": "Wikipedia: Risk perception",
+            "url": "https://en.wikipedia.org/wiki/Risk_perception"
+          }
+        ]
+      }
     },
     {
       "id": "q10",
@@ -350,7 +503,24 @@
             "creative": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Creative Risk: Abandon an established style or method for something genuinely experimental that may not land.",
+        "summary": "Creative Risk means comfort with exposing original, unfinished, or unconventional work to judgment. This statement is one concrete signal for that risk domain: \"Abandon an established style or method for something genuinely experimental that may not land.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -387,5 +557,7 @@
         "theoreticalMax": 6
       }
     ]
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Readiness assessment. 6 min.",
-    "description": "<p>Fundraising readiness diagnostic for narrative, traction, process, targeting, and deal preparation.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Fundraising Readiness Radar helps you learn the vocabulary and typical expectations behind Narrative & Ambition, Evidence & Traction, Process & Targeting, Deal Readiness. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -72,7 +72,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Narrative & Ambition: How clearly can you explain the problem, customer, and why now in one minute",
+        "summary": "Narrative & Ambition means whether the fundraising story explains the customer, problem, timing, ambition, and why this can become a venture-scale outcome. This question narrows the concept to \"How clearly can you explain the problem, customer, and why now in one minute?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Narrative & Ambition matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the investor-facing proof for \"How clearly can you explain the problem, customer, and why now in one minute?\", who owns it, and how it changes investor targeting, the ask, or the next milestone.",
+        "learnMore": []
+      }
     },
     {
       "id": "q2",
@@ -85,7 +93,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Narrative & Ambition; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -95,7 +103,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Narrative & Ambition, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -105,7 +113,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Narrative & Ambition has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -115,7 +123,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Narrative & Ambition is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -131,7 +139,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Narrative & Ambition: How credible is the venture-scale outcome",
+        "summary": "Narrative & Ambition means whether the fundraising story explains the customer, problem, timing, ambition, and why this can become a venture-scale outcome. This question narrows the concept to \"How credible is the venture-scale outcome?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Narrative & Ambition matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the investor-facing proof for \"How credible is the venture-scale outcome?\", who owns it, and how it changes investor targeting, the ask, or the next milestone.",
+        "learnMore": []
+      }
     },
     {
       "id": "q3",
@@ -190,7 +206,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence & Traction: What evidence demonstrates current demand",
+        "summary": "Evidence & Traction means the proof that demand, usage, economics, and momentum are real enough for investors to take seriously. This question narrows the concept to \"What evidence demonstrates current demand?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Evidence & Traction matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the investor-facing proof for \"What evidence demonstrates current demand?\", who owns it, and how it changes investor targeting, the ask, or the next milestone.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -249,7 +282,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence & Traction: How well do you understand the economics behind growth",
+        "summary": "Evidence & Traction means the proof that demand, usage, economics, and momentum are real enough for investors to take seriously. This question narrows the concept to \"How well do you understand the economics behind growth?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Evidence & Traction matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the investor-facing proof for \"How well do you understand the economics behind growth?\", who owns it, and how it changes investor targeting, the ask, or the next milestone.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -262,7 +312,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Process & Targeting; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -272,7 +322,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Process & Targeting, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -282,7 +332,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Process & Targeting has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -292,7 +342,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Process & Targeting is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -308,7 +358,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Process & Targeting: How is the investor target list constructed",
+        "summary": "Process & Targeting means running fundraising as a disciplined process with investor fit, sequencing, materials, follow-up, and decision control. This question narrows the concept to \"How is the investor target list constructed?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Process & Targeting matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the investor-facing proof for \"How is the investor target list constructed?\", who owns it, and how it changes investor targeting, the ask, or the next milestone.",
+        "learnMore": []
+      }
     },
     {
       "id": "q6",
@@ -321,7 +379,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Process & Targeting; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -331,7 +389,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Process & Targeting, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -341,7 +399,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Process & Targeting has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -351,7 +409,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Process & Targeting is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -367,7 +425,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Process & Targeting: How will the fundraising process be run",
+        "summary": "Process & Targeting means running fundraising as a disciplined process with investor fit, sequencing, materials, follow-up, and decision control. This question narrows the concept to \"How will the fundraising process be run?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Process & Targeting matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the investor-facing proof for \"How will the fundraising process be run?\", who owns it, and how it changes investor targeting, the ask, or the next milestone.",
+        "learnMore": []
+      }
     },
     {
       "id": "q7",
@@ -380,7 +446,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Deal Readiness; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -390,7 +456,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Deal Readiness, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -400,7 +466,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Deal Readiness has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -410,7 +476,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Deal Readiness is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -426,7 +492,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Deal Readiness: How precisely are round size and use of funds linked to value-creating milestones",
+        "summary": "Deal Readiness means whether the round size, use of funds, milestones, records, cap table, and diligence materials can survive investor scrutiny. This question narrows the concept to \"How precisely are round size and use of funds linked to value-creating milestones?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Deal Readiness matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the investor-facing proof for \"How precisely are round size and use of funds linked to value-creating milestones?\", who owns it, and how it changes investor targeting, the ask, or the next milestone.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Elevator pitch",
+            "url": "https://en.wikipedia.org/wiki/Elevator_pitch"
+          },
+          {
+            "label": "Wikipedia: Venture capital",
+            "url": "https://en.wikipedia.org/wiki/Venture_capital"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -439,7 +522,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Deal Readiness; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -449,7 +532,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Deal Readiness, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -459,7 +542,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Deal Readiness has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -469,7 +552,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Deal Readiness is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -485,7 +568,20 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Deal Readiness: How ready are corporate records, cap table, and diligence materials",
+        "summary": "Deal Readiness means whether the round size, use of funds, milestones, records, cap table, and diligence materials can survive investor scrutiny. This question narrows the concept to \"How ready are corporate records, cap table, and diligence materials?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Deal Readiness matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the investor-facing proof for \"How ready are corporate records, cap table, and diligence materials?\", who owns it, and how it changes investor targeting, the ask, or the next milestone.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Due diligence",
+            "url": "https://en.wikipedia.org/wiki/Due_diligence"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +617,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-narrative-and-ambition",
@@ -549,7 +640,15 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Narrative & Ambition",
+        "summary": "This question asks how well your answers about Narrative & Ambition are supported. Narrative & Ambition means whether the fundraising story explains the customer, problem, timing, ambition, and why this can become a venture-scale outcome. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Narrative & Ambition is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Narrative & Ambition answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": []
+      }
     },
     {
       "id": "evidence-evidence-and-traction",
@@ -571,7 +670,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Evidence & Traction",
+        "summary": "This question asks how well your answers about Evidence & Traction are supported. Evidence & Traction means the proof that demand, usage, economics, and momentum are real enough for investors to take seriously. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Evidence & Traction is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Evidence & Traction answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-process-and-targeting",
@@ -593,7 +709,15 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Process & Targeting",
+        "summary": "This question asks how well your answers about Process & Targeting are supported. Process & Targeting means running fundraising as a disciplined process with investor fit, sequencing, materials, follow-up, and decision control. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Process & Targeting is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Process & Targeting answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": []
+      }
     },
     {
       "id": "evidence-deal-readiness",
@@ -615,7 +739,27 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Deal Readiness",
+        "summary": "This question asks how well your answers about Deal Readiness are supported. Deal Readiness means whether the round size, use of funds, milestones, records, cap table, and diligence materials can survive investor scrutiny. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Deal Readiness is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Deal Readiness answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Elevator pitch",
+            "url": "https://en.wikipedia.org/wiki/Elevator_pitch"
+          },
+          {
+            "label": "Wikipedia: Venture capital",
+            "url": "https://en.wikipedia.org/wiki/Venture_capital"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

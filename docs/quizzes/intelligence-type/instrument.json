@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "What type of intelligence do you have? A non-classical, multi-axis map of cognitive strengths — not an IQ test.",
-    "description": "<p>This does not measure general intelligence or produce an IQ score. It maps where your cognitive strengths sit across eight dimensions, so you understand the shape of your thinking rather than its rank.</p><p>For each task, rate how easily you could do it. There is no advantage to overestimating — the result is most useful when it is honest.</p>",
+    "description": "<p>This does not measure general intelligence or produce an IQ score. It maps where your cognitive strengths sit across eight dimensions, so you understand the shape of your thinking rather than its rank.</p><p>For each task, rate how easily you could do it. There is no advantage to overestimating — the result is most useful when it is honest.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "20 self-rating tasks. Approximately five minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Inspired by Howard Gardner’s Multiple Intelligences theory. This is not an IQ test and does not measure general intelligence or produce an IQ score. Items are original.",
@@ -52,7 +52,20 @@
             "linguistic": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Linguistic: How easily could you do this? — Spot the odd word in a group — apple, orange, banana, car, grape — and explain why it does not belong.",
+        "summary": "Linguistic means ease with words, meaning, argument, reading, writing, and verbal expression. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Spot the odd word in a group — apple, orange, banana, car, grape — and explain why it does not belong.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -94,7 +107,20 @@
             "linguistic": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Linguistic: How easily could you do this? — Rewrite a dense paragraph in plain language without losing the meaning.",
+        "summary": "Linguistic means ease with words, meaning, argument, reading, writing, and verbal expression. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Rewrite a dense paragraph in plain language without losing the meaning.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -136,7 +162,20 @@
             "linguistic": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Linguistic: How easily could you do this? — Construct an argument that turns a weak position into a defensible one.",
+        "summary": "Linguistic means ease with words, meaning, argument, reading, writing, and verbal expression. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Construct an argument that turns a weak position into a defensible one.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -178,7 +217,20 @@
             "logical": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Logical-Mathematical: How easily could you do this? — Find what comes next in 2, 6, 12, 20, 30, and explain the rule that generates the sequence.",
+        "summary": "Logical-Mathematical means ease with patterns, formal reasoning, quantities, systems, and structured problem solving. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Find what comes next in 2, 6, 12, 20, 30, and explain the rule that generates the sequence.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -220,7 +272,24 @@
             "logical": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Logical-Mathematical: How easily could you do this? — Reason through a decision with three conditional branches and a hidden dependency between them.",
+        "summary": "Logical-Mathematical means ease with patterns, formal reasoning, quantities, systems, and structured problem solving. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Reason through a decision with three conditional branches and a hidden dependency between them.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -262,7 +331,20 @@
             "logical": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Logical-Mathematical: How easily could you do this? — Catch the flaw in an argument that looks statistically convincing but is not.",
+        "summary": "Logical-Mathematical means ease with patterns, formal reasoning, quantities, systems, and structured problem solving. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Catch the flaw in an argument that looks statistically convincing but is not.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -304,7 +386,20 @@
             "spatial": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Spatial: How easily could you do this? — Mentally fold a sheet along a line and predict the pattern that will be visible.",
+        "summary": "Spatial means ease with visual form, layout, orientation, mental imagery, and design relationships. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Mentally fold a sheet along a line and predict the pattern that will be visible.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -346,7 +441,20 @@
             "spatial": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Spatial: How easily could you do this? — Give someone accurate directions through an unfamiliar neighborhood from memory.",
+        "summary": "Spatial means ease with visual form, layout, orientation, mental imagery, and design relationships. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Give someone accurate directions through an unfamiliar neighborhood from memory.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q9",
@@ -388,7 +496,20 @@
             "spatial": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Spatial: How easily could you do this? — See how three flat pieces fit together into a single shape in your head before trying.",
+        "summary": "Spatial means ease with visual form, layout, orientation, mental imagery, and design relationships. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — See how three flat pieces fit together into a single shape in your head before trying.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q10",
@@ -430,7 +551,20 @@
             "musical": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Musical: How easily could you do this? — Hear a rhythm once and reproduce it accurately.",
+        "summary": "Musical means ease with rhythm, sound, melody, tone, and auditory pattern. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Hear a rhythm once and reproduce it accurately.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q11",
@@ -472,7 +606,20 @@
             "musical": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Musical: How easily could you do this? — Notice immediately when a track is slightly off-beat or mistuned.",
+        "summary": "Musical means ease with rhythm, sound, melody, tone, and auditory pattern. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Notice immediately when a track is slightly off-beat or mistuned.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q12",
@@ -514,7 +661,20 @@
             "bodily": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Bodily-Kinesthetic: How easily could you do this? — Learn a new physical movement by watching someone do it, then perform it correctly.",
+        "summary": "Bodily-Kinesthetic means ease with movement, coordination, physical learning, and hands-on skill. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Learn a new physical movement by watching someone do it, then perform it correctly.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q13",
@@ -556,7 +716,20 @@
             "bodily": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Bodily-Kinesthetic: How easily could you do this? — Coordinate your body precisely under pressure — a sport, an instrument, a precise manual task.",
+        "summary": "Bodily-Kinesthetic means ease with movement, coordination, physical learning, and hands-on skill. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Coordinate your body precisely under pressure — a sport, an instrument, a precise manual task.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q14",
@@ -598,7 +771,20 @@
             "interpersonal": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Interpersonal: How easily could you do this? — Read whether someone’s “I’m fine” actually means they are fine.",
+        "summary": "Interpersonal means ease with reading other people, group dynamics, emotion, and social response. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Read whether someone’s “I’m fine” actually means they are fine.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q15",
@@ -640,7 +826,20 @@
             "interpersonal": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Interpersonal: How easily could you do this? — Pick the right moment to push back in a tense conversation.",
+        "summary": "Interpersonal means ease with reading other people, group dynamics, emotion, and social response. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Pick the right moment to push back in a tense conversation.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q16",
@@ -682,7 +881,20 @@
             "interpersonal": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Interpersonal: How easily could you do this? — Sense what a quiet group needs from you before they say it.",
+        "summary": "Interpersonal means ease with reading other people, group dynamics, emotion, and social response. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Sense what a quiet group needs from you before they say it.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q17",
@@ -724,7 +936,20 @@
             "intrapersonal": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Intrapersonal: How easily could you do this? — Name the exact emotion you are feeling and what triggered it.",
+        "summary": "Intrapersonal means ease with reading your own motives, feelings, values, and internal patterns. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Name the exact emotion you are feeling and what triggered it.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q18",
@@ -766,7 +991,20 @@
             "intrapersonal": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Intrapersonal: How easily could you do this? — Catch yourself mid-habit and choose a different response in real time.",
+        "summary": "Intrapersonal means ease with reading your own motives, feelings, values, and internal patterns. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Catch yourself mid-habit and choose a different response in real time.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     },
     {
       "id": "q19",
@@ -808,7 +1046,24 @@
             "naturalistic": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Naturalistic: How easily could you do this? — Classify an unfamiliar system — a garden, a dataset, an ecosystem — into useful categories.",
+        "summary": "Naturalistic means ease with noticing patterns in living systems, environments, nature, and classification. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Classify an unfamiliar system — a garden, a dataset, an ecosystem — into useful categories.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q20",
@@ -850,7 +1105,20 @@
             "naturalistic": 3
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Naturalistic: How easily could you do this? — Notice a small pattern change in an environment that everyone else overlooks.",
+        "summary": "Naturalistic means ease with noticing patterns in living systems, environments, nature, and classification. This statement is one small behavioral signal for that pattern: \"How easily could you do this? — Notice a small pattern change in an environment that everyone else overlooks.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Theory of multiple intelligences",
+            "url": "https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -908,5 +1176,7 @@
   },
   "attribution": {
     "text": "Inspired by Howard Gardner’s Multiple Intelligences theory. This is not an IQ test and does not measure general intelligence. Items are original."
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

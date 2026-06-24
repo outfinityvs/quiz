@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "A five-axis personality snapshot for venture builders, using public-domain IPIP items.",
-    "description": "<p>There is no single type of founder. Personality only explains part of how someone builds — but it shapes what drains you, what you avoid, and where you need a complement. This snapshot maps five traits relevant to venture work, not as scores to maximize, but as positions on axes that each have a cost and a use.</p><p>Answer about how you actually are, not how you wish to be. Both poles of every axis have value depending on context.</p>",
+    "description": "<p>There is no single type of founder. Personality only explains part of how someone builds — but it shapes what drains you, what you avoid, and where you need a complement. This snapshot maps five traits relevant to venture work, not as scores to maximize, but as positions on axes that each have a cost and a use.</p><p>Answer about how you actually are, not how you wish to be. Both poles of every axis have value depending on context.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "20 items. Approximately three minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "This is a short reflective snapshot, not a clinical or validated psychometric assessment. It uses public-domain IPIP items but is not the full IPIP scale.",
@@ -13,238 +13,1299 @@
   },
   "questions": [
     {
-      "id": "o1", "text": "I have a vivid imagination.", "type": "likert", "dimension": "openness",
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "o1",
+      "text": "I have a vivid imagination.",
+      "type": "likert",
+      "dimension": "openness",
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "openness": 1 } },
-        { "value": "2", "text": "2", "dimensionScores": { "openness": 2 } },
-        { "value": "3", "text": "3", "dimensionScores": { "openness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "openness": 4 } },
-        { "value": "5", "text": "5", "dimensionScores": { "openness": 5 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "openness": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "openness": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "openness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "openness": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "openness": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Openness: I have a vivid imagination.",
+        "summary": "Openness means curiosity, imagination, tolerance for novelty, and interest in abstract or unconventional ideas. This statement is one small behavioral signal for that pattern: \"I have a vivid imagination.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "o2", "text": "I enjoy thinking about abstract, theoretical ideas.", "type": "likert", "dimension": "openness",
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "o2",
+      "text": "I enjoy thinking about abstract, theoretical ideas.",
+      "type": "likert",
+      "dimension": "openness",
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "openness": 1 } },
-        { "value": "2", "text": "2", "dimensionScores": { "openness": 2 } },
-        { "value": "3", "text": "3", "dimensionScores": { "openness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "openness": 4 } },
-        { "value": "5", "text": "5", "dimensionScores": { "openness": 5 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "openness": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "openness": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "openness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "openness": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "openness": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Openness: I enjoy thinking about abstract, theoretical ideas.",
+        "summary": "Openness means curiosity, imagination, tolerance for novelty, and interest in abstract or unconventional ideas. This statement is one small behavioral signal for that pattern: \"I enjoy thinking about abstract, theoretical ideas.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "o3", "text": "I prefer routine and familiar things over novelty.", "type": "likert", "dimension": "openness", "reverse": true,
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "o3",
+      "text": "I prefer routine and familiar things over novelty.",
+      "type": "likert",
+      "dimension": "openness",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "openness": 5 } },
-        { "value": "2", "text": "2", "dimensionScores": { "openness": 4 } },
-        { "value": "3", "text": "3", "dimensionScores": { "openness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "openness": 2 } },
-        { "value": "5", "text": "5", "dimensionScores": { "openness": 1 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "openness": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "openness": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "openness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "openness": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "openness": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Openness: I prefer routine and familiar things over novelty.",
+        "summary": "Openness means curiosity, imagination, tolerance for novelty, and interest in abstract or unconventional ideas. This statement is one small behavioral signal for that pattern: \"I prefer routine and familiar things over novelty.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "o4", "text": "I am not interested in abstract ideas.", "type": "likert", "dimension": "openness", "reverse": true,
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "o4",
+      "text": "I am not interested in abstract ideas.",
+      "type": "likert",
+      "dimension": "openness",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "openness": 5 } },
-        { "value": "2", "text": "2", "dimensionScores": { "openness": 4 } },
-        { "value": "3", "text": "3", "dimensionScores": { "openness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "openness": 2 } },
-        { "value": "5", "text": "5", "dimensionScores": { "openness": 1 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "openness": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "openness": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "openness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "openness": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "openness": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Openness: I am not interested in abstract ideas.",
+        "summary": "Openness means curiosity, imagination, tolerance for novelty, and interest in abstract or unconventional ideas. This statement is one small behavioral signal for that pattern: \"I am not interested in abstract ideas.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "c1", "text": "I am always prepared.", "type": "likert", "dimension": "conscientiousness",
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "c1",
+      "text": "I am always prepared.",
+      "type": "likert",
+      "dimension": "conscientiousness",
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "conscientiousness": 1 } },
-        { "value": "2", "text": "2", "dimensionScores": { "conscientiousness": 2 } },
-        { "value": "3", "text": "3", "dimensionScores": { "conscientiousness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "conscientiousness": 4 } },
-        { "value": "5", "text": "5", "dimensionScores": { "conscientiousness": 5 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conscientiousness": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conscientiousness": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conscientiousness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conscientiousness": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conscientiousness": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Conscientiousness: I am always prepared.",
+        "summary": "Conscientiousness means preparation, order, follow-through, reliability, and attention to obligations and details. This statement is one small behavioral signal for that pattern: \"I am always prepared.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "c2", "text": "I pay attention to details.", "type": "likert", "dimension": "conscientiousness",
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "c2",
+      "text": "I pay attention to details.",
+      "type": "likert",
+      "dimension": "conscientiousness",
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "conscientiousness": 1 } },
-        { "value": "2", "text": "2", "dimensionScores": { "conscientiousness": 2 } },
-        { "value": "3", "text": "3", "dimensionScores": { "conscientiousness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "conscientiousness": 4 } },
-        { "value": "5", "text": "5", "dimensionScores": { "conscientiousness": 5 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conscientiousness": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conscientiousness": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conscientiousness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conscientiousness": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conscientiousness": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Conscientiousness: I pay attention to details.",
+        "summary": "Conscientiousness means preparation, order, follow-through, reliability, and attention to obligations and details. This statement is one small behavioral signal for that pattern: \"I pay attention to details.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "c3", "text": "I often forget to put things back in their proper place.", "type": "likert", "dimension": "conscientiousness", "reverse": true,
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "c3",
+      "text": "I often forget to put things back in their proper place.",
+      "type": "likert",
+      "dimension": "conscientiousness",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "conscientiousness": 5 } },
-        { "value": "2", "text": "2", "dimensionScores": { "conscientiousness": 4 } },
-        { "value": "3", "text": "3", "dimensionScores": { "conscientiousness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "conscientiousness": 2 } },
-        { "value": "5", "text": "5", "dimensionScores": { "conscientiousness": 1 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conscientiousness": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conscientiousness": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conscientiousness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conscientiousness": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conscientiousness": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Conscientiousness: I often forget to put things back in their proper place.",
+        "summary": "Conscientiousness means preparation, order, follow-through, reliability, and attention to obligations and details. This statement is one small behavioral signal for that pattern: \"I often forget to put things back in their proper place.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "c4", "text": "I leave my belongings around.", "type": "likert", "dimension": "conscientiousness", "reverse": true,
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "c4",
+      "text": "I leave my belongings around.",
+      "type": "likert",
+      "dimension": "conscientiousness",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "conscientiousness": 5 } },
-        { "value": "2", "text": "2", "dimensionScores": { "conscientiousness": 4 } },
-        { "value": "3", "text": "3", "dimensionScores": { "conscientiousness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "conscientiousness": 2 } },
-        { "value": "5", "text": "5", "dimensionScores": { "conscientiousness": 1 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "conscientiousness": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "conscientiousness": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "conscientiousness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "conscientiousness": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "conscientiousness": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Conscientiousness: I leave my belongings around.",
+        "summary": "Conscientiousness means preparation, order, follow-through, reliability, and attention to obligations and details. This statement is one small behavioral signal for that pattern: \"I leave my belongings around.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "a1", "text": "I am interested in people.", "type": "likert", "dimension": "agreeableness",
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "a1",
+      "text": "I am interested in people.",
+      "type": "likert",
+      "dimension": "agreeableness",
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "agreeableness": 1 } },
-        { "value": "2", "text": "2", "dimensionScores": { "agreeableness": 2 } },
-        { "value": "3", "text": "3", "dimensionScores": { "agreeableness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "agreeableness": 4 } },
-        { "value": "5", "text": "5", "dimensionScores": { "agreeableness": 5 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "agreeableness": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "agreeableness": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "agreeableness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "agreeableness": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "agreeableness": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Agreeableness: I am interested in people.",
+        "summary": "Agreeableness means concern for others, warmth, cooperation, tact, and willingness to protect relationships. This statement is one small behavioral signal for that pattern: \"I am interested in people.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "a2", "text": "I sympathize with others' feelings.", "type": "likert", "dimension": "agreeableness",
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "a2",
+      "text": "I sympathize with others' feelings.",
+      "type": "likert",
+      "dimension": "agreeableness",
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "agreeableness": 1 } },
-        { "value": "2", "text": "2", "dimensionScores": { "agreeableness": 2 } },
-        { "value": "3", "text": "3", "dimensionScores": { "agreeableness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "agreeableness": 4 } },
-        { "value": "5", "text": "5", "dimensionScores": { "agreeableness": 5 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "agreeableness": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "agreeableness": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "agreeableness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "agreeableness": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "agreeableness": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Agreeableness: I sympathize with others' feelings.",
+        "summary": "Agreeableness means concern for others, warmth, cooperation, tact, and willingness to protect relationships. This statement is one small behavioral signal for that pattern: \"I sympathize with others' feelings.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "a3", "text": "I insult people.", "type": "likert", "dimension": "agreeableness", "reverse": true,
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "a3",
+      "text": "I insult people.",
+      "type": "likert",
+      "dimension": "agreeableness",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "agreeableness": 5 } },
-        { "value": "2", "text": "2", "dimensionScores": { "agreeableness": 4 } },
-        { "value": "3", "text": "3", "dimensionScores": { "agreeableness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "agreeableness": 2 } },
-        { "value": "5", "text": "5", "dimensionScores": { "agreeableness": 1 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "agreeableness": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "agreeableness": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "agreeableness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "agreeableness": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "agreeableness": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Agreeableness: I insult people.",
+        "summary": "Agreeableness means concern for others, warmth, cooperation, tact, and willingness to protect relationships. This statement is one small behavioral signal for that pattern: \"I insult people.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "a4", "text": "I am hardly interested in others' problems.", "type": "likert", "dimension": "agreeableness", "reverse": true,
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "a4",
+      "text": "I am hardly interested in others' problems.",
+      "type": "likert",
+      "dimension": "agreeableness",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "agreeableness": 5 } },
-        { "value": "2", "text": "2", "dimensionScores": { "agreeableness": 4 } },
-        { "value": "3", "text": "3", "dimensionScores": { "agreeableness": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "agreeableness": 2 } },
-        { "value": "5", "text": "5", "dimensionScores": { "agreeableness": 1 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "agreeableness": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "agreeableness": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "agreeableness": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "agreeableness": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "agreeableness": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Agreeableness: I am hardly interested in others' problems.",
+        "summary": "Agreeableness means concern for others, warmth, cooperation, tact, and willingness to protect relationships. This statement is one small behavioral signal for that pattern: \"I am hardly interested in others' problems.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "e1", "text": "I am relaxed most of the time.", "type": "likert", "dimension": "emotionalStability",
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "e1",
+      "text": "I am relaxed most of the time.",
+      "type": "likert",
+      "dimension": "emotionalStability",
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "emotionalStability": 1 } },
-        { "value": "2", "text": "2", "dimensionScores": { "emotionalStability": 2 } },
-        { "value": "3", "text": "3", "dimensionScores": { "emotionalStability": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "emotionalStability": 4 } },
-        { "value": "5", "text": "5", "dimensionScores": { "emotionalStability": 5 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "emotionalStability": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "emotionalStability": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "emotionalStability": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "emotionalStability": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "emotionalStability": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Emotional Stability: I am relaxed most of the time.",
+        "summary": "Emotional Stability means the tendency to stay steady under stress rather than being frequently pulled into worry or low mood. This statement is one small behavioral signal for that pattern: \"I am relaxed most of the time.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "e2", "text": "I seldom feel blue.", "type": "likert", "dimension": "emotionalStability",
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "e2",
+      "text": "I seldom feel blue.",
+      "type": "likert",
+      "dimension": "emotionalStability",
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "emotionalStability": 1 } },
-        { "value": "2", "text": "2", "dimensionScores": { "emotionalStability": 2 } },
-        { "value": "3", "text": "3", "dimensionScores": { "emotionalStability": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "emotionalStability": 4 } },
-        { "value": "5", "text": "5", "dimensionScores": { "emotionalStability": 5 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "emotionalStability": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "emotionalStability": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "emotionalStability": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "emotionalStability": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "emotionalStability": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Emotional Stability: I seldom feel blue.",
+        "summary": "Emotional Stability means the tendency to stay steady under stress rather than being frequently pulled into worry or low mood. This statement is one small behavioral signal for that pattern: \"I seldom feel blue.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "e3", "text": "I worry about things.", "type": "likert", "dimension": "emotionalStability", "reverse": true,
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "e3",
+      "text": "I worry about things.",
+      "type": "likert",
+      "dimension": "emotionalStability",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "emotionalStability": 5 } },
-        { "value": "2", "text": "2", "dimensionScores": { "emotionalStability": 4 } },
-        { "value": "3", "text": "3", "dimensionScores": { "emotionalStability": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "emotionalStability": 2 } },
-        { "value": "5", "text": "5", "dimensionScores": { "emotionalStability": 1 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "emotionalStability": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "emotionalStability": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "emotionalStability": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "emotionalStability": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "emotionalStability": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Emotional Stability: I worry about things.",
+        "summary": "Emotional Stability means the tendency to stay steady under stress rather than being frequently pulled into worry or low mood. This statement is one small behavioral signal for that pattern: \"I worry about things.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "e4", "text": "I get stressed easily.", "type": "likert", "dimension": "emotionalStability", "reverse": true,
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "e4",
+      "text": "I get stressed easily.",
+      "type": "likert",
+      "dimension": "emotionalStability",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "emotionalStability": 5 } },
-        { "value": "2", "text": "2", "dimensionScores": { "emotionalStability": 4 } },
-        { "value": "3", "text": "3", "dimensionScores": { "emotionalStability": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "emotionalStability": 2 } },
-        { "value": "5", "text": "5", "dimensionScores": { "emotionalStability": 1 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "emotionalStability": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "emotionalStability": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "emotionalStability": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "emotionalStability": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "emotionalStability": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Emotional Stability: I get stressed easily.",
+        "summary": "Emotional Stability means the tendency to stay steady under stress rather than being frequently pulled into worry or low mood. This statement is one small behavioral signal for that pattern: \"I get stressed easily.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Big Five personality traits",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits"
+          }
+        ]
+      }
     },
     {
-      "id": "ac1", "text": "I work hard.", "type": "likert", "dimension": "achievement",
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "ac1",
+      "text": "I work hard.",
+      "type": "likert",
+      "dimension": "achievement",
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "achievement": 1 } },
-        { "value": "2", "text": "2", "dimensionScores": { "achievement": 2 } },
-        { "value": "3", "text": "3", "dimensionScores": { "achievement": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "achievement": 4 } },
-        { "value": "5", "text": "5", "dimensionScores": { "achievement": 5 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "achievement": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "achievement": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "achievement": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "achievement": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "achievement": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Achievement Striving: I work hard.",
+        "summary": "Achievement Striving means the drive to set high standards, work hard, and push beyond minimal requirements. This statement is one small behavioral signal for that pattern: \"I work hard.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": []
+      }
     },
     {
-      "id": "ac2", "text": "I set high standards for myself and others.", "type": "likert", "dimension": "achievement",
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "ac2",
+      "text": "I set high standards for myself and others.",
+      "type": "likert",
+      "dimension": "achievement",
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "achievement": 1 } },
-        { "value": "2", "text": "2", "dimensionScores": { "achievement": 2 } },
-        { "value": "3", "text": "3", "dimensionScores": { "achievement": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "achievement": 4 } },
-        { "value": "5", "text": "5", "dimensionScores": { "achievement": 5 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "achievement": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "achievement": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "achievement": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "achievement": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "achievement": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Achievement Striving: I set high standards for myself and others.",
+        "summary": "Achievement Striving means the drive to set high standards, work hard, and push beyond minimal requirements. This statement is one small behavioral signal for that pattern: \"I set high standards for myself and others.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": []
+      }
     },
     {
-      "id": "ac3", "text": "I do more than what is expected of me.", "type": "likert", "dimension": "achievement",
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "ac3",
+      "text": "I do more than what is expected of me.",
+      "type": "likert",
+      "dimension": "achievement",
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "achievement": 1 } },
-        { "value": "2", "text": "2", "dimensionScores": { "achievement": 2 } },
-        { "value": "3", "text": "3", "dimensionScores": { "achievement": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "achievement": 4 } },
-        { "value": "5", "text": "5", "dimensionScores": { "achievement": 5 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "achievement": 1
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "achievement": 2
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "achievement": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "achievement": 4
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "achievement": 5
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Achievement Striving: I do more than what is expected of me.",
+        "summary": "Achievement Striving means the drive to set high standards, work hard, and push beyond minimal requirements. This statement is one small behavioral signal for that pattern: \"I do more than what is expected of me.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": []
+      }
     },
     {
-      "id": "ac4", "text": "I do just enough work to get by.", "type": "likert", "dimension": "achievement", "reverse": true,
-      "scaleLabels": ["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"],
+      "id": "ac4",
+      "text": "I do just enough work to get by.",
+      "type": "likert",
+      "dimension": "achievement",
+      "reverse": true,
+      "scaleLabels": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
       "options": [
-        { "value": "1", "text": "1", "dimensionScores": { "achievement": 5 } },
-        { "value": "2", "text": "2", "dimensionScores": { "achievement": 4 } },
-        { "value": "3", "text": "3", "dimensionScores": { "achievement": 3 } },
-        { "value": "4", "text": "4", "dimensionScores": { "achievement": 2 } },
-        { "value": "5", "text": "5", "dimensionScores": { "achievement": 1 } }
-      ]
+        {
+          "value": "1",
+          "text": "1",
+          "dimensionScores": {
+            "achievement": 5
+          }
+        },
+        {
+          "value": "2",
+          "text": "2",
+          "dimensionScores": {
+            "achievement": 4
+          }
+        },
+        {
+          "value": "3",
+          "text": "3",
+          "dimensionScores": {
+            "achievement": 3
+          }
+        },
+        {
+          "value": "4",
+          "text": "4",
+          "dimensionScores": {
+            "achievement": 2
+          }
+        },
+        {
+          "value": "5",
+          "text": "5",
+          "dimensionScores": {
+            "achievement": 1
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Achievement Striving: I do just enough work to get by.",
+        "summary": "Achievement Striving means the drive to set high standards, work hard, and push beyond minimal requirements. This statement is one small behavioral signal for that pattern: \"I do just enough work to get by.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
     "type": "likert",
     "dimensions": [
-      { "key": "openness", "label": "Openness", "axisLabel": "Curiosity ↔ Pragmatism", "theoreticalMin": 4, "theoreticalMax": 20 },
-      { "key": "conscientiousness", "label": "Conscientiousness", "axisLabel": "Structure ↔ Spontaneity", "theoreticalMin": 4, "theoreticalMax": 20 },
-      { "key": "agreeableness", "label": "Agreeableness", "axisLabel": "Independence ↔ Cooperation", "theoreticalMin": 4, "theoreticalMax": 20 },
-      { "key": "emotionalStability", "label": "Emotional Stability", "axisLabel": "Calm ↔ Reactivity", "theoreticalMin": 4, "theoreticalMax": 20 },
-      { "key": "achievement", "label": "Achievement Striving", "axisLabel": "Drive ↔ Contentment", "theoreticalMin": 4, "theoreticalMax": 20 }
+      {
+        "key": "openness",
+        "label": "Openness",
+        "axisLabel": "Curiosity ↔ Pragmatism",
+        "theoreticalMin": 4,
+        "theoreticalMax": 20
+      },
+      {
+        "key": "conscientiousness",
+        "label": "Conscientiousness",
+        "axisLabel": "Structure ↔ Spontaneity",
+        "theoreticalMin": 4,
+        "theoreticalMax": 20
+      },
+      {
+        "key": "agreeableness",
+        "label": "Agreeableness",
+        "axisLabel": "Independence ↔ Cooperation",
+        "theoreticalMin": 4,
+        "theoreticalMax": 20
+      },
+      {
+        "key": "emotionalStability",
+        "label": "Emotional Stability",
+        "axisLabel": "Calm ↔ Reactivity",
+        "theoreticalMin": 4,
+        "theoreticalMax": 20
+      },
+      {
+        "key": "achievement",
+        "label": "Achievement Striving",
+        "axisLabel": "Drive ↔ Contentment",
+        "theoreticalMin": 4,
+        "theoreticalMax": 20
+      }
     ]
   },
   "attribution": {
     "text": "Personality items from the International Personality Item Pool (ipip.ori.org), public domain.",
     "deepLink": "https://ipip.ori.org/"
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

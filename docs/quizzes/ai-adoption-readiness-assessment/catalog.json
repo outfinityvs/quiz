@@ -8,10 +8,10 @@
   "type": "readiness",
   "domain": "ai-trust",
   "priority": "P1",
-  "audience": "Entrepreneurs, boards, executive teams, product leaders, family offices, and SMEs",
+  "audience": "Founders, executive teams, product leaders, and SMEs",
   "hasRecommendation": false,
   "license": "CC BY 4.0",
-  "description": "Transformation readiness assessment across Use Cases & Value, Data & Technology, People & Workflow, Governance & Measurement. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate evidence-confidence checks.",
+  "description": "Transformation readiness assessment across Use Cases & Value, Data & Technology, People & Workflow, Governance & Measurement. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate answer-support checks.",
   "ogTitle": "AI Adoption Readiness - Outfinity Quiz",
   "ogDescription": "AI adoption readiness diagnostic for use cases, value, data, technology, workflow, people, governance, and measurement."
 }

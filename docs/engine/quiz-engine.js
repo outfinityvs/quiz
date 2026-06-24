@@ -1,3 +1,5 @@
+import { resolveBannerConfig } from './banner-presets.js';
+
 const STAGES = {
   INTRO: 'intro',
   CONTEXT: 'optionalContext',
@@ -6,14 +8,6 @@ const STAGES = {
   RESULT: 'result',
   SHARE: 'share',
   COMPARE: 'compare'
-};
-
-const DEFAULT_INITIATIVE_BANNER = {
-  enabled: true,
-  title: 'Outfinity Initiative',
-  message: 'A free, private quiz engine by Outfinity Venture Validation Studio.',
-  ctaText: 'Explore Outfinity',
-  ctaUrl: 'https://outfinity.ch/'
 };
 
 function createEngine(container, config) {
@@ -36,10 +30,7 @@ function createEngine(container, config) {
 
   const listeners = [];
 
-  const bannerConfig = {
-    ...DEFAULT_INITIATIVE_BANNER,
-    ...(config.banner || {})
-  };
+  const bannerConfig = resolveBannerConfig(config.banner);
 
   function onStageChange(fn) {
     listeners.push(fn);
@@ -291,13 +282,18 @@ function createEngine(container, config) {
     const contextQuestions = config.contextQuestions || [];
     const el = document.createElement('section');
     el.className = 'quiz-stage quiz-stage--context';
-    el.innerHTML = `<h2>${escapeHtml(config.contextTitle || 'Optional context')}</h2>`;
+
+    const header = createStageHeader({
+      kicker: config.title,
+      title: config.contextTitle || 'Optional context',
+      summary: config.contextDescription || ''
+    });
+    el.appendChild(header);
 
     for (const q of contextQuestions) {
       const fieldset = document.createElement('fieldset');
       fieldset.className = 'quiz-question';
-      const legend = document.createElement('legend');
-      legend.textContent = q.text;
+      const legend = createQuestionLegend(q);
       fieldset.appendChild(legend);
 
       for (const opt of q.options) {
@@ -338,6 +334,13 @@ function createEngine(container, config) {
     const el = document.createElement('section');
     el.className = 'quiz-stage quiz-stage--question';
 
+    const header = createStageHeader({
+      kicker: config.title,
+      title: config.questionStageTitle || 'Answer from your real situation',
+      summary: config.questionStageDescription || ''
+    });
+    el.appendChild(header);
+
     const progress = document.createElement('div');
     progress.className = 'quiz-progress';
     progress.textContent = `${questionIndex + 1} of ${config.questions.length}`;
@@ -347,8 +350,7 @@ function createEngine(container, config) {
     fieldset.className = 'quiz-question';
     fieldset.setAttribute('role', 'radiogroup');
 
-    const legend = document.createElement('legend');
-    legend.textContent = question.text;
+    const legend = createQuestionLegend(question);
     fieldset.appendChild(legend);
 
     if (question.type === 'forced-choice') {
@@ -494,20 +496,12 @@ function createEngine(container, config) {
     if (!bannerConfig.enabled) return null;
     const banner = document.createElement('aside');
     banner.className = 'quiz-initiative-banner';
+    const logoHtml = bannerConfig.iconUrl
+      ? '<span class="quiz-initiative-banner__mark"><img class="quiz-initiative-banner__logo" src="' + escapeHtml(bannerConfig.iconUrl) + '" alt="" aria-hidden="true" loading="lazy" decoding="async"></span>'
+      : '';
     banner.innerHTML =
       '<a class="quiz-initiative-banner__inner" href="' + escapeHtml(bannerConfig.ctaUrl) + '" target="_blank" rel="noopener noreferrer">' +
-        '<svg class="quiz-initiative-banner__logo" viewBox="0 0 100 100" aria-hidden="true" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">' +
-          '<circle cx="50" cy="50" r="38" stroke="currentColor" stroke-width="6" fill="none"/>' +
-          '<circle cx="50" cy="50" r="7" fill="currentColor"/>' +
-          '<line x1="50" y1="5" x2="50" y2="23" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>' +
-          '<line x1="50" y1="77" x2="50" y2="95" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>' +
-          '<line x1="5" y1="50" x2="23" y2="50" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>' +
-          '<line x1="77" y1="50" x2="95" y2="50" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>' +
-          '<line x1="22" y1="22" x2="35" y2="35" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity="0.5"/>' +
-          '<line x1="78" y1="22" x2="65" y2="35" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity="0.5"/>' +
-          '<line x1="22" y1="78" x2="35" y2="65" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity="0.5"/>' +
-          '<line x1="78" y1="78" x2="65" y2="65" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity="0.5"/>' +
-        '</svg>' +
+        logoHtml +
         '<div>' +
           '<p class="quiz-initiative-banner__title">' + escapeHtml(bannerConfig.title) + '</p>' +
           '<p class="quiz-initiative-banner__text">' + escapeHtml(bannerConfig.message) + '</p>' +
@@ -515,6 +509,161 @@ function createEngine(container, config) {
         '<span class="quiz-initiative-banner__cta">' + escapeHtml(bannerConfig.ctaText) + ' ↗</span>' +
       '</a>';
     return banner;
+  }
+
+  function createStageHeader({ kicker, title, summary }) {
+    const header = document.createElement('div');
+    header.className = 'quiz-stage-header';
+    if (kicker) {
+      const kickerEl = document.createElement('p');
+      kickerEl.className = 'quiz-stage-header__kicker';
+      kickerEl.textContent = kicker;
+      header.appendChild(kickerEl);
+    }
+    const titleEl = document.createElement('h2');
+    titleEl.className = 'quiz-stage-header__title';
+    titleEl.textContent = title;
+    header.appendChild(titleEl);
+    if (summary) {
+      const summaryEl = document.createElement('p');
+      summaryEl.className = 'quiz-stage-header__summary';
+      summaryEl.textContent = summary;
+      header.appendChild(summaryEl);
+    }
+    return header;
+  }
+
+  function getConceptHelp(question) {
+    if (!question) return null;
+    if (question.conceptHelp) return question.conceptHelp;
+    const conceptKey = question.conceptKey || question.dimension || question.ecologyAxis;
+    if (conceptKey && config.concepts && config.concepts[conceptKey]) {
+      return config.concepts[conceptKey];
+    }
+    return null;
+  }
+
+  function createQuestionLegend(question) {
+    const legend = document.createElement('legend');
+    const wrap = document.createElement('span');
+    wrap.className = 'quiz-question-legend';
+    const text = document.createElement('span');
+    text.className = 'quiz-question-legend__text';
+    text.textContent = question.text;
+    wrap.appendChild(text);
+    appendConceptHelpButton(wrap, question);
+    legend.appendChild(wrap);
+    return legend;
+  }
+
+  function appendConceptHelpButton(parent, question) {
+    const help = getConceptHelp(question);
+    if (!help) return;
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'quiz-concept-button';
+    button.setAttribute('aria-label', `Learn about ${help.title || 'this question'}`);
+    button.title = `Learn about ${help.title || 'this question'}`;
+    button.textContent = 'i';
+    button.addEventListener('click', () => openConceptPanel(help));
+    parent.appendChild(button);
+  }
+
+  function openConceptPanel(help) {
+    const previousFocus = document.activeElement;
+    closeConceptPanel();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'quiz-concept-overlay';
+    overlay.setAttribute('role', 'presentation');
+
+    const panel = document.createElement('aside');
+    panel.className = 'quiz-concept-panel';
+    panel.setAttribute('role', 'dialog');
+    panel.setAttribute('aria-modal', 'true');
+    panel.setAttribute('aria-label', help.title || 'Concept help');
+
+    const close = document.createElement('button');
+    close.type = 'button';
+    close.className = 'quiz-concept-panel__close';
+    close.setAttribute('aria-label', 'Close concept help');
+    close.textContent = 'Close';
+    close.addEventListener('click', closeConceptPanel);
+
+    const title = document.createElement('h2');
+    title.textContent = help.title || 'Concept help';
+
+    panel.append(close, title);
+    appendConceptParagraph(panel, help.summary);
+    appendConceptSection(panel, 'Why it matters', help.whyItMatters);
+    appendConceptSection(panel, 'Before you answer', help.beforeAnswering);
+    appendConceptSection(panel, 'Example', help.example);
+
+    if (Array.isArray(help.learnMore) && help.learnMore.length) {
+      const section = document.createElement('div');
+      section.className = 'quiz-concept-panel__section';
+      const heading = document.createElement('h3');
+      heading.textContent = 'Learn more';
+      const list = document.createElement('ul');
+      for (const link of help.learnMore) {
+        if (!link || !link.url || !link.label) continue;
+        const item = document.createElement('li');
+        const anchor = document.createElement('a');
+        anchor.href = link.url;
+        anchor.target = '_blank';
+        anchor.rel = 'noopener noreferrer';
+        anchor.textContent = link.label;
+        item.appendChild(anchor);
+        list.appendChild(item);
+      }
+      section.append(heading, list);
+      panel.appendChild(section);
+    }
+
+    overlay.appendChild(panel);
+    overlay.addEventListener('click', event => {
+      if (event.target === overlay) closeConceptPanel();
+    });
+    const handleKeydown = event => {
+      if (event.key === 'Escape') closeConceptPanel();
+    };
+    document.addEventListener('keydown', handleKeydown);
+    overlay._cleanup = () => {
+      document.removeEventListener('keydown', handleKeydown);
+      if (previousFocus && typeof previousFocus.focus === 'function') {
+        previousFocus.focus();
+      }
+    };
+    document.body.appendChild(overlay);
+    close.focus();
+  }
+
+  function appendConceptParagraph(parent, text) {
+    if (!text) return;
+    const paragraph = document.createElement('p');
+    paragraph.className = 'quiz-concept-panel__lead';
+    paragraph.textContent = text;
+    parent.appendChild(paragraph);
+  }
+
+  function appendConceptSection(parent, title, text) {
+    if (!text) return;
+    const section = document.createElement('div');
+    section.className = 'quiz-concept-panel__section';
+    const heading = document.createElement('h3');
+    heading.textContent = title;
+    const paragraph = document.createElement('p');
+    paragraph.textContent = text;
+    section.append(heading, paragraph);
+    parent.appendChild(section);
+  }
+
+  function closeConceptPanel() {
+    const existing = document.querySelector('.quiz-concept-overlay');
+    if (existing) {
+      if (typeof existing._cleanup === 'function') existing._cleanup();
+      existing.remove();
+    }
   }
 
   function renderStage(contentEl) {

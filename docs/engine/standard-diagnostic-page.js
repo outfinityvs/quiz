@@ -1,7 +1,8 @@
 import { createEngine } from './quiz-engine.js';
 import { createRadarChart, createTextAlternative } from './radar-chart.js';
-import { generateShareCard, downloadCanvas, shareCanvas } from './share-card.js';
+import { generateShareCard, downloadCanvas } from './share-card.js';
 import { buildShareUrl, parseFragment, validatePayload } from './url-codec.js';
+import { buildSavedResultRecord, createSaveResultControl } from './result-history.js';
 
 function mountStandardDiagnosticPage(options = {}) {
   const container = document.getElementById(options.containerId || 'quiz-container');
@@ -49,6 +50,9 @@ function mountStandardDiagnosticPage(options = {}) {
       scoring: instrument.scoring,
       contextQuestions: instrument.contextQuestions || [],
       contextTitle: instrument.contextTitle,
+      contextDescription: instrument.contextDescription,
+      questionStageTitle: instrument.questionStageTitle,
+      questionStageDescription: instrument.questionStageDescription,
       banner: instrument.banner,
       questionOrder: 'sequential',
       deliberationText: instrument.deliberationText || 'Reading the evidence...',
@@ -138,16 +142,16 @@ function mountStandardDiagnosticPage(options = {}) {
     const header = document.createElement('div');
     header.className = 'quiz-result__header';
     appendText(header, 'p', 'quiz-result__kicker', interpretation.resultKicker || 'Your Diagnostic Result');
-    appendText(header, 'h1', 'quiz-result__title', result.level ? result.level.label : 'Insufficient evidence');
+    appendText(header, 'h1', 'quiz-result__title', instrument.title);
     const subtitle = result.complete
-      ? `${result.balancedScore}/100 balanced index`
+      ? `${result.level ? result.level.label : 'Diagnostic result'} - ${result.balancedScore}/100 balanced index`
       : 'Complete all dimensions to calculate the balanced index.';
     appendText(header, 'p', 'quiz-result__summary', subtitle);
     section.appendChild(header);
 
     renderChart(section, result.scores, 'Your result');
     renderScoreSummary(section, result);
-    renderEvidenceConfidence(section, state);
+    renderEvidenceBasis(section, state);
     renderInterpretation(section, result);
     renderAnswerReview(section, state);
     renderShare(section, result);
@@ -186,7 +190,7 @@ function mountStandardDiagnosticPage(options = {}) {
     parent.appendChild(grid);
   }
 
-  function renderEvidenceConfidence(parent, state) {
+  function renderEvidenceBasis(parent, state) {
     const evidenceEntries = Object.entries(state.contextAnswers || {})
       .filter(([key]) => key.startsWith('evidence-'));
     if (!evidenceEntries.length) return;
@@ -201,9 +205,9 @@ function mountStandardDiagnosticPage(options = {}) {
       instrument.scoring.dimensions.map(dimension => [`evidence-${dimension.key}`, dimension.label])
     );
     const section = document.createElement('div');
-    section.className = 'quiz-result__section quiz-evidence-confidence';
-    appendText(section, 'h3', '', 'Evidence confidence');
-    appendText(section, 'p', '', 'This does not inflate the score. It shows how much confidence to place in the diagnostic result.');
+    section.className = 'quiz-result__section quiz-evidence-basis';
+    appendText(section, 'h3', '', 'What backed up your answers');
+    appendText(section, 'p', '', 'This is not another score. It shows whether your answers were based on opinion, anecdotes, documents, or system-verified evidence. A high maturity score with weak support should be treated as a hypothesis to verify.');
 
     const list = document.createElement('ul');
     for (const [key, value] of evidenceEntries) {
@@ -255,8 +259,10 @@ function mountStandardDiagnosticPage(options = {}) {
   function renderShare(parent, result) {
     const section = document.createElement('div');
     section.className = 'quiz-share-section';
-    appendText(section, 'h3', '', 'Share safely');
-    appendText(section, 'p', 'quiz-share-note', interpretation.shareNote || 'Share cards reveal only the level and strongest area, never individual answers or sensitive weaknesses.');
+    section.dataset.historyEnhanced = 'manual';
+    appendText(section, 'h3', '', 'Save or share result');
+    appendText(section, 'p', 'quiz-share-note', interpretation.shareNote || 'Shareable links reveal only the level and strongest area, never individual answers or sensitive weaknesses.');
+    appendText(section, 'p', 'quiz-share-note quiz-save-explanation', 'Save Result stores this result only in this browser localStorage, only after you click the button. Use the optional label if several people use this computer.');
 
     const buttons = document.createElement('div');
     buttons.className = 'quiz-share-buttons';
@@ -265,11 +271,7 @@ function mountStandardDiagnosticPage(options = {}) {
     copy.className = 'quiz-btn quiz-btn--primary';
     copy.textContent = 'Create shareable link';
     copy.addEventListener('click', () => {
-      const payload = {
-        v: instrument.version,
-        r: instrument.scoring.dimensions.map(dimension => result.scores[dimension.key] || 0),
-        a: result.level ? result.level.id : 'insufficient'
-      };
+      const payload = buildSharePayload(result);
       navigator.clipboard.writeText(buildShareUrl(window.location.href.split('#')[0], payload))
         .then(() => showToast('Link copied to clipboard'));
     });
@@ -282,21 +284,32 @@ function mountStandardDiagnosticPage(options = {}) {
       downloadCanvas(canvas, `${instrument.id}.png`);
     });
 
-    const share = document.createElement('button');
-    share.className = 'quiz-btn quiz-btn--secondary';
-    share.textContent = 'Share';
-    share.addEventListener('click', async () => {
-      const canvas = await generateCard(result);
-      await shareCanvas(canvas, {
-        shareText: shareText(result),
-        quizUrl: window.location.href.split('#')[0],
-        filename: `${instrument.id}.png`
-      });
+    const saveControl = createSaveResultControl({
+      buildRecord: () => buildSavedResultRecord({
+        instrument,
+        resultTitle: result.level ? result.level.label : 'Diagnostic result',
+        resultSummary: result.strongest ? `Strongest area: ${result.strongest.label}` : '',
+        resultUrl: window.location.href.split('#')[0],
+        shareUrl: buildShareUrl(window.location.href.split('#')[0], buildSharePayload(result)),
+        dimensions: instrument.scoring.dimensions,
+        scores: result.scores,
+        source: 'standard-diagnostic'
+      }),
+      showToast
     });
 
-    buttons.append(copy, download, share);
+    section.appendChild(saveControl.field);
+    buttons.append(copy, download, saveControl.button);
     section.appendChild(buttons);
     parent.appendChild(section);
+  }
+
+  function buildSharePayload(result) {
+    return {
+      v: instrument.version,
+      r: instrument.scoring.dimensions.map(dimension => result.scores[dimension.key] || 0),
+      a: result.level ? result.level.id : 'insufficient'
+    };
   }
 
   async function generateCard(result) {

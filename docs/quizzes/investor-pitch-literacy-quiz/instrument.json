@@ -1,0 +1,597 @@
+{
+  "id": "investor-pitch-literacy-quiz",
+  "slug": "investor-pitch-literacy-quiz",
+  "version": 1,
+  "locale": "en",
+  "title": "Investor Pitch Literacy Challenge",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Knowledge quiz. 7 min.",
+    "description": "<p>Investor Pitch Literacy Challenge teaches the typical structure and vocabulary of a first investor pitch: problem, customer, why now, traction, economics, funding ask, Q&A, and follow-up. It is not a deck grader; it is a private learning check for the logic investors expect to hear.</p><p>Each question uses plausible founder answers. Pick the answer you would actually use in a meeting. After completion, the answer review explains why one version is stronger and which concept to study next.</p>",
+    "duration": "8 questions. Approximately 7 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start the challenge"
+  },
+  "deliberationText": "Checking your pitch logic...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What is the strongest opening for a first investor pitch?",
+      "type": "profile",
+      "dimension": "pitch-structure",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "A strong opening gives the investor a clear problem, customer, urgency, and wedge before the product tour starts.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. A full product tour so the investor sees every feature before judging the company.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. A concrete customer pain, who has it, why it matters now, and the wedge you will use.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The founder biography, because investor conviction starts with personal credibility.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 1
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The largest possible market number, even before the investor understands the customer.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Pitch Structure: What is the strongest opening for a first investor pitch",
+        "summary": "Pitch Structure means the order and focus that help an investor quickly understand the customer pain, solution, proof, market, team, ask, and next milestone. This question teaches the concept through a concrete prompt: \"What is the strongest opening for a first investor pitch?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"A concrete customer pain, who has it, why it matters now, and the wedge you will use.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Elevator pitch",
+            "url": "https://en.wikipedia.org/wiki/Elevator_pitch"
+          },
+          {
+            "label": "Wikipedia: Venture capital",
+            "url": "https://en.wikipedia.org/wiki/Venture_capital"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "text": "Which story order usually makes a pitch easiest to follow?",
+      "type": "profile",
+      "dimension": "pitch-structure",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Most first meetings work best when the narrative moves from problem and customer to solution, proof, market, business model, team, ask, and milestones.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Product, features, roadmap, logo slide, and only then the problem.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Problem and customer, solution, evidence, market and business model, team, ask and milestones.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Team, vision, technology, press mentions, and only then traction.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 1
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Financial model first, because every investor wants numbers before narrative.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Pitch Structure: Which story order usually makes a pitch easiest to follow",
+        "summary": "Pitch Structure means the order and focus that help an investor quickly understand the customer pain, solution, proof, market, team, ask, and next milestone. This question teaches the concept through a concrete prompt: \"Which story order usually makes a pitch easiest to follow?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Problem and customer, solution, evidence, market and business model, team, ask and milestones.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Elevator pitch",
+            "url": "https://en.wikipedia.org/wiki/Elevator_pitch"
+          },
+          {
+            "label": "Wikipedia: Venture capital",
+            "url": "https://en.wikipedia.org/wiki/Venture_capital"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "text": "An investor asks, 'Who is the customer?' Which answer is strongest?",
+      "type": "profile",
+      "dimension": "problem-and-customer",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "A strong customer answer names a narrow segment, a trigger, the buyer or budget holder, and the painful alternative used today.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Everyone who wants to save time, because the product can eventually serve a huge market.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Mid-market finance teams after a failed audit, with the CFO as buyer and spreadsheets as the current alternative.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Companies in Europe, especially those with digital transformation budgets.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 1
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Early adopters, because they understand innovation faster than mainstream buyers.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Problem & Customer: An investor asks, 'Who is the customer?' Which answer is strongest",
+        "summary": "Problem & Customer means showing exactly who has the problem, why it is urgent now, what they use today, and why they may switch. This question teaches the concept through a concrete prompt: \"An investor asks, 'Who is the customer?' Which answer is strongest?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Mid-market finance teams after a failed audit, with the CFO as buyer and spreadsheets as the current alternative.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Elevator pitch",
+            "url": "https://en.wikipedia.org/wiki/Elevator_pitch"
+          },
+          {
+            "label": "Wikipedia: Venture capital",
+            "url": "https://en.wikipedia.org/wiki/Venture_capital"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "text": "Which 'why now' argument is most credible?",
+      "type": "profile",
+      "dimension": "problem-and-customer",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Why now is strongest when a specific change makes the old way newly painful or the new way newly possible.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The market is big and the problem has existed for a long time.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Recent regulation, workflow change, or cost shift makes the old workaround fail for this segment.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The founders are ready and the team has been thinking about the idea for years.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 1
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Competitors exist, which proves the category is fashionable.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Problem & Customer: Which 'why now' argument is most credible",
+        "summary": "Problem & Customer means showing exactly who has the problem, why it is urgent now, what they use today, and why they may switch. This question teaches the concept through a concrete prompt: \"Which 'why now' argument is most credible?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Recent regulation, workflow change, or cost shift makes the old workaround fail for this segment.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Elevator pitch",
+            "url": "https://en.wikipedia.org/wiki/Elevator_pitch"
+          },
+          {
+            "label": "Wikipedia: Venture capital",
+            "url": "https://en.wikipedia.org/wiki/Venture_capital"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "text": "Which early traction claim is strongest for a B2B startup?",
+      "type": "profile",
+      "dimension": "traction-and-ask",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "The strongest early traction connects the right customer segment to paid or repeated behaviour, usage, retention, and a credible path to expansion.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. We have many friendly conversations and a long list of people who liked the idea.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Three target-segment customers pay, use the workflow weekly, and two are expanding after a measured pilot.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. We have a large social following and strong interest from people outside the target segment.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 1
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. We will have traction after the round, because funding will let us hire sales.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Traction & Ask: Which early traction claim is strongest for a B2B startup",
+        "summary": "Traction & Ask means connecting traction, economics, round size, runway, and milestones so the ask is not just a number. This question teaches the concept through a concrete prompt: \"Which early traction claim is strongest for a B2B startup?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Three target-segment customers pay, use the workflow weekly, and two are expanding after a measured pilot.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "text": "What should the funding ask connect to?",
+      "type": "profile",
+      "dimension": "traction-and-ask",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "A credible ask ties round size and use of funds to milestones that reduce risk before the next financing or strategic decision.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. A round size chosen because similar startups raised that amount.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Milestones, burn, runway, and the specific proof needed for the next round or path to sustainability.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The maximum dilution founders are emotionally willing to accept.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 1
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. A broad hiring plan with no link to customer, product, or revenue milestones.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Traction & Ask: What should the funding ask connect to",
+        "summary": "Traction & Ask means connecting traction, economics, round size, runway, and milestones so the ask is not just a number. This question teaches the concept through a concrete prompt: \"What should the funding ask connect to?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Milestones, burn, runway, and the specific proof needed for the next round or path to sustainability.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "text": "During Q&A, an investor challenges your biggest assumption. What is the best response?",
+      "type": "profile",
+      "dimension": "delivery-and-follow-up",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Strong Q&A shows intellectual honesty: state the assumption, show evidence and sensitivity, and explain what would change the decision.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Defend the assumption firmly so the investor sees confidence.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Acknowledge the assumption, show the evidence and range, and name what would make you change course.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Say the model is conservative without showing the sensitivity behind it.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 1
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Move quickly to another slide so the meeting does not lose momentum.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Delivery & Follow-up: During Q&A, an investor challenges your biggest assumption. What is the best response",
+        "summary": "Delivery & Follow-up means handling investor questions, uncertainty, materials, next steps, and follow-up with clarity and discipline. This question teaches the concept through a concrete prompt: \"During Q&A, an investor challenges your biggest assumption. What is the best response?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Acknowledge the assumption, show the evidence and range, and name what would make you change course.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Elevator pitch",
+            "url": "https://en.wikipedia.org/wiki/Elevator_pitch"
+          },
+          {
+            "label": "Wikipedia: Venture capital",
+            "url": "https://en.wikipedia.org/wiki/Venture_capital"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "text": "What is the best follow-up after a serious investor meeting?",
+      "type": "profile",
+      "dimension": "delivery-and-follow-up",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Good follow-up reduces friction: it captures the investor's questions, sends the right materials, clarifies owners, and proposes the next step.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Wait for the investor to respond so you do not seem too eager.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Send a concise note with the deck, requested evidence, open questions, owners, and proposed next step.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Send a generic thank-you email and attach every file the company has.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 1
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Add the investor to a newsletter and wait for the next product update.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Delivery & Follow-up: What is the best follow-up after a serious investor meeting",
+        "summary": "Delivery & Follow-up means handling investor questions, uncertainty, materials, next steps, and follow-up with clarity and discipline. This question teaches the concept through a concrete prompt: \"What is the best follow-up after a serious investor meeting?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Send a concise note with the deck, requested evidence, open questions, owners, and proposed next step.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Elevator pitch",
+            "url": "https://en.wikipedia.org/wiki/Elevator_pitch"
+          },
+          {
+            "label": "Wikipedia: Venture capital",
+            "url": "https://en.wikipedia.org/wiki/Venture_capital"
+          }
+        ]
+      }
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "knowledge",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "pitch-structure",
+        "label": "Pitch Structure",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "problem-and-customer",
+        "label": "Problem & Customer",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "traction-and-ask",
+        "label": "Traction & Ask",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      },
+      {
+        "key": "delivery-and-follow-up",
+        "label": "Delivery & Follow-up",
+        "theoreticalMin": 0,
+        "theoreticalMax": 6
+      }
+    ]
+  },
+  "questionStageTitle": "Learn the concept, then choose",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. The quiz is meant to teach the vocabulary before it tests recall."
+}

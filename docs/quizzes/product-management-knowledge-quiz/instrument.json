@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Knowledge and scenario quiz. 8 min.",
-    "description": "<p>Product management mastery challenge across strategy, discovery, prioritisation, delivery, metrics, and experiments.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Product Management Mastery Challenge is a learning challenge for the terminology, assumptions, and typical decision traps behind Product Strategy, Discovery & Insight, Delivery & Prioritisation, Metrics & Experimentation. It is designed to teach through plausible wrong answers as much as through the correct ones.</p><p>Choose the answer you would use in a real conversation. After completion, the answer review explains the concept and points to the area worth studying next.</p>",
     "duration": "8 questions. Approximately 8 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -64,7 +64,24 @@
             "product-strategy": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Product Strategy: Which statement best describes product strategy",
+        "summary": "Product Strategy means the choices about customer, problem, advantage, trade-offs, and path to winning that guide product decisions. This question teaches the concept through a concrete prompt: \"Which statement best describes product strategy?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"A set of choices about target customer, valuable problem, advantage and how the product will win.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -115,7 +132,24 @@
             "product-strategy": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Product Strategy: A roadmap contains 40 must-have items from different executives. What is the best first response",
+        "summary": "Product Strategy means the choices about customer, problem, advantage, trade-offs, and path to winning that guide product decisions. This question teaches the concept through a concrete prompt: \"A roadmap contains 40 must-have items from different executives. What is the best first response?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Translate requests into desired outcomes, strategic fit, evidence and trade-offs before committing.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -166,7 +200,24 @@
             "discovery-and-insight": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Discovery & Insight: Which customer interview question is most likely to produce reliable behavioural evidence",
+        "summary": "Discovery & Insight means learning from customer behavior and experiments before committing major product or engineering effort. This question teaches the concept through a concrete prompt: \"Which customer interview question is most likely to produce reliable behavioural evidence?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Tell me about the last time this problem occurred and what you did next.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -217,7 +268,24 @@
             "discovery-and-insight": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Discovery & Insight: What should an MVP primarily do",
+        "summary": "Discovery & Insight means learning from customer behavior and experiments before committing major product or engineering effort. This question teaches the concept through a concrete prompt: \"What should an MVP primarily do?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Test the riskiest important assumption with the least credible effort and exposure.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -268,7 +336,24 @@
             "delivery-and-prioritisation": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Delivery & Prioritisation: Which prioritisation approach is strongest",
+        "summary": "Delivery & Prioritisation means choosing what to build and how to sequence work by outcome, evidence, strategic fit, effort, and risk. This question teaches the concept through a concrete prompt: \"Which prioritisation approach is strongest?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Prioritise by expected customer/business outcome, evidence, strategic fit, cost and risk.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -319,7 +404,24 @@
             "delivery-and-prioritisation": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Delivery & Prioritisation: What does dual-track product development generally mean",
+        "summary": "Delivery & Prioritisation means choosing what to build and how to sequence work by outcome, evidence, strategic fit, effort, and risk. This question teaches the concept through a concrete prompt: \"What does dual-track product development generally mean?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Discovery and delivery proceed in parallel, with learning informing what is built.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Product management",
+            "url": "https://en.wikipedia.org/wiki/Product_management"
+          },
+          {
+            "label": "Wikipedia: Minimum viable product",
+            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -370,7 +472,24 @@
             "metrics-and-experimentation": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Metrics & Experimentation: Which is the strongest candidate for a product North Star metric",
+        "summary": "Metrics & Experimentation means using measures and tests to learn whether product changes create real customer and business value. This question teaches the concept through a concrete prompt: \"Which is the strongest candidate for a product North Star metric?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"A recurring measure that reflects delivered customer value and relates to sustainable business outcomes.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -421,7 +540,24 @@
             "metrics-and-experimentation": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Metrics & Experimentation: An A/B test shows a 4% uplift, but the sample is very small and the confidence interval is wide. What should the team do",
+        "summary": "Metrics & Experimentation means using measures and tests to learn whether product changes create real customer and business value. This question teaches the concept through a concrete prompt: \"An A/B test shows a 4% uplift, but the sample is very small and the confidence interval is wide. What should the team do?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Treat the result as uncertain, review test power and continue or redesign according to a pre-set decision rule.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -457,10 +593,7 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  }
+  "banner": "outfinity-explorer-circle",
+  "questionStageTitle": "Learn the concept, then choose",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. The quiz is meant to teach the vocabulary before it tests recall."
 }

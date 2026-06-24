@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "A two-minute, MBTI-style snapshot of your four preference dimensions. Original items — not the official MBTI.",
-    "description": "<p>Not the official MBTI assessment. Original items inspired by Jungian type concepts. The result is a simplified four-letter code, useful for conversation and team dynamics — not a clinical read.</p><p>Pick the statement that fits you more often, in more contexts. If you are genuinely split, trust your quieter instinct.</p>",
+    "description": "<p>Not the official MBTI assessment. Original items inspired by Jungian type concepts. The result is a simplified four-letter code, useful for conversation and team dynamics — not a clinical read.</p><p>Pick the statement that fits you more often, in more contexts. If you are genuinely split, trust your quieter instinct.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "12 binary choices. Approximately two minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Inspired by Jungian type theory and MBTI concepts. This is not the official MBTI assessment. Items are original.",
@@ -32,7 +32,24 @@
             "I": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Extraversion and introversion: At a party where you know few people, you tend to...",
+        "summary": "Extraversion and introversion means where attention and energy tend to go first: outward social contact and breadth, or quieter reflection and depth. This question turns that pair into the everyday situation \"At a party where you know few people, you tend to...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast Mingle and meet many new people. versus Find a few people and have deeper conversations.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Extraversion and introversion",
+            "url": "https://en.wikipedia.org/wiki/Extraversion_and_introversion"
+          },
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -54,7 +71,24 @@
             "I": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Extraversion and introversion: After a full week of meetings, you recharge by...",
+        "summary": "Extraversion and introversion means where attention and energy tend to go first: outward social contact and breadth, or quieter reflection and depth. This question turns that pair into the everyday situation \"After a full week of meetings, you recharge by...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast More social time, ideally with good energy. versus Time alone or with one close person.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Extraversion and introversion",
+            "url": "https://en.wikipedia.org/wiki/Extraversion_and_introversion"
+          },
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -76,7 +110,24 @@
             "I": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Extraversion and introversion: Working out a hard problem, you prefer to...",
+        "summary": "Extraversion and introversion means where attention and energy tend to go first: outward social contact and breadth, or quieter reflection and depth. This question turns that pair into the everyday situation \"Working out a hard problem, you prefer to...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast Think out loud with others. versus Think it through alone, then share.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Extraversion and introversion",
+            "url": "https://en.wikipedia.org/wiki/Extraversion_and_introversion"
+          },
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -98,7 +149,24 @@
             "N": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Sensing and intuition: When you start something new, you prefer...",
+        "summary": "Sensing and intuition means whether you first trust concrete facts and present detail, or patterns, possibilities, and future meaning. This question turns that pair into the everyday situation \"When you start something new, you prefer...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast Step-by-step instructions and concrete examples. versus The big picture and the underlying principles.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          },
+          {
+            "label": "Psychological Types",
+            "url": "https://en.wikipedia.org/wiki/Psychological_Types"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -120,7 +188,24 @@
             "N": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Sensing and intuition: You trust a plan more when it...",
+        "summary": "Sensing and intuition means whether you first trust concrete facts and present detail, or patterns, possibilities, and future meaning. This question turns that pair into the everyday situation \"You trust a plan more when it...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast Lays out concrete steps that have worked before. versus Captures the direction even if the steps are uncertain.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          },
+          {
+            "label": "Psychological Types",
+            "url": "https://en.wikipedia.org/wiki/Psychological_Types"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -142,7 +227,24 @@
             "N": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Sensing and intuition: What excites you most is...",
+        "summary": "Sensing and intuition means whether you first trust concrete facts and present detail, or patterns, possibilities, and future meaning. This question turns that pair into the everyday situation \"What excites you most is...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast What is actually working right now. versus What is possible but not yet realized.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          },
+          {
+            "label": "Psychological Types",
+            "url": "https://en.wikipedia.org/wiki/Psychological_Types"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -164,7 +266,24 @@
             "F": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Thinking and feeling: When a hard decision affects people, you weigh...",
+        "summary": "Thinking and feeling means whether you first weigh impersonal criteria and logic, or human impact, values, and relationship context. This question turns that pair into the everyday situation \"When a hard decision affects people, you weigh...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast Logic and consistency above personal impact. versus Personal impact and harmony above cold logic.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          },
+          {
+            "label": "Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -186,7 +305,24 @@
             "F": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Thinking and feeling: Giving feedback, you lead with...",
+        "summary": "Thinking and feeling means whether you first weigh impersonal criteria and logic, or human impact, values, and relationship context. This question turns that pair into the everyday situation \"Giving feedback, you lead with...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast The objective critique, then the human context. versus The human context, then the critique.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          },
+          {
+            "label": "Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          }
+        ]
+      }
     },
     {
       "id": "q9",
@@ -208,7 +344,24 @@
             "F": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Thinking and feeling: A disagreement you remember most is one where...",
+        "summary": "Thinking and feeling means whether you first weigh impersonal criteria and logic, or human impact, values, and relationship context. This question turns that pair into the everyday situation \"A disagreement you remember most is one where...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast The reasoning was finally proven right or wrong. versus The relationship bent or held.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          },
+          {
+            "label": "Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          }
+        ]
+      }
     },
     {
       "id": "q10",
@@ -230,7 +383,24 @@
             "P": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Judging and perceiving: You work best when...",
+        "summary": "Judging and perceiving means whether you prefer closure, planning, and structure, or flexibility, openness, and adaptation. This question turns that pair into the everyday situation \"You work best when...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast You have a clear plan and timeline. versus You can adapt and respond to new information.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          },
+          {
+            "label": "Project management",
+            "url": "https://en.wikipedia.org/wiki/Project_management"
+          }
+        ]
+      }
     },
     {
       "id": "q11",
@@ -252,7 +422,24 @@
             "P": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Judging and perceiving: A project you would call done is one that...",
+        "summary": "Judging and perceiving means whether you prefer closure, planning, and structure, or flexibility, openness, and adaptation. This question turns that pair into the everyday situation \"A project you would call done is one that...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast Is finished, checked off, and closed. versus Is ready to keep moving with what was learned.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          },
+          {
+            "label": "Project management",
+            "url": "https://en.wikipedia.org/wiki/Project_management"
+          }
+        ]
+      }
     },
     {
       "id": "q12",
@@ -274,7 +461,24 @@
             "P": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Judging and perceiving: Under deadline pressure, you...",
+        "summary": "Judging and perceiving means whether you prefer closure, planning, and structure, or flexibility, openness, and adaptation. This question turns that pair into the everyday situation \"Under deadline pressure, you...\".",
+        "whyItMatters": "MBTI-style pairs are useful only as reflection language. They should help you notice a tendency and its trade-off, not label your personality permanently.",
+        "beforeAnswering": "Answer by your normal first pull in this situation, not by the version of yourself you think is more mature or impressive.",
+        "example": "The options contrast Plan backward and hit milestones to keep calm. versus Pull it together in the final stretch and improvise.; your answer shows which side of the preference pair you tend to trust first.",
+        "learnMore": [
+          {
+            "label": "Myers-Briggs Type Indicator",
+            "url": "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator"
+          },
+          {
+            "label": "Project management",
+            "url": "https://en.wikipedia.org/wiki/Project_management"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -350,5 +554,7 @@
   ],
   "attribution": {
     "text": "Inspired by Jungian type theory and MBTI concepts. This is not the official MBTI assessment. Items are original."
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

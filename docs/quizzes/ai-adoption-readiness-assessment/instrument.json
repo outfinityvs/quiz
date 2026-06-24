@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Transformation readiness assessment. 6 min.",
-    "description": "<p>AI adoption readiness diagnostic for use cases, value, data, technology, workflow, people, governance, and measurement.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>AI Adoption Readiness helps you learn the vocabulary and typical expectations behind Use Cases & Value, Data & Technology, People & Workflow, Governance & Measurement. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -26,7 +26,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Use Cases & Value; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -36,7 +36,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Use Cases & Value, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -46,7 +46,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Use Cases & Value has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -56,7 +56,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Use Cases & Value is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -72,7 +72,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Use Cases & Value: How are AI use cases selected",
+        "summary": "Use Cases & Value means selecting AI work by business value, user need, feasibility, risk, and measurable outcome instead of by novelty or internal enthusiasm. This question narrows the concept to \"How are AI use cases selected?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Use Cases & Value matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How are AI use cases selected?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+          },
+          {
+            "label": "Use case",
+            "url": "https://en.wikipedia.org/wiki/Use_case"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -85,7 +102,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Use Cases & Value; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -95,7 +112,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Use Cases & Value, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -105,7 +122,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Use Cases & Value has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -115,7 +132,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Use Cases & Value is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -131,7 +148,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Use Cases & Value: How clearly is the value of each priority use case defined",
+        "summary": "Use Cases & Value means selecting AI work by business value, user need, feasibility, risk, and measurable outcome instead of by novelty or internal enthusiasm. This question narrows the concept to \"How clearly is the value of each priority use case defined?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Use Cases & Value matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How clearly is the value of each priority use case defined?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+          },
+          {
+            "label": "Use case",
+            "url": "https://en.wikipedia.org/wiki/Use_case"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -190,7 +224,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Data & Technology: How ready are the relevant data and knowledge sources",
+        "summary": "Data & Technology means the readiness of data, knowledge sources, architecture, security, and integration needed for AI to work reliably in production. This question narrows the concept to \"How ready are the relevant data and knowledge sources?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Data & Technology matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How ready are the relevant data and knowledge sources?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "MLOps",
+            "url": "https://en.wikipedia.org/wiki/MLOps"
+          },
+          {
+            "label": "Machine learning",
+            "url": "https://en.wikipedia.org/wiki/Machine_learning"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -203,7 +254,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Data & Technology; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -213,7 +264,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Data & Technology, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -223,7 +274,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Data & Technology has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -233,7 +284,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Data & Technology is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -249,7 +300,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Data & Technology: How production-ready is the AI architecture",
+        "summary": "Data & Technology means the readiness of data, knowledge sources, architecture, security, and integration needed for AI to work reliably in production. This question narrows the concept to \"How production-ready is the AI architecture?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Data & Technology matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How production-ready is the AI architecture?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "MLOps",
+            "url": "https://en.wikipedia.org/wiki/MLOps"
+          },
+          {
+            "label": "Machine learning",
+            "url": "https://en.wikipedia.org/wiki/Machine_learning"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -262,7 +330,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in People & Workflow; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -272,7 +340,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in People & Workflow, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -282,7 +350,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. People & Workflow has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -292,7 +360,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. People & Workflow is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -308,7 +376,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "People & Workflow: How deeply are workflows redesigned around AI capabilities and limits",
+        "summary": "People & Workflow means how jobs, decisions, supervision, and daily workflows change when AI is introduced, including the human limits around it. This question narrows the concept to \"How deeply are workflows redesigned around AI capabilities and limits?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "People & Workflow matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How deeply are workflows redesigned around AI capabilities and limits?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Human-in-the-loop",
+            "url": "https://en.wikipedia.org/wiki/Human-in-the-loop"
+          },
+          {
+            "label": "Workflow",
+            "url": "https://en.wikipedia.org/wiki/Workflow"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -321,7 +406,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in People & Workflow; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -331,7 +416,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in People & Workflow, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -341,7 +426,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. People & Workflow has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -351,7 +436,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. People & Workflow is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -367,7 +452,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "People & Workflow: How prepared are people to use and supervise AI",
+        "summary": "People & Workflow means how jobs, decisions, supervision, and daily workflows change when AI is introduced, including the human limits around it. This question narrows the concept to \"How prepared are people to use and supervise AI?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "People & Workflow matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How prepared are people to use and supervise AI?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "Human-in-the-loop",
+            "url": "https://en.wikipedia.org/wiki/Human-in-the-loop"
+          },
+          {
+            "label": "Workflow",
+            "url": "https://en.wikipedia.org/wiki/Workflow"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -426,7 +528,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Governance & Measurement: How accountable is AI governance",
+        "summary": "Governance & Measurement means who is accountable for AI decisions, how risks are reviewed, and how deployed systems are measured after launch. This question narrows the concept to \"How accountable is AI governance?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Governance & Measurement matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How accountable is AI governance?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "AI governance",
+            "url": "https://en.wikipedia.org/wiki/AI_governance"
+          },
+          {
+            "label": "Machine learning model evaluation",
+            "url": "https://en.wikipedia.org/wiki/Evaluation_of_binary_classifiers"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -439,7 +558,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Governance & Measurement; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -449,7 +568,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Governance & Measurement, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -459,7 +578,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Governance & Measurement has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -469,7 +588,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Governance & Measurement is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -485,7 +604,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Governance & Measurement: How is AI performance measured after deployment",
+        "summary": "Governance & Measurement means who is accountable for AI decisions, how risks are reviewed, and how deployed systems are measured after launch. This question narrows the concept to \"How is AI performance measured after deployment?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Governance & Measurement matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show the current AI practice for \"How is AI performance measured after deployment?\", with owners, controls, evidence, and a recent deployment, monitoring, or rejection decision.",
+        "learnMore": [
+          {
+            "label": "AI governance",
+            "url": "https://en.wikipedia.org/wiki/AI_governance"
+          },
+          {
+            "label": "Machine learning model evaluation",
+            "url": "https://en.wikipedia.org/wiki/Evaluation_of_binary_classifiers"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +657,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-use-cases-and-value",
@@ -549,7 +680,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Use Cases & Value",
+        "summary": "This question asks how well your answers about Use Cases & Value are supported. Use Cases & Value means selecting AI work by business value, user need, feasibility, risk, and measurable outcome instead of by novelty or internal enthusiasm. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Use Cases & Value is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Use Cases & Value answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+          },
+          {
+            "label": "Use case",
+            "url": "https://en.wikipedia.org/wiki/Use_case"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-data-and-technology",
@@ -571,7 +719,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Data & Technology",
+        "summary": "This question asks how well your answers about Data & Technology are supported. Data & Technology means the readiness of data, knowledge sources, architecture, security, and integration needed for AI to work reliably in production. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Data & Technology is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Data & Technology answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "MLOps",
+            "url": "https://en.wikipedia.org/wiki/MLOps"
+          },
+          {
+            "label": "Machine learning",
+            "url": "https://en.wikipedia.org/wiki/Machine_learning"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-people-and-workflow",
@@ -593,7 +758,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "People & Workflow",
+        "summary": "This question asks how well your answers about People & Workflow are supported. People & Workflow means how jobs, decisions, supervision, and daily workflows change when AI is introduced, including the human limits around it. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about People & Workflow is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your People & Workflow answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Human-in-the-loop",
+            "url": "https://en.wikipedia.org/wiki/Human-in-the-loop"
+          },
+          {
+            "label": "Workflow",
+            "url": "https://en.wikipedia.org/wiki/Workflow"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-governance-and-measurement",
@@ -615,7 +797,27 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Governance & Measurement",
+        "summary": "This question asks how well your answers about Governance & Measurement are supported. Governance & Measurement means who is accountable for AI decisions, how risks are reviewed, and how deployed systems are measured after launch. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Governance & Measurement is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Governance & Measurement answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "AI governance",
+            "url": "https://en.wikipedia.org/wiki/AI_governance"
+          },
+          {
+            "label": "Machine learning model evaluation",
+            "url": "https://en.wikipedia.org/wiki/Evaluation_of_binary_classifiers"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

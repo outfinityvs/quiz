@@ -6,41 +6,51 @@
       "min": 0,
       "max": 24,
       "label": "Sales-Dependent",
-      "copy": ""
+      "copy": "The Product-Led Growth Readiness pattern is still mostly informal or ad hoc. Pick one stabilising action, document it, and avoid adding a long process before the basics are real."
     },
     {
       "id": "assisted",
       "min": 25,
       "max": 44,
       "label": "Assisted",
-      "copy": ""
+      "copy": "Some Product-Led Growth Readiness practices exist, but they still depend on individual memory and effort. The next step is two repeatable routines with clear owners."
     },
     {
       "id": "product-enabled",
       "min": 45,
       "max": 64,
       "label": "Product-Enabled",
-      "copy": ""
+      "copy": "Core Product-Led Growth Readiness practices are repeatable, but evidence quality and ownership are uneven. Work on the weakest dimension before optimising the strongest one."
     },
     {
       "id": "product-led",
       "min": 65,
       "max": 84,
       "label": "Product-Led",
-      "copy": ""
+      "copy": "Product-Led Growth Readiness practices are measured and connected to decisions. The main work is now removing the constraint that prevents the system from scaling cleanly."
     },
     {
       "id": "compounding-plg",
       "min": 85,
       "max": 100,
       "label": "Compounding PLG",
-      "copy": ""
+      "copy": "Product-Led Growth Readiness is operating as a learning system. Keep calibrating against evidence, stress-test resilience, and avoid treating a strong score as a permanent guarantee."
     }
   ],
-  "archetypes": {},
-  "recommendations": {},
+  "archetypes": {
+    "time-to-value": "Time-to-Value Designer",
+    "activation-and-self-service": "Activation Optimiser",
+    "product-signals-and-data": "Signal Engineer",
+    "expansion-and-virality": "Expansion Architect"
+  },
+  "recommendations": {
+    "time-to-value": "Define and instrument the first-value event, then remove the largest step before it.",
+    "activation-and-self-service": "Design a segment-specific activation path and progressively disclose complexity.",
+    "product-signals-and-data": "Govern the event taxonomy and validate PQL/PQA signals against durable revenue outcomes.",
+    "expansion-and-virality": "Model one collaboration or sharing loop and align upgrade triggers with realised value."
+  },
   "defaultSecondAction": "Retake the diagnostic after a focused 30-day improvement cycle and compare only your own progress unless a team comparison is explicitly agreed.",
   "reflectionQuestion": "Which assumption behind your weakest dimension deserves the fastest evidence check?",
-  "methodologyNote": "Version 1 uses four dimensions with two questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
+  "methodologyNote": "The current version uses four dimensions with two questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
   "shareNote": "Share cards reveal only the level and strongest area. They do not publish individual answers, sensitive weaknesses, legal or financial details, security gaps, or family-specific information."
 }

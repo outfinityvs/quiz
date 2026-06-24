@@ -6,41 +6,51 @@
       "min": 0,
       "max": 39,
       "label": "Finance Curious",
-      "copy": ""
+      "copy": "Core concepts are still unreliable. Use the answer review as a short learning path before applying this topic in high-stakes decisions."
     },
     {
       "id": "finance-literate",
       "min": 40,
       "max": 59,
       "label": "Finance Literate",
-      "copy": ""
+      "copy": "Basic vocabulary is present, but scenario application is inconsistent. Review the recurring misconceptions before relying on the result operationally."
     },
     {
       "id": "operator",
       "min": 60,
       "max": 74,
       "label": "Operator",
-      "copy": ""
+      "copy": "Standard cases are handled competently. The next learning edge is assumptions, exceptions, and the cases where the obvious answer becomes misleading."
     },
     {
       "id": "cfo-minded",
       "min": 75,
       "max": 89,
       "label": "CFO-Minded",
-      "copy": ""
+      "copy": "Applied understanding is strong. Challenge yourself with edge cases, trade-offs, and peer review instead of repeating fundamentals."
     },
     {
       "id": "capital-fluent",
       "min": 90,
       "max": 100,
       "label": "Capital Fluent",
-      "copy": ""
+      "copy": "This is advanced fluency for an educational quiz. Keep using specialist review for jurisdiction-specific, contractual, financial, regulatory, or other high-stakes decisions."
     }
   ],
-  "archetypes": {},
-  "recommendations": {},
+  "archetypes": {
+    "unit-economics": "Unit Economics Analyst",
+    "cash-and-runway": "Cash Guardian",
+    "cap-table-and-dilution": "Ownership Strategist",
+    "financial-statements": "Financial Statement Reader"
+  },
+  "recommendations": {
+    "unit-economics": "Build a contribution-margin and CAC-payback model by customer segment.",
+    "cash-and-runway": "Maintain a rolling 13-week cash forecast and three runway scenarios.",
+    "cap-table-and-dilution": "Model the cap table through the next financing, including options, convertibles, and pro-rata rights.",
+    "financial-statements": "Review the income statement, balance sheet, and cash flow statement together each month."
+  },
   "defaultSecondAction": "Retake the diagnostic after a focused 30-day improvement cycle and compare only your own progress unless a team comparison is explicitly agreed.",
   "reflectionQuestion": "Which assumption behind your weakest dimension deserves the fastest evidence check?",
-  "methodologyNote": "Version 1 uses four dimensions with two questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
+  "methodologyNote": "The current version uses four dimensions with two questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
   "shareNote": "Share cards reveal only the level and strongest area. They do not publish individual answers, sensitive weaknesses, legal or financial details, security gaps, or family-specific information."
 }

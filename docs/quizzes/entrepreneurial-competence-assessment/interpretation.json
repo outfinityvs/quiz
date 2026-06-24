@@ -6,41 +6,51 @@
       "min": 0,
       "max": 24,
       "label": "Explorer",
-      "copy": ""
+      "copy": "The Entrepreneurial Competence Compass pattern is still mostly informal or ad hoc. Pick one stabilising action, document it, and avoid adding a long process before the basics are real."
     },
     {
       "id": "initiator",
       "min": 25,
       "max": 44,
       "label": "Initiator",
-      "copy": ""
+      "copy": "Some Entrepreneurial Competence Compass practices exist, but they still depend on individual memory and effort. The next step is two repeatable routines with clear owners."
     },
     {
       "id": "value-builder",
       "min": 45,
       "max": 64,
       "label": "Value Builder",
-      "copy": ""
+      "copy": "Core Entrepreneurial Competence Compass practices are repeatable, but evidence quality and ownership are uneven. Work on the weakest dimension before optimising the strongest one."
     },
     {
       "id": "entrepreneurial-operator",
       "min": 65,
       "max": 84,
       "label": "Entrepreneurial Operator",
-      "copy": ""
+      "copy": "Entrepreneurial Competence Compass practices are measured and connected to decisions. The main work is now removing the constraint that prevents the system from scaling cleanly."
     },
     {
       "id": "ecosystem-creator",
       "min": 85,
       "max": 100,
       "label": "Ecosystem Creator",
-      "copy": ""
+      "copy": "Entrepreneurial Competence Compass is operating as a learning system. Keep calibrating against evidence, stress-test resilience, and avoid treating a strong score as a permanent guarantee."
     }
   ],
-  "archetypes": {},
-  "recommendations": {},
+  "archetypes": {
+    "opportunity-and-vision": "Opportunity Scout",
+    "resource-mobilisation": "Resource Orchestrator",
+    "action-and-experimentation": "Action Builder",
+    "ethics-and-shared-value": "Responsible Value Creator"
+  },
+  "recommendations": {
+    "opportunity-and-vision": "Keep an opportunity log and validate one recurring problem through five interviews each month.",
+    "resource-mobilisation": "Map the next milestone capabilities and acquire one missing resource through learning, partnership, or recruitment.",
+    "action-and-experimentation": "Turn the largest uncertainty into a reversible experiment with a precommitted decision rule.",
+    "ethics-and-shared-value": "Create a stakeholder map and add one harm-prevention and one shared-value metric to the initiative."
+  },
   "defaultSecondAction": "Retake the diagnostic after a focused 30-day improvement cycle and compare only your own progress unless a team comparison is explicitly agreed.",
   "reflectionQuestion": "Which assumption behind your weakest dimension deserves the fastest evidence check?",
-  "methodologyNote": "Version 1 uses four dimensions with two questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
+  "methodologyNote": "The current version uses four dimensions with two questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
   "shareNote": "Share cards reveal only the level and strongest area. They do not publish individual answers, sensitive weaknesses, legal or financial details, security gaps, or family-specific information."
 }

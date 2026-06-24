@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Leadership maturity assessment. 6 min.",
-    "description": "<p>Scale leadership readiness diagnostic for delegation, talent, operating rhythm, culture, and psychological safety.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Scale Leadership Readiness helps you learn the vocabulary and typical expectations behind Delegation & Decision Rights, Talent & Coaching, Operating Rhythm, Culture & Psychological Safety. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -72,7 +72,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Delegation & Decision Rights: How often do routine decisions escalate to senior leaders",
+        "summary": "Delegation & Decision Rights means deciding which leaders own which choices so routine decisions do not climb unnecessarily to the founder or executive team. This question narrows the concept to \"How often do routine decisions escalate to senior leaders?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Delegation & Decision Rights matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How often do routine decisions escalate to senior leaders?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -85,7 +102,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Delegation & Decision Rights; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -95,7 +112,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Delegation & Decision Rights, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -105,7 +122,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Delegation & Decision Rights has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -115,7 +132,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Delegation & Decision Rights is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -131,7 +148,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Delegation & Decision Rights: How is delegation defined",
+        "summary": "Delegation & Decision Rights means deciding which leaders own which choices so routine decisions do not climb unnecessarily to the founder or executive team. This question narrows the concept to \"How is delegation defined?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Delegation & Decision Rights matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How is delegation defined?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -190,7 +224,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Talent & Coaching: How systematic is hiring for critical roles",
+        "summary": "Talent & Coaching means hiring, developing, and coaching people so scaling quality does not depend only on senior rescuers. This question narrows the concept to \"How systematic is hiring for critical roles?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Talent & Coaching matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How systematic is hiring for critical roles?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Leadership",
+            "url": "https://en.wikipedia.org/wiki/Leadership"
+          },
+          {
+            "label": "Wikipedia: Psychological safety",
+            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -203,7 +254,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Talent & Coaching; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -213,7 +264,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Talent & Coaching, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -223,7 +274,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Talent & Coaching has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -233,7 +284,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Talent & Coaching is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -249,7 +300,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Talent & Coaching: How regularly do managers coach and give useful feedback",
+        "summary": "Talent & Coaching means hiring, developing, and coaching people so scaling quality does not depend only on senior rescuers. This question narrows the concept to \"How regularly do managers coach and give useful feedback?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Talent & Coaching matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How regularly do managers coach and give useful feedback?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Leadership",
+            "url": "https://en.wikipedia.org/wiki/Leadership"
+          },
+          {
+            "label": "Wikipedia: Psychological safety",
+            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -262,7 +330,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Operating Rhythm; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -272,7 +340,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Operating Rhythm, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -282,7 +350,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Operating Rhythm has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -292,7 +360,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Operating Rhythm is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -308,7 +376,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Operating Rhythm: How coherent is the leadership operating cadence",
+        "summary": "Operating Rhythm means the cadence of meetings, reviews, priorities, and follow-through that turns strategy into coordinated work. This question narrows the concept to \"How coherent is the leadership operating cadence?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Operating Rhythm matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How coherent is the leadership operating cadence?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Leadership",
+            "url": "https://en.wikipedia.org/wiki/Leadership"
+          },
+          {
+            "label": "Wikipedia: Psychological safety",
+            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -321,7 +406,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Operating Rhythm; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -331,7 +416,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Operating Rhythm, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -341,7 +426,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Operating Rhythm has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -351,7 +436,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Operating Rhythm is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -367,7 +452,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Operating Rhythm: How are strategy and priorities translated into team execution",
+        "summary": "Operating Rhythm means the cadence of meetings, reviews, priorities, and follow-through that turns strategy into coordinated work. This question narrows the concept to \"How are strategy and priorities translated into team execution?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Operating Rhythm matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How are strategy and priorities translated into team execution?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Leadership",
+            "url": "https://en.wikipedia.org/wiki/Leadership"
+          },
+          {
+            "label": "Wikipedia: Psychological safety",
+            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -380,7 +482,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Culture & Psychological Safety; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -390,7 +492,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Culture & Psychological Safety, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -400,7 +502,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Culture & Psychological Safety has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -410,7 +512,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Culture & Psychological Safety is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -426,7 +528,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Culture & Psychological Safety: How safe is it to report bad news, uncertainty, or mistakes",
+        "summary": "Culture & Psychological Safety means whether people can surface bad news and disagreement while still holding each other accountable for commitments. This question narrows the concept to \"How safe is it to report bad news, uncertainty, or mistakes?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Culture & Psychological Safety matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How safe is it to report bad news, uncertainty, or mistakes?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -485,7 +604,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Culture & Psychological Safety: How are conflict and accountability balanced",
+        "summary": "Culture & Psychological Safety means whether people can surface bad news and disagreement while still holding each other accountable for commitments. This question narrows the concept to \"How are conflict and accountability balanced?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Culture & Psychological Safety matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How are conflict and accountability balanced?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Leadership",
+            "url": "https://en.wikipedia.org/wiki/Leadership"
+          },
+          {
+            "label": "Wikipedia: Psychological safety",
+            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +657,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-delegation-and-decision-rights",
@@ -549,7 +680,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Delegation & Decision Rights",
+        "summary": "This question asks how well your answers about Delegation & Decision Rights are supported. Delegation & Decision Rights means deciding which leaders own which choices so routine decisions do not climb unnecessarily to the founder or executive team. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Delegation & Decision Rights is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Delegation & Decision Rights answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-talent-and-coaching",
@@ -571,7 +719,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Talent & Coaching",
+        "summary": "This question asks how well your answers about Talent & Coaching are supported. Talent & Coaching means hiring, developing, and coaching people so scaling quality does not depend only on senior rescuers. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Talent & Coaching is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Talent & Coaching answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Leadership",
+            "url": "https://en.wikipedia.org/wiki/Leadership"
+          },
+          {
+            "label": "Wikipedia: Psychological safety",
+            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-operating-rhythm",
@@ -593,7 +758,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Operating Rhythm",
+        "summary": "This question asks how well your answers about Operating Rhythm are supported. Operating Rhythm means the cadence of meetings, reviews, priorities, and follow-through that turns strategy into coordinated work. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Operating Rhythm is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Operating Rhythm answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Leadership",
+            "url": "https://en.wikipedia.org/wiki/Leadership"
+          },
+          {
+            "label": "Wikipedia: Psychological safety",
+            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-culture-and-psychological-safety",
@@ -615,7 +797,27 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Culture & Psychological Safety",
+        "summary": "This question asks how well your answers about Culture & Psychological Safety are supported. Culture & Psychological Safety means whether people can surface bad news and disagreement while still holding each other accountable for commitments. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Culture & Psychological Safety is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Culture & Psychological Safety answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

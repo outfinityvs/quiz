@@ -1,7 +1,7 @@
 (function() {
   var path = window.location.pathname;
   var isQuizPage = /\/(?:quizzes)\//.test(path);
-  var isSubPage = /\/(privacy|methods|licenses|dev)\//.test(path);
+  var isSubPage = /\/(privacy|methods|licenses|dev|history)\//.test(path);
   var base = isQuizPage ? '../../' : (isSubPage ? '../' : '');
 
   var footer = document.querySelector('footer.site-footer');
@@ -16,6 +16,7 @@
     '<nav>' +
       '<a href="' + base + 'index.html">Home</a>' +
       '<a href="' + base + 'sitemap.html">All Quizzes</a>' +
+      '<a href="' + base + 'history/index.html">History</a>' +
       '<a href="' + base + 'privacy/index.html">Privacy</a>' +
     '</nav>' +
     '<p class="site-footer__disclaimer">' +
@@ -33,4 +34,11 @@
   analytics.onerror = function() {};
   analytics.onload = function() {};
   document.body.appendChild(analytics);
+
+  import(base + 'engine/result-history.js')
+    .then(function(history) {
+      history.mountHistoryNavigation(base);
+      history.enhanceResultSaveControls();
+    })
+    .catch(function() {});
 })();

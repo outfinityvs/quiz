@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Paired alignment assessment. 6 min per founder.",
-    "description": "<p>Paired founder alignment map for ambition, authority, conflict, economics, and risk.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Co-Founder Alignment & Compatibility helps you learn the vocabulary and typical expectations behind Ambition & Horizon, Roles & Decision Rights, Values & Conflict, Economics & Risk. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min per founder.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -26,7 +26,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Ambition & Horizon; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -36,7 +36,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Ambition & Horizon, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -46,7 +46,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Ambition & Horizon has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -56,7 +56,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Ambition & Horizon is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -72,7 +72,15 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Ambition & Horizon: Which outcome would make this company a success for you",
+        "summary": "Ambition & Horizon means whether founders want the same kind of company, outcome, pace, and time commitment before conflict appears. This question narrows the concept to \"Which outcome would make this company a success for you?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Founder alignment on ambition & horizon matters because hidden disagreement usually appears later as control conflict, resentment, slow decisions, or unfair expectations.",
+        "beforeAnswering": "Answer from what the founders have explicitly discussed and would still accept under pressure. If the topic is only assumed, choose a lower option.",
+        "example": "A strong answer would mean the founders have explicitly discussed \"Which outcome would make this company a success for you?\", can name the agreed rule, and would still accept it when money, control, or conflict is at stake.",
+        "learnMore": []
+      }
     },
     {
       "id": "q2",
@@ -85,7 +93,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Ambition & Horizon; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -95,7 +103,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Ambition & Horizon, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -105,7 +113,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Ambition & Horizon has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -115,7 +123,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Ambition & Horizon is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -131,7 +139,20 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Ambition & Horizon: What personal time horizon are you prepared to commit before reassessing",
+        "summary": "Ambition & Horizon means whether founders want the same kind of company, outcome, pace, and time commitment before conflict appears. This question narrows the concept to \"What personal time horizon are you prepared to commit before reassessing?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Founder alignment on ambition & horizon matters because hidden disagreement usually appears later as control conflict, resentment, slow decisions, or unfair expectations.",
+        "beforeAnswering": "Answer from what the founders have explicitly discussed and would still accept under pressure. If the topic is only assumed, choose a lower option.",
+        "example": "A strong answer would mean the founders have explicitly discussed \"What personal time horizon are you prepared to commit before reassessing?\", can name the agreed rule, and would still accept it when money, control, or conflict is at stake.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -190,7 +211,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Roles & Decision Rights: Which decision model should the founding team use",
+        "summary": "Roles & Decision Rights means who owns which decisions, how roles change as the company grows, and how authority is handled before pressure rises. This question narrows the concept to \"Which decision model should the founding team use?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Founder alignment on roles & decision rights matters because hidden disagreement usually appears later as control conflict, resentment, slow decisions, or unfair expectations.",
+        "beforeAnswering": "Answer from what the founders have explicitly discussed and would still accept under pressure. If the topic is only assumed, choose a lower option.",
+        "example": "A strong answer would mean the founders have explicitly discussed \"Which decision model should the founding team use?\", can name the agreed rule, and would still accept it when money, control, or conflict is at stake.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -203,7 +241,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Roles & Decision Rights; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -213,7 +251,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Roles & Decision Rights, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -223,7 +261,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Roles & Decision Rights has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -233,7 +271,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Roles & Decision Rights is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -249,7 +287,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Roles & Decision Rights: How should founder roles evolve",
+        "summary": "Roles & Decision Rights means who owns which decisions, how roles change as the company grows, and how authority is handled before pressure rises. This question narrows the concept to \"How should founder roles evolve?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Founder alignment on roles & decision rights matters because hidden disagreement usually appears later as control conflict, resentment, slow decisions, or unfair expectations.",
+        "beforeAnswering": "Answer from what the founders have explicitly discussed and would still accept under pressure. If the topic is only assumed, choose a lower option.",
+        "example": "A strong answer would mean the founders have explicitly discussed \"How should founder roles evolve?\", can name the agreed rule, and would still accept it when money, control, or conflict is at stake.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -262,7 +317,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Values & Conflict; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -272,7 +327,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Values & Conflict, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -282,7 +337,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Values & Conflict has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -292,7 +347,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Values & Conflict is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -308,7 +363,20 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Values & Conflict: How should serious disagreement be handled",
+        "summary": "Values & Conflict means the principles, disagreements, repair habits, and non-negotiables that shape how founders work through hard moments. This question narrows the concept to \"How should serious disagreement be handled?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Founder alignment on values & conflict matters because hidden disagreement usually appears later as control conflict, resentment, slow decisions, or unfair expectations.",
+        "beforeAnswering": "Answer from what the founders have explicitly discussed and would still accept under pressure. If the topic is only assumed, choose a lower option.",
+        "example": "A strong answer would mean the founders have explicitly discussed \"How should serious disagreement be handled?\", can name the agreed rule, and would still accept it when money, control, or conflict is at stake.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Conflict management",
+            "url": "https://en.wikipedia.org/wiki/Conflict_management"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -321,7 +389,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Values & Conflict; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -331,7 +399,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Values & Conflict, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -341,7 +409,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Values & Conflict has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -351,7 +419,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Values & Conflict is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -367,7 +435,20 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Values & Conflict: How explicit should founder principles and non-negotiables be",
+        "summary": "Values & Conflict means the principles, disagreements, repair habits, and non-negotiables that shape how founders work through hard moments. This question narrows the concept to \"How explicit should founder principles and non-negotiables be?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Founder alignment on values & conflict matters because hidden disagreement usually appears later as control conflict, resentment, slow decisions, or unfair expectations.",
+        "beforeAnswering": "Answer from what the founders have explicitly discussed and would still accept under pressure. If the topic is only assumed, choose a lower option.",
+        "example": "A strong answer would mean the founders have explicitly discussed \"How explicit should founder principles and non-negotiables be?\", can name the agreed rule, and would still accept it when money, control, or conflict is at stake.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Conflict management",
+            "url": "https://en.wikipedia.org/wiki/Conflict_management"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -426,7 +507,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Economics & Risk: Which financing and control strategy feels acceptable",
+        "summary": "Economics & Risk means how founders think about equity, dilution, control, financing, downside, and acceptable personal or company risk. This question narrows the concept to \"Which financing and control strategy feels acceptable?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Founder alignment on economics & risk matters because hidden disagreement usually appears later as control conflict, resentment, slow decisions, or unfair expectations.",
+        "beforeAnswering": "Answer from what the founders have explicitly discussed and would still accept under pressure. If the topic is only assumed, choose a lower option.",
+        "example": "A strong answer would mean the founders have explicitly discussed \"Which financing and control strategy feels acceptable?\", can name the agreed rule, and would still accept it when money, control, or conflict is at stake.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Risk",
+            "url": "https://en.wikipedia.org/wiki/Risk"
+          },
+          {
+            "label": "Wikipedia: Risk perception",
+            "url": "https://en.wikipedia.org/wiki/Risk_perception"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -439,7 +537,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Economics & Risk; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -449,7 +547,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Economics & Risk, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -459,7 +557,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Economics & Risk has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -469,7 +567,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Economics & Risk is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -485,7 +583,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Economics & Risk: How should founder equity and downside scenarios be handled",
+        "summary": "Economics & Risk means how founders think about equity, dilution, control, financing, downside, and acceptable personal or company risk. This question narrows the concept to \"How should founder equity and downside scenarios be handled?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Founder alignment on economics & risk matters because hidden disagreement usually appears later as control conflict, resentment, slow decisions, or unfair expectations.",
+        "beforeAnswering": "Answer from what the founders have explicitly discussed and would still accept under pressure. If the topic is only assumed, choose a lower option.",
+        "example": "A strong answer would mean the founders have explicitly discussed \"How should founder equity and downside scenarios be handled?\", can name the agreed rule, and would still accept it when money, control, or conflict is at stake.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Risk",
+            "url": "https://en.wikipedia.org/wiki/Risk"
+          },
+          {
+            "label": "Wikipedia: Risk perception",
+            "url": "https://en.wikipedia.org/wiki/Risk_perception"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +636,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-ambition-and-horizon",
@@ -549,7 +659,15 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Ambition & Horizon",
+        "summary": "This question asks how well your answers about Ambition & Horizon are supported. Ambition & Horizon means whether founders want the same kind of company, outcome, pace, and time commitment before conflict appears. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Ambition & Horizon is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Ambition & Horizon answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": []
+      }
     },
     {
       "id": "evidence-roles-and-decision-rights",
@@ -571,7 +689,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Roles & Decision Rights",
+        "summary": "This question asks how well your answers about Roles & Decision Rights are supported. Roles & Decision Rights means who owns which decisions, how roles change as the company grows, and how authority is handled before pressure rises. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Roles & Decision Rights is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Roles & Decision Rights answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-values-and-conflict",
@@ -593,7 +728,20 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Values & Conflict",
+        "summary": "This question asks how well your answers about Values & Conflict are supported. Values & Conflict means the principles, disagreements, repair habits, and non-negotiables that shape how founders work through hard moments. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Values & Conflict is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Values & Conflict answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Conflict management",
+            "url": "https://en.wikipedia.org/wiki/Conflict_management"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-economics-and-risk",
@@ -615,7 +763,27 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Economics & Risk",
+        "summary": "This question asks how well your answers about Economics & Risk are supported. Economics & Risk means how founders think about equity, dilution, control, financing, downside, and acceptable personal or company risk. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Economics & Risk is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Economics & Risk answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Risk",
+            "url": "https://en.wikipedia.org/wiki/Risk"
+          },
+          {
+            "label": "Wikipedia: Risk perception",
+            "url": "https://en.wikipedia.org/wiki/Risk_perception"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

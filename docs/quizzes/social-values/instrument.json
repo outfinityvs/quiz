@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Four axes of social tension — mapped without ideological labels. Inspired by the 8values project.",
-    "description": "<p>This is not a quiz that puts you in a political box. It maps the value tensions you carry — places where two goods pull against each other. The result describes tensions, not identities.</p><p>State how much you agree with each statement. There are no right answers; both poles of every axis have a use.</p>",
+    "description": "<p>This is not a quiz that puts you in a political box. It maps the value tensions you carry — places where two goods pull against each other. The result describes tensions, not identities.</p><p>State how much you agree with each statement. There are no right answers; both poles of every axis have a use.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "24 statements. Approximately three to four minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Inspired by the 8values project (MIT). Items are original and not from the 8values quiz. This is not a validated political assessment.",
@@ -61,7 +61,20 @@
             "equality_merit": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Equality ↔ Merit: People who work harder and smarter deserve to earn more than those who do not.",
+        "summary": "Equality ↔ Merit means the tension between reducing unequal outcomes and rewarding individual effort, talent, or contribution. This statement is one small behavioral signal for that pattern: \"People who work harder and smarter deserve to earn more than those who do not.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -112,7 +125,20 @@
             "equality_merit": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Equality ↔ Merit: Rewarding individual achievement is the best way to drive progress.",
+        "summary": "Equality ↔ Merit means the tension between reducing unequal outcomes and rewarding individual effort, talent, or contribution. This statement is one small behavioral signal for that pattern: \"Rewarding individual achievement is the best way to drive progress.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -163,7 +189,24 @@
             "equality_merit": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Equality ↔ Merit: Talent and effort, not equal outcomes, should shape reward.",
+        "summary": "Equality ↔ Merit means the tension between reducing unequal outcomes and rewarding individual effort, talent, or contribution. This statement is one small behavioral signal for that pattern: \"Talent and effort, not equal outcomes, should shape reward.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Leadership",
+            "url": "https://en.wikipedia.org/wiki/Leadership"
+          },
+          {
+            "label": "Wikipedia: Psychological safety",
+            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -214,7 +257,24 @@
             "equality_merit": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Equality ↔ Merit: Society should ensure that no one is extremely wealthy while others live in poverty.",
+        "summary": "Equality ↔ Merit means the tension between reducing unequal outcomes and rewarding individual effort, talent, or contribution. This statement is one small behavioral signal for that pattern: \"Society should ensure that no one is extremely wealthy while others live in poverty.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -265,7 +325,20 @@
             "equality_merit": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Equality ↔ Merit: Reducing inequality matters more than maximizing individual reward.",
+        "summary": "Equality ↔ Merit means the tension between reducing unequal outcomes and rewarding individual effort, talent, or contribution. This statement is one small behavioral signal for that pattern: \"Reducing inequality matters more than maximizing individual reward.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -316,7 +389,20 @@
             "equality_merit": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Equality ↔ Merit: Basic needs should be guaranteed regardless of a person’s contribution.",
+        "summary": "Equality ↔ Merit means the tension between reducing unequal outcomes and rewarding individual effort, talent, or contribution. This statement is one small behavioral signal for that pattern: \"Basic needs should be guaranteed regardless of a person’s contribution.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -367,7 +453,24 @@
             "local_global": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Local ↔ Global: National borders should not stand in the way of human cooperation.",
+        "summary": "Local ↔ Global means the tension between local belonging and wider human cooperation beyond borders or communities. This statement is one small behavioral signal for that pattern: \"National borders should not stand in the way of human cooperation.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -418,7 +521,24 @@
             "local_global": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Local ↔ Global: Universal values matter more than local custom.",
+        "summary": "Local ↔ Global means the tension between local belonging and wider human cooperation beyond borders or communities. This statement is one small behavioral signal for that pattern: \"Universal values matter more than local custom.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q9",
@@ -469,7 +589,24 @@
             "local_global": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Local ↔ Global: Global cooperation should take precedence over national preference.",
+        "summary": "Local ↔ Global means the tension between local belonging and wider human cooperation beyond borders or communities. This statement is one small behavioral signal for that pattern: \"Global cooperation should take precedence over national preference.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q10",
@@ -520,7 +657,24 @@
             "local_global": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Local ↔ Global: Communities should prioritize the needs of their own members over outsiders.",
+        "summary": "Local ↔ Global means the tension between local belonging and wider human cooperation beyond borders or communities. This statement is one small behavioral signal for that pattern: \"Communities should prioritize the needs of their own members over outsiders.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q11",
@@ -571,7 +725,24 @@
             "local_global": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Local ↔ Global: Local culture and needs should take precedence over global ones.",
+        "summary": "Local ↔ Global means the tension between local belonging and wider human cooperation beyond borders or communities. This statement is one small behavioral signal for that pattern: \"Local culture and needs should take precedence over global ones.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q12",
@@ -622,7 +793,24 @@
             "local_global": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Local ↔ Global: Decisions are best made close to the people they affect.",
+        "summary": "Local ↔ Global means the tension between local belonging and wider human cooperation beyond borders or communities. This statement is one small behavioral signal for that pattern: \"Decisions are best made close to the people they affect.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q13",
@@ -673,7 +861,24 @@
             "liberty_authority": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Liberty ↔ Authority: Strong leadership and clear rules are necessary for a functioning society.",
+        "summary": "Liberty ↔ Authority means the tension between personal freedom and the authority or order needed for collective life. This statement is one small behavioral signal for that pattern: \"Strong leadership and clear rules are necessary for a functioning society.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Leadership",
+            "url": "https://en.wikipedia.org/wiki/Leadership"
+          },
+          {
+            "label": "Wikipedia: Psychological safety",
+            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
+          }
+        ]
+      }
     },
     {
       "id": "q14",
@@ -724,7 +929,20 @@
             "liberty_authority": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Liberty ↔ Authority: Maintaining social order is worth some limits on individual freedom.",
+        "summary": "Liberty ↔ Authority means the tension between personal freedom and the authority or order needed for collective life. This statement is one small behavioral signal for that pattern: \"Maintaining social order is worth some limits on individual freedom.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q15",
@@ -775,7 +993,20 @@
             "liberty_authority": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Liberty ↔ Authority: Institutions need real authority to keep society stable.",
+        "summary": "Liberty ↔ Authority means the tension between personal freedom and the authority or order needed for collective life. This statement is one small behavioral signal for that pattern: \"Institutions need real authority to keep society stable.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q16",
@@ -826,7 +1057,20 @@
             "liberty_authority": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Liberty ↔ Authority: Individuals should be free to do as they please as long as they do not harm others.",
+        "summary": "Liberty ↔ Authority means the tension between personal freedom and the authority or order needed for collective life. This statement is one small behavioral signal for that pattern: \"Individuals should be free to do as they please as long as they do not harm others.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q17",
@@ -877,7 +1121,20 @@
             "liberty_authority": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Liberty ↔ Authority: Personal autonomy should outweigh social conformity.",
+        "summary": "Liberty ↔ Authority means the tension between personal freedom and the authority or order needed for collective life. This statement is one small behavioral signal for that pattern: \"Personal autonomy should outweigh social conformity.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q18",
@@ -928,7 +1185,20 @@
             "liberty_authority": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Liberty ↔ Authority: The reach of state power should be kept as small as possible.",
+        "summary": "Liberty ↔ Authority means the tension between personal freedom and the authority or order needed for collective life. This statement is one small behavioral signal for that pattern: \"The reach of state power should be kept as small as possible.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q19",
@@ -979,7 +1249,20 @@
             "tradition_progress": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Tradition ↔ Progress: Society should constantly question old ways and embrace new possibilities.",
+        "summary": "Tradition ↔ Progress means the tension between preserving inherited wisdom and changing systems when better possibilities appear. This statement is one small behavioral signal for that pattern: \"Society should constantly question old ways and embrace new possibilities.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q20",
@@ -1030,7 +1313,20 @@
             "tradition_progress": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Tradition ↔ Progress: Innovation should take precedence over preserving custom.",
+        "summary": "Tradition ↔ Progress means the tension between preserving inherited wisdom and changing systems when better possibilities appear. This statement is one small behavioral signal for that pattern: \"Innovation should take precedence over preserving custom.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q21",
@@ -1081,7 +1377,20 @@
             "tradition_progress": 5
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Tradition ↔ Progress: Established practices should give way when better ones become possible.",
+        "summary": "Tradition ↔ Progress means the tension between preserving inherited wisdom and changing systems when better possibilities appear. This statement is one small behavioral signal for that pattern: \"Established practices should give way when better ones become possible.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q22",
@@ -1132,7 +1441,20 @@
             "tradition_progress": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Tradition ↔ Progress: We should respect the wisdom of past generations and preserve tradition.",
+        "summary": "Tradition ↔ Progress means the tension between preserving inherited wisdom and changing systems when better possibilities appear. This statement is one small behavioral signal for that pattern: \"We should respect the wisdom of past generations and preserve tradition.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     },
     {
       "id": "q23",
@@ -1183,7 +1505,20 @@
             "tradition_progress": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Tradition ↔ Progress: Established institutions and customs should be preserved.",
+        "summary": "Tradition ↔ Progress means the tension between preserving inherited wisdom and changing systems when better possibilities appear. This statement is one small behavioral signal for that pattern: \"Established institutions and customs should be preserved.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "q24",
@@ -1234,7 +1569,20 @@
             "tradition_progress": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Tradition ↔ Progress: Cultural tradition should guide how we choose to live.",
+        "summary": "Tradition ↔ Progress means the tension between preserving inherited wisdom and changing systems when better possibilities appear. This statement is one small behavioral signal for that pattern: \"Cultural tradition should guide how we choose to live.\".",
+        "whyItMatters": "Self-knowledge items are useful when they help you notice repeated behavior. They become misleading if one answer is treated as a permanent identity or diagnosis.",
+        "beforeAnswering": "Think across normal weeks, not one unusually good or bad day. Rate the statement by how often it describes your real preference or behavior.",
+        "example": "A high answer means this statement is regularly true for you; a low answer means it is rare, context-specific, or not how you usually operate.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -1281,5 +1629,7 @@
   "attribution": {
     "text": "Inspired by the 8values project (github.com/8values/8values.github.io, MIT license). Items are original and not from the 8values quiz.",
     "deepLink": "https://github.com/8values/8values.github.io"
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "How do you build, verify, and lose trust? A blueprint of five trust mechanisms.",
-    "description": "<p>Trust is not one thing — you build it through different mechanisms in different contexts. This maps which mechanisms you rely on: relational bonds, written contracts, reputation, transparent process, or shared governance. None is universally correct; each has a context where it works and one where it fails.</p><p>Pick the option closest to what you would actually do, not what sounds most virtuous.</p>",
+    "description": "<p>Trust is not one thing — you build it through different mechanisms in different contexts. This maps which mechanisms you rely on: relational bonds, written contracts, reputation, transparent process, or shared governance. None is universally correct; each has a context where it works and one where it fails.</p><p>Pick the option closest to what you would actually do, not what sounds most virtuous.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "10 scenarios. Approximately three minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
@@ -52,7 +52,28 @@
             "communal": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Trust mechanism: Before signing a long partnership, what makes you most willing to move forward",
+        "summary": "A trust mechanism is the signal you rely on before depending on someone: personal relationship, contract, reputation, transparent process, or shared community accountability. This question asks which mechanism would carry the most weight in the situation \"Before signing a long partnership, what makes you most willing to move forward?\".",
+        "whyItMatters": "Different partnerships need different trust mechanisms. The result helps you notice when your default fits the situation and when it may leave a blind spot.",
+        "beforeAnswering": "Think about what would actually make you proceed in a consequential relationship, not what sounds morally best in theory.",
+        "example": "The options contrast I need to actually know and trust the person across the table. / I need clear written terms covering what happens if things go wrong. / I need strong references and a track record I can verify.; your answer shows which trust signal you would prioritize first.",
+        "learnMore": [
+          {
+            "label": "Trust (social science)",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)"
+          },
+          {
+            "label": "Governance",
+            "url": "https://en.wikipedia.org/wiki/Governance"
+          },
+          {
+            "label": "Contract",
+            "url": "https://en.wikipedia.org/wiki/Contract"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -94,7 +115,28 @@
             "communal": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Trust mechanism: A new collaborator with strong credentials joins. What is your first move",
+        "summary": "A trust mechanism is the signal you rely on before depending on someone: personal relationship, contract, reputation, transparent process, or shared community accountability. This question asks which mechanism would carry the most weight in the situation \"A new collaborator with strong credentials joins. What is your first move?\".",
+        "whyItMatters": "Different partnerships need different trust mechanisms. The result helps you notice when your default fits the situation and when it may leave a blind spot.",
+        "beforeAnswering": "Think about what would actually make you proceed in a consequential relationship, not what sounds morally best in theory.",
+        "example": "The options contrast Get to know them in person and build the bond early. / Draft a scope and agreement that defines the relationship. / Talk to people who have worked with them before.; your answer shows which trust signal you would prioritize first.",
+        "learnMore": [
+          {
+            "label": "Trust (social science)",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)"
+          },
+          {
+            "label": "Governance",
+            "url": "https://en.wikipedia.org/wiki/Governance"
+          },
+          {
+            "label": "Contract",
+            "url": "https://en.wikipedia.org/wiki/Contract"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -136,7 +178,28 @@
             "communal": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Trust mechanism: Someone broke a commitment they made to you. What changes your willingness to keep working with them",
+        "summary": "A trust mechanism is the signal you rely on before depending on someone: personal relationship, contract, reputation, transparent process, or shared community accountability. This question asks which mechanism would carry the most weight in the situation \"Someone broke a commitment they made to you. What changes your willingness to keep working with them?\".",
+        "whyItMatters": "Different partnerships need different trust mechanisms. The result helps you notice when your default fits the situation and when it may leave a blind spot.",
+        "beforeAnswering": "Think about what would actually make you proceed in a consequential relationship, not what sounds morally best in theory.",
+        "example": "The options contrast Whether the relationship and good faith are still there. / Whether the agreement has teeth and the breach is documentable. / Whether their breach becomes visible enough to cost them.; your answer shows which trust signal you would prioritize first.",
+        "learnMore": [
+          {
+            "label": "Trust (social science)",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)"
+          },
+          {
+            "label": "Governance",
+            "url": "https://en.wikipedia.org/wiki/Governance"
+          },
+          {
+            "label": "Contract",
+            "url": "https://en.wikipedia.org/wiki/Contract"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -178,7 +241,28 @@
             "communal": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Trust mechanism: You must decide whether to trust a supplier you have never used.",
+        "summary": "A trust mechanism is the signal you rely on before depending on someone: personal relationship, contract, reputation, transparent process, or shared community accountability. This question asks which mechanism would carry the most weight in the situation \"You must decide whether to trust a supplier you have never used.\".",
+        "whyItMatters": "Different partnerships need different trust mechanisms. The result helps you notice when your default fits the situation and when it may leave a blind spot.",
+        "beforeAnswering": "Think about what would actually make you proceed in a consequential relationship, not what sounds morally best in theory.",
+        "example": "The options contrast I meet the owner and trust my read of them. / I sign a tight contract with real penalties. / I check references and past performance with their customers.; your answer shows which trust signal you would prioritize first.",
+        "learnMore": [
+          {
+            "label": "Trust (social science)",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)"
+          },
+          {
+            "label": "Governance",
+            "url": "https://en.wikipedia.org/wiki/Governance"
+          },
+          {
+            "label": "Contract",
+            "url": "https://en.wikipedia.org/wiki/Contract"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -220,7 +304,28 @@
             "communal": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Trust mechanism: How do you most reliably verify a claim someone makes to you",
+        "summary": "A trust mechanism is the signal you rely on before depending on someone: personal relationship, contract, reputation, transparent process, or shared community accountability. This question asks which mechanism would carry the most weight in the situation \"How do you most reliably verify a claim someone makes to you?\".",
+        "whyItMatters": "Different partnerships need different trust mechanisms. The result helps you notice when your default fits the situation and when it may leave a blind spot.",
+        "beforeAnswering": "Think about what would actually make you proceed in a consequential relationship, not what sounds morally best in theory.",
+        "example": "The options contrast Through whether I trust the person making it. / Through a written record and agreed definitions. / Through independent references and their track record.; your answer shows which trust signal you would prioritize first.",
+        "learnMore": [
+          {
+            "label": "Trust (social science)",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)"
+          },
+          {
+            "label": "Governance",
+            "url": "https://en.wikipedia.org/wiki/Governance"
+          },
+          {
+            "label": "Contract",
+            "url": "https://en.wikipedia.org/wiki/Contract"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -262,7 +367,28 @@
             "communal": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Trust mechanism: A funder offers support. What makes you accept it",
+        "summary": "A trust mechanism is the signal you rely on before depending on someone: personal relationship, contract, reputation, transparent process, or shared community accountability. This question asks which mechanism would carry the most weight in the situation \"A funder offers support. What makes you accept it?\".",
+        "whyItMatters": "Different partnerships need different trust mechanisms. The result helps you notice when your default fits the situation and when it may leave a blind spot.",
+        "beforeAnswering": "Think about what would actually make you proceed in a consequential relationship, not what sounds morally best in theory.",
+        "example": "The options contrast A real relationship, not just a transaction. / Clear terms on what the money can and cannot be used for. / Their reputation and the signal their support sends.; your answer shows which trust signal you would prioritize first.",
+        "learnMore": [
+          {
+            "label": "Trust (social science)",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)"
+          },
+          {
+            "label": "Governance",
+            "url": "https://en.wikipedia.org/wiki/Governance"
+          },
+          {
+            "label": "Contract",
+            "url": "https://en.wikipedia.org/wiki/Contract"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -304,7 +430,28 @@
             "communal": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Trust mechanism: A small group inside your venture starts doing work no one else can see. What matters most",
+        "summary": "A trust mechanism is the signal you rely on before depending on someone: personal relationship, contract, reputation, transparent process, or shared community accountability. This question asks which mechanism would carry the most weight in the situation \"A small group inside your venture starts doing work no one else can see. What matters most?\".",
+        "whyItMatters": "Different partnerships need different trust mechanisms. The result helps you notice when your default fits the situation and when it may leave a blind spot.",
+        "beforeAnswering": "Think about what would actually make you proceed in a consequential relationship, not what sounds morally best in theory.",
+        "example": "The options contrast That the people are trusted enough not to need watching. / That there is a written agreement defining their autonomy. / That they have a results track record that speaks for them.; your answer shows which trust signal you would prioritize first.",
+        "learnMore": [
+          {
+            "label": "Trust (social science)",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)"
+          },
+          {
+            "label": "Governance",
+            "url": "https://en.wikipedia.org/wiki/Governance"
+          },
+          {
+            "label": "Contract",
+            "url": "https://en.wikipedia.org/wiki/Contract"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -346,7 +493,28 @@
             "communal": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Trust mechanism: You are choosing between two equal bids. What tips your decision",
+        "summary": "A trust mechanism is the signal you rely on before depending on someone: personal relationship, contract, reputation, transparent process, or shared community accountability. This question asks which mechanism would carry the most weight in the situation \"You are choosing between two equal bids. What tips your decision?\".",
+        "whyItMatters": "Different partnerships need different trust mechanisms. The result helps you notice when your default fits the situation and when it may leave a blind spot.",
+        "beforeAnswering": "Think about what would actually make you proceed in a consequential relationship, not what sounds morally best in theory.",
+        "example": "The options contrast Which people I would rather work with. / Which contract terms best protect us. / Which bidder has the stronger track record.; your answer shows which trust signal you would prioritize first.",
+        "learnMore": [
+          {
+            "label": "Trust (social science)",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)"
+          },
+          {
+            "label": "Governance",
+            "url": "https://en.wikipedia.org/wiki/Governance"
+          },
+          {
+            "label": "Contract",
+            "url": "https://en.wikipedia.org/wiki/Contract"
+          }
+        ]
+      }
     },
     {
       "id": "q9",
@@ -388,7 +556,28 @@
             "communal": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Trust mechanism: When things go wrong with a partner, what do you rely on most",
+        "summary": "A trust mechanism is the signal you rely on before depending on someone: personal relationship, contract, reputation, transparent process, or shared community accountability. This question asks which mechanism would carry the most weight in the situation \"When things go wrong with a partner, what do you rely on most?\".",
+        "whyItMatters": "Different partnerships need different trust mechanisms. The result helps you notice when your default fits the situation and when it may leave a blind spot.",
+        "beforeAnswering": "Think about what would actually make you proceed in a consequential relationship, not what sounds morally best in theory.",
+        "example": "The options contrast The relationship to absorb the friction. / The contract to define the resolution. / Reputational consequences to keep them honest.; your answer shows which trust signal you would prioritize first.",
+        "learnMore": [
+          {
+            "label": "Trust (social science)",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)"
+          },
+          {
+            "label": "Governance",
+            "url": "https://en.wikipedia.org/wiki/Governance"
+          },
+          {
+            "label": "Contract",
+            "url": "https://en.wikipedia.org/wiki/Contract"
+          }
+        ]
+      }
     },
     {
       "id": "q10",
@@ -430,7 +619,28 @@
             "communal": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Trust mechanism: Trust scales best when, in your view, it is built on...",
+        "summary": "A trust mechanism is the signal you rely on before depending on someone: personal relationship, contract, reputation, transparent process, or shared community accountability. This question asks which mechanism would carry the most weight in the situation \"Trust scales best when, in your view, it is built on...\".",
+        "whyItMatters": "Different partnerships need different trust mechanisms. The result helps you notice when your default fits the situation and when it may leave a blind spot.",
+        "beforeAnswering": "Think about what would actually make you proceed in a consequential relationship, not what sounds morally best in theory.",
+        "example": "The options contrast Real, repeated human bonds. / Clear written agreements. / Track records that anyone can verify.; your answer shows which trust signal you would prioritize first.",
+        "learnMore": [
+          {
+            "label": "Trust (social science)",
+            "url": "https://en.wikipedia.org/wiki/Trust_(social_science)"
+          },
+          {
+            "label": "Governance",
+            "url": "https://en.wikipedia.org/wiki/Governance"
+          },
+          {
+            "label": "Contract",
+            "url": "https://en.wikipedia.org/wiki/Contract"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -467,5 +677,7 @@
         "theoreticalMax": 10
       }
     ]
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

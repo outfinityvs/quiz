@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Knowledge quiz. 8 min.",
-    "description": "<p>Term sheet literacy challenge for economic and control consequences in venture financing.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Term Sheet Literacy Challenge is a learning challenge for the terminology, assumptions, and typical decision traps behind Economics & Dilution, Control & Governance, Downside Protection, Process & Rights. It is designed to teach through plausible wrong answers as much as through the correct ones.</p><p>Choose the answer you would use in a real conversation. After completion, the answer review explains the concept and points to the area worth studying next.</p>",
     "duration": "8 questions. Approximately 8 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -64,7 +64,24 @@
             "economics-and-dilution": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Economics & Dilution: An investor invests EUR 2 million at an EUR 8 million pre-money valuation. Before option-pool or convertible adjustments, what is the investor post-money ownership",
+        "summary": "Economics & Dilution means how valuation, option pools, share price, and liquidation economics affect founder and investor ownership outcomes. This question teaches the concept through a concrete prompt: \"An investor invests EUR 2 million at an EUR 8 million pre-money valuation. Before option-pool or convertible adjustments, what is the investor post-money ownership?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"20.0%.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Term sheet",
+            "url": "https://en.wikipedia.org/wiki/Term_sheet"
+          },
+          {
+            "label": "Wikipedia: Liquidation preference",
+            "url": "https://en.wikipedia.org/wiki/Liquidation_preference"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -115,7 +132,24 @@
             "economics-and-dilution": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Economics & Dilution: What is the usual economic effect of increasing a pre-money option pool immediately before the financing",
+        "summary": "Economics & Dilution means how valuation, option pools, share price, and liquidation economics affect founder and investor ownership outcomes. This question teaches the concept through a concrete prompt: \"What is the usual economic effect of increasing a pre-money option pool immediately before the financing?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"It primarily dilutes existing shareholders.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Term sheet",
+            "url": "https://en.wikipedia.org/wiki/Term_sheet"
+          },
+          {
+            "label": "Wikipedia: Liquidation preference",
+            "url": "https://en.wikipedia.org/wiki/Liquidation_preference"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -166,7 +200,24 @@
             "control-and-governance": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Control & Governance: Why can board composition matter even when founders still own a majority of shares",
+        "summary": "Control & Governance means the rights, board structure, approvals, and vetoes that shape who can decide after investment. This question teaches the concept through a concrete prompt: \"Why can board composition matter even when founders still own a majority of shares?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"The board may control key corporate decisions, appointments and strategic approvals.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Term sheet",
+            "url": "https://en.wikipedia.org/wiki/Term_sheet"
+          },
+          {
+            "label": "Wikipedia: Liquidation preference",
+            "url": "https://en.wikipedia.org/wiki/Liquidation_preference"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -217,7 +268,24 @@
             "control-and-governance": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Control & Governance: What are protective provisions generally designed to do",
+        "summary": "Control & Governance means the rights, board structure, approvals, and vetoes that shape who can decide after investment. This question teaches the concept through a concrete prompt: \"What are protective provisions generally designed to do?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Give investors consent rights over specified fundamental actions.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Term sheet",
+            "url": "https://en.wikipedia.org/wiki/Term_sheet"
+          },
+          {
+            "label": "Wikipedia: Liquidation preference",
+            "url": "https://en.wikipedia.org/wiki/Liquidation_preference"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -268,7 +336,24 @@
             "downside-protection": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Downside Protection: What does a 1x non-participating liquidation preference generally provide",
+        "summary": "Downside Protection means terms that protect investors in poor outcomes and can change who receives value at exit or down rounds. This question teaches the concept through a concrete prompt: \"What does a 1x non-participating liquidation preference generally provide?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"The investor typically chooses the greater of the preference amount or the as-converted common proceeds.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Term sheet",
+            "url": "https://en.wikipedia.org/wiki/Term_sheet"
+          },
+          {
+            "label": "Wikipedia: Liquidation preference",
+            "url": "https://en.wikipedia.org/wiki/Liquidation_preference"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -319,7 +404,24 @@
             "downside-protection": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Downside Protection: Compared with broad-based weighted-average anti-dilution, full-ratchet anti-dilution is generally what",
+        "summary": "Downside Protection means terms that protect investors in poor outcomes and can change who receives value at exit or down rounds. This question teaches the concept through a concrete prompt: \"Compared with broad-based weighted-average anti-dilution, full-ratchet anti-dilution is generally what?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"More punitive because it can reset the conversion price to the new lower price regardless of round size.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Term sheet",
+            "url": "https://en.wikipedia.org/wiki/Term_sheet"
+          },
+          {
+            "label": "Wikipedia: Liquidation preference",
+            "url": "https://en.wikipedia.org/wiki/Liquidation_preference"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -370,7 +472,24 @@
             "process-and-rights": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Process & Rights: What does a pro-rata right generally allow an investor to do",
+        "summary": "Process & Rights means the investor rights and deal-process clauses that shape access, follow-on participation, exclusivity, and closing behavior. This question teaches the concept through a concrete prompt: \"What does a pro-rata right generally allow an investor to do?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"Maintain a proportionate ownership stake in a future financing, subject to the agreement.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Term sheet",
+            "url": "https://en.wikipedia.org/wiki/Term_sheet"
+          },
+          {
+            "label": "Wikipedia: Liquidation preference",
+            "url": "https://en.wikipedia.org/wiki/Liquidation_preference"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -421,7 +540,24 @@
             "process-and-rights": 0
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Process & Rights: What is the practical purpose of a no-shop or exclusivity clause",
+        "summary": "Process & Rights means the investor rights and deal-process clauses that shape access, follow-on participation, exclusivity, and closing behavior. This question teaches the concept through a concrete prompt: \"What is the practical purpose of a no-shop or exclusivity clause?\".",
+        "whyItMatters": "The plausible wrong answers usually contain familiar words but miss the mechanism, calculation, trade-off, or evidence standard that makes the best answer stronger.",
+        "beforeAnswering": "Compare the options by the rule they use. Prefer the answer that would still be defensible in a real founder, investor, finance, or product conversation.",
+        "example": "The strongest answer is: \"It restricts the company from soliciting or negotiating competing financing offers for a defined period.\"",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Term sheet",
+            "url": "https://en.wikipedia.org/wiki/Term_sheet"
+          },
+          {
+            "label": "Wikipedia: Liquidation preference",
+            "url": "https://en.wikipedia.org/wiki/Liquidation_preference"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -457,10 +593,7 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  }
+  "banner": "outfinity-explorer-circle",
+  "questionStageTitle": "Learn the concept, then choose",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. The quiz is meant to teach the vocabulary before it tests recall."
 }

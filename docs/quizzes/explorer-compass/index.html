@@ -55,7 +55,7 @@
   </footer>
 
   <script type="module">
-    import { createEngine, STAGES } from '../../engine/quiz-engine.js';
+    import { createEngine } from '../../engine/quiz-engine.js';
     import { createRadarChart, createTextAlternative } from '../../engine/radar-chart.js';
     import { generateShareCard, downloadCanvas, shareCanvas } from '../../engine/share-card.js';
     import { encodeResult, buildShareUrl, parseFragment, validatePayload } from '../../engine/url-codec.js';
@@ -119,69 +119,7 @@
         onResult: (state, el) => renderResult(state, el)
       });
 
-      engine.onStageChange(() => {
-        if (engine.state.stage === STAGES.CONTEXT) {
-          renderContextWithEcology(engine, container);
-        }
-      });
-
       engine.render(container);
-    }
-
-    function renderContextWithEcology(engine, el) {
-      el.innerHTML = '';
-      const section = document.createElement('section');
-      section.className = 'quiz-stage quiz-stage--context';
-      section.innerHTML = `<h2>${engine.state.quizId === 'explorer-compass' ? 'Optional context' : 'Context'}</h2>`;
-
-      for (const q of (instrument.contextQuestions || [])) {
-        const fieldset = document.createElement('fieldset');
-        fieldset.className = 'quiz-question';
-        const legend = document.createElement('legend');
-        legend.textContent = q.text;
-        fieldset.appendChild(legend);
-        for (const opt of q.options) {
-          const label = document.createElement('label');
-          label.className = 'quiz-option';
-          const input = document.createElement('input');
-          input.type = q.multiple ? 'checkbox' : 'radio';
-          input.name = `context-${q.id}`;
-          input.value = opt.value;
-          const span = document.createElement('span');
-          span.textContent = opt.text;
-          label.appendChild(input);
-          label.appendChild(span);
-          fieldset.appendChild(label);
-        }
-        section.appendChild(fieldset);
-      }
-
-      const btnRow = document.createElement('div');
-      btnRow.className = 'quiz-btn-row';
-      const backBtn = document.createElement('button');
-      backBtn.className = 'quiz-btn quiz-btn--secondary';
-      backBtn.textContent = 'Back';
-      backBtn.addEventListener('click', () => engine.setStage(STAGES.INTRO));
-      const nextBtn = document.createElement('button');
-      nextBtn.className = 'quiz-btn quiz-btn--primary';
-      nextBtn.textContent = 'Continue';
-      nextBtn.addEventListener('click', () => {
-        for (const q of (instrument.contextQuestions || [])) {
-          const inputs = section.querySelectorAll(`[name="context-${q.id}"]`);
-          if (q.multiple) {
-            engine.state.contextAnswers[q.id] = Array.from(inputs).filter(i => i.checked).map(i => i.value);
-          } else {
-            const checked = Array.from(inputs).find(i => i.checked);
-            if (checked) engine.state.contextAnswers[q.id] = checked.value;
-          }
-        }
-        engine.state.currentQuestionIndex = 0;
-        engine.setStage(STAGES.QUESTIONS);
-      });
-      btnRow.appendChild(backBtn);
-      btnRow.appendChild(nextBtn);
-      section.appendChild(btnRow);
-      el.appendChild(section);
     }
 
     function renderResult(state, el) {

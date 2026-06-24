@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Cyber and privacy maturity assessment. 7 min.",
-    "description": "<p>Cybersecurity and privacy readiness assessment for governance, protection, response, recovery, and privacy operations.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Cybersecurity & Privacy Readiness helps you learn the vocabulary and typical expectations behind Govern & Identify, Protect, Detect & Respond, Recover & Privacy. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 7 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -72,7 +72,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Govern & Identify: How clearly are cybersecurity accountability, policies, and risk appetite defined",
+        "summary": "Govern & Identify means knowing who owns security and privacy risk, what assets and data exist, and which third parties or identities matter most. This question narrows the concept to \"How clearly are cybersecurity accountability, policies, and risk appetite defined?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Govern & Identify matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show current controls for \"How clearly are cybersecurity accountability, policies, and risk appetite defined?\", assigned ownership, test or incident evidence, and a clear escalation or review path.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Computer security",
+            "url": "https://en.wikipedia.org/wiki/Computer_security"
+          },
+          {
+            "label": "Wikipedia: Privacy",
+            "url": "https://en.wikipedia.org/wiki/Privacy"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -131,7 +148,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Govern & Identify: How complete are inventories of assets, data, identities, and critical third parties",
+        "summary": "Govern & Identify means knowing who owns security and privacy risk, what assets and data exist, and which third parties or identities matter most. This question narrows the concept to \"How complete are inventories of assets, data, identities, and critical third parties?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Govern & Identify matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show current controls for \"How complete are inventories of assets, data, identities, and critical third parties?\", assigned ownership, test or incident evidence, and a clear escalation or review path.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -190,7 +224,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Protect: How strong are identity, access, and vulnerability controls",
+        "summary": "Protect means the controls that reduce preventable harm, including access, vulnerability management, backups, data protection, and staff practices. This question narrows the concept to \"How strong are identity, access, and vulnerability controls?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Protect matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show current controls for \"How strong are identity, access, and vulnerability controls?\", assigned ownership, test or incident evidence, and a clear escalation or review path.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Computer security",
+            "url": "https://en.wikipedia.org/wiki/Computer_security"
+          },
+          {
+            "label": "Wikipedia: Privacy",
+            "url": "https://en.wikipedia.org/wiki/Privacy"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -249,7 +300,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Protect: How well are data, people, and backups protected",
+        "summary": "Protect means the controls that reduce preventable harm, including access, vulnerability management, backups, data protection, and staff practices. This question narrows the concept to \"How well are data, people, and backups protected?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Protect matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show current controls for \"How well are data, people, and backups protected?\", assigned ownership, test or incident evidence, and a clear escalation or review path.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -262,7 +330,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Detect & Respond; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -272,7 +340,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Detect & Respond, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -282,7 +350,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Detect & Respond has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -292,7 +360,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Detect & Respond is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -308,7 +376,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Detect & Respond: How capable is the organisation of detecting abnormal or malicious activity",
+        "summary": "Detect & Respond means the ability to notice abnormal activity, escalate it, contain it, and learn from incidents quickly enough. This question narrows the concept to \"How capable is the organisation of detecting abnormal or malicious activity?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Detect & Respond matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show current controls for \"How capable is the organisation of detecting abnormal or malicious activity?\", assigned ownership, test or incident evidence, and a clear escalation or review path.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Computer security",
+            "url": "https://en.wikipedia.org/wiki/Computer_security"
+          },
+          {
+            "label": "Wikipedia: Privacy",
+            "url": "https://en.wikipedia.org/wiki/Privacy"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -367,7 +452,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Detect & Respond: How prepared is the incident response process",
+        "summary": "Detect & Respond means the ability to notice abnormal activity, escalate it, contain it, and learn from incidents quickly enough. This question narrows the concept to \"How prepared is the incident response process?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Detect & Respond matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show current controls for \"How prepared is the incident response process?\", assigned ownership, test or incident evidence, and a clear escalation or review path.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Computer security",
+            "url": "https://en.wikipedia.org/wiki/Computer_security"
+          },
+          {
+            "label": "Wikipedia: Privacy",
+            "url": "https://en.wikipedia.org/wiki/Privacy"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -426,7 +528,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Recover & Privacy: How confident are you that critical services and data can be restored",
+        "summary": "Recover & Privacy means restoring critical services and data while handling privacy obligations, records, consent, and data-subject expectations responsibly. This question narrows the concept to \"How confident are you that critical services and data can be restored?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Recover & Privacy matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show current controls for \"How confident are you that critical services and data can be restored?\", assigned ownership, test or incident evidence, and a clear escalation or review path.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -485,7 +604,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Recover & Privacy: How mature is privacy management",
+        "summary": "Recover & Privacy means restoring critical services and data while handling privacy obligations, records, consent, and data-subject expectations responsibly. This question narrows the concept to \"How mature is privacy management?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Recover & Privacy matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show current controls for \"How mature is privacy management?\", assigned ownership, test or incident evidence, and a clear escalation or review path.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Computer security",
+            "url": "https://en.wikipedia.org/wiki/Computer_security"
+          },
+          {
+            "label": "Wikipedia: Privacy",
+            "url": "https://en.wikipedia.org/wiki/Privacy"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +657,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-govern-and-identify",
@@ -549,7 +680,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Govern & Identify",
+        "summary": "This question asks how well your answers about Govern & Identify are supported. Govern & Identify means knowing who owns security and privacy risk, what assets and data exist, and which third parties or identities matter most. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Govern & Identify is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Govern & Identify answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Computer security",
+            "url": "https://en.wikipedia.org/wiki/Computer_security"
+          },
+          {
+            "label": "Wikipedia: Privacy",
+            "url": "https://en.wikipedia.org/wiki/Privacy"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-protect",
@@ -571,7 +719,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Protect",
+        "summary": "This question asks how well your answers about Protect are supported. Protect means the controls that reduce preventable harm, including access, vulnerability management, backups, data protection, and staff practices. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Protect is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Protect answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Computer security",
+            "url": "https://en.wikipedia.org/wiki/Computer_security"
+          },
+          {
+            "label": "Wikipedia: Privacy",
+            "url": "https://en.wikipedia.org/wiki/Privacy"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-detect-and-respond",
@@ -593,7 +758,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Detect & Respond",
+        "summary": "This question asks how well your answers about Detect & Respond are supported. Detect & Respond means the ability to notice abnormal activity, escalate it, contain it, and learn from incidents quickly enough. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Detect & Respond is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Detect & Respond answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Computer security",
+            "url": "https://en.wikipedia.org/wiki/Computer_security"
+          },
+          {
+            "label": "Wikipedia: Privacy",
+            "url": "https://en.wikipedia.org/wiki/Privacy"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-recover-and-privacy",
@@ -615,7 +797,27 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Recover & Privacy",
+        "summary": "This question asks how well your answers about Recover & Privacy are supported. Recover & Privacy means restoring critical services and data while handling privacy obligations, records, consent, and data-subject expectations responsibly. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Recover & Privacy is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Recover & Privacy answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

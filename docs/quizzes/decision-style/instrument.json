@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "How do you decide under uncertainty? Five axes of your decision reflex.",
-    "description": "<p>This is not a test of decision quality — it maps your style. Each pole of each axis has a use; what matters is knowing your reflex so you can tell when it serves the situation and when it does not.</p><p>Each scenario offers a clear-leaning option, a balanced option, and an opposite-leaning option. Pick what you would actually do.</p>",
+    "description": "<p>This is not a test of decision quality — it maps your style. Each pole of each axis has a use; what matters is knowing your reflex so you can tell when it serves the situation and when it does not.</p><p>Each scenario offers a clear-leaning option, a balanced option, and an opposite-leaning option. Pick what you would actually do.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "15 scenarios. Approximately four minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "Original instrument. This is not a validated psychometric assessment.",
@@ -39,7 +39,24 @@
             "analytical_intuitive": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Analytical and intuitive judgement: Two potential customers: one large contract needing heavy customization, one small but perfectly aligned with your roadmap. One week to decide. What do you do",
+        "summary": "Analytical and intuitive judgement means the tension between explicit analysis, numbers, and criteria on one side and pattern recognition or gut feel on the other. This scenario asks how that trade-off appears in \"Two potential customers: one large contract needing heavy customization, one small but perfectly aligned with your roadmap. One week to decide. What do you do?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Calculate revenue, cost-to-serve, and strategic fit before deciding. / Trust your gut about which customer fits. / Sketch the numbers fast, then check against instinct.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -68,7 +85,24 @@
             "analytical_intuitive": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Analytical and intuitive judgement: A senior teammate challenges your plan with a strong objection. How do you respond",
+        "summary": "Analytical and intuitive judgement means the tension between explicit analysis, numbers, and criteria on one side and pattern recognition or gut feel on the other. This scenario asks how that trade-off appears in \"A senior teammate challenges your plan with a strong objection. How do you respond?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Ask for their reasoning and weigh the evidence point by point. / Sense whether the objection carries real signal beyond the logic. / Hear the point, then weigh both the reasoning and your instincts.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Critical thinking",
+            "url": "https://en.wikipedia.org/wiki/Critical_thinking"
+          },
+          {
+            "label": "Active listening",
+            "url": "https://en.wikipedia.org/wiki/Active_listening"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -97,7 +131,24 @@
             "analytical_intuitive": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Analytical and intuitive judgement: A new market looks promising but the data is thin. What is your first move",
+        "summary": "Analytical and intuitive judgement means the tension between explicit analysis, numbers, and criteria on one side and pattern recognition or gut feel on the other. This scenario asks how that trade-off appears in \"A new market looks promising but the data is thin. What is your first move?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Commission research before committing anything. / Act on pattern recognition from analogous markets. / Run one cheap experiment to triangulate.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -126,7 +177,24 @@
             "risk_caution": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Risk and caution: A partnership could double revenue but requires sharing your core technology. The partner is reputable; the agreement is complex. What do you do",
+        "summary": "Risk and caution means the tension between taking uncertain upside and protecting downside, runway, reputation, or optionality. This scenario asks how that trade-off appears in \"A partnership could double revenue but requires sharing your core technology. The partner is reputable; the agreement is complex. What do you do?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Take it — the upside justifies sharing the technology. / Decline — protect the core. / Negotiate protections first, then decide.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Risk management",
+            "url": "https://en.wikipedia.org/wiki/Risk_management"
+          },
+          {
+            "label": "Expected value",
+            "url": "https://en.wikipedia.org/wiki/Expected_value"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -155,7 +223,24 @@
             "risk_caution": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Risk and caution: A bet-the-company opportunity with roughly 50/50 odds appears. How do you handle it",
+        "summary": "Risk and caution means the tension between taking uncertain upside and protecting downside, runway, reputation, or optionality. This scenario asks how that trade-off appears in \"A bet-the-company opportunity with roughly 50/50 odds appears. How do you handle it?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Take the bet — the upside is transformative. / Preserve optionality instead of going all-in. / Take a smaller, survivable version of the bet.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Risk management",
+            "url": "https://en.wikipedia.org/wiki/Risk_management"
+          },
+          {
+            "label": "Expected value",
+            "url": "https://en.wikipedia.org/wiki/Expected_value"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -184,7 +269,24 @@
             "risk_caution": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Risk and caution: Cash reserves could fund a risky expansion or simply extend runway. Which do you favor",
+        "summary": "Risk and caution means the tension between taking uncertain upside and protecting downside, runway, reputation, or optionality. This scenario asks how that trade-off appears in \"Cash reserves could fund a risky expansion or simply extend runway. Which do you favor?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Expand — growth is what protects you long term. / Extend runway first — survive before you grow. / Split the difference: a measured expansion and a longer buffer.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Runway (business)",
+            "url": "https://en.wikipedia.org/wiki/Cash_flow"
+          },
+          {
+            "label": "Burn rate",
+            "url": "https://en.wikipedia.org/wiki/Burn_rate"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -213,7 +315,24 @@
             "speed_accuracy": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Speed and accuracy: You need to hire in two weeks. Candidates: clearly qualified but expensive, promising but unproven, or safe but dull. What do you do",
+        "summary": "Speed and accuracy means the tension between moving quickly enough to learn and slowing down enough to avoid preventable errors. This scenario asks how that trade-off appears in \"You need to hire in two weeks. Candidates: clearly qualified but expensive, promising but unproven, or safe but dull. What do you do?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Decide fast on first impression; iterate if wrong. / Interview thoroughly and check references before deciding. / Add one extra round, then decide.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -242,7 +361,24 @@
             "speed_accuracy": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Speed and accuracy: A competitor ships a feature close to yours. How do you respond",
+        "summary": "Speed and accuracy means the tension between moving quickly enough to learn and slowing down enough to avoid preventable errors. This scenario asks how that trade-off appears in \"A competitor ships a feature close to yours. How do you respond?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Ship something now, iterate from real feedback. / Get it right; ship in a month. / Ship a minimal version now, polish after.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q9",
@@ -271,7 +407,24 @@
             "speed_accuracy": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Speed and accuracy: A critical bug appears at launch. What is your first move",
+        "summary": "Speed and accuracy means the tension between moving quickly enough to learn and slowing down enough to avoid preventable errors. This scenario asks how that trade-off appears in \"A critical bug appears at launch. What is your first move?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Patch fast, communicate after. / Pause and diagnose the root cause first. / Quick containment, then root-cause it.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q10",
@@ -300,7 +453,24 @@
             "control_adaptation": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Control and adaptation: A key supplier fails mid-project. What do you do",
+        "summary": "Control and adaptation means the tension between plans, ownership, and control versus flexibility when new information appears. This scenario asks how that trade-off appears in \"A key supplier fails mid-project. What do you do?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Direct the replacement personally and closely. / Let the team reorganize around what is available. / Set the constraint, let them find the path.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q11",
@@ -329,7 +499,24 @@
             "control_adaptation": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Control and adaptation: A funder wants real influence over your roadmap. How do you respond",
+        "summary": "Control and adaptation means the tension between plans, ownership, and control versus flexibility when new information appears. This scenario asks how that trade-off appears in \"A funder wants real influence over your roadmap. How do you respond?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Keep direction firmly with the founders. / Adapt strategy to their input where it genuinely improves it. / Hold the core, flex the edges.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q12",
@@ -358,7 +545,24 @@
             "control_adaptation": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Control and adaptation: The market shifts while you are still building. What do you do",
+        "summary": "Control and adaptation means the tension between plans, ownership, and control versus flexibility when new information appears. This scenario asks how that trade-off appears in \"The market shifts while you are still building. What do you do?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Stick to the plan; you chose it for a reason. / Re-shape around the new reality. / Re-plan the next milestone, keep the vision.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q13",
@@ -387,7 +591,24 @@
             "solo_collaborative": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Solo and collaborative decisions: A hard strategic call has to be made. How do you make it",
+        "summary": "Solo and collaborative decisions means the tension between individual ownership and drawing judgement from other people before deciding. This scenario asks how that trade-off appears in \"A hard strategic call has to be made. How do you make it?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Decide it yourself — you carry the risk. / Build consensus with the team first. / Consult two trusted people, then decide.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q14",
@@ -416,7 +637,24 @@
             "solo_collaborative": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Solo and collaborative decisions: A crisis hits at 2 a.m. What do you do",
+        "summary": "Solo and collaborative decisions means the tension between individual ownership and drawing judgement from other people before deciding. This scenario asks how that trade-off appears in \"A crisis hits at 2 a.m. What do you do?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Handle it yourself, brief others after. / Wake the people who can help. / Make the urgent call, loop others in for the rest.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "q15",
@@ -445,7 +683,24 @@
             "solo_collaborative": 1
           }
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Solo and collaborative decisions: You are setting the company’s direction. How do you shape it",
+        "summary": "Solo and collaborative decisions means the tension between individual ownership and drawing judgement from other people before deciding. This scenario asks how that trade-off appears in \"You are setting the company’s direction. How do you shape it?\".",
+        "whyItMatters": "Decision styles are useful when they expose trade-offs, not when they become excuses. A useful result helps you know when your default is an asset and when it needs a counterweight.",
+        "beforeAnswering": "Think of your first practical move in a comparable real situation. Do not choose the answer that sounds most balanced if it is not how you would actually decide.",
+        "example": "The options contrast Keep it yours — you carry the risk. / Co-author it with the team. / Draft it, then pressure-test with a few.; your choice shows which decision habit you would rely on first.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -492,5 +747,7 @@
         "theoreticalMax": 6
       }
     ]
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

@@ -24,7 +24,7 @@ Method types are explicitly labeled. Supported families include published resear
 
 Every completed quiz result must display a diagram. For four-axis maturity and knowledge instruments the default diagram is a radar chart. Paired, team, regulatory, and knowledge formats may add heatmaps, score bars, answer-review maps, or document maps, but they must still include a visual result diagram plus a text alternative.
 
-Business, investor, family-office, AI, cyber, ESG, and regulatory instruments are educational diagnostics. They may suggest next actions, templates, calculators, or qualified-review prompts, but must not present the result as professional advice or eligibility determination.
+Founder, fundraising, finance, product, growth, AI, cyber, ESG, and regulatory instruments are educational diagnostics. They may suggest next actions, templates, calculators, or qualified-review prompts, but must not present the result as professional advice or eligibility determination.
 
 Each quiz must pass a quality gate covering rights, method, balance, result completeness, diagram rendering, limitations, privacy, sharing safety, recommendation placement, accessibility, versioning, and category-specific integrity constraints. Benchmarks require a real sample, compatible quiz versions, visible cohort criteria, and transparent sample size.
 
@@ -40,7 +40,7 @@ Response: English first. Romanian translations are added later as separate langu
 
 ### Question #3: Can the platform host business diagnostics in addition to self-knowledge quizzes?
 
-Response: Yes. The platform may host business, investor, family-office, product, AI, cyber, and ESG diagnostics when they preserve the same privacy-first baseline, transparent scoring, explicit limitations, and browser-first implementation model.
+Response: Yes. The platform may host founder, fundraising, finance, product, AI, cyber, and ESG diagnostics when they preserve the same privacy-first baseline, transparent scoring, explicit limitations, and browser-first implementation model. Investor-side portfolio and family-office instruments are outside the current public catalog scope.
 
 ## Conclusion
 

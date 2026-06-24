@@ -7,7 +7,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "Positioning maturity assessment. 6 min.",
-    "description": "<p>Positioning and differentiation diagnostic for ICP clarity, category framing, value proof, and message learning.</p><p>This educational diagnostic runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "description": "<p>Positioning & Brand Differentiation helps you learn the vocabulary and typical expectations behind ICP & Trigger Clarity, Category & Alternatives, Value & Proof, Message Consistency & Learning. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
     "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
@@ -72,7 +72,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "ICP & Trigger Clarity: How precisely is the ideal customer profile defined",
+        "summary": "ICP & Trigger Clarity means knowing the exact customer profile and the event or pain that makes that customer actively search for a solution now. This question narrows the concept to \"How precisely is the ideal customer profile defined?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "ICP & Trigger Clarity matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How precisely is the ideal customer profile defined?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     },
     {
       "id": "q2",
@@ -131,7 +148,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "ICP & Trigger Clarity: How clearly is the moment that creates demand understood",
+        "summary": "ICP & Trigger Clarity means knowing the exact customer profile and the event or pain that makes that customer actively search for a solution now. This question narrows the concept to \"How clearly is the moment that creates demand understood?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "ICP & Trigger Clarity matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How clearly is the moment that creates demand understood?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     },
     {
       "id": "q3",
@@ -190,7 +224,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Category & Alternatives: What does the customer compare the offer against",
+        "summary": "Category & Alternatives means understanding what buyers compare you against and how your product should be framed so the comparison is fair and memorable. This question narrows the concept to \"What does the customer compare the offer against?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Category & Alternatives matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"What does the customer compare the offer against?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     },
     {
       "id": "q4",
@@ -203,7 +254,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Category & Alternatives; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -213,7 +264,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Category & Alternatives, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -223,7 +274,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Category & Alternatives has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -233,7 +284,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Category & Alternatives is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -249,7 +300,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Category & Alternatives: How clearly is the differentiated category or frame articulated",
+        "summary": "Category & Alternatives means understanding what buyers compare you against and how your product should be framed so the comparison is fair and memorable. This question narrows the concept to \"How clearly is the differentiated category or frame articulated?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Category & Alternatives matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How clearly is the differentiated category or frame articulated?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     },
     {
       "id": "q5",
@@ -262,7 +330,7 @@
       "options": [
         {
           "key": "a",
-          "text": "A. No reliable practice exists yet; the answer depends on intuition or one-off effort.",
+          "text": "A. This is not explicit yet in Value & Proof; decisions depend on intuition, habit, or one-off judgement.",
           "points": 0,
           "correct": false,
           "excluded": false,
@@ -272,7 +340,7 @@
         },
         {
           "key": "b",
-          "text": "B. There is an informal practice, but it depends on individuals and has weak repeatability.",
+          "text": "B. There is a plausible practice in Value & Proof, but evidence, ownership, or repeatability is still partial.",
           "points": 1,
           "correct": false,
           "excluded": false,
@@ -282,7 +350,7 @@
         },
         {
           "key": "c",
-          "text": "C. The practice is documented, repeatable, and used in important decisions.",
+          "text": "C. Value & Proof has a documented practice with examples, owners, and current evidence used in decisions.",
           "points": 2,
           "correct": false,
           "excluded": false,
@@ -292,7 +360,7 @@
         },
         {
           "key": "d",
-          "text": "D. The practice is governed, evidence-backed, measured, and continuously improved.",
+          "text": "D. Value & Proof is reviewed, measured over time, and strong enough to guide trade-offs under pressure.",
           "points": 3,
           "correct": true,
           "excluded": false,
@@ -308,7 +376,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Value & Proof: How concrete is the value proposition",
+        "summary": "Value & Proof means translating claims into concrete customer value, credible evidence, and proof that a buyer can believe before purchase. This question narrows the concept to \"How concrete is the value proposition?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Value & Proof matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How concrete is the value proposition?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     },
     {
       "id": "q6",
@@ -367,7 +452,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Value & Proof: How strong is the proof behind core claims",
+        "summary": "Value & Proof means translating claims into concrete customer value, credible evidence, and proof that a buyer can believe before purchase. This question narrows the concept to \"How strong is the proof behind core claims?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Value & Proof matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How strong is the proof behind core claims?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     },
     {
       "id": "q7",
@@ -426,7 +528,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Message Consistency & Learning: How consistent is positioning across the customer journey",
+        "summary": "Message Consistency & Learning means keeping positioning coherent across the journey while learning from market reactions instead of repeating slogans blindly. This question narrows the concept to \"How consistent is positioning across the customer journey?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Message Consistency & Learning matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How consistent is positioning across the customer journey?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     },
     {
       "id": "q8",
@@ -485,7 +604,24 @@
           "excluded": true,
           "dimensionScores": {}
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Message Consistency & Learning: How is message effectiveness learned",
+        "summary": "Message Consistency & Learning means keeping positioning coherent across the journey while learning from market reactions instead of repeating slogans blindly. This question narrows the concept to \"How is message effectiveness learned?\" so you can judge the real practice, not the ambition around it.",
+        "whyItMatters": "Message Consistency & Learning matters because founders, investors, partners, and teams need to know whether this area can guide decisions under pressure, not just sound good in a plan.",
+        "beforeAnswering": "Use recent observable evidence: decisions, customer conversations, metrics, owners, records, reviews, policies, deal materials, or shipped work. Choose a high answer only when the evidence has changed a real choice.",
+        "example": "A strong answer would show how the team answers \"How is message effectiveness learned?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
@@ -521,13 +657,8 @@
       }
     ]
   },
-  "banner": {
-    "title": "Outfinity Diagnostic",
-    "message": "Private-by-design business diagnostics by Outfinity Venture Validation Studio.",
-    "ctaText": "Explore Outfinity",
-    "ctaUrl": "https://outfinity.ch/"
-  },
-  "contextTitle": "Evidence confidence",
+  "banner": "outfinity-explorer-circle",
+  "contextTitle": "What backs up your answers?",
   "contextQuestions": [
     {
       "id": "evidence-icp-and-trigger-clarity",
@@ -549,7 +680,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "ICP & Trigger Clarity",
+        "summary": "This question asks how well your answers about ICP & Trigger Clarity are supported. ICP & Trigger Clarity means knowing the exact customer profile and the event or pain that makes that customer actively search for a solution now. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about ICP & Trigger Clarity is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your ICP & Trigger Clarity answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-category-and-alternatives",
@@ -571,7 +719,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Category & Alternatives",
+        "summary": "This question asks how well your answers about Category & Alternatives are supported. Category & Alternatives means understanding what buyers compare you against and how your product should be framed so the comparison is fair and memorable. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Category & Alternatives is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Category & Alternatives answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-value-and-proof",
@@ -593,7 +758,24 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Value & Proof",
+        "summary": "This question asks how well your answers about Value & Proof are supported. Value & Proof means translating claims into concrete customer value, credible evidence, and proof that a buyer can believe before purchase. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Value & Proof is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Value & Proof answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     },
     {
       "id": "evidence-message-consistency-and-learning",
@@ -615,7 +797,27 @@
           "value": "system-verified",
           "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
         }
-      ]
+      ],
+      "conceptHelp": {
+        "title": "Message Consistency & Learning",
+        "summary": "This question asks how well your answers about Message Consistency & Learning are supported. Message Consistency & Learning means keeping positioning coherent across the journey while learning from market reactions instead of repeating slogans blindly. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
+        "whyItMatters": "A result about Message Consistency & Learning is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
+        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
+        "example": "If your Message Consistency & Learning answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Positioning (marketing)",
+            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
+          },
+          {
+            "label": "Wikipedia: Brand",
+            "url": "https://en.wikipedia.org/wiki/Brand"
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
+  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
 }

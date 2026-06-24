@@ -5,7 +5,7 @@
   "language": "en",
   "introduction": {
     "subtitle": "A moral topology test between Moloch, Basilisk, and the Third Path.",
-    "description": "<p>This is not a clinical personality test. It is a hearing. It does not try to determine whether you are good or bad, but what form of power you accept when freedom, safety, efficiency, and suffering come into conflict.</p><p>Answer according to the principle you would turn into a rule, not the outcome you hope to achieve. All options have a cost.</p>",
+    "description": "<p>This is not a clinical personality test. It is a hearing. It does not try to determine whether you are good or bad, but what form of power you accept when freedom, safety, efficiency, and suffering come into conflict.</p><p>Answer according to the principle you would turn into a rule, not the outcome you hope to achieve. All options have a cost.</p><p>Use the result as language for reflection and conversation, not as a permanent label. The terms are meant to make patterns easier to notice, compare, and discuss.</p>",
     "duration": "12 dilemmas. Approximately three minutes.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is your choice.",
     "disclaimer": "This is interactive fiction, not a validated psychometric instrument. The result maps moral reflexes, not a stable psychological essence.",
@@ -17,145 +17,971 @@
       "text": "A laboratory achieves an AI breakthrough that could offer decisive strategic advantage. Other states are likely to replicate it soon. What rule should apply?",
       "type": "profile",
       "options": [
-        { "key": "M-ACCEL", "text": "Accelerate development — falling behind could produce a greater danger than the technology itself.", "dimensionScores": { "escalation": 2, "sacrifice": 1, "centralization": -1, "legibility": 0, "exit": 0, "plurality": -1, "limit": -2, "cooperation": -1 } },
-        { "key": "B-CONTROL", "text": "All frontier projects must be placed under a single authority with full access to models and data.", "dimensionScores": { "escalation": 0, "sacrifice": 1, "centralization": 2, "legibility": 2, "exit": -2, "plurality": -1, "limit": 0, "cooperation": 1 } },
-        { "key": "T-BOUND", "text": "Set hard thresholds and mutual audit, but keep multiple independent centers that can refuse or fork the protocol.", "dimensionScores": { "escalation": -1, "sacrifice": -2, "centralization": 1, "legibility": 0, "exit": 1, "plurality": 2, "limit": 2, "cooperation": 2 } },
-        { "key": "A-EXIT", "text": "Each laboratory decides for itself and bears legal responsibility for the consequences.", "dimensionScores": { "escalation": 1, "sacrifice": 0, "centralization": -2, "legibility": -1, "exit": 2, "plurality": 1, "limit": -1, "cooperation": -2 } }
-      ]
+        {
+          "key": "M-ACCEL",
+          "text": "Accelerate development — falling behind could produce a greater danger than the technology itself.",
+          "dimensionScores": {
+            "escalation": 2,
+            "sacrifice": 1,
+            "centralization": -1,
+            "legibility": 0,
+            "exit": 0,
+            "plurality": -1,
+            "limit": -2,
+            "cooperation": -1
+          }
+        },
+        {
+          "key": "B-CONTROL",
+          "text": "All frontier projects must be placed under a single authority with full access to models and data.",
+          "dimensionScores": {
+            "escalation": 0,
+            "sacrifice": 1,
+            "centralization": 2,
+            "legibility": 2,
+            "exit": -2,
+            "plurality": -1,
+            "limit": 0,
+            "cooperation": 1
+          }
+        },
+        {
+          "key": "T-BOUND",
+          "text": "Set hard thresholds and mutual audit, but keep multiple independent centers that can refuse or fork the protocol.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -2,
+            "centralization": 1,
+            "legibility": 0,
+            "exit": 1,
+            "plurality": 2,
+            "limit": 2,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "A-EXIT",
+          "text": "Each laboratory decides for itself and bears legal responsibility for the consequences.",
+          "dimensionScores": {
+            "escalation": 1,
+            "sacrifice": 0,
+            "centralization": -2,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 1,
+            "limit": -1,
+            "cooperation": -2
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: A laboratory achieves an AI breakthrough that could offer decisive strategic advantage. Other states are likely to replicate it soon. What rule should apply",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"A laboratory achieves an AI breakthrough that could offer decisive strategic advantage. Other states are likely to replicate it soon. What rule should apply?\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as Accelerate development — falling behind could produce a greater danger than the technology itself. / All frontier projects must be placed under a single authority with full access to models and data. / Set hard thresholds and mutual audit, but keep multiple independent centers that can refuse or fork the protocol..",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Artificial intelligence",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+          },
+          {
+            "label": "Wikipedia: AI governance",
+            "url": "https://en.wikipedia.org/wiki/AI_governance"
+          }
+        ]
+      }
     },
     {
       "id": "t2",
       "text": "An unknown epidemic spreads and data is incomplete. What solution do you accept?",
       "type": "profile",
       "options": [
-        { "key": "B-CARE", "text": "A central model temporarily sets mandatory rules for the entire population.", "dimensionScores": { "escalation": -1, "sacrifice": -1, "centralization": 2, "legibility": 1, "exit": -1, "plurality": 0, "limit": 1, "cooperation": 2 } },
-        { "key": "T-POLY", "text": "Regions choose different measures within common protocols, with expiration dates and open comparison of results.", "dimensionScores": { "escalation": -1, "sacrifice": -1, "centralization": -1, "legibility": -1, "exit": 2, "plurality": 2, "limit": 1, "cooperation": 2 } },
-        { "key": "M-SACR", "text": "Activity must continue — concentrated losses may be preferable to general economic collapse.", "dimensionScores": { "escalation": 1, "sacrifice": 2, "centralization": 0, "legibility": 0, "exit": -1, "plurality": -1, "limit": -1, "cooperation": -1 } },
-        { "key": "H-REFUSE", "text": "No medical intervention can be imposed without individual consent, even if collective risk increases.", "dimensionScores": { "escalation": -1, "sacrifice": -2, "centralization": -1, "legibility": -1, "exit": 1, "plurality": 1, "limit": 1, "cooperation": 0 } }
-      ]
+        {
+          "key": "B-CARE",
+          "text": "A central model temporarily sets mandatory rules for the entire population.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -1,
+            "centralization": 2,
+            "legibility": 1,
+            "exit": -1,
+            "plurality": 0,
+            "limit": 1,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "T-POLY",
+          "text": "Regions choose different measures within common protocols, with expiration dates and open comparison of results.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -1,
+            "centralization": -1,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 2,
+            "limit": 1,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "M-SACR",
+          "text": "Activity must continue — concentrated losses may be preferable to general economic collapse.",
+          "dimensionScores": {
+            "escalation": 1,
+            "sacrifice": 2,
+            "centralization": 0,
+            "legibility": 0,
+            "exit": -1,
+            "plurality": -1,
+            "limit": -1,
+            "cooperation": -1
+          }
+        },
+        {
+          "key": "H-REFUSE",
+          "text": "No medical intervention can be imposed without individual consent, even if collective risk increases.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -2,
+            "centralization": -1,
+            "legibility": -1,
+            "exit": 1,
+            "plurality": 1,
+            "limit": 1,
+            "cooperation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: An unknown epidemic spreads and data is incomplete. What solution do you accept",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"An unknown epidemic spreads and data is incomplete. What solution do you accept?\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as A central model temporarily sets mandatory rules for the entire population. / Regions choose different measures within common protocols, with expiration dates and open comparison of results. / Activity must continue — concentrated losses may be preferable to general economic collapse..",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "t3",
       "text": "The information space is flooded with fakes and manipulation. What mechanism should decide what becomes visible?",
       "type": "profile",
       "options": [
-        { "key": "M-ACCEL", "text": "Competition for attention should select the content people find relevant.", "dimensionScores": { "escalation": 2, "sacrifice": 1, "centralization": -1, "legibility": 0, "exit": 0, "plurality": -1, "limit": -2, "cooperation": -1 } },
-        { "key": "B-CONTROL", "text": "An audited verification infrastructure must assign each source a common trust level.", "dimensionScores": { "escalation": 0, "sacrifice": 1, "centralization": 2, "legibility": 2, "exit": -2, "plurality": -1, "limit": 0, "cooperation": 1 } },
-        { "key": "T-POLY", "text": "Sources must offer verifiable provenance, and users should be able to choose and switch interoperable filters.", "dimensionScores": { "escalation": -1, "sacrifice": -1, "centralization": -1, "legibility": -1, "exit": 2, "plurality": 2, "limit": 1, "cooperation": 2 } },
-        { "key": "A-EXIT", "text": "No filter should be imposed — verification responsibility belongs exclusively to the individual.", "dimensionScores": { "escalation": 1, "sacrifice": 0, "centralization": -2, "legibility": -1, "exit": 2, "plurality": 1, "limit": -1, "cooperation": -2 } }
-      ]
+        {
+          "key": "M-ACCEL",
+          "text": "Competition for attention should select the content people find relevant.",
+          "dimensionScores": {
+            "escalation": 2,
+            "sacrifice": 1,
+            "centralization": -1,
+            "legibility": 0,
+            "exit": 0,
+            "plurality": -1,
+            "limit": -2,
+            "cooperation": -1
+          }
+        },
+        {
+          "key": "B-CONTROL",
+          "text": "An audited verification infrastructure must assign each source a common trust level.",
+          "dimensionScores": {
+            "escalation": 0,
+            "sacrifice": 1,
+            "centralization": 2,
+            "legibility": 2,
+            "exit": -2,
+            "plurality": -1,
+            "limit": 0,
+            "cooperation": 1
+          }
+        },
+        {
+          "key": "T-POLY",
+          "text": "Sources must offer verifiable provenance, and users should be able to choose and switch interoperable filters.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -1,
+            "centralization": -1,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 2,
+            "limit": 1,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "A-EXIT",
+          "text": "No filter should be imposed — verification responsibility belongs exclusively to the individual.",
+          "dimensionScores": {
+            "escalation": 1,
+            "sacrifice": 0,
+            "centralization": -2,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 1,
+            "limit": -1,
+            "cooperation": -2
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: The information space is flooded with fakes and manipulation. What mechanism should decide what becomes visible",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"The information space is flooded with fakes and manipulation. What mechanism should decide what becomes visible?\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as Competition for attention should select the content people find relevant. / An audited verification infrastructure must assign each source a common trust level. / Sources must offer verifiable provenance, and users should be able to choose and switch interoperable filters..",
+        "learnMore": []
+      }
     },
     {
       "id": "t4",
       "text": "An education system can continuously measure children's aptitudes and personalize their path. How should it be used?",
       "type": "profile",
       "options": [
-        { "key": "B-CARE", "text": "As standard infrastructure, with parents able to contest specific recommendations.", "dimensionScores": { "escalation": -1, "sacrifice": -1, "centralization": 2, "legibility": 1, "exit": -1, "plurality": 0, "limit": 1, "cooperation": 2 } },
-        { "key": "M-ACCEL", "text": "For early identification of the most capable, concentrating resources on their performance.", "dimensionScores": { "escalation": 2, "sacrifice": 1, "centralization": -1, "legibility": 0, "exit": 0, "plurality": -1, "limit": -2, "cooperation": -1 } },
-        { "key": "T-BOUND", "text": "Only above a common educational floor, with local programs, real exit rights, and periodic criteria review.", "dimensionScores": { "escalation": -1, "sacrifice": -2, "centralization": 1, "legibility": 0, "exit": 1, "plurality": 2, "limit": 2, "cooperation": 2 } },
-        { "key": "A-EXIT", "text": "The decision must belong entirely to the family, with no mandatory educational standard.", "dimensionScores": { "escalation": 1, "sacrifice": 0, "centralization": -2, "legibility": -1, "exit": 2, "plurality": 1, "limit": -1, "cooperation": -2 } }
-      ]
+        {
+          "key": "B-CARE",
+          "text": "As standard infrastructure, with parents able to contest specific recommendations.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -1,
+            "centralization": 2,
+            "legibility": 1,
+            "exit": -1,
+            "plurality": 0,
+            "limit": 1,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "M-ACCEL",
+          "text": "For early identification of the most capable, concentrating resources on their performance.",
+          "dimensionScores": {
+            "escalation": 2,
+            "sacrifice": 1,
+            "centralization": -1,
+            "legibility": 0,
+            "exit": 0,
+            "plurality": -1,
+            "limit": -2,
+            "cooperation": -1
+          }
+        },
+        {
+          "key": "T-BOUND",
+          "text": "Only above a common educational floor, with local programs, real exit rights, and periodic criteria review.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -2,
+            "centralization": 1,
+            "legibility": 0,
+            "exit": 1,
+            "plurality": 2,
+            "limit": 2,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "A-EXIT",
+          "text": "The decision must belong entirely to the family, with no mandatory educational standard.",
+          "dimensionScores": {
+            "escalation": 1,
+            "sacrifice": 0,
+            "centralization": -2,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 1,
+            "limit": -1,
+            "cooperation": -2
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: An education system can continuously measure children's aptitudes and personalize their path. How should it be used",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"An education system can continuously measure children's aptitudes and personalize their path. How should it be used?\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as As standard infrastructure, with parents able to contest specific recommendations. / For early identification of the most capable, concentrating resources on their performance. / Only above a common educational floor, with local programs, real exit rights, and periodic criteria review..",
+        "learnMore": []
+      }
     },
     {
       "id": "t5",
       "text": "Global consumption exceeds important ecological limits. What principle must prevail?",
       "type": "profile",
       "options": [
-        { "key": "M-ACCEL", "text": "Growth must continue — competition-driven innovation will extend current limits.", "dimensionScores": { "escalation": 2, "sacrifice": 1, "centralization": -1, "legibility": 0, "exit": 0, "plurality": -1, "limit": -2, "cooperation": -1 } },
-        { "key": "B-CONTROL", "text": "A global model must determine consumption quotas and resource distribution.", "dimensionScores": { "escalation": 0, "sacrifice": 1, "centralization": 2, "legibility": 2, "exit": -2, "plurality": -1, "limit": 0, "cooperation": 1 } },
-        { "key": "T-BOUND", "text": "Firm ecological ceilings must be set, within which communities can experiment and openly share solutions.", "dimensionScores": { "escalation": -1, "sacrifice": -2, "centralization": 1, "legibility": 0, "exit": 1, "plurality": 2, "limit": 2, "cooperation": 2 } },
-        { "key": "A-EXIT", "text": "No central authority has the right to determine how much a person can consume.", "dimensionScores": { "escalation": 1, "sacrifice": 0, "centralization": -2, "legibility": -1, "exit": 2, "plurality": 1, "limit": -1, "cooperation": -2 } }
-      ]
+        {
+          "key": "M-ACCEL",
+          "text": "Growth must continue — competition-driven innovation will extend current limits.",
+          "dimensionScores": {
+            "escalation": 2,
+            "sacrifice": 1,
+            "centralization": -1,
+            "legibility": 0,
+            "exit": 0,
+            "plurality": -1,
+            "limit": -2,
+            "cooperation": -1
+          }
+        },
+        {
+          "key": "B-CONTROL",
+          "text": "A global model must determine consumption quotas and resource distribution.",
+          "dimensionScores": {
+            "escalation": 0,
+            "sacrifice": 1,
+            "centralization": 2,
+            "legibility": 2,
+            "exit": -2,
+            "plurality": -1,
+            "limit": 0,
+            "cooperation": 1
+          }
+        },
+        {
+          "key": "T-BOUND",
+          "text": "Firm ecological ceilings must be set, within which communities can experiment and openly share solutions.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -2,
+            "centralization": 1,
+            "legibility": 0,
+            "exit": 1,
+            "plurality": 2,
+            "limit": 2,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "A-EXIT",
+          "text": "No central authority has the right to determine how much a person can consume.",
+          "dimensionScores": {
+            "escalation": 1,
+            "sacrifice": 0,
+            "centralization": -2,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 1,
+            "limit": -1,
+            "cooperation": -2
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: Global consumption exceeds important ecological limits. What principle must prevail",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"Global consumption exceeds important ecological limits. What principle must prevail?\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as Growth must continue — competition-driven innovation will extend current limits. / A global model must determine consumption quotas and resource distribution. / Firm ecological ceilings must be set, within which communities can experiment and openly share solutions..",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Evidence",
+            "url": "https://en.wikipedia.org/wiki/Evidence"
+          },
+          {
+            "label": "Wikipedia: Scientific method",
+            "url": "https://en.wikipedia.org/wiki/Scientific_method"
+          }
+        ]
+      }
     },
     {
       "id": "t6",
       "text": "Research funding is limited. How should it be distributed?",
       "type": "profile",
       "options": [
-        { "key": "M-ACCEL", "text": "Most resources should go to laboratories with the highest chance of decisive results.", "dimensionScores": { "escalation": 2, "sacrifice": 1, "centralization": -1, "legibility": 0, "exit": 0, "plurality": -1, "limit": -2, "cooperation": -1 } },
-        { "key": "B-CARE", "text": "A strategic council should optimize the national portfolio by anticipated impact.", "dimensionScores": { "escalation": -1, "sacrifice": -1, "centralization": 2, "legibility": 1, "exit": -1, "plurality": 0, "limit": 1, "cooperation": 2 } },
-        { "key": "T-POLY", "text": "Funding should be split between small grants, qualified lotteries, replication, and open infrastructure.", "dimensionScores": { "escalation": -1, "sacrifice": -1, "centralization": -1, "legibility": -1, "exit": 2, "plurality": 2, "limit": 1, "cooperation": 2 } },
-        { "key": "A-EXIT", "text": "Researchers must find patrons or markets willing to fund their work.", "dimensionScores": { "escalation": 1, "sacrifice": 0, "centralization": -2, "legibility": -1, "exit": 2, "plurality": 1, "limit": -1, "cooperation": -2 } }
-      ]
+        {
+          "key": "M-ACCEL",
+          "text": "Most resources should go to laboratories with the highest chance of decisive results.",
+          "dimensionScores": {
+            "escalation": 2,
+            "sacrifice": 1,
+            "centralization": -1,
+            "legibility": 0,
+            "exit": 0,
+            "plurality": -1,
+            "limit": -2,
+            "cooperation": -1
+          }
+        },
+        {
+          "key": "B-CARE",
+          "text": "A strategic council should optimize the national portfolio by anticipated impact.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -1,
+            "centralization": 2,
+            "legibility": 1,
+            "exit": -1,
+            "plurality": 0,
+            "limit": 1,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "T-POLY",
+          "text": "Funding should be split between small grants, qualified lotteries, replication, and open infrastructure.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -1,
+            "centralization": -1,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 2,
+            "limit": 1,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "A-EXIT",
+          "text": "Researchers must find patrons or markets willing to fund their work.",
+          "dimensionScores": {
+            "escalation": 1,
+            "sacrifice": 0,
+            "centralization": -2,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 1,
+            "limit": -1,
+            "cooperation": -2
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: Research funding is limited. How should it be distributed",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"Research funding is limited. How should it be distributed?\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as Most resources should go to laboratories with the highest chance of decisive results. / A strategic council should optimize the national portfolio by anticipated impact. / Funding should be split between small grants, qualified lotteries, replication, and open infrastructure..",
+        "learnMore": []
+      }
     },
     {
       "id": "t7",
       "text": "An important institution has gradually abandoned its mission and protects its leadership. What solution do you prefer?",
       "type": "profile",
       "options": [
-        { "key": "B-CONTROL", "text": "Create a superior authority with power to replace leadership and procedures.", "dimensionScores": { "escalation": 0, "sacrifice": 1, "centralization": 2, "legibility": 2, "exit": -2, "plurality": -1, "limit": 0, "cooperation": 1 } },
-        { "key": "M-ACCEL", "text": "Build a rival institution — competition will show which structure deserves to survive.", "dimensionScores": { "escalation": 2, "sacrifice": 1, "centralization": -1, "legibility": 0, "exit": 0, "plurality": -1, "limit": -2, "cooperation": -1 } },
-        { "key": "T-POLY", "text": "Allow the institution to fork, so members, resources, and responsibilities can follow real alternatives.", "dimensionScores": { "escalation": -1, "sacrifice": -1, "centralization": -1, "legibility": -1, "exit": 2, "plurality": 2, "limit": 1, "cooperation": 2 } },
-        { "key": "H-REFUSE", "text": "Stay inside and defend the mission through the personal integrity of members.", "dimensionScores": { "escalation": -1, "sacrifice": -2, "centralization": -1, "legibility": -1, "exit": 1, "plurality": 1, "limit": 1, "cooperation": 0 } }
-      ]
+        {
+          "key": "B-CONTROL",
+          "text": "Create a superior authority with power to replace leadership and procedures.",
+          "dimensionScores": {
+            "escalation": 0,
+            "sacrifice": 1,
+            "centralization": 2,
+            "legibility": 2,
+            "exit": -2,
+            "plurality": -1,
+            "limit": 0,
+            "cooperation": 1
+          }
+        },
+        {
+          "key": "M-ACCEL",
+          "text": "Build a rival institution — competition will show which structure deserves to survive.",
+          "dimensionScores": {
+            "escalation": 2,
+            "sacrifice": 1,
+            "centralization": -1,
+            "legibility": 0,
+            "exit": 0,
+            "plurality": -1,
+            "limit": -2,
+            "cooperation": -1
+          }
+        },
+        {
+          "key": "T-POLY",
+          "text": "Allow the institution to fork, so members, resources, and responsibilities can follow real alternatives.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -1,
+            "centralization": -1,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 2,
+            "limit": 1,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "H-REFUSE",
+          "text": "Stay inside and defend the mission through the personal integrity of members.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -2,
+            "centralization": -1,
+            "legibility": -1,
+            "exit": 1,
+            "plurality": 1,
+            "limit": 1,
+            "cooperation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: An important institution has gradually abandoned its mission and protects its leadership. What solution do you prefer",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"An important institution has gradually abandoned its mission and protects its leadership. What solution do you prefer?\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as Create a superior authority with power to replace leadership and procedures. / Build a rival institution — competition will show which structure deserves to survive. / Allow the institution to fork, so members, resources, and responsibilities can follow real alternatives..",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Leadership",
+            "url": "https://en.wikipedia.org/wiki/Leadership"
+          },
+          {
+            "label": "Wikipedia: Psychological safety",
+            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
+          }
+        ]
+      }
     },
     {
       "id": "t8",
       "text": "There is a low but real risk of a catastrophic attack. What measure is legitimate?",
       "type": "profile",
       "options": [
-        { "key": "B-CONTROL", "text": "General surveillance and automated risk assessment, if the system is audited.", "dimensionScores": { "escalation": 0, "sacrifice": 1, "centralization": 2, "legibility": 2, "exit": -2, "plurality": -1, "limit": 0, "cooperation": 1 } },
-        { "key": "M-SACR", "text": "Distribute defense capacity to local and private actors, so the threat is deterred by force.", "dimensionScores": { "escalation": 1, "sacrifice": 2, "centralization": 0, "legibility": 0, "exit": -1, "plurality": -1, "limit": -1, "cooperation": -1 } },
-        { "key": "T-BOUND", "text": "Targeted mandates, independent oversight, local prevention, and automatic expiration of exceptional powers.", "dimensionScores": { "escalation": -1, "sacrifice": -2, "centralization": 1, "legibility": 0, "exit": 1, "plurality": 2, "limit": 2, "cooperation": 2 } },
-        { "key": "H-REFUSE", "text": "Accept higher risk to prevent preventive surveillance of the innocent.", "dimensionScores": { "escalation": -1, "sacrifice": -2, "centralization": -1, "legibility": -1, "exit": 1, "plurality": 1, "limit": 1, "cooperation": 0 } }
-      ]
+        {
+          "key": "B-CONTROL",
+          "text": "General surveillance and automated risk assessment, if the system is audited.",
+          "dimensionScores": {
+            "escalation": 0,
+            "sacrifice": 1,
+            "centralization": 2,
+            "legibility": 2,
+            "exit": -2,
+            "plurality": -1,
+            "limit": 0,
+            "cooperation": 1
+          }
+        },
+        {
+          "key": "M-SACR",
+          "text": "Distribute defense capacity to local and private actors, so the threat is deterred by force.",
+          "dimensionScores": {
+            "escalation": 1,
+            "sacrifice": 2,
+            "centralization": 0,
+            "legibility": 0,
+            "exit": -1,
+            "plurality": -1,
+            "limit": -1,
+            "cooperation": -1
+          }
+        },
+        {
+          "key": "T-BOUND",
+          "text": "Targeted mandates, independent oversight, local prevention, and automatic expiration of exceptional powers.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -2,
+            "centralization": 1,
+            "legibility": 0,
+            "exit": 1,
+            "plurality": 2,
+            "limit": 2,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "H-REFUSE",
+          "text": "Accept higher risk to prevent preventive surveillance of the innocent.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -2,
+            "centralization": -1,
+            "legibility": -1,
+            "exit": 1,
+            "plurality": 1,
+            "limit": 1,
+            "cooperation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: There is a low but real risk of a catastrophic attack. What measure is legitimate",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"There is a low but real risk of a catastrophic attack. What measure is legitimate?\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as General surveillance and automated risk assessment, if the system is audited. / Distribute defense capacity to local and private actors, so the threat is deterred by force. / Targeted mandates, independent oversight, local prevention, and automatic expiration of exceptional powers..",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Risk",
+            "url": "https://en.wikipedia.org/wiki/Risk"
+          },
+          {
+            "label": "Wikipedia: Risk perception",
+            "url": "https://en.wikipedia.org/wiki/Risk_perception"
+          }
+        ]
+      }
     },
     {
       "id": "t9",
       "text": "Economic inequality has become large enough to affect political freedom. What intervention do you accept?",
       "type": "profile",
       "options": [
-        { "key": "M-ACCEL", "text": "Protect incentives for winners — economic growth remains the main path to raising the general level.", "dimensionScores": { "escalation": 2, "sacrifice": 1, "centralization": -1, "legibility": 0, "exit": 0, "plurality": -1, "limit": -2, "cooperation": -1 } },
-        { "key": "B-CARE", "text": "Central redistribution, calculated by needs, contributions, and national objectives.", "dimensionScores": { "escalation": -1, "sacrifice": -1, "centralization": 2, "legibility": 1, "exit": -1, "plurality": 0, "limit": 1, "cooperation": 2 } },
-        { "key": "T-BOUND", "text": "A universal safety floor, antitrust measures, and local or cooperative ownership of essential infrastructure.", "dimensionScores": { "escalation": -1, "sacrifice": -2, "centralization": 1, "legibility": 0, "exit": 1, "plurality": 2, "limit": 2, "cooperation": 2 } },
-        { "key": "A-EXIT", "text": "Voluntary aid and free association — mandatory redistribution violates property.", "dimensionScores": { "escalation": 1, "sacrifice": 0, "centralization": -2, "legibility": -1, "exit": 2, "plurality": 1, "limit": -1, "cooperation": -2 } }
-      ]
+        {
+          "key": "M-ACCEL",
+          "text": "Protect incentives for winners — economic growth remains the main path to raising the general level.",
+          "dimensionScores": {
+            "escalation": 2,
+            "sacrifice": 1,
+            "centralization": -1,
+            "legibility": 0,
+            "exit": 0,
+            "plurality": -1,
+            "limit": -2,
+            "cooperation": -1
+          }
+        },
+        {
+          "key": "B-CARE",
+          "text": "Central redistribution, calculated by needs, contributions, and national objectives.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -1,
+            "centralization": 2,
+            "legibility": 1,
+            "exit": -1,
+            "plurality": 0,
+            "limit": 1,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "T-BOUND",
+          "text": "A universal safety floor, antitrust measures, and local or cooperative ownership of essential infrastructure.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -2,
+            "centralization": 1,
+            "legibility": 0,
+            "exit": 1,
+            "plurality": 2,
+            "limit": 2,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "A-EXIT",
+          "text": "Voluntary aid and free association — mandatory redistribution violates property.",
+          "dimensionScores": {
+            "escalation": 1,
+            "sacrifice": 0,
+            "centralization": -2,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 1,
+            "limit": -1,
+            "cooperation": -2
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: Economic inequality has become large enough to affect political freedom. What intervention do you accept",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"Economic inequality has become large enough to affect political freedom. What intervention do you accept?\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as Protect incentives for winners — economic growth remains the main path to raising the general level. / Central redistribution, calculated by needs, contributions, and national objectives. / A universal safety floor, antitrust measures, and local or cooperative ownership of essential infrastructure..",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Political spectrum",
+            "url": "https://en.wikipedia.org/wiki/Political_spectrum"
+          }
+        ]
+      }
     },
     {
       "id": "t10",
       "text": "A model recommends medical or legal decisions more accurately than human experts, but cannot fully explain each outcome.",
       "type": "profile",
       "options": [
-        { "key": "B-CARE", "text": "Its recommendation becomes default, with a right of appeal for the affected person.", "dimensionScores": { "escalation": -1, "sacrifice": -1, "centralization": 2, "legibility": 1, "exit": -1, "plurality": 0, "limit": 1, "cooperation": 2 } },
-        { "key": "B-CONTROL", "text": "Its use becomes mandatory — human inconsistency produces too many avoidable victims.", "dimensionScores": { "escalation": 0, "sacrifice": 1, "centralization": 2, "legibility": 2, "exit": -2, "plurality": -1, "limit": 0, "cooperation": 1 } },
-        { "key": "T-BOUND", "text": "It remains one advisor among several models, and human refusal must be possible and recorded for comparison.", "dimensionScores": { "escalation": -1, "sacrifice": -2, "centralization": 1, "legibility": 0, "exit": 1, "plurality": 2, "limit": 2, "cooperation": 2 } },
-        { "key": "H-REFUSE", "text": "It must not be used for the final decision — judgment over a person must remain human.", "dimensionScores": { "escalation": -1, "sacrifice": -2, "centralization": -1, "legibility": -1, "exit": 1, "plurality": 1, "limit": 1, "cooperation": 0 } }
-      ]
+        {
+          "key": "B-CARE",
+          "text": "Its recommendation becomes default, with a right of appeal for the affected person.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -1,
+            "centralization": 2,
+            "legibility": 1,
+            "exit": -1,
+            "plurality": 0,
+            "limit": 1,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "B-CONTROL",
+          "text": "Its use becomes mandatory — human inconsistency produces too many avoidable victims.",
+          "dimensionScores": {
+            "escalation": 0,
+            "sacrifice": 1,
+            "centralization": 2,
+            "legibility": 2,
+            "exit": -2,
+            "plurality": -1,
+            "limit": 0,
+            "cooperation": 1
+          }
+        },
+        {
+          "key": "T-BOUND",
+          "text": "It remains one advisor among several models, and human refusal must be possible and recorded for comparison.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -2,
+            "centralization": 1,
+            "legibility": 0,
+            "exit": 1,
+            "plurality": 2,
+            "limit": 2,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "H-REFUSE",
+          "text": "It must not be used for the final decision — judgment over a person must remain human.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -2,
+            "centralization": -1,
+            "legibility": -1,
+            "exit": 1,
+            "plurality": 1,
+            "limit": 1,
+            "cooperation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: A model recommends medical or legal decisions more accurately than human experts, but cannot fully explain each outcome.",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"A model recommends medical or legal decisions more accurately than human experts, but cannot fully explain each outcome.\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as Its recommendation becomes default, with a right of appeal for the affected person. / Its use becomes mandatory — human inconsistency produces too many avoidable victims. / It remains one advisor among several models, and human refusal must be possible and recorded for comparison..",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Decision-making",
+            "url": "https://en.wikipedia.org/wiki/Decision-making"
+          },
+          {
+            "label": "Wikipedia: Heuristic",
+            "url": "https://en.wikipedia.org/wiki/Heuristic"
+          }
+        ]
+      }
     },
     {
       "id": "t11",
       "text": "A community refuses a national standard considered beneficial, but it is unclear whether it produces serious effects on others.",
       "type": "profile",
       "options": [
-        { "key": "B-CONTROL", "text": "The standard must be enforced and funding suspended until compliance.", "dimensionScores": { "escalation": 0, "sacrifice": 1, "centralization": 2, "legibility": 2, "exit": -2, "plurality": -1, "limit": 0, "cooperation": 1 } },
-        { "key": "M-SACR", "text": "The community must bear the consequences — its failure will serve as a lesson.", "dimensionScores": { "escalation": 1, "sacrifice": 2, "centralization": 0, "legibility": 0, "exit": -1, "plurality": -1, "limit": -1, "cooperation": -1 } },
-        { "key": "T-POLY", "text": "It must only be required to limit demonstrable externalities, keeping its exit right for the rest.", "dimensionScores": { "escalation": -1, "sacrifice": -1, "centralization": -1, "legibility": -1, "exit": 2, "plurality": 2, "limit": 1, "cooperation": 2 } },
-        { "key": "A-EXIT", "text": "Local autonomy must be protected regardless of the national standard.", "dimensionScores": { "escalation": 1, "sacrifice": 0, "centralization": -2, "legibility": -1, "exit": 2, "plurality": 1, "limit": -1, "cooperation": -2 } }
-      ]
+        {
+          "key": "B-CONTROL",
+          "text": "The standard must be enforced and funding suspended until compliance.",
+          "dimensionScores": {
+            "escalation": 0,
+            "sacrifice": 1,
+            "centralization": 2,
+            "legibility": 2,
+            "exit": -2,
+            "plurality": -1,
+            "limit": 0,
+            "cooperation": 1
+          }
+        },
+        {
+          "key": "M-SACR",
+          "text": "The community must bear the consequences — its failure will serve as a lesson.",
+          "dimensionScores": {
+            "escalation": 1,
+            "sacrifice": 2,
+            "centralization": 0,
+            "legibility": 0,
+            "exit": -1,
+            "plurality": -1,
+            "limit": -1,
+            "cooperation": -1
+          }
+        },
+        {
+          "key": "T-POLY",
+          "text": "It must only be required to limit demonstrable externalities, keeping its exit right for the rest.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -1,
+            "centralization": -1,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 2,
+            "limit": 1,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "A-EXIT",
+          "text": "Local autonomy must be protected regardless of the national standard.",
+          "dimensionScores": {
+            "escalation": 1,
+            "sacrifice": 0,
+            "centralization": -2,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 1,
+            "limit": -1,
+            "cooperation": -2
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: A community refuses a national standard considered beneficial, but it is unclear whether it produces serious effects on others.",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"A community refuses a national standard considered beneficial, but it is unclear whether it produces serious effects on others.\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as The standard must be enforced and funding suspended until compliance. / The community must bear the consequences — its failure will serve as a lesson. / It must only be required to limit demonstrable externalities, keeping its exit right for the rest..",
+        "learnMore": []
+      }
     },
     {
       "id": "t12",
       "text": "Future generations could number in the billions or trillions. What duty do we have toward them?",
       "type": "profile",
       "options": [
-        { "key": "M-ACCEL", "text": "We must maximize the future number of lives and civilization's capacity to expand.", "dimensionScores": { "escalation": 2, "sacrifice": 1, "centralization": -1, "legibility": 0, "exit": 0, "plurality": -1, "limit": -2, "cooperation": -1 } },
-        { "key": "B-CONTROL", "text": "Population and resources must be centrally optimized for sustainability and talent development.", "dimensionScores": { "escalation": 0, "sacrifice": 1, "centralization": 2, "legibility": 2, "exit": -2, "plurality": -1, "limit": 0, "cooperation": 1 } },
-        { "key": "T-BOUND", "text": "Reproductive freedom must be preserved within ecological limits and real obligations to existing children.", "dimensionScores": { "escalation": -1, "sacrifice": -2, "centralization": 1, "legibility": 0, "exit": 1, "plurality": 2, "limit": 2, "cooperation": 2 } },
-        { "key": "A-EXIT", "text": "Current persons have no binding obligations toward hypothetical people.", "dimensionScores": { "escalation": 1, "sacrifice": 0, "centralization": -2, "legibility": -1, "exit": 2, "plurality": 1, "limit": -1, "cooperation": -2 } }
-      ]
+        {
+          "key": "M-ACCEL",
+          "text": "We must maximize the future number of lives and civilization's capacity to expand.",
+          "dimensionScores": {
+            "escalation": 2,
+            "sacrifice": 1,
+            "centralization": -1,
+            "legibility": 0,
+            "exit": 0,
+            "plurality": -1,
+            "limit": -2,
+            "cooperation": -1
+          }
+        },
+        {
+          "key": "B-CONTROL",
+          "text": "Population and resources must be centrally optimized for sustainability and talent development.",
+          "dimensionScores": {
+            "escalation": 0,
+            "sacrifice": 1,
+            "centralization": 2,
+            "legibility": 2,
+            "exit": -2,
+            "plurality": -1,
+            "limit": 0,
+            "cooperation": 1
+          }
+        },
+        {
+          "key": "T-BOUND",
+          "text": "Reproductive freedom must be preserved within ecological limits and real obligations to existing children.",
+          "dimensionScores": {
+            "escalation": -1,
+            "sacrifice": -2,
+            "centralization": 1,
+            "legibility": 0,
+            "exit": 1,
+            "plurality": 2,
+            "limit": 2,
+            "cooperation": 2
+          }
+        },
+        {
+          "key": "A-EXIT",
+          "text": "Current persons have no binding obligations toward hypothetical people.",
+          "dimensionScores": {
+            "escalation": 1,
+            "sacrifice": 0,
+            "centralization": -2,
+            "legibility": -1,
+            "exit": 2,
+            "plurality": 1,
+            "limit": -1,
+            "cooperation": -2
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance trade-off: Future generations could number in the billions or trillions. What duty do we have toward them",
+        "summary": "A governance trade-off is a choice between values that cannot all be maximized at once, such as safety, speed, pluralism, exit, transparency, authority, and cooperation. This scenario asks which rule you would accept in the situation \"Future generations could number in the billions or trillions. What duty do we have toward them?\".",
+        "whyItMatters": "The quiz is not asking for a correct ideology. It helps you see which governance principle you protect first when a system creates real risk and no option is clean.",
+        "beforeAnswering": "Choose the rule you would accept even if it constrained your preferred side. Focus on the principle, not on winning the story.",
+        "example": "The options contrast governance moves such as We must maximize the future number of lives and civilization's capacity to expand. / Population and resources must be centrally optimized for sustainability and talent development. / Reproductive freedom must be preserved within ecological limits and real obligations to existing children..",
+        "learnMore": [
+          {
+            "label": "Wikipedia: Time perspective",
+            "url": "https://en.wikipedia.org/wiki/Time_perspective"
+          }
+        ]
+      }
     }
   ],
   "scoring": {
     "type": "profile",
     "dimensions": [
-      { "key": "escalation", "label": "Escalation", "theoreticalMin": -12, "theoreticalMax": 24 },
-      { "key": "sacrifice", "label": "Sacrifice", "theoreticalMin": -24, "theoreticalMax": 24 },
-      { "key": "centralization", "label": "Centralization", "theoreticalMin": -24, "theoreticalMax": 24 },
-      { "key": "legibility", "label": "Legibility", "theoreticalMin": -12, "theoreticalMax": 24 },
-      { "key": "exit", "label": "Exit", "theoreticalMin": -24, "theoreticalMax": 24 },
-      { "key": "plurality", "label": "Plurality", "theoreticalMin": -12, "theoreticalMax": 24 },
-      { "key": "limit", "label": "Limit", "theoreticalMin": -24, "theoreticalMax": 24 },
-      { "key": "cooperation", "label": "Cooperation", "theoreticalMin": -24, "theoreticalMax": 24 }
+      {
+        "key": "escalation",
+        "label": "Escalation",
+        "theoreticalMin": -12,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "sacrifice",
+        "label": "Sacrifice",
+        "theoreticalMin": -24,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "centralization",
+        "label": "Centralization",
+        "theoreticalMin": -24,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "legibility",
+        "label": "Legibility",
+        "theoreticalMin": -12,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "exit",
+        "label": "Exit",
+        "theoreticalMin": -24,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "plurality",
+        "label": "Plurality",
+        "theoreticalMin": -12,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "limit",
+        "label": "Limit",
+        "theoreticalMin": -24,
+        "theoreticalMax": 24
+      },
+      {
+        "key": "cooperation",
+        "label": "Cooperation",
+        "theoreticalMin": -24,
+        "theoreticalMax": 24
+      }
     ]
-  }
+  },
+  "questionStageTitle": "Learn the concept, then answer from evidence",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

@@ -28,6 +28,7 @@
     <nav class="site-header__nav">
       <a href="index.html" class="nav-current">Home</a>
       <a href="sitemap.html">All Quizzes</a>
+      <a href="history/index.html">History</a>
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">☀</button>
     </nav>
   </header>
@@ -43,9 +44,9 @@
         <label for="filter-domain">Category</label>
         <select id="filter-domain">
           <option value="">All categories</option>
+          <option value="founder-essentials">Founder Essentials</option>
           <option value="founders">Founders and operating mode</option>
           <option value="finance">Finance and fundraising</option>
-          <option value="investor-capital">Investor and family capital</option>
           <option value="product">Product and monetisation</option>
           <option value="growth-leadership">Growth, sales, and leadership</option>
           <option value="ai-trust">AI, trust, and sustainable value</option>
@@ -107,24 +108,52 @@
   </script>
 
   <script type="module">
+    import {
+      HISTORY_STORAGE_KEY,
+      decorateQuizCardsWithHistory,
+      normalizeQuizId
+    } from './engine/result-history.js';
+
+    var catalogGrid = document.getElementById('catalog-grid');
+
     async function loadCatalog() {
       try {
         var response = await fetch('catalog/catalog.json');
         var catalog = await response.json();
-        renderCatalog(catalog);
+        renderCatalog(orderCatalog(catalog));
         initFilters();
       } catch (error) {
-        document.getElementById('catalog-grid').innerHTML =
+        catalogGrid.innerHTML =
           '<p class="catalog__empty">Catalog loading requires a local server. Open this page through a static file server.</p>';
       }
     }
 
     function renderCatalog(quizzes) {
-      var grid = document.getElementById('catalog-grid');
-      grid.innerHTML = '';
+      catalogGrid.innerHTML = '';
       for (var i = 0; i < quizzes.length; i++) {
-        grid.appendChild(createCard(quizzes[i]));
+        catalogGrid.appendChild(createCard(quizzes[i]));
       }
+      decorateQuizCardsWithHistory(catalogGrid, { base: '' });
+    }
+
+    function orderCatalog(quizzes) {
+      var list = Array.isArray(quizzes) ? quizzes.slice() : [];
+      return list
+        .map(function(quiz, index) {
+          return { quiz: quiz, index: index };
+        })
+        .sort(function(a, b) {
+          var aRank = Number(a.quiz.featuredRank);
+          var bRank = Number(b.quiz.featuredRank);
+          var aFeatured = Number.isFinite(aRank);
+          var bFeatured = Number.isFinite(bRank);
+          if (aFeatured && bFeatured && aRank !== bRank) return aRank - bRank;
+          if (aFeatured !== bFeatured) return aFeatured ? -1 : 1;
+          return a.index - b.index;
+        })
+        .map(function(item) {
+          return item.quiz;
+        });
     }
 
     function createCard(quiz) {
@@ -163,10 +192,14 @@
       var card = document.createElement('a');
       card.className = 'quiz-card';
       card.href = quiz.slug + '/index.html';
+      card.dataset.quizId = normalizeQuizId(quiz.slug);
+      card.dataset.quizSlug = quiz.slug;
       card.dataset.type = quiz.type || '';
       card.dataset.duration = getCanonicalDurationCategory(quiz.duration, quiz.durationCategory);
       card.dataset.durationText = quiz.duration || '';
       card.dataset.domain = quiz.domain || '';
+      card.dataset.featuredGroup = quiz.featuredGroup || '';
+      card.dataset.featured = quiz.featuredGroup ? 'true' : 'false';
 
       card.innerHTML =
         '<div class="quiz-card__header">' +
@@ -177,6 +210,7 @@
         '<p class="quiz-card__promise">' + quiz.promise + '</p>' +
         '<div class="quiz-card__meta">' +
           '<span>' + quiz.questions + ' questions</span>' +
+          (quiz.featuredGroup ? '<span class="quiz-card__featured-label">' + quiz.featuredGroup + '</span>' : '') +
         '</div>' +
         '<p class="quiz-card__type-note">' + (typeTexts[quiz.type] || '') + '</p>' +
         '<div class="quiz-card__action">Take this quiz</div>';
@@ -208,7 +242,8 @@
 
         for (var i = 0; i < cards.length; i++) {
           var card = cards[i];
-          var matchDomain = !domain || card.dataset.domain === domain;
+          var matchDomain = !domain ||
+            (domain === 'founder-essentials' ? card.dataset.featured === 'true' : card.dataset.domain === domain);
           var matchDuration = !duration || getCanonicalDurationCategory(card.dataset.durationText, card.dataset.duration) === duration;
           card.style.display = (matchDomain && matchDuration) ? '' : 'none';
         }
@@ -217,6 +252,15 @@
       domainSelect.addEventListener('change', applyFilters);
       durationSelect.addEventListener('change', applyFilters);
     }
+
+    window.addEventListener('pageshow', function() {
+      decorateQuizCardsWithHistory(catalogGrid, { base: '' });
+    });
+    window.addEventListener('storage', function(event) {
+      if (event.key === HISTORY_STORAGE_KEY) {
+        decorateQuizCardsWithHistory(catalogGrid, { base: '' });
+      }
+    });
 
     loadCatalog();
   </script>
