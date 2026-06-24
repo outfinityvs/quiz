@@ -215,6 +215,7 @@ function decorateQuizCardsWithHistory(root = document, options = {}) {
     if (!badge) {
       badge = createCardHistoryBadge();
       const host = card.querySelector('.quiz-card__header')
+        || card.querySelector('.path-card__body')
         || card.querySelector('.sitemap__item-content')
         || card;
       host.appendChild(badge);

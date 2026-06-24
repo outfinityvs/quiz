@@ -7,12 +7,20 @@ function createRadarChart(config) {
     maxValue = 100,
     colors = ['#d4a853', '#7ba4d4', '#5cb87a', '#d45353', '#b07bd4', '#d47b53', '#53d4b0', '#d453a8'],
     animate = true,
-    showValues = true
+    showValues = true,
+    labelFontSize = 9.5,
+    valueFontSize = 8,
+    pointRadius = 4,
+    labelPadding: configuredLabelPadding,
+    radiusInset = 68,
+    showRingValues = true
   } = config;
 
   const center = size / 2;
-  const labelPadding = Math.max(76, Math.round(size * 0.24));
-  const radius = (size / 2) - 68;
+  const labelPadding = Number.isFinite(configuredLabelPadding)
+    ? configuredLabelPadding
+    : Math.max(76, Math.round(size * 0.24));
+  const radius = (size / 2) - radiusInset;
   const angleStep = (2 * Math.PI) / axes.length;
   const startAngle = -Math.PI / 2;
   const defaultTextColor = '#9a98a0';
@@ -40,14 +48,14 @@ function createRadarChart(config) {
     circle.setAttribute('stroke-width', ring === rings ? '1.5' : '0.5');
     svg.appendChild(circle);
 
-    if (ring < rings) {
+    if (showRingValues && ring < rings) {
       const valueLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text');
       const labelX = center - 20;
       const labelY = center - ringRadius + 4;
       valueLabel.setAttribute('x', labelX);
       valueLabel.setAttribute('y', labelY);
       valueLabel.setAttribute('fill', '#6b6975');
-      valueLabel.setAttribute('font-size', '8');
+      valueLabel.setAttribute('font-size', String(valueFontSize));
       valueLabel.setAttribute('font-family', 'system-ui, sans-serif');
       valueLabel.setAttribute('text-anchor', 'start');
       valueLabel.setAttribute('dominant-baseline', 'middle');
@@ -70,20 +78,21 @@ function createRadarChart(config) {
     line.setAttribute('stroke-width', '0.5');
     svg.appendChild(line);
 
-    const labelDistance = radius + 34;
-    const labelX = center + labelDistance * Math.cos(angle);
-    const labelY = center + labelDistance * Math.sin(angle);
+    const axis = axes[i];
+    const labelDistance = radius + (Number.isFinite(axis.labelDistance) ? axis.labelDistance : 34);
+    const labelX = center + labelDistance * Math.cos(angle) + (Number(axis.labelOffsetX) || 0);
+    const labelY = center + labelDistance * Math.sin(angle) + (Number(axis.labelOffsetY) || 0);
 
     const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
     label.setAttribute('x', labelX);
     label.setAttribute('y', labelY);
     label.setAttribute('fill', defaultTextColor);
-    label.setAttribute('font-size', '9.5');
+    label.setAttribute('font-size', String(labelFontSize));
     label.setAttribute('font-family', 'system-ui, sans-serif');
     label.setAttribute('text-anchor', getTextAnchor(angle));
     label.setAttribute('dominant-baseline', getDominantBaseline(angle));
-    label.setAttribute('title', axes[i].label);
-    appendWrappedText(label, axes[i].label, angle);
+    label.setAttribute('title', axis.label);
+    appendWrappedText(label, axis.label, angle, axis.labelMaxChars);
     svg.appendChild(label);
   }
 
@@ -126,7 +135,7 @@ function createRadarChart(config) {
         const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
         circle.setAttribute('cx', x);
         circle.setAttribute('cy', y);
-        circle.setAttribute('r', '4');
+        circle.setAttribute('r', String(pointRadius));
         circle.setAttribute('fill', color);
         circle.setAttribute('stroke', '#0f1117');
         circle.setAttribute('stroke-width', '2');
@@ -178,8 +187,11 @@ function createTextAlternative(axes, datasets) {
   return container;
 }
 
-function appendWrappedText(textNode, label, angle) {
-  const lines = wrapLabel(label, isSideAngle(angle) ? 18 : 22);
+function appendWrappedText(textNode, label, angle, maxCharsOverride) {
+  const maxChars = Number.isFinite(maxCharsOverride)
+    ? maxCharsOverride
+    : (isSideAngle(angle) ? 18 : 22);
+  const lines = wrapLabel(label, maxChars);
   const lineHeight = 11;
   const startDy = -((lines.length - 1) * lineHeight) / 2;
 

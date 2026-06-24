@@ -34,44 +34,76 @@
   </header>
 
   <main class="catalog">
-    <section class="catalog__hero">
-      <h1>Free self-knowledge quizzes, no account, no credit card for results.</h1>
-      <p class="catalog__hero-text">Most online quizzes are profiling engines that turn your answers into marketing data. We built these differently. Every quiz runs entirely in your browser. We never receive your answers, we never build profiles about you, and we never ask for accounts, credit cards, or subscriptions. Outfinity Quiz is an initiative by <a href="https://outfinity.ch" target="_blank" rel="noopener noreferrer">Outfinity Venture Validation Studio</a>. We build ventures with measurable outcomes and social impact, designed for trust, privacy, and long-term value. If you find our quizzes interesting, you may discover our software, books, or ventures through the optional links at the end of each quiz.</p>
-    </section>
-
-    <section class="catalog__filters" id="filters">
-      <div class="filter-group">
-        <label for="filter-domain">Category</label>
-        <select id="filter-domain">
-          <option value="">All categories</option>
-          <option value="founder-essentials">Founder Essentials</option>
-          <option value="founders">Founders and operating mode</option>
-          <option value="finance">Finance and fundraising</option>
-          <option value="product">Product and monetisation</option>
-          <option value="growth-leadership">Growth, sales, and leadership</option>
-          <option value="ai-trust">AI, trust, and sustainable value</option>
-          <option value="collaboration">Collaboration and trust</option>
-          <option value="knowledge">Knowledge and perception</option>
-          <option value="interests">Interests and vocation</option>
-          <option value="personality">Personality</option>
-          <option value="identity">Identity and roles</option>
-          <option value="values">Values and philosophy</option>
-          <option value="philosophy">Philosophy</option>
-          <option value="cognition">Cognition and intelligence</option>
-        </select>
+    <section class="catalog-studio" aria-labelledby="studio-title">
+      <div class="catalog-studio__copy">
+        <p class="catalog-studio__eyebrow">Outfinity Venture Validation Studio</p>
+        <h1 id="studio-title">Founder Diagnostic Studio</h1>
+        <p class="catalog-studio__text">A private browser-based cockpit for founders who want sharper language around competence, readiness, product evidence, fundraising, pitch structure, and go-to-market learning. No accounts, no tracking, no credit card for results.</p>
+        <div class="catalog-studio__actions" aria-label="Primary catalog actions">
+          <a class="studio-action studio-action--primary" href="#founder-essentials">Start Founder Essentials</a>
+          <a class="studio-action" href="history/index.html">Open History</a>
+        </div>
       </div>
-      <div class="filter-group">
-        <label for="filter-duration">Duration</label>
-        <select id="filter-duration">
-          <option value="">Any duration</option>
-          <option value="short">Under 2 min</option>
-          <option value="medium">2–5 min</option>
-          <option value="long">Over 5 min</option>
-        </select>
+      <div class="catalog-studio__panel" aria-label="Diagnostic studio overview">
+        <div class="studio-radar" id="studio-radar"></div>
+        <div class="studio-metrics">
+          <span><strong id="studio-count">42</strong> instruments</span>
+        </div>
       </div>
     </section>
 
-    <section class="catalog__grid" id="catalog-grid">
+    <section class="founder-path" id="founder-essentials" aria-labelledby="founder-path-title">
+      <div class="section-heading">
+        <p class="section-heading__eyebrow">Founder Essentials</p>
+        <div class="section-heading__main">
+          <h2 id="founder-path-title">Preparation and validation quizzes.</h2>
+          <p>Start with founder capability, then pressure-test market fit, pitch logic, product evidence, fundraising readiness, and the terms investors expect you to understand.</p>
+        </div>
+      </div>
+      <div class="founder-path__grid" id="founder-path-grid"></div>
+    </section>
+
+    <section class="catalog-library" aria-labelledby="library-title">
+      <div class="section-heading section-heading--compact">
+        <p class="section-heading__eyebrow">Diagnostic Library</p>
+        <h2 id="library-title">Explore the full instrument set.</h2>
+        <p id="library-summary">Founder Essentials appear above. The library keeps the remaining quizzes easy to scan and filter.</p>
+      </div>
+
+      <section class="catalog__filters" id="filters" aria-label="Catalog filters">
+        <div class="filter-group">
+          <label for="filter-domain">Category</label>
+          <select id="filter-domain">
+            <option value="">All categories</option>
+            <option value="founder-essentials">Founder Essentials</option>
+            <option value="founders">Founders and operating mode</option>
+            <option value="finance">Finance and fundraising</option>
+            <option value="product">Product and monetisation</option>
+            <option value="growth-leadership">Growth, sales, and leadership</option>
+            <option value="ai-trust">AI, trust, and sustainable value</option>
+            <option value="collaboration">Collaboration and trust</option>
+            <option value="knowledge">Knowledge and perception</option>
+            <option value="interests">Interests and vocation</option>
+            <option value="personality">Personality</option>
+            <option value="identity">Identity and roles</option>
+            <option value="values">Values and philosophy</option>
+            <option value="philosophy">Philosophy</option>
+            <option value="cognition">Cognition and intelligence</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-duration">Duration</label>
+          <select id="filter-duration">
+            <option value="">Any duration</option>
+            <option value="short">Under 2 min</option>
+            <option value="medium">2-5 min</option>
+            <option value="long">Over 5 min</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="catalog__grid" id="catalog-grid" aria-live="polite">
+      </section>
     </section>
   </main>
 
@@ -108,6 +140,7 @@
   </script>
 
   <script type="module">
+    import { createRadarChart } from './engine/radar-chart.js';
     import {
       HISTORY_STORAGE_KEY,
       decorateQuizCardsWithHistory,
@@ -115,12 +148,20 @@
     } from './engine/result-history.js';
 
     var catalogGrid = document.getElementById('catalog-grid');
+    var founderPathGrid = document.getElementById('founder-path-grid');
+    var founderPathSection = document.getElementById('founder-essentials');
+    var librarySummary = document.getElementById('library-summary');
+    var studioRadar = document.getElementById('studio-radar');
+    var studioCount = document.getElementById('studio-count');
+
+    renderStudioRadar();
 
     async function loadCatalog() {
       try {
         var response = await fetch('catalog/catalog.json');
-        var catalog = await response.json();
-        renderCatalog(orderCatalog(catalog));
+        var catalog = orderCatalog(await response.json());
+        renderCatalog(catalog);
+        updateStudioMetrics(catalog);
         initFilters();
       } catch (error) {
         catalogGrid.innerHTML =
@@ -129,11 +170,55 @@
     }
 
     function renderCatalog(quizzes) {
+      renderFounderPath(quizzes.filter(function(quiz) {
+        return quiz.featuredGroup;
+      }));
+
       catalogGrid.innerHTML = '';
       for (var i = 0; i < quizzes.length; i++) {
         catalogGrid.appendChild(createCard(quizzes[i]));
       }
+      applyDefaultLibraryVisibility();
       decorateQuizCardsWithHistory(catalogGrid, { base: '' });
+      decorateQuizCardsWithHistory(founderPathGrid, { base: '' });
+    }
+
+    function renderStudioRadar() {
+      studioRadar.innerHTML = '';
+      studioRadar.appendChild(createRadarChart({
+        axes: [
+          { key: 'competence', label: 'Competence', labelDistance: 14, labelOffsetY: 2, labelMaxChars: 20 },
+          { key: 'market', label: 'Market', labelDistance: 16, labelOffsetX: -8, labelOffsetY: 2 },
+          { key: 'product', label: 'Product', labelDistance: 24, labelOffsetX: -8, labelOffsetY: -8 },
+          { key: 'fundraising', label: '' },
+          { key: 'growth', label: 'Learning', labelDistance: 26, labelOffsetX: 12, labelOffsetY: -2 }
+        ],
+        datasets: [{
+          label: 'Founder readiness path',
+          values: [78, 68, 74, 62, 70]
+        }],
+        size: 520,
+        colors: ['#d4a853'],
+        labelFontSize: 18,
+        valueFontSize: 16,
+        pointRadius: 7,
+        labelPadding: 34,
+        radiusInset: 42,
+        showRingValues: false,
+        animate: true,
+        showValues: true
+      }));
+    }
+
+    function renderFounderPath(quizzes) {
+      founderPathGrid.innerHTML = '';
+      for (var i = 0; i < quizzes.length; i++) {
+        founderPathGrid.appendChild(createPathCard(quizzes[i], i + 1));
+      }
+    }
+
+    function updateStudioMetrics(quizzes) {
+      studioCount.textContent = String(quizzes.length);
     }
 
     function orderCatalog(quizzes) {
@@ -191,19 +276,12 @@
 
       var card = document.createElement('a');
       card.className = 'quiz-card';
-      card.href = quiz.slug + '/index.html';
-      card.dataset.quizId = normalizeQuizId(quiz.slug);
-      card.dataset.quizSlug = quiz.slug;
-      card.dataset.type = quiz.type || '';
-      card.dataset.duration = getCanonicalDurationCategory(quiz.duration, quiz.durationCategory);
-      card.dataset.durationText = quiz.duration || '';
-      card.dataset.domain = quiz.domain || '';
-      card.dataset.featuredGroup = quiz.featuredGroup || '';
-      card.dataset.featured = quiz.featuredGroup ? 'true' : 'false';
+      assignQuizDataset(card, quiz);
 
       card.innerHTML =
         '<div class="quiz-card__header">' +
           '<span class="quiz-card__type">' + (typeLabels[quiz.type] || quiz.type) + '</span>' +
+          '<span class="quiz-card__signature" aria-hidden="true"><span></span><span></span><span></span></span>' +
           '<span class="quiz-card__duration">' + quiz.duration + '</span>' +
         '</div>' +
         '<h2 class="quiz-card__title">' + quiz.title + '</h2>' +
@@ -216,6 +294,59 @@
         '<div class="quiz-card__action">Take this quiz</div>';
 
       return card;
+    }
+
+    function createPathCard(quiz, index) {
+      var card = document.createElement('a');
+      card.className = 'path-card';
+      assignQuizDataset(card, quiz);
+      card.dataset.pathIndex = String(index);
+
+      var step = document.createElement('span');
+      step.className = 'path-card__step';
+      step.textContent = String(index).padStart(2, '0');
+
+      var body = document.createElement('span');
+      body.className = 'path-card__body';
+
+      var title = document.createElement('span');
+      title.className = 'path-card__title';
+      title.textContent = quiz.title;
+
+      var promise = document.createElement('span');
+      promise.className = 'path-card__promise';
+      promise.textContent = quiz.promise;
+
+      var meta = document.createElement('span');
+      meta.className = 'path-card__meta';
+      meta.textContent = quiz.duration + ' · ' + quiz.questions + ' questions';
+
+      body.append(title, promise, meta);
+      card.append(step, body);
+      return card;
+    }
+
+    function assignQuizDataset(card, quiz) {
+      card.href = quiz.slug + '/index.html';
+      card.dataset.quizId = normalizeQuizId(quiz.slug);
+      card.dataset.quizSlug = quiz.slug;
+      card.dataset.type = quiz.type || '';
+      card.dataset.duration = getCanonicalDurationCategory(quiz.duration, quiz.durationCategory);
+      card.dataset.durationText = quiz.duration || '';
+      card.dataset.domain = quiz.domain || '';
+      card.dataset.featuredGroup = quiz.featuredGroup || '';
+      card.dataset.featured = quiz.featuredGroup ? 'true' : 'false';
+      card.dataset.signal = getSignalKey(quiz);
+    }
+
+    function getSignalKey(quiz) {
+      if (quiz.featuredGroup) return 'founder';
+      if (quiz.domain === 'finance') return 'finance';
+      if (quiz.domain === 'product') return 'product';
+      if (quiz.domain === 'growth-leadership') return 'growth';
+      if (quiz.domain === 'ai-trust') return 'ai';
+      if (quiz.domain === 'founders') return 'founder';
+      return 'knowledge';
     }
 
     function parseDurationMinutes(duration) {
@@ -239,26 +370,72 @@
         var domain = domainSelect.value;
         var duration = durationSelect.value;
         var cards = document.querySelectorAll('.quiz-card');
+        var pathCards = document.querySelectorAll('.path-card');
+        var visibleCards = 0;
+        var visiblePathCards = 0;
+
+        for (var p = 0; p < pathCards.length; p++) {
+          var pathCard = pathCards[p];
+          var pathDomainMatch = !domain || domain === 'founder-essentials';
+          var pathDurationMatch = !duration || getCanonicalDurationCategory(pathCard.dataset.durationText, pathCard.dataset.duration) === duration;
+          var showPathCard = pathDomainMatch && pathDurationMatch;
+          pathCard.hidden = !showPathCard;
+          if (showPathCard) visiblePathCards++;
+        }
+        founderPathSection.hidden = visiblePathCards === 0;
 
         for (var i = 0; i < cards.length; i++) {
           var card = cards[i];
-          var matchDomain = !domain ||
-            (domain === 'founder-essentials' ? card.dataset.featured === 'true' : card.dataset.domain === domain);
+          var matchDomain = getLibraryDomainMatch(card, domain);
           var matchDuration = !duration || getCanonicalDurationCategory(card.dataset.durationText, card.dataset.duration) === duration;
-          card.style.display = (matchDomain && matchDuration) ? '' : 'none';
+          var showCard = matchDomain && matchDuration;
+          card.hidden = !showCard;
+          if (showCard) visibleCards++;
         }
+
+        updateLibrarySummary(domain, duration, visibleCards, visiblePathCards);
       }
 
       domainSelect.addEventListener('change', applyFilters);
       durationSelect.addEventListener('change', applyFilters);
+      applyFilters();
+    }
+
+    function getLibraryDomainMatch(card, domain) {
+      if (!domain) return card.dataset.featured !== 'true';
+      if (domain === 'founder-essentials') return false;
+      return card.dataset.domain === domain;
+    }
+
+    function updateLibrarySummary(domain, duration, visibleCards, visiblePathCards) {
+      if (domain === 'founder-essentials') {
+        librarySummary.textContent = visiblePathCards
+          ? 'Showing Founder Essentials above as a focused path.'
+          : 'No Founder Essentials match the selected duration.';
+        return;
+      }
+      if (domain || duration) {
+        librarySummary.textContent = 'Showing ' + visibleCards + ' matching instruments in the library.';
+        return;
+      }
+      librarySummary.textContent = 'Founder Essentials appear above. The library shows the remaining instruments so the first screen stays focused.';
+    }
+
+    function applyDefaultLibraryVisibility() {
+      var cards = document.querySelectorAll('.quiz-card');
+      for (var i = 0; i < cards.length; i++) {
+        cards[i].hidden = cards[i].dataset.featured === 'true';
+      }
     }
 
     window.addEventListener('pageshow', function() {
       decorateQuizCardsWithHistory(catalogGrid, { base: '' });
+      decorateQuizCardsWithHistory(founderPathGrid, { base: '' });
     });
     window.addEventListener('storage', function(event) {
       if (event.key === HISTORY_STORAGE_KEY) {
         decorateQuizCardsWithHistory(catalogGrid, { base: '' });
+        decorateQuizCardsWithHistory(founderPathGrid, { base: '' });
       }
     });
 
