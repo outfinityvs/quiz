@@ -6,9 +6,9 @@
   "title": "Cybersecurity & Privacy Readiness",
   "language": "en",
   "introduction": {
-    "subtitle": "Cyber and privacy maturity assessment. 7 min.",
-    "description": "<p>Cybersecurity & Privacy Readiness helps you learn the vocabulary and typical expectations behind Govern & Identify, Protect, Detect & Respond, Recover & Privacy. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 7 min.",
+    "subtitle": "Cyber and privacy maturity assessment. 7-9 min.",
+    "description": "<p>Cybersecurity & Privacy Readiness helps you learn the vocabulary and typical expectations behind Govern & Identify, Protect, Detect & Respond, Recover & Privacy. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -622,6 +622,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How are critical third-party risks reviewed before adoption or renewal?",
+      "type": "profile",
+      "dimension": "govern-and-identify",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows third-party cyber and privacy risk review; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "govern-and-identify": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of third-party cyber and privacy risk review, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "govern-and-identify": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show third-party cyber and privacy risk review in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "govern-and-identify": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Third-party cyber and privacy risk review is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "govern-and-identify": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Govern & Identify: How are critical third-party risks reviewed before adoption or renewal",
+        "summary": "Govern & Identify is tested here through a concrete operating question: \"How are critical third-party risks reviewed before adoption or renewal?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Govern & Identify matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How consistently are access rights removed or reduced when roles change?",
+      "type": "profile",
+      "dimension": "protect",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows access right reduction after role changes; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "protect": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of access right reduction after role changes, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "protect": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show access right reduction after role changes in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "protect": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Access right reduction after role changes is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "protect": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Protect: How consistently are access rights removed or reduced when roles change",
+        "summary": "Protect is tested here through a concrete operating question: \"How consistently are access rights removed or reduced when roles change?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Protect matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How quickly can the team tell whether an incident is contained?",
+      "type": "profile",
+      "dimension": "detect-and-respond",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows incident containment assessment; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "detect-and-respond": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of incident containment assessment, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "detect-and-respond": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show incident containment assessment in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "detect-and-respond": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Incident containment assessment is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "detect-and-respond": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Detect & Respond: How quickly can the team tell whether an incident is contained",
+        "summary": "Detect & Respond is tested here through a concrete operating question: \"How quickly can the team tell whether an incident is contained?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Detect & Respond matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How often are restore and privacy-notification assumptions tested?",
+      "type": "profile",
+      "dimension": "recover-and-privacy",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows restore and privacy notification tests; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "recover-and-privacy": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of restore and privacy notification tests, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "recover-and-privacy": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show restore and privacy notification tests in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "recover-and-privacy": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Restore and privacy notification tests is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "recover-and-privacy": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Recover & Privacy: How often are restore and privacy-notification assumptions tested",
+        "summary": "Recover & Privacy is tested here through a concrete operating question: \"How often are restore and privacy-notification assumptions tested?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Recover & Privacy matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -635,189 +903,29 @@
         "key": "govern-and-identify",
         "label": "Govern & Identify",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "protect",
         "label": "Protect",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "detect-and-respond",
         "label": "Detect & Respond",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "recover-and-privacy",
         "label": "Recover & Privacy",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-govern-and-identify",
-      "text": "What level of evidence supports your answers for Govern & Identify?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Govern & Identify",
-        "summary": "This question asks how well your answers about Govern & Identify are supported. Govern & Identify means knowing who owns security and privacy risk, what assets and data exist, and which third parties or identities matter most. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Govern & Identify is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Govern & Identify answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Computer security",
-            "url": "https://en.wikipedia.org/wiki/Computer_security"
-          },
-          {
-            "label": "Wikipedia: Privacy",
-            "url": "https://en.wikipedia.org/wiki/Privacy"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-protect",
-      "text": "What level of evidence supports your answers for Protect?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Protect",
-        "summary": "This question asks how well your answers about Protect are supported. Protect means the controls that reduce preventable harm, including access, vulnerability management, backups, data protection, and staff practices. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Protect is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Protect answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Computer security",
-            "url": "https://en.wikipedia.org/wiki/Computer_security"
-          },
-          {
-            "label": "Wikipedia: Privacy",
-            "url": "https://en.wikipedia.org/wiki/Privacy"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-detect-and-respond",
-      "text": "What level of evidence supports your answers for Detect & Respond?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Detect & Respond",
-        "summary": "This question asks how well your answers about Detect & Respond are supported. Detect & Respond means the ability to notice abnormal activity, escalate it, contain it, and learn from incidents quickly enough. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Detect & Respond is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Detect & Respond answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Computer security",
-            "url": "https://en.wikipedia.org/wiki/Computer_security"
-          },
-          {
-            "label": "Wikipedia: Privacy",
-            "url": "https://en.wikipedia.org/wiki/Privacy"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-recover-and-privacy",
-      "text": "What level of evidence supports your answers for Recover & Privacy?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Recover & Privacy",
-        "summary": "This question asks how well your answers about Recover & Privacy are supported. Recover & Privacy means restoring critical services and data while handling privacy obligations, records, consent, and data-subject expectations responsibly. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Recover & Privacy is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Recover & Privacy answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Evidence",
-            "url": "https://en.wikipedia.org/wiki/Evidence"
-          },
-          {
-            "label": "Wikipedia: Scientific method",
-            "url": "https://en.wikipedia.org/wiki/Scientific_method"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

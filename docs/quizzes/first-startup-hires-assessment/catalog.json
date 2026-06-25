@@ -1,0 +1,19 @@
+{
+  "slug": "quizzes/first-startup-hires-assessment",
+  "title": "First Startup Hires Fit",
+  "promise": "Hiring-fit diagnostic for finding first employees with startup ownership rather than big-corporation reflexes.",
+  "duration": "7-9 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "readiness",
+  "domain": "founders",
+  "priority": "P1",
+  "audience": "Founders, first operators, startup candidates, venture studios, and accelerators",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Readiness assessment across Ambiguity Ownership, Learning Pace, Customer & Product Proximity, Team Values & Resilience. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action.",
+  "ogTitle": "First Startup Hires Fit - Outfinity Quiz",
+  "ogDescription": "Hiring-fit diagnostic for finding first employees with startup ownership rather than big-corporation reflexes.",
+  "featuredGroup": "Founder Essentials",
+  "featuredRank": 8
+}

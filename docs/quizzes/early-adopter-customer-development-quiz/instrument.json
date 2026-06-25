@@ -1,0 +1,763 @@
+{
+  "id": "early-adopter-customer-development-quiz",
+  "slug": "early-adopter-customer-development-quiz",
+  "version": 1,
+  "locale": "en",
+  "title": "Early Adopters & Customer Development",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Knowledge quiz. 8-10 min.",
+    "description": "<p>Early Adopters & Customer Development is an educational challenge for Adopter Segmentation, Chasm & Whole Product, Customer Discovery, Customer Validation. It teaches through plausible wrong answers and post-result explanations.</p><p>Choose the answer you would use in a real founder or product conversation. Your result stays in this browser unless you explicitly share it.</p>",
+    "duration": "12 questions. Approximately 8-10 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start the challenge"
+  },
+  "deliberationText": "Checking your answers...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which description best identifies an early adopter?",
+      "type": "profile",
+      "dimension": "adopter-segmentation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Early adopters usually have urgent pain, seek alternatives, tolerate incompleteness, and can influence the next reference group.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Anyone who likes new technology.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 1
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. A customer with urgent pain, a current workaround, and willingness to try an incomplete solution.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The largest mainstream buyer in the market.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. A user who never pays but enjoys demos.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Adopter Segmentation: Which description best identifies an early adopter",
+        "summary": "Adopter Segmentation is tested here through a concrete operating question: \"Which description best identifies an early adopter?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"A customer with urgent pain, a current workaround, and willingness to try an incomplete solution.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q2",
+      "text": "What is the main risk of confusing visionaries with pragmatists?",
+      "type": "profile",
+      "dimension": "adopter-segmentation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Visionaries may accept novelty and custom work, while pragmatists often need references, risk reduction, and a complete solution.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The product will become too cheap.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The team may mistake enthusiasm for repeatable mainstream demand.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The team will interview too many customers.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The market category will disappear automatically.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Adopter Segmentation: What is the main risk of confusing visionaries with pragmatists",
+        "summary": "Adopter Segmentation is tested here through a concrete operating question: \"What is the main risk of confusing visionaries with pragmatists?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"The team may mistake enthusiasm for repeatable mainstream demand.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q3",
+      "text": "Which signal best suggests a beachhead segment is worth focus?",
+      "type": "profile",
+      "dimension": "adopter-segmentation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "A strong beachhead has repeated pain, reachable buyers, similar use cases, and references that matter inside the segment.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Many unrelated users say the product is interesting.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. One broad analyst report names the market.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. A narrow segment shares urgent pain, similar workflow, reachable buyers, and credible reference potential.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 3
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The segment is fashionable this month.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "adopter-segmentation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Adopter Segmentation: Which signal best suggests a beachhead segment is worth focus",
+        "summary": "Adopter Segmentation is tested here through a concrete operating question: \"Which signal best suggests a beachhead segment is worth focus?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"A narrow segment shares urgent pain, similar workflow, reachable buyers, and credible reference potential.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q4",
+      "text": "What does the chasm represent in early-market strategy?",
+      "type": "profile",
+      "dimension": "chasm-and-whole-product",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "The chasm is the difficult transition from visionary early adopters to pragmatic early majority buyers.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. A gap between early adopters and the pragmatic early majority.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The time between two engineering releases.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. A legal barrier to selling software.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The distance between two pricing tiers.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Chasm & Whole Product: What does the chasm represent in early-market strategy",
+        "summary": "Chasm & Whole Product is tested here through a concrete operating question: \"What does the chasm represent in early-market strategy?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"A gap between early adopters and the pragmatic early majority.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q5",
+      "text": "Why does whole-product thinking matter for pragmatist buyers?",
+      "type": "profile",
+      "dimension": "chasm-and-whole-product",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Pragmatists want the complete solution needed to solve the business problem, not just a promising core technology.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They only buy products with the most features.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They need the surrounding services, proof, integrations, support, and risk reduction that make adoption safe.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They prefer custom demos over references.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They ignore switching cost.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Chasm & Whole Product: Why does whole-product thinking matter for pragmatist buyers",
+        "summary": "Chasm & Whole Product is tested here through a concrete operating question: \"Why does whole-product thinking matter for pragmatist buyers?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"They need the surrounding services, proof, integrations, support, and risk reduction that make adoption safe.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q6",
+      "text": "Which go-to-market move best fits chasm strategy?",
+      "type": "profile",
+      "dimension": "chasm-and-whole-product",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Chasm strategy favours a focused beachhead where the company can win references before expanding.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Target every segment at once to avoid missing opportunities.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Win one narrow beachhead with a complete solution and credible references.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Delay selling until the product has every possible feature.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Avoid partners because they complicate the story.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "chasm-and-whole-product": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Chasm & Whole Product: Which go-to-market move best fits chasm strategy",
+        "summary": "Chasm & Whole Product is tested here through a concrete operating question: \"Which go-to-market move best fits chasm strategy?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Win one narrow beachhead with a complete solution and credible references.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q7",
+      "text": "What is Customer Discovery primarily trying to learn?",
+      "type": "profile",
+      "dimension": "customer-discovery",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Customer Discovery tests whether the problem, customer, and buying context are real before scaling execution.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Whether the founder can write a long roadmap.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Whether the problem, customer, workflow, alternatives, and buying trigger are real.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Whether the logo design is memorable.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Whether every feature can be built this quarter.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Customer Discovery: What is Customer Discovery primarily trying to learn",
+        "summary": "Customer Discovery is tested here through a concrete operating question: \"What is Customer Discovery primarily trying to learn?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Whether the problem, customer, workflow, alternatives, and buying trigger are real.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q8",
+      "text": "Which interview question is strongest during discovery?",
+      "type": "profile",
+      "dimension": "customer-discovery",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Behavioural questions about recent real situations produce better evidence than opinions about hypothetical products.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Would you use this if we built it?",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. How much do you like our idea?",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Tell me about the last time this problem happened and what you did.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 3
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Which colour should the dashboard use?",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Customer Discovery: Which interview question is strongest during discovery",
+        "summary": "Customer Discovery is tested here through a concrete operating question: \"Which interview question is strongest during discovery?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Tell me about the last time this problem happened and what you did.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q9",
+      "text": "When discovery contradicts the original idea, what should happen?",
+      "type": "profile",
+      "dimension": "customer-discovery",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Contradictory discovery evidence should update segmentation, problem framing, or solution assumptions.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Ignore it until after launch.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Update the hypothesis and test the revised customer, problem, or solution assumption.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Increase the advertising budget.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Stop talking to customers entirely.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-discovery": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Customer Discovery: When discovery contradicts the original idea, what should happen",
+        "summary": "Customer Discovery is tested here through a concrete operating question: \"When discovery contradicts the original idea, what should happen?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Update the hypothesis and test the revised customer, problem, or solution assumption.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "What does Customer Validation test?",
+      "type": "profile",
+      "dimension": "customer-validation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Customer Validation tests whether a repeatable sales process and business model can work with real customers.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Whether the company has enough social media followers.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Whether a repeatable sales process and business model can be validated.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Whether every customer wants a custom roadmap.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Whether the team can avoid pricing conversations.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Customer Validation: What does Customer Validation test",
+        "summary": "Customer Validation is tested here through a concrete operating question: \"What does Customer Validation test?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Whether a repeatable sales process and business model can be validated.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "Which evidence is strongest before scaling sales?",
+      "type": "profile",
+      "dimension": "customer-validation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Repeatable conversion in a narrow segment is stronger than scattered one-off enthusiasm.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Several similar customers move through the same sales steps for the same core reason.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. One large prospect says maybe next year.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The founder has many LinkedIn likes.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The demo gets compliments from friends.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Customer Validation: Which evidence is strongest before scaling sales",
+        "summary": "Customer Validation is tested here through a concrete operating question: \"Which evidence is strongest before scaling sales?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Several similar customers move through the same sales steps for the same core reason.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "What should happen if customer validation fails?",
+      "type": "profile",
+      "dimension": "customer-validation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Failed validation should trigger a return to discovery or a pivot in customer, problem, product, or go-to-market assumptions.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Scale hiring anyway because the plan was approved.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Return to discovery or pivot the weak customer, problem, product, or sales assumption.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Hide the failed evidence from the team.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Rename the product and keep the same motion.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-validation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Customer Validation: What should happen if customer validation fails",
+        "summary": "Customer Validation is tested here through a concrete operating question: \"What should happen if customer validation fails?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Return to discovery or pivot the weak customer, problem, product, or sales assumption.\"",
+        "learnMore": []
+      }
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "knowledge",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "adopter-segmentation",
+        "label": "Adopter Segmentation",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "chasm-and-whole-product",
+        "label": "Chasm & Whole Product",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "customer-discovery",
+        "label": "Customer Discovery",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "customer-validation",
+        "label": "Customer Validation",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      }
+    ]
+  },
+  "banner": "outfinity-explorer-circle",
+  "questionStageTitle": "Answer the concept scenario",
+  "questionStageDescription": "The answer review appears after completion. Use the concept button when a term is unfamiliar."
+}

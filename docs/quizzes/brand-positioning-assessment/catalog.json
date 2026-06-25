@@ -2,7 +2,7 @@
   "slug": "quizzes/brand-positioning-assessment",
   "title": "Positioning & Brand Differentiation",
   "promise": "Positioning and differentiation diagnostic for ICP clarity, category framing, value proof, and message learning.",
-  "duration": "6 min",
+  "duration": "7-9 min",
   "durationCategory": "long",
   "questions": 12,
   "type": "maturity",
@@ -11,7 +11,9 @@
   "audience": "Founders, marketers, product marketers, consultants, and B2B revenue teams",
   "hasRecommendation": false,
   "license": "CC BY 4.0",
-  "description": "Positioning maturity assessment across ICP & Trigger Clarity, Category & Alternatives, Value & Proof, Message Consistency & Learning. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate answer-support checks.",
+  "description": "Positioning maturity assessment across ICP & Trigger Clarity, Category & Alternatives, Value & Proof, Message Consistency & Learning. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action.",
   "ogTitle": "Positioning & Brand Differentiation - Outfinity Quiz",
-  "ogDescription": "Positioning and differentiation diagnostic for ICP clarity, category framing, value proof, and message learning."
+  "ogDescription": "Positioning and differentiation diagnostic for ICP clarity, category framing, value proof, and message learning.",
+  "featuredGroup": "Founder Essentials",
+  "featuredRank": 11
 }

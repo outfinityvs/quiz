@@ -1,0 +1,859 @@
+{
+  "id": "leadership-team-behaviour-assessment",
+  "slug": "leadership-team-behaviour-assessment",
+  "version": 1,
+  "locale": "en",
+  "title": "Leadership Team Behaviour",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Governance assessment. 7-9 min.",
+    "description": "<p>Leadership Team Behaviour helps you assess Strategic Conflict, Decision Rights, Trust & Accountability, Operating Cadence through concrete operating questions. Answer from observable behaviour and current evidence, not aspiration.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start assessment"
+  },
+  "deliberationText": "Calculating your diagnostic...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How openly does the leadership team debate strategic trade-offs?",
+      "type": "profile",
+      "dimension": "strategic-conflict",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows debating strategic trade-offs; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of debating strategic trade-offs, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show debating strategic trade-offs in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Debating strategic trade-offs is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Strategic Conflict: How openly does the leadership team debate strategic trade-offs",
+        "summary": "Strategic Conflict is tested here through a concrete operating question: \"How openly does the leadership team debate strategic trade-offs?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Strategic Conflict matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q2",
+      "text": "How are dissenting views protected before a major commitment?",
+      "type": "profile",
+      "dimension": "strategic-conflict",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows protecting dissent before commitment; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of protecting dissent before commitment, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show protecting dissent before commitment in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Protecting dissent before commitment is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Strategic Conflict: How are dissenting views protected before a major commitment",
+        "summary": "Strategic Conflict is tested here through a concrete operating question: \"How are dissenting views protected before a major commitment?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Strategic Conflict matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q3",
+      "text": "How quickly does unresolved strategic tension get named?",
+      "type": "profile",
+      "dimension": "strategic-conflict",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows naming unresolved strategic tension; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of naming unresolved strategic tension, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show naming unresolved strategic tension in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Naming unresolved strategic tension is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "strategic-conflict": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Strategic Conflict: How quickly does unresolved strategic tension get named",
+        "summary": "Strategic Conflict is tested here through a concrete operating question: \"How quickly does unresolved strategic tension get named?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Strategic Conflict matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q4",
+      "text": "How clear is the owner for recurring leadership decisions?",
+      "type": "profile",
+      "dimension": "decision-rights",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows owners for recurring leadership decisions; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of owners for recurring leadership decisions, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show owners for recurring leadership decisions in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Owners for recurring leadership decisions is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Decision Rights: How clear is the owner for recurring leadership decisions",
+        "summary": "Decision Rights is tested here through a concrete operating question: \"How clear is the owner for recurring leadership decisions?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Decision Rights matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q5",
+      "text": "How are cross-functional trade-offs decided when priorities collide?",
+      "type": "profile",
+      "dimension": "decision-rights",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows cross-functional trade-off decisions; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of cross-functional trade-off decisions, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show cross-functional trade-off decisions in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Cross-functional trade-off decisions is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Decision Rights: How are cross-functional trade-offs decided when priorities collide",
+        "summary": "Decision Rights is tested here through a concrete operating question: \"How are cross-functional trade-offs decided when priorities collide?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Decision Rights matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q6",
+      "text": "How often are decisions revisited because ownership was unclear?",
+      "type": "profile",
+      "dimension": "decision-rights",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows revisiting decisions due to unclear ownership; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of revisiting decisions due to unclear ownership, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show revisiting decisions due to unclear ownership in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Revisiting decisions due to unclear ownership is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-rights": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Decision Rights: How often are decisions revisited because ownership was unclear",
+        "summary": "Decision Rights is tested here through a concrete operating question: \"How often are decisions revisited because ownership was unclear?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Decision Rights matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q7",
+      "text": "How safe is it to admit missed commitments early?",
+      "type": "profile",
+      "dimension": "trust-accountability",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows admitting missed commitments early; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of admitting missed commitments early, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show admitting missed commitments early in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Admitting missed commitments early is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Trust & Accountability: How safe is it to admit missed commitments early",
+        "summary": "Trust & Accountability is tested here through a concrete operating question: \"How safe is it to admit missed commitments early?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Trust & Accountability matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q8",
+      "text": "How consistently does the team distinguish accountability from blame?",
+      "type": "profile",
+      "dimension": "trust-accountability",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows accountability without blame; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of accountability without blame, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show accountability without blame in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Accountability without blame is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Trust & Accountability: How consistently does the team distinguish accountability from blame",
+        "summary": "Trust & Accountability is tested here through a concrete operating question: \"How consistently does the team distinguish accountability from blame?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Trust & Accountability matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q9",
+      "text": "How are private frustrations brought into the room constructively?",
+      "type": "profile",
+      "dimension": "trust-accountability",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows bringing private frustrations into the room; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of bringing private frustrations into the room, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show bringing private frustrations into the room in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Bringing private frustrations into the room is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "trust-accountability": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Trust & Accountability: How are private frustrations brought into the room constructively",
+        "summary": "Trust & Accountability is tested here through a concrete operating question: \"How are private frustrations brought into the room constructively?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Trust & Accountability matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How well do leadership meetings convert facts into decisions and owners?",
+      "type": "profile",
+      "dimension": "operating-cadence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows leadership meetings producing decisions and owners; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of leadership meetings producing decisions and owners, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show leadership meetings producing decisions and owners in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Leadership meetings producing decisions and owners is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Operating Cadence: How well do leadership meetings convert facts into decisions and owners",
+        "summary": "Operating Cadence is tested here through a concrete operating question: \"How well do leadership meetings convert facts into decisions and owners?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Operating Cadence matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How visible are commitments, deadlines, and follow-up after meetings?",
+      "type": "profile",
+      "dimension": "operating-cadence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows visible leadership follow-up; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of visible leadership follow-up, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show visible leadership follow-up in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Visible leadership follow-up is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Operating Cadence: How visible are commitments, deadlines, and follow-up after meetings",
+        "summary": "Operating Cadence is tested here through a concrete operating question: \"How visible are commitments, deadlines, and follow-up after meetings?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Operating Cadence matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How often does the team review whether its operating rhythm is still fit for stage?",
+      "type": "profile",
+      "dimension": "operating-cadence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows reviewing operating rhythm by company stage; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of reviewing operating rhythm by company stage, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show reviewing operating rhythm by company stage in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Reviewing operating rhythm by company stage is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-cadence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Operating Cadence: How often does the team review whether its operating rhythm is still fit for stage",
+        "summary": "Operating Cadence is tested here through a concrete operating question: \"How often does the team review whether its operating rhythm is still fit for stage?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Operating Cadence matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "maturity",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "strategic-conflict",
+        "label": "Strategic Conflict",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "decision-rights",
+        "label": "Decision Rights",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "trust-accountability",
+        "label": "Trust & Accountability",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "operating-cadence",
+        "label": "Operating Cadence",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      }
+    ]
+  },
+  "banner": "outfinity-explorer-circle",
+  "questionStageTitle": "Answer from current behaviour",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over ideal self-description."
+}

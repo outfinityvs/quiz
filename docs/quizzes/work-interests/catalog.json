@@ -6,7 +6,7 @@
   "durationCategory": "medium",
   "questions": 24,
   "type": "derived",
-  "domain": "interests",
+  "domain": "personality",
   "hasRecommendation": true,
   "license": "CC BY 4.0",
   "description": "24 original RIASEC-inspired interest items across six dimensions (Builder, Investigator, Creator, Social Guide, Persuader, Organizer). Result shows a six-axis radar with your top interests, venture suggestions, and the collaborators that complement you.",

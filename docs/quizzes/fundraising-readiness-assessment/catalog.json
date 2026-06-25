@@ -2,7 +2,7 @@
   "slug": "quizzes/fundraising-readiness-assessment",
   "title": "Fundraising Readiness Radar",
   "promise": "Fundraising readiness diagnostic for narrative, traction, process, targeting, and deal preparation.",
-  "duration": "6 min",
+  "duration": "7-9 min",
   "durationCategory": "long",
   "questions": 12,
   "type": "readiness",
@@ -11,7 +11,9 @@
   "audience": "Pre-seed to Series A founders, accelerators, venture studios, and fundraising advisors",
   "hasRecommendation": false,
   "license": "CC BY 4.0",
-  "description": "Readiness assessment across Narrative & Ambition, Evidence & Traction, Process & Targeting, Deal Readiness. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate answer-support checks.",
+  "description": "Readiness assessment across Narrative & Ambition, Evidence & Traction, Process & Targeting, Deal Readiness. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action.",
   "ogTitle": "Fundraising Readiness Radar - Outfinity Quiz",
-  "ogDescription": "Fundraising readiness diagnostic for narrative, traction, process, targeting, and deal preparation."
+  "ogDescription": "Fundraising readiness diagnostic for narrative, traction, process, targeting, and deal preparation.",
+  "featuredGroup": "Founder Essentials",
+  "featuredRank": 9
 }

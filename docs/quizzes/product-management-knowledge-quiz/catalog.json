@@ -2,9 +2,9 @@
   "slug": "quizzes/product-management-knowledge-quiz",
   "title": "Product Management Mastery Challenge",
   "promise": "Product management mastery challenge across strategy, discovery, prioritisation, delivery, metrics, and experiments.",
-  "duration": "8 min",
+  "duration": "8-10 min",
   "durationCategory": "long",
-  "questions": 8,
+  "questions": 12,
   "type": "knowledge",
   "domain": "product",
   "priority": "P1",
@@ -13,5 +13,7 @@
   "license": "CC BY 4.0",
   "description": "Knowledge and scenario quiz across Product Strategy, Discovery & Insight, Delivery & Prioritisation, Metrics & Experimentation. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, answer review, and learning explanations.",
   "ogTitle": "Product Management Mastery Challenge - Outfinity Quiz",
-  "ogDescription": "Product management mastery challenge across strategy, discovery, prioritisation, delivery, metrics, and experiments."
+  "ogDescription": "Product management mastery challenge across strategy, discovery, prioritisation, delivery, metrics, and experiments.",
+  "featuredGroup": "Founder Essentials",
+  "featuredRank": 16
 }

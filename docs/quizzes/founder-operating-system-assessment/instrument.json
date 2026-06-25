@@ -6,9 +6,9 @@
   "title": "Founder Operating System",
   "language": "en",
   "introduction": {
-    "subtitle": "Operating maturity assessment. 5 min.",
-    "description": "<p>Founder Operating System helps you learn the vocabulary and typical expectations behind Focus & Trade-offs, Decision Cadence, Metrics & Evidence, Personal Sustainability. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 5 min.",
+    "subtitle": "Operating maturity assessment. 7-9 min.",
+    "description": "<p>Founder Operating System helps you learn the vocabulary and typical expectations behind Focus & Trade-offs, Decision Cadence, Metrics & Evidence, Personal Sustainability. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -600,6 +600,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How quickly does new work get compared against the current constraint?",
+      "type": "profile",
+      "dimension": "focus-and-trade-offs",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows comparing new work to the current constraint; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "focus-and-trade-offs": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of comparing new work to the current constraint, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "focus-and-trade-offs": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show comparing new work to the current constraint in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "focus-and-trade-offs": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Comparing new work to the current constraint is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "focus-and-trade-offs": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Focus & Trade-offs: How quickly does new work get compared against the current constraint",
+        "summary": "Focus & Trade-offs is tested here through a concrete operating question: \"How quickly does new work get compared against the current constraint?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Focus & Trade-offs matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How are unresolved decisions escalated without waiting for a crisis?",
+      "type": "profile",
+      "dimension": "decision-cadence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows decision escalation before crisis; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-cadence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of decision escalation before crisis, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-cadence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show decision escalation before crisis in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-cadence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Decision escalation before crisis is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "decision-cadence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Decision Cadence: How are unresolved decisions escalated without waiting for a crisis",
+        "summary": "Decision Cadence is tested here through a concrete operating question: \"How are unresolved decisions escalated without waiting for a crisis?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Decision Cadence matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How often do metrics reveal a useful surprise, not just confirm activity?",
+      "type": "profile",
+      "dimension": "metrics-and-evidence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows metrics that reveal useful surprises; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-evidence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of metrics that reveal useful surprises, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-evidence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show metrics that reveal useful surprises in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-evidence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Metrics that reveal useful surprises is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-evidence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Metrics & Evidence: How often do metrics reveal a useful surprise, not just confirm activity",
+        "summary": "Metrics & Evidence is tested here through a concrete operating question: \"How often do metrics reveal a useful surprise, not just confirm activity?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Metrics & Evidence matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How deliberately do you remove founder bottlenecks before they break?",
+      "type": "profile",
+      "dimension": "personal-sustainability",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows removing founder bottlenecks; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "personal-sustainability": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of removing founder bottlenecks, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "personal-sustainability": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show removing founder bottlenecks in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "personal-sustainability": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Removing founder bottlenecks is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "personal-sustainability": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Personal Sustainability: How deliberately do you remove founder bottlenecks before they break",
+        "summary": "Personal Sustainability is tested here through a concrete operating question: \"How deliberately do you remove founder bottlenecks before they break?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Personal Sustainability matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -613,180 +881,29 @@
         "key": "focus-and-trade-offs",
         "label": "Focus & Trade-offs",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "decision-cadence",
         "label": "Decision Cadence",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "metrics-and-evidence",
         "label": "Metrics & Evidence",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "personal-sustainability",
         "label": "Personal Sustainability",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-focus-and-trade-offs",
-      "text": "What level of evidence supports your answers for Focus & Trade-offs?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Focus & Trade-offs",
-        "summary": "This question asks how well your answers about Focus & Trade-offs are supported. Focus & Trade-offs means the discipline of choosing a small number of priorities and saying no to attractive work that dilutes the company. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Focus & Trade-offs is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Focus & Trade-offs answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": []
-      }
-    },
-    {
-      "id": "evidence-decision-cadence",
-      "text": "What level of evidence supports your answers for Decision Cadence?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Decision Cadence",
-        "summary": "This question asks how well your answers about Decision Cadence are supported. Decision Cadence means the rhythm for making, recording, revisiting, and learning from decisions at the right speed for their risk. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Decision Cadence is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Decision Cadence answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Decision-making",
-            "url": "https://en.wikipedia.org/wiki/Decision-making"
-          },
-          {
-            "label": "Wikipedia: Heuristic",
-            "url": "https://en.wikipedia.org/wiki/Heuristic"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-metrics-and-evidence",
-      "text": "What level of evidence supports your answers for Metrics & Evidence?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Metrics & Evidence",
-        "summary": "This question asks how well your answers about Metrics & Evidence are supported. Metrics & Evidence means using a few meaningful measures and observations to guide choices instead of drowning in vanity metrics or dashboards. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Metrics & Evidence is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Metrics & Evidence answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Evidence",
-            "url": "https://en.wikipedia.org/wiki/Evidence"
-          },
-          {
-            "label": "Wikipedia: Scientific method",
-            "url": "https://en.wikipedia.org/wiki/Scientific_method"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-personal-sustainability",
-      "text": "What level of evidence supports your answers for Personal Sustainability?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Personal Sustainability",
-        "summary": "This question asks how well your answers about Personal Sustainability are supported. Personal Sustainability means the founder operating load: energy, attention, recovery, and whether the company can function without constant personal rescue. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Personal Sustainability is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Personal Sustainability answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Computer security",
-            "url": "https://en.wikipedia.org/wiki/Computer_security"
-          },
-          {
-            "label": "Wikipedia: Privacy",
-            "url": "https://en.wikipedia.org/wiki/Privacy"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

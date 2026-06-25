@@ -24,7 +24,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 | Category | Finance, fundraising, and economic resilience |
 | Format | Operational readiness assessment |
 | Priority | P1 |
-| Estimated duration | 6-8 min |
+| Estimated duration | 7-9 min |
 | Public slug | /investor-data-room-readiness-checklist |
 | SEO focus | startup data room checklist; investor data room readiness; due diligence checklist startup |
 | Viral mechanic | Practical data-room score with downloadable room index and owner invite flow. |
@@ -36,7 +36,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 3. Commercial & Market
 4. IP, Technology & Risk
 
-Each dimension must have exactly two scored public questions. Maturity and readiness instruments may add answer-support context questions; these are displayed separately and are not scored. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
+Each dimension must have exactly three scored public questions. Generic answer-support context questions must not be added; score calibration belongs in the answer wording, concept help, methodology note, and result guidance. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
 
 ### Public Questions and Answer Model
 
@@ -50,10 +50,14 @@ Each dimension must have exactly two scored public questions. Maturity and readi
 | 6 | Commercial & Market | How well is the market and pipeline evidence substantiated? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
 | 7 | IP, Technology & Risk | How complete is the chain of title for intellectual property and software? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
 | 8 | IP, Technology & Risk | How transparently are security, privacy, regulatory, and litigation risks presented? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
+| 9 | Corporate & Ownership | How quickly can a reviewer reconcile ownership records to the cap table? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
+| 10 | Financial & Tax | How clearly do model assumptions tie to historical performance? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
+| 11 | Commercial & Market | How well can the team explain customer concentration, churn, and pipeline quality? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
+| 12 | IP, Technology & Risk | How complete is evidence that the company owns or can use core IP and data? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
 
 ### Scoring Contract
 
-A/B/C/D receive 0/1/2/3 points. Each dimension has two items and is normalised as dimensionScore = obtainedPoints / 6 * 100. The balanced overall index is 0.70 * mean(dimensions) + 0.30 * weakestDimension, rounded for display. Not sure / not applicable is unscored; if a dimension has insufficient evidence, display insufficient evidence rather than imputing a value. Public UI must not show points.
+A/B/C/D receive 0/1/2/3 points. Each dimension has three items and is normalised as dimensionScore = obtainedPoints / 9 * 100. The balanced overall index is 0.70 * mean(dimensions) + 0.30 * weakestDimension, rounded for display. Not sure / not applicable is unscored; if a dimension has insufficient evidence, display insufficient evidence rather than imputing a value. Public UI must not show points.
 
 Level bands:
 
@@ -67,7 +71,7 @@ Level bands:
 
 ### Result Contract
 
-The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, limitations, and answer-support language when supported by the UI.
+The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, and limitations.
 
 Archetype mapping:
 

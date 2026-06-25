@@ -6,9 +6,9 @@
   "title": "Pricing & Monetisation Maturity",
   "language": "en",
   "introduction": {
-    "subtitle": "Commercial maturity assessment. 6 min.",
-    "description": "<p>Pricing & Monetisation Maturity helps you learn the vocabulary and typical expectations behind Value Understanding, Packaging & Segmentation, Price Architecture & Governance, Experimentation & Realisation. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "subtitle": "Commercial maturity assessment. 7-9 min.",
+    "description": "<p>Pricing & Monetisation Maturity helps you learn the vocabulary and typical expectations behind Value Understanding, Packaging & Segmentation, Price Architecture & Governance, Experimentation & Realisation. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -622,6 +622,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How clearly can you connect price to the customer's economic outcome?",
+      "type": "profile",
+      "dimension": "value-understanding",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows price connected to customer economics; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "value-understanding": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of price connected to customer economics, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "value-understanding": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show price connected to customer economics in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "value-understanding": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Price connected to customer economics is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "value-understanding": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Value Understanding: How clearly can you connect price to the customer's economic outcome",
+        "summary": "Value Understanding is tested here through a concrete operating question: \"How clearly can you connect price to the customer's economic outcome?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Value Understanding matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How well does packaging separate different willingness-to-pay segments?",
+      "type": "profile",
+      "dimension": "packaging-and-segmentation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows packaging for willingness-to-pay segments; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "packaging-and-segmentation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of packaging for willingness-to-pay segments, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "packaging-and-segmentation": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show packaging for willingness-to-pay segments in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "packaging-and-segmentation": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Packaging for willingness-to-pay segments is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "packaging-and-segmentation": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Packaging & Segmentation: How well does packaging separate different willingness-to-pay segments",
+        "summary": "Packaging & Segmentation is tested here through a concrete operating question: \"How well does packaging separate different willingness-to-pay segments?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Packaging & Segmentation matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How disciplined is discount approval when revenue pressure rises?",
+      "type": "profile",
+      "dimension": "price-architecture-and-governance",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows discount discipline under pressure; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "price-architecture-and-governance": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of discount discipline under pressure, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "price-architecture-and-governance": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show discount discipline under pressure in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "price-architecture-and-governance": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Discount discipline under pressure is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "price-architecture-and-governance": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Price Architecture & Governance: How disciplined is discount approval when revenue pressure rises",
+        "summary": "Price Architecture & Governance is tested here through a concrete operating question: \"How disciplined is discount approval when revenue pressure rises?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Price Architecture & Governance matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How are pricing learnings converted into policy rather than one-off deals?",
+      "type": "profile",
+      "dimension": "experimentation-and-realisation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows pricing learnings becoming policy; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experimentation-and-realisation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of pricing learnings becoming policy, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experimentation-and-realisation": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show pricing learnings becoming policy in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experimentation-and-realisation": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Pricing learnings becoming policy is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "experimentation-and-realisation": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Experimentation & Realisation: How are pricing learnings converted into policy rather than one-off deals",
+        "summary": "Experimentation & Realisation is tested here through a concrete operating question: \"How are pricing learnings converted into policy rather than one-off deals?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Experimentation & Realisation matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -635,189 +903,29 @@
         "key": "value-understanding",
         "label": "Value Understanding",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "packaging-and-segmentation",
         "label": "Packaging & Segmentation",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "price-architecture-and-governance",
         "label": "Price Architecture & Governance",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "experimentation-and-realisation",
         "label": "Experimentation & Realisation",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-value-understanding",
-      "text": "What level of evidence supports your answers for Value Understanding?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Value Understanding",
-        "summary": "This question asks how well your answers about Value Understanding are supported. Value Understanding means knowing what customers value, how much that value is worth, and where willingness to pay comes from. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Value Understanding is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Value Understanding answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Pricing",
-            "url": "https://en.wikipedia.org/wiki/Pricing"
-          },
-          {
-            "label": "Wikipedia: Value-based pricing",
-            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-packaging-and-segmentation",
-      "text": "What level of evidence supports your answers for Packaging & Segmentation?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Packaging & Segmentation",
-        "summary": "This question asks how well your answers about Packaging & Segmentation are supported. Packaging & Segmentation means matching plans, features, limits, and offers to segments so pricing reflects value and buying behavior. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Packaging & Segmentation is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Packaging & Segmentation answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Pricing",
-            "url": "https://en.wikipedia.org/wiki/Pricing"
-          },
-          {
-            "label": "Wikipedia: Value-based pricing",
-            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-price-architecture-and-governance",
-      "text": "What level of evidence supports your answers for Price Architecture & Governance?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Price Architecture & Governance",
-        "summary": "This question asks how well your answers about Price Architecture & Governance are supported. Price Architecture & Governance means the structure of price metrics, discount rules, approvals, exceptions, and ownership of pricing decisions. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Price Architecture & Governance is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Price Architecture & Governance answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Pricing",
-            "url": "https://en.wikipedia.org/wiki/Pricing"
-          },
-          {
-            "label": "Wikipedia: Value-based pricing",
-            "url": "https://en.wikipedia.org/wiki/Value-based_pricing"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-experimentation-and-realisation",
-      "text": "What level of evidence supports your answers for Experimentation & Realisation?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Experimentation & Realisation",
-        "summary": "This question asks how well your answers about Experimentation & Realisation are supported. Experimentation & Realisation means testing price and packaging while measuring whether expected value is actually captured in revenue and margin. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Experimentation & Realisation is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Experimentation & Realisation answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Evidence",
-            "url": "https://en.wikipedia.org/wiki/Evidence"
-          },
-          {
-            "label": "Wikipedia: Scientific method",
-            "url": "https://en.wikipedia.org/wiki/Scientific_method"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

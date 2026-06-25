@@ -1,0 +1,859 @@
+{
+  "id": "first-startup-hires-assessment",
+  "slug": "first-startup-hires-assessment",
+  "version": 1,
+  "locale": "en",
+  "title": "First Startup Hires Fit",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Readiness assessment. 7-9 min.",
+    "description": "<p>First Startup Hires Fit helps you assess Ambiguity Ownership, Learning Pace, Customer & Product Proximity, Team Values & Resilience through concrete operating questions. Answer from observable behaviour and current evidence, not aspiration.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start assessment"
+  },
+  "deliberationText": "Calculating your diagnostic...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How does the candidate respond when the role is only partly defined?",
+      "type": "profile",
+      "dimension": "ambiguity-ownership",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They wait for a precise job description before acting.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They can start, but repeatedly ask founders to resolve routine ambiguity.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They translate a vague role into clear next outcomes and confirm the riskiest assumptions.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They create useful ownership boundaries, act without over-escalating, and keep founders informed of trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Ambiguity Ownership: How does the candidate respond when the role is only partly defined",
+        "summary": "Ambiguity Ownership is tested here through a concrete operating question: \"How does the candidate respond when the role is only partly defined?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Ambiguity Ownership matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q2",
+      "text": "How naturally do they turn messy work into owned outcomes?",
+      "type": "profile",
+      "dimension": "ambiguity-ownership",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They prefer clean tasks and avoid messy cross-functional work.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They help when asked, but ownership fades when the work is unclear or unrewarded.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They turn messy work into a named outcome, plan, and visible owner.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They repeatedly take undefined work from mess to measurable progress without hoarding control.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Ambiguity Ownership: How naturally do they turn messy work into owned outcomes",
+        "summary": "Ambiguity Ownership is tested here through a concrete operating question: \"How naturally do they turn messy work into owned outcomes?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Ambiguity Ownership matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q3",
+      "text": "How do they behave when the founder is unavailable for a decision?",
+      "type": "profile",
+      "dimension": "ambiguity-ownership",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They stop or wait when the founder is unavailable.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They make small moves, but avoid decisions that require judgement.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They use principles, current goals, and reversibility to make a defensible call.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They make the call, document the reasoning, and flag what would change it.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "ambiguity-ownership": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Ambiguity Ownership: How do they behave when the founder is unavailable for a decision",
+        "summary": "Ambiguity Ownership is tested here through a concrete operating question: \"How do they behave when the founder is unavailable for a decision?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Ambiguity Ownership matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q4",
+      "text": "How quickly do they learn a domain they have not worked in before?",
+      "type": "profile",
+      "dimension": "learning-pace",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They rely mainly on prior experience and struggle when the domain is new.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They learn basic terms, but need heavy guidance to identify what matters.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They build a learning map, ask useful questions, and test understanding quickly.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They compress learning through customers, data, experts, and fast written synthesis.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Learning Pace: How quickly do they learn a domain they have not worked in before",
+        "summary": "Learning Pace is tested here through a concrete operating question: \"How quickly do they learn a domain they have not worked in before?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Learning Pace matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q5",
+      "text": "How do they use feedback when the first version is wrong?",
+      "type": "profile",
+      "dimension": "learning-pace",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They defend the first version or wait for someone else to fix direction.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They accept feedback, but changes are slow or surface-level.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They update the work, explain what changed, and preserve useful parts.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They actively seek disconfirming feedback and turn it into a better second version fast.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Learning Pace: How do they use feedback when the first version is wrong",
+        "summary": "Learning Pace is tested here through a concrete operating question: \"How do they use feedback when the first version is wrong?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Learning Pace matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q6",
+      "text": "How well do they separate useful speed from careless rushing?",
+      "type": "profile",
+      "dimension": "learning-pace",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They move fast by skipping context, quality checks, or alignment.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They can move quickly, but speed creates rework or confusion.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They choose what can be fast and what needs care, then communicate the trade-off.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They create speed through smaller scope, tight feedback loops, and clear risk controls.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-pace": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Learning Pace: How well do they separate useful speed from careless rushing",
+        "summary": "Learning Pace is tested here through a concrete operating question: \"How well do they separate useful speed from careless rushing?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Learning Pace matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q7",
+      "text": "How willing are they to speak directly with customers or users?",
+      "type": "profile",
+      "dimension": "customer-product-proximity",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They avoid direct customer/user contact unless the role formally requires it.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They will join calls, but rarely seek customer evidence themselves.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They proactively speak with customers or users to improve their work.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They use customer contact as a normal operating input and bring back decision-ready insight.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Customer & Product Proximity: How willing are they to speak directly with customers or users",
+        "summary": "Customer & Product Proximity is tested here through a concrete operating question: \"How willing are they to speak directly with customers or users?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Customer & Product Proximity matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q8",
+      "text": "How strongly do they connect their work to product and revenue learning?",
+      "type": "profile",
+      "dimension": "customer-product-proximity",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They treat their work as output, separate from product or revenue learning.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They understand the link in theory, but do not use it to prioritise.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They can explain how their work affects product learning, conversion, retention, or revenue.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They choose and adapt work based on the fastest path to product and revenue learning.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Customer & Product Proximity: How strongly do they connect their work to product and revenue learning",
+        "summary": "Customer & Product Proximity is tested here through a concrete operating question: \"How strongly do they connect their work to product and revenue learning?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Customer & Product Proximity matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q9",
+      "text": "How do they handle evidence that customers do not care about their output?",
+      "type": "profile",
+      "dimension": "customer-product-proximity",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They blame customers, sales, or timing when customers do not care.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They accept the evidence, but struggle to change the work materially.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They ask what was learned and adjust scope, segment, message, or quality.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They quickly separate ego from evidence and turn indifference into a sharper next test.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "customer-product-proximity": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Customer & Product Proximity: How do they handle evidence that customers do not care about their output",
+        "summary": "Customer & Product Proximity is tested here through a concrete operating question: \"How do they handle evidence that customers do not care about their output?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Customer & Product Proximity matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How do they behave when priorities change abruptly?",
+      "type": "profile",
+      "dimension": "team-values-resilience",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They become passive, frustrated, or chaotic when priorities change.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They adapt after direction is repeated, but lose momentum or trust.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They re-plan work, clarify trade-offs, and keep commitments visible.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They help the team absorb change without drama and preserve momentum on what still matters.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Team Values & Resilience: How do they behave when priorities change abruptly",
+        "summary": "Team Values & Resilience is tested here through a concrete operating question: \"How do they behave when priorities change abruptly?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Team Values & Resilience matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How do they handle credit, blame, and public disagreement?",
+      "type": "profile",
+      "dimension": "team-values-resilience",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They seek credit, avoid blame, or escalate disagreement politically.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They stay polite, but hard issues remain unresolved.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They share credit, own mistakes, and disagree with concrete reasons.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They make disagreement safer by focusing on evidence, outcome, and repair.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Team Values & Resilience: How do they handle credit, blame, and public disagreement",
+        "summary": "Team Values & Resilience is tested here through a concrete operating question: \"How do they handle credit, blame, and public disagreement?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Team Values & Resilience matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How do they protect team trust while moving fast?",
+      "type": "profile",
+      "dimension": "team-values-resilience",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. They move fast by bypassing people, context, or agreements.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. They try to protect trust, but speed still creates avoidable surprises.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. They communicate early, expose risks, and keep promises small enough to keep.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. They build trust through fast loops, explicit boundaries, and reliable follow-through.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "team-values-resilience": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Team Values & Resilience: How do they protect team trust while moving fast",
+        "summary": "Team Values & Resilience is tested here through a concrete operating question: \"How do they protect team trust while moving fast?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Team Values & Resilience matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "maturity",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "ambiguity-ownership",
+        "label": "Ambiguity Ownership",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "learning-pace",
+        "label": "Learning Pace",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "customer-product-proximity",
+        "label": "Customer & Product Proximity",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "team-values-resilience",
+        "label": "Team Values & Resilience",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      }
+    ]
+  },
+  "banner": "outfinity-explorer-circle",
+  "questionStageTitle": "Answer from current behaviour",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over ideal self-description."
+}

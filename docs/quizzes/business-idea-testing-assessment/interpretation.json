@@ -1,0 +1,56 @@
+{
+  "resultKicker": "Your Diagnostic Result",
+  "levels": [
+    {
+      "id": "ad-hoc",
+      "min": 0,
+      "max": 24,
+      "label": "Ad Hoc",
+      "copy": "The pattern is still informal and depends too much on individual instinct. Pick one weak dimension and turn it into an explicit practice before adding process."
+    },
+    {
+      "id": "forming",
+      "min": 25,
+      "max": 44,
+      "label": "Forming",
+      "copy": "Some useful habits exist, but they are uneven and fragile under pressure. The next improvement is a named owner, a repeatable cadence, and one visible artifact."
+    },
+    {
+      "id": "working",
+      "min": 45,
+      "max": 64,
+      "label": "Working",
+      "copy": "The basics are present and usable. Strengthen the weakest dimension before optimising the area that already feels comfortable."
+    },
+    {
+      "id": "operating",
+      "min": 65,
+      "max": 84,
+      "label": "Operating",
+      "copy": "The practice is connected to real decisions and is starting to scale beyond individual memory. Keep pressure-testing it against fresh evidence."
+    },
+    {
+      "id": "venture-ready",
+      "min": 85,
+      "max": 100,
+      "label": "Venture-Ready",
+      "copy": "The system is explicit, evidence-led, and useful under pressure. Maintain calibration and avoid treating a strong score as permanent proof."
+    }
+  ],
+  "archetypes": {
+    "assumption-mapping": "Risk Mapper",
+    "experiment-selection": "Test Designer",
+    "evidence-strength": "Evidence Calibrator",
+    "learning-decisions": "Decision Closer"
+  },
+  "recommendations": {
+    "assumption-mapping": "Map desirability, viability, feasibility, and market assumptions, then rank by risk and evidence gap.",
+    "experiment-selection": "Choose the cheapest credible experiment that can change a decision about the riskiest assumption.",
+    "evidence-strength": "Separate opinions, clicks, commitments, payments, and repeated behaviour before declaring evidence strong.",
+    "learning-decisions": "Pre-commit the decision that each experiment will trigger: continue, change, stop, or retest."
+  },
+  "defaultSecondAction": "Select one critical assumption and design the cheapest credible test that can change a go/no-go decision.",
+  "reflectionQuestion": "Which assumption is currently protected by optimism rather than evidence?",
+  "methodologyNote": "The current version uses four dimensions with three questions each. Dimension scores are normalised to 0-100. The balanced index weights 70% average dimension performance and 30% the weakest dimension. No percentile or benchmark is shown until a compatible sample exists.",
+  "shareNote": "Share cards reveal only the level and strongest area. They do not publish individual answers, sensitive weaknesses, legal or financial details, security gaps, or regulatory risk flags."
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "quizzes/dark-personality-patterns-test",
+  "title": "Dark Personality Pattern Check",
+  "promise": "Non-clinical dark-pattern screen for manipulation, entitlement, empathy, and impulse-control risks.",
+  "duration": "10-12 min",
+  "durationCategory": "long",
+  "questions": 24,
+  "type": "exploration",
+  "domain": "personality",
+  "priority": "P2",
+  "audience": "Individuals, founders, teams, coaches, and facilitators using reflective self-knowledge tools",
+  "hasRecommendation": false,
+  "license": "Original/IPIP-informed, CC BY 4.0",
+  "description": "Reflective pattern check across Transparent Influence, Status Humility, Empathy Under Pressure, Impulse & Boundary Control. Higher scores mean stronger protective behaviour against dark-pattern risk. Four-dimensional radar result, balanced index, level label, strongest protective archetype, and weakest-area reflection action.",
+  "ogTitle": "Dark Personality Pattern Check - Outfinity Quiz",
+  "ogDescription": "Non-clinical dark-pattern screen for manipulation, entitlement, empathy, and impulse-control risks."
+}

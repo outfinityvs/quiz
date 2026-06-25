@@ -24,7 +24,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 | Category | Finance, fundraising, and economic resilience |
 | Format | Knowledge quiz |
 | Priority | P1 |
-| Estimated duration | 8 min |
+| Estimated duration | 8-10 min |
 | Public slug | /term-sheet-literacy-quiz |
 | SEO focus | term sheet quiz; liquidation preference explained quiz; founder dilution test; venture financing terms |
 | Viral mechanic | High-curiosity scenarios around whether the user would sign the term sheet. |
@@ -36,7 +36,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 3. Downside Protection
 4. Process & Rights
 
-Each dimension must have exactly two scored public questions. Maturity and readiness instruments may add answer-support context questions; these are displayed separately and are not scored. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
+Each dimension must have exactly three scored public questions. Generic answer-support context questions must not be added; score calibration belongs in the answer wording, concept help, methodology note, and result guidance. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
 
 ### Public Questions and Answer Model
 
@@ -50,6 +50,10 @@ Each dimension must have exactly two scored public questions. Maturity and readi
 | 6 | Downside Protection | Compared with broad-based weighted-average anti-dilution, full-ratchet anti-dilution is generally what? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
 | 7 | Process & Rights | What does a pro-rata right generally allow an investor to do? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
 | 8 | Process & Rights | What is the practical purpose of a no-shop or exclusivity clause? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
+| 9 | Economics & Dilution | Why does a pre-money option-pool top-up change founder dilution? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
+| 10 | Control & Governance | What is the cleanest founder-friendly way to negotiate investor veto rights? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
+| 11 | Downside Protection | What does uncapped participating preferred generally allow in a sale? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
+| 12 | Process & Rights | What should founders clarify before agreeing to exclusivity during financing? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
 
 ### Answer Key and Explanations
 
@@ -61,10 +65,14 @@ Each dimension must have exactly two scored public questions. Maturity and readi
 - 6: B, full ratchet can reset conversion price to the new lower price regardless of round size.
 - 7: A, pro-rata rights allow participation to maintain ownership subject to the agreement.
 - 8: A, exclusivity restricts competing financing discussions for a defined period.
+- 9: A, A pre-money option pool is usually created before the new investment is priced, so existing holders bear most of that dilution.
+- 10: B, Reserved matters should be specific and material so normal operating decisions are not blocked unnecessarily.
+- 11: B, Participating preferred can take the liquidation preference first and then participate in remaining proceeds pro rata, unless capped or negotiated otherwise.
+- 12: B, Exclusivity is less dangerous when timeline, diligence scope, deliverables, and fallback options are explicit.
 
 ### Scoring Contract
 
-Each option carries 0-3 points. The best answer receives 3 points and a deliberately plausible but incomplete answer may receive 1 point only when the explanation justifies it. Each dimension has two items and is normalised as dimensionScore = obtainedPoints / 6 * 100. Overall mastery uses the balanced index: 0.70 * mean(dimensions) + 0.30 * weakestDimension. Answer order may be randomised only when numeric readability is preserved. The answer key and points must not be visible before completion.
+Each option carries 0-3 points. The best answer receives 3 points and a deliberately plausible but incomplete answer may receive 1 point only when the explanation justifies it. Each dimension has three items and is normalised as dimensionScore = obtainedPoints / 9 * 100. Overall mastery uses the balanced index: 0.70 * mean(dimensions) + 0.30 * weakestDimension. Answer order may be randomised only when numeric readability is preserved. The answer key and points must not be visible before completion.
 
 Level bands:
 
@@ -78,7 +86,7 @@ Level bands:
 
 ### Result Contract
 
-The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, limitations, and answer-support language when supported by the UI.
+The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, and limitations.
 
 Archetype mapping:
 

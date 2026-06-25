@@ -6,9 +6,9 @@
   "title": "B2B Sales Engine Readiness",
   "language": "en",
   "introduction": {
-    "subtitle": "Revenue maturity assessment. 6 min.",
-    "description": "<p>B2B Sales Engine Readiness helps you learn the vocabulary and typical expectations behind ICP & Qualification, Process & Conversion, Enablement & Customer Handoff, Forecasting & Retention. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "subtitle": "Revenue maturity assessment. 7-9 min.",
+    "description": "<p>B2B Sales Engine Readiness helps you learn the vocabulary and typical expectations behind ICP & Qualification, Process & Conversion, Enablement & Customer Handoff, Forecasting & Retention. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -622,6 +622,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How quickly can sales disqualify attractive but wrong-fit opportunities?",
+      "type": "profile",
+      "dimension": "icp-and-qualification",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows disqualifying wrong-fit deals; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of disqualifying wrong-fit deals, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show disqualifying wrong-fit deals in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Disqualifying wrong-fit deals is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-qualification": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "ICP & Qualification: How quickly can sales disqualify attractive but wrong-fit opportunities",
+        "summary": "ICP & Qualification is tested here through a concrete operating question: \"How quickly can sales disqualify attractive but wrong-fit opportunities?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "ICP & Qualification matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How are lost deals reviewed for stage, message, or qualification failure?",
+      "type": "profile",
+      "dimension": "process-and-conversion",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows lost-deal learning; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of lost-deal learning, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show lost-deal learning in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Lost-deal learning is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-conversion": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Process & Conversion: How are lost deals reviewed for stage, message, or qualification failure",
+        "summary": "Process & Conversion is tested here through a concrete operating question: \"How are lost deals reviewed for stage, message, or qualification failure?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Process & Conversion matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How consistently can new reps run discovery without founder intervention?",
+      "type": "profile",
+      "dimension": "enablement-and-customer-handoff",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows rep-led discovery; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of rep-led discovery, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show rep-led discovery in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Rep-led discovery is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "enablement-and-customer-handoff": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Enablement & Customer Handoff: How consistently can new reps run discovery without founder intervention",
+        "summary": "Enablement & Customer Handoff is tested here through a concrete operating question: \"How consistently can new reps run discovery without founder intervention?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Enablement & Customer Handoff matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How are retention risks surfaced before renewal or expansion conversations?",
+      "type": "profile",
+      "dimension": "forecasting-and-retention",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows early renewal risk detection; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of early renewal risk detection, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show early renewal risk detection in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Early renewal risk detection is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "forecasting-and-retention": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Forecasting & Retention: How are retention risks surfaced before renewal or expansion conversations",
+        "summary": "Forecasting & Retention is tested here through a concrete operating question: \"How are retention risks surfaced before renewal or expansion conversations?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Forecasting & Retention matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -635,189 +903,29 @@
         "key": "icp-and-qualification",
         "label": "ICP & Qualification",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "process-and-conversion",
         "label": "Process & Conversion",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "enablement-and-customer-handoff",
         "label": "Enablement & Customer Handoff",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "forecasting-and-retention",
         "label": "Forecasting & Retention",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-icp-and-qualification",
-      "text": "What level of evidence supports your answers for ICP & Qualification?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "ICP & Qualification",
-        "summary": "This question asks how well your answers about ICP & Qualification are supported. ICP & Qualification means defining which accounts are worth selling to and which opportunities deserve sales time, using fit, urgency, budget, authority, and use case. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about ICP & Qualification is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your ICP & Qualification answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Sales process",
-            "url": "https://en.wikipedia.org/wiki/Sales_process"
-          },
-          {
-            "label": "Wikipedia: Business-to-business",
-            "url": "https://en.wikipedia.org/wiki/Business-to-business"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-process-and-conversion",
-      "text": "What level of evidence supports your answers for Process & Conversion?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Process & Conversion",
-        "summary": "This question asks how well your answers about Process & Conversion are supported. Process & Conversion means turning sales from a set of founder instincts into visible stages, conversion evidence, cycle learning, and decision rules. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Process & Conversion is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Process & Conversion answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Sales process",
-            "url": "https://en.wikipedia.org/wiki/Sales_process"
-          },
-          {
-            "label": "Wikipedia: Business-to-business",
-            "url": "https://en.wikipedia.org/wiki/Business-to-business"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-enablement-and-customer-handoff",
-      "text": "What level of evidence supports your answers for Enablement & Customer Handoff?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Enablement & Customer Handoff",
-        "summary": "This question asks how well your answers about Enablement & Customer Handoff are supported. Enablement & Customer Handoff means making discovery, demos, proof, onboarding, and customer-success transfer repeatable enough that growth does not depend on one hero seller. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Enablement & Customer Handoff is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Enablement & Customer Handoff answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Product management",
-            "url": "https://en.wikipedia.org/wiki/Product_management"
-          },
-          {
-            "label": "Wikipedia: Minimum viable product",
-            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-forecasting-and-retention",
-      "text": "What level of evidence supports your answers for Forecasting & Retention?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Forecasting & Retention",
-        "summary": "This question asks how well your answers about Forecasting & Retention are supported. Forecasting & Retention means connecting forecast quality to real pipeline evidence and to whether customers retain, expand, and succeed after the sale. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Forecasting & Retention is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Forecasting & Retention answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Probability",
-            "url": "https://en.wikipedia.org/wiki/Probability"
-          },
-          {
-            "label": "Wikipedia: Bayesian probability",
-            "url": "https://en.wikipedia.org/wiki/Bayesian_probability"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

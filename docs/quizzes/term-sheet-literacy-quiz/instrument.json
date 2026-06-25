@@ -6,9 +6,9 @@
   "title": "Term Sheet Literacy Challenge",
   "language": "en",
   "introduction": {
-    "subtitle": "Knowledge quiz. 8 min.",
+    "subtitle": "Knowledge quiz. 8-10 min.",
     "description": "<p>Term Sheet Literacy Challenge is a learning challenge for the terminology, assumptions, and typical decision traps behind Economics & Dilution, Control & Governance, Downside Protection, Process & Rights. It is designed to teach through plausible wrong answers as much as through the correct ones.</p><p>Choose the answer you would use in a real conversation. After completion, the answer review explains the concept and points to the area worth studying next.</p>",
-    "duration": "8 questions. Approximately 8 min.",
+    "duration": "12 questions. Approximately 8-10 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start the challenge"
@@ -558,6 +558,242 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "Why does a pre-money option-pool top-up change founder dilution?",
+      "type": "profile",
+      "dimension": "economics-and-dilution",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "A pre-money option pool is usually created before the new investment is priced, so existing holders bear most of that dilution.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Because it is usually created before the new money comes in, diluting existing holders.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Because it always dilutes only the incoming investor.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Because it removes the need for future hiring grants.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Because it converts preferred shares into debt.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-dilution": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Economics & Dilution: Why does a pre-money option-pool top-up change founder dilution",
+        "summary": "Economics & Dilution is tested here through a concrete operating question: \"Why does a pre-money option-pool top-up change founder dilution?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Because it is usually created before the new money comes in, diluting existing holders.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "What is the cleanest founder-friendly way to negotiate investor veto rights?",
+      "type": "profile",
+      "dimension": "control-and-governance",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Reserved matters should be specific and material so normal operating decisions are not blocked unnecessarily.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Reject every veto right, including those over issuing senior securities.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Define narrow reserved matters tied to material company actions.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Accept broad vetoes and rely on goodwill later.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Hide important decisions from the board.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "control-and-governance": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Control & Governance: What is the cleanest founder-friendly way to negotiate investor veto rights",
+        "summary": "Control & Governance is tested here through a concrete operating question: \"What is the cleanest founder-friendly way to negotiate investor veto rights?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Define narrow reserved matters tied to material company actions.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "What does uncapped participating preferred generally allow in a sale?",
+      "type": "profile",
+      "dimension": "downside-protection",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Participating preferred can take the liquidation preference first and then participate in remaining proceeds pro rata, unless capped or negotiated otherwise.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The investor gets only common-share treatment.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The investor takes the preference and then also participates pro rata in remaining proceeds.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The investor loses the liquidation preference if the company sells below valuation.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The founders always receive the first proceeds.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "downside-protection": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Downside Protection: What does uncapped participating preferred generally allow in a sale",
+        "summary": "Downside Protection is tested here through a concrete operating question: \"What does uncapped participating preferred generally allow in a sale?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"The investor takes the preference and then also participates pro rata in remaining proceeds.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "What should founders clarify before agreeing to exclusivity during financing?",
+      "type": "profile",
+      "dimension": "process-and-rights",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Exclusivity is less dangerous when timeline, diligence scope, deliverables, and fallback options are explicit.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Only the press announcement date.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Timeline, diligence scope, closing conditions, and what happens if the investor stalls.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Nothing; exclusivity has no practical effect.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Only whether the investor likes the logo.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-rights": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Process & Rights: What should founders clarify before agreeing to exclusivity during financing",
+        "summary": "Process & Rights is tested here through a concrete operating question: \"What should founders clarify before agreeing to exclusivity during financing?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Timeline, diligence scope, closing conditions, and what happens if the investor stalls.\"",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -571,25 +807,25 @@
         "key": "economics-and-dilution",
         "label": "Economics & Dilution",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "control-and-governance",
         "label": "Control & Governance",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "downside-protection",
         "label": "Downside Protection",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "process-and-rights",
         "label": "Process & Rights",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },

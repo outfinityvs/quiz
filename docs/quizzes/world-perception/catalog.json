@@ -6,7 +6,7 @@
   "durationCategory": "short",
   "questions": 12,
   "type": "research",
-  "domain": "knowledge",
+  "domain": "cognition",
   "hasRecommendation": true,
   "license": "CC BY 4.0",
   "description": "12 factual estimation questions across four perception dimensions (Health, Economic, Demographic, Climate). Each question cites its source. Result maps your perception style per domain (Realistic, Selective, Pessimistic, Optimistic) and reveals where your worldview diverges from the data.",

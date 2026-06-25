@@ -2,7 +2,7 @@
   "slug": "quizzes/pricing-maturity-assessment",
   "title": "Pricing & Monetisation Maturity",
   "promise": "Pricing and monetisation maturity diagnostic for value, packaging, price architecture, governance, and experimentation.",
-  "duration": "6 min",
+  "duration": "7-9 min",
   "durationCategory": "long",
   "questions": 12,
   "type": "maturity",
@@ -11,7 +11,9 @@
   "audience": "Founders, product leaders, finance teams, revenue leaders, and pricing consultants",
   "hasRecommendation": false,
   "license": "CC BY 4.0",
-  "description": "Commercial maturity assessment across Value Understanding, Packaging & Segmentation, Price Architecture & Governance, Experimentation & Realisation. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate answer-support checks.",
+  "description": "Commercial maturity assessment across Value Understanding, Packaging & Segmentation, Price Architecture & Governance, Experimentation & Realisation. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action.",
   "ogTitle": "Pricing & Monetisation Maturity - Outfinity Quiz",
-  "ogDescription": "Pricing and monetisation maturity diagnostic for value, packaging, price architecture, governance, and experimentation."
+  "ogDescription": "Pricing and monetisation maturity diagnostic for value, packaging, price architecture, governance, and experimentation.",
+  "featuredGroup": "Founder Essentials",
+  "featuredRank": 13
 }

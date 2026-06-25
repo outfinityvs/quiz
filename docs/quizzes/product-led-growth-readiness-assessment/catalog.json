@@ -2,7 +2,7 @@
   "slug": "quizzes/product-led-growth-readiness-assessment",
   "title": "Product-Led Growth Readiness",
   "promise": "PLG readiness diagnostic for time to value, activation, signals, expansion, and virality.",
-  "duration": "6 min",
+  "duration": "7-9 min",
   "durationCategory": "long",
   "questions": 12,
   "type": "readiness",
@@ -11,7 +11,7 @@
   "audience": "B2B and B2C SaaS founders, product, growth, sales, and customer-success leaders",
   "hasRecommendation": false,
   "license": "CC BY 4.0",
-  "description": "Go-to-market readiness assessment across Time to Value, Activation & Self-Service, Product Signals & Data, Expansion & Virality. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate answer-support checks.",
+  "description": "Go-to-market readiness assessment across Time to Value, Activation & Self-Service, Product Signals & Data, Expansion & Virality. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action.",
   "ogTitle": "Product-Led Growth Readiness - Outfinity Quiz",
   "ogDescription": "PLG readiness diagnostic for time to value, activation, signals, expansion, and virality."
 }

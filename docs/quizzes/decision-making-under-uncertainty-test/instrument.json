@@ -6,9 +6,9 @@
   "title": "Decision-Making Under Uncertainty",
   "language": "en",
   "introduction": {
-    "subtitle": "Scenario-based maturity assessment. 6 min.",
-    "description": "<p>Decision-Making Under Uncertainty helps you learn the vocabulary and typical expectations behind Probabilistic Thinking, Evidence Quality, Reversibility & Speed, Bias Control & Learning. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "subtitle": "Scenario-based maturity assessment. 7-9 min.",
+    "description": "<p>Decision-Making Under Uncertainty helps you learn the vocabulary and typical expectations behind Probabilistic Thinking, Evidence Quality, Reversibility & Speed, Bias Control & Learning. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -622,6 +622,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How are forecasts updated when new evidence arrives?",
+      "type": "profile",
+      "dimension": "probabilistic-thinking",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows forecast updating; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "probabilistic-thinking": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of forecast updating, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "probabilistic-thinking": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show forecast updating in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "probabilistic-thinking": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Forecast updating is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "probabilistic-thinking": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Probabilistic Thinking: How are forecasts updated when new evidence arrives",
+        "summary": "Probabilistic Thinking is tested here through a concrete operating question: \"How are forecasts updated when new evidence arrives?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Probabilistic Thinking matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How do you separate customer evidence from internal enthusiasm?",
+      "type": "profile",
+      "dimension": "evidence-quality",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows separating customer evidence from enthusiasm; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-quality": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of separating customer evidence from enthusiasm, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-quality": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show separating customer evidence from enthusiasm in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-quality": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Separating customer evidence from enthusiasm is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-quality": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Evidence Quality: How do you separate customer evidence from internal enthusiasm",
+        "summary": "Evidence Quality is tested here through a concrete operating question: \"How do you separate customer evidence from internal enthusiasm?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Evidence Quality matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How explicitly do you choose between speed, reversibility, and downside?",
+      "type": "profile",
+      "dimension": "reversibility-and-speed",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows speed and reversibility trade-offs; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "reversibility-and-speed": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of speed and reversibility trade-offs, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "reversibility-and-speed": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show speed and reversibility trade-offs in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "reversibility-and-speed": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Speed and reversibility trade-offs is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "reversibility-and-speed": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Reversibility & Speed: How explicitly do you choose between speed, reversibility, and downside",
+        "summary": "Reversibility & Speed is tested here through a concrete operating question: \"How explicitly do you choose between speed, reversibility, and downside?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Reversibility & Speed matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How are decision lessons captured before the story gets rewritten?",
+      "type": "profile",
+      "dimension": "bias-control-and-learning",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows pre-narrative decision learning; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "bias-control-and-learning": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of pre-narrative decision learning, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "bias-control-and-learning": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show pre-narrative decision learning in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "bias-control-and-learning": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Pre-narrative decision learning is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "bias-control-and-learning": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Bias Control & Learning: How are decision lessons captured before the story gets rewritten",
+        "summary": "Bias Control & Learning is tested here through a concrete operating question: \"How are decision lessons captured before the story gets rewritten?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Bias Control & Learning matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -635,189 +903,29 @@
         "key": "probabilistic-thinking",
         "label": "Probabilistic Thinking",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "evidence-quality",
         "label": "Evidence Quality",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "reversibility-and-speed",
         "label": "Reversibility & Speed",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "bias-control-and-learning",
         "label": "Bias Control & Learning",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-probabilistic-thinking",
-      "text": "What level of evidence supports your answers for Probabilistic Thinking?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Probabilistic Thinking",
-        "summary": "This question asks how well your answers about Probabilistic Thinking are supported. Probabilistic Thinking means expressing uncertainty as ranges, likelihoods, scenarios, and updateable forecasts rather than as confident yes-or-no stories. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Probabilistic Thinking is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Probabilistic Thinking answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Probability",
-            "url": "https://en.wikipedia.org/wiki/Probability"
-          },
-          {
-            "label": "Wikipedia: Bayesian probability",
-            "url": "https://en.wikipedia.org/wiki/Bayesian_probability"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-evidence-quality",
-      "text": "What level of evidence supports your answers for Evidence Quality?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Evidence Quality",
-        "summary": "This question asks how well your answers about Evidence Quality are supported. Evidence Quality means giving more weight to direct, recent, comparable, falsifiable evidence than to anecdotes, authority, or wishful interpretation. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Evidence Quality is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Evidence Quality answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Evidence",
-            "url": "https://en.wikipedia.org/wiki/Evidence"
-          },
-          {
-            "label": "Wikipedia: Scientific method",
-            "url": "https://en.wikipedia.org/wiki/Scientific_method"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-reversibility-and-speed",
-      "text": "What level of evidence supports your answers for Reversibility & Speed?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Reversibility & Speed",
-        "summary": "This question asks how well your answers about Reversibility & Speed are supported. Reversibility & Speed means distinguishing one-way and two-way door decisions so reversible choices move fast while irreversible choices get stronger review. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Reversibility & Speed is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Reversibility & Speed answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Decision-making",
-            "url": "https://en.wikipedia.org/wiki/Decision-making"
-          },
-          {
-            "label": "Wikipedia: Heuristic",
-            "url": "https://en.wikipedia.org/wiki/Heuristic"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-bias-control-and-learning",
-      "text": "What level of evidence supports your answers for Bias Control & Learning?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Bias Control & Learning",
-        "summary": "This question asks how well your answers about Bias Control & Learning are supported. Bias Control & Learning means challenging preferred answers before commitment and reviewing outcomes afterwards to reduce overconfidence, hindsight bias, and motivated reasoning. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Bias Control & Learning is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Bias Control & Learning answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Pre-mortem",
-            "url": "https://en.wikipedia.org/wiki/Pre-mortem"
-          },
-          {
-            "label": "Groupthink",
-            "url": "https://en.wikipedia.org/wiki/Groupthink"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

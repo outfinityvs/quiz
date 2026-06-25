@@ -6,9 +6,9 @@
   "title": "Investor Pitch Literacy Challenge",
   "language": "en",
   "introduction": {
-    "subtitle": "Knowledge quiz. 7 min.",
+    "subtitle": "Knowledge quiz. 8-10 min.",
     "description": "<p>Investor Pitch Literacy Challenge teaches the typical structure and vocabulary of a first investor pitch: problem, customer, why now, traction, economics, funding ask, Q&A, and follow-up. It is not a deck grader; it is a private learning check for the logic investors expect to hear.</p><p>Each question uses plausible founder answers. Pick the answer you would actually use in a meeting. After completion, the answer review explains why one version is stronger and which concept to study next.</p>",
-    "duration": "8 questions. Approximately 7 min.",
+    "duration": "12 questions. Approximately 8-10 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start the challenge"
@@ -558,6 +558,242 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "What should a pitch appendix do?",
+      "type": "profile",
+      "dimension": "pitch-structure",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "The appendix should support Q&A with deeper proof while the main deck keeps the core story simple.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Carry the core story because the main deck should stay vague.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Hold deeper evidence, backups, and detail for likely investor questions.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Replace the financial model.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Hide weak assumptions from discussion.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pitch-structure": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Pitch Structure: What should a pitch appendix do",
+        "summary": "Pitch Structure is tested here through a concrete operating question: \"What should a pitch appendix do?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Hold deeper evidence, backups, and detail for likely investor questions.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "Which customer evidence best supports a painful B2B problem?",
+      "type": "profile",
+      "dimension": "problem-and-customer",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Repeated workflow disruption, budget, and current workaround cost show stronger pain than compliments.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Several target buyers describe the same costly workflow break and current workaround.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Friends say the idea sounds interesting.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. A large market report mentions the category.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 1
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The founder personally dislikes the old software.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-and-customer": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Problem & Customer: Which customer evidence best supports a painful B2B problem",
+        "summary": "Problem & Customer is tested here through a concrete operating question: \"Which customer evidence best supports a painful B2B problem?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Several target buyers describe the same costly workflow break and current workaround.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How should use of funds be framed in a seed pitch?",
+      "type": "profile",
+      "dimension": "traction-and-ask",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "The ask should connect capital to milestones that reduce risk before the next financing or strategic decision.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. As a generic runway extension with no milestone logic.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. As capital tied to specific de-risking milestones and the next financing story.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. As money to hire as many people as possible.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. As proof that the company deserves a higher valuation.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "traction-and-ask": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Traction & Ask: How should use of funds be framed in a seed pitch",
+        "summary": "Traction & Ask is tested here through a concrete operating question: \"How should use of funds be framed in a seed pitch?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"As capital tied to specific de-risking milestones and the next financing story.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "An investor says 'not now' after a thoughtful meeting. What is the best next move?",
+      "type": "profile",
+      "dimension": "delivery-and-follow-up",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "A useful no can still reveal the blocking concern, relevant referrals, or a future update condition.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Argue until the investor changes their mind in the meeting.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Ask what would need to change, whether a referral fits, and whether a concise future update is welcome.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Stop sending any updates to all investors.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Send daily reminders until they reply.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-follow-up": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Delivery & Follow-up: An investor says 'not now' after a thoughtful meeting. What is the best next move",
+        "summary": "Delivery & Follow-up is tested here through a concrete operating question: \"An investor says 'not now' after a thoughtful meeting. What is the best next move?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Ask what would need to change, whether a referral fits, and whether a concise future update is welcome.\"",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -570,25 +806,25 @@
         "key": "pitch-structure",
         "label": "Pitch Structure",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "problem-and-customer",
         "label": "Problem & Customer",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "traction-and-ask",
         "label": "Traction & Ask",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "delivery-and-follow-up",
         "label": "Delivery & Follow-up",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },

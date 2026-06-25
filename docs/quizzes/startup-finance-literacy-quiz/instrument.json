@@ -6,9 +6,9 @@
   "title": "Startup Finance Literacy Challenge",
   "language": "en",
   "introduction": {
-    "subtitle": "Knowledge quiz. 7-8 min.",
+    "subtitle": "Knowledge quiz. 8-10 min.",
     "description": "<p>Startup Finance Literacy Challenge is a learning challenge for the terminology, assumptions, and typical decision traps behind Unit Economics, Cash & Runway, Cap Table & Dilution, Financial Statements. It is designed to teach through plausible wrong answers as much as through the correct ones.</p><p>Choose the answer you would use in a real conversation. After completion, the answer review explains the concept and points to the area worth studying next.</p>",
-    "duration": "8 questions. Approximately 7-8 min.",
+    "duration": "12 questions. Approximately 8-10 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start the challenge"
@@ -558,6 +558,242 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "A SaaS product has EUR 20,000 MRR and EUR 8,000 gross profit after direct hosting and support costs. What is gross margin?",
+      "type": "profile",
+      "dimension": "unit-economics",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Gross margin is gross profit divided by revenue: EUR 8,000 / EUR 20,000 = 40%.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. 40%.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. 60%.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. 250%.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. It cannot be calculated from MRR and gross profit.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "unit-economics": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Unit Economics: A SaaS product has EUR 20,000 MRR and EUR 8,000 gross profit after direct hosting and support costs. What is gross margin",
+        "summary": "Unit Economics is tested here through a concrete operating question: \"A SaaS product has EUR 20,000 MRR and EUR 8,000 gross profit after direct hosting and support costs. What is gross margin?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"40%.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "Which action improves runway without reducing monthly operating burn?",
+      "type": "profile",
+      "dimension": "cash-and-runway",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Collecting cash earlier improves cash balance and runway even if the cost base is unchanged.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Collecting annual prepayments from customers who would otherwise pay monthly.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Hiring ahead of plan because bookings are strong.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Moving all revenue recognition into the current month.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Changing EBITDA presentation without changing cash collections.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-and-runway": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Cash & Runway: Which action improves runway without reducing monthly operating burn",
+        "summary": "Cash & Runway is tested here through a concrete operating question: \"Which action improves runway without reducing monthly operating burn?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Collecting annual prepayments from customers who would otherwise pay monthly.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "A SAFE has a valuation cap below the priced round valuation. What is the usual effect of the cap?",
+      "type": "profile",
+      "dimension": "cap-table-and-dilution",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "The valuation cap gives the SAFE holder a lower conversion price than the priced round price, resulting in more shares.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. It usually gives the SAFE holder a lower conversion price and more shares than the priced-round price.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 3
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. It prevents any dilution for founders.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. It automatically gives the SAFE holder board control.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. It only matters if the company is already profitable.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cap-table-and-dilution": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Cap Table & Dilution: A SAFE has a valuation cap below the priced round valuation. What is the usual effect of the cap",
+        "summary": "Cap Table & Dilution is tested here through a concrete operating question: \"A SAFE has a valuation cap below the priced round valuation. What is the usual effect of the cap?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"It usually gives the SAFE holder a lower conversion price and more shares than the priced-round price.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "Which question cannot be answered from the income statement alone?",
+      "type": "profile",
+      "dimension": "financial-statements",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Runway requires cash balance and cash burn, so the balance sheet and cash flow view are also needed.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. What is gross profit for the period?",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. What was operating expense for the period?",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. How many months of runway remain?",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 3
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. What revenue was recognised in the period?",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "financial-statements": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Financial Statements: Which question cannot be answered from the income statement alone",
+        "summary": "Financial Statements is tested here through a concrete operating question: \"Which question cannot be answered from the income statement alone?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"How many months of runway remain?\"",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -571,25 +807,25 @@
         "key": "unit-economics",
         "label": "Unit Economics",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "cash-and-runway",
         "label": "Cash & Runway",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "cap-table-and-dilution",
         "label": "Cap Table & Dilution",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "financial-statements",
         "label": "Financial Statements",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },

@@ -6,9 +6,9 @@
   "title": "Fundraising Readiness Radar",
   "language": "en",
   "introduction": {
-    "subtitle": "Readiness assessment. 6 min.",
-    "description": "<p>Fundraising Readiness Radar helps you learn the vocabulary and typical expectations behind Narrative & Ambition, Evidence & Traction, Process & Targeting, Deal Readiness. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "subtitle": "Readiness assessment. 7-9 min.",
+    "description": "<p>Fundraising Readiness Radar helps you learn the vocabulary and typical expectations behind Narrative & Ambition, Evidence & Traction, Process & Targeting, Deal Readiness. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -582,6 +582,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How clearly does the pitch connect market timing to a venture-scale wedge?",
+      "type": "profile",
+      "dimension": "narrative-and-ambition",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows market timing connected to a venture-scale wedge; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "narrative-and-ambition": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of market timing connected to a venture-scale wedge, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "narrative-and-ambition": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show market timing connected to a venture-scale wedge in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "narrative-and-ambition": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Market timing connected to a venture-scale wedge is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "narrative-and-ambition": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Narrative & Ambition: How clearly does the pitch connect market timing to a venture-scale wedge",
+        "summary": "Narrative & Ambition is tested here through a concrete operating question: \"How clearly does the pitch connect market timing to a venture-scale wedge?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Narrative & Ambition matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How much of traction is quality of demand rather than vanity volume?",
+      "type": "profile",
+      "dimension": "evidence-and-traction",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows quality of demand in traction; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-and-traction": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of quality of demand in traction, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-and-traction": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show quality of demand in traction in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-and-traction": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Quality of demand in traction is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-and-traction": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Evidence & Traction: How much of traction is quality of demand rather than vanity volume",
+        "summary": "Evidence & Traction is tested here through a concrete operating question: \"How much of traction is quality of demand rather than vanity volume?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Evidence & Traction matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How ready is the team to run investor conversations in a tight sequence?",
+      "type": "profile",
+      "dimension": "process-and-targeting",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows sequenced investor conversations; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-targeting": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of sequenced investor conversations, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-targeting": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show sequenced investor conversations in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-targeting": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Sequenced investor conversations is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "process-and-targeting": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Process & Targeting: How ready is the team to run investor conversations in a tight sequence",
+        "summary": "Process & Targeting is tested here through a concrete operating question: \"How ready is the team to run investor conversations in a tight sequence?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Process & Targeting matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How well can you defend the milestones the round is meant to reach?",
+      "type": "profile",
+      "dimension": "deal-readiness",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows defending round milestones; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "deal-readiness": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of defending round milestones, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "deal-readiness": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show defending round milestones in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "deal-readiness": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Defending round milestones is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "deal-readiness": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Deal Readiness: How well can you defend the milestones the round is meant to reach",
+        "summary": "Deal Readiness is tested here through a concrete operating question: \"How well can you defend the milestones the round is meant to reach?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Deal Readiness matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -595,171 +863,29 @@
         "key": "narrative-and-ambition",
         "label": "Narrative & Ambition",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "evidence-and-traction",
         "label": "Evidence & Traction",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "process-and-targeting",
         "label": "Process & Targeting",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "deal-readiness",
         "label": "Deal Readiness",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-narrative-and-ambition",
-      "text": "What level of evidence supports your answers for Narrative & Ambition?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Narrative & Ambition",
-        "summary": "This question asks how well your answers about Narrative & Ambition are supported. Narrative & Ambition means whether the fundraising story explains the customer, problem, timing, ambition, and why this can become a venture-scale outcome. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Narrative & Ambition is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Narrative & Ambition answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": []
-      }
-    },
-    {
-      "id": "evidence-evidence-and-traction",
-      "text": "What level of evidence supports your answers for Evidence & Traction?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Evidence & Traction",
-        "summary": "This question asks how well your answers about Evidence & Traction are supported. Evidence & Traction means the proof that demand, usage, economics, and momentum are real enough for investors to take seriously. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Evidence & Traction is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Evidence & Traction answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Evidence",
-            "url": "https://en.wikipedia.org/wiki/Evidence"
-          },
-          {
-            "label": "Wikipedia: Scientific method",
-            "url": "https://en.wikipedia.org/wiki/Scientific_method"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-process-and-targeting",
-      "text": "What level of evidence supports your answers for Process & Targeting?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Process & Targeting",
-        "summary": "This question asks how well your answers about Process & Targeting are supported. Process & Targeting means running fundraising as a disciplined process with investor fit, sequencing, materials, follow-up, and decision control. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Process & Targeting is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Process & Targeting answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": []
-      }
-    },
-    {
-      "id": "evidence-deal-readiness",
-      "text": "What level of evidence supports your answers for Deal Readiness?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Deal Readiness",
-        "summary": "This question asks how well your answers about Deal Readiness are supported. Deal Readiness means whether the round size, use of funds, milestones, records, cap table, and diligence materials can survive investor scrutiny. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Deal Readiness is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Deal Readiness answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Elevator pitch",
-            "url": "https://en.wikipedia.org/wiki/Elevator_pitch"
-          },
-          {
-            "label": "Wikipedia: Venture capital",
-            "url": "https://en.wikipedia.org/wiki/Venture_capital"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

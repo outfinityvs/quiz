@@ -352,12 +352,14 @@ p {
 }
 
 .catalog-studio h1 {
-  max-width: 10ch;
+  max-width: 100%;
+  width: max-content;
   margin: 0 0 var(--space-md);
   color: var(--text);
   font-family: var(--font-heading);
-  font-size: 2.62rem;
-  line-height: 1.04;
+  font-size: 3rem;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .catalog-studio__text {
@@ -415,10 +417,9 @@ p {
 .catalog-studio__panel {
   position: relative;
   z-index: 1;
-  display: grid;
-  grid-template-rows: 1fr auto;
-  gap: var(--space-sm);
-  min-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0.65rem;
   border: 1px solid color-mix(in srgb, var(--accent) 48%, transparent);
   border-radius: var(--radius-tight);
@@ -443,22 +444,26 @@ p {
 .studio-radar {
   display: grid;
   place-items: center;
-  height: 320px;
-  min-height: 320px;
-  padding: 0 0 0.85rem;
+  width: min(100%, 360px);
+  aspect-ratio: 1 / 1;
+  padding: 0;
 }
 
 .studio-radar svg {
   width: 100%;
   height: 100%;
   max-width: 560px;
-  transform: translateY(-26px);
 }
 
 .studio-metrics {
+  position: absolute;
+  top: 0.55rem;
+  left: 0.55rem;
+  right: 0.55rem;
+  z-index: 2;
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--space-sm);
+  pointer-events: none;
 }
 
 .studio-metrics span {
@@ -1280,7 +1285,7 @@ p {
   }
 
   .catalog-studio h1 {
-    max-width: 14ch;
+    max-width: 100%;
   }
 
 }
@@ -1315,7 +1320,7 @@ p {
   }
 
   .catalog-studio h1 {
-    font-size: 1.9rem;
+    font-size: 1.82rem;
   }
 
   .catalog-studio__panel {
@@ -1324,11 +1329,11 @@ p {
   }
 
   .studio-radar {
-    min-height: 295px;
+    width: min(100%, 320px);
   }
 
   .studio-radar svg {
-    max-height: 340px;
+    max-height: none;
   }
 
   .studio-metrics {

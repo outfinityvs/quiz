@@ -1,0 +1,859 @@
+{
+  "id": "business-idea-testing-assessment",
+  "slug": "business-idea-testing-assessment",
+  "version": 1,
+  "locale": "en",
+  "title": "Business Idea Testing Readiness",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Maturity assessment. 7-9 min.",
+    "description": "<p>Business Idea Testing Readiness helps you assess Assumption Mapping, Experiment Selection, Evidence Strength, Learning Decisions through concrete operating questions. Answer from observable behaviour and current evidence, not aspiration.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start assessment"
+  },
+  "deliberationText": "Calculating your diagnostic...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How clearly are desirability, viability, feasibility, and market assumptions separated?",
+      "type": "profile",
+      "dimension": "assumption-mapping",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows separating assumption types; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of separating assumption types, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show separating assumption types in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Separating assumption types is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Assumption Mapping: How clearly are desirability, viability, feasibility, and market assumptions separated",
+        "summary": "Assumption Mapping is tested here through a concrete operating question: \"How clearly are desirability, viability, feasibility, and market assumptions separated?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Assumption Mapping matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q2",
+      "text": "How are assumptions ranked by how badly they could kill the business idea?",
+      "type": "profile",
+      "dimension": "assumption-mapping",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows ranking idea-killing assumptions; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of ranking idea-killing assumptions, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show ranking idea-killing assumptions in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Ranking idea-killing assumptions is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Assumption Mapping: How are assumptions ranked by how badly they could kill the business idea",
+        "summary": "Assumption Mapping is tested here through a concrete operating question: \"How are assumptions ranked by how badly they could kill the business idea?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Assumption Mapping matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q3",
+      "text": "How visible is the evidence gap behind each critical assumption?",
+      "type": "profile",
+      "dimension": "assumption-mapping",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows visible evidence gaps; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of visible evidence gaps, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show visible evidence gaps in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Visible evidence gaps is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "assumption-mapping": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Assumption Mapping: How visible is the evidence gap behind each critical assumption",
+        "summary": "Assumption Mapping is tested here through a concrete operating question: \"How visible is the evidence gap behind each critical assumption?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Assumption Mapping matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q4",
+      "text": "How well does the chosen experiment match the assumption being tested?",
+      "type": "profile",
+      "dimension": "experiment-selection",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows experiment-assumption fit; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of experiment-assumption fit, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show experiment-assumption fit in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Experiment-assumption fit is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Experiment Selection: How well does the chosen experiment match the assumption being tested",
+        "summary": "Experiment Selection is tested here through a concrete operating question: \"How well does the chosen experiment match the assumption being tested?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Experiment Selection matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q5",
+      "text": "How often does the team choose cheaper tests before expensive build work?",
+      "type": "profile",
+      "dimension": "experiment-selection",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows choosing cheaper credible tests first; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of choosing cheaper credible tests first, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show choosing cheaper credible tests first in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Choosing cheaper credible tests first is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Experiment Selection: How often does the team choose cheaper tests before expensive build work",
+        "summary": "Experiment Selection is tested here through a concrete operating question: \"How often does the team choose cheaper tests before expensive build work?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Experiment Selection matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q6",
+      "text": "How clearly are test boundaries, participants, and success criteria defined?",
+      "type": "profile",
+      "dimension": "experiment-selection",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows experiment boundaries and success criteria; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of experiment boundaries and success criteria, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show experiment boundaries and success criteria in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Experiment boundaries and success criteria is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "experiment-selection": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Experiment Selection: How clearly are test boundaries, participants, and success criteria defined",
+        "summary": "Experiment Selection is tested here through a concrete operating question: \"How clearly are test boundaries, participants, and success criteria defined?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Experiment Selection matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q7",
+      "text": "How does the team distinguish opinion from commitment?",
+      "type": "profile",
+      "dimension": "evidence-strength",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows distinguishing opinion from commitment; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of distinguishing opinion from commitment, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show distinguishing opinion from commitment in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Distinguishing opinion from commitment is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Evidence Strength: How does the team distinguish opinion from commitment",
+        "summary": "Evidence Strength is tested here through a concrete operating question: \"How does the team distinguish opinion from commitment?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Evidence Strength matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q8",
+      "text": "How carefully are false positives and biased samples considered?",
+      "type": "profile",
+      "dimension": "evidence-strength",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows false positives and biased samples; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of false positives and biased samples, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show false positives and biased samples in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. False positives and biased samples is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Evidence Strength: How carefully are false positives and biased samples considered",
+        "summary": "Evidence Strength is tested here through a concrete operating question: \"How carefully are false positives and biased samples considered?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Evidence Strength matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q9",
+      "text": "How much weight is given to repeated behaviour compared with one-off enthusiasm?",
+      "type": "profile",
+      "dimension": "evidence-strength",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows repeated behaviour versus enthusiasm; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of repeated behaviour versus enthusiasm, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show repeated behaviour versus enthusiasm in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Repeated behaviour versus enthusiasm is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "evidence-strength": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Evidence Strength: How much weight is given to repeated behaviour compared with one-off enthusiasm",
+        "summary": "Evidence Strength is tested here through a concrete operating question: \"How much weight is given to repeated behaviour compared with one-off enthusiasm?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Evidence Strength matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How explicitly does each test connect to a decision?",
+      "type": "profile",
+      "dimension": "learning-decisions",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows tests connected to decisions; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of tests connected to decisions, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show tests connected to decisions in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Tests connected to decisions is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Learning Decisions: How explicitly does each test connect to a decision",
+        "summary": "Learning Decisions is tested here through a concrete operating question: \"How explicitly does each test connect to a decision?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Learning Decisions matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How quickly are results translated into changes in offer, segment, channel, or model?",
+      "type": "profile",
+      "dimension": "learning-decisions",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows experiment results changing the business idea; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of experiment results changing the business idea, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show experiment results changing the business idea in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Experiment results changing the business idea is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Learning Decisions: How quickly are results translated into changes in offer, segment, channel, or model",
+        "summary": "Learning Decisions is tested here through a concrete operating question: \"How quickly are results translated into changes in offer, segment, channel, or model?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Learning Decisions matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How are inconclusive tests handled?",
+      "type": "profile",
+      "dimension": "learning-decisions",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows handling inconclusive tests; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of handling inconclusive tests, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show handling inconclusive tests in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Handling inconclusive tests is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "learning-decisions": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Learning Decisions: How are inconclusive tests handled",
+        "summary": "Learning Decisions is tested here through a concrete operating question: \"How are inconclusive tests handled?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Learning Decisions matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "maturity",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "assumption-mapping",
+        "label": "Assumption Mapping",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "experiment-selection",
+        "label": "Experiment Selection",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "evidence-strength",
+        "label": "Evidence Strength",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "learning-decisions",
+        "label": "Learning Decisions",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      }
+    ]
+  },
+  "banner": "outfinity-explorer-circle",
+  "questionStageTitle": "Answer from current behaviour",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over ideal self-description."
+}

@@ -2,7 +2,7 @@
 
 ## Scope
 
-This review covers the current quiz catalog, with emphasis on the business, investor, product, growth, AI, cyber, privacy, and ESG diagnostics introduced in DS026-DS055.
+This review covers the current quiz catalog, with emphasis on the business, investor, product, growth, AI, cyber, privacy, ESG, hiring, customer-development, lean-startup, business-testing, leadership-team, and dark-pattern instruments introduced in DS026-DS062.
 
 ## Findings
 
@@ -16,9 +16,9 @@ The knowledge challenges are stronger because they already use domain-specific a
 
 Business assessment answer options are now generated as question-specific maturity ladders. The generator classifies prompts into practical content families such as evidence, governance, finance, market, risk, data, and operating cadence, then writes A-D options around observable maturity rather than generic labels.
 
-Maturity and readiness diagnostics now include answer-support checks per dimension. These ask whether the user's answers are supported by opinion, anecdote, documentation, or system-verified evidence. Answer support is displayed separately as calibration context and does not inflate the score.
+Generic answer-support checks were removed from maturity and readiness diagnostics. Calibration now belongs inside the scored answer wording, concept help, methodology note, and result guidance rather than in a separate pre-quiz questionnaire.
 
-The standard result model now includes a radar chart, balanced index, level, strongest dimension, weakest dimension, archetype, 30-day action, reflection question, methodology limits, shareable link, downloadable card, explicit local Save Result control, and answer support where applicable.
+The standard result model now includes a radar chart, balanced index, level, strongest dimension, weakest dimension, archetype, 30-day action, reflection question, methodology limits, shareable link, downloadable card, and explicit local Save Result control.
 
 The 2026-06 review completed missing result copy for all business diagnostics and knowledge challenges. Empty level descriptions, empty strongest-dimension archetypes, and empty weakest-dimension recommendations were replaced from the relevant DS contracts and converted into user-facing result language.
 
@@ -28,25 +28,32 @@ The review also fixed a catalog completeness issue: `evidence-revision` had cata
 
 Investor Pitch Literacy Challenge was added as a new finance knowledge quiz. It teaches the typical structure and expectations of a first investor pitch across Pitch Structure, Problem & Customer, Traction & Ask, and Delivery & Follow-up.
 
-The catalog now promotes a `Founder Essentials` group before the general category order. This curated preparation and validation path highlights the most useful founder-facing instruments across entrepreneurial competence, founder readiness, founder-market fit, investor pitch literacy, product-market fit evidence, fundraising, product discovery, product management, positioning, growth experimentation, startup finance, and term sheet literacy. The homepage presents this as a `Founder Diagnostic Studio` with a compact cockpit hero, a radar visual rendered by the shared radar chart module, a two-column Founder Essentials path with numeric step markers, and a separate filtered library for the remaining instruments. Catalog and All Quizzes cards also show a local saved-result indicator when this browser has History entries for that quiz; the indicator opens History filtered to the quiz and does not expose individual answers.
+The 2026-06 content expansion moved standard business diagnostics and knowledge challenges from two to three scored public questions per dimension, for 12 scored questions across four dimensions. Responsible AI keeps its two concrete context choices in addition to the 12 scored items.
 
-The 2026-06 follow-up added educational concept help to scored, context, and answer-support questions. Each `conceptHelp` entry must explain the specific concept used by that question, not a generic calibration idea. For answer-support questions, the panel should teach the real dimension being calibrated and only briefly explain how support level affects interpretation. The engine exposes concept help through a small inline `i` button placed after the question text and opens an in-page panel before the user answers. This is intentional: the quiz site is for learning, self-knowledge, and vocabulary fluency, not proctored testing. The standard diagnostic flow also keeps the real quiz title visible during answer-support and question stages.
+Six new instruments were added: First Startup Hires Fit, Early Adopters & Customer Development, Lean Startup Practice Readiness, Business Idea Testing Readiness, Leadership Team Behaviour, and Dark Personality Pattern Check. The dark-pattern instrument is framed as a protective reflective screen: higher scores mean stronger protective behaviour against manipulation, entitlement, callousness, and impulse-boundary risk, not stronger dark traits.
+
+The catalog now promotes a `Founder Essentials` group before the general category order. This curated preparation and validation path is sorted by likely founder usefulness: founder readiness, founder-market fit, product-market fit evidence, product discovery, early adopters and customer development, business idea testing, lean startup practice, first startup hires, fundraising, investor pitch literacy, positioning, growth experimentation, pricing and monetisation, startup finance, term sheet literacy, product management, founder operating system, co-founder alignment, leadership team behaviour, and entrepreneurial competence. The homepage presents this as `Founder Quizzes` with a compact cockpit hero, a radar visual rendered by the shared radar chart module, a two-column Founder Essentials path with numeric step markers, and a separate filtered library for the remaining instruments. Catalog and All Quizzes cards also show a local saved-result indicator when this browser has History entries for that quiz; the indicator opens History filtered to the quiz and does not expose individual answers.
+
+The category taxonomy was consolidated to avoid near-empty buckets. Philosophy now lives under `Values and Philosophy`; identity and interests live under `Personality, Identity, and Vocation`; world-awareness content lives under `Cognition and Worldview`; and collaboration/trust tools live under `Growth, Leadership, and Collaboration`.
+
+The 2026-06 follow-up added educational concept help to scored and concrete context questions. Each `conceptHelp` entry must explain the specific concept used by that question, not a generic calibration idea. The engine exposes concept help through a small inline `i` button placed after the question text and opens an in-page panel before the user answers. This is intentional: the quiz site is for learning, self-knowledge, and vocabulary fluency, not proctored testing. The standard diagnostic flow also keeps the real quiz title visible during context and question stages.
 
 ## Editorial Standard
 
 Every business diagnostic should satisfy these checks before publication:
 
-1. Each scored dimension has at least two distinct questions.
+1. Each standard business diagnostic or knowledge challenge has three distinct scored questions per dimension unless a DS file explicitly defines a different research or legacy instrument structure.
 2. Every A-D ladder is specific to the question, not a reusable generic maturity scale.
 3. Option D describes observable, governed, evidence-backed practice, not vague excellence.
 4. Option A describes a realistic absent or ad hoc state, not a strawman.
-5. Results separate maturity score from answer support.
+5. Results keep score calibration in the answer wording, methodology note, and result guidance rather than in a separate answer-support questionnaire.
 6. Share cards do not expose sensitive weaknesses, answer-level errors, legal or financial details, internal governance gaps, security issues, or regulatory risk flags.
 7. The result recommends one practical 30-day action tied to the weakest dimension.
 8. Knowledge challenges must include answer explanations that teach the concept after completion.
 9. Every public question should include `conceptHelp` when it uses a concept, method term, behavioural label, context category, or business vocabulary that a non-expert may not already know.
-10. Answer-support and context questions may include concept help, but the help should teach the specific quiz dimension or context term, not generic "answer support" as if it were the quiz concept.
+10. Context questions should be reserved for concrete inputs such as jurisdiction, role, stage, or domain, and their concept help should teach that specific context term.
 11. Catalog entries must resolve to a real quiz directory with `index.html`, `instrument.json`, `interpretation.json`, and `catalog.json`.
+12. Category filters should stay broad enough to avoid duplicate or one-item buckets unless a DS explicitly requires a separate public category.
 
 ## Remaining Limitations
 

@@ -6,9 +6,9 @@
   "title": "Business Model Resilience Stress Test",
   "language": "en",
   "introduction": {
-    "subtitle": "Risk and resilience assessment. 6 min.",
-    "description": "<p>Business Model Resilience Stress Test helps you learn the vocabulary and typical expectations behind Demand Concentration, Margin Flexibility, Cash Shock Capacity, Operational Dependencies. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "subtitle": "Risk and resilience assessment. 7-9 min.",
+    "description": "<p>Business Model Resilience Stress Test helps you learn the vocabulary and typical expectations behind Demand Concentration, Margin Flexibility, Cash Shock Capacity, Operational Dependencies. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -577,6 +577,274 @@
         "example": "A strong answer would show the current model behind \"How rapidly could the business restore service after a major disruption?\", the assumptions behind it, the owner, and the decision that changes when the numbers move.",
         "learnMore": []
       }
+    },
+    {
+      "id": "q9",
+      "text": "How quickly would the business detect a dangerous concentration shift?",
+      "type": "profile",
+      "dimension": "demand-concentration",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows demand concentration monitoring; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "demand-concentration": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of demand concentration monitoring, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "demand-concentration": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show demand concentration monitoring in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "demand-concentration": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Demand concentration monitoring is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "demand-concentration": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Demand Concentration: How quickly would the business detect a dangerous concentration shift",
+        "summary": "Demand Concentration is tested here through a concrete operating question: \"How quickly would the business detect a dangerous concentration shift?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Demand Concentration matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How ready is the team to reprice, renegotiate, or redesign delivery when margins compress?",
+      "type": "profile",
+      "dimension": "margin-flexibility",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows margin compression response; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "margin-flexibility": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of margin compression response, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "margin-flexibility": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show margin compression response in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "margin-flexibility": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Margin compression response is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "margin-flexibility": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Margin Flexibility: How ready is the team to reprice, renegotiate, or redesign delivery when margins compress",
+        "summary": "Margin Flexibility is tested here through a concrete operating question: \"How ready is the team to reprice, renegotiate, or redesign delivery when margins compress?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Margin Flexibility matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How clearly are cash triggers linked to pre-agreed actions?",
+      "type": "profile",
+      "dimension": "cash-shock-capacity",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows cash trigger actions; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-shock-capacity": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of cash trigger actions, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-shock-capacity": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show cash trigger actions in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-shock-capacity": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Cash trigger actions is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "cash-shock-capacity": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Cash Shock Capacity: How clearly are cash triggers linked to pre-agreed actions",
+        "summary": "Cash Shock Capacity is tested here through a concrete operating question: \"How clearly are cash triggers linked to pre-agreed actions?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Cash Shock Capacity matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How tested are fallback plans for the top operational dependency?",
+      "type": "profile",
+      "dimension": "operational-dependencies",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows fallback plans for critical dependencies; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operational-dependencies": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of fallback plans for critical dependencies, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operational-dependencies": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show fallback plans for critical dependencies in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operational-dependencies": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Fallback plans for critical dependencies is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "operational-dependencies": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Operational Dependencies: How tested are fallback plans for the top operational dependency",
+        "summary": "Operational Dependencies is tested here through a concrete operating question: \"How tested are fallback plans for the top operational dependency?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Operational Dependencies matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -590,171 +858,29 @@
         "key": "demand-concentration",
         "label": "Demand Concentration",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "margin-flexibility",
         "label": "Margin Flexibility",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "cash-shock-capacity",
         "label": "Cash Shock Capacity",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "operational-dependencies",
         "label": "Operational Dependencies",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-demand-concentration",
-      "text": "What level of evidence supports your answers for Demand Concentration?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Demand Concentration",
-        "summary": "This question asks how well your answers about Demand Concentration are supported. Demand Concentration means how exposed the business is to one customer, segment, channel, or demand source and how that exposure changes under stress. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Demand Concentration is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Demand Concentration answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": []
-      }
-    },
-    {
-      "id": "evidence-margin-flexibility",
-      "text": "What level of evidence supports your answers for Margin Flexibility?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Margin Flexibility",
-        "summary": "This question asks how well your answers about Margin Flexibility are supported. Margin Flexibility means whether gross margin and operating costs can absorb shocks without destroying the business model. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Margin Flexibility is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Margin Flexibility answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Unit economics",
-            "url": "https://en.wikipedia.org/wiki/Business_model"
-          },
-          {
-            "label": "Wikipedia: Cash flow",
-            "url": "https://en.wikipedia.org/wiki/Cash_flow"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-cash-shock-capacity",
-      "text": "What level of evidence supports your answers for Cash Shock Capacity?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Cash Shock Capacity",
-        "summary": "This question asks how well your answers about Cash Shock Capacity are supported. Cash Shock Capacity means how long the company can keep operating under realistic downside scenarios and whether actions are ready before cash pressure arrives. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Cash Shock Capacity is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Cash Shock Capacity answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Unit economics",
-            "url": "https://en.wikipedia.org/wiki/Business_model"
-          },
-          {
-            "label": "Wikipedia: Cash flow",
-            "url": "https://en.wikipedia.org/wiki/Cash_flow"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-operational-dependencies",
-      "text": "What level of evidence supports your answers for Operational Dependencies?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Operational Dependencies",
-        "summary": "This question asks how well your answers about Operational Dependencies are supported. Operational Dependencies means single points of failure in people, suppliers, systems, processes, or infrastructure that could interrupt delivery. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Operational Dependencies is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Operational Dependencies answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": []
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

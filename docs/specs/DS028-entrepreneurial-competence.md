@@ -24,7 +24,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 | Category | Founders, self-knowledge, and operating mode |
 | Format | Competence assessment inspired by EntreComp |
 | Priority | P1 |
-| Estimated duration | 6 min |
+| Estimated duration | 7-9 min |
 | Public slug | /entrepreneurial-competence-assessment |
 | SEO focus | entrepreneurial competence assessment; entrepreneurship skills test; EntreComp self assessment |
 | Viral mechanic | Positive competence archetypes and cohort-friendly team comparison. |
@@ -36,7 +36,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 3. Action & Experimentation
 4. Ethics & Shared Value
 
-Each dimension must have exactly two scored public questions. Maturity and readiness instruments may add answer-support context questions; these are displayed separately and are not scored. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
+Each dimension must have exactly three scored public questions. Generic answer-support context questions must not be added; score calibration belongs in the answer wording, concept help, methodology note, and result guidance. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
 
 ### Public Questions and Answer Model
 
@@ -50,10 +50,14 @@ Each dimension must have exactly two scored public questions. Maturity and readi
 | 6 | Action & Experimentation | How do you use setbacks? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
 | 7 | Ethics & Shared Value | How do you evaluate who may benefit or be harmed by the venture? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
 | 8 | Ethics & Shared Value | How does the business create value beyond a transaction? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
+| 9 | Opportunity & Vision | How do you decide which customer pain deserves focus first? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
+| 10 | Resource Mobilisation | How do you turn weak ties into useful introductions, knowledge, or resources? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
+| 11 | Action & Experimentation | How do you design small tests before committing major effort? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
+| 12 | Ethics & Shared Value | How do you handle a growth opportunity that creates clear downstream harm? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
 
 ### Scoring Contract
 
-A/B/C/D receive 0/1/2/3 points. Each dimension has two items and is normalised as dimensionScore = obtainedPoints / 6 * 100. The balanced overall index is 0.70 * mean(dimensions) + 0.30 * weakestDimension, rounded for display. Not sure / not applicable is unscored; if a dimension has insufficient evidence, display insufficient evidence rather than imputing a value. Public UI must not show points.
+A/B/C/D receive 0/1/2/3 points. Each dimension has three items and is normalised as dimensionScore = obtainedPoints / 9 * 100. The balanced overall index is 0.70 * mean(dimensions) + 0.30 * weakestDimension, rounded for display. Not sure / not applicable is unscored; if a dimension has insufficient evidence, display insufficient evidence rather than imputing a value. Public UI must not show points.
 
 Level bands:
 
@@ -67,7 +71,7 @@ Level bands:
 
 ### Result Contract
 
-The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, limitations, and answer-support language when supported by the UI.
+The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, and limitations.
 
 Archetype mapping:
 

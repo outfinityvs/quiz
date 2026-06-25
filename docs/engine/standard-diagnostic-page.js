@@ -151,7 +151,6 @@ function mountStandardDiagnosticPage(options = {}) {
 
     renderChart(section, result.scores, 'Your result');
     renderScoreSummary(section, result);
-    renderEvidenceBasis(section, state);
     renderInterpretation(section, result);
     renderAnswerReview(section, state);
     renderShare(section, result);
@@ -188,35 +187,6 @@ function mountStandardDiagnosticPage(options = {}) {
     addMetric(grid, 'Next upgrade', result.weakest ? result.weakest.label : 'Not available');
 
     parent.appendChild(grid);
-  }
-
-  function renderEvidenceBasis(parent, state) {
-    const evidenceEntries = Object.entries(state.contextAnswers || {})
-      .filter(([key]) => key.startsWith('evidence-'));
-    if (!evidenceEntries.length) return;
-
-    const labels = {
-      opinion: 'Opinion',
-      anecdotal: 'Anecdotal',
-      documented: 'Documented',
-      'system-verified': 'System-verified'
-    };
-    const dimensionByEvidenceKey = Object.fromEntries(
-      instrument.scoring.dimensions.map(dimension => [`evidence-${dimension.key}`, dimension.label])
-    );
-    const section = document.createElement('div');
-    section.className = 'quiz-result__section quiz-evidence-basis';
-    appendText(section, 'h3', '', 'What backed up your answers');
-    appendText(section, 'p', '', 'This is not another score. It shows whether your answers were based on opinion, anecdotes, documents, or system-verified evidence. A high maturity score with weak support should be treated as a hypothesis to verify.');
-
-    const list = document.createElement('ul');
-    for (const [key, value] of evidenceEntries) {
-      const item = document.createElement('li');
-      item.textContent = `${dimensionByEvidenceKey[key] || key}: ${labels[value] || value}`;
-      list.appendChild(item);
-    }
-    section.appendChild(list);
-    parent.appendChild(section);
   }
 
   function renderInterpretation(parent, result) {

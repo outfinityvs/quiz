@@ -6,9 +6,9 @@
   "title": "Entrepreneurial Competence Compass",
   "language": "en",
   "introduction": {
-    "subtitle": "Competence assessment inspired by EntreComp. 6 min.",
-    "description": "<p>Entrepreneurial Competence Compass helps you learn the vocabulary and typical expectations behind Opportunity & Vision, Resource Mobilisation, Action & Experimentation, Ethics & Shared Value. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "subtitle": "Competence assessment inspired by EntreComp. 7-9 min.",
+    "description": "<p>Entrepreneurial Competence Compass helps you learn the vocabulary and typical expectations behind Opportunity & Vision, Resource Mobilisation, Action & Experimentation, Ethics & Shared Value. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -573,6 +573,274 @@
         "example": "A strong answer would show how the team answers \"How does the business create value beyond a transaction?\" today, who owns it, what evidence supports it, and one recent decision or trade-off it changed.",
         "learnMore": []
       }
+    },
+    {
+      "id": "q9",
+      "text": "How do you decide which customer pain deserves focus first?",
+      "type": "profile",
+      "dimension": "opportunity-and-vision",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows selecting the first customer pain; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-and-vision": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of selecting the first customer pain, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-and-vision": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show selecting the first customer pain in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-and-vision": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Selecting the first customer pain is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-and-vision": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Opportunity & Vision: How do you decide which customer pain deserves focus first",
+        "summary": "Opportunity & Vision is tested here through a concrete operating question: \"How do you decide which customer pain deserves focus first?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Opportunity & Vision matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How do you turn weak ties into useful introductions, knowledge, or resources?",
+      "type": "profile",
+      "dimension": "resource-mobilisation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows mobilising weak-tie resources; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resource-mobilisation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of mobilising weak-tie resources, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resource-mobilisation": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show mobilising weak-tie resources in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resource-mobilisation": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Mobilising weak-tie resources is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "resource-mobilisation": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Resource Mobilisation: How do you turn weak ties into useful introductions, knowledge, or resources",
+        "summary": "Resource Mobilisation is tested here through a concrete operating question: \"How do you turn weak ties into useful introductions, knowledge, or resources?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Resource Mobilisation matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How do you design small tests before committing major effort?",
+      "type": "profile",
+      "dimension": "action-and-experimentation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows small tests before major commitment; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "action-and-experimentation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of small tests before major commitment, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "action-and-experimentation": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show small tests before major commitment in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "action-and-experimentation": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Small tests before major commitment is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "action-and-experimentation": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Action & Experimentation: How do you design small tests before committing major effort",
+        "summary": "Action & Experimentation is tested here through a concrete operating question: \"How do you design small tests before committing major effort?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Action & Experimentation matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How do you handle a growth opportunity that creates clear downstream harm?",
+      "type": "profile",
+      "dimension": "ethics-and-shared-value",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows growth opportunities with downstream harm; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ethics-and-shared-value": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of growth opportunities with downstream harm, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ethics-and-shared-value": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show growth opportunities with downstream harm in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ethics-and-shared-value": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Growth opportunities with downstream harm is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "ethics-and-shared-value": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Ethics & Shared Value: How do you handle a growth opportunity that creates clear downstream harm",
+        "summary": "Ethics & Shared Value is tested here through a concrete operating question: \"How do you handle a growth opportunity that creates clear downstream harm?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Ethics & Shared Value matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -586,162 +854,29 @@
         "key": "opportunity-and-vision",
         "label": "Opportunity & Vision",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "resource-mobilisation",
         "label": "Resource Mobilisation",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "action-and-experimentation",
         "label": "Action & Experimentation",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "ethics-and-shared-value",
         "label": "Ethics & Shared Value",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-opportunity-and-vision",
-      "text": "What level of evidence supports your answers for Opportunity & Vision?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Opportunity & Vision",
-        "summary": "This question asks how well your answers about Opportunity & Vision are supported. Opportunity & Vision means turning a noticed problem into a credible opportunity, a useful future state, and a reason for others to care. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Opportunity & Vision is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Opportunity & Vision answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": []
-      }
-    },
-    {
-      "id": "evidence-resource-mobilisation",
-      "text": "What level of evidence supports your answers for Resource Mobilisation?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Resource Mobilisation",
-        "summary": "This question asks how well your answers about Resource Mobilisation are supported. Resource Mobilisation means assembling people, money, knowledge, relationships, and personal capability around an opportunity without pretending gaps do not exist. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Resource Mobilisation is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Resource Mobilisation answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": []
-      }
-    },
-    {
-      "id": "evidence-action-and-experimentation",
-      "text": "What level of evidence supports your answers for Action & Experimentation?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Action & Experimentation",
-        "summary": "This question asks how well your answers about Action & Experimentation are supported. Action & Experimentation means moving under uncertainty through small tests, fast feedback, and learning from setbacks instead of waiting for perfect information. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Action & Experimentation is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Action & Experimentation answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Evidence",
-            "url": "https://en.wikipedia.org/wiki/Evidence"
-          },
-          {
-            "label": "Wikipedia: Scientific method",
-            "url": "https://en.wikipedia.org/wiki/Scientific_method"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-ethics-and-shared-value",
-      "text": "What level of evidence supports your answers for Ethics & Shared Value?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Ethics & Shared Value",
-        "summary": "This question asks how well your answers about Ethics & Shared Value are supported. Ethics & Shared Value means checking who benefits, who may be harmed, and whether value creation is wider than a transaction or pitch claim. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Ethics & Shared Value is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Ethics & Shared Value answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": []
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

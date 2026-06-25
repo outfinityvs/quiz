@@ -24,7 +24,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 | Category | Founders, self-knowledge, and operating mode |
 | Format | Paired alignment assessment |
 | Priority | P1 |
-| Estimated duration | 6 min per founder |
+| Estimated duration | 7-9 min per founder |
 | Public slug | /cofounder-compatibility-alignment-test |
 | SEO focus | cofounder compatibility test; cofounder alignment assessment; questions before choosing a cofounder |
 | Viral mechanic | Two-person invite loop with result unlock after both founders complete it. |
@@ -36,7 +36,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 3. Values & Conflict
 4. Economics & Risk
 
-Each dimension must have exactly two scored public questions. Maturity and readiness instruments may add answer-support context questions; these are displayed separately and are not scored. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
+Each dimension must have exactly three scored public questions. Generic answer-support context questions must not be added; score calibration belongs in the answer wording, concept help, methodology note, and result guidance. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
 
 ### Public Questions and Answer Model
 
@@ -50,6 +50,10 @@ Each dimension must have exactly two scored public questions. Maturity and readi
 | 6 | Values & Conflict | How explicit should founder principles and non-negotiables be? | Each respondent chooses A-D as a preference. Pair distance 0/1/2/3 maps to 100/67/33/0 for alignment; solo mode shows preference profile only. |
 | 7 | Economics & Risk | Which financing and control strategy feels acceptable? | Each respondent chooses A-D as a preference. Pair distance 0/1/2/3 maps to 100/67/33/0 for alignment; solo mode shows preference profile only. |
 | 8 | Economics & Risk | How should founder equity and downside scenarios be handled? | Each respondent chooses A-D as a preference. Pair distance 0/1/2/3 maps to 100/67/33/0 for alignment; solo mode shows preference profile only. |
+| 9 | Ambition & Horizon | How explicitly have founders compared personal success definitions and exit preferences? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
+| 10 | Roles & Decision Rights | How are founder vetoes or tie-breaks handled when consensus fails? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
+| 11 | Values & Conflict | How safe is it to surface resentment, fear, or disappointment early? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
+| 12 | Economics & Risk | How clearly are vesting, leavers, salary constraints, and personal runway discussed? | A=0 absent/ad hoc/no evidence; B=1 informal or partial; C=2 documented/repeatable; D=3 governed, evidence-backed, or system-level. Public UI must not show points. |
 
 ### Scoring Contract
 
@@ -67,7 +71,7 @@ Level bands:
 
 ### Result Contract
 
-The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, limitations, and answer-support language when supported by the UI.
+The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, and limitations.
 
 Archetype mapping:
 

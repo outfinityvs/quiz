@@ -24,7 +24,7 @@ The instrument is educational. It teaches common pitch terminology and investor-
 | Category | Finance, fundraising, and economic resilience |
 | Format | Knowledge quiz |
 | Priority | P1 |
-| Estimated duration | 7 min |
+| Estimated duration | 8-10 min |
 | Public slug | /investor-pitch-literacy-quiz |
 | SEO focus | investor pitch quiz; pitch deck structure; how to pitch investors; startup pitch practice |
 | Viral mechanic | Founder challenge around whether the user understands the structure investors expect before sending a deck. |
@@ -36,7 +36,7 @@ The instrument is educational. It teaches common pitch terminology and investor-
 3. Traction & Ask
 4. Delivery & Follow-up
 
-Each dimension has exactly two scored public questions. The result screen must show a four-axis radar chart, balanced score, level label, strongest dimension, weakest dimension, answer review, and share-safe controls. The quiz is a knowledge challenge, so answer-level explanations appear only after completion.
+Each dimension has exactly three scored public questions. The result screen must show a four-axis radar chart, balanced score, level label, strongest dimension, weakest dimension, answer review, and share-safe controls. The quiz is a knowledge challenge, so answer-level explanations appear only after completion.
 
 ### Public Questions and Answer Model
 
@@ -50,6 +50,10 @@ Each dimension has exactly two scored public questions. The result screen must s
 | 6 | Traction & Ask | What should the funding ask connect to? | A-D options score 0-3. The best answer receives 3; a plausible but incomplete answer may receive 1 only when the explanation justifies it. |
 | 7 | Delivery & Follow-up | During Q&A, an investor challenges your biggest assumption. What is the best response? | A-D options score 0-3. The best answer receives 3; a plausible but incomplete answer may receive 1 only when the explanation justifies it. |
 | 8 | Delivery & Follow-up | What is the best follow-up after a serious investor meeting? | A-D options score 0-3. The best answer receives 3; a plausible but incomplete answer may receive 1 only when the explanation justifies it. |
+| 9 | Pitch Structure | What should a pitch appendix do? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
+| 10 | Problem & Customer | Which customer evidence best supports a painful B2B problem? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
+| 11 | Traction & Ask | How should use of funds be framed in a seed pitch? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
+| 12 | Delivery & Follow-up | An investor says 'not now' after a thoughtful meeting. What is the best next move? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
 
 ### Answer Key and Explanations
 
@@ -61,10 +65,14 @@ Each dimension has exactly two scored public questions. The result screen must s
 - 6: B, a credible ask ties round size and use of funds to risk-reducing milestones.
 - 7: B, strong Q&A acknowledges the assumption, shows evidence and sensitivity, and names what would change the decision.
 - 8: B, good follow-up captures requested evidence, open questions, owners, and the next step.
+- 9: B, The appendix should support Q&A with deeper proof while the main deck keeps the core story simple.
+- 10: A, Repeated workflow disruption, budget, and current workaround cost show stronger pain than compliments.
+- 11: B, The ask should connect capital to milestones that reduce risk before the next financing or strategic decision.
+- 12: B, A useful no can still reveal the blocking concern, relevant referrals, or a future update condition.
 
 ### Scoring Contract
 
-Each option carries 0-3 points. The best answer receives 3 points and a deliberately plausible but incomplete answer may receive 1 point only when the explanation justifies it. Each dimension has two items and is normalised as dimensionScore = obtainedPoints / 6 * 100. Overall mastery uses the balanced index: 0.70 * mean(dimensions) + 0.30 * weakestDimension. The answer key and points must not be visible before completion.
+Each option carries 0-3 points. The best answer receives 3 points and a deliberately plausible but incomplete answer may receive 1 point only when the explanation justifies it. Each dimension has three items and is normalised as dimensionScore = obtainedPoints / 9 * 100. Overall mastery uses the balanced index: 0.70 * mean(dimensions) + 0.30 * weakestDimension. The answer key and points must not be visible before completion.
 
 Level bands:
 

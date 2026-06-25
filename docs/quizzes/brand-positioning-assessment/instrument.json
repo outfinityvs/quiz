@@ -6,9 +6,9 @@
   "title": "Positioning & Brand Differentiation",
   "language": "en",
   "introduction": {
-    "subtitle": "Positioning maturity assessment. 6 min.",
-    "description": "<p>Positioning & Brand Differentiation helps you learn the vocabulary and typical expectations behind ICP & Trigger Clarity, Category & Alternatives, Value & Proof, Message Consistency & Learning. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "subtitle": "Positioning maturity assessment. 7-9 min.",
+    "description": "<p>Positioning & Brand Differentiation helps you learn the vocabulary and typical expectations behind ICP & Trigger Clarity, Category & Alternatives, Value & Proof, Message Consistency & Learning. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -622,6 +622,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How well can messaging name the buyer's urgent job and trigger?",
+      "type": "profile",
+      "dimension": "icp-and-trigger-clarity",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows buyer job and demand trigger clarity; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-trigger-clarity": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of buyer job and demand trigger clarity, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-trigger-clarity": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show buyer job and demand trigger clarity in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-trigger-clarity": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Buyer job and demand trigger clarity is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "icp-and-trigger-clarity": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "ICP & Trigger Clarity: How well can messaging name the buyer's urgent job and trigger",
+        "summary": "ICP & Trigger Clarity is tested here through a concrete operating question: \"How well can messaging name the buyer's urgent job and trigger?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "ICP & Trigger Clarity matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How explicitly does positioning say what you are not?",
+      "type": "profile",
+      "dimension": "category-and-alternatives",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows clear non-positioning boundaries; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "category-and-alternatives": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of clear non-positioning boundaries, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "category-and-alternatives": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show clear non-positioning boundaries in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "category-and-alternatives": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Clear non-positioning boundaries is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "category-and-alternatives": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Category & Alternatives: How explicitly does positioning say what you are not",
+        "summary": "Category & Alternatives is tested here through a concrete operating question: \"How explicitly does positioning say what you are not?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Category & Alternatives matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How often do proof points use customer-specific numbers or before-after evidence?",
+      "type": "profile",
+      "dimension": "value-and-proof",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows quantified proof points; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "value-and-proof": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of quantified proof points, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "value-and-proof": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show quantified proof points in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "value-and-proof": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Quantified proof points is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "value-and-proof": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Value & Proof: How often do proof points use customer-specific numbers or before-after evidence",
+        "summary": "Value & Proof is tested here through a concrete operating question: \"How often do proof points use customer-specific numbers or before-after evidence?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Value & Proof matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How are sales objections fed back into positioning updates?",
+      "type": "profile",
+      "dimension": "message-consistency-and-learning",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows objection-led positioning learning; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "message-consistency-and-learning": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of objection-led positioning learning, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "message-consistency-and-learning": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show objection-led positioning learning in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "message-consistency-and-learning": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Objection-led positioning learning is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "message-consistency-and-learning": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Message Consistency & Learning: How are sales objections fed back into positioning updates",
+        "summary": "Message Consistency & Learning is tested here through a concrete operating question: \"How are sales objections fed back into positioning updates?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Message Consistency & Learning matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -635,189 +903,29 @@
         "key": "icp-and-trigger-clarity",
         "label": "ICP & Trigger Clarity",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "category-and-alternatives",
         "label": "Category & Alternatives",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "value-and-proof",
         "label": "Value & Proof",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "message-consistency-and-learning",
         "label": "Message Consistency & Learning",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-icp-and-trigger-clarity",
-      "text": "What level of evidence supports your answers for ICP & Trigger Clarity?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "ICP & Trigger Clarity",
-        "summary": "This question asks how well your answers about ICP & Trigger Clarity are supported. ICP & Trigger Clarity means knowing the exact customer profile and the event or pain that makes that customer actively search for a solution now. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about ICP & Trigger Clarity is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your ICP & Trigger Clarity answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Positioning (marketing)",
-            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
-          },
-          {
-            "label": "Wikipedia: Brand",
-            "url": "https://en.wikipedia.org/wiki/Brand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-category-and-alternatives",
-      "text": "What level of evidence supports your answers for Category & Alternatives?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Category & Alternatives",
-        "summary": "This question asks how well your answers about Category & Alternatives are supported. Category & Alternatives means understanding what buyers compare you against and how your product should be framed so the comparison is fair and memorable. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Category & Alternatives is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Category & Alternatives answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Positioning (marketing)",
-            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
-          },
-          {
-            "label": "Wikipedia: Brand",
-            "url": "https://en.wikipedia.org/wiki/Brand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-value-and-proof",
-      "text": "What level of evidence supports your answers for Value & Proof?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Value & Proof",
-        "summary": "This question asks how well your answers about Value & Proof are supported. Value & Proof means translating claims into concrete customer value, credible evidence, and proof that a buyer can believe before purchase. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Value & Proof is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Value & Proof answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Positioning (marketing)",
-            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
-          },
-          {
-            "label": "Wikipedia: Brand",
-            "url": "https://en.wikipedia.org/wiki/Brand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-message-consistency-and-learning",
-      "text": "What level of evidence supports your answers for Message Consistency & Learning?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Message Consistency & Learning",
-        "summary": "This question asks how well your answers about Message Consistency & Learning are supported. Message Consistency & Learning means keeping positioning coherent across the journey while learning from market reactions instead of repeating slogans blindly. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Message Consistency & Learning is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Message Consistency & Learning answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Positioning (marketing)",
-            "url": "https://en.wikipedia.org/wiki/Positioning_(marketing)"
-          },
-          {
-            "label": "Wikipedia: Brand",
-            "url": "https://en.wikipedia.org/wiki/Brand"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

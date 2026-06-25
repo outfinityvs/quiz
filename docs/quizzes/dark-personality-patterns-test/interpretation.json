@@ -1,0 +1,56 @@
+{
+  "resultKicker": "Your Protective Pattern Result",
+  "levels": [
+    {
+      "id": "high-protection",
+      "min": 85,
+      "max": 100,
+      "label": "Low Dark-Pattern Signal",
+      "copy": "Your answers show strong protective habits against manipulative, entitled, callous, or impulsive patterns. Keep using feedback from people who experience you under stress."
+    },
+    {
+      "id": "stable-protection",
+      "min": 65,
+      "max": 84,
+      "label": "Mostly Protected",
+      "copy": "The protective pattern is broadly healthy, with one area worth watching under pressure. Use the weakest dimension as a reflection prompt, not a diagnosis."
+    },
+    {
+      "id": "mixed-signal",
+      "min": 45,
+      "max": 64,
+      "label": "Mixed Signal",
+      "copy": "Your answers show some protective habits and some interpersonal risk signals. The result is not clinical, but it points to behaviours worth discussing with trusted peers."
+    },
+    {
+      "id": "risk-signal",
+      "min": 25,
+      "max": 44,
+      "label": "Interpersonal Risk Signal",
+      "copy": "Several answers suggest weak protection against behaviours that can damage trust. Treat this as a prompt for feedback, boundaries, and deliberate behaviour change."
+    },
+    {
+      "id": "high-risk-signal",
+      "min": 0,
+      "max": 24,
+      "label": "Strong Caution Signal",
+      "copy": "The pattern suggests high interpersonal risk in this reflective screen. Do not use this as a diagnosis; use it to seek honest feedback and avoid roles where unchecked power can harm others."
+    }
+  ],
+  "archetypes": {
+    "transparent-influence": "Transparent Influencer",
+    "status-humility": "Status-Calibrated Partner",
+    "empathy-under-pressure": "Pressure-Aware Teammate",
+    "impulse-boundary-control": "Boundary Keeper"
+  },
+  "recommendations": {
+    "transparent-influence": "Before persuading, state your interest, the other person stake, and the information they would need to disagree freely.",
+    "status-humility": "Ask for one piece of feedback about entitlement, credit-sharing, or how you react when you are not the centre of attention.",
+    "empathy-under-pressure": "When stakes rise, slow down enough to name who could be harmed and what boundary should not be crossed.",
+    "impulse-boundary-control": "Choose one high-risk trigger and pre-commit a pause, check, or second reviewer before acting."
+  },
+  "defaultSecondAction": "Choose one trusted person who has seen you under stress and ask for concrete behavioural feedback on your weakest dimension.",
+  "reflectionQuestion": "Where do you become least trustworthy when you feel powerful, threatened, or under-recognised?",
+  "methodologyNote": "The current version uses four protective dimensions with six original scenario questions each. Higher scores indicate stronger protective behaviour against manipulation, entitlement, callousness, and impulse-boundary risk. Items are original educational prompts informed by public-domain IPIP personality-item practice and dark-triad/dark-tetrad literature. This is not a clinical, employment, forensic, or calibrated psychometric instrument.",
+  "shareNote": "Share cards reveal only the level and strongest protective area. They do not publish individual answers or dark-pattern item responses."
+}

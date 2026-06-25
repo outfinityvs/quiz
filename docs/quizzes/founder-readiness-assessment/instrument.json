@@ -6,9 +6,9 @@
   "title": "Founder Readiness Radar",
   "language": "en",
   "introduction": {
-    "subtitle": "Maturity assessment. 5-7 min.",
-    "description": "<p>Founder Readiness Radar helps you learn the vocabulary and typical expectations behind Opportunity Insight, Execution Discipline, Resourcefulness & Economics, Resilience & Sustainability. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 5-7 min.",
+    "subtitle": "Maturity assessment. 7-9 min.",
+    "description": "<p>Founder Readiness Radar helps you learn the vocabulary and typical expectations behind Opportunity Insight, Execution Discipline, Resourcefulness & Economics, Resilience & Sustainability. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -591,6 +591,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "What evidence shows the first segment is actively trying to solve the problem now?",
+      "type": "profile",
+      "dimension": "opportunity-insight",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows current problem-solving behaviour in the first segment; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of current problem-solving behaviour in the first segment, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show current problem-solving behaviour in the first segment in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Current problem-solving behaviour in the first segment is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "opportunity-insight": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Opportunity Insight: What evidence shows the first segment is actively trying to solve the problem now",
+        "summary": "Opportunity Insight is tested here through a concrete operating question: \"What evidence shows the first segment is actively trying to solve the problem now?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Opportunity Insight matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How consistently do weekly priorities turn into shipped learning?",
+      "type": "profile",
+      "dimension": "execution-discipline",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows weekly priorities becoming shipped learning; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of weekly priorities becoming shipped learning, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show weekly priorities becoming shipped learning in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Weekly priorities becoming shipped learning is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "execution-discipline": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Execution Discipline: How consistently do weekly priorities turn into shipped learning",
+        "summary": "Execution Discipline is tested here through a concrete operating question: \"How consistently do weekly priorities turn into shipped learning?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Execution Discipline matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How quickly can you convert a constraint into a concrete alternative?",
+      "type": "profile",
+      "dimension": "resourcefulness-and-economics",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows turning constraints into alternatives; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of turning constraints into alternatives, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show turning constraints into alternatives in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Turning constraints into alternatives is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "resourcefulness-and-economics": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Resourcefulness & Economics: How quickly can you convert a constraint into a concrete alternative",
+        "summary": "Resourcefulness & Economics is tested here through a concrete operating question: \"How quickly can you convert a constraint into a concrete alternative?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Resourcefulness & Economics matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How deliberately do you protect attention and recovery during pressure?",
+      "type": "profile",
+      "dimension": "resilience-and-sustainability",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows protecting attention and recovery under pressure; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of protecting attention and recovery under pressure, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show protecting attention and recovery under pressure in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Protecting attention and recovery under pressure is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "resilience-and-sustainability": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Resilience & Sustainability: How deliberately do you protect attention and recovery during pressure",
+        "summary": "Resilience & Sustainability is tested here through a concrete operating question: \"How deliberately do you protect attention and recovery during pressure?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Resilience & Sustainability matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -604,171 +872,29 @@
         "key": "opportunity-insight",
         "label": "Opportunity Insight",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "execution-discipline",
         "label": "Execution Discipline",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "resourcefulness-and-economics",
         "label": "Resourcefulness & Economics",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "resilience-and-sustainability",
         "label": "Resilience & Sustainability",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-opportunity-insight",
-      "text": "What level of evidence supports your answers for Opportunity Insight?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Opportunity Insight",
-        "summary": "This question asks how well your answers about Opportunity Insight are supported. Opportunity Insight means evidence that a real customer problem is urgent, painful, frequent, and worth solving now. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Opportunity Insight is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Opportunity Insight answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Evidence",
-            "url": "https://en.wikipedia.org/wiki/Evidence"
-          },
-          {
-            "label": "Wikipedia: Scientific method",
-            "url": "https://en.wikipedia.org/wiki/Scientific_method"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-execution-discipline",
-      "text": "What level of evidence supports your answers for Execution Discipline?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Execution Discipline",
-        "summary": "This question asks how well your answers about Execution Discipline are supported. Execution Discipline means the habit of choosing outcomes, shipping useful work, learning from it, and keeping promises visible. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Execution Discipline is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Execution Discipline answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": []
-      }
-    },
-    {
-      "id": "evidence-resourcefulness-and-economics",
-      "text": "What level of evidence supports your answers for Resourcefulness & Economics?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Resourcefulness & Economics",
-        "summary": "This question asks how well your answers about Resourcefulness & Economics are supported. Resourcefulness & Economics means the ability to make progress with scarce resources while understanding runway, unit economics, and trade-offs. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Resourcefulness & Economics is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Resourcefulness & Economics answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": []
-      }
-    },
-    {
-      "id": "evidence-resilience-and-sustainability",
-      "text": "What level of evidence supports your answers for Resilience & Sustainability?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Resilience & Sustainability",
-        "summary": "This question asks how well your answers about Resilience & Sustainability are supported. Resilience & Sustainability means how the founder responds to contradictory evidence, pressure, fatigue, and the risk of building in an unsustainable way. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Resilience & Sustainability is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Resilience & Sustainability answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Evidence",
-            "url": "https://en.wikipedia.org/wiki/Evidence"
-          },
-          {
-            "label": "Wikipedia: Scientific method",
-            "url": "https://en.wikipedia.org/wiki/Scientific_method"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

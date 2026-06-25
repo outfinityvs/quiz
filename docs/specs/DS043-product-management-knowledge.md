@@ -24,7 +24,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 | Category | Product, discovery, and monetisation |
 | Format | Knowledge and scenario quiz |
 | Priority | P1 |
-| Estimated duration | 8 min |
+| Estimated duration | 8-10 min |
 | Public slug | /product-management-knowledge-quiz |
 | SEO focus | product management quiz; product manager assessment; product strategy test; PM interview quiz |
 | Viral mechanic | Career-oriented competency badge and colleague challenge links. |
@@ -36,7 +36,7 @@ The instrument is educational. It must not present itself as legal, tax, financi
 3. Delivery & Prioritisation
 4. Metrics & Experimentation
 
-Each dimension must have exactly two scored public questions. Maturity and readiness instruments may add answer-support context questions; these are displayed separately and are not scored. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
+Each dimension must have exactly three scored public questions. Generic answer-support context questions must not be added; score calibration belongs in the answer wording, concept help, methodology note, and result guidance. The result screen must show a diagram regardless of quiz type. For this four-dimensional instrument the default diagram is a radar chart with all four dimensions, the balanced score, and the level label.
 
 ### Public Questions and Answer Model
 
@@ -50,6 +50,10 @@ Each dimension must have exactly two scored public questions. Maturity and readi
 | 6 | Delivery & Prioritisation | What does dual-track product development generally mean? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
 | 7 | Metrics & Experimentation | Which is the strongest candidate for a product North Star metric? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
 | 8 | Metrics & Experimentation | An A/B test shows a 4% uplift, but the sample is very small and the confidence interval is wide. What should the team do? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
+| 9 | Product Strategy | Which roadmap trade-off is most consistent with a real product strategy? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
+| 10 | Discovery & Insight | What is the main value of an opportunity-solution tree? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
+| 11 | Delivery & Prioritisation | Which release decision is strongest? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
+| 12 | Metrics & Experimentation | What makes an experiment result actionable? | A-D options score 0-3. The best answer receives 3; a partial answer may receive 1 only when the explanation justifies it. Public UI must not show points before completion. |
 
 ### Answer Key and Explanations
 
@@ -61,10 +65,14 @@ Each dimension must have exactly two scored public questions. Maturity and readi
 - 6: A, discovery and delivery proceed in parallel with learning informing build choices.
 - 7: B, a North Star reflects recurring delivered customer value and sustainable outcomes.
 - 8: B, treat the result as uncertain and follow pre-set power/decision rules.
+- 9: B, Strategy requires choices. Serving a sharper ICP and delaying broad requests is a defensible strategic trade-off.
+- 10: B, An opportunity-solution tree connects the desired outcome to customer opportunities, possible solutions, and experiments.
+- 11: C, A strong release decision connects customer impact, risk, readiness, and what the team needs to learn next.
+- 12: B, An experiment is actionable when the team sets the decision rule and guardrails before seeing the result.
 
 ### Scoring Contract
 
-Each option carries 0-3 points. The best answer receives 3 points and a deliberately plausible but incomplete answer may receive 1 point only when the explanation justifies it. Each dimension has two items and is normalised as dimensionScore = obtainedPoints / 6 * 100. Overall mastery uses the balanced index: 0.70 * mean(dimensions) + 0.30 * weakestDimension. Answer order may be randomised only when numeric readability is preserved. The answer key and points must not be visible before completion.
+Each option carries 0-3 points. The best answer receives 3 points and a deliberately plausible but incomplete answer may receive 1 point only when the explanation justifies it. Each dimension has three items and is normalised as dimensionScore = obtainedPoints / 9 * 100. Overall mastery uses the balanced index: 0.70 * mean(dimensions) + 0.30 * weakestDimension. Answer order may be randomised only when numeric readability is preserved. The answer key and points must not be visible before completion.
 
 Level bands:
 
@@ -78,7 +86,7 @@ Level bands:
 
 ### Result Contract
 
-The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, limitations, and answer-support language when supported by the UI.
+The result must display the four-axis diagram, the balanced score, the level label, the strongest dimension, the weakest dimension, a positive archetype from the strongest dimension, and a next upgrade from the weakest dimension. The result must include two personalised insights, two 30-day actions, one reflection question, methodology date/version, and limitations.
 
 Archetype mapping:
 

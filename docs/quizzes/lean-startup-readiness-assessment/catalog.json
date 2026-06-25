@@ -1,0 +1,19 @@
+{
+  "slug": "quizzes/lean-startup-readiness-assessment",
+  "title": "Lean Startup Practice Readiness",
+  "promise": "Lean Startup practice diagnostic for MVP learning, actionable metrics, and pivot discipline.",
+  "duration": "7-9 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "maturity",
+  "domain": "product",
+  "priority": "P1",
+  "audience": "Founders, product teams, startup operators, accelerators, and innovation teams",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Maturity assessment across Problem Hypothesis, MVP Learning Design, Actionable Metrics, Pivot Discipline. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action.",
+  "ogTitle": "Lean Startup Practice Readiness - Outfinity Quiz",
+  "ogDescription": "Lean Startup practice diagnostic for MVP learning, actionable metrics, and pivot discipline.",
+  "featuredGroup": "Founder Essentials",
+  "featuredRank": 7
+}

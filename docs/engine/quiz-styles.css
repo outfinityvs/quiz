@@ -903,22 +903,6 @@
   padding: 0.55rem 0;
 }
 
-.quiz-evidence-basis ul {
-  display: grid;
-  gap: 0.45rem;
-  list-style: none;
-  margin: var(--space-sm) 0 0;
-  padding: 0;
-}
-
-.quiz-evidence-basis li {
-  border: 1px solid var(--border-strong);
-  border-radius: var(--radius-tight);
-  color: var(--text-muted);
-  background: var(--bg-elevated);
-  padding: 0.55rem 0.7rem;
-}
-
 .quiz-share-note {
   color: var(--text-muted);
   font-size: 0.85rem;

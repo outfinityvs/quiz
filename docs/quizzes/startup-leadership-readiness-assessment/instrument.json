@@ -6,9 +6,9 @@
   "title": "Scale Leadership Readiness",
   "language": "en",
   "introduction": {
-    "subtitle": "Leadership maturity assessment. 6 min.",
-    "description": "<p>Scale Leadership Readiness helps you learn the vocabulary and typical expectations behind Delegation & Decision Rights, Talent & Coaching, Operating Rhythm, Culture & Psychological Safety. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "subtitle": "Leadership maturity assessment. 7-9 min.",
+    "description": "<p>Scale Leadership Readiness helps you learn the vocabulary and typical expectations behind Delegation & Decision Rights, Talent & Coaching, Operating Rhythm, Culture & Psychological Safety. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -622,6 +622,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How often do leaders let teams make consequential decisions within clear constraints?",
+      "type": "profile",
+      "dimension": "delegation-and-decision-rights",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows team decisions within leadership constraints; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delegation-and-decision-rights": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of team decisions within leadership constraints, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delegation-and-decision-rights": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show team decisions within leadership constraints in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delegation-and-decision-rights": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Team decisions within leadership constraints is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "delegation-and-decision-rights": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Delegation & Decision Rights: How often do leaders let teams make consequential decisions within clear constraints",
+        "summary": "Delegation & Decision Rights is tested here through a concrete operating question: \"How often do leaders let teams make consequential decisions within clear constraints?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Delegation & Decision Rights matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How quickly are weak role fits addressed with coaching, role change, or exit?",
+      "type": "profile",
+      "dimension": "talent-and-coaching",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows addressing weak role fit; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "talent-and-coaching": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of addressing weak role fit, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "talent-and-coaching": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show addressing weak role fit in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "talent-and-coaching": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Addressing weak role fit is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "talent-and-coaching": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Talent & Coaching: How quickly are weak role fits addressed with coaching, role change, or exit",
+        "summary": "Talent & Coaching is tested here through a concrete operating question: \"How quickly are weak role fits addressed with coaching, role change, or exit?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Talent & Coaching matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How tightly do leadership meetings convert issues into decisions and owners?",
+      "type": "profile",
+      "dimension": "operating-rhythm",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows leadership meetings producing owners and decisions; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-rhythm": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of leadership meetings producing owners and decisions, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-rhythm": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show leadership meetings producing owners and decisions in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-rhythm": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Leadership meetings producing owners and decisions is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "operating-rhythm": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Operating Rhythm: How tightly do leadership meetings convert issues into decisions and owners",
+        "summary": "Operating Rhythm is tested here through a concrete operating question: \"How tightly do leadership meetings convert issues into decisions and owners?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Operating Rhythm matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How consistently do leaders reward truth-telling when the news is bad?",
+      "type": "profile",
+      "dimension": "culture-and-psychological-safety",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows rewarding bad-news truth telling; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "culture-and-psychological-safety": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of rewarding bad-news truth telling, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "culture-and-psychological-safety": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show rewarding bad-news truth telling in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "culture-and-psychological-safety": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Rewarding bad-news truth telling is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "culture-and-psychological-safety": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Culture & Psychological Safety: How consistently do leaders reward truth-telling when the news is bad",
+        "summary": "Culture & Psychological Safety is tested here through a concrete operating question: \"How consistently do leaders reward truth-telling when the news is bad?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Culture & Psychological Safety matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -635,189 +903,29 @@
         "key": "delegation-and-decision-rights",
         "label": "Delegation & Decision Rights",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "talent-and-coaching",
         "label": "Talent & Coaching",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "operating-rhythm",
         "label": "Operating Rhythm",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "culture-and-psychological-safety",
         "label": "Culture & Psychological Safety",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-delegation-and-decision-rights",
-      "text": "What level of evidence supports your answers for Delegation & Decision Rights?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Delegation & Decision Rights",
-        "summary": "This question asks how well your answers about Delegation & Decision Rights are supported. Delegation & Decision Rights means deciding which leaders own which choices so routine decisions do not climb unnecessarily to the founder or executive team. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Delegation & Decision Rights is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Delegation & Decision Rights answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Decision-making",
-            "url": "https://en.wikipedia.org/wiki/Decision-making"
-          },
-          {
-            "label": "Wikipedia: Heuristic",
-            "url": "https://en.wikipedia.org/wiki/Heuristic"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-talent-and-coaching",
-      "text": "What level of evidence supports your answers for Talent & Coaching?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Talent & Coaching",
-        "summary": "This question asks how well your answers about Talent & Coaching are supported. Talent & Coaching means hiring, developing, and coaching people so scaling quality does not depend only on senior rescuers. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Talent & Coaching is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Talent & Coaching answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Leadership",
-            "url": "https://en.wikipedia.org/wiki/Leadership"
-          },
-          {
-            "label": "Wikipedia: Psychological safety",
-            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-operating-rhythm",
-      "text": "What level of evidence supports your answers for Operating Rhythm?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Operating Rhythm",
-        "summary": "This question asks how well your answers about Operating Rhythm are supported. Operating Rhythm means the cadence of meetings, reviews, priorities, and follow-through that turns strategy into coordinated work. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Operating Rhythm is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Operating Rhythm answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Leadership",
-            "url": "https://en.wikipedia.org/wiki/Leadership"
-          },
-          {
-            "label": "Wikipedia: Psychological safety",
-            "url": "https://en.wikipedia.org/wiki/Psychological_safety"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-culture-and-psychological-safety",
-      "text": "What level of evidence supports your answers for Culture & Psychological Safety?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Culture & Psychological Safety",
-        "summary": "This question asks how well your answers about Culture & Psychological Safety are supported. Culture & Psychological Safety means whether people can surface bad news and disagreement while still holding each other accountable for commitments. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Culture & Psychological Safety is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Culture & Psychological Safety answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Decision-making",
-            "url": "https://en.wikipedia.org/wiki/Decision-making"
-          },
-          {
-            "label": "Wikipedia: Heuristic",
-            "url": "https://en.wikipedia.org/wiki/Heuristic"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

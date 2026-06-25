@@ -6,9 +6,9 @@
   "title": "AI Adoption Readiness",
   "language": "en",
   "introduction": {
-    "subtitle": "Transformation readiness assessment. 6 min.",
-    "description": "<p>AI Adoption Readiness helps you learn the vocabulary and typical expectations behind Use Cases & Value, Data & Technology, People & Workflow, Governance & Measurement. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "subtitle": "Transformation readiness assessment. 7-9 min.",
+    "description": "<p>AI Adoption Readiness helps you learn the vocabulary and typical expectations behind Use Cases & Value, Data & Technology, People & Workflow, Governance & Measurement. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -622,6 +622,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How are AI use cases stopped when value is weak or risk is high?",
+      "type": "profile",
+      "dimension": "use-cases-and-value",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows stopping weak or risky AI use cases; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "use-cases-and-value": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of stopping weak or risky AI use cases, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "use-cases-and-value": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show stopping weak or risky AI use cases in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "use-cases-and-value": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Stopping weak or risky AI use cases is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "use-cases-and-value": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Use Cases & Value: How are AI use cases stopped when value is weak or risk is high",
+        "summary": "Use Cases & Value is tested here through a concrete operating question: \"How are AI use cases stopped when value is weak or risk is high?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Use Cases & Value matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How well are AI inputs and outputs monitored for quality drift?",
+      "type": "profile",
+      "dimension": "data-and-technology",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows AI quality drift monitoring; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-technology": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of AI quality drift monitoring, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-technology": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show AI quality drift monitoring in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-technology": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. AI quality drift monitoring is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-technology": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Data & Technology: How well are AI inputs and outputs monitored for quality drift",
+        "summary": "Data & Technology is tested here through a concrete operating question: \"How well are AI inputs and outputs monitored for quality drift?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Data & Technology matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How clearly are handoffs defined between AI assistance and human judgement?",
+      "type": "profile",
+      "dimension": "people-and-workflow",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows AI-to-human workflow handoffs; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "people-and-workflow": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of AI-to-human workflow handoffs, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "people-and-workflow": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show AI-to-human workflow handoffs in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "people-and-workflow": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. AI-to-human workflow handoffs is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "people-and-workflow": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "People & Workflow: How clearly are handoffs defined between AI assistance and human judgement",
+        "summary": "People & Workflow is tested here through a concrete operating question: \"How clearly are handoffs defined between AI assistance and human judgement?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "People & Workflow matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How are AI adoption lessons turned into portfolio decisions?",
+      "type": "profile",
+      "dimension": "governance-and-measurement",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows AI portfolio learning decisions; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "governance-and-measurement": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of AI portfolio learning decisions, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "governance-and-measurement": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show AI portfolio learning decisions in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "governance-and-measurement": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. AI portfolio learning decisions is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "governance-and-measurement": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Governance & Measurement: How are AI adoption lessons turned into portfolio decisions",
+        "summary": "Governance & Measurement is tested here through a concrete operating question: \"How are AI adoption lessons turned into portfolio decisions?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Governance & Measurement matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -635,189 +903,29 @@
         "key": "use-cases-and-value",
         "label": "Use Cases & Value",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "data-and-technology",
         "label": "Data & Technology",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "people-and-workflow",
         "label": "People & Workflow",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "governance-and-measurement",
         "label": "Governance & Measurement",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-use-cases-and-value",
-      "text": "What level of evidence supports your answers for Use Cases & Value?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Use Cases & Value",
-        "summary": "This question asks how well your answers about Use Cases & Value are supported. Use Cases & Value means selecting AI work by business value, user need, feasibility, risk, and measurable outcome instead of by novelty or internal enthusiasm. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Use Cases & Value is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Use Cases & Value answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Artificial intelligence",
-            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
-          },
-          {
-            "label": "Use case",
-            "url": "https://en.wikipedia.org/wiki/Use_case"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-data-and-technology",
-      "text": "What level of evidence supports your answers for Data & Technology?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Data & Technology",
-        "summary": "This question asks how well your answers about Data & Technology are supported. Data & Technology means the readiness of data, knowledge sources, architecture, security, and integration needed for AI to work reliably in production. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Data & Technology is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Data & Technology answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "MLOps",
-            "url": "https://en.wikipedia.org/wiki/MLOps"
-          },
-          {
-            "label": "Machine learning",
-            "url": "https://en.wikipedia.org/wiki/Machine_learning"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-people-and-workflow",
-      "text": "What level of evidence supports your answers for People & Workflow?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "People & Workflow",
-        "summary": "This question asks how well your answers about People & Workflow are supported. People & Workflow means how jobs, decisions, supervision, and daily workflows change when AI is introduced, including the human limits around it. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about People & Workflow is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your People & Workflow answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Human-in-the-loop",
-            "url": "https://en.wikipedia.org/wiki/Human-in-the-loop"
-          },
-          {
-            "label": "Workflow",
-            "url": "https://en.wikipedia.org/wiki/Workflow"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-governance-and-measurement",
-      "text": "What level of evidence supports your answers for Governance & Measurement?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Governance & Measurement",
-        "summary": "This question asks how well your answers about Governance & Measurement are supported. Governance & Measurement means who is accountable for AI decisions, how risks are reviewed, and how deployed systems are measured after launch. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Governance & Measurement is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Governance & Measurement answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "AI governance",
-            "url": "https://en.wikipedia.org/wiki/AI_governance"
-          },
-          {
-            "label": "Machine learning model evaluation",
-            "url": "https://en.wikipedia.org/wiki/Evaluation_of_binary_classifiers"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

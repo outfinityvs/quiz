@@ -6,9 +6,9 @@
   "title": "Product Management Mastery Challenge",
   "language": "en",
   "introduction": {
-    "subtitle": "Knowledge and scenario quiz. 8 min.",
+    "subtitle": "Knowledge quiz. 8-10 min.",
     "description": "<p>Product Management Mastery Challenge is a learning challenge for the terminology, assumptions, and typical decision traps behind Product Strategy, Discovery & Insight, Delivery & Prioritisation, Metrics & Experimentation. It is designed to teach through plausible wrong answers as much as through the correct ones.</p><p>Choose the answer you would use in a real conversation. After completion, the answer review explains the concept and points to the area worth studying next.</p>",
-    "duration": "8 questions. Approximately 8 min.",
+    "duration": "12 questions. Approximately 8-10 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start the challenge"
@@ -558,6 +558,242 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "Which roadmap trade-off is most consistent with a real product strategy?",
+      "type": "profile",
+      "dimension": "product-strategy",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "Strategy requires choices. Serving a sharper ICP and delaying broad requests is a defensible strategic trade-off.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Commit to every enterprise request to avoid disappointing stakeholders.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Serve a narrower ICP now and postpone broad requests that dilute the wedge.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Choose features only by engineering effort.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Keep all options open until the quarter ends.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-strategy": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Product Strategy: Which roadmap trade-off is most consistent with a real product strategy",
+        "summary": "Product Strategy is tested here through a concrete operating question: \"Which roadmap trade-off is most consistent with a real product strategy?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Serve a narrower ICP now and postpone broad requests that dilute the wedge.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "What is the main value of an opportunity-solution tree?",
+      "type": "profile",
+      "dimension": "discovery-and-insight",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "An opportunity-solution tree connects the desired outcome to customer opportunities, possible solutions, and experiments.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. It replaces customer interviews with executive opinions.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. It connects outcomes, customer opportunities, solutions, and experiments in one decision structure.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. It guarantees that the first solution will work.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. It is only a backlog formatting tool.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "discovery-and-insight": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Discovery & Insight: What is the main value of an opportunity-solution tree",
+        "summary": "Discovery & Insight is tested here through a concrete operating question: \"What is the main value of an opportunity-solution tree?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"It connects outcomes, customer opportunities, solutions, and experiments in one decision structure.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "Which release decision is strongest?",
+      "type": "profile",
+      "dimension": "delivery-and-prioritisation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "A strong release decision connects customer impact, risk, readiness, and what the team needs to learn next.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. Ship because the feature has been in the roadmap longest.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. Ship because the loudest stakeholder asked twice.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 0
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Ship when impact, risk, readiness, and learning objective justify the release.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 3
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Ship everything at once to avoid prioritisation conflict.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "delivery-and-prioritisation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Delivery & Prioritisation: Which release decision is strongest",
+        "summary": "Delivery & Prioritisation is tested here through a concrete operating question: \"Which release decision is strongest?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"Ship when impact, risk, readiness, and learning objective justify the release.\"",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "What makes an experiment result actionable?",
+      "type": "profile",
+      "dimension": "metrics-and-experimentation",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "An experiment is actionable when the team sets the decision rule and guardrails before seeing the result.",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. The result looks positive in any chart.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. The team pre-defined the decision threshold, sample logic, and guardrail metrics.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 3
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. The result confirms the product manager preference.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 0
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The experiment ran during a busy week.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "metrics-and-experimentation": 0
+          }
+        }
+      ],
+      "conceptHelp": {
+        "title": "Metrics & Experimentation: What makes an experiment result actionable",
+        "summary": "Metrics & Experimentation is tested here through a concrete operating question: \"What makes an experiment result actionable?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "The strongest answer identifies the mechanism that would still hold up in a real founder, product, or investor conversation.",
+        "beforeAnswering": "Compare the options by mechanism, not by familiar vocabulary. Pick the answer you would defend in a real decision conversation.",
+        "example": "The strongest answer is: \"The team pre-defined the decision threshold, sample logic, and guardrail metrics.\"",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -571,25 +807,25 @@
         "key": "product-strategy",
         "label": "Product Strategy",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "discovery-and-insight",
         "label": "Discovery & Insight",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "delivery-and-prioritisation",
         "label": "Delivery & Prioritisation",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "metrics-and-experimentation",
         "label": "Metrics & Experimentation",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },

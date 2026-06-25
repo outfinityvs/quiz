@@ -6,9 +6,9 @@
   "title": "Product-Led Growth Readiness",
   "language": "en",
   "introduction": {
-    "subtitle": "Go-to-market readiness assessment. 6 min.",
-    "description": "<p>Product-Led Growth Readiness helps you learn the vocabulary and typical expectations behind Time to Value, Activation & Self-Service, Product Signals & Data, Expansion & Virality. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min.",
+    "subtitle": "Go-to-market readiness assessment. 7-9 min.",
+    "description": "<p>Product-Led Growth Readiness helps you learn the vocabulary and typical expectations behind Time to Value, Activation & Self-Service, Product Signals & Data, Expansion & Virality. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -622,6 +622,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How visible is the shortest path from signup to first meaningful value?",
+      "type": "profile",
+      "dimension": "time-to-value",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows shortest path to first value; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "time-to-value": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of shortest path to first value, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "time-to-value": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show shortest path to first value in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "time-to-value": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Shortest path to first value is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "time-to-value": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Time to Value: How visible is the shortest path from signup to first meaningful value",
+        "summary": "Time to Value is tested here through a concrete operating question: \"How visible is the shortest path from signup to first meaningful value?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Time to Value matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How well are activation failures diagnosed by user segment?",
+      "type": "profile",
+      "dimension": "activation-and-self-service",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows segment-level activation failure diagnosis; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "activation-and-self-service": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of segment-level activation failure diagnosis, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "activation-and-self-service": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show segment-level activation failure diagnosis in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "activation-and-self-service": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Segment-level activation failure diagnosis is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "activation-and-self-service": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Activation & Self-Service: How well are activation failures diagnosed by user segment",
+        "summary": "Activation & Self-Service is tested here through a concrete operating question: \"How well are activation failures diagnosed by user segment?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Activation & Self-Service matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How clearly do product signals identify sales-ready accounts without spammy assumptions?",
+      "type": "profile",
+      "dimension": "product-signals-and-data",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows credible product-qualified signals; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-signals-and-data": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of credible product-qualified signals, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-signals-and-data": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show credible product-qualified signals in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "product-signals-and-data": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Credible product-qualified signals is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "product-signals-and-data": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Product Signals & Data: How clearly do product signals identify sales-ready accounts without spammy assumptions",
+        "summary": "Product Signals & Data is tested here through a concrete operating question: \"How clearly do product signals identify sales-ready accounts without spammy assumptions?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Product Signals & Data matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How deliberately does the product create natural multi-user or higher-usage moments?",
+      "type": "profile",
+      "dimension": "expansion-and-virality",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows natural expansion moments; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "expansion-and-virality": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of natural expansion moments, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "expansion-and-virality": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show natural expansion moments in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "expansion-and-virality": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Natural expansion moments is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "expansion-and-virality": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Expansion & Virality: How deliberately does the product create natural multi-user or higher-usage moments",
+        "summary": "Expansion & Virality is tested here through a concrete operating question: \"How deliberately does the product create natural multi-user or higher-usage moments?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Expansion & Virality matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -635,189 +903,29 @@
         "key": "time-to-value",
         "label": "Time to Value",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "activation-and-self-service",
         "label": "Activation & Self-Service",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "product-signals-and-data",
         "label": "Product Signals & Data",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "expansion-and-virality",
         "label": "Expansion & Virality",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-time-to-value",
-      "text": "What level of evidence supports your answers for Time to Value?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Time to Value",
-        "summary": "This question asks how well your answers about Time to Value are supported. Time to Value means how quickly a qualified user reaches a meaningful first outcome after starting the product. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Time to Value is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Time to Value answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Product management",
-            "url": "https://en.wikipedia.org/wiki/Product_management"
-          },
-          {
-            "label": "Wikipedia: Minimum viable product",
-            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-activation-and-self-service",
-      "text": "What level of evidence supports your answers for Activation & Self-Service?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Activation & Self-Service",
-        "summary": "This question asks how well your answers about Activation & Self-Service are supported. Activation & Self-Service means how much the product itself guides a new user through setup, learning, and first successful use without heavy manual help. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Activation & Self-Service is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Activation & Self-Service answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Product management",
-            "url": "https://en.wikipedia.org/wiki/Product_management"
-          },
-          {
-            "label": "Wikipedia: Minimum viable product",
-            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-product-signals-and-data",
-      "text": "What level of evidence supports your answers for Product Signals & Data?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Product Signals & Data",
-        "summary": "This question asks how well your answers about Product Signals & Data are supported. Product Signals & Data means the behavioral data and product-qualified signals that show which users or accounts are ready for sales, expansion, or intervention. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Product Signals & Data is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Product Signals & Data answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Evidence",
-            "url": "https://en.wikipedia.org/wiki/Evidence"
-          },
-          {
-            "label": "Wikipedia: Scientific method",
-            "url": "https://en.wikipedia.org/wiki/Scientific_method"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-expansion-and-virality",
-      "text": "What level of evidence supports your answers for Expansion & Virality?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Expansion & Virality",
-        "summary": "This question asks how well your answers about Expansion & Virality are supported. Expansion & Virality means whether normal product use creates additional value, invites more users, or reveals paid expansion opportunities. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Expansion & Virality is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Expansion & Virality answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Product management",
-            "url": "https://en.wikipedia.org/wiki/Product_management"
-          },
-          {
-            "label": "Wikipedia: Minimum viable product",
-            "url": "https://en.wikipedia.org/wiki/Minimum_viable_product"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

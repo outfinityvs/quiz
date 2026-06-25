@@ -2,8 +2,8 @@
   "slug": "quizzes/founder-operating-system-assessment",
   "title": "Founder Operating System",
   "promise": "Operating maturity diagnostic for founder focus, decisions, metrics, and sustainability.",
-  "duration": "5 min",
-  "durationCategory": "medium",
+  "duration": "7-9 min",
+  "durationCategory": "long",
   "questions": 12,
   "type": "maturity",
   "domain": "founders",
@@ -11,7 +11,9 @@
   "audience": "Founders and CEOs from pre-seed to Series B, executive coaches, and accelerators",
   "hasRecommendation": false,
   "license": "CC BY 4.0",
-  "description": "Operating maturity assessment across Focus & Trade-offs, Decision Cadence, Metrics & Evidence, Personal Sustainability. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action, and separate answer-support checks.",
+  "description": "Operating maturity assessment across Focus & Trade-offs, Decision Cadence, Metrics & Evidence, Personal Sustainability. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action.",
   "ogTitle": "Founder Operating System - Outfinity Quiz",
-  "ogDescription": "Operating maturity diagnostic for founder focus, decisions, metrics, and sustainability."
+  "ogDescription": "Operating maturity diagnostic for founder focus, decisions, metrics, and sustainability.",
+  "featuredGroup": "Founder Essentials",
+  "featuredRank": 17
 }

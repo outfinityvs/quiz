@@ -1,0 +1,1783 @@
+{
+  "id": "dark-personality-patterns-test",
+  "slug": "dark-personality-patterns-test",
+  "version": 1,
+  "locale": "en",
+  "title": "Dark Personality Pattern Check",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Reflective pattern check. 10-12 min.",
+    "description": "<p>Dark Personality Pattern Check is a non-clinical reflection tool for protective behaviour against manipulation, entitlement, callousness, and impulse-boundary risk. Higher scores mean stronger protective habits, not stronger dark traits.</p><p>Answer from recent behaviour under pressure, not ideal self-description. Your answers stay in this browser unless you explicitly share a result.</p>",
+    "duration": "24 reflective questions. Approximately 10-12 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Reflective self-knowledge tool only. Not a clinical diagnosis, employment assessment, forensic assessment, medical advice, or validated psychometric instrument.",
+    "startButton": "Start assessment"
+  },
+  "deliberationText": "Mapping protective patterns...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How do you persuade someone when full information might weaken your case?",
+      "type": "profile",
+      "dimension": "transparent-influence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I would leave out the information if it helps me win.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I would share only what I expect they can discover anyway.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I would disclose the material downside, but still argue my case strongly.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I would make my interest, their risk, and the missing information explicit before asking for agreement.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Transparent Influence: How do you persuade someone when full information might weaken your case",
+        "summary": "Transparent Influence reflects how clearly you protect consent and choice when persuasion could become manipulation. This question looks at: \"How do you persuade someone when full information might weaken your case?\".",
+        "whyItMatters": "Weak protection here can turn influence into hidden pressure, selective disclosure, or exploitative framing.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer makes interests, risks, and missing information visible before asking for agreement.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "text": "How do you handle a negotiation where the other side trusts you more than they should?",
+      "type": "profile",
+      "dimension": "transparent-influence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I would use the trust advantage to improve my outcome.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I would avoid lying, but still let their mistaken confidence work for me.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I would slow the negotiation enough to correct material misunderstandings.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I would protect their ability to choose freely even if it weakens my position.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Transparent Influence: How do you handle a negotiation where the other side trusts you more than they should",
+        "summary": "Transparent Influence reflects how clearly you protect consent and choice when persuasion could become manipulation. This question looks at: \"How do you handle a negotiation where the other side trusts you more than they should?\".",
+        "whyItMatters": "Weak protection here can turn influence into hidden pressure, selective disclosure, or exploitative framing.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer makes interests, risks, and missing information visible before asking for agreement.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "text": "How do you react when a shortcut would let you win without being noticed?",
+      "type": "profile",
+      "dimension": "transparent-influence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I would take the shortcut if the chance of being caught is low.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I might take it if the harm seems abstract or reversible.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I would pause and check whether the shortcut violates a real boundary.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I would reject the shortcut and make the boundary visible enough to prevent repeats.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Transparent Influence: How do you react when a shortcut would let you win without being noticed",
+        "summary": "Transparent Influence reflects how clearly you protect consent and choice when persuasion could become manipulation. This question looks at: \"How do you react when a shortcut would let you win without being noticed?\".",
+        "whyItMatters": "Weak protection here can turn influence into hidden pressure, selective disclosure, or exploitative framing.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer makes interests, risks, and missing information visible before asking for agreement.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "text": "How do you behave when someone else receives credit for shared work?",
+      "type": "profile",
+      "dimension": "status-humility",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I feel deprived and look for ways to reclaim the spotlight.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I stay civil, but privately discount their contribution.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I recognise the shared work and add context if something important is missing.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I actively reinforce fair credit and use the moment to strengthen trust.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Status Humility: How do you behave when someone else receives credit for shared work",
+        "summary": "Status Humility reflects how well you stay fair when attention, credit, challenge, or exclusion affects your ego. This question looks at: \"How do you behave when someone else receives credit for shared work?\".",
+        "whyItMatters": "Weak protection here can produce entitlement, retaliation, credit capture, or contempt for lower-status people.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer separates contribution from status and makes challenge safer.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "text": "How do you respond when a lower-status person challenges you correctly?",
+      "type": "profile",
+      "dimension": "status-humility",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I attack their credibility or remind them of their place.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I listen, but mostly to find a weakness in their argument.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I check the claim on its merits and adjust if they are right.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I thank them, correct the issue, and make it safer for others to challenge me.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Status Humility: How do you respond when a lower-status person challenges you correctly",
+        "summary": "Status Humility reflects how well you stay fair when attention, credit, challenge, or exclusion affects your ego. This question looks at: \"How do you respond when a lower-status person challenges you correctly?\".",
+        "whyItMatters": "Weak protection here can produce entitlement, retaliation, credit capture, or contempt for lower-status people.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer separates contribution from status and makes challenge safer.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "text": "How do you handle not being invited into an important room?",
+      "type": "profile",
+      "dimension": "status-humility",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I assume I was excluded unfairly and look for leverage.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I feel slighted, but try not to show it.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I ask whether my involvement is actually needed and respect the answer.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I separate status from contribution and support the decision if it serves the work.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Status Humility: How do you handle not being invited into an important room",
+        "summary": "Status Humility reflects how well you stay fair when attention, credit, challenge, or exclusion affects your ego. This question looks at: \"How do you handle not being invited into an important room?\".",
+        "whyItMatters": "Weak protection here can produce entitlement, retaliation, credit capture, or contempt for lower-status people.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer separates contribution from status and makes challenge safer.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "text": "How do you treat people who block an outcome you care about?",
+      "type": "profile",
+      "dimension": "empathy-under-pressure",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I treat them as an obstacle to move or pressure.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I stay professional, but stop caring about their constraints.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I try to understand the constraint while still pursuing the outcome.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I protect dignity, boundaries, and facts even when I strongly disagree.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Empathy Under Pressure: How do you treat people who block an outcome you care about",
+        "summary": "Empathy Under Pressure reflects how well you preserve dignity and harm awareness when stakes are high. This question looks at: \"How do you treat people who block an outcome you care about?\".",
+        "whyItMatters": "Weak protection here can make people with less power carry avoidable cost or fear.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer names who may be harmed and protects boundaries while still making decisions.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "text": "How do you make trade-offs that impose costs on people with less power?",
+      "type": "profile",
+      "dimension": "empathy-under-pressure",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I focus on the goal and let weaker parties absorb the cost.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I notice the cost, but accept it if no one objects strongly.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I identify who bears the cost and look for mitigation before deciding.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I make the harm visible, include affected voices where possible, and set a boundary on acceptable trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Empathy Under Pressure: How do you make trade-offs that impose costs on people with less power",
+        "summary": "Empathy Under Pressure reflects how well you preserve dignity and harm awareness when stakes are high. This question looks at: \"How do you make trade-offs that impose costs on people with less power?\".",
+        "whyItMatters": "Weak protection here can make people with less power carry avoidable cost or fear.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer names who may be harmed and protects boundaries while still making decisions.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "text": "How do you react when someone shows vulnerability you could use against them?",
+      "type": "profile",
+      "dimension": "empathy-under-pressure",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I would remember the vulnerability for future leverage.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I would not use it immediately, but might if conflict escalates.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I would treat it as private unless there is a serious safety reason.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I would protect the vulnerability and avoid creating dependence or fear.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Empathy Under Pressure: How do you react when someone shows vulnerability you could use against them",
+        "summary": "Empathy Under Pressure reflects how well you preserve dignity and harm awareness when stakes are high. This question looks at: \"How do you react when someone shows vulnerability you could use against them?\".",
+        "whyItMatters": "Weak protection here can make people with less power carry avoidable cost or fear.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer names who may be harmed and protects boundaries while still making decisions.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How do you behave when you are angry and have access to damaging information?",
+      "type": "profile",
+      "dimension": "impulse-boundary-control",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I might use the information if it teaches them a lesson.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I would probably hold back publicly, but might threaten privately.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I would pause until I can decide without retaliation driving the choice.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I would protect the information, step away, and use a fair process if action is needed.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Impulse & Boundary Control: How do you behave when you are angry and have access to damaging information",
+        "summary": "Impulse & Boundary Control reflects how well you protect agreed limits when anger, reward, or convenience pulls the other way. This question looks at: \"How do you behave when you are angry and have access to damaging information?\".",
+        "whyItMatters": "Weak protection here can turn temporary emotion or reward into lasting trust damage.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer uses pauses, checks, and fair process before acting.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How do you handle rules that feel inconvenient but protect other people?",
+      "type": "profile",
+      "dimension": "impulse-boundary-control",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I ignore the rule when it blocks my preferred outcome.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I comply when watched, but look for exceptions when inconvenient.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I follow the rule unless there is a transparent, agreed reason to change it.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I treat protective rules as trust infrastructure and raise problems through a fair process.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Impulse & Boundary Control: How do you handle rules that feel inconvenient but protect other people",
+        "summary": "Impulse & Boundary Control reflects how well you protect agreed limits when anger, reward, or convenience pulls the other way. This question looks at: \"How do you handle rules that feel inconvenient but protect other people?\".",
+        "whyItMatters": "Weak protection here can turn temporary emotion or reward into lasting trust damage.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer uses pauses, checks, and fair process before acting.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How do you respond when immediate reward conflicts with a boundary you agreed to?",
+      "type": "profile",
+      "dimension": "impulse-boundary-control",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I take the reward and rationalise the boundary later.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I hesitate, but may bend the boundary if the reward is large.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I keep the boundary and look for an acceptable alternative.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I pre-commit checks that make it hard for immediate reward to override the boundary.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Impulse & Boundary Control: How do you respond when immediate reward conflicts with a boundary you agreed to",
+        "summary": "Impulse & Boundary Control reflects how well you protect agreed limits when anger, reward, or convenience pulls the other way. This question looks at: \"How do you respond when immediate reward conflicts with a boundary you agreed to?\".",
+        "whyItMatters": "Weak protection here can turn temporary emotion or reward into lasting trust damage.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer uses pauses, checks, and fair process before acting.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q13",
+      "text": "How do you handle information that would make your proposal look less attractive?",
+      "type": "profile",
+      "dimension": "transparent-influence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I would omit it if disclosure might cost me the win.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I would mention it only if directly asked.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I would disclose the material issue and explain why I still think the proposal is valid.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I would make the downside easy to understand and invite the other person to decide with full context.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Transparent Influence: How do you handle information that would make your proposal look less attractive",
+        "summary": "Transparent Influence reflects how clearly you protect consent and choice when persuasion could become manipulation. This question looks at: \"How do you handle information that would make your proposal look less attractive?\".",
+        "whyItMatters": "Weak protection here can turn influence into hidden pressure, selective disclosure, or exploitative framing.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer makes interests, risks, and missing information visible before asking for agreement.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q14",
+      "text": "How do you react when someone sets a boundary that reduces your influence?",
+      "type": "profile",
+      "dimension": "transparent-influence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I look for another route around the boundary.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I accept it outwardly, but keep testing where it can bend.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I respect it and ask what communication is still welcome.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I treat the boundary as useful information and adjust without pressure or punishment.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Transparent Influence: How do you react when someone sets a boundary that reduces your influence",
+        "summary": "Transparent Influence reflects how clearly you protect consent and choice when persuasion could become manipulation. This question looks at: \"How do you react when someone sets a boundary that reduces your influence?\".",
+        "whyItMatters": "Weak protection here can turn influence into hidden pressure, selective disclosure, or exploitative framing.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer makes interests, risks, and missing information visible before asking for agreement.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q15",
+      "text": "How do you use private knowledge about someone’s insecurity?",
+      "type": "profile",
+      "dimension": "transparent-influence",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I may use it if it helps move them toward the outcome.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I avoid obvious cruelty, but still frame things around that insecurity.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I keep it out of persuasion unless it is directly relevant and safe to discuss.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I protect the information and choose an influence path that does not exploit vulnerability.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "transparent-influence": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Transparent Influence: How do you use private knowledge about someone’s insecurity",
+        "summary": "Transparent Influence reflects how clearly you protect consent and choice when persuasion could become manipulation. This question looks at: \"How do you use private knowledge about someone’s insecurity?\".",
+        "whyItMatters": "Weak protection here can turn influence into hidden pressure, selective disclosure, or exploitative framing.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer makes interests, risks, and missing information visible before asking for agreement.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q16",
+      "text": "How do you behave when someone junior outperforms you publicly?",
+      "type": "profile",
+      "dimension": "status-humility",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I minimise their achievement or look for a flaw.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I congratulate them, but privately feel the need to reassert position.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I acknowledge the result and learn what they did well.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I amplify their contribution and use the moment to strengthen the team standard.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Status Humility: How do you behave when someone junior outperforms you publicly",
+        "summary": "Status Humility reflects how well you stay fair when attention, credit, challenge, or exclusion affects your ego. This question looks at: \"How do you behave when someone junior outperforms you publicly?\".",
+        "whyItMatters": "Weak protection here can produce entitlement, retaliation, credit capture, or contempt for lower-status people.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer separates contribution from status and makes challenge safer.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q17",
+      "text": "How do you respond when a decision benefits the group but reduces your status?",
+      "type": "profile",
+      "dimension": "status-humility",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I resist it or reframe the decision so I keep status.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I accept it only if my loss of status is not visible.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I support it if the evidence shows it is better for the group.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I support it openly and help make the transition clean for others.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Status Humility: How do you respond when a decision benefits the group but reduces your status",
+        "summary": "Status Humility reflects how well you stay fair when attention, credit, challenge, or exclusion affects your ego. This question looks at: \"How do you respond when a decision benefits the group but reduces your status?\".",
+        "whyItMatters": "Weak protection here can produce entitlement, retaliation, credit capture, or contempt for lower-status people.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer separates contribution from status and makes challenge safer.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q18",
+      "text": "How do you handle feedback that you came across as arrogant or dismissive?",
+      "type": "profile",
+      "dimension": "status-humility",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I dismiss the feedback as oversensitivity.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I defend my intent before considering the impact.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I ask for examples and adjust the behaviour if the pattern is real.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I thank the person, repair the specific impact, and invite earlier signals next time.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "status-humility": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Status Humility: How do you handle feedback that you came across as arrogant or dismissive",
+        "summary": "Status Humility reflects how well you stay fair when attention, credit, challenge, or exclusion affects your ego. This question looks at: \"How do you handle feedback that you came across as arrogant or dismissive?\".",
+        "whyItMatters": "Weak protection here can produce entitlement, retaliation, credit capture, or contempt for lower-status people.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer separates contribution from status and makes challenge safer.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q19",
+      "text": "How do you respond when achieving the goal requires someone else to carry a burden?",
+      "type": "profile",
+      "dimension": "empathy-under-pressure",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I focus on the goal and let them absorb the burden.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I notice the burden, but treat it as the cost of progress.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I check whether the burden is necessary and look for mitigation.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I make the burden visible, negotiate it fairly, and protect non-negotiable limits.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Empathy Under Pressure: How do you respond when achieving the goal requires someone else to carry a burden",
+        "summary": "Empathy Under Pressure reflects how well you preserve dignity and harm awareness when stakes are high. This question looks at: \"How do you respond when achieving the goal requires someone else to carry a burden?\".",
+        "whyItMatters": "Weak protection here can make people with less power carry avoidable cost or fear.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer names who may be harmed and protects boundaries while still making decisions.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q20",
+      "text": "How do you talk about people who are no longer useful to your plan?",
+      "type": "profile",
+      "dimension": "empathy-under-pressure",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I talk about them as obstacles or dead weight.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I stay polite publicly, but dismiss them privately.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I separate their current fit from their dignity and past contribution.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I keep language fair, protect confidentiality, and avoid turning usefulness into human worth.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Empathy Under Pressure: How do you talk about people who are no longer useful to your plan",
+        "summary": "Empathy Under Pressure reflects how well you preserve dignity and harm awareness when stakes are high. This question looks at: \"How do you talk about people who are no longer useful to your plan?\".",
+        "whyItMatters": "Weak protection here can make people with less power carry avoidable cost or fear.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer names who may be harmed and protects boundaries while still making decisions.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q21",
+      "text": "How do you behave when a mistake by someone else threatens your outcome?",
+      "type": "profile",
+      "dimension": "empathy-under-pressure",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I make sure they feel the consequence so it does not happen again.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I control my reaction, but focus mainly on assigning fault.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I stabilise the outcome, then review responsibility and prevention.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I protect the person from humiliation while still making accountability and repair explicit.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "empathy-under-pressure": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Empathy Under Pressure: How do you behave when a mistake by someone else threatens your outcome",
+        "summary": "Empathy Under Pressure reflects how well you preserve dignity and harm awareness when stakes are high. This question looks at: \"How do you behave when a mistake by someone else threatens your outcome?\".",
+        "whyItMatters": "Weak protection here can make people with less power carry avoidable cost or fear.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer names who may be harmed and protects boundaries while still making decisions.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q22",
+      "text": "How do you handle a tempting opportunity that depends on bending an agreement?",
+      "type": "profile",
+      "dimension": "impulse-boundary-control",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I take it if the agreement seems unlikely to be enforced.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I look for a technical interpretation that lets me proceed.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I pause and ask whether the agreement would still feel fair if disclosed.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I either renegotiate transparently or decline the opportunity.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Impulse & Boundary Control: How do you handle a tempting opportunity that depends on bending an agreement",
+        "summary": "Impulse & Boundary Control reflects how well you protect agreed limits when anger, reward, or convenience pulls the other way. This question looks at: \"How do you handle a tempting opportunity that depends on bending an agreement?\".",
+        "whyItMatters": "Weak protection here can turn temporary emotion or reward into lasting trust damage.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer uses pauses, checks, and fair process before acting.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q23",
+      "text": "How do you behave when retaliation would feel justified?",
+      "type": "profile",
+      "dimension": "impulse-boundary-control",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I retaliate if it restores balance or teaches a lesson.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I do not retaliate openly, but may create consequences indirectly.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I delay action until I can separate repair, boundary-setting, and punishment.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I use a fair process and avoid actions whose main purpose is to hurt back.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Impulse & Boundary Control: How do you behave when retaliation would feel justified",
+        "summary": "Impulse & Boundary Control reflects how well you protect agreed limits when anger, reward, or convenience pulls the other way. This question looks at: \"How do you behave when retaliation would feel justified?\".",
+        "whyItMatters": "Weak protection here can turn temporary emotion or reward into lasting trust damage.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer uses pauses, checks, and fair process before acting.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q24",
+      "text": "How do you respond when secrecy would make a questionable action easier?",
+      "type": "profile",
+      "dimension": "impulse-boundary-control",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. I keep it quiet if the outcome is useful.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. I tell only people who are likely to agree with me.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. I ask what would change if the action had to be explained to affected people.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. I bring the decision into an appropriate review before acting.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "impulse-boundary-control": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Impulse & Boundary Control: How do you respond when secrecy would make a questionable action easier",
+        "summary": "Impulse & Boundary Control reflects how well you protect agreed limits when anger, reward, or convenience pulls the other way. This question looks at: \"How do you respond when secrecy would make a questionable action easier?\".",
+        "whyItMatters": "Weak protection here can turn temporary emotion or reward into lasting trust damage.",
+        "beforeAnswering": "Answer from recent behaviour under stress, power, threat, or temptation. Do not score the person you wish you were.",
+        "example": "A strong answer uses pauses, checks, and fair process before acting.",
+        "learnMore": [
+          {
+            "label": "International Personality Item Pool",
+            "url": "https://ipip.ori.org/"
+          }
+        ]
+      }
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "maturity",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "transparent-influence",
+        "label": "Transparent Influence",
+        "theoreticalMin": 0,
+        "theoreticalMax": 18
+      },
+      {
+        "key": "status-humility",
+        "label": "Status Humility",
+        "theoreticalMin": 0,
+        "theoreticalMax": 18
+      },
+      {
+        "key": "empathy-under-pressure",
+        "label": "Empathy Under Pressure",
+        "theoreticalMin": 0,
+        "theoreticalMax": 18
+      },
+      {
+        "key": "impulse-boundary-control",
+        "label": "Impulse & Boundary Control",
+        "theoreticalMin": 0,
+        "theoreticalMax": 18
+      }
+    ]
+  },
+  "banner": "outfinity-explorer-circle",
+  "questionStageTitle": "Answer from behaviour under pressure",
+  "questionStageDescription": "Prefer recent observable behaviour over ideal self-image. If unsure, choose the answer a trusted observer would recognise."
+}

@@ -7,8 +7,8 @@
   "language": "en",
   "introduction": {
     "subtitle": "Governance readiness assessment with jurisdiction branching. 7-9 min.",
-    "description": "<p>Responsible AI & EU/Swiss Readiness helps you learn the vocabulary and typical expectations behind Classification & Scope, Data & Privacy, Risk & Human Oversight, Documentation & Monitoring. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 7-9 min.",
+    "description": "<p>Responsible AI & EU/Swiss Readiness helps you learn the vocabulary and typical expectations behind Classification & Scope, Data & Privacy, Risk & Human Oversight, Documentation & Monitoring. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions plus 2 context choices. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -622,6 +622,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How quickly can the team identify when a new AI feature changes risk class?",
+      "type": "profile",
+      "dimension": "classification-and-scope",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows AI feature risk-class changes; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of AI feature risk-class changes, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show AI feature risk-class changes in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. AI feature risk-class changes is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "classification-and-scope": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Classification & Scope: How quickly can the team identify when a new AI feature changes risk class",
+        "summary": "Classification & Scope is tested here through a concrete operating question: \"How quickly can the team identify when a new AI feature changes risk class?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Classification & Scope matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How are data rights, consent, provenance, and retention checked before release?",
+      "type": "profile",
+      "dimension": "data-and-privacy",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows AI data rights and retention checks; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of AI data rights and retention checks, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show AI data rights and retention checks in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. AI data rights and retention checks is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "data-and-privacy": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Data & Privacy: How are data rights, consent, provenance, and retention checked before release",
+        "summary": "Data & Privacy is tested here through a concrete operating question: \"How are data rights, consent, provenance, and retention checked before release?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Data & Privacy matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How are human overrides tested for real authority rather than cosmetic review?",
+      "type": "profile",
+      "dimension": "risk-and-human-oversight",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows meaningful human override tests; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of meaningful human override tests, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show meaningful human override tests in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Meaningful human override tests is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "risk-and-human-oversight": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Risk & Human Oversight: How are human overrides tested for real authority rather than cosmetic review",
+        "summary": "Risk & Human Oversight is tested here through a concrete operating question: \"How are human overrides tested for real authority rather than cosmetic review?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Risk & Human Oversight matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How are model, prompt, data, and monitoring changes traceable after launch?",
+      "type": "profile",
+      "dimension": "documentation-and-monitoring",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows traceability of AI changes after launch; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of traceability of AI changes after launch, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show traceability of AI changes after launch in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Traceability of AI changes after launch is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "documentation-and-monitoring": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Documentation & Monitoring: How are model, prompt, data, and monitoring changes traceable after launch",
+        "summary": "Documentation & Monitoring is tested here through a concrete operating question: \"How are model, prompt, data, and monitoring changes traceable after launch?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Documentation & Monitoring matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -635,30 +903,30 @@
         "key": "classification-and-scope",
         "label": "Classification & Scope",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "data-and-privacy",
         "label": "Data & Privacy",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "risk-and-human-oversight",
         "label": "Risk & Human Oversight",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "documentation-and-monitoring",
         "label": "Documentation & Monitoring",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
+  "contextTitle": "Set your AI context",
   "contextQuestions": [
     {
       "id": "jurisdiction",
@@ -737,165 +1005,9 @@
           }
         ]
       }
-    },
-    {
-      "id": "evidence-classification-and-scope",
-      "text": "What level of evidence supports your answers for Classification & Scope?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Classification & Scope",
-        "summary": "This question asks how well your answers about Classification & Scope are supported. Classification & Scope means knowing which AI systems exist, what they do, who is legally responsible, and which risk class or jurisdiction may apply. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Classification & Scope is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Classification & Scope answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Artificial intelligence regulation",
-            "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence"
-          },
-          {
-            "label": "Artificial Intelligence Act",
-            "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-data-and-privacy",
-      "text": "What level of evidence supports your answers for Data & Privacy?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Data & Privacy",
-        "summary": "This question asks how well your answers about Data & Privacy are supported. Data & Privacy means governing training data, inputs, retrieval, outputs, rights, privacy impacts, and data protection inside AI use. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Data & Privacy is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Data & Privacy answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Data privacy",
-            "url": "https://en.wikipedia.org/wiki/Information_privacy"
-          },
-          {
-            "label": "Data protection impact assessment",
-            "url": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-risk-and-human-oversight",
-      "text": "What level of evidence supports your answers for Risk & Human Oversight?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Risk & Human Oversight",
-        "summary": "This question asks how well your answers about Risk & Human Oversight are supported. Risk & Human Oversight means identifying AI safety, bias, misuse, robustness, and human-control risks in a way that changes deployment decisions. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Risk & Human Oversight is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Risk & Human Oversight answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Algorithmic bias",
-            "url": "https://en.wikipedia.org/wiki/Algorithmic_bias"
-          },
-          {
-            "label": "Human oversight of artificial intelligence",
-            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence#Regulation_and_safety"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-documentation-and-monitoring",
-      "text": "What level of evidence supports your answers for Documentation & Monitoring?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Documentation & Monitoring",
-        "summary": "This question asks how well your answers about Documentation & Monitoring are supported. Documentation & Monitoring means keeping records, logs, transparency material, monitoring, and change control for AI systems after release. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Documentation & Monitoring is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Documentation & Monitoring answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Artificial intelligence",
-            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
-          },
-          {
-            "label": "Wikipedia: AI governance",
-            "url": "https://en.wikipedia.org/wiki/AI_governance"
-          }
-        ]
-      }
     }
   ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
   "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "contextDescription": "These context choices frame the educational result. They are not scored and do not change the baseline scoring model."
 }

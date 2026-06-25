@@ -1,0 +1,19 @@
+{
+  "slug": "quizzes/business-idea-testing-assessment",
+  "title": "Business Idea Testing Readiness",
+  "promise": "Testing Business Ideas diagnostic for choosing experiments that reduce the biggest venture risks first.",
+  "duration": "7-9 min",
+  "durationCategory": "long",
+  "questions": 12,
+  "type": "maturity",
+  "domain": "product",
+  "priority": "P1",
+  "audience": "Founders, product teams, venture builders, innovation teams, and accelerators",
+  "hasRecommendation": false,
+  "license": "CC BY 4.0",
+  "description": "Maturity assessment across Assumption Mapping, Experiment Selection, Evidence Strength, Learning Decisions. Four-dimensional radar result, balanced index, level label, strongest-dimension archetype, weakest-dimension 30-day action.",
+  "ogTitle": "Business Idea Testing Readiness - Outfinity Quiz",
+  "ogDescription": "Testing Business Ideas diagnostic for choosing experiments that reduce the biggest venture risks first.",
+  "featuredGroup": "Founder Essentials",
+  "featuredRank": 6
+}

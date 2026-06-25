@@ -51,6 +51,6 @@
   },
   "defaultSecondAction": "Retake the challenge after revising the deck and practising Q&A with someone willing to challenge the story.",
   "reflectionQuestion": "Which slide would fail first if an investor asked for source evidence?",
-  "methodologyNote": "The current version uses four dimensions with two scenario questions each. The best answer receives 3 points; plausible but incomplete answers may receive 1 point. Dimension scores are normalised to 0-100 and combined through the standard balanced index. This is an educational quiz, not investment advice or fundraising certification.",
+  "methodologyNote": "The current version uses four dimensions with three scenario questions each. The best answer receives 3 points; plausible but incomplete answers may receive 1 point. Dimension scores are normalised to 0-100 and combined through the standard balanced index. This is an educational quiz, not investment advice or fundraising certification.",
   "shareNote": "Share cards reveal only the level and strongest area. They do not publish individual answers, deck weaknesses, financial details, investor names, or fundraising strategy."
 }

@@ -7,8 +7,8 @@
   "language": "en",
   "introduction": {
     "subtitle": "Paired alignment assessment. 6 min per founder.",
-    "description": "<p>Co-Founder Alignment & Compatibility helps you learn the vocabulary and typical expectations behind Ambition & Horizon, Roles & Decision Rights, Values & Conflict, Economics & Risk. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>The score stays separate from the optional answer-support check, which asks whether your answers are based on opinion, anecdotes, documentation, or system-verified evidence. A high answer should mean the practice is visible, repeatable, and useful in real decisions.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
-    "duration": "8 diagnostic questions plus 4 evidence checks. Approximately 6 min per founder.",
+    "description": "<p>Co-Founder Alignment & Compatibility helps you learn the vocabulary and typical expectations behind Ambition & Horizon, Roles & Decision Rights, Values & Conflict, Economics & Risk. Use it as a private diagnostic: answer from observable evidence, not aspiration, and treat the result as a map for the next improvement cycle.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
     "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
     "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
     "startButton": "Start assessment"
@@ -601,6 +601,274 @@
           }
         ]
       }
+    },
+    {
+      "id": "q9",
+      "text": "How explicitly have founders compared personal success definitions and exit preferences?",
+      "type": "profile",
+      "dimension": "ambition-and-horizon",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows founder success and exit preference alignment; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambition-and-horizon": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of founder success and exit preference alignment, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambition-and-horizon": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show founder success and exit preference alignment in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "ambition-and-horizon": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Founder success and exit preference alignment is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "ambition-and-horizon": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Ambition & Horizon: How explicitly have founders compared personal success definitions and exit preferences",
+        "summary": "Ambition & Horizon is tested here through a concrete operating question: \"How explicitly have founders compared personal success definitions and exit preferences?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Ambition & Horizon matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How are founder vetoes or tie-breaks handled when consensus fails?",
+      "type": "profile",
+      "dimension": "roles-and-decision-rights",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows founder tie-break rules; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "roles-and-decision-rights": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of founder tie-break rules, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "roles-and-decision-rights": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show founder tie-break rules in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "roles-and-decision-rights": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Founder tie-break rules is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "roles-and-decision-rights": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Roles & Decision Rights: How are founder vetoes or tie-breaks handled when consensus fails",
+        "summary": "Roles & Decision Rights is tested here through a concrete operating question: \"How are founder vetoes or tie-breaks handled when consensus fails?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Roles & Decision Rights matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How safe is it to surface resentment, fear, or disappointment early?",
+      "type": "profile",
+      "dimension": "values-and-conflict",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows early surfacing of founder tension; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "values-and-conflict": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of early surfacing of founder tension, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "values-and-conflict": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show early surfacing of founder tension in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "values-and-conflict": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Early surfacing of founder tension is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "values-and-conflict": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Values & Conflict: How safe is it to surface resentment, fear, or disappointment early",
+        "summary": "Values & Conflict is tested here through a concrete operating question: \"How safe is it to surface resentment, fear, or disappointment early?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Values & Conflict matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How clearly are vesting, leavers, salary constraints, and personal runway discussed?",
+      "type": "profile",
+      "dimension": "economics-and-risk",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows founder economics and downside conversations; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-risk": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of founder economics and downside conversations, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-risk": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show founder economics and downside conversations in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-risk": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Founder economics and downside conversations is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "economics-and-risk": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Economics & Risk: How clearly are vesting, leavers, salary constraints, and personal runway discussed",
+        "summary": "Economics & Risk is tested here through a concrete operating question: \"How clearly are vesting, leavers, salary constraints, and personal runway discussed?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Economics & Risk matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
     }
   ],
   "scoring": {
@@ -614,176 +882,29 @@
         "key": "ambition-and-horizon",
         "label": "Ambition & Horizon",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "roles-and-decision-rights",
         "label": "Roles & Decision Rights",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "values-and-conflict",
         "label": "Values & Conflict",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       },
       {
         "key": "economics-and-risk",
         "label": "Economics & Risk",
         "theoreticalMin": 0,
-        "theoreticalMax": 6
+        "theoreticalMax": 9
       }
     ]
   },
   "banner": "outfinity-explorer-circle",
-  "contextTitle": "What backs up your answers?",
-  "contextQuestions": [
-    {
-      "id": "evidence-ambition-and-horizon",
-      "text": "What level of evidence supports your answers for Ambition & Horizon?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Ambition & Horizon",
-        "summary": "This question asks how well your answers about Ambition & Horizon are supported. Ambition & Horizon means whether founders want the same kind of company, outcome, pace, and time commitment before conflict appears. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Ambition & Horizon is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Ambition & Horizon answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": []
-      }
-    },
-    {
-      "id": "evidence-roles-and-decision-rights",
-      "text": "What level of evidence supports your answers for Roles & Decision Rights?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Roles & Decision Rights",
-        "summary": "This question asks how well your answers about Roles & Decision Rights are supported. Roles & Decision Rights means who owns which decisions, how roles change as the company grows, and how authority is handled before pressure rises. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Roles & Decision Rights is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Roles & Decision Rights answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Decision-making",
-            "url": "https://en.wikipedia.org/wiki/Decision-making"
-          },
-          {
-            "label": "Wikipedia: Heuristic",
-            "url": "https://en.wikipedia.org/wiki/Heuristic"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-values-and-conflict",
-      "text": "What level of evidence supports your answers for Values & Conflict?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Values & Conflict",
-        "summary": "This question asks how well your answers about Values & Conflict are supported. Values & Conflict means the principles, disagreements, repair habits, and non-negotiables that shape how founders work through hard moments. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Values & Conflict is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Values & Conflict answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Conflict management",
-            "url": "https://en.wikipedia.org/wiki/Conflict_management"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evidence-economics-and-risk",
-      "text": "What level of evidence supports your answers for Economics & Risk?",
-      "options": [
-        {
-          "value": "opinion",
-          "text": "Opinion: mostly judgement, memory, or individual perception."
-        },
-        {
-          "value": "anecdotal",
-          "text": "Anecdotal: examples exist, but they are not systematically documented."
-        },
-        {
-          "value": "documented",
-          "text": "Documented: there are current notes, models, policies, metrics, or records."
-        },
-        {
-          "value": "system-verified",
-          "text": "System-verified: evidence is routinely produced by a governed workflow, system, or review cadence."
-        }
-      ],
-      "conceptHelp": {
-        "title": "Economics & Risk",
-        "summary": "This question asks how well your answers about Economics & Risk are supported. Economics & Risk means how founders think about equity, dilution, control, financing, downside, and acceptable personal or company risk. The goal is learning: separate what you know from what you suspect, remember, or still need to verify.",
-        "whyItMatters": "A result about Economics & Risk is more useful when you know whether it rests on opinion, a few examples, current documents, or system-verified evidence. Weak support does not make the answer useless; it tells you what to learn next.",
-        "beforeAnswering": "Choose the strongest support you actually have right now. Do not upgrade an answer because the practice feels important, and do not downgrade it if current records or systems really exist.",
-        "example": "If your Economics & Risk answer is based on a recent metric, policy, deal document, customer record, or operating review, choose documented or system-verified. If it is mostly memory or judgement, choose opinion or anecdotal.",
-        "learnMore": [
-          {
-            "label": "Wikipedia: Risk",
-            "url": "https://en.wikipedia.org/wiki/Risk"
-          },
-          {
-            "label": "Wikipedia: Risk perception",
-            "url": "https://en.wikipedia.org/wiki/Risk_perception"
-          }
-        ]
-      }
-    }
-  ],
   "questionStageTitle": "Learn the concept, then answer from evidence",
-  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description.",
-  "contextDescription": "This step is not scored. It records what your diagnostic answers are based on: opinion, anecdote, documentation, or system-verified evidence. Use it to decide how much to verify the result before acting on it."
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over aspiration or ideal self-description."
 }

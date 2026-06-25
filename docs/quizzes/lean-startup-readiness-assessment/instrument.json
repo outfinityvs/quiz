@@ -1,0 +1,859 @@
+{
+  "id": "lean-startup-readiness-assessment",
+  "slug": "lean-startup-readiness-assessment",
+  "version": 1,
+  "locale": "en",
+  "title": "Lean Startup Practice Readiness",
+  "language": "en",
+  "introduction": {
+    "subtitle": "Maturity assessment. 7-9 min.",
+    "description": "<p>Lean Startup Practice Readiness helps you assess Problem Hypothesis, MVP Learning Design, Actionable Metrics, Pivot Discipline through concrete operating questions. Answer from observable behaviour and current evidence, not aspiration.</p><p>This educational quiz runs entirely in your browser. You receive the baseline result without account creation or email.</p>",
+    "duration": "12 diagnostic questions. Approximately 7-9 min.",
+    "privacyNote": "Your answers stay in this browser. The result belongs to you. Sharing is explicit and share-safe.",
+    "disclaimer": "Educational diagnostic only. Not legal, tax, financial, investment, medical, employment, regulatory, or psychometric certification advice.",
+    "startButton": "Start assessment"
+  },
+  "deliberationText": "Calculating your diagnostic...",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How clearly is the riskiest customer problem hypothesis stated before building?",
+      "type": "profile",
+      "dimension": "problem-hypothesis",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows the riskiest customer problem hypothesis; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of the riskiest customer problem hypothesis, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show the riskiest customer problem hypothesis in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. The riskiest customer problem hypothesis is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Problem Hypothesis: How clearly is the riskiest customer problem hypothesis stated before building",
+        "summary": "Problem Hypothesis is tested here through a concrete operating question: \"How clearly is the riskiest customer problem hypothesis stated before building?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Problem Hypothesis matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q2",
+      "text": "How early does the team test customer pull before product investment?",
+      "type": "profile",
+      "dimension": "problem-hypothesis",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows testing customer pull before product investment; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of testing customer pull before product investment, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show testing customer pull before product investment in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Testing customer pull before product investment is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Problem Hypothesis: How early does the team test customer pull before product investment",
+        "summary": "Problem Hypothesis is tested here through a concrete operating question: \"How early does the team test customer pull before product investment?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Problem Hypothesis matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q3",
+      "text": "How explicitly are assumptions ranked by uncertainty and impact?",
+      "type": "profile",
+      "dimension": "problem-hypothesis",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows ranking assumptions by uncertainty and impact; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of ranking assumptions by uncertainty and impact, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show ranking assumptions by uncertainty and impact in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Ranking assumptions by uncertainty and impact is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "problem-hypothesis": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Problem Hypothesis: How explicitly are assumptions ranked by uncertainty and impact",
+        "summary": "Problem Hypothesis is tested here through a concrete operating question: \"How explicitly are assumptions ranked by uncertainty and impact?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Problem Hypothesis matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q4",
+      "text": "How narrowly is each MVP scoped to produce validated learning?",
+      "type": "profile",
+      "dimension": "mvp-learning-design",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows MVP scope for validated learning; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of MVP scope for validated learning, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show MVP scope for validated learning in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. MVP scope for validated learning is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "MVP Learning Design: How narrowly is each MVP scoped to produce validated learning",
+        "summary": "MVP Learning Design is tested here through a concrete operating question: \"How narrowly is each MVP scoped to produce validated learning?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "MVP Learning Design matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q5",
+      "text": "How often does the team use concierge, smoke, or prototype tests before software build?",
+      "type": "profile",
+      "dimension": "mvp-learning-design",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows non-software MVP tests; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of non-software MVP tests, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show non-software MVP tests in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Non-software MVP tests is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "MVP Learning Design: How often does the team use concierge, smoke, or prototype tests before software build",
+        "summary": "MVP Learning Design is tested here through a concrete operating question: \"How often does the team use concierge, smoke, or prototype tests before software build?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "MVP Learning Design matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q6",
+      "text": "How clearly are MVP limitations explained so the team does not confuse a test with a product?",
+      "type": "profile",
+      "dimension": "mvp-learning-design",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows MVP limitation clarity; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of MVP limitation clarity, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show MVP limitation clarity in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. MVP limitation clarity is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "mvp-learning-design": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "MVP Learning Design: How clearly are MVP limitations explained so the team does not confuse a test with a product",
+        "summary": "MVP Learning Design is tested here through a concrete operating question: \"How clearly are MVP limitations explained so the team does not confuse a test with a product?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "MVP Learning Design matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q7",
+      "text": "How are actionable metrics separated from vanity metrics?",
+      "type": "profile",
+      "dimension": "actionable-metrics",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows separating actionable from vanity metrics; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of separating actionable from vanity metrics, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show separating actionable from vanity metrics in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Separating actionable from vanity metrics is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Actionable Metrics: How are actionable metrics separated from vanity metrics",
+        "summary": "Actionable Metrics is tested here through a concrete operating question: \"How are actionable metrics separated from vanity metrics?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Actionable Metrics matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q8",
+      "text": "How well are cohorts, retention, or payback used to judge learning?",
+      "type": "profile",
+      "dimension": "actionable-metrics",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows cohort and retention learning; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of cohort and retention learning, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show cohort and retention learning in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Cohort and retention learning is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Actionable Metrics: How well are cohorts, retention, or payback used to judge learning",
+        "summary": "Actionable Metrics is tested here through a concrete operating question: \"How well are cohorts, retention, or payback used to judge learning?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Actionable Metrics matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q9",
+      "text": "How quickly does the team complete build-measure-learn loops?",
+      "type": "profile",
+      "dimension": "actionable-metrics",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows build-measure-learn cycle time; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of build-measure-learn cycle time, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show build-measure-learn cycle time in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Build-measure-learn cycle time is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "actionable-metrics": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Actionable Metrics: How quickly does the team complete build-measure-learn loops",
+        "summary": "Actionable Metrics is tested here through a concrete operating question: \"How quickly does the team complete build-measure-learn loops?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Actionable Metrics matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q10",
+      "text": "How explicitly are pivot or persevere criteria set before the test?",
+      "type": "profile",
+      "dimension": "pivot-discipline",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows pre-set pivot or persevere criteria; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of pre-set pivot or persevere criteria, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show pre-set pivot or persevere criteria in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Pre-set pivot or persevere criteria is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Pivot Discipline: How explicitly are pivot or persevere criteria set before the test",
+        "summary": "Pivot Discipline is tested here through a concrete operating question: \"How explicitly are pivot or persevere criteria set before the test?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Pivot Discipline matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q11",
+      "text": "How does the team handle evidence that invalidates the current strategy?",
+      "type": "profile",
+      "dimension": "pivot-discipline",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows invalidating evidence; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of invalidating evidence, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show invalidating evidence in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Invalidating evidence is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Pivot Discipline: How does the team handle evidence that invalidates the current strategy",
+        "summary": "Pivot Discipline is tested here through a concrete operating question: \"How does the team handle evidence that invalidates the current strategy?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Pivot Discipline matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    },
+    {
+      "id": "q12",
+      "text": "How are lessons from failed tests reused in the next strategy choice?",
+      "type": "profile",
+      "dimension": "pivot-discipline",
+      "maxPoints": 3,
+      "randomizeOptions": false,
+      "explanation": "",
+      "options": [
+        {
+          "key": "a",
+          "text": "A. No concrete example shows reusing failed-test lessons; the answer relies on intention, memory, or individual judgement.",
+          "points": 0,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 0
+          }
+        },
+        {
+          "key": "b",
+          "text": "B. There are isolated examples of reusing failed-test lessons, but they are inconsistent, hard to verify, or depend on one person.",
+          "points": 1,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 1
+          }
+        },
+        {
+          "key": "c",
+          "text": "C. Recent examples show reusing failed-test lessons in practice, with enough detail to judge quality and repeatability.",
+          "points": 2,
+          "correct": false,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 2
+          }
+        },
+        {
+          "key": "d",
+          "text": "D. Reusing failed-test lessons is repeatedly demonstrated under pressure and changes decisions, ownership, or trade-offs.",
+          "points": 3,
+          "correct": true,
+          "excluded": false,
+          "dimensionScores": {
+            "pivot-discipline": 3
+          }
+        },
+        {
+          "key": "na",
+          "text": "Not sure / not applicable.",
+          "points": null,
+          "correct": false,
+          "excluded": true,
+          "dimensionScores": {}
+        }
+      ],
+      "conceptHelp": {
+        "title": "Pivot Discipline: How are lessons from failed tests reused in the next strategy choice",
+        "summary": "Pivot Discipline is tested here through a concrete operating question: \"How are lessons from failed tests reused in the next strategy choice?\". Use the answer choices to separate aspiration from current practice.",
+        "whyItMatters": "Pivot Discipline matters because weak practice in this area can make the whole result look more mature than the operating system really is.",
+        "beforeAnswering": "Use recent observable behaviour: artifacts, decisions, customer evidence, owners, reviews, or shipped work. Do not score intention as practice.",
+        "example": "A strong answer would show current evidence, a named owner, and one recent decision changed by this practice.",
+        "learnMore": []
+      }
+    }
+  ],
+  "scoring": {
+    "type": "profile",
+    "family": "maturity",
+    "resultMode": "balanced-index",
+    "maxPointsPerQuestion": 3,
+    "minimumAnsweredPerDimension": 1,
+    "dimensions": [
+      {
+        "key": "problem-hypothesis",
+        "label": "Problem Hypothesis",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "mvp-learning-design",
+        "label": "MVP Learning Design",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "actionable-metrics",
+        "label": "Actionable Metrics",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      },
+      {
+        "key": "pivot-discipline",
+        "label": "Pivot Discipline",
+        "theoreticalMin": 0,
+        "theoreticalMax": 9
+      }
+    ]
+  },
+  "banner": "outfinity-explorer-circle",
+  "questionStageTitle": "Answer from current behaviour",
+  "questionStageDescription": "Use the concept button when a term is unfamiliar. Prefer observable evidence over ideal self-description."
+}
