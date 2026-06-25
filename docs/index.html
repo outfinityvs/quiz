@@ -76,14 +76,6 @@
           <select id="filter-domain">
             <option value="">All categories</option>
             <option value="founder-essentials">Founder Essentials</option>
-            <option value="founders">Founders and operating mode</option>
-            <option value="finance">Finance and fundraising</option>
-            <option value="product">Product and monetisation</option>
-            <option value="growth-leadership">Growth, leadership, and collaboration</option>
-            <option value="ai-trust">AI, trust, and sustainable value</option>
-            <option value="personality">Personality, identity, and vocation</option>
-            <option value="values">Values and philosophy</option>
-            <option value="cognition">Cognition and worldview</option>
           </select>
         </div>
         <div class="filter-group">
@@ -148,6 +140,18 @@
     var librarySummary = document.getElementById('library-summary');
     var studioRadar = document.getElementById('studio-radar');
     var studioCount = document.getElementById('studio-count');
+    var domainSelect = document.getElementById('filter-domain');
+    var domainLabelOverrides = {
+      'founder-essentials': 'Founder Essentials',
+      founders: 'Founders and Operating Mode',
+      finance: 'Finance and Fundraising',
+      product: 'Product and Monetisation',
+      'growth-leadership': 'Growth, Leadership, and Collaboration',
+      'ai-trust': 'AI, Trust, and Sustainable Value',
+      personality: 'Personality, Identity, and Vocation',
+      values: 'Values and Philosophy',
+      cognition: 'Cognition and Worldview'
+    };
 
     renderStudioRadar();
 
@@ -155,6 +159,7 @@
       try {
         var response = await fetch('catalog/catalog.json');
         var catalog = orderCatalog(await response.json());
+        populateDomainFilter(catalog);
         renderCatalog(catalog);
         updateStudioMetrics(catalog);
         initFilters();
@@ -194,7 +199,9 @@
         }],
         size: 520,
         colors: ['#d4a853'],
-        labelFontSize: 18,
+        labelFontSize: 22,
+        labelFontWeight: 800,
+        labelTextColor: '#d9dce2',
         valueFontSize: 16,
         pointRadius: 7,
         labelPadding: 34,
@@ -234,6 +241,60 @@
         .map(function(item) {
           return item.quiz;
         });
+    }
+
+    function populateDomainFilter(quizzes) {
+      var selected = domainSelect.value;
+      var domains = [];
+      var seen = {};
+      var hasFeatured = false;
+      for (var i = 0; i < quizzes.length; i++) {
+        var quiz = quizzes[i];
+        if (quiz.featuredGroup) {
+          hasFeatured = true;
+          continue;
+        }
+        var domain = quiz.domain || 'general';
+        if (!seen[domain]) {
+          domains.push(domain);
+          seen[domain] = true;
+        }
+      }
+
+      domainSelect.innerHTML = '';
+      appendDomainOption('', 'All categories');
+      if (hasFeatured) appendDomainOption('founder-essentials', 'Founder Essentials');
+      for (var d = 0; d < domains.length; d++) {
+        appendDomainOption(domains[d], getDomainLabel(domains[d]));
+      }
+
+      for (var optionIndex = 0; optionIndex < domainSelect.options.length; optionIndex++) {
+        if (domainSelect.options[optionIndex].value === selected) {
+          domainSelect.value = selected;
+          return;
+        }
+      }
+    }
+
+    function appendDomainOption(value, label) {
+      var option = document.createElement('option');
+      option.value = value;
+      option.textContent = label;
+      domainSelect.appendChild(option);
+    }
+
+    function humanizeDomain(domain) {
+      return String(domain || 'general')
+        .split(/[-_]+/)
+        .filter(Boolean)
+        .map(function(part) {
+          return part.charAt(0).toUpperCase() + part.slice(1);
+        })
+        .join(' ') || 'General';
+    }
+
+    function getDomainLabel(domain) {
+      return domainLabelOverrides[domain] || humanizeDomain(domain);
     }
 
     function createCard(quiz) {
@@ -399,7 +460,7 @@
     function getLibraryDomainMatch(card, domain) {
       if (!domain) return card.dataset.featured !== 'true';
       if (domain === 'founder-essentials') return false;
-      return card.dataset.domain === domain;
+      return card.dataset.featured !== 'true' && card.dataset.domain === domain;
     }
 
     function updateLibrarySummary(domain, duration, visibleCards, visiblePathCards) {

@@ -59,29 +59,16 @@
 
     (function() {
       var sectionsRoot = document.getElementById('all-quizzes-sections');
-      var domainLabels = {
+      var domainLabelOverrides = {
         'founder-essentials': 'Founder Essentials',
         founders: 'Founders and Operating Mode',
         finance: 'Finance and Fundraising',
-        'investor-capital': 'Investor and Family Capital',
         product: 'Product and Monetisation',
         'growth-leadership': 'Growth, Leadership, and Collaboration',
         'ai-trust': 'AI, Trust, and Sustainable Value',
         personality: 'Personality, Identity, and Vocation',
         values: 'Values and Philosophy',
         cognition: 'Cognition and Worldview'
-      };
-      var domainOrder = {
-        'founder-essentials': 0,
-        founders: 1,
-        finance: 2,
-        'investor-capital': 3,
-        product: 4,
-        'growth-leadership': 5,
-        'ai-trust': 6,
-        personality: 7,
-        values: 8,
-        cognition: 9
       };
       var palette = ['#d4a853', '#7ba4d4', '#5cb87a', '#d45353', '#b07bd4', '#d47b53', '#53d4b0', '#d453a8', '#d4a853'];
 
@@ -109,8 +96,37 @@
         );
       }
 
+      function humanizeDomain(domain) {
+        return String(domain || 'general')
+          .split(/[-_]+/)
+          .filter(Boolean)
+          .map(function(part) {
+            return part.charAt(0).toUpperCase() + part.slice(1);
+          })
+          .join(' ') || 'General';
+      }
+
+      function getDomainLabel(domain) {
+        return domainLabelOverrides[domain] || humanizeDomain(domain);
+      }
+
+      function getDomainOrderMap(quizzes) {
+        var order = {};
+        var next = 0;
+        for (var i = 0; i < quizzes.length; i++) {
+          var quiz = quizzes[i];
+          if (quiz.featuredGroup) continue;
+          var domain = quiz.domain || 'general';
+          if (order[domain] === undefined) {
+            order[domain] = next;
+            next++;
+          }
+        }
+        return order;
+      }
+
       function createCard(quiz) {
-        var category = domainLabels[quiz.domain] || quiz.domain || 'General';
+        var category = getDomainLabel(quiz.domain);
         var accent = palette[simpleHash(quiz.slug) % palette.length];
         var typeLabel = (quiz.type || 'quiz').replace('-', ' ');
         var card = document.createElement('a');
@@ -133,7 +149,7 @@
       }
 
       function createCategorySection(domain, quizzes, labelOverride) {
-        var category = labelOverride || domainLabels[domain] || domain || 'General';
+        var category = labelOverride || getDomainLabel(domain);
         var section = document.createElement('section');
         section.className = 'sitemap__category';
         section.setAttribute('aria-labelledby', 'sitemap-category-' + domain);
@@ -173,17 +189,13 @@
           var response = await fetch('catalog/catalog.json');
           var quizzes = await response.json();
           var list = Array.isArray(quizzes) ? quizzes.slice() : [];
-          list.sort(function(a, b) {
-            var domainDiff = (domainOrder[a.domain] || 999) - (domainOrder[b.domain] || 999);
-            if (domainDiff !== 0) return domainDiff;
-            return a.title.localeCompare(b.title);
-          });
 
           if (!list.length) {
             showError();
             return;
           }
 
+          var domainOrder = getDomainOrderMap(list);
           var groups = {};
           for (var i = 0; i < list.length; i++) {
             if (list[i].featuredGroup) continue;
@@ -193,7 +205,7 @@
           }
 
           var domains = Object.keys(groups).sort(function(a, b) {
-            return (domainOrder[a] || 999) - (domainOrder[b] || 999) || a.localeCompare(b);
+            return domainOrder[a] - domainOrder[b] || a.localeCompare(b);
           });
 
           var fragment = document.createDocumentFragment();

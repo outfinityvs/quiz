@@ -9,6 +9,8 @@ function createRadarChart(config) {
     animate = true,
     showValues = true,
     labelFontSize = 9.5,
+    labelFontWeight = 400,
+    labelTextColor = '#9a98a0',
     valueFontSize = 8,
     pointRadius = 4,
     labelPadding: configuredLabelPadding,
@@ -23,7 +25,6 @@ function createRadarChart(config) {
   const radius = (size / 2) - radiusInset;
   const angleStep = (2 * Math.PI) / axes.length;
   const startAngle = -Math.PI / 2;
-  const defaultTextColor = '#9a98a0';
 
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.setAttribute('viewBox', `${-labelPadding} ${-labelPadding} ${size + labelPadding * 2} ${size + labelPadding * 2}`);
@@ -86,8 +87,9 @@ function createRadarChart(config) {
     const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
     label.setAttribute('x', labelX);
     label.setAttribute('y', labelY);
-    label.setAttribute('fill', defaultTextColor);
+    label.setAttribute('fill', axis.labelTextColor || labelTextColor);
     label.setAttribute('font-size', String(labelFontSize));
+    label.setAttribute('font-weight', String(axis.labelFontWeight || labelFontWeight));
     label.setAttribute('font-family', 'system-ui, sans-serif');
     label.setAttribute('text-anchor', getTextAnchor(angle));
     label.setAttribute('dominant-baseline', getDominantBaseline(angle));

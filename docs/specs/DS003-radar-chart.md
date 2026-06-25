@@ -18,7 +18,7 @@ The chart is rendered as inline SVG within the quiz page. It consists of concent
 
 Every quiz result must display a diagram. The radar module satisfies that requirement for any quiz that has dimensional scores. If a quiz adds a more specific visualization such as an answer-review map, heatmap, document map, or team dispersion view, the radar still remains the standard diagram unless the per-quiz DS explicitly states that the supplemental diagram is the primary result diagram.
 
-The module accepts a configuration object containing: axis definitions (label, key), data points (one array per profile), color assignments, optional level bands, optional strongest/weakest dimension markers, and an optional text alternative.
+The module accepts a configuration object containing: axis definitions (label, key), data points (one array per profile), color assignments, label font size, label font weight, label text color, optional level bands, optional strongest/weakest dimension markers, and an optional text alternative.
 
 For single profiles, the data polygon is drawn with a semi-transparent fill and a solid stroke. For multi-overlay comparisons, each profile polygon uses a distinct color with reduced opacity so overlapping areas are visible.
 
